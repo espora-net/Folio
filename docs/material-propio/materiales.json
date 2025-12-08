@@ -1,17 +1,125 @@
 {
-  "descripcion": "Material propio y recursos personalizados para la oposición",
+  "descripcion": "Material propio y recursos personalizados para la oposición de Técnico Auxiliar de Bibliotecas",
   "materiales": [
     {
       "id": "propio-001",
-      "titulo": "Resumen Tema 1",
+      "titulo": "Mis Apuntes - Legislación Básica",
       "tipo": "PDF",
       "categoria": "Resúmenes",
-      "descripcion": "Resumen personal del tema 1 de la oposición",
-      "temas_relacionados": ["Tema 1"],
+      "descripcion": "Resumen personal de los temas legislativos: Constitución, EBEP, Igualdad y Transparencia.",
+      "temas_relacionados": ["Constitución", "EBEP", "Legislación Administrativa"],
       "relevancia": "alta",
-      "notas_personales": "Incluye esquemas y mapas mentales",
-      "fecha_creacion": "YYYY-MM-DD",
-      "archivo": "resumen-tema-1.pdf"
+      "notas_personales": "Incluye esquemas comparativos y cuadros resumen",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "mis-apuntes-legislacion.pdf"
+    },
+    {
+      "id": "propio-002",
+      "titulo": "Fichas de Estudio - CDU",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Fichas personales con las principales clases y subdivisiones de la CDU más frecuentes en bibliotecas públicas.",
+      "temas_relacionados": ["CDU", "Clasificación", "Organización de Fondos"],
+      "relevancia": "alta",
+      "notas_personales": "Con ejemplos prácticos de mi biblioteca de prácticas",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "fichas-cdu.pdf"
+    },
+    {
+      "id": "propio-003",
+      "titulo": "Esquema Personal - Proceso Técnico Completo",
+      "tipo": "PDF",
+      "categoria": "Esquemas",
+      "descripcion": "Diagrama de flujo detallado del proceso técnico desde la llegada del documento hasta su disponibilidad para préstamo.",
+      "temas_relacionados": ["Proceso Técnico", "Catalogación", "Clasificación", "Sellado y Tejuelado"],
+      "relevancia": "alta",
+      "notas_personales": "Basado en el sistema de mi biblioteca de referencia",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "esquema-proceso-tecnico-personal.pdf"
+    },
+    {
+      "id": "propio-004",
+      "titulo": "Resumen de Tipos de Bibliotecas",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Cuadro comparativo de los diferentes tipos de bibliotecas con sus características, usuarios y servicios principales.",
+      "temas_relacionados": ["Tipos de Bibliotecas", "Bibliotecas Públicas", "Bibliotecas Especializadas"],
+      "relevancia": "alta",
+      "notas_personales": "Con ejemplos reales de bibliotecas de mi comunidad",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "resumen-tipos-bibliotecas.pdf"
+    },
+    {
+      "id": "propio-005",
+      "titulo": "Listado de Siglas y Acrónimos Bibliotecarios",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Compilación personal de siglas frecuentes: ISBD, RDA, MARC, OPAC, CDU, FRBR, etc. con su significado completo.",
+      "temas_relacionados": ["Terminología", "Acrónimos", "Conceptos Básicos"],
+      "relevancia": "media",
+      "notas_personales": "Para consulta rápida durante el estudio",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "siglas-acronimos.pdf"
+    },
+    {
+      "id": "propio-006",
+      "titulo": "Casos Prácticos Resueltos - Catalogación",
+      "tipo": "PDF",
+      "categoria": "Casos Prácticos",
+      "descripcion": "Supuestos prácticos de catalogación resueltos paso a paso con diferentes tipos de documentos.",
+      "temas_relacionados": ["Catalogación", "ISBD", "Casos Prácticos"],
+      "relevancia": "alta",
+      "notas_personales": "Ejercicios realizados en clase de preparación",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "casos-practicos-catalogacion.pdf"
+    },
+    {
+      "id": "propio-007",
+      "titulo": "Simulacros de Exámenes Test Realizados",
+      "tipo": "PDF",
+      "categoria": "Tests",
+      "descripcion": "Recopilación de tests de práctica realizados con anotaciones de errores y áreas de mejora.",
+      "temas_relacionados": ["Preparación Examen", "Tests", "Autoevaluación"],
+      "relevancia": "alta",
+      "notas_personales": "Con análisis de mis errores más frecuentes",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "simulacros-tests.pdf"
+    },
+    {
+      "id": "propio-008",
+      "titulo": "Notas de Atención al Usuario",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Apuntes personales sobre técnicas de comunicación, resolución de conflictos y servicio de referencia.",
+      "temas_relacionados": ["Atención al Usuario", "Comunicación", "Servicio de Referencia"],
+      "relevancia": "alta",
+      "notas_personales": "Con ejemplos de situaciones reales que he observado",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "notas-atencion-usuario.pdf"
+    },
+    {
+      "id": "propio-009",
+      "titulo": "Mnemotecnias y Trucos para Memorizar",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Recopilación de reglas mnemotécnicas para recordar clasificaciones, normativas y conceptos clave.",
+      "temas_relacionados": ["Técnicas de Estudio", "Memorización"],
+      "relevancia": "media",
+      "notas_personales": "Trucos que me han funcionado bien",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "mnemotecnias.pdf"
+    },
+    {
+      "id": "propio-010",
+      "titulo": "Planificación y Cronograma de Estudio",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Calendario personal de estudio con distribución de temas, fechas de repaso y objetivos semanales.",
+      "temas_relacionados": ["Organización", "Planificación de Estudio"],
+      "relevancia": "baja",
+      "notas_personales": "Actualizado semanalmente según mi progreso",
+      "fecha_creacion": "2025-12-08",
+      "archivo": "cronograma-estudio.pdf"
     }
   ]
 }
