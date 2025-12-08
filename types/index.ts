@@ -18,6 +18,19 @@ export interface Subtopic {
   order: number;
 }
 
+/**
+ * Referencia a un documento en /docs para localizar la respuesta.
+ * - path: ruta relativa (sin barras iniciales) dentro de docs/
+ * - page: número de página (>=1)
+ * - highlightText: texto a resaltar/buscar en el visor PDF
+ */
+export interface DocumentReference {
+  materialId: string;
+  path: string;
+  page: number;
+  highlightText?: string;
+}
+
 export interface Flashcard {
   id: string;
   topicId: string;
@@ -30,6 +43,7 @@ export interface Flashcard {
   correctCount: number;
   createdAt: string;
   updatedAt: string;
+  source?: DocumentReference;
 }
 
 export interface TestQuestion {
@@ -43,6 +57,7 @@ export interface TestQuestion {
   tags: string[];
   createdAt: string;
   updatedAt: string;
+  source?: DocumentReference;
 }
 
 export interface Test {

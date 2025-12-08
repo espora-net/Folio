@@ -2,14 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { FileText, CheckCircle2, XCircle } from 'lucide-react';
-
-interface TestQuestion {
-  id: string;
-  question: string;
-  options: string[];
-  correctAnswer: number;
-  explanation?: string;
-}
+import { DocumentReferenceCard } from '@/components/DocumentReference';
+import type { TestQuestion } from '@/types';
 
 interface Answer {
   questionId: string;
@@ -221,6 +215,11 @@ export default function TestPage() {
           </div>
           <p className="text-sm text-zinc-300">{currentQuestion.explanation}</p>
         </div>
+      )}
+
+      {/* Document reference */}
+      {showResult && currentQuestion.source && (
+        <DocumentReferenceCard reference={currentQuestion.source} />
       )}
 
       {/* Action buttons */}

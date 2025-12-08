@@ -16,6 +16,18 @@
       "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
+      "archivo": "constitucion-espanola.pdf"
+    },
+    {
+      "id": "guia-respuestas-001",
+      "titulo": "Guía rápida de respuestas Folio",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Frases clave con la localización exacta de las respuestas usadas en ejercicios y preguntas.",
+      "temas_relacionados": ["Biblioteconomía", "CDU", "Servicios bibliotecarios"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2025-12-08",
+      "archivo": "guia-respuestas.pdf"
       "archivo": "tema-01-constitucion-espanola-1978.pdf",
       "estructura_respuestas": {
         "valores_superiores": "Art. 1 - Libertad, justicia, igualdad, pluralismo político",
