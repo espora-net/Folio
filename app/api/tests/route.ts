@@ -40,6 +40,7 @@ export async function POST(request: NextRequest) {
       tags: body.tags || [],
       createdAt: getCurrentDate(),
       updatedAt: getCurrentDate(),
+      source: body.source,
     };
     
     db.questions.push(newQuestion);

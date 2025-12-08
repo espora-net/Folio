@@ -9,8 +9,19 @@
       "descripcion": "Texto completo de la Constitución Española de 1978",
       "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales"],
       "relevancia": "alta",
-      "fecha_actualizacion": "YYYY-MM-DD",
+      "fecha_actualizacion": "2025-12-08",
       "archivo": "constitucion-espanola.pdf"
+    },
+    {
+      "id": "guia-respuestas-001",
+      "titulo": "Guía rápida de respuestas Folio",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Frases clave con la localización exacta de las respuestas usadas en ejercicios y preguntas.",
+      "temas_relacionados": ["Biblioteconomía", "CDU", "Servicios bibliotecarios"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2025-12-08",
+      "archivo": "guia-respuestas.pdf"
     }
   ]
 }

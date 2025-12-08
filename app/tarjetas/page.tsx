@@ -2,15 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { CreditCard, RotateCw, Check, X } from 'lucide-react';
-
-interface Flashcard {
-  id: string;
-  question: string;
-  answer: string;
-  difficulty: string;
-  reviewCount: number;
-  correctCount: number;
-}
+import { DocumentReferenceCard } from '@/components/DocumentReference';
+import type { Flashcard } from '@/types';
 
 export default function TarjetasPage() {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
@@ -153,6 +146,10 @@ export default function TarjetasPage() {
           </div>
         </div>
       </div>
+
+      {isFlipped && currentCard.source && (
+        <DocumentReferenceCard reference={currentCard.source} />
+      )}
 
       {/* Answer buttons */}
       {isFlipped && (

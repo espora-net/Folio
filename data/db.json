@@ -65,7 +65,13 @@
       "reviewCount": 0,
       "correctCount": 0,
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z"
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "guia-respuestas-001",
+        "path": "comun/guia-respuestas.pdf",
+        "page": 1,
+        "highlightText": "Una biblioteca es una institución que reúne, conserva, organiza y difunde documentos para satisfacer las necesidades de información, investigación, educación y ocio de sus usuarios."
+      }
     },
     {
       "id": "flashcard-2",
@@ -80,7 +86,13 @@
       "reviewCount": 0,
       "correctCount": 0,
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z"
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "guia-respuestas-001",
+        "path": "comun/guia-respuestas.pdf",
+        "page": 1,
+        "highlightText": "Públicas, universitarias, escolares, especializadas y nacionales."
+      }
     },
     {
       "id": "flashcard-3",
@@ -95,7 +107,13 @@
       "reviewCount": 0,
       "correctCount": 0,
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z"
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "guia-respuestas-001",
+        "path": "comun/guia-respuestas.pdf",
+        "page": 1,
+        "highlightText": "La CDU organiza el conocimiento en 10 clases principales, numeradas del 0 al 9."
+      }
     }
   ],
   "questions": [
@@ -116,7 +134,13 @@
         "bibliotecas públicas"
       ],
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z"
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "guia-respuestas-001",
+        "path": "comun/guia-respuestas.pdf",
+        "page": 1,
+        "highlightText": "Satisfacer las necesidades de información, investigación, educación y ocio de la comunidad."
+      }
     },
     {
       "id": "question-2",
@@ -136,7 +160,13 @@
         "clasificación"
       ],
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z"
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "guia-respuestas-001",
+        "path": "comun/guia-respuestas.pdf",
+        "page": 1,
+        "highlightText": "La CDU organiza el conocimiento en 10 clases principales, numeradas del 0 al 9."
+      }
     }
   ],
   "comments": [],

@@ -41,6 +41,7 @@ export async function POST(request: NextRequest) {
       correctCount: 0,
       createdAt: getCurrentDate(),
       updatedAt: getCurrentDate(),
+      source: body.source,
     };
     
     db.flashcards.push(newFlashcard);
