@@ -50,7 +50,7 @@ Each `materiales.json` file in `comun/` and `material-propio/` directories follo
       "tipo": "PDF|DOC|DOCX|TXT",
       "categoria": "Legislación|Resúmenes|Esquemas|Tests|Casos Prácticos",
       "descripcion": "Detailed description of the content",
-      "temas_relacionados": ["Array", "of", "related", "topics"],
+      "temas_relacionados": ["Tema 1", "Tema 2", "Conceptos básicos"],
       "relevancia": "alta|media|baja",
       "fecha_actualizacion": "YYYY-MM-DD",
       "archivo": "filename.ext"
