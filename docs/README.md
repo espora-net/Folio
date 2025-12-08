@@ -1,16 +1,42 @@
-# Documentación para Oposiciones de Técnico Auxiliar de Bibliotecas (C1)
+# Documentación para Oposiciones de Técnico Auxiliar de Bibliotecas UAH
 
-Esta carpeta contiene toda la documentación y materiales de estudio organizados para la preparación de las oposiciones de **Técnico Auxiliar de Bibliotecas (Subgrupo C1)**.
+Esta carpeta contiene toda la documentación y materiales de estudio organizados para la preparación de las oposiciones de **Técnico Auxiliar de Bibliotecas de la Universidad de Alcalá de Henares (UAH) - Convocatoria 2025**.
+
+## ⚠️ Importante: Temario Específico UAH
+
+Este temario es **específico para la Universidad de Alcalá de Henares (UAH)** y difiere del temario genérico de bibliotecas. La convocatoria 2025 consta de **22 temas oficiales** publicados en el BOE de 14 de octubre de 2025, en el Anexo I de la Resolución de convocatoria.
+
+## Estructura del Temario UAH (22 Temas)
+
+### Temas Generales (1-9)
+Normativa básica aplicable al personal público y universitario:
+1. **Constitución Española de 1978**
+2. **Estatuto Básico del Empleado Público (EBEP)**
+3. **Ley Orgánica 2/2023 del Sistema Universitario**
+4. **Ley Orgánica 3/2018 de Protección de Datos Personales**
+5. **Ley de Derechos de las Personas con Discapacidad**
+6. **Ley Orgánica 3/2007 para la Igualdad Efectiva**
+7. **Prevención de Riesgos Laborales en la UAH**
+8. **Código Ético General de la UAH**
+9. **Reglamento de Normas de Convivencia de la UAH**
+
+### Temas Específicos (10-22)
+Organización y gestión de bibliotecas, enfocándose en el Servicio de Biblioteca de la UAH y en materias de biblioteconomía:
+10. **Misión, Visión y Estructura del Servicio de Biblioteca de la UAH**
+11-16. **Biblioteconomía y gestión de bibliotecas** (normativa interna, gestión de colecciones, proceso técnico)
+17. **Carta de Servicios de la Biblioteca de la UAH**
+18. **Normativa de Préstamo de la Biblioteca**
+19-22. **Servicios bibliotecarios** (acceso abierto, repositorios, servicios a usuarios, cooperación bibliotecaria, legislación sobre propiedad intelectual)
 
 ## Estructura de Carpetas
 
 ```
 docs/
-├── comun/                    # Materiales comunes del temario oficial
-│   ├── materiales.json       # Metadatos de 27 materiales de estudio
+├── comun/                    # Materiales del temario oficial UAH
+│   ├── materiales.json       # Metadatos de los 22 temas oficiales
 │   └── *.pdf                 # Documentos PDF del temario oficial
 ├── material-propio/          # Material personalizado del opositor
-│   ├── materiales.json       # Metadatos de 10 materiales propios
+│   ├── materiales.json       # Metadatos de materiales propios
 │   └── *.pdf                 # Documentos PDF personalizados
 ├── indice.json               # Índice general de toda la documentación
 └── README.md                 # Este archivo

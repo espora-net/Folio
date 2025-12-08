@@ -1,12 +1,23 @@
 {
-  "titulo": "Índice General de Documentación para Oposiciones de Técnico Auxiliar de Bibliotecas (C1)",
-  "descripcion": "Índice completo de todos los materiales disponibles para la preparación de la oposición de Técnico Auxiliar de Bibliotecas",
+  "titulo": "Índice General de Documentación para Oposiciones de Técnico Auxiliar de Bibliotecas UAH",
+  "descripcion": "Índice completo de todos los materiales disponibles para la preparación de la oposición de Técnico Auxiliar de Bibliotecas de la Universidad de Alcalá de Henares - Convocatoria 2025",
+  "convocatoria": {
+    "institucion": "Universidad de Alcalá de Henares (UAH)",
+    "año": 2025,
+    "total_temas": 22,
+    "fuente_oficial": "BOE de 14 de octubre de 2025 - Anexo I de la Resolución de convocatoria",
+    "division": {
+      "temas_generales": "1-9 (Legislación general aplicable al personal público y universitario)",
+      "temas_especificos": "10-22 (Biblioteconomía, organización y gestión de bibliotecas, enfocado en el Servicio de Biblioteca UAH)"
+    }
+  },
   "estructura": {
     "comun": {
       "ruta": "./comun/",
-      "descripcion": "Materiales comunes del temario oficial de Técnico Auxiliar de Bibliotecas: legislación, biblioteconomía, procesos técnicos y servicios",
+      "descripcion": "Materiales del temario oficial de la convocatoria UAH 2025: 22 temas divididos en legislación general (temas 1-9) y materias específicas de biblioteconomía y servicio de biblioteca UAH (temas 10-22)",
       "archivo_materiales": "./comun/materiales.json",
-      "total_materiales": 27
+      "total_materiales": 13,
+      "nota": "Incluye solo los temas extraídos del PDF oficial. Faltan temas 11-16 y 19-22 por documentar"
     },
     "material_propio": {
       "ruta": "./material-propio/",
@@ -17,63 +28,35 @@
   },
   "temas_principales": [
     {
-      "bloque": "Legislación y Normativa",
+      "bloque": "Legislación General (Temas 1-5)",
       "temas": [
-        "Constitución Española",
-        "Organización Territorial del Estado",
-        "Estatuto Básico del Empleado Público",
-        "Ley de Igualdad",
-        "Ley de Transparencia",
-        "Protección de Datos (LOPD-GDD)",
-        "Patrimonio Histórico",
-        "Propiedad Intelectual"
+        "Tema 1: Constitución Española de 1978",
+        "Tema 2: Estatuto Básico del Empleado Público (EBEP)",
+        "Tema 3: Ley Orgánica 2/2023 del Sistema Universitario",
+        "Tema 4: Ley Orgánica 3/2018 de Protección de Datos Personales",
+        "Tema 5: Ley de Derechos de las Personas con Discapacidad"
       ],
       "relevancia": "alta"
     },
     {
-      "bloque": "Biblioteconomía y Documentación",
+      "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
       "temas": [
-        "Concepto y funciones de biblioteca",
-        "Tipos de bibliotecas",
-        "Historia de las bibliotecas",
-        "Instalaciones y equipamiento",
-        "Servicios bibliotecarios"
+        "Tema 6: Ley Orgánica 3/2007 para la Igualdad Efectiva",
+        "Tema 7: Prevención de Riesgos Laborales en la UAH",
+        "Tema 8: Código Ético General de la UAH",
+        "Tema 9: Reglamento de Normas de Convivencia de la UAH"
       ],
       "relevancia": "alta"
     },
     {
-      "bloque": "Procesos Técnicos",
+      "bloque": "Servicio de Biblioteca UAH (Temas 10, 17, 18)",
       "temas": [
-        "Catalogación y descripción bibliográfica",
-        "Clasificación Decimal Universal (CDU)",
-        "Catálogos y OPAC",
-        "Automatización de bibliotecas",
-        "Formato MARC21",
-        "ISBD y RDA"
+        "Tema 10: Misión, Visión y Estructura del Servicio de Biblioteca UAH",
+        "Tema 17: Carta de Servicios de la Biblioteca UAH",
+        "Tema 18: Normativa de Préstamo de la Biblioteca"
       ],
-      "relevancia": "alta"
-    },
-    {
-      "bloque": "Gestión de Colecciones",
-      "temas": [
-        "Selección y adquisición",
-        "Expurgo y evaluación",
-        "Conservación y restauración",
-        "Recursos digitales y bases de datos"
-      ],
-      "relevancia": "alta"
-    },
-    {
-      "bloque": "Servicios y Usuarios",
-      "temas": [
-        "Préstamo y acceso al documento",
-        "Atención al usuario",
-        "Servicio de referencia",
-        "Sección infantil y juvenil",
-        "Actividades culturales",
-        "Animación a la lectura"
-      ],
-      "relevancia": "alta"
+      "relevancia": "alta",
+      "nota": "Temas 11-16 y 19-22 pendientes de documentar"
     }
   ],
   "categorias": [
@@ -115,16 +98,18 @@
   },
   "tipos_archivo_soportados": ["PDF", "DOC", "DOCX", "TXT"],
   "estadisticas": {
-    "total_materiales": 37,
-    "materiales_comunes": 27,
+    "total_materiales": 23,
+    "materiales_comunes": 13,
     "materiales_propios": 10,
+    "temas_documentados": 13,
+    "temas_pendientes": 9,
     "por_relevancia": {
-      "alta": 28,
-      "media": 8,
-      "baja": 1
+      "alta": 18,
+      "media": 5,
+      "baja": 0
     }
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "fecha_actualizacion": "2025-12-08",
-  "notas": "Temario actualizado para oposiciones de Técnico Auxiliar de Bibliotecas (C1). Incluye legislación vigente a fecha de actualización y contenidos basados en las convocatorias más recientes."
+  "notas": "Temario actualizado según convocatoria oficial UAH 2025. Incluye legislación vigente y contenidos específicos del Servicio de Biblioteca de la Universidad de Alcalá de Henares. IMPORTANTE: Este temario es específico para UAH y difiere del temario genérico de auxiliares de biblioteca. Temas 11-16 y 19-22 pendientes de agregar basándose en el PDF completo."
 }
