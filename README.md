@@ -4,6 +4,8 @@ Folio es la aplicación de estudio diseñada para opositores que quieren aprobar
 
 Una aplicación web moderna construida con Next.js para ayudar a estudiantes a preparar la oposición de **Técnico Auxiliar de Bibliotecas (C1)**.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/espora-net/Folio)
+
 ## 🌟 Características
 
 - **📚 Gestión de Temario**: Organiza y estudia el contenido de la oposición con estructura jerárquica
