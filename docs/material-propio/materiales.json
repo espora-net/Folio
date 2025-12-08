@@ -1,0 +1,17 @@
+{
+  "descripcion": "Material propio y recursos personalizados para la oposición",
+  "materiales": [
+    {
+      "id": "propio-001",
+      "titulo": "Resumen Tema 1",
+      "tipo": "PDF",
+      "categoria": "Resúmenes",
+      "descripcion": "Resumen personal del tema 1 de la oposición",
+      "temas_relacionados": ["Tema 1"],
+      "relevancia": "alta",
+      "notas_personales": "Incluye esquemas y mapas mentales",
+      "fecha_creacion": "YYYY-MM-DD",
+      "archivo": "resumen-tema-1.pdf"
+    }
+  ]
+}
