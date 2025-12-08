@@ -61,6 +61,22 @@ export async function POST(request: NextRequest) {
 export async function PATCH(request: NextRequest) {
   try {
     const body = await request.json();
+    
+    // Validate request body
+    if (!body.id || typeof body.id !== 'string') {
+      return NextResponse.json(
+        { error: 'Invalid or missing flashcard id' },
+        { status: 400 }
+      );
+    }
+    
+    if (typeof body.correct !== 'boolean') {
+      return NextResponse.json(
+        { error: 'Invalid or missing correct field (must be boolean)' },
+        { status: 400 }
+      );
+    }
+    
     const db = readDatabase();
     
     const flashcardIndex = db.flashcards.findIndex(f => f.id === body.id);

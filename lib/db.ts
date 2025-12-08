@@ -20,9 +20,45 @@ export interface Database {
   studySessions: StudySession[];
 }
 
+// Ensure data directory exists
+function ensureDataDirectory(): void {
+  const dataDir = path.join(process.cwd(), 'data');
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+}
+
 // Read database
 export function readDatabase(): Database {
   try {
+    ensureDataDirectory();
+    
+    // Check if database file exists
+    if (!fs.existsSync(DB_PATH)) {
+      // Create default database if it doesn't exist
+      const defaultDb: Database = {
+        topics: [],
+        flashcards: [],
+        questions: [],
+        comments: [],
+        statistics: {
+          totalTopics: 0,
+          totalFlashcards: 0,
+          totalQuestions: 0,
+          totalTestAttempts: 0,
+          averageTestScore: 0,
+          studyStreak: 0,
+          lastStudyDate: '',
+          flashcardsReviewedToday: 0,
+          questionsAnsweredToday: 0,
+          topicProgress: {},
+        },
+        studySessions: [],
+      };
+      writeDatabase(defaultDb);
+      return defaultDb;
+    }
+    
     const data = fs.readFileSync(DB_PATH, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
@@ -52,6 +88,7 @@ export function readDatabase(): Database {
 // Write database
 export function writeDatabase(data: Database): void {
   try {
+    ensureDataDirectory();
     fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2), 'utf-8');
   } catch (error) {
     console.error('Error writing database:', error);
@@ -61,7 +98,7 @@ export function writeDatabase(data: Database): void {
 
 // Generate unique ID
 export function generateId(prefix: string): string {
-  return `${prefix}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+  return `${prefix}-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
 }
 
 // Get current date in ISO format
