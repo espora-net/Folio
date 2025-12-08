@@ -1,51 +1,130 @@
 {
-  "titulo": "Índice General de Documentación para Oposiciones",
-  "descripcion": "Índice completo de todos los materiales disponibles para la preparación de oposiciones",
+  "titulo": "Índice General de Documentación para Oposiciones de Técnico Auxiliar de Bibliotecas (C1)",
+  "descripcion": "Índice completo de todos los materiales disponibles para la preparación de la oposición de Técnico Auxiliar de Bibliotecas",
   "estructura": {
     "comun": {
       "ruta": "./comun/",
-      "descripcion": "Materiales comunes aplicables a todas las oposiciones",
-      "archivo_materiales": "./comun/materiales.json"
+      "descripcion": "Materiales comunes del temario oficial de Técnico Auxiliar de Bibliotecas: legislación, biblioteconomía, procesos técnicos y servicios",
+      "archivo_materiales": "./comun/materiales.json",
+      "total_materiales": 27
     },
     "material_propio": {
       "ruta": "./material-propio/",
-      "descripcion": "Material personalizado y recursos propios del opositor",
-      "archivo_materiales": "./material-propio/materiales.json"
+      "descripcion": "Material personalizado y recursos propios del opositor: resúmenes, esquemas, casos prácticos y planificación de estudio",
+      "archivo_materiales": "./material-propio/materiales.json",
+      "total_materiales": 10
     }
   },
+  "temas_principales": [
+    {
+      "bloque": "Legislación y Normativa",
+      "temas": [
+        "Constitución Española",
+        "Organización Territorial del Estado",
+        "Estatuto Básico del Empleado Público",
+        "Ley de Igualdad",
+        "Ley de Transparencia",
+        "Protección de Datos (LOPD-GDD)",
+        "Patrimonio Histórico",
+        "Propiedad Intelectual"
+      ],
+      "relevancia": "alta"
+    },
+    {
+      "bloque": "Biblioteconomía y Documentación",
+      "temas": [
+        "Concepto y funciones de biblioteca",
+        "Tipos de bibliotecas",
+        "Historia de las bibliotecas",
+        "Instalaciones y equipamiento",
+        "Servicios bibliotecarios"
+      ],
+      "relevancia": "alta"
+    },
+    {
+      "bloque": "Procesos Técnicos",
+      "temas": [
+        "Catalogación y descripción bibliográfica",
+        "Clasificación Decimal Universal (CDU)",
+        "Catálogos y OPAC",
+        "Automatización de bibliotecas",
+        "Formato MARC21",
+        "ISBD y RDA"
+      ],
+      "relevancia": "alta"
+    },
+    {
+      "bloque": "Gestión de Colecciones",
+      "temas": [
+        "Selección y adquisición",
+        "Expurgo y evaluación",
+        "Conservación y restauración",
+        "Recursos digitales y bases de datos"
+      ],
+      "relevancia": "alta"
+    },
+    {
+      "bloque": "Servicios y Usuarios",
+      "temas": [
+        "Préstamo y acceso al documento",
+        "Atención al usuario",
+        "Servicio de referencia",
+        "Sección infantil y juvenil",
+        "Actividades culturales",
+        "Animación a la lectura"
+      ],
+      "relevancia": "alta"
+    }
+  ],
   "categorias": [
     {
       "nombre": "Legislación",
-      "descripcion": "Leyes, normativas y textos legales",
-      "relevancia": "alta"
+      "descripcion": "Leyes, normativas y textos legales aplicables a la función pública y bibliotecas",
+      "relevancia": "alta",
+      "cantidad": 8
     },
     {
       "nombre": "Resúmenes",
-      "descripcion": "Resúmenes de temas y conceptos clave",
-      "relevancia": "alta"
+      "descripcion": "Resúmenes de temas y conceptos clave del temario oficial",
+      "relevancia": "alta",
+      "cantidad": 23
     },
     {
       "nombre": "Esquemas",
-      "descripcion": "Esquemas visuales y mapas conceptuales",
-      "relevancia": "media"
+      "descripcion": "Esquemas visuales, mapas conceptuales y diagramas de flujo",
+      "relevancia": "media",
+      "cantidad": 4
     },
     {
       "nombre": "Tests",
-      "descripcion": "Exámenes de práctica y tests de autoevaluación",
-      "relevancia": "alta"
+      "descripcion": "Exámenes de práctica, tests de autoevaluación y simulacros",
+      "relevancia": "alta",
+      "cantidad": 1
     },
     {
       "nombre": "Casos Prácticos",
-      "descripcion": "Supuestos prácticos y ejercicios resueltos",
-      "relevancia": "media"
+      "descripcion": "Supuestos prácticos resueltos y ejercicios de aplicación",
+      "relevancia": "media",
+      "cantidad": 1
     }
   ],
   "niveles_relevancia": {
-    "alta": "Material esencial para aprobar la oposición",
-    "media": "Material complementario recomendado",
-    "baja": "Material de apoyo adicional"
+    "alta": "Material esencial y de estudio obligatorio para aprobar la oposición. Incluye toda la legislación básica, conceptos fundamentales de biblioteconomía y procesos técnicos.",
+    "media": "Material complementario altamente recomendado. Incluye esquemas, casos prácticos y temas de profundización.",
+    "baja": "Material de apoyo adicional para organización personal y planificación del estudio."
   },
   "tipos_archivo_soportados": ["PDF", "DOC", "DOCX", "TXT"],
-  "version": "1.0.0",
-  "fecha_actualizacion": "2025-12-08"
+  "estadisticas": {
+    "total_materiales": 37,
+    "materiales_comunes": 27,
+    "materiales_propios": 10,
+    "por_relevancia": {
+      "alta": 28,
+      "media": 8,
+      "baja": 1
+    }
+  },
+  "version": "2.0.0",
+  "fecha_actualizacion": "2025-12-08",
+  "notas": "Temario actualizado para oposiciones de Técnico Auxiliar de Bibliotecas (C1). Incluye legislación vigente a fecha de actualización y contenidos basados en las convocatorias más recientes."
 }
