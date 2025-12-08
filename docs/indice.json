@@ -1,0 +1,51 @@
+{
+  "titulo": "Índice General de Documentación para Oposiciones",
+  "descripcion": "Índice completo de todos los materiales disponibles para la preparación de oposiciones",
+  "estructura": {
+    "comun": {
+      "ruta": "./comun/",
+      "descripcion": "Materiales comunes aplicables a todas las oposiciones",
+      "archivo_materiales": "./comun/materiales.json"
+    },
+    "material_propio": {
+      "ruta": "./material-propio/",
+      "descripcion": "Material personalizado y recursos propios del opositor",
+      "archivo_materiales": "./material-propio/materiales.json"
+    }
+  },
+  "categorias": [
+    {
+      "nombre": "Legislación",
+      "descripcion": "Leyes, normativas y textos legales",
+      "relevancia": "alta"
+    },
+    {
+      "nombre": "Resúmenes",
+      "descripcion": "Resúmenes de temas y conceptos clave",
+      "relevancia": "alta"
+    },
+    {
+      "nombre": "Esquemas",
+      "descripcion": "Esquemas visuales y mapas conceptuales",
+      "relevancia": "media"
+    },
+    {
+      "nombre": "Tests",
+      "descripcion": "Exámenes de práctica y tests de autoevaluación",
+      "relevancia": "alta"
+    },
+    {
+      "nombre": "Casos Prácticos",
+      "descripcion": "Supuestos prácticos y ejercicios resueltos",
+      "relevancia": "media"
+    }
+  ],
+  "niveles_relevancia": {
+    "alta": "Material esencial para aprobar la oposición",
+    "media": "Material complementario recomendado",
+    "baja": "Material de apoyo adicional"
+  },
+  "tipos_archivo_soportados": ["PDF", "DOC", "DOCX", "TXT"],
+  "version": "1.0.0",
+  "fecha_actualizacion": "2024-01-01"
+}

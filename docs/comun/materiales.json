@@ -1,0 +1,16 @@
+{
+  "descripcion": "Materiales comunes a todas las oposiciones",
+  "materiales": [
+    {
+      "id": "ejemplo-comun-001",
+      "titulo": "Constitución Española",
+      "tipo": "PDF",
+      "categoria": "Legislación",
+      "descripcion": "Texto completo de la Constitución Española de 1978",
+      "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2024-01-01",
+      "archivo": "constitucion-espanola.pdf"
+    }
+  ]
+}
