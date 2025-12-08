@@ -16,7 +16,18 @@
       "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-01-constitucion-espanola-1978.pdf"
+      "archivo": "tema-01-constitucion-espanola-1978.pdf",
+      "estructura_respuestas": {
+        "valores_superiores": "Art. 1 - Libertad, justicia, igualdad, pluralismo político",
+        "unidad_autonomia": "Art. 2 - Unidad de España y derecho a la autonomía de nacionalidades",
+        "igualdad": "Art. 14 - Igualdad ante la ley, no discriminación",
+        "derechos_fundamentales": "Art. 15-29 - Vida, libertad, honor, expresión, reunión, asociación",
+        "deberes_ciudadanos": "Art. 30-38 - Defensa, tributos, trabajo, etc.",
+        "corona": "Art. 56-65 - Funciones del Rey como Jefe del Estado",
+        "cortes_generales": "Art. 66-96 - Congreso, Senado, procedimiento legislativo",
+        "gobierno": "Art. 97-107 - Funciones ejecutivas y Administración",
+        "organizacion_territorial": "Art. 137-158 - Municipios, provincias, CCAA"
+      }
     },
     {
       "id": "uah-tema-002",
@@ -30,7 +41,18 @@
       "temas_relacionados": ["Función Pública", "EBEP", "Derechos y Deberes del Empleado Público"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-02-ebep-estatuto-empleado-publico.pdf"
+      "archivo": "tema-02-ebep-estatuto-empleado-publico.pdf",
+      "estructura_respuestas": {
+        "objeto_ambito": "Art. 1-6 - Objeto del EBEP y ámbito de aplicación",
+        "clases_personal": "Art. 8-13 - Funcionarios carrera/interino, laborales, eventuales, directivos",
+        "derechos": "Art. 14 - Derechos individuales (igualdad, formación, carrera, etc.)",
+        "deberes": "Art. 48 - Deberes de los empleados públicos",
+        "codigo_conducta": "Art. 52-54 - Principios éticos, generales y de conducta",
+        "adquisicion_condicion": "Art. 55-61 - Requisitos, acceso, selección, nombramiento",
+        "perdida_condicion": "Art. 62 - Causas de pérdida de la condición de funcionario",
+        "provision_puestos": "Art. 78-84 - Concurso, libre designación, comisiones de servicio",
+        "regimen_disciplinario": "Art. 93-98 - Faltas (muy graves/graves/leves) y sanciones"
+      }
     },
     {
       "id": "uah-tema-003",
@@ -44,7 +66,15 @@
       "temas_relacionados": ["Sistema Universitario", "Autonomía Universitaria", "PAS", "Gobernanza Universitaria"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-03-ley-sistema-universitario-2023.pdf"
+      "archivo": "tema-03-ley-sistema-universitario-2023.pdf",
+      "estructura_respuestas": {
+        "funciones_universidad": "Art. 2 - Docencia, investigación, transferencia conocimiento, formación continua",
+        "autonomia": "Art. 3-5 - Autonomía universitaria garantizada y su alcance",
+        "regimen_juridico": "Art. 52-54 - Personalidad jurídica, patrimonio, régimen presupuestario",
+        "organos_gobierno": "Art. 55-61 - Consejo Gobierno, Claustro, Rector, Vicerrectores, Gerente",
+        "pas_definicion": "Art. 86 - Personal técnico, de gestión y administración",
+        "pas_regimen": "Art. 87-88 - Funcionarios o laborales, formación, participación"
+      }
     },
     {
       "id": "uah-tema-004",
@@ -58,7 +88,19 @@
       "temas_relacionados": ["LOPD-GDD", "Protección de Datos", "RGPD", "Derechos Digitales"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-04-lopd-proteccion-datos-2018.pdf"
+      "archivo": "tema-04-lopd-proteccion-datos-2018.pdf",
+      "estructura_respuestas": {
+        "objeto": "Art. 1 - Garantizar derechos digitales y protección datos personales",
+        "definiciones": "Art. 3 - Datos personales, tratamiento, responsable, encargado",
+        "principios": "Art. 4-12 - Exactitud, confidencialidad, consentimiento, transparencia",
+        "datos_menores": "Art. 8 - Tratamiento de datos de menores de edad",
+        "categorias_especiales": "Art. 9 - Datos sensibles (salud, ideología, etc.)",
+        "derecho_acceso": "Art. 13 - Derecho a conocer qué datos se tratan",
+        "derecho_rectificacion": "Art. 15 - Corrección de datos inexactos",
+        "derecho_supresion": "Art. 16 - Derecho al olvido",
+        "derecho_portabilidad": "Art. 18 - Portabilidad de datos entre responsables",
+        "derechos_digitales": "Art. 79-97 - Neutralidad Internet, desconexión digital, testamento digital"
+      }
     },
     {
       "id": "uah-tema-005",
