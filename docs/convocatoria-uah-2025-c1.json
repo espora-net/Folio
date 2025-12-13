@@ -153,6 +153,7 @@
     }
   ],
   "nota_cobertura": "Solo se listan los temas con desglose concreto; los números ausentes en cobertura_temas corresponden a temas aún no desarrollados.",
+  "nota_estructura": "Algunos temas (ej: tema 6) incluyen un array 'referencias' con múltiples documentos. Para temas con un único documento, se mantiene la estructura legacy con 'materialId' y 'archivo' directos.",
   "temas_pendientes": [
     {
       "numeros": [11, 12, 13, 14, 15, 16],
