@@ -27,8 +27,7 @@
       "temas_relacionados": ["Biblioteconomía", "CDU", "Servicios bibliotecarios"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "guia-respuestas.pdf"
-      "archivo": "tema-01-constitucion-espanola-1978.pdf",
+      "archivo": "guia-respuestas.pdf",
       "estructura_respuestas": {
         "valores_superiores": "Art. 1 - Libertad, justicia, igualdad, pluralismo político",
         "unidad_autonomia": "Art. 2 - Unidad de España y derecho a la autonomía de nacionalidades",
@@ -141,6 +140,20 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
       "archivo": "tema-06-ley-igualdad-efectiva-2007.pdf"
+    },
+    {
+      "id": "uah-plan-igualdad-2023-2026",
+      "tema_numero": 6,
+      "titulo": "II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)",
+      "tipo": "PDF",
+      "categoria": "Legislación",
+      "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
+      "descripcion": "II Plan de Igualdad de Oportunidades para el Personal de la Universidad de Alcalá, período 2023-2026. Documento institucional oficial (~275 páginas) que desarrolla medidas concretas de igualdad en la Universidad, complementando la Ley Orgánica 3/2007 para la Igualdad Efectiva de Mujeres y Hombres.",
+      "contenido_especifico": "Plan específico de la UAH que detalla políticas, objetivos y acciones concretas en materia de igualdad de género para el personal universitario, incluyendo medidas de conciliación, formación, prevención del acoso, y promoción de la igualdad en el acceso y desarrollo profesional",
+      "temas_relacionados": ["Igualdad de Género", "Plan de Igualdad UAH", "Políticas Institucionales"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2025-12-13",
+      "archivo": "plan-igualdad-uah-2023-2026.pdf"
     },
     {
       "id": "uah-tema-007",
