@@ -86,7 +86,8 @@ CAPÍTULO I. Principios generales . . . . . . . . . . . . . . . . . . . . . . . 
 
 Página 1
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 14. Criterios generales de actuación de los Poderes Públicos.
@@ -233,10 +234,11 @@ TÍTULO IV. El derecho al trabajo en igualdad de oportunidades . . . . . . . . .
 
 Página 2
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO I. Igualdad de trato y de oportunidades en el ámbito laboral
+### CAPÍTULO I. Igualdad de trato y de oportunidades en el ámbito laboral {#capitulo-i-igualdad-trato-oportunidades}
 
 . . . . . . . . . . . . . . . . . . . . . . . . . .
 
@@ -277,7 +279,7 @@ CAPÍTULO I. Criterios de actuación de las Administraciones públicas. . . . . 
 
 Artículo 51. Criterios de actuación de las Administraciones públicas.. . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-CAPÍTULO  II.  El  principio  de  presencia  equilibrada  en  la  Administración  General  del  Estado  y  en  los
+### CAPÍTULO  II.  El  principio  de  presencia  equilibrada  en  la  Administración  General  del  Estado  y  en  los {#capitulo-ii-principio-presencia}
 organismos públicos vinculados o dependientes de ella . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 Artículo 52. Titulares de órganos directivos.
@@ -288,7 +290,7 @@ Artículo 53. Órganos de selección y Comisiones de valoración. . . . . . . . 
 
 Artículo 54. Designación de representantes de la Administración General del Estado. . . . . . . . . . . . . . . . .
 
-CAPÍTULO  III.  Medidas  de  Igualdad  en  el  empleo  para  la  Administración  General  del  Estado  y  para  los
+### CAPÍTULO  III.  Medidas  de  Igualdad  en  el  empleo  para  la  Administración  General  del  Estado  y  para  los {#capitulo-iii-medidas-igualdad-empleo}
 organismos públicos vinculados o dependientes de ella . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 Artículo 55. Informe de impacto de género en las pruebas de acceso al empleo público. . . . . . . . . . . . . . .
@@ -370,7 +372,8 @@ Artículo 62. Protocolo de actuación frente al acoso sexual y al acoso por raz�
 
 Página 3
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 63. Evaluación sobre la igualdad en el empleo público. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -499,7 +502,8 @@ español la Directiva 89/552/CEE. . . . . . . . . . . . . . . . . . . . . . . . 
 
 Página 4
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición adicional octava. Modificaciones de la Ley General de Sanidad. . . . . . . . . . . . . . . . . . . . . . . .
@@ -621,7 +625,8 @@ Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 Página 5
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición transitoria primera. Régimen transitorio de nombramientos. . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -729,7 +734,8 @@ Disposición final octava. Entrada en vigor. . . . . . . . . . . . . . . . . . .
 
 Página 6
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 TEXTO CONSOLIDADO
@@ -795,7 +801,8 @@ ordenamiento constitucional e integra un genuino derecho de las mujeres, pero es
 
 Página 7
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 un elemento de enriquecimiento de la propia sociedad española, que contribuirá al desarrollo
@@ -867,7 +874,8 @@ de las relaciones laborales. Mediante una serie de previsiones, se reconoce el d
 
 Página 8
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 conciliación de la vida personal, familiar y laboral y se fomenta una mayor corresponsabilidad
@@ -940,7 +948,8 @@ frente al acoso sexual y al acoso por razón de sexo.
 
 Página 9
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Además  del  deber  general  de  las  empresas  de  respetar  el  principio  de  igualdad  en  el
@@ -1018,7 +1027,8 @@ regula el uso de estas acciones con fines publicitarios.
 
 Página 10
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 En este Título, y en el marco de la responsabilidad social corporativa, se ha incluido el
@@ -1058,7 +1068,7 @@ constitucional  y  a  su  relación  con  el  ordenamiento  comunitario,  habili
 reglamentario, establecen las fechas de su entrada en vigor y un mandato de evaluación de
 los resultados de la negociación colectiva en materia de igualdad.
 
-TÍTULO PRELIMINAR
+## TÍTULO PRELIMINAR {#titulo-preliminar}
 
 Objeto y ámbito de la Ley
 
@@ -1089,12 +1099,13 @@ nacionalidad, domicilio o residencia.
 
 Página 11
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 El principio de igualdad y la tutela contra la discriminación
 
-TÍTULO I
+## TÍTULO I {#titulo-i}
 
 Artículo 3.  El principio de igualdad de trato entre mujeres y hombres.
 
@@ -1163,7 +1174,8 @@ también acto de discriminación por razón de sexo.
 
 Página 12
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 8.  Discriminación por embarazo o maternidad.
@@ -1231,14 +1243,15 @@ públicos competentes.
 
 Página 13
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO II
+## TÍTULO II {#titulo-ii}
 
 Políticas públicas para la igualdad
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-ii-capitulo-i}
 
 Principios generales
 
@@ -1324,7 +1337,8 @@ que les correspondan.
 
 Página 14
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 17.  Plan Estratégico de Igualdad de Oportunidades.
@@ -1401,13 +1415,14 @@ hombres,  las  corporaciones  locales  podrán  establecer  Planes  Municipales 
 
 Página 15
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 del tiempo de la ciudad. Sin perjuicio de las competencias de las Comunidades Autónomas,
 el Estado podrá prestar asistencia técnica para la elaboración de estos planes.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-ii-capitulo-ii}
 
 Acción administrativa para la igualdad
 
@@ -1481,7 +1496,8 @@ lo concerniente a la creación y producción artística e intelectual y a la dif
 
 Página 16
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 las
@@ -1565,7 +1581,8 @@ Información  mediante  el  desarrollo  de  programas  específicos,  en  especi
 
 Página 17
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 acceso y formación en tecnologías de la información y de las comunicaciones, contemplando
@@ -1643,7 +1660,8 @@ como  geográfica,  y  herramientas  de  programación  operativa  de  la  coope
 
 Página 18
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 para  el  desarrollo,  incluirán  el  principio  de  igualdad  entre  mujeres  y  hombres  como  un
@@ -1711,10 +1729,11 @@ presente Ley.
 
 Página 19
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO III
+## TÍTULO III {#titulo-iii}
 
 Igualdad y medios de comunicación
 
@@ -1797,7 +1816,8 @@ tratamiento  de
 
 Página 20
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 41.  Igualdad y publicidad.
@@ -1806,13 +1826,13 @@ La  publicidad  que  comporte  una  conducta  discriminatoria  de  acuerdo  con 
 considerará  publicidad  ilícita,  de  conformidad  con  lo  previsto  en  la  legislación  general  de
 publicidad y de publicidad y comunicación institucional.
 
-TÍTULO IV
+## TÍTULO IV {#titulo-iv}
 
 El derecho al trabajo en igualdad de oportunidades
 
 Igualdad de trato y de oportunidades en el ámbito laboral
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-iv-capitulo-i}
 
 Artículo 42.  Programas de mejora de la empleabilidad de las mujeres.
 
@@ -1834,7 +1854,7 @@ establecer medidas de acción positiva para favorecer el acceso de las mujeres a
 aplicación efectiva del principio de igualdad de trato y no discriminación en las condiciones
 de trabajo entre mujeres y hombres.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-iv-capitulo-ii}
 
 Igualdad y conciliación
 
@@ -1855,7 +1875,7 @@ términos previstos en la normativa laboral y de Seguridad Social.
 Los  planes  de  igualdad  de  las  empresas  y  otras  medidas  de  promoción  de  la
 igualdad
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-iv-capitulo-iii}
 
 Artículo 45.  Elaboración y aplicación de los planes de igualdad.
 
@@ -1867,7 +1887,8 @@ determine en la legislación laboral.
 
 Página 21
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. En el caso de las empresas de cincuenta o más trabajadores, las medidas de igualdad
@@ -1939,7 +1960,8 @@ condiciones para la inscripción y acceso.
 
 Página 22
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 47.  Transparencia en la implantación del plan de igualdad.
@@ -1977,7 +1999,7 @@ Para  impulsar  la  adopción  voluntaria  de  planes  de  igualdad,  el  Gobier
 medidas de fomento, especialmente dirigidas a las pequeñas y las medianas empresas, que
 incluirán el apoyo técnico necesario.
 
-CAPÍTULO IV
+### CAPÍTULO IV {#titulo-iv-capitulo-iv}
 
 Distintivo empresarial en materia de igualdad
 
@@ -2011,14 +2033,15 @@ distintivo.
 
 Página 23
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO V
+## TÍTULO V {#titulo-v}
 
 El principio de igualdad en el empleo público
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-v-capitulo-i}
 
 Criterios de actuación de las Administraciones públicas
 
@@ -2059,7 +2082,7 @@ g)  Evaluar  periódicamente  la  efectividad  del  principio  de  igualdad  en 
 El principio de presencia equilibrada en la Administración General del Estado y
 en los organismos públicos vinculados o dependientes de ella
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-v-capitulo-ii}
 
 Artículo 52.  Titulares de órganos directivos.
 
@@ -2093,7 +2116,8 @@ dependientes de ella observarán el principio de presencia equilibrada en los no
 
 Página 24
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 que  le  corresponda  efectuar  en  los  consejos  de  administración  de  las  empresas  en  cuyo
@@ -2102,7 +2126,7 @@ capital participe.
 Medidas de Igualdad en el empleo para la Administración General del Estado y
 para los organismos públicos vinculados o dependientes de ella
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-v-capitulo-iii}
 
 Artículo 55.  Informe de impacto de género en las pruebas de acceso al empleo público.
 
@@ -2162,7 +2186,8 @@ permiso de maternidad o paternidad, o hayan reingresado desde la situación de e
 
 Página 25
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 por  razones  de  guarda  legal  y  atención  a  personas  mayores  dependientes  o  personas  con
@@ -2231,10 +2256,11 @@ cumplimiento será evaluado anualmente por el Consejo de Ministros.
 
 Página 26
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO IV
+### CAPÍTULO IV {#titulo-v-capitulo-iv}
 
 Fuerzas Armadas
 
@@ -2253,7 +2279,7 @@ conciliación  de  la  vida  personal,  familiar  y  profesional  serán  de  ap
 Armadas, con las adaptaciones que resulten necesarias y en los términos establecidos en su
 normativa específica.
 
-CAPÍTULO V
+### CAPÍTULO V {#titulo-v-capitulo-v}
 
 Fuerzas y Cuerpos de Seguridad del Estado
 
@@ -2277,7 +2303,7 @@ encomendadas, en los términos establecidos por su normativa específica.
 
 Igualdad de trato en el acceso a bienes y servicios y su suministro
 
-TÍTULO VI
+## TÍTULO VI {#titulo-vi}
 
 Artículo 69.  Igualdad de trato en el acceso a bienes y servicios.
 
@@ -2303,7 +2329,8 @@ salud.
 
 Página 27
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 71.  Factores actuariales.
@@ -2330,7 +2357,7 @@ los restantes extremos la validez y eficacia del contrato.
 
 La igualdad en la responsabilidad social de las empresas
 
-TÍTULO VII
+## TÍTULO VII {#titulo-vii}
 
 Artículo 73.  Acciones de responsabilidad social de las empresas en materia de igualdad.
 
@@ -2376,10 +2403,11 @@ en vigor de esta Ley.
 
 Página 28
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO VIII
+## TÍTULO VIII {#titulo-viii}
 
 Disposiciones organizativas
 
@@ -2462,7 +2490,8 @@ mínimo el cuarenta por ciento. Cuando el número de puestos a cubrir sea inferi
 
 Página 29
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 las  elecciones  de  miembros  de
@@ -2551,7 +2580,8 @@ recursos,  en  general,  para  el  correcto  desempeño  de  las  funciones  que
 
 Página 30
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Constitución y las leyes asignan al Poder Judicial. Incluirá también un capítulo sobre
@@ -2569,7 +2599,7 @@ expresión «Comisión de Igualdad».
 
 Cuatro. Se añade un artículo 136 bis que integrará la nueva Sección 7.ª del Capítulo IV,
 
-Título II, Libro II, rubricada como «De la Comisión de Igualdad», con la siguiente redacción:
+## Título II, Libro II, rubricada como «De la Comisión de Igualdad», con la siguiente redacción: {#titulo-ii-libro-ii-rubricada-como}
 
 «Artículo 136 bis.
 
@@ -2632,7 +2662,8 @@ Durante los dos primeros años se tendrá derecho a la reserva de la plaza en la
 
 Página 31
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 se  ejerciesen  sus  funciones  y  al  cómputo  de  la  antigüedad.  Transcurrido  este
@@ -2708,7 +2739,8 @@ Quince. Se añade un apartado 5 al artículo 433 bis, con la siguiente redacció
 
 Página 32
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «5.  El  Plan  de  Formación  Continuada  de  la  Carrera  Judicial  contemplará  la
@@ -2789,7 +2821,8 @@ previstos en la legislación de la Seguridad Social.»
 
 Página 33
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Tres. Se añade un nuevo apartado 5 al artículo 217 de la Ley 1/2000, de 7 de enero, de
@@ -2869,7 +2902,8 @@ produzcan discriminaciones entre ellos en los objetivos y actuaciones sanitarias
 
 Página 34
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Dos.  Se  añade  un  nuevo  apartado  2  al  artículo  6  de  la  Ley  14/1986,  de  25  de  abril,
@@ -2956,7 +2990,8 @@ mujeres y hombres.»
 
 Página 35
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Seis.  Se  modifican  los  apartados  2  y  3  del  artículo  53,  que  quedan  redactados  en  los
@@ -3039,7 +3074,8 @@ Tres. Se introduce un apartado 8 en el artículo 34, con la siguiente redacción
 
 Página 36
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «8. El trabajador tendrá derecho a adaptar la duración y distribución de la jornada
@@ -3119,7 +3155,8 @@ un plazo no menor a cuatro meses y no mayor a cinco años. Este derecho sólo po
 
 Página 37
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 ser ejercitado otra vez por el mismo trabajador si han transcurrido cuatro años desde
@@ -3194,7 +3231,8 @@ parto, por un período superior a siete días, el período de suspensión se amp
 
 Página 38
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 tantos  días  como  el  nacido  se  encuentre  hospitalizado,  con  un  máximo  de  trece
@@ -3271,7 +3309,8 @@ ser ejercido por el otro.
 
 Página 39
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 El  trabajador  que  ejerza  este  derecho  podrá  hacerlo  durante  el  periodo
@@ -3344,7 +3383,8 @@ empresario o a las personas que trabajan en la empresa.»
 
 Página 40
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Catorce.  Se  modifica  el  apartado  5  del  artículo  55,  que  queda  redactado  del  siguiente
@@ -3426,7 +3466,8 @@ partes, a través de la negociación colectiva se articulará el deber de negoci
 
 Página 41
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 de  igualdad  en  las  empresas  de  más  de  doscientos  cincuenta  trabajadores  de  la
@@ -3510,7 +3551,8 @@ investigación  generales  en  materia  de  prevención  de  riesgos  laborales,
 
 Página 42
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 objetivo  de  detectar  y  prevenir  posibles  situaciones  en  las  que  los  daños  derivados
@@ -3586,7 +3628,8 @@ reconocidos en el Estatuto de los Trabajadores.
 
 Página 43
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 c) El de los trabajadores después de haberse reintegrado al trabajo al finalizar los
@@ -3663,7 +3706,8 @@ oficio a que se refiere el apartado 2 del artículo 149 de esta Ley.»
 
 Página 44
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Cinco. Se modifica el apartado 2 del artículo 149, quedando redactado en los siguientes
@@ -3738,7 +3782,8 @@ de trato y no discriminación.»
 
 Página 45
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «13  bis.  El  acoso  por  razón  de  origen  racial  o  étnico,  religión  o  convicciones,
@@ -3806,7 +3851,8 @@ efecto la suspensión y aplicar las sanciones accesorias.»
 
 Página 46
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  adicional  decimoquinta.    Modificación  del  Real  Decreto  Ley  por  el  que  se
@@ -3882,7 +3928,8 @@ los  contratos  de
 
 Página 47
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a) Una bonificación del 100 por 100 en las cuotas empresariales de la Seguridad
@@ -3961,7 +4008,8 @@ términos:
 
 Página 48
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «3.  Las  cuotas  correspondientes  a  la  situación  de  incapacidad  temporal,  de
@@ -4032,7 +4080,8 @@ anteriores  al  momento  de  inicio  del  descanso.  Se  considerará  cumplido 
 
 Página 49
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 mencionado requisito si, alternativamente, el trabajador acredita 180 días cotizados a
@@ -4103,7 +4152,8 @@ introduciéndose en dicho Título un nuevo Capítulo IV ter, con la siguiente re
 
 Página 50
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «CAPÍTULO IV TER
@@ -4175,7 +4225,8 @@ incapacidad
 
 Página 51
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  La  prestación  económica  nacerá  el  día  en  que  se  inicie  la  suspensión  del
@@ -4248,7 +4299,8 @@ prestaciones  indicadas  en  el  apartado  anterior,  el  primer  año  del  per
 
 Página 52
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 excedencia que los trabajadores disfruten, de acuerdo con el artículo 46.3 de la Ley
@@ -4335,7 +4387,8 @@ en el párrafo b) del apartado 1 del artículo 206.»
 
 Página 53
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Diecisiete.  Se  añade  un  nuevo  párrafo  quinto  al  apartado  3  del  artículo  222,  en  los
@@ -4408,7 +4461,8 @@ siguientes términos:
 
 Página 54
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «Disposición  adicional  undécima  bis.    Prestaciones  por  maternidad  y  por
@@ -4484,7 +4538,8 @@ manera:
 
 Página 55
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «El  periodo  de  permanencia  en  esta  situación  será  computable  a  efectos  de
@@ -4567,7 +4622,8 @@ la disminución de su jornada de trabajo.»
 
 Página 56
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Once. Se añade una letra g bis) al artículo 30.1 con la siguiente redacción:
@@ -4645,7 +4701,8 @@ En
 
 Página 57
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 funcionario tendrá derecho a disfrutar de un permiso de hasta dos meses de duración
@@ -4724,7 +4781,8 @@ social y familiar debidamente acreditados por los servicios sociales competentes
 
 Página 58
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 También tendrán derecho a un período de excedencia de duración no superior a
@@ -4800,7 +4858,8 @@ durante el embarazo o riesgo durante la lactancia natural de hijos menores de nu
 
 Página 59
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 meses, en los términos previstos en el artículo 69 del Texto Articulado de la Ley de
@@ -4876,7 +4935,8 @@ constituir un nuevo apartado 11:
 
 Página 60
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 «10. Las conductas discriminatorias en el acceso a los bienes y la prestación de
@@ -4951,7 +5011,8 @@ queda modificada como sigue:
 
 Página 61
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Uno. Se da nueva redacción al artículo 1:
@@ -5023,7 +5084,8 @@ primera denuncia del convenio que se produzca a partir de la entrada en vigor de
 
 Página 62
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición transitoria quinta.  Tablas de mortalidad y supervivencia.
@@ -5093,7 +5155,8 @@ Para la aplicación de lo dispuesto en el apartado 2 del artículo 45 y en los a
 
 Página 63
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Decreto-ley  6/2019,  de  1  de  marzo,  de  medidas  urgentes  para  garantía  de  la  igualdad  de
@@ -5175,7 +5238,8 @@ Ley:
 
 Página 64
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Se  llevará  a  efecto  la  regulación  del  distintivo  empresarial  en  materia  de  igualdad
@@ -5249,7 +5313,8 @@ JOSÉ LUIS RODRÍGUEZ ZAPATERO
 
 Página 65
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Este documento es de carácter informativo y no tiene valor jurídico.

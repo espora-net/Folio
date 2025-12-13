@@ -79,7 +79,8 @@ Artículo 4. Titulares de los derechos.. . . . . . . . . . . . . . . . . . . . .
 
 Página 1
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo  5.  Ámbito  de  aplicación  en  materia  de  igualdad  de  oportunidades,  no  discriminación  y
@@ -213,7 +214,8 @@ públicos urbanizados y edificación. . . . . . . . . . . . . . . . . . . . . . 
 
 Página 2
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 26. Normativa técnica de edificación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -347,7 +349,8 @@ Sección 4.ª Empleo autónomo . . . . . . . . . . . . . . . . . . . . . . . . .
 
 Página 3
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 47. Empleo autónomo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -486,7 +489,8 @@ Artículo 69. Medidas de fomento y defensa. . . . . . . . . . . . . . . . . . . 
 
 Página 4
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Sección 1.ª Medidas de fomento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -513,7 +517,7 @@ Artículo 77. Criterios especiales sobre la prueba de hechos relevantes.
 
 . . . . . . . . . . . . . . . . . . . . .
 
-TÍTULO III. Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad
+## TÍTULO III. Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad {#titulo-iii-infracciones-sanciones}
 universal de las personas con discapacidad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 CAPÍTULO I. Régimen común de infracciones y sanciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -628,7 +632,8 @@ Artículo 93. Deber de colaboración. . . . . . . . . . . . . . . . . . . . . . 
 
 Página 5
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 CAPÍTULO II. Normas específicas de aplicación por la Administración General del Estado . . . . . . . . . . . . . .
@@ -762,7 +767,8 @@ Disposición adicional duodécima. Acceso a la nacionalidad española en condici
 
 Página 6
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición adicional decimotercera. No discriminación de personas con discapacidad en espectáculos
@@ -803,7 +809,8 @@ Disposición final tercera. Desarrollo reglamentario.
 
 Página 7
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 TEXTO CONSOLIDADO
@@ -873,7 +880,8 @@ discapacidad,  la  Ley  27/2007,  de  23  de  octubre,  por  la  que  se  recono
 
 Página 8
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 signos españolas y se regulan los medios de apoyo a la comunicación oral de las personas
@@ -944,7 +952,8 @@ discapacidad y de su inclusión social, y en particular, por integrarse en dicho
 
 Página 9
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a) La Ley 13/1982, de 7 de abril, de integración social de las personas con discapacidad.
@@ -969,11 +978,11 @@ ANA MATO ADROVER
 
 JUAN CARLOS R.
 
-TÍTULO PRELIMINAR
+## TÍTULO PRELIMINAR {#titulo-preliminar}
 
 Disposiciones generales
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-preliminar-capitulo-i}
 
 Objeto, definiciones y principios
 
@@ -1016,7 +1025,8 @@ por motivo de o por razón de su discapacidad.
 
 Página 10
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 d)  Discriminación  indirecta:  existe  cuando  una  disposición  legal  o  reglamentaria,  una
@@ -1089,7 +1099,8 @@ discapacidad a expresar su opinión libremente sobre todas las cuestiones que le
 
 Página 11
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a recibir asistencia apropiada con arreglo a su discapacidad y edad para poder ejercer ese
@@ -1128,7 +1139,7 @@ especial, de las niñas y los niños con discapacidad y de su derecho a preserva
 
 m) La transversalidad de las políticas en materia de discapacidad.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-preliminar-capitulo-ii}
 
 Ámbito de aplicación
 
@@ -1168,7 +1179,8 @@ y  de  intensificación  de  discapacidades  se  asimilan  a  dicha  situación 
 
 Página 12
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 entendidos como procesos en evolución que puedan llegar a ocasionar una limitación en la
@@ -1225,7 +1237,7 @@ acceso, goce y disfrute por parte de las personas con discapacidad.
 
 i) Empleo.
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-preliminar-capitulo-iii}
 
 Autonomía de las personas con discapacidad
 
@@ -1245,7 +1257,7 @@ En todo caso, se deberá tener en cuenta las circunstancias personales del indiv
 capacidad para tomar el tipo de decisión en concreto y asegurar la prestación de apoyo para
 la toma de decisiones.
 
-TÍTULO I
+## TÍTULO I {#titulo-i}
 
 Derechos y obligaciones
 
@@ -1257,7 +1269,8 @@ ciudadanos conforme a nuestro ordenamiento jurídico.
 
 Página 13
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Para  hacer  efectivo  este  derecho  a  la  igualdad,  las  administraciones  públicas
@@ -1278,7 +1291,7 @@ múltiple  como  las  niñas,  niños  y  mujeres  con  discapacidad,  mayores  
 mujeres con discapacidad víctimas de violencia de género, personas con pluridiscapacidad u
 otras personas con discapacidad integrantes de minorías.
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-i-capitulo-i}
 
 Sistema de prestaciones sociales y económicas
 
@@ -1309,7 +1322,7 @@ Los  beneficiarios  del  sistema  especial  de  prestaciones  asistenciales  y  
 previsto  en  este  capítulo  estarán  exentos  de  aportación  por  el  consumo  de  especialidades
 farmacéuticas.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-i-capitulo-ii}
 
 Derecho a la protección de la salud
 
@@ -1329,7 +1342,8 @@ coordinación  de  la  atención  de  carácter  social  y  de  carácter  sanit
 
 Página 14
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 eficiente,  dirigida  a  las  personas  que  por  problemas  de  salud  asociados  a  su  discapacidad
@@ -1405,10 +1419,11 @@ todo el territorio del Estado.
 
 Página 15
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-i-capitulo-iii}
 
 De la atención integral
 
@@ -1478,7 +1493,8 @@ personales  de  la  persona  con  discapacidad,  sus  motivaciones  e  intereses
 
 Página 16
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 factores  familiares  y  sociales  que  puedan  condicionarle,  y  estarán  dirigidos  a  potenciar  al
@@ -1545,10 +1561,11 @@ y participación en la vida social.
 
 Página 17
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO IV
+### CAPÍTULO IV {#titulo-i-capitulo-iv}
 
 Derecho a la educación
 
@@ -1622,7 +1639,8 @@ intervención  educativa,  contribuyendo  a
 
 Página 18
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. A efectos de la participación en el control y gestión de los centros docentes previsto en
@@ -1630,7 +1648,7 @@ la  Ley  Orgánica  8/1985,  de  3  de  julio,  reguladora  del  derecho  a  la 
 Orgánica 2/2006, de 3 de mayo, de educación, se tendrá en cuenta la especialidad de esta
 ley en lo que se refiere a los servicios de orientación educativa.
 
-CAPÍTULO V
+### CAPÍTULO V {#titulo-i-capitulo-v}
 
 Derecho a la vida independiente
 
@@ -1701,7 +1719,8 @@ establecimiento de las condiciones más favorables y de no discriminación.
 
 Página 19
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 f)  Recursos  humanos  y  materiales  para  la  promoción  de  la  accesibilidad  y  la  no
@@ -1776,7 +1795,8 @@ accesibilidad universal.
 
 Página 20
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 28.  Condiciones básicas de accesibilidad y no discriminación en el ámbito de las
@@ -1851,7 +1871,8 @@ esta ley.
 
 Página 21
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Sección 2.ª Medidas de acción positiva
@@ -1926,10 +1947,11 @@ viniendo obligados a destinar un porcentaje de su presupuesto a dichos fines.
 
 Página 22
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO VI
+### CAPÍTULO VI {#titulo-i-capitulo-vi}
 
 Derecho al trabajo
 
@@ -2002,7 +2024,8 @@ para la búsqueda, obtención, mantenimiento del empleo y retorno al mismo.
 
 Página 23
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. Las personas con discapacidad pueden ejercer su derecho al trabajo a través de los
@@ -2081,7 +2104,8 @@ que esas medidas supongan una carga excesiva para el empresario.
 
 Página 24
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Para  determinar  si  una  carga  es  excesiva  se  tendrá  en  cuenta  si  es  paliada  en  grado
@@ -2151,7 +2175,8 @@ encontrarán comprendidos aquellos dirigidos a la inclusión social, cultural y 
 
 Página 25
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3. La relación laboral de los trabajadores con discapacidad que presten sus servicios en
@@ -2226,13 +2251,14 @@ de fomento del trabajo autónomo de personas con discapacidad dirigidas al estab
 
 Página 26
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 y  desarrollo  de  iniciativas  económicas  y  profesionales  por  cuenta  propia,  o  a  través  de
 entidades de la economía social, de acuerdo con la normativa reguladora de la materia.
 
-CAPÍTULO VII
+### CAPÍTULO VII {#titulo-i-capitulo-vii}
 
 Derecho a la protección social
 
@@ -2299,7 +2325,8 @@ discapacidad cuyas situaciones lo requieran.
 
 Página 27
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 5.  Los  servicios  de  vivienda,  ya  sean  servicios  de  atención  residencial,  viviendas
@@ -2357,7 +2384,7 @@ públicas  como  de  las  instituciones  o  personas  jurídicas  privadas  sin 
 atendiendo estas últimas, en todo caso, a las normas que para su creación y funcionamiento
 se dicten de acuerdo a lo dispuesto en el párrafo anterior.
 
-CAPÍTULO VIII
+### CAPÍTULO VIII {#titulo-i-capitulo-viii}
 
 Derecho de participación en los asuntos públicos
 
@@ -2370,7 +2397,8 @@ pondrán a su disposición los medios y recursos que precisen.
 
 Página 28
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 54.  Derecho de participación en la vida pública.
@@ -2435,7 +2463,7 @@ Con la Oficina de Atención a la Discapacidad colaborarán las organizaciones, e
 y asociaciones de utilidad pública más representativas de las personas con discapacidad y
 sus familias.
 
-CAPÍTULO IX
+### CAPÍTULO IX {#titulo-i-capitulo-ix}
 
 Obligaciones de los poderes públicos
 
@@ -2463,7 +2491,8 @@ financiación  de
 
 Página 29
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 los  de  las  comunidades  autónomas  y  entidades  locales,  de  acuerdo  con  las  competencias
@@ -2530,14 +2559,15 @@ favoreciendo  su  plena
 
 Página 30
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO II
+## TÍTULO II {#titulo-ii}
 
 Igualdad de oportunidades y no discriminación
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-ii-capitulo-i}
 
 Derecho a la igualdad de oportunidades
 
@@ -2600,7 +2630,8 @@ protección administrativa o judicial que en cada caso proceda.
 
 Página 31
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 67.  Medidas de acción positiva.
@@ -2638,7 +2669,7 @@ subvenciones públicas promuevan la efectividad del derecho a la igualdad de opo
 de  las  personas  con  discapacidad  así  como  las  personas  con  discapacidad  que  viven
 habitualmente en el ámbito rural.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-ii-capitulo-ii}
 
 Medidas de fomento y defensa
 
@@ -2676,7 +2707,8 @@ y organizaciones de normalización y certificación y todos los agentes implicad
 
 Página 32
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 72.  Iniciativa privada.
@@ -2752,7 +2784,8 @@ a las circunstancias de la infracción y a la gravedad de la lesión.
 
 Página 33
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3. Se adoptarán las medidas que sean necesarias para proteger a las personas físicas o
@@ -2788,9 +2821,9 @@ los contencioso-administrativos interpuestos contra resoluciones sancionadoras.
 Infracciones  y  sanciones  en  materia  de  igualdad  de  oportunidades,  no
 discriminación y accesibilidad universal de las personas con discapacidad
 
-TÍTULO III
+## TÍTULO III {#titulo-iii}
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-iii-capitulo-i}
 
 Régimen común de infracciones y sanciones
 
@@ -2821,7 +2854,8 @@ administrativa cometida por otros.
 
 Página 34
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Sección 1.ª Infracciones
@@ -2902,7 +2936,8 @@ euros.
 
 Página 35
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3.  Para  las  infracciones  graves,  la  sanción  no  excederá  en  ningún  caso  de  los  90.000
@@ -2984,7 +3019,8 @@ sanción establecida en esta ley y la legislación autonómica correspondiente, 
 
 Página 36
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 cumplimiento de las obligaciones previstas en la normativa en materia de discapacidad que
@@ -3051,12 +3087,13 @@ consentimiento o el mandato judicial correspondiente.
 
 Página 37
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Normas específicas de aplicación por la Administración General del Estado
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-iii-capitulo-ii}
 
 Artículo 94.  Competencia de la Administración General del Estado.
 
@@ -3130,7 +3167,8 @@ meses y por tres veces, de la misma infracción leve.
 
 Página 38
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a)  Las  vejaciones  que  padezcan  las  personas  en  sus  derechos  fundamentales  por
@@ -3211,7 +3249,8 @@ General del Estado se regirán por lo dispuesto en el capítulo III, del título
 
 Página 39
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones
@@ -3290,7 +3329,8 @@ elevará propuesta de resolución al órgano competente para imponer la sanción
 
 Página 40
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a) El órgano con rango de Dirección General a que se hace referencia en el apartado 1,
@@ -3371,7 +3411,8 @@ disposición del público por las personas con discapacidad, en todo caso, son l
 
 Página 41
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Bienes y servicios nuevos que sean de titularidad pública: Desde la entrada en vigor del
@@ -3449,7 +3490,8 @@ aprobado por el Real Decreto Legislativo 5/2000, de 4 de agosto.
 
 Página 42
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  adicional  octava.    Infracciones  en  materia  de  accesibilidad  y  ajustes
@@ -3522,7 +3564,8 @@ ocupaciones regulares.
 
 Página 43
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  transitoria  única.    Efectividad  del  reconocimiento  de  las  situaciones  vigentes

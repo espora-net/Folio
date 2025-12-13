@@ -36,7 +36,7 @@ En consecuencia, las Cortes aprueban y el pueblo español ratifica la siguiente
 
 CONSTITUCIÓN
 
-TÍTULO PRELIMINAR
+## TÍTULO PRELIMINAR {#titulo-preliminar}
 
 Artículo 1
 
@@ -57,7 +57,8 @@ patria  común  e  indivisible  de  todos  los  españoles,  y  reconoce  y  gar
 autonomía  de  las  nacionalidades  y  regiones  que  la  integran  y  la  solidaridad  entre  todas
 ellas.
 
-Artículo 3
+
+Artículo 3
 
 1. El castellano es la lengua española oficial del Estado. Todos los españoles tienen
 
@@ -113,7 +114,8 @@ Artículo 9
 
 1. Los ciudadanos  y los poderes públicos están sujetos a la Constitución y al resto
 
-del ordenamiento jurídico.
+
+del ordenamiento jurídico.
 
 2. Corresponde a los poderes públicos promover las condiciones para que la libertad
 y  la  igualdad  del  individuo  y  de  los  grupos  en  que  se  integra  sean  reales  y  efectivas;
@@ -125,7 +127,7 @@ publicidad  de  las  normas,  la  irretroactividad  de  las  disposiciones  sanc
 favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad
 y la interdicción de la arbitrariedad de los poderes públicos.
 
-TÍTULO I
+## TÍTULO I {#titulo-i}
 
 De los derechos y deberes fundamentales
 
@@ -140,7 +142,7 @@ Constitución  reconoce  se  interpretarán  de  conformidad  con  la  Declaraci
 Derechos  Humanos  y  los  tratados  y  acuerdos  internacionales  sobre  las  mismas  materias
 ratificados por España.
 
-CAPÍTULO PRIMERO
+### CAPÍTULO PRIMERO {#titulo-i-capitulo-primero}
 
 De los españoles y los extranjeros
 
@@ -168,7 +170,8 @@ presente Título en los términos que establezcan los tratados y la ley.
 
 2. Solamente los españoles serán titulares de los derechos reconocidos en el artículo
 
-23, salvo lo que, atendiendo a criterios de reciprocidad, pueda establecerse por tratado o ley
+
+23, salvo lo que, atendiendo a criterios de reciprocidad, pueda establecerse por tratado o ley
 para el derecho de sufragio activo y pasivo en las elecciones municipales.
 
 3.  La  extradición  sólo  se  concederá  en  cumplimiento  de  un  tratado  o  de  la  ley,
@@ -183,7 +186,7 @@ apátridas podrán gozar del derecho de asilo en España.
 
 de 1992. B.O.E., núm. 207, de 28 de agosto de 1992)
 
-CAPITULO SEGUNDO
+### CAPITULO SEGUNDO {#titulo-i-capitulo-segundo}
 
 Derechos y libertades
 
@@ -220,7 +223,8 @@ Artículo 17
 
 1. Toda persona tiene derecho a la libertad y a la seguridad. Nadie puede ser privado
 
-de su libertad, sino con la observancia de lo establecido en este artículo y en los casos y en
+
+de su libertad, sino con la observancia de lo establecido en este artículo y en los casos y en
 la forma previstos en la ley.
 
 2.  La detención  preventiva no podrá durar más del  tiempo  estrictamente necesario
@@ -286,7 +290,8 @@ censura previa.
 comunicación  social  dependientes del  Estado o de cualquier ente público  y  garantizará el
 acceso  a  dichos  medios  de  los  grupos  sociales  y  políticos  significativos,  respetando  el
 
-pluralismo de la sociedad y de las diversas lenguas de España.
+
+pluralismo de la sociedad y de las diversas lenguas de España.
 
 4. Estas libertades tienen su límite en el respeto a los derechos reconocidos en este
 Título, en los  preceptos de las leyes que lo  desarrollen  y, especialmente,  en el  derecho al
@@ -350,7 +355,8 @@ La ley regulará los casos en que, por razón de parentesco o de secreto profesi
 
 no se estará obligado a declarar sobre hechos presuntamente delictivos.
 
-Artículo 25
+
+Artículo 25
 
 1.  Nadie  puede  ser  condenado  o  sancionado  por  acciones  u  omisiones  que  en  el
 momento  de  producirse  no  constituyan  delito,  falta  o  infracción  administrativa,  según  la
@@ -413,7 +419,8 @@ establezca.
 
 Artículo 28
 
-1. Todos tienen derecho a sindicarse libremente. La ley podrá limitar o exceptuar el
+
+1. Todos tienen derecho a sindicarse libremente. La ley podrá limitar o exceptuar el
 ejercicio  de  este  derecho  a  las  Fuerzas  o  Institutos  armados  o  a  los  demás  Cuerpos
 sometidos  a  disciplina  militar  y  regulará  las  peculiaridades  de  su  ejercicio  para  los
 funcionarios  públicos.  La  libertad  sindical  comprende  el  derecho  a  fundar  sindicatos  y  a
@@ -471,7 +478,8 @@ público con arreglo a la ley.
 
 Artículo 32
 
-1. El  hombre  y la mujer tienen derecho a contraer matrimonio  con plena igualdad
+
+1. El  hombre  y la mujer tienen derecho a contraer matrimonio  con plena igualdad
 
 jurídica.
 
@@ -525,13 +533,14 @@ conflicto  colectivo.  La  ley  que  regule  el  ejercicio  de  este  derecho,  
 limitaciones  que  puedan  establecer,  incluirá  las  garantías  precisas  para  asegurar  el
 funcionamiento de los servicios esenciales de la comunidad.
 
-Artículo 38
+
+Artículo 38
 
 Se  reconoce  la  libertad  de  empresa  en  el  marco  de  la  economía  de  mercado.  Los
 poderes  públicos  garantizan  y  protegen  su  ejercicio  y  la  defensa  de  la  productividad,  de
 acuerdo con las exigencias de la economía general y, en su caso, de la planificación.
 
-CAPITULO TERCERO
+### CAPITULO TERCERO {#titulo-i-capitulo-tercero}
 
 De los principios rectores de la política social y económica
 
@@ -578,7 +587,8 @@ El  Estado  velará  especialmente  por  la  salvaguardia  de  los  derechos  ec
 sociales  de  los  trabajadores  españoles  en  el  extranjero  y  orientará  su  política  hacia  su
 retorno.
 
-Artículo 43
+
+Artículo 43
 
 1. Se reconoce el derecho a la protección de la salud.
 2.  Compete  a  los  poderes  públicos  organizar  y  tutelar  la  salud  pública  a  través  de
@@ -630,7 +640,8 @@ pertinentes para hacer efectivo este derecho, regulando la utilización del suel
 con  el  interés  general  para  impedir  la  especulación.  La  comunidad  participará  en  las
 plusvalías que genere la acción urbanística de los entes públicos.
 
-Artículo 48
+
+Artículo 48
 
 Los  poderes  públicos  promoverán  las  condiciones  para  la  participación  libre  y
 
@@ -675,7 +686,7 @@ La ley regulará las organizaciones profesionales que contribuyan a la defensa d
 intereses económicos que les sean propios. Su estructura interna y funcionamiento deberán
 ser democráticos.
 
-CAPÍTULO CUARTO
+### CAPÍTULO CUARTO {#titulo-i-capitulo-cuarto}
 
 De las garantías de las libertades y derechos fundamentales
 
@@ -685,7 +696,8 @@ Artículo 53
 vinculan  a  todos  los  poderes  públicos.  Sólo  por  ley,  que  en  todo  caso  deberá  respetar  su
 contenido  esencial,  podrá  regularse  el  ejercicio  de  tales  derechos  y  libertades,  que  se
 
-tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).
+
+tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).
 
 2.  Cualquier  ciudadano  podrá  recabar  la  tutela  de  las  libertades  y  derechos
 reconocidos en el artículo 14 y la Sección primera del Capítulo segundo ante los Tribunales
@@ -705,7 +717,7 @@ comisionado de las Cortes Generales, designado por éstas para la defensa de  lo
 comprendidos  en  este  Título,  a  cuyo  efecto  podrá  supervisar  la  actividad  de  la
 Administración, dando cuenta a las Cortes Generales.
 
-CAPITULO QUINTO
+### CAPITULO QUINTO {#titulo-i-capitulo-quinto}
 
 De la suspensión de los derechos y libertades
 
@@ -731,7 +743,7 @@ La  utilización  injustificada  o  abusiva  de  las  facultades  reconocidas  e
 orgánica  producirá  responsabilidad  penal,  como  violación  de  los  derechos  y  libertades
 reconocidos por las leyes.
 
-TITULO II
+## TITULO II {#titulo-ii}
 
 De la Corona
 
@@ -739,7 +751,8 @@ Artículo 56
 
 1.  El  Rey  es  el  Jefe  del  Estado,  símbolo  de  su  unidad  y  permanencia,  arbitra  y
 
-modera el funcionamiento regular de las instituciones, asume la más alta representación del
+
+modera el funcionamiento regular de las instituciones, asume la más alta representación del
 Estado  español  en  las  relaciones  internacionales,  especialmente  con  las  naciones  de  su
 comunidad histórica, y ejerce las funciones que le atribuyen expresamente la Constitución y
 las leyes.
@@ -800,7 +813,8 @@ de edad.
 nombrada por las Cortes Generales, y se compondrá de una, tres o cinco personas.
 4. Para ejercer la Regencia es preciso ser español y mayor de edad.
 
-5.  La  Regencia  se  ejercerá  por  mandato  constitucional  y  siempre  en  nombre  del
+
+5.  La  Regencia  se  ejercerá  por  mandato  constitucional  y  siempre  en  nombre  del
 
 Rey.
 
@@ -865,7 +879,8 @@ representantes extranjeros en España están acreditados ante él.
 
 internacionalmente por medio de tratados, de conformidad con la Constitución y las leyes.
 
-3.  Al  Rey  corresponde,  previa  autorización  de  las  Cortes  Generales,  declarar  la
+
+3.  Al  Rey  corresponde,  previa  autorización  de  las  Cortes  Generales,  declarar  la
 
 guerra y hacer la paz.
 
@@ -886,11 +901,11 @@ sostenimiento de su Familia y Casa, y distribuye libremente la misma.
 
 2. El Rey nombra y releva libremente a los miembros civiles y militares de su Casa.
 
-TITULO III
+## TITULO III {#titulo-iii}
 
 De las Cortes Generales
 
-CAPÍTULO PRIMERO
+### CAPÍTULO PRIMERO {#titulo-iii-capitulo-primero}
 
 De las Cámaras
 
@@ -924,7 +939,8 @@ Artículo 68
 
 1. El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados,
 
-elegidos  por  sufragio  universal,  libre,  igual,  directo  y  secreto,  en  los  términos  que
+
+elegidos  por  sufragio  universal,  libre,  igual,  directo  y  secreto,  en  los  términos  que
 establezca la ley.
 
 2. La circunscripción electoral es la provincia. Las poblaciones de Ceuta y Melilla
@@ -988,7 +1004,8 @@ excepción de los miembros del Gobierno.
 c) Al Defensor del Pueblo.
 d) A los Magistrados, Jueces y Fiscales en activo.
 
-e) A los militares profesionales y miembros de las Fuerzas y Cuerpos de Seguridad
+
+e) A los militares profesionales y miembros de las Fuerzas y Cuerpos de Seguridad
 
 y Policía en activo.
 
@@ -1052,7 +1069,8 @@ legislativas que el Título II atribuye expresamente a las Cortes Generales.
 158.2,  se  adoptarán  por  mayoría  de  cada  una  de  las  Cámaras.  En  el  primer  caso,  el
 procedimiento  se  iniciará  por  el  Congreso,  y  en  los  otros  dos,  por  el  Senado.  En  ambos
 
-casos,  si  no  hubiera  acuerdo  entre  Senado  y  Congreso,  se  intentará  obtener  por  una
+
+casos,  si  no  hubiera  acuerdo  entre  Senado  y  Congreso,  se  intentará  obtener  por  una
 Comisión  Mixta  compuesta  de  igual  número  de  Diputados  y  Senadores.  La  Comisión
 presentará  un  texto  que  será  votado  por  ambas  Cámaras.  Si  no  se  aprueba  en  la  forma
 establecida, decidirá el Congreso por mayoría absoluta.
@@ -1111,7 +1129,8 @@ seguirán ejerciendo sus funciones hasta la constitución de las nuevas Cortes G
 
 asuntos tratados y de sus decisiones.
 
-Artículo 79
+
+Artículo 79
 
 1.  Para  adoptar  acuerdos,  las  Cámaras  deben  estar  reunidas  reglamentariamente  y
 
@@ -1130,7 +1149,7 @@ Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contra
 
 cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento.
 
-CAPÍTULO SEGUNDO
+### CAPÍTULO SEGUNDO {#titulo-iii-capitulo-segundo}
 
 De la elaboración de las leyes
 
@@ -1169,7 +1188,8 @@ que  se  refiere  el  contenido  de  la  delegación,  especificando  si  se  ci
 formulación  de  un  texto  único  o  si  se  incluye  la  de  regularizar,  aclarar  y  armonizar  los
 textos legales que han de ser refundidos.
 
-6. Sin perjuicio de la competencia propia de los Tribunales, las leyes de delegación
+
+6. Sin perjuicio de la competencia propia de los Tribunales, las leyes de delegación
 
 podrán establecer en cada caso fórmulas adicionales de control.
 
@@ -1225,7 +1245,8 @@ su defensa.
 popular para la presentación de proposiciones de ley. En todo caso se exigirán no menos de
 500.000  firmas  acreditadas.  No  procederá  dicha  iniciativa  en  materias  propias  de  ley
 
-orgánica, tributarias o de carácter internacional, ni en lo relativo a la prerrogativa de gracia.
+
+orgánica, tributarias o de carácter internacional, ni en lo relativo a la prerrogativa de gracia.
 
 Artículo 88
 
@@ -1280,7 +1301,8 @@ Gobierno, previamente autorizada por el Congreso de los Diputados.
 
 modalidades de referéndum previstas en esta Constitución.
 
-CAPITULO TERCERO
+
+### CAPITULO TERCERO {#titulo-iii-capitulo-tercero}
 
 De los Tratados Internacionales
 
@@ -1337,7 +1359,8 @@ tratados o de acuerdo con las normas generales del Derecho internacional.
 
 procedimiento previsto para su aprobación en el artículo 94.
 
-TITULO IV
+
+## TITULO IV {#titulo-iv}
 
 Del Gobierno y de la Administración
 
@@ -1389,7 +1412,8 @@ investidura, ningún candidato hubiere obtenido la confianza del Congreso, el Re
 ambas  Cámaras  y  convocará  nuevas  elecciones  con  el  refrendo  del  Presidente  del
 Congreso.
 
-Artículo 100
+
+Artículo 100
 
 Los  demás  miembros  del  Gobierno  serán  nombrados  y  separados  por  el  Rey,  a
 
@@ -1443,7 +1467,8 @@ seguridad ciudadana.
 
 estatutos de las Fuerzas y Cuerpos de seguridad.
 
-Artículo 105
+
+Artículo 105
 
 La ley regulará:
 a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y
@@ -1475,7 +1500,7 @@ El  Consejo  de  Estado  es  el  supremo  órgano  consultivo  del  Gobierno.  U
 
 orgánica regulará su composición y competencia.
 
-TITULO V
+## TITULO V {#titulo-v}
 
 De las relaciones entre el Gobierno y las Cortes Generales
 
@@ -1497,7 +1522,8 @@ Artículo 110
 
 Gobierno.
 
-2. Los miembros del Gobierno tienen acceso a las sesiones de las Cámaras y a sus
+
+2. Los miembros del Gobierno tienen acceso a las sesiones de las Cámaras y a sus
 Comisiones  y la facultad de hacerse oír en ellas,  y  podrán solicitar que informen ante las
 mismas funcionarios de sus Departamentos.
 
@@ -1554,7 +1580,8 @@ su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del S
 las Cortes Generales, que será decretada por el Rey. El decreto de disolución fijará la fecha
 de las elecciones.
 
-2.  La  propuesta  de  disolución  no  podrá  presentarse  cuando  esté  en  trámite  una
+
+2.  La  propuesta  de  disolución  no  podrá  presentarse  cuando  esté  en  trámite  una
 
 moción de censura.
 
@@ -1598,7 +1625,7 @@ serán asumidas por su Diputación Permanente.
 el  principio  de  responsabilidad  del  Gobierno  y  de  sus  agentes  reconocidos  en  la
 Constitución y en las leyes.
 
-TITULO VI
+## TITULO VI {#titulo-vi}
 
 Del Poder Judicial
 
@@ -1614,7 +1641,8 @@ jubilados, sino por alguna de las causas y con las garantías previstas en la le
 
 3.  El  ejercicio  de  la  potestad  jurisdiccional  en  todo  tipo  de  procesos,  juzgando  y
 
-haciendo  ejecutar  lo  juzgado,  corresponde  exclusivamente  a  los  Juzgados  y  Tribunales
+
+haciendo  ejecutar  lo  juzgado,  corresponde  exclusivamente  a  los  Juzgados  y  Tribunales
 determinados  por  las  leyes,  según  las  normas  de  competencia  y  procedimiento  que  las
 mismas establezcan.
 
@@ -1670,7 +1698,8 @@ disciplinario.
 
 3.  El  Consejo  General  del  Poder  Judicial  estará  integrado  por  el  Presidente  del
 
-Tribunal Supremo,  que lo presidirá,  y por veinte miembros nombrados por el  Rey por un
+
+Tribunal Supremo,  que lo presidirá,  y por veinte miembros nombrados por el  Rey por un
 periodo  de  cinco  años.  De  estos,  doce  entre  Jueces  y  Magistrados  de  todas  las  categorías
 judiciales, en los términos que establezca la ley orgánica; cuatro a propuesta del Congreso
 de los Diputados, y cuatro a propuesta del Senado, elegidos en ambos casos por mayoría de
@@ -1724,11 +1753,12 @@ podrán desempeñar otros cargos públicos, ni pertenecer a partidos políticos 
 ley  establecerá  el  sistema  y  modalidades  de  asociación  profesional  de  los  Jueces,
 Magistrados y Fiscales.
 
-2.  La ley establecerá el  régimen de incompatibilidades de los  miembros del  poder
+
+2.  La ley establecerá el  régimen de incompatibilidades de los  miembros del  poder
 
 judicial, que deberá asegurar la total independencia de los mismos.
 
-TÍTULO VII
+## TÍTULO VII {#titulo-vii}
 
 Economía y Hacienda
 
@@ -1781,7 +1811,8 @@ desarrollarán por ley.
 
 Artículo 132
 
-1.  La  ley  regulará  el  régimen  jurídico  de  los  bienes  de  dominio  público  y  de  los
+
+1.  La  ley  regulará  el  régimen  jurídico  de  los  bienes  de  dominio  público  y  de  los
 comunales,  inspirándose  en  los  principios  de  inalienabilidad,  imprescriptibilidad  e
 inembargabilidad, así como su desafectación.
 
@@ -1848,7 +1879,8 @@ Artículo 135
 
 1.  Todas  las  Administraciones  Públicas  adecuarán  sus  actuaciones  al  principio  de
 
-estabilidad presupuestaria.
+
+estabilidad presupuestaria.
 
 2.  El  Estado  y  las  Comunidades  Autónomas  no  podrán  incurrir  en  un  déficit
 estructural que supere los márgenes establecidos, en su caso, por la Unión Europea para sus
@@ -1896,7 +1928,8 @@ los objetivos de estabilidad presupuestaria.
 de los límites a que se refiere este artículo, adoptarán las disposiciones que procedan para la
 aplicación efectiva del principio de estabilidad en sus normas y decisiones presupuestarias.
 
-Artículo 136
+
+Artículo 136
 
 1. El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la
 
@@ -1922,11 +1955,11 @@ inamovilidad y estarán sometidos a las mismas incompatibilidades que los Jueces
 
 de Cuentas.
 
-TÍTULO VIII
+## TÍTULO VIII {#titulo-viii}
 
 De la Organización Territorial del Estado
 
-CAPÍTULO PRIMERO
+### CAPÍTULO PRIMERO {#titulo-viii-capitulo-primero}
 
 Principios generales
 
@@ -1957,7 +1990,8 @@ del territorio del Estado.
 obstaculicen  la  libertad  de  circulación  y  establecimiento  de  las  personas  y  la  libre
 circulación de bienes en todo el territorio español.
 
-CAPÍTULO SEGUNDO
+
+### CAPÍTULO SEGUNDO {#titulo-viii-capitulo-segundo}
 
 De la Administración Local
 
@@ -1997,7 +2031,7 @@ de  las  funciones  que  la  ley  atribuye  a  las  Corporaciones  respectivas  
 fundamentalmente  de  tributos  propios  y  de  participación  en  los  del  Estado  y  de  las
 Comunidades Autónomas.
 
-CAPÍTULO TERCERO
+### CAPÍTULO TERCERO {#titulo-viii-capitulo-tercero}
 
 De las Comunidades Autónomas
 
@@ -2012,7 +2046,8 @@ económicas comunes, los territorios insulares y las provincias con entidad regi
 podrán acceder a su autogobierno y constituirse en Comunidades Autónomas con arreglo a
 lo previsto en este Título y en los respectivos Estatutos.
 
-2.  La  iniciativa  del  proceso  autonómico  corresponde  a  todas  las  Diputaciones
+
+2.  La  iniciativa  del  proceso  autonómico  corresponde  a  todas  las  Diputaciones
 interesadas  o  al  órgano  interinsular  correspondiente  y  a  las  dos  terceras  partes  de  los
 municipios  cuya  población  represente,  al  menos,  la  mayoría  del  censo  electoral  de  cada
 provincia o isla.
@@ -2073,7 +2108,8 @@ histórica.
 b) La delimitación de su territorio.
 c) La denominación, organización y sede de las instituciones autónomas propias.
 
-d) Las competencias asumidas dentro del marco establecido en la Constitución y las
+
+d) Las competencias asumidas dentro del marco establecido en la Constitución y las
 
 bases para el traspaso de los servicios correspondientes a las mismas.
 
@@ -2140,7 +2176,8 @@ orgánica.
 Comunidades  Autónomas  podrán  ampliar  sucesivamente  sus  competencias  dentro  del
 marco establecido en el artículo 149.
 
-Artículo 149
+
+Artículo 149
 
 1. El Estado tiene competencia exclusiva sobre las siguientes materias:
 1.ª La regulación de las condiciones básicas que garanticen la igualdad de todos los
@@ -2202,7 +2239,8 @@ sector se atribuyan a las Comunidades Autónomas.
 marítimas;  puertos  de  interés  general;  aeropuertos  de  interés  general;  control  del  espacio
 aéreo, tránsito y transporte aéreo, servicio meteorológico y matriculación de aeronaves.
 
-21.ª Ferrocarriles y transportes terrestres que transcurran por el territorio de más de
+
+21.ª Ferrocarriles y transportes terrestres que transcurran por el territorio de más de
 una  Comunidad  Autónoma;  régimen  general  de  comunicaciones;  tráfico  y  circulación  de
 vehículos  a  motor;  correos  y
 telecomunicaciones;  cables  aéreos,  submarinos  y
@@ -2263,7 +2301,8 @@ Artículo 150
 1. Las Cortes Generales, en materias de competencia estatal, podrán atribuir a todas
 o  a  alguna  de  las  Comunidades  Autónomas  la  facultad  de  dictar,  para  sí  mismas,  normas
 
-legislativas en el marco de los principios, bases y directrices fijados por una ley estatal. Sin
+
+legislativas en el marco de los principios, bases y directrices fijados por una ley estatal. Sin
 perjuicio  de  la  competencia  de  los  Tribunales,  en  cada  ley  marco  se  establecerá  la
 modalidad  del  control  de  las  Cortes  Generales  sobre  estas  normas  legislativas  de  las
 Comunidades Autónomas.
@@ -2321,7 +2360,8 @@ proyecto  de  Estatuto  será  tramitado  como  proyecto  de  ley  ante  las  Co
 texto aprobado por éstas será sometido a referéndum del cuerpo electoral de las provincias
 comprendidas en el ámbito territorial del proyectado Estatuto. En caso de ser aprobado por
 
-la mayoría de los votos válidamente emitidos en cada provincia, procederá su promulgación
+
+la mayoría de los votos válidamente emitidos en cada provincia, procederá su promulgación
 en los  términos del  párrafo anterior. 3. En los  casos  de los  párrafos 4.º y  5.º del  apartado
 anterior, la no aprobación del proyecto de Estatuto por una o varias provincias no impedirá
 la constitución entre las restantes de la Comunidad Autónoma proyectada, en la forma que
@@ -2382,7 +2422,8 @@ Artículo 154
 
 Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el
 
-territorio  de  la  Comunidad  Autónoma  y  la  coordinará,  cuando  proceda,  con  la
+
+territorio  de  la  Comunidad  Autónoma  y  la  coordinará,  cuando  proceda,  con  la
 administración propia de la Comunidad.
 
 Artículo 155
@@ -2438,12 +2479,13 @@ Comunidades  Autónomas  en  función  del  volumen  de  los  servicios  y  acti
 que  hayan  asumido  y  de  la  garantía  de  un  nivel  mínimo  en  la  prestación  de  los  servicios
 públicos fundamentales en todo el territorio español.
 
-2. Con el fin de corregir desequilibrios económicos interterritoriales y hacer efectivo
+
+2. Con el fin de corregir desequilibrios económicos interterritoriales y hacer efectivo
 el principio de solidaridad, se constituirá un Fondo de Compensación con destino a gastos
 de  inversión,  cuyos  recursos  serán  distribuidos  por  las  Cortes  Generales  entre  las
 Comunidades Autónomas y provincias, en su caso.
 
-TITULO IX
+## TITULO IX {#titulo-ix}
 
 Del Tribunal Constitucional
 
@@ -2507,7 +2549,8 @@ artículo 53, 2, de esta Constitución, en los casos y formas que la ley estable
 
 c) De los conflictos de competencia entre el Estado y las Comunidades Autónomas
 
-o de los de éstas entre sí.
+
+o de los de éstas entre sí.
 
 d) De las demás materias que le atribuyan la Constitución o las leyes orgánicas.
 2. El Gobierno podrá impugnar ante el Tribunal Constitucional las disposiciones y
@@ -2555,7 +2598,8 @@ Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el es
 de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las
 acciones.
 
-TITULO X
+
+## TITULO X {#titulo-x}
 
 De la reforma constitucional
 
@@ -2609,7 +2653,8 @@ La actualización general de dicho régimen foral se llevará a cabo, en su caso
 
 marco de la Constitución y de los Estatutos de Autonomía.
 
-Segunda.
+
+Segunda.
 La declaración de mayoría de edad contenida en el artículo 12 de esta Constitución
 no perjudica las situaciones amparadas por los derechos forales en el ámbito del Derecho
 privado.
@@ -2655,7 +2700,8 @@ de la Constitución, la iniciativa corresponde al Órgano Foral competente, el c
 su  decisión  por  mayoría  de  los  miembros  que  lo  componen.  Para  la  validez  de  dicha
 iniciativa será preciso, además, que la decisión del Órgano Foral competente sea ratificada
 
-por  referéndum  expresamente  convocado  al  efecto,  y  aprobado  por  mayoría  de  los  votos
+
+por  referéndum  expresamente  convocado  al  efecto,  y  aprobado  por  mayoría  de  los  votos
 válidos emitidos.
 
 2. Si la iniciativa no prosperase, solamente se podrá reproducir la misma en distinto
@@ -2714,7 +2760,8 @@ las elecciones las normas vigentes con anterioridad, con las solas excepciones d
 referente a inelegibilidades e incompatibilidades se aplicará directamente lo previsto en el
 inciso segundo de la letra b) del apartado 1 del artículo 70 de la Constitución, así como lo
 
-dispuesto en la misma respecto a la edad para el voto y lo establecido en el artículo 69,3.
+
+dispuesto en la misma respecto a la edad para el voto y lo establecido en el artículo 69,3.
 
 Novena.
 A  los  tres  años  de  la  elección  por  vez  primera  de  los  miembros  del  Tribunal
