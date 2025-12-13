@@ -272,49 +272,6 @@
       "relevancia": "media",
       "fecha_actualizacion": "2025-12-08",
       "archivo": "09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
-    },
-    {
-      "id": "uah-tema-010",
-      "tema_numero": 10,
-      "titulo": "Misión, Visión y Estructura del Servicio de Biblioteca de la UAH",
-      "tipo": "PDF",
-      "categoria": "Resúmenes",
-      "bloque": "Normativa del Servicio de Biblioteca UAH (Temas 10, 17, 18)",
-      "descripcion": "La Biblioteca Universitaria de Alcalá define su misión, visión y valores fundamentales en documentos oficiales. Los Estatutos de la UAH (Decreto 221/2003, mod. 18/2012) recogen las funciones básicas del Servicio de Biblioteca en sus artículos 215-218, y el propio Reglamento de la Biblioteca (2005) detalla su estructura organizativa.",
-      "contenido_especifico": "La Biblioteca elaboró una Guía de Cultura y Valores (documento interno) alineada con la estrategia institucional, y cuenta con una Carta de Servicios y planes estratégicos que refuerzan su misión de apoyo al estudio, la docencia, la investigación y la formación continua. Estos documentos describen la misión (garantizar el acceso a la información y gestionar los recursos documentales para la comunidad universitaria), la visión (orientación a la excelencia en servicios bibliotecarios) y los valores (calidad, cooperación, innovación, etc.) de la Biblioteca de la UAH",
-      "temas_relacionados": ["Biblioteca UAH", "Misión y Visión", "Estructura Organizativa", "Servicios Bibliotecarios"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-10-mision-vision-estructura-biblioteca-uah.pdf"
-    },
-    {
-      "id": "uah-tema-017",
-      "tema_numero": 17,
-      "titulo": "Carta de Servicios de la Biblioteca de la UAH",
-      "tipo": "PDF",
-      "categoria": "Resúmenes",
-      "bloque": "Normativa del Servicio de Biblioteca UAH (Temas 10, 17, 18)",
-      "descripcion": "Documento institucional (Temas 17 y 21) que recoge los servicios ofrecidos por la biblioteca y los compromisos de calidad asumidos con los usuarios. Última edición: La Biblioteca de la UAH elaboró su Carta de Servicios en el marco de la obtención de certificados de calidad (se menciona en memorias EFQM de la biblioteca).",
-      "contenido_especifico": "En ella se describen estándares como horarios de atención, tiempo máximo de respuesta a consultas, nivel de satisfacción objetivo, etc., para servicios como préstamo, información bibliográfica, formación de usuarios, acceso a recursos electrónicos, reprografía, etc. Documento oficial de la UAH, de naturaleza informativa y de compromiso; disponible en la web de la biblioteca y como anexo en memorias de calidad",
-      "temas_relacionados": ["Carta de Servicios", "Calidad", "Servicios Bibliotecarios", "Compromisos UAH"],
-      "relevancia": "alta",
-      "nota": "La Carta de Servicios no está publicada en BOE/BOCM al no ser una norma jurídica, pero es un documento oficial interno validado por la UAH",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-17-carta-servicios-biblioteca-uah.pdf"
-    },
-    {
-      "id": "uah-tema-018",
-      "tema_numero": 18,
-      "titulo": "Normativa de Préstamo de la Biblioteca de la UAH",
-      "tipo": "PDF",
-      "categoria": "Resúmenes",
-      "bloque": "Normativa del Servicio de Biblioteca UAH (Temas 10, 17, 18)",
-      "descripcion": "Norma interna que regula el servicio de préstamo de fondos bibliográficos en la UAH (Tema 18). Fue aprobada en Consejo de Gobierno el 29 de noviembre de 2007 y modificada posteriormente (CG de 12/12/2013 y de 29/04/2014). El texto consolidado (4 págs., Boletín Oficial UAH Año IX nº4, abril 2014) incluye: condiciones generales de uso del préstamo (usuarios con carné UAH o de biblioteca), tipos de materiales prestables y excepciones (revistas, obras de referencia, fondo antiguo, etc. quedan excluidos), plazos y cupos según tipología de usuario.",
-      "contenido_especifico": "Por ejemplo, PDI: hasta 25 obras por 2 meses, PAS y estudiantes: hasta 5 obras por 15 días, con renovaciones posibles. También incluye reservas, sanciones por retraso o pérdida (bloqueos de préstamo). Fuente: BOUAH, abril 2014, texto completo. Esta normativa se cita explícitamente en las políticas de servicio y se aplica ante retrasos en devoluciones. Además, existen Normas de uso de las salas de trabajo en grupo y Normas de uso de salas para PDI y posgrado",
-      "temas_relacionados": ["Préstamo Bibliotecario", "Normativa UAH", "Servicios al Usuario", "Salas de Estudio"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-18-normativa-prestamo-biblioteca-uah.pdf"
     }
   ]
 }
