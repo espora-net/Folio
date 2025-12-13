@@ -1,0 +1,62 @@
+name: Generar Markdown desde PDFs
+
+on:
+  workflow_dispatch:
+    inputs:
+      ruta_pdf:
+        description: "Directorio donde buscar PDFs (por defecto docs/)"
+        required: false
+        default: "docs"
+
+jobs:
+  convertir:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar markitdown
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --no-cache-dir markitdown==0.1.4
+
+      - name: Convertir PDFs a Markdown
+        shell: bash
+        env:
+          PDF_ROOT: ${{ github.event.inputs.ruta_pdf }}
+        run: |
+          set -euo pipefail
+
+          raiz="${PDF_ROOT:-docs}"
+          raiz="${raiz%/}"
+          if [ -z "$raiz" ]; then
+            raiz="."
+          fi
+          mkdir -p markdown
+
+          mapfile -d '' pdf_files < <(find "$raiz" -type f -name '*.pdf' -print0 || true)
+
+          if [ ${#pdf_files[@]} -eq 0 ]; then
+            echo "No se encontraron archivos PDF en ${raiz}." | tee markdown/README.md
+            exit 0
+          fi
+
+          for file in "${pdf_files[@]}"; do
+            relative="${file#${raiz}/}"
+            output="markdown/${relative%.pdf}.md"
+            mkdir -p "$(dirname "$output")"
+            echo "Convirtiendo $file a $output"
+            markitdown "$file" -o "$output"
+          done
+
+      - name: Publicar artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-desde-pdfs
+          path: markdown
