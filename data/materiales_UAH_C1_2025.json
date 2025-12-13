@@ -9,6 +9,75 @@
     "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
   },
   "total_temas": 22,
+  "cobertura_temas": [
+    {
+      "materialId": "uah-tema-001",
+      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"]
+    },
+    {
+      "materialId": "uah-tema-002",
+      "cobertura_convocatoria": [
+        "#titulo-i-objeto-y-ambito-de-aplicacion",
+        "#capitulo-i-clases-de-personal",
+        "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos",
+        "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio",
+        "#capitulo-iii-provision-de-puestos-de-trabajo",
+        "#titulo-vii-regimen-disciplinario"
+      ]
+    },
+    {
+      "materialId": "uah-tema-003",
+      "cobertura_convocatoria": [
+        "#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades",
+        "#titulo-ix-capitulo-i",
+        "#titulo-ix-capitulo-ii",
+        "#titulo-ix-capitulo-v"
+      ]
+    },
+    {
+      "materialId": "uah-tema-004",
+      "cobertura_convocatoria": [
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-iii"
+      ]
+    },
+    {
+      "materialId": "uah-tema-005",
+      "cobertura_convocatoria": [
+        "#titulo-i-capitulo-iv",
+        "#titulo-i-capitulo-vi"
+      ]
+    },
+    {
+      "materialId": "uah-tema-006",
+      "cobertura_convocatoria": ["#titulo-ii"]
+    },
+    {
+      "materialId": "uah-plan-igualdad-2023-2026",
+      "cobertura_convocatoria": ["#plan-igualdad-uah-2023-2026"]
+    },
+    {
+      "materialId": "uah-tema-007",
+      "cobertura_convocatoria": [
+        "#politica-de-prevencion",
+        "#organizacion-de-la-prevencion",
+        "#responsabilidades-y-funciones",
+        "#planificacion-y-seguimiento"
+      ]
+    },
+    {
+      "materialId": "uah-tema-008",
+      "cobertura_convocatoria": ["#codigo-etico-general-uah"]
+    },
+    {
+      "materialId": "uah-tema-009",
+      "cobertura_convocatoria": [
+        "#normas-de-convivencia-uah",
+        "#modificacion-2024"
+      ]
+    }
+  ],
   "materiales": [
     {
       "id": "uah-tema-001",

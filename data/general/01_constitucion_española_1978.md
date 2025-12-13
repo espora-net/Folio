@@ -20,6 +20,8 @@ En consecuencia, las Cortes aprueban y el pueblo español ratifica la siguiente
 
 ## CONSTITUCIÓN
 
+## TÍTULO PRELIMINAR {#titulo-preliminar}
+
 **Artículo 1**
 
 1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.
