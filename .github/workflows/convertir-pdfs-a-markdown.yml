@@ -8,6 +8,10 @@ on:
         required: false
         default: "docs"
 
+permissions:
+  contents: read
+  actions: write
+
 jobs:
   convertir:
     runs-on: ubuntu-latest
@@ -31,16 +35,32 @@ jobs:
         env:
           PDF_ROOT: ${{ github.event.inputs.ruta_pdf }}
         run: |
-          set -euo pipefail
+          set -u
+          set -o pipefail
 
           raiz="${PDF_ROOT:-docs}"
           raiz="${raiz%/}"
           if [ -z "$raiz" ]; then
             raiz="."
           fi
+          raiz_con_slash="${raiz}/"
           mkdir -p markdown
+          if [ ! -d "$raiz" ]; then
+            echo "El directorio ${raiz} no existe." | tee markdown/README.md
+            exit 0
+          fi
 
-          mapfile -d '' pdf_files < <(find "$raiz" -type f -name '*.pdf' -print0 || true)
+          listado_pdf="$(mktemp)"
+          if ! find "$raiz" -type f -name '*.pdf' -print0 > "$listado_pdf"; then
+            echo "Error al buscar archivos PDF en ${raiz}." >&2
+            rm -f "$listado_pdf"
+            exit 1
+          fi
+          pdf_files=()
+          if [ -s "$listado_pdf" ]; then
+            mapfile -d '' pdf_files < "$listado_pdf"
+          fi
+          rm -f "$listado_pdf"
 
           if [ ${#pdf_files[@]} -eq 0 ]; then
             echo "No se encontraron archivos PDF en ${raiz}." | tee markdown/README.md
@@ -48,11 +68,17 @@ jobs:
           fi
 
           for file in "${pdf_files[@]}"; do
-            relative="${file#${raiz}/}"
+            relative="${file#"$raiz_con_slash"}"
+            relative="${relative#./}"
             output="markdown/${relative%.pdf}.md"
             mkdir -p "$(dirname "$output")"
             echo "Convirtiendo $file a $output"
-            markitdown "$file" -o "$output"
+            tmp_error="$(mktemp)"
+            if ! markitdown "$file" > "$output" 2>"$tmp_error"; then
+              echo "Error al convertir $file; se continúa con el siguiente." >&2
+              cat "$tmp_error" >&2
+            fi
+            rm -f "$tmp_error"
           done
 
       - name: Publicar artefacto
