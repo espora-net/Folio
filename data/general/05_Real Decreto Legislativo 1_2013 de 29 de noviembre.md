@@ -1,442 +1,351 @@
 LEGISLACIÓN CONSOLIDADA Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social.
 
-Ministerio de Sanidad, Servicios Sociales e Igualdad «BOE» núm. 289, de 03 de diciembre de 2013 Referencia: BOE-A-2013-12632 ÍNDICE Preámbulo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Ministerio de Sanidad, Servicios Sociales e Igualdad «BOE» núm. 289, de 03 de diciembre de 2013 Referencia: BOE-A-2013-12632
+ÍNDICE
+Preámbulo
 
-Artículos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Artículos
 
-Artículo único. Aprobación del Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Artículo único. Aprobación del Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social
 
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones adicionales
 
-Disposición adicional única. Remisiones normativas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional única. Remisiones normativas
 
-Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones derogatorias
 
-Disposición derogatoria única. Derogación normativa.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición derogatoria única. Derogación normativa
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones finales
 
-Disposición final única. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final única. Entrada en vigor
 
-## TÍTULO PRELIMINAR. Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-preliminar-disposiciones-generales}
+## TÍTULO PRELIMINAR. Disposiciones generales {#titulo-preliminar-disposiciones-generales}
 
-### CAPÍTULO I. Objeto, definiciones y principios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-objeto-definiciones-y-principios}
+### CAPÍTULO I. Objeto, definiciones y principios {#capitulo-i-objeto-definiciones-y-principios}
 
-**Artículo 1. Objeto de esta ley. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 1. Objeto de esta ley **
 
-**Artículo 2. Definiciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 2. Definiciones **
 
 **Artículo 3. Principios.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO II. Ámbito de aplicación {#capitulo-ii-ambito-de-aplicacion}
 
-### CAPÍTULO II. Ámbito de aplicación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-ambito-de-aplicacion}
-
-**Artículo 4. Titulares de los derechos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-8 9 9 9 9 9 9 10 10 10 10 10 10 12 12 12 Página 1 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+**Artículo 4. Titulares de los derechos **
 
 **Artículo 5. Ámbito de aplicación en materia de igualdad de oportunidades, no discriminación y**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 accesibilidad universal.
 
-### CAPÍTULO III. Autonomía de las personas con discapacidad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iii-autonomia-de-las-personas-con-discapacidad}
+### CAPÍTULO III. Autonomía de las personas con discapacidad {#capitulo-iii-autonomia-de-las-personas-con-discapacidad}
 
-**Artículo 6. Respeto a la autonomía de las personas con discapacidad. . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 6. Respeto a la autonomía de las personas con discapacidad **
 
-## TÍTULO I. Derechos y obligaciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-i-derechos-y-obligaciones}
+## TÍTULO I. Derechos y obligaciones {#titulo-i-derechos-y-obligaciones}
 
-**Artículo 7. Derecho a la igualdad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 7. Derecho a la igualdad **
 
-### CAPÍTULO I. Sistema de prestaciones sociales y económicas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-sistema-de-prestaciones-sociales-y-economicas}
+### CAPÍTULO I. Sistema de prestaciones sociales y económicas {#capitulo-i-sistema-de-prestaciones-sociales-y-economicas}
 
-**Artículo 8. Sistema especial de prestaciones sociales y económicas para las personas con**
+**Artículo 8. Sistema especial de prestaciones sociales y económicas para las personas con** discapacidad
 
-discapacidad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 9. Prestación farmacéutica del sistema especial de prestaciones sociales y económicas para** las personas con discapacidad
 
-**Artículo 9. Prestación farmacéutica del sistema especial de prestaciones sociales y económicas para**
+### CAPÍTULO II. Derecho a la protección de la salud {#capitulo-ii-derecho-a-la-proteccion-de-la-salud}
 
-las personas con discapacidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### CAPÍTULO II. Derecho a la protección de la salud . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-derecho-a-la-proteccion-de-la-salud}
-
-**Artículo 10. Derecho a la protección de la salud. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 10. Derecho a la protección de la salud **
 
 **Artículo 11. Prevención de deficiencias y de intensificación de discapacidades.**
 
-. . . . . . . . . . . . . . . .
+**Artículo 12. Equipos multiprofesionales de atención a la discapacidad **
 
-**Artículo 12. Equipos multiprofesionales de atención a la discapacidad. . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO III. De la atención integral {#capitulo-iii-de-la-atencion-integral}
 
-### CAPÍTULO III. De la atención integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iii-de-la-atencion-integral}
+**Artículo 13. Atención integral **
 
-**Artículo 13. Atención integral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 14. Habilitación o rehabilitación médico-funcional **
 
-**Artículo 14. Habilitación o rehabilitación médico-funcional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 15. Atención, tratamiento y orientación psicológica **
 
-**Artículo 15. Atención, tratamiento y orientación psicológica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 16. Educación **
 
-**Artículo 16. Educación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 17. Apoyo para la actividad profesional **
 
-**Artículo 17. Apoyo para la actividad profesional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO IV. Derecho a la educación {#capitulo-iv-derecho-a-la-educacion}
 
-### CAPÍTULO IV. Derecho a la educación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iv-derecho-a-la-educacion}
-
-**Artículo 18. Contenido del derecho. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 18. Contenido del derecho **
 
 **Artículo 19. Gratuidad de la enseñanza.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 20. Garantías adicionales **
 
-**Artículo 20. Garantías adicionales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 21. Valoración de las necesidades educativas **
 
-**Artículo 21. Valoración de las necesidades educativas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO V. Derecho a la vida independiente {#capitulo-v-derecho-a-la-vida-independiente}
 
-### CAPÍTULO V. Derecho a la vida independiente . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-v-derecho-a-la-vida-independiente}
-
-#### Sección 1.ª Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-disposiciones-generales}
+#### Sección 1.ª Disposiciones generales {#seccion-1-a-disposiciones-generales}
 
 **Artículo 22. Accesibilidad.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 23. Condiciones básicas de accesibilidad y no discriminación **
 
-**Artículo 23. Condiciones básicas de accesibilidad y no discriminación. . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 24. Condiciones básicas de accesibilidad y no discriminación en el ámbito de los productos y** servicios relacionados con la sociedad de la información y medios de comunicación social
 
-**Artículo 24. Condiciones básicas de accesibilidad y no discriminación en el ámbito de los productos y**
+**Artículo 25. Condiciones básicas de accesibilidad y no discriminación en el ámbito de los espacios** públicos urbanizados y edificación
 
-servicios relacionados con la sociedad de la información y medios de comunicación social. . . . . . . .
-
-**Artículo 25. Condiciones básicas de accesibilidad y no discriminación en el ámbito de los espacios**
-
-públicos urbanizados y edificación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-13 13 13 13 13 14 14 14 14 14 15 15 16 16 16 16 17 17 18 18 18 18 18 19 19 19 19 20 20 Página 2 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
-**Artículo 26. Normativa técnica de edificación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 26. Normativa técnica de edificación **
 
 **Artículo 27. Condiciones básicas de accesibilidad y no discriminación en el ámbito de los medios de**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 transporte.
 
 **Artículo 28. Condiciones básicas de accesibilidad y no discriminación en el ámbito de las relaciones**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 con las administraciones públicas.
 
 **Artículo 29. Condiciones básicas de accesibilidad y no discriminación para el acceso y utilización de los**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 bienes y servicios a disposición del público.
 
 **Artículo 29 bis. Condiciones básicas de accesibilidad cognitiva.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 2.ª Medidas de acción positiva {#seccion-2-a-medidas-de-accion-positiva}
 
-#### Sección 2.ª Medidas de acción positiva . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-medidas-de-accion-positiva}
+**Artículo 30. Medidas para facilitar el estacionamiento de vehículos **
 
-**Artículo 30. Medidas para facilitar el estacionamiento de vehículos. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 31. Subsidio de movilidad y compensación por gastos de transporte **
 
-**Artículo 31. Subsidio de movilidad y compensación por gastos de transporte.. . . . . . . . . . . . . . . . . .**
-
-**Artículo 32. Reserva de viviendas para personas con discapacidad y condiciones de accesibilidad.. . . .**
+**Artículo 32. Reserva de viviendas para personas con discapacidad y condiciones de accesibilidad **
 
 **Artículo 33. Concepto de rehabilitación de la vivienda.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 34. Otras medidas públicas de accesibilidad **
 
-**Artículo 34. Otras medidas públicas de accesibilidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO VI. Derecho al trabajo {#capitulo-vi-derecho-al-trabajo}
 
-### CAPÍTULO VI. Derecho al trabajo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-vi-derecho-al-trabajo}
+#### Sección 1.ª Disposiciones generales {#seccion-1-a-disposiciones-generales}
 
-#### Sección 1.ª Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-disposiciones-generales}
+**Artículo 35. Garantías del derecho al trabajo **
 
-**Artículo 35. Garantías del derecho al trabajo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 36. Igualdad de trato **
 
-**Artículo 36. Igualdad de trato. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 37. Tipos de empleo de las personas con discapacidad **
 
-**Artículo 37. Tipos de empleo de las personas con discapacidad. . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 38. Orientación, colocación y registro de trabajadores con discapacidad para su inclusión** laboral
 
-**Artículo 38. Orientación, colocación y registro de trabajadores con discapacidad para su inclusión**
+**Artículo 39. Ayudas a la generación de empleo de las personas con discapacidad **
 
-laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 2.ª Empleo ordinario {#seccion-2-a-empleo-ordinario}
 
-**Artículo 39. Ayudas a la generación de empleo de las personas con discapacidad. . . . . . . . . . . . . . .**
+**Artículo 40. Adopción de medidas para prevenir o compensar las desventajas ocasionadas por la** discapacidad como garantía de la plena igualdad en el trabajo
 
-#### Sección 2.ª Empleo ordinario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-empleo-ordinario}
+**Artículo 41. Servicios de empleo con apoyo **
 
-**Artículo 40. Adopción de medidas para prevenir o compensar las desventajas ocasionadas por la**
+**Artículo 42. Cuota de reserva de puestos de trabajo para personas con discapacidad **
 
-discapacidad como garantía de la plena igualdad en el trabajo. . . . . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 3.ª Empleo protegido {#seccion-3-a-empleo-protegido}
 
-**Artículo 41. Servicios de empleo con apoyo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 43. Centros especiales de empleo para la inclusión laboral de las personas con discapacidad.**
 
-**Artículo 42. Cuota de reserva de puestos de trabajo para personas con discapacidad. . . . . . . . . . . . .**
+**Artículo 44. Compensación económica para los centros especiales de empleo para la inclusión laboral** de las personas con discapacidad
 
-#### Sección 3.ª Empleo protegido . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-3-a-empleo-protegido}
+**Artículo 45. Creación de centros especiales de empleo para la inclusión laboral de las personas con** discapacidad
 
-**Artículo 43. Centros especiales de empleo para la inclusión laboral de las personas con discapacidad. .**
+**Artículo 46. Enclaves laborales **
 
-**Artículo 44. Compensación económica para los centros especiales de empleo para la inclusión laboral**
+#### Sección 4.ª Empleo autónomo {#seccion-4-a-empleo-autonomo}
 
-de las personas con discapacidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 47. Empleo autónomo **
 
-**Artículo 45. Creación de centros especiales de empleo para la inclusión laboral de las personas con**
-
-discapacidad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 46. Enclaves laborales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-#### Sección 4.ª Empleo autónomo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-4-a-empleo-autonomo}
-
-20 20 21 21 21 22 22 22 22 22 22 23 23 23 23 23 24 24 24 24 25 25 25 25 26 26 26 26 Página 3 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
-**Artículo 47. Empleo autónomo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-### CAPÍTULO VII. Derecho a la protección social . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-vii-derecho-a-la-proteccion-social}
+### CAPÍTULO VII. Derecho a la protección social {#capitulo-vii-derecho-a-la-proteccion-social}
 
 **Artículo 48. Derecho a la protección social.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 49. Criterios de aplicación de la protección social **
 
-**Artículo 49. Criterios de aplicación de la protección social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 50. Contenido del derecho a la protección social **
 
-**Artículo 50. Contenido del derecho a la protección social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 51. Clases de servicios sociales **
 
-**Artículo 51. Clases de servicios sociales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 52. Centros ocupacionales **
 
-**Artículo 52. Centros ocupacionales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO VIII. Derecho de participación en los asuntos públicos {#capitulo-viii-derecho-de-participacion-en-los-asuntos-publicos}
 
-### CAPÍTULO VIII. Derecho de participación en los asuntos públicos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-viii-derecho-de-participacion-en-los-asuntos-publicos}
+**Artículo 53. Derecho de participación en la vida política **
 
-**Artículo 53. Derecho de participación en la vida política. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 54. Derecho de participación en la vida pública **
 
-**Artículo 54. Derecho de participación en la vida pública. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 55. Consejo Nacional de la Discapacidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 55. Consejo Nacional de la Discapacidad **
 
 **Artículo 56. Oficina de Atención a la Discapacidad.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO IX. Obligaciones de los poderes públicos {#capitulo-ix-obligaciones-de-los-poderes-publicos}
 
-### CAPÍTULO IX. Obligaciones de los poderes públicos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ix-obligaciones-de-los-poderes-publicos}
+#### Sección 1.ª Disposiciones generales {#seccion-1-a-disposiciones-generales}
 
-#### Sección 1.ª Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-disposiciones-generales}
+**Artículo 57. Prestación de servicios **
 
-**Artículo 57. Prestación de servicios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 58. Financiación **
 
-**Artículo 58. Financiación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 59. Toma de conciencia social **
 
-**Artículo 59. Toma de conciencia social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+#### Sección 2.ª Del personal de los distintos servicios de atención a las personas con discapacidad {#seccion-2-a-del-personal-de-los-distintos-servicios-de-atencion-a-las-personas-con-discapacidad}
 
-#### Sección 2.ª Del personal de los distintos servicios de atención a las personas con discapacidad . . . . . . . . . {#seccion-2-a-del-personal-de-los-distintos-servicios-de-atencion-a-las-personas-con-discapacidad}
+**Artículo 60. Personal especializado **
 
-**Artículo 60. Personal especializado. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 61. Formación del personal **
 
-**Artículo 61. Formación del personal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 62. Voluntariado **
 
-**Artículo 62. Voluntariado. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO II. Igualdad de oportunidades y no discriminación {#titulo-ii-igualdad-de-oportunidades-y-no-discriminacion}
 
-## TÍTULO II. Igualdad de oportunidades y no discriminación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-ii-igualdad-de-oportunidades-y-no-discriminacion}
+### CAPÍTULO I. Derecho a la igualdad de oportunidades {#capitulo-i-derecho-a-la-igualdad-de-oportunidades}
 
-### CAPÍTULO I. Derecho a la igualdad de oportunidades . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-derecho-a-la-igualdad-de-oportunidades}
+**Artículo 63. Vulneración del derecho a la igualdad de oportunidades **
 
-**Artículo 63. Vulneración del derecho a la igualdad de oportunidades. . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 64. Garantías del derecho a la igualdad de oportunidades **
 
-**Artículo 64. Garantías del derecho a la igualdad de oportunidades. . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 65. Medidas contra la discriminación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 65. Medidas contra la discriminación **
 
 **Artículo 66. Contenido de las medidas contra la discriminación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . .
-
 **Artículo 67. Medidas de acción positiva.**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 **Artículo 68. Contenido de las medidas de acción positiva y medidas de igualdad de oportunidades.**
 
-. . .
+### CAPÍTULO II. Medidas de fomento y defensa {#capitulo-ii-medidas-de-fomento-y-defensa}
 
-### CAPÍTULO II. Medidas de fomento y defensa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-medidas-de-fomento-y-defensa}
+**Artículo 69. Medidas de fomento y defensa **
 
-**Artículo 69. Medidas de fomento y defensa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-26 27 27 27 27 27 28 28 28 29 29 29 29 29 29 29 30 30 30 30 30 31 31 31 31 31 31 32 32 32 32 Página 4 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
-#### Sección 1.ª Medidas de fomento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-medidas-de-fomento}
+#### Sección 1.ª Medidas de fomento {#seccion-1-a-medidas-de-fomento}
 
 **Artículo 70. Medidas para fomentar la calidad.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 71. Medidas de innovación y desarrollo de normas técnicas **
 
-**Artículo 71. Medidas de innovación y desarrollo de normas técnicas. . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 72. Iniciativa privada **
 
-**Artículo 72. Iniciativa privada. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 73. Observatorio Estatal de la Discapacidad **
 
-**Artículo 73. Observatorio Estatal de la Discapacidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+#### Sección 2.ª Medidas de defensa {#seccion-2-a-medidas-de-defensa}
 
-#### Sección 2.ª Medidas de defensa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-medidas-de-defensa}
+**Artículo 74. Arbitraje **
 
-**Artículo 74. Arbitraje.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 75. Tutela judicial y protección contra las represalias **
 
-**Artículo 75. Tutela judicial y protección contra las represalias.. . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 76. Legitimación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 76. Legitimación **
 
 **Artículo 77. Criterios especiales sobre la prueba de hechos relevantes.**
 
-. . . . . . . . . . . . . . . . . . . . .
+## TÍTULO III. Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad {#titulo-iii-infracciones-y-sanciones-en-materia-de-igualdad-de-oportunidades-no-discriminacion-y-accesibilidad} universal de las personas con discapacidad
 
-## TÍTULO III. Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad {#titulo-iii-infracciones-y-sanciones-en-materia-de-igualdad-de-oportunidades-no-discriminacion-y-accesibilidad}
-
-universal de las personas con discapacidad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### CAPÍTULO I. Régimen común de infracciones y sanciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-regimen-comun-de-infracciones-y-sanciones}
+### CAPÍTULO I. Régimen común de infracciones y sanciones {#capitulo-i-regimen-comun-de-infracciones-y-sanciones}
 
 **Artículo 78. Ámbito.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 79. Sujetos **
 
-**Artículo 79. Sujetos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+#### Sección 1.ª Infracciones {#seccion-1-a-infracciones}
 
-#### Sección 1.ª Infracciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-infracciones}
+**Artículo 80. Objeto de las infracciones **
 
-**Artículo 80. Objeto de las infracciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 81. Infracciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 81. Infracciones **
 
 **Artículo 82. Prescripción de las infracciones.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 2.ª Sanciones {#seccion-2-a-sanciones}
 
-#### Sección 2.ª Sanciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-sanciones}
+**Artículo 83. Sanciones **
 
-**Artículo 83. Sanciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 84. Criterios de graduación de las sanciones **
 
-**Artículo 84. Criterios de graduación de las sanciones.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 85. Sanciones accesorias **
 
-**Artículo 85. Sanciones accesorias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 86. Consecuencias del incumplimiento en materia de acceso a bienes y servicios **
 
-**Artículo 86. Consecuencias del incumplimiento en materia de acceso a bienes y servicios. . . . . . . . . .**
-
-**Artículo 87. Prescripción de las sanciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 87. Prescripción de las sanciones **
 
 **Artículo 88. Cumplimiento de las obligaciones establecidas en esta ley y en la legislación autonómica.**
 
-.
+#### Sección 3.ª Garantías del régimen sancionador {#seccion-3-a-garantias-del-regimen-sancionador}
 
-#### Sección 3.ª Garantías del régimen sancionador . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-3-a-garantias-del-regimen-sancionador}
+**Artículo 89. Legitimación **
 
-**Artículo 89. Legitimación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 90. Garantía de accesibilidad de los procedimientos **
 
-**Artículo 90. Garantía de accesibilidad de los procedimientos. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 91. Instrucción. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 91. Instrucción **
 
 **Artículo 92. Publicidad de las resoluciones sancionadoras.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 93. Deber de colaboración **
 
-**Artículo 93. Deber de colaboración. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO II. Normas específicas de aplicación por la Administración General del Estado {#capitulo-ii-normas-especificas-de-aplicacion-por-la-administracion-general-del-estado}
 
-32 32 32 33 33 33 33 33 34 34 34 34 34 34 35 35 35 35 35 35 36 36 36 36 36 37 37 37 37 37 37 Página 5 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+**Artículo 94. Competencia de la Administración General del Estado **
 
-### CAPÍTULO II. Normas específicas de aplicación por la Administración General del Estado . . . . . . . . . . . . . . {#capitulo-ii-normas-especificas-de-aplicacion-por-la-administracion-general-del-estado}
+#### Sección 1.ª Infracciones y sanciones {#seccion-1-a-infracciones-y-sanciones}
 
-**Artículo 94. Competencia de la Administración General del Estado. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 95. Infracciones **
 
-#### Sección 1.ª Infracciones y sanciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-infracciones-y-sanciones}
+**Artículo 96. Sanciones **
 
-**Artículo 95. Infracciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 97. Cómputo del plazo de prescripción de las infracciones **
 
-**Artículo 96. Sanciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 98. Cómputo del plazo de prescripción de las sanciones **
 
-**Artículo 97. Cómputo del plazo de prescripción de las infracciones. . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 98. Cómputo del plazo de prescripción de las sanciones. . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-#### Sección 2.ª Procedimiento sancionador . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-procedimiento-sancionador}
+#### Sección 2.ª Procedimiento sancionador {#seccion-2-a-procedimiento-sancionador}
 
 **Artículo 99. Normativa de aplicación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 100. Actuaciones previas **
 
-**Artículo 100. Actuaciones previas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 101. Iniciación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 101. Iniciación **
 
 **Artículo 102. Medidas cautelares.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 103. Efectividad de la sanción **
 
-**Artículo 103. Efectividad de la sanción. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 104. Información a otros órganos **
 
-**Artículo 104. Información a otros órganos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+#### Sección 3.ª Órganos competentes {#seccion-3-a-organos-competentes}
 
-#### Sección 3.ª Órganos competentes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-3-a-organos-competentes}
+**Artículo 105. Autoridades competentes **
 
-**Artículo 105. Autoridades competentes.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+Disposiciones adicionales
 
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional primera. Garantía del respeto al reparto de competencias constitucional y estatutariamente vigente
 
-Disposición adicional primera. Garantía del respeto al reparto de competencias constitucional y estatutariamente vigente. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional segunda. Tratamiento de la información
 
-Disposición adicional segunda. Tratamiento de la información. . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional tercera. Exigibilidad de las condiciones básicas de accesibilidad y no discriminación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional tercera. Exigibilidad de las condiciones básicas de accesibilidad y no discriminación
 
 Disposición adicional cuarta. Planes y programas de accesibilidad y para la no discriminación.
 
-. . . . . .
+Disposición adicional quinta. Memoria de accesibilidad en las infraestructuras de titularidad estatal
 
-Disposición adicional quinta. Memoria de accesibilidad en las infraestructuras de titularidad estatal. . . .
+Disposición adicional sexta. Prevención de deficiencias y de intensificación de discapacidades
 
-Disposición adicional sexta. Prevención de deficiencias y de intensificación de discapacidades. . . . . . .
+Disposición adicional séptima. Infracciones y sanciones en el orden social
 
-Disposición adicional séptima. Infracciones y sanciones en el orden social. . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional octava. Infracciones en materia de accesibilidad y ajustes razonables. . . . . . . . .
+Disposición adicional octava. Infracciones en materia de accesibilidad y ajustes razonables
 
 Disposición adicional novena. Revisión de la cuantía de las sanciones.
 
-. . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima. Información a las Cortes Generales sobre el régimen de infracciones y sanciones.
 
-Disposición adicional décima. Información a las Cortes Generales sobre el régimen de infracciones y . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional undécima. Oficina de Atención a la Discapacidad
 
-sanciones.
-
-Disposición adicional undécima. Oficina de Atención a la Discapacidad. . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional duodécima. Acceso a la nacionalidad española en condiciones de igualdad. . . . .
-
-38 38 38 38 39 39 39 39 39 40 40 40 40 40 40 40 41 41 41 41 42 42 42 42 43 43 43 43 43 Página 6 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional decimotercera. No discriminación de personas con discapacidad en espectáculos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
+Disposición adicional duodécima. Acceso a la nacionalidad española en condiciones de igualdad
 públicos y actividades recreativas.
 
-Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones transitorias
 
-Disposición transitoria única. Efectividad del reconocimiento de las situaciones vigentes de subsidio de garantía de ingresos mínimos y por ayuda de tercera persona. . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria única. Efectividad del reconocimiento de las situaciones vigentes de subsidio de garantía de ingresos mínimos y por ayuda de tercera persona
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones finales
 
 Disposición final primera. Título competencial.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición final segunda. Formación en diseño universal o diseño para todas las personas.. . . . . . . .
+Disposición final segunda. Formación en diseño universal o diseño para todas las personas
 
 Disposición final tercera. Desarrollo reglamentario.
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-43 44 44 44 44 44 44 Página 7 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TEXTO CONSOLIDADO Última modificación: 09 de mayo de 2023 Las personas con discapacidad conforman un grupo vulnerable y numeroso al que el modo en que se estructura y funciona la sociedad ha mantenido habitualmente en conocidas condiciones de exclusión. Este hecho ha comportado la restricción de sus derechos básicos y libertades condicionando u obstaculizando su desarrollo personal, así como el disfrute de los recursos y servicios disponibles para toda la población y la posibilidad de contribuir con sus capacidades al progreso de la sociedad.
 
 El anhelo de una vida plena y la necesidad de realización personal mueven a todas las personas, pero esas aspiraciones no pueden ser satisfechas si se hallan restringidos o ignorados los derechos a la libertad, la igualdad y la dignidad. Este es el caso en que se encuentran aún hoy mujeres y hombres con discapacidad, quienes, a pesar de los innegables progresos sociales alcanzados, ven limitados esos derechos en el acceso o uso de entornos, procesos o servicios que o bien no han sido concebidos teniendo en cuenta sus necesidades específicas o bien se revelan expresamente restrictivos a su participación en ellos.
 
@@ -476,7 +385,6 @@ Disposición derogatoria única. Derogación normativa.
 
 Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en el texto refundido de la Ley general de derechos de las personas con discapacidad y de su inclusión social, y en particular, por integrarse en dicho texto refundido:
 
-Página 9 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) La Ley 13/1982, de 7 de abril, de integración social de las personas con discapacidad. b) La Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad.
 
 c) La Ley 49/2007, de 26 de diciembre, por la que se establece el régimen de infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad.
 
@@ -514,7 +422,6 @@ b) Igualdad de oportunidades: es la ausencia de toda discriminación, directa o 
 
 c) Discriminación directa: es la situación en que se encuentra una persona con discapacidad cuando es tratada de manera menos favorable que otra en situación análoga por motivo de o por razón de su discapacidad.
 
-Página 10 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) Discriminación indirecta: existe cuando una disposición legal o reglamentaria, una cláusula convencional o contractual, un pacto individual, una decisión unilateral o un criterio o práctica, o bien un entorno, producto o servicio, aparentemente neutros, puedan ocasionar una desventaja particular a una persona respecto de otras por motivo de o por razón de discapacidad, siempre que objetivamente no respondan a una finalidad legítima y que los medios para la consecución de esta finalidad no sean adecuados y necesarios.
 
 e) Discriminación por asociación: existe cuando una persona o grupo en que se integra es objeto de un trato discriminatorio debido a su relación con otra por motivo o por razón de discapacidad.
 
@@ -608,7 +515,6 @@ Derechos y obligaciones
 
 1. Las personas con discapacidad tienen los mismos derechos que los demás ciudadanos conforme a nuestro ordenamiento jurídico.
 
-Página 13 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Para hacer efectivo este derecho a la igualdad, las administraciones públicas promoverán las medidas necesarias para que el ejercicio en igualdad de condiciones de los derechos de las personas con discapacidad sea real y efectivo en todos los ámbitos de la vida.
 
 3. Las administraciones públicas protegerán de forma especialmente intensa los derechos de las personas con discapacidad en materia de igualdad entre mujeres y hombres, salud, empleo, protección social, educación, tutela judicial efectiva, movilidad, comunicación, información y acceso a la cultura, al deporte, al ocio así como de participación en los asuntos públicos, en los términos previstos en este Título y demás normativa que sea de aplicación.
 
@@ -676,7 +582,6 @@ d) La valoración y calificación de la situación de discapacidad será revisab
 
 4. Las calificaciones y valoraciones de los equipos multiprofesionales de calificación y reconocimiento del grado de discapacidad responderán a criterios técnicos unificados, basados en la evidencia disponible, y tendrán validez ante cualquier organismo público y en todo el territorio del Estado.
 
-Página 15 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ### CAPÍTULO III {#capitulo-iii}
 
@@ -736,7 +641,6 @@ a) Los procesos de habilitación o rehabilitación médico-funcional. b) La orie
 
 7. Los procesos de apoyo para la actividad profesional a que se refiere este artículo podrán ser complementados, en su caso, con otras medidas adicionales que faciliten al beneficiario el logro del máximo nivel de desarrollo personal y favorezcan su plena inclusión y participación en la vida social.
 
-Página 17 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ### CAPÍTULO IV {#capitulo-iv}
 
@@ -806,7 +710,6 @@ táctil y otros dispositivos que permitan d) La adopción de normas internas en 
 
 e) Planes y calendario para la implantación de las exigencias de accesibilidad y para el establecimiento de las condiciones más favorables y de no discriminación.
 
-Página 19 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA f) Recursos humanos y materiales para la promoción de la accesibilidad y la no discriminación en el ámbito de que se trate.
 
 3. Las condiciones básicas de accesibilidad y no discriminación se establecerán teniendo en cuenta los diferentes tipos y grados de discapacidad que deberán orientar tanto el diseño inicial como los ajustes razonables de los entornos, productos y servicios de cada ámbito de aplicación de la ley.
 
@@ -846,7 +749,6 @@ No obstante, las condiciones previstas en el párrafo anterior serán exigibles 
 
 2. En el plazo de dos años desde la entrada en vigor de esta ley, el Gobierno deberá realizar los estudios integrales sobre la accesibilidad a los diferentes medios de transporte, en lo que se considere más relevante desde el punto de vista de la no discriminación y de la accesibilidad universal.
 
-Página 20 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 28. Condiciones básicas de accesibilidad y no discriminación en el ámbito de las**
 
@@ -884,7 +786,6 @@ No obstante, las condiciones previstas en el párrafo anterior serán exigibles 
 
 4. Estas condiciones básicas de accesibilidad cognitiva, quedan encuadradas en el marco de la accesibilidad universal, conforme a lo estipulado en la letra k) del artículo 2 de esta ley.
 
-Página 21 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 #### Sección 2.ª Medidas de acción positiva {#seccion-2-a-medidas-de-accion-positiva}
 
@@ -922,7 +823,6 @@ Se considerará rehabilitación de la vivienda, a efectos de la obtención de su
 
 4. Los ayuntamientos deberán prever planes municipales de actuación, al objeto de adaptar las vías públicas, parques y jardines, a las normas aprobadas con carácter general, viniendo obligados a destinar un porcentaje de su presupuesto a dichos fines.
 
-Página 22 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ### CAPÍTULO VI {#capitulo-vi}
 
@@ -960,7 +860,6 @@ Se entiende por igualdad de trato la ausencia de toda discriminación directa o 
 
 1. Será finalidad de la política de empleo aumentar las tasas de actividad y de ocupación e inserción laboral de las personas con discapacidad, así como mejorar la calidad del empleo y dignificar sus condiciones de trabajo, combatiendo activamente su discriminación. Para ello, las administraciones públicas competentes fomentarán sus oportunidades de empleo y promoción profesional en el mercado laboral, y promoverán los apoyos necesarios para la búsqueda, obtención, mantenimiento del empleo y retorno al mismo.
 
-Página 23 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Las personas con discapacidad pueden ejercer su derecho al trabajo a través de los siguientes tipos de empleo:
 
 a) Empleo ordinario, en las empresas y en las administraciones públicas, incluido los servicios de empleo con apoyo.
 
@@ -994,7 +893,6 @@ por la discapacidad como garantía de la plena igualdad en el trabajo.
 
 2. Los empresarios están obligados a adoptar las medidas adecuadas para la adaptación del puesto de trabajo y la accesibilidad de la empresa, en función de las necesidades de cada situación concreta, con el fin de permitir a las personas con discapacidad acceder al empleo, desempeñar su trabajo, progresar profesionalmente y acceder a la formación, salvo que esas medidas supongan una carga excesiva para el empresario.
 
-Página 24 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Para determinar si una carga es excesiva se tendrá en cuenta si es paliada en grado suficiente mediante las medidas, ayudas o subvenciones públicas para personas con discapacidad, así como los costes financieros y de otro tipo que las medidas impliquen y el tamaño y el volumen de negocios total de la organización o empresa.
 
 **Artículo 41. Servicios de empleo con apoyo.**
 
@@ -1020,7 +918,6 @@ discapacidad.
 
 Se entenderán por servicios de ajuste personal y social los que permitan ayudar a superar las barreras, obstáculos o dificultades que las personas trabajadoras con discapacidad de los centros especiales de empleo tengan en el proceso de incorporación a un puesto de trabajo, así como en la permanencia y progresión en el mismo. Igualmente se encontrarán comprendidos aquellos dirigidos a la inclusión social, cultural y deportiva.
 
-Página 25 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. La relación laboral de los trabajadores con discapacidad que presten sus servicios en los centros especiales de empleo es de carácter especial, conforme al artículo 2.1.g) de Texto Refundido de la Ley del Estatuto de los Trabajadores, aprobado por Real Decreto Legislativo 2/2015, de 23 de octubre, y se rige por su normativa específica.
 
 4. Tendrán la consideración de Centros Especiales de Empleo de iniciativa social aquellos que cumpliendo los requisitos que se establecen en los apartados 1.º y 2.º de este artículo son promovidos y participados en más de un 50 por ciento, directa o indirectamente, por una o varias entidades, ya sean públicas o privadas, que no tengan ánimo de lucro o que tengan reconocido su carácter social en sus Estatutos, ya sean asociaciones, fundaciones, corporaciones de derecho público, cooperativas de iniciativa social u otras entidades de la economía social, así como también aquellos cuya titularidad corresponde a sociedades mercantiles en las que la mayoría de su capital social sea propiedad de alguna de las entidades señaladas anteriormente, ya sea de forma directa o bien indirecta a través del concepto de sociedad dominante regulado en el artículo 42 del Código de Comercio, y siempre que en todos los casos en sus Estatutos o en acuerdo social se obliguen a la reinversión íntegra de sus beneficios para creación de oportunidades de empleo para personas con discapacidad y la mejora continua de su competitividad y de su actividad de economía social, teniendo en todo caso la facultad de optar por reinvertirlos en el propio centro especial de empleo o en otros centros especiales de empleo de iniciativa social.
 
@@ -1084,7 +981,6 @@ En todo caso, las administraciones públicas desarrollarán las actuaciones nece
 
 4. Los servicios de atención domiciliaria tendrán como cometido la prestación de atenciones de carácter personal y doméstico, así como la prestación habilitadora o rehabilitadora tal y como ya dispone el artículo 14, todo ello sólo para aquellas personas con discapacidad cuyas situaciones lo requieran.
 
-Página 27 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 5. Los servicios de vivienda, ya sean servicios de atención residencial, viviendas tuteladas, u otros alojamientos de apoyo para la inclusión, tienen como objetivo promover la autonomía y la vida independiente de las personas con discapacidad a través de la convivencia, así como favorecer su inclusión social.
 
 Asimismo, deberán atender a las necesidades básicas de aquellas personas con discapacidad que se encuentren en una situación de especial vulnerabilidad, como en los casos en que carezcan de hogar o familia, o cuando existan graves problemas para garantizar una adecuada convivencia familiar.
 
@@ -1114,7 +1010,6 @@ Derecho de participación en los asuntos públicos
 
 Las personas con discapacidad podrán ejercer el derecho de participación en la vida política y en los procesos electorales en igualdad de condiciones que el resto de los ciudadanos conforme a la normativa en vigor. Para ello, las administraciones públicas pondrán a su disposición los medios y recursos que precisen.
 
-Página 28 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 54. Derecho de participación en la vida pública.**
 
@@ -1180,7 +1075,6 @@ con discapacidad
 
 favoreciendo su plena 2. El régimen del personal voluntario se regulará en su normativa específica.
 
-Página 30 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO II {#titulo-ii}
 
@@ -1222,7 +1116,6 @@ A este fin, las administraciones públicas competentes podrán establecer un ré
 
 Las discrepancias entre el solicitante del ajuste razonable y el sujeto obligado podrán ser resueltas a través del sistema de arbitraje previsto en el artículo 74, sin perjuicio de la protección administrativa o judicial que en cada caso proceda.
 
-Página 31 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 67. Medidas de acción positiva.**
 
@@ -1260,7 +1153,6 @@ Las administraciones públicas adecuarán sus planes de calidad para asegurar la
 
 2. Asimismo, facilitarán y apoyarán el desarrollo de normativa técnica, así como la revisión de la existente, de forma que asegure la no discriminación en procesos, diseños y desarrollos de tecnologías, productos, servicios y bienes, en colaboración con las entidades y organizaciones de normalización y certificación y todos los agentes implicados.
 
-Página 32 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 72. Iniciativa privada.**
 
@@ -1296,7 +1188,6 @@ Página 32 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 2. La indemnización o reparación a que pueda dar lugar la reclamación correspondiente no estará limitada por un tope máximo fijado «a priori». La indemnización por daño moral procederá aun cuando no existan perjuicios de carácter económico y se valorará atendiendo a las circunstancias de la infracción y a la gravedad de la lesión.
 
-Página 33 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. Se adoptarán las medidas que sean necesarias para proteger a las personas físicas o jurídicas contra cualquier trato adverso o consecuencia negativa que pueda producirse como reacción ante una reclamación o ante un procedimiento destinado a exigir el cumplimiento del principio de igualdad de oportunidades.
 
 **Artículo 76. Legitimación.**
 
@@ -1332,7 +1223,6 @@ Las comunidades autónomas establecerán un régimen de infracciones que garanti
 
 Serán responsables subsidiarios o solidarios las personas físicas y jurídicas privadas por el incumplimiento de las obligaciones que conlleven el deber de prevenir la infracción administrativa cometida por otros.
 
-Página 34 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 #### Sección 1.ª Infracciones {#seccion-1-a-infracciones}
 
@@ -1374,7 +1264,6 @@ Las infracciones a que se refiere este Título calificadas como leves prescribir
 
 2. Para las infracciones leves, la sanción no excederá en ningún caso de los 30.000 euros.
 
-Página 35 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. Para las infracciones graves, la sanción no excederá en ningún caso de los 90.000 euros.
 
 **Artículo 84. Criterios de graduación de las sanciones.**
 
@@ -1442,7 +1331,6 @@ La resolución firme en vía administrativa de los expedientes sancionadores por
 
 Todas las personas físicas y jurídicas tienen el deber de facilitar la labor de los órganos y autoridades para la aplicación de lo dispuesto en este título, aportando en un plazo razonable, y con las condiciones establecidas en la legislación vigente, los datos, documentos, informes o aclaraciones que, siendo necesarias para el esclarecimiento de los hechos, les sean solicitadas, y facilitando, previo aviso, el acceso a sus dependencias, salvo que éstas coincidan con su domicilio, en cuyo caso deberá obtenerse su expreso consentimiento o el mandato judicial correspondiente.
 
-Página 37 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Normas específicas de aplicación por la Administración General del Estado
 
 ### CAPÍTULO II {#capitulo-ii}
 
@@ -1488,7 +1376,6 @@ i) Tendrá también la consideración de infracción grave la comisión, en el p
 
 4. Son infracciones muy graves:
 
-Página 38 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) Las vejaciones que padezcan las personas en sus derechos fundamentales por motivo de o por razón de su discapacidad.
 
 b) Las acciones que deliberadamente generen un grave perjuicio económico o profesional para las personas con discapacidad.
 
@@ -1572,7 +1459,6 @@ Estas actuaciones se realizarán en todo caso de conformidad con lo establecido 
 
 3. Será órgano competente para imponer las sanciones previstas en el artículo 96:
 
-Página 40 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) El órgano con rango de Dirección General a que se hace referencia en el apartado 1, cuando se trate de sanciones por la comisión de infracciones leves.
 
 b) La Secretaría de Estado de Derechos Sociales cuando se trate de sanciones por la comisión de infracciones graves.
 
@@ -1612,7 +1498,6 @@ Entornos, productos y servicios existentes el 4 de diciembre de 2008, y toda dis
 
 2. Los supuestos y plazos máximos de exigibilidad de las condiciones básicas de accesibilidad y no discriminación para el acceso y utilización de los bienes y servicios a disposición del público por las personas con discapacidad, en todo caso, son los siguientes:
 
-Página 41 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Bienes y servicios nuevos que sean de titularidad pública: Desde la entrada en vigor del real decreto que regule las condiciones básicas de accesibilidad y no discriminación para el acceso y utilización de los bienes y servicios a disposición del público.
 
 Bienes y servicios nuevos que sean de titularidad privada que concierten o suministren las administraciones públicas: Desde la entrada en vigor del real decreto que regule las condiciones básicas de accesibilidad y no discriminación para el acceso y utilización de los bienes y servicios a disposición del público.
 
@@ -1644,7 +1529,6 @@ Disposición adicional séptima. Infracciones y sanciones en el orden social.
 
 Las infracciones y sanciones en el orden social en materia de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad seguirán rigiéndose por el Texto Refundido de la Ley de Infracciones y Sanciones en el Orden Social, aprobado por el Real Decreto Legislativo 5/2000, de 4 de agosto.
 
-Página 42 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional octava. Infracciones en materia de accesibilidad y ajustes razonables.
 
 La aplicación de lo dispuesto en los artículos 81.3.b, 95.2.a, 95.3.e, 95.3.f, 95.3.g, 95.4.f y 95.4.g, en cuanto se derive del incumplimiento de las exigencias de accesibilidad o negativa a adoptar un ajuste razonable, quedará sujeta a lo dispuesto en los artículos 24, 25, 27, 28 y 29 y sus correspondientes desarrollos normativos.
 
@@ -1674,7 +1558,6 @@ la nacionalidad española, Disposición adicional decimotercera. No discriminaci
 
 3. Las administraciones públicas, en el ámbito de sus respectivas competencias, las promoverán políticas, estrategias y acciones públicas, en cooperación con organizaciones representativas de este sector social, para que las personas con discapacidad que laboralmente se han desempeñado en espectáculos y actividades a las que se refiere el apartado 2 de esta disposición puedan transitar e incorporarse a ocupaciones regulares.
 
-Página 43 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria única. Efectividad del reconocimiento de las situaciones vigentes de subsidio de garantía de ingresos mínimos y por ayuda de tercera persona.
 
 1. Los beneficiarios del subsidio de garantía de ingresos mínimos, y por ayuda de tercera persona, continuarán con el derecho a la percepción del mismo, siempre que continúen reuniendo los requisitos exigidos reglamentariamente para su concesión y no opten por pasar a percibir pensión no contributiva de la Seguridad Social o asignación económica por hijo a cargo.
 
@@ -1707,5 +1590,3 @@ Disposición final tercera. Desarrollo reglamentario.
 las personas con discapacidad.
 
 Este texto consolidado no tiene valor jurídico.
-
-Página 44

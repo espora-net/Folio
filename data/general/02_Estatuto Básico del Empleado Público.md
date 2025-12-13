@@ -1,408 +1,404 @@
 LEGISLACIÓN CONSOLIDADA Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público.
 
-Ministerio de Hacienda y Administraciones Públicas «BOE» núm. 261, de 31 de octubre de 2015 Referencia: BOE-A-2015-11719 ÍNDICE Preámbulo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Ministerio de Hacienda y Administraciones Públicas «BOE» núm. 261, de 31 de octubre de 2015 Referencia: BOE-A-2015-11719
+ÍNDICE
+Preámbulo
 
-Artículos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Artículos
 
-Artículo único. Aprobación del texto refundido de la Ley del Estatuto Básico del Empleado Público.. . . . . . . . .
+Artículo único. Aprobación del texto refundido de la Ley del Estatuto Básico del Empleado Público
 
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones adicionales
 
-Disposición adicional única. Remisiones normativas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional única. Remisiones normativas
 
-Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones derogatorias
 
-Disposición derogatoria única. Derogación normativa.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición derogatoria única. Derogación normativa
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones finales
 
-Disposición final única. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final única. Entrada en vigor
 
-TEXTO REFUNDIDO DE LA LEY DEL ESTATUTO BÁSICO DEL EMPLEADO PÚBLICO . . . . . . . . . . . . . . . .
+TEXTO REFUNDIDO DE LA LEY DEL ESTATUTO BÁSICO DEL EMPLEADO PÚBLICO
 
-## TÍTULO I. Objeto y ámbito de aplicación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-i-objeto-y-ambito-de-aplicacion}
+## TÍTULO I. Objeto y ámbito de aplicación {#titulo-i-objeto-y-ambito-de-aplicacion}
 
-**Artículo 1. Objeto. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 1. Objeto **
 
-**Artículo 2. Ámbito de aplicación.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 2. Ámbito de aplicación **
 
-**Artículo 3. Personal funcionario de las Entidades Locales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 3. Personal funcionario de las Entidades Locales **
 
-**Artículo 4. Personal con legislación específica propia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 4. Personal con legislación específica propia **
 
-**Artículo 5. Personal de la Sociedad Estatal Correos y Telégrafos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 5. Personal de la Sociedad Estatal Correos y Telégrafos **
 
 **Artículo 6. Leyes de Función Pública.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-7 8 8 8 8 8 8 8 8 9 9 9 9 10 10 10 10 Página 1 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
-**Artículo 7. Normativa aplicable al personal laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-## TÍTULO II. Personal al servicio de las Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-ii-personal-al-servicio-de-las-administraciones-publicas}
+**Artículo 7. Normativa aplicable al personal laboral **
 
-### CAPÍTULO I. Clases de personal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-clases-de-personal}
+## TÍTULO II. Personal al servicio de las Administraciones Públicas {#titulo-ii-personal-al-servicio-de-las-administraciones-publicas}
 
-**Artículo 8. Concepto y clases de empleados públicos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO I. Clases de personal {#capitulo-i-clases-de-personal}
 
-**Artículo 9. Funcionarios de carrera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 8. Concepto y clases de empleados públicos **
+
+**Artículo 9. Funcionarios de carrera **
 
 **Artículo 10. Funcionarios interinos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 11. Personal laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 12. Personal eventual. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 11. Personal laboral **
 
-### CAPÍTULO II. Personal directivo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-personal-directivo}
+**Artículo 12. Personal eventual **
+
+### CAPÍTULO II. Personal directivo {#capitulo-ii-personal-directivo}
 
 **Artículo 13. Personal directivo profesional.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-## TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos . . . . . . . . . . . . . . . . . . . . {#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos}
 
-### CAPÍTULO I. Derechos de los empleados públicos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-derechos-de-los-empleados-publicos}
+## TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos {#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos}
+
+### CAPÍTULO I. Derechos de los empleados públicos {#capitulo-i-derechos-de-los-empleados-publicos}
 
 **Artículo 14. Derechos individuales.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 15. Derechos individuales ejercidos colectivamente. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-### CAPÍTULO II. Derecho a la carrera profesional y a la promoción interna. La evaluación del desempeño . . . . {#capitulo-ii-derecho-a-la-carrera-profesional-y-a-la-promocion-interna-la-evaluacion-del-desempeno}
+**Artículo 15. Derechos individuales ejercidos colectivamente **
 
-**Artículo 16. Concepto, principios y modalidades de la carrera profesional de los funcionarios de carrera. . .**
+### CAPÍTULO II. Derecho a la carrera profesional y a la promoción interna. La evaluación del desempeño {#capitulo-ii-derecho-a-la-carrera-profesional-y-a-la-promocion-interna-la-evaluacion-del-desempeno}
+
+**Artículo 16. Concepto, principios y modalidades de la carrera profesional de los funcionarios de carrera **
 
 **Artículo 17. Carrera horizontal de los funcionarios de carrera.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 18. Promoción interna de los funcionarios de carrera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 19. Carrera profesional y promoción del personal laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 18. Promoción interna de los funcionarios de carrera **
 
-**Artículo 20. La evaluación del desempeño. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 19. Carrera profesional y promoción del personal laboral **
 
-### CAPÍTULO III. Derechos retributivos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iii-derechos-retributivos}
+**Artículo 20. La evaluación del desempeño **
 
-**Artículo 21. Determinación de las cuantías y de los incrementos retributivos. . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO III. Derechos retributivos {#capitulo-iii-derechos-retributivos}
 
-**Artículo 22. Retribuciones de los funcionarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 21. Determinación de las cuantías y de los incrementos retributivos **
+
+**Artículo 22. Retribuciones de los funcionarios **
 
 **Artículo 23. Retribuciones básicas.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 24. Retribuciones complementarias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 25. Retribuciones de los funcionarios interinos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 24. Retribuciones complementarias **
 
-**Artículo 26. Retribuciones de los funcionarios en prácticas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 25. Retribuciones de los funcionarios interinos **
 
-**Artículo 27. Retribuciones del personal laboral.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 26. Retribuciones de los funcionarios en prácticas **
 
-**Artículo 28. Indemnizaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 27. Retribuciones del personal laboral **
 
-**Artículo 29. Retribuciones diferidas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 28. Indemnizaciones **
 
-**Artículo 30. Deducción de retribuciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 29. Retribuciones diferidas **
 
-10 11 11 11 11 11 12 12 12 12 13 13 13 14 14 14 14 15 15 15 16 16 16 16 16 17 17 17 17 17 17 Página 2 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+**Artículo 30. Deducción de retribuciones **
+
 
 ### CAPÍTULO IV. Derecho a la negociación colectiva, representación y participación institucional. Derecho de {#capitulo-iv-derecho-a-la-negociacion-colectiva-representacion-y-participacion-institucional-derecho-de}
 
-reunión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+reunión
 
 **Artículo 31. Principios generales.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 32. Negociación colectiva, representación y participación del personal laboral. . . . . . . . . . . . . .**
 
-**Artículo 33. Negociación colectiva.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 32. Negociación colectiva, representación y participación del personal laboral **
 
-**Artículo 34. Mesas de Negociación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 33. Negociación colectiva **
+
+**Artículo 34. Mesas de Negociación **
 
 **Artículo 35. Constitución y composición de las Mesas de Negociación.**
 
-. . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 36. Mesas Generales de Negociación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+
+**Artículo 36. Mesas Generales de Negociación **
 
 **Artículo 37. Materias objeto de negociación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
 
 **Artículo 38. Pactos y Acuerdos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 39. Órganos de representación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 40. Funciones y legitimación de los órganos de representación.. . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 39. Órganos de representación **
 
-**Artículo 41. Garantías de la función representativa del personal.. . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 40. Funciones y legitimación de los órganos de representación **
 
-**Artículo 42. Duración de la representación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 41. Garantías de la función representativa del personal **
 
-**Artículo 43. Promoción de elecciones a Delegados y Juntas de Personal. . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 42. Duración de la representación **
+
+**Artículo 43. Promoción de elecciones a Delegados y Juntas de Personal **
 
 **Artículo 44. Procedimiento electoral.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 45. Solución extrajudicial de conflictos colectivos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 46. Derecho de reunión. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 45. Solución extrajudicial de conflictos colectivos **
 
-### CAPÍTULO V. Derecho a la jornada de trabajo, permisos y vacaciones . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-v-derecho-a-la-jornada-de-trabajo-permisos-y-vacaciones}
+**Artículo 46. Derecho de reunión **
 
-**Artículo 47. Jornada de trabajo de los funcionarios públicos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO V. Derecho a la jornada de trabajo, permisos y vacaciones {#capitulo-v-derecho-a-la-jornada-de-trabajo-permisos-y-vacaciones}
 
-**Artículo 47 bis. Teletrabajo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 47. Jornada de trabajo de los funcionarios públicos **
 
-**Artículo 48. Permisos de los funcionarios públicos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 47 bis. Teletrabajo **
+
+**Artículo 48. Permisos de los funcionarios públicos **
 
 **Artículo 49. Permisos por motivos de conciliación de la vida personal, familiar y laboral, por razón de**
 
-violencia de género o de violencia sexual y para las víctimas de terrorismo y sus familiares directos. . . .
+violencia de género o de violencia sexual y para las víctimas de terrorismo y sus familiares directos
 
-**Artículo 50. Vacaciones de los funcionarios públicos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 50. Vacaciones de los funcionarios públicos **
 
-**Artículo 51. Jornada de trabajo, permisos y vacaciones del personal laboral. . . . . . . . . . . . . . . . . . . . .**
+**Artículo 51. Jornada de trabajo, permisos y vacaciones del personal laboral **
 
-### CAPÍTULO VI. Deberes de los empleados públicos. Código de Conducta . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-vi-deberes-de-los-empleados-publicos-codigo-de-conducta}
+### CAPÍTULO VI. Deberes de los empleados públicos. Código de Conducta {#capitulo-vi-deberes-de-los-empleados-publicos-codigo-de-conducta}
 
 **Artículo 52. Deberes de los empleados públicos. Código de Conducta.**
 
-. . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 53. Principios éticos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 54. Principios de conducta. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 53. Principios éticos **
 
-## TÍTULO IV. Adquisición y pérdida de la relación de servicio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio}
+**Artículo 54. Principios de conducta **
 
-### CAPÍTULO I. Acceso al empleo público y adquisición de la relación de servicio . . . . . . . . . . . . . . . . . . . . {#capitulo-i-acceso-al-empleo-publico-y-adquisicion-de-la-relacion-de-servicio}
+## TÍTULO IV. Adquisición y pérdida de la relación de servicio {#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio}
 
-17 17 18 18 18 19 19 20 21 22 22 23 23 24 24 24 25 25 25 25 26 27 32 32 32 32 32 33 34 34 Página 3 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+### CAPÍTULO I. Acceso al empleo público y adquisición de la relación de servicio {#capitulo-i-acceso-al-empleo-publico-y-adquisicion-de-la-relacion-de-servicio}
 
-**Artículo 55. Principios rectores.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 56. Requisitos generales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 55. Principios rectores **
+
+**Artículo 56. Requisitos generales **
 
 **Artículo 57. Acceso al empleo público de nacionales de otros Estados.**
 
-. . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 58. Acceso al empleo público de funcionarios españoles de Organismos Internacionales. . . . . . .**
 
-**Artículo 59. Personas con discapacidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 58. Acceso al empleo público de funcionarios españoles de Organismos Internacionales **
 
-**Artículo 60. Órganos de selección.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 59. Personas con discapacidad **
 
-**Artículo 61. Sistemas selectivos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 60. Órganos de selección **
+
+**Artículo 61. Sistemas selectivos **
 
 **Artículo 62. Adquisición de la condición de funcionario de carrera.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . .
 
-### CAPÍTULO II. Pérdida de la relación de servicio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-perdida-de-la-relacion-de-servicio}
 
-**Artículo 63. Causas de pérdida de la condición de funcionario de carrera.. . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO II. Pérdida de la relación de servicio {#capitulo-ii-perdida-de-la-relacion-de-servicio}
+
+**Artículo 63. Causas de pérdida de la condición de funcionario de carrera **
 
 **Artículo 64. Renuncia.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
 
 **Artículo 65. Pérdida de la nacionalidad.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
 
 **Artículo 66. Pena principal o accesoria de inhabilitación absoluta o especial para cargo público.**
 
-. . . . . . .
 
-**Artículo 67. Jubilación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 68. Rehabilitación de la condición de funcionario. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 67. Jubilación **
 
-## TÍTULO V. Ordenación de la actividad profesional . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-v-ordenacion-de-la-actividad-profesional}
+**Artículo 68. Rehabilitación de la condición de funcionario **
 
-### CAPÍTULO I. Planificación de recursos humanos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-planificacion-de-recursos-humanos}
+## TÍTULO V. Ordenación de la actividad profesional {#titulo-v-ordenacion-de-la-actividad-profesional}
 
-**Artículo 69. Objetivos e instrumentos de la planificación.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO I. Planificación de recursos humanos {#capitulo-i-planificacion-de-recursos-humanos}
+
+**Artículo 69. Objetivos e instrumentos de la planificación **
 
 **Artículo 70. Oferta de empleo público.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 71. Registros de personal y Gestión integrada de recursos humanos. . . . . . . . . . . . . . . . . . . .**
 
-### CAPÍTULO II. Estructuración del empleo público . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-estructuracion-del-empleo-publico}
+**Artículo 71. Registros de personal y Gestión integrada de recursos humanos **
 
-**Artículo 72. Estructuración de los recursos humanos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO II. Estructuración del empleo público {#capitulo-ii-estructuracion-del-empleo-publico}
 
-**Artículo 73. Desempeño y agrupación de puestos de trabajo.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 72. Estructuración de los recursos humanos **
+
+**Artículo 73. Desempeño y agrupación de puestos de trabajo **
 
 **Artículo 74. Ordenación de los puestos de trabajo.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 75. Cuerpos y escalas.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 76. Grupos de clasificación profesional del personal funcionario de carrera. . . . . . . . . . . . . . . .**
+**Artículo 75. Cuerpos y escalas **
 
-**Artículo 77. Clasificación del personal laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 76. Grupos de clasificación profesional del personal funcionario de carrera **
 
-### CAPÍTULO III. Provisión de puestos de trabajo y movilidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iii-provision-de-puestos-de-trabajo-y-movilidad}
+**Artículo 77. Clasificación del personal laboral **
+
+### CAPÍTULO III. Provisión de puestos de trabajo y movilidad {#capitulo-iii-provision-de-puestos-de-trabajo-y-movilidad}
 
 **Artículo 78. Principios y procedimientos de provisión de puestos de trabajo del personal funcionario de**
 
-carrera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+carrera
 
 **Artículo 79. Concurso de provisión de los puestos de trabajo del personal funcionario de carrera.**
 
-. . . . . .
 
-**Artículo 80. Libre designación con convocatoria pública del personal funcionario de carrera. . . . . . . . . . .**
 
-34 34 35 35 35 35 36 36 37 37 37 37 37 37 38 38 38 38 39 39 39 39 39 40 40 40 40 40 40 41 41 Página 4 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+**Artículo 80. Libre designación con convocatoria pública del personal funcionario de carrera **
 
-**Artículo 81. Movilidad del personal funcionario de carrera.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+
+**Artículo 81. Movilidad del personal funcionario de carrera **
 
 **Artículo 82. Movilidad por razón de violencia de género, violencia sexual y violencia terrorista.**
 
-. . . . . . . .
 
-**Artículo 83. Provisión de puestos y movilidad del personal laboral. . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 84. La movilidad voluntaria entre Administraciones Públicas.. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 83. Provisión de puestos y movilidad del personal laboral **
 
-## TÍTULO VI. Situaciones administrativas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vi-situaciones-administrativas}
+**Artículo 84. La movilidad voluntaria entre Administraciones Públicas **
 
-**Artículo 85. Situaciones administrativas de los funcionarios de carrera. . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO VI. Situaciones administrativas {#titulo-vi-situaciones-administrativas}
 
-**Artículo 86. Servicio activo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 85. Situaciones administrativas de los funcionarios de carrera **
 
-**Artículo 87. Servicios especiales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 86. Servicio activo **
 
-**Artículo 88. Servicio en otras Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 87. Servicios especiales **
 
-**Artículo 89. Excedencia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 88. Servicio en otras Administraciones Públicas **
 
-**Artículo 90. Suspensión de funciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 89. Excedencia **
 
-**Artículo 91. Reingreso al servicio activo.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 90. Suspensión de funciones **
 
-**Artículo 92. Situaciones del personal laboral.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 91. Reingreso al servicio activo **
 
-## TÍTULO VII. Régimen disciplinario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vii-regimen-disciplinario}
+**Artículo 92. Situaciones del personal laboral **
+
+## TÍTULO VII. Régimen disciplinario {#titulo-vii-regimen-disciplinario}
 
 **Artículo 93. Responsabilidad disciplinaria.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 94. Ejercicio de la potestad disciplinaria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 95. Faltas disciplinarias.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 94. Ejercicio de la potestad disciplinaria **
+
+**Artículo 95. Faltas disciplinarias **
 
 **Artículo 96. Sanciones.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**Artículo 97. Prescripción de las faltas y sanciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
 
-**Artículo 98. Procedimiento disciplinario y medidas provisionales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 97. Prescripción de las faltas y sanciones **
 
-## TÍTULO VIII. Cooperación entre las Administraciones Públicas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-viii-cooperacion-entre-las-administraciones-publicas}
+**Artículo 98. Procedimiento disciplinario y medidas provisionales **
 
-**Artículo 99. Relaciones de cooperación entre las Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO VIII. Cooperación entre las Administraciones Públicas {#titulo-viii-cooperacion-entre-las-administraciones-publicas}
+
+**Artículo 99. Relaciones de cooperación entre las Administraciones Públicas **
 
 **Artículo 100. Órganos de cooperación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposición adicional primera. Ámbito específico de aplicación.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones adicionales
 
-Disposición adicional segunda. Aplicación de las disposiciones de este Estatuto a las Instituciones Forales. . . .
+Disposición adicional primera. Ámbito específico de aplicación
 
-Disposición adicional tercera. Funcionarios públicos propios de las ciudades de Ceuta y Melilla.. . . . . . . . . . .
+Disposición adicional segunda. Aplicación de las disposiciones de este Estatuto a las Instituciones Forales
 
-Disposición adicional cuarta. Aplicación de este Estatuto a las autoridades administrativas independientes de ámbito estatal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional tercera. Funcionarios públicos propios de las ciudades de Ceuta y Melilla
 
-Disposición adicional quinta. Jubilación de los funcionarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional cuarta. Aplicación de este Estatuto a las autoridades administrativas independientes de ámbito estatal
 
-Disposición adicional sexta. Otras agrupaciones profesionales sin requisito de titulación. . . . . . . . . . . . . . . .
+Disposición adicional quinta. Jubilación de los funcionarios
+
+Disposición adicional sexta. Otras agrupaciones profesionales sin requisito de titulación
 
 Disposición adicional séptima. Planes de igualdad.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-41 42 42 42 43 43 43 44 45 45 47 47 47 47 47 48 48 49 49 50 50 50 50 51 51 51 51 52 52 52 52 Página 5 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional octava.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposición adicional novena. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposición adicional décima. Ámbito de aplicación del artículo 87.3. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposición adicional undécima. Personal militar que preste servicios en la Administración civil. . . . . . . . . . . .
+Disposición adicional novena
 
-Disposición adicional duodécima. Mesas de negociación en ámbitos específicos. . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima. Ámbito de aplicación del artículo 87.3
 
-Disposición adicional decimotercera. Permiso por asuntos particulares por antigüedad. . . . . . . . . . . . . . . . .
+Disposición adicional undécima. Personal militar que preste servicios en la Administración civil
 
-Disposición adicional decimocuarta. Días adicionales de vacaciones por antigüedad.. . . . . . . . . . . . . . . . . .
+Disposición adicional duodécima. Mesas de negociación en ámbitos específicos
 
-Disposición adicional decimoquinta. Registro de Órganos de Representación del Personal.. . . . . . . . . . . . . .
+Disposición adicional decimotercera. Permiso por asuntos particulares por antigüedad
 
-Disposición adicional decimosexta. Permiso retribuido para las funcionarias en estado de gestación.. . . . . . . .
+Disposición adicional decimocuarta. Días adicionales de vacaciones por antigüedad
 
-Disposición adicional decimoséptima. Medidas dirigidas al control de la temporalidad en el empleo público. . . .
+Disposición adicional decimoquinta. Registro de Órganos de Representación del Personal
 
-Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimosexta. Permiso retribuido para las funcionarias en estado de gestación
 
-Disposición transitoria primera. Garantía de derechos retributivos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimoséptima. Medidas dirigidas al control de la temporalidad en el empleo público
 
-Disposición transitoria segunda. Personal laboral fijo que desempeña funciones o puestos clasificados como propios de personal funcionario. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones transitorias
 
-Disposición transitoria tercera. Entrada en vigor de la nueva clasificación profesional. . . . . . . . . . . . . . . . . .
+Disposición transitoria primera. Garantía de derechos retributivos
 
-Disposición transitoria cuarta. Consolidación de empleo temporal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria segunda. Personal laboral fijo que desempeña funciones o puestos clasificados como propios de personal funcionario
 
-Disposición transitoria quinta. Procedimiento Electoral General. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria tercera. Entrada en vigor de la nueva clasificación profesional
 
-Disposición transitoria sexta. Duración del permiso de paternidad por el nacimiento, acogimiento o adopción de un hijo para el personal funcionario hasta la entrada en vigor de la Ley 9/2009, de 6 de octubre. . . . . . . . . .
+Disposición transitoria cuarta. Consolidación de empleo temporal
 
-Disposición transitoria séptima. Referencia a los Organismos Reguladores. . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria quinta. Procedimiento Electoral General
 
-Disposición transitoria octava. Aplicación del artículo 84.3.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria sexta. Duración del permiso de paternidad por el nacimiento, acogimiento o adopción de un hijo para el personal funcionario hasta la entrada en vigor de la Ley 9/2009, de 6 de octubre
 
-Disposición transitoria novena. Aplicación progresiva del permiso del progenitor diferente de la madre biológica para empleados públicos según lo previsto en el Real Decreto-ley 6/2019, de 1 de marzo, de medidas urgentes para garantía de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria séptima. Referencia a los Organismos Reguladores
 
-Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria octava. Aplicación del artículo 84.3
 
-Disposición derogatoria única.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria novena. Aplicación progresiva del permiso del progenitor diferente de la madre biológica para empleados públicos según lo previsto en el Real Decreto-ley 6/2019, de 1 de marzo, de medidas urgentes para garantía de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones derogatorias
+
+Disposición derogatoria única
+
+Disposiciones finales
 
 Disposición final primera. Habilitación competencial.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposición final segunda. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-Disposición final tercera. Modificación de la Ley 53/1984, de 26 de diciembre, de incompatibilidades del personal al servicio de las Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final segunda
 
-Disposición final cuarta. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final tercera. Modificación de la Ley 53/1984, de 26 de diciembre, de incompatibilidades del personal al servicio de las Administraciones Públicas
 
-52 53 53 53 53 54 54 54 54 54 55 55 55 55 56 56 56 56 56 56 57 57 57 57 58 58 58 Página 6 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TEXTO CONSOLIDADO Última modificación: 30 de julio de 2025 Téngase en cuenta el desarrollo de este texto refundido en el ámbito de la Administración del Estado en materia de planificación estratégica de recursos humanos, acceso al empleo público, evaluación del desempeño, carrera profesional y régimen del personal directivo, efectuado por el libro segundo del Real Decreto-ley 6/2023, de 19 de diciembre. Ref. BOE-A-2023-25758 El artículo uno.g) de la Ley 20/2014, de 29 de octubre, por la que se delega en el Gobierno la potestad de dictar diversos textos refundidos, en virtud de lo establecido en el
+Disposición final cuarta. Entrada en vigor
+
 
 **artículo 82 y siguientes de la Constitución Española, autoriza al Gobierno para aprobar, en el**
 
@@ -424,7 +420,6 @@ Asimismo, se entiende que esta tendencia unificadora no puede ser óbice para qu
 
 Por último, y como fruto de la integración operada, se ha procedido a ajustar la numeración de las disposiciones como consecuencia de las distintas derogaciones que ya se habían producido con anterioridad.
 
-Página 7 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA En su virtud, a propuesta del Ministro de Hacienda y Administraciones Públicas, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 30 de octubre de 2015, DISPONGO:
 
 Artículo único. Aprobación del texto refundido de la Ley del Estatuto Básico del Empleado Público.
 
@@ -468,7 +463,6 @@ El presente real decreto legislativo y el texto refundido que aprueba entrarán 
 
 No obstante, la entrada en vigor de la duración prevista para el permiso de paternidad en el artículo 49.c) del texto refundido, se producirá en los términos previstos en la disposición transitoria sexta de dicho texto refundido.
 
-Página 8 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Por último, la entrada en vigor, tanto del apartado 2 del artículo 50 como de la disposición adicional decimosexta del texto refundido, se producirá el 1 de enero de 2016.
 
 Dado en Madrid, el 30 de octubre de 2015.
 
@@ -510,7 +504,6 @@ e) Las Universidades Públicas.
 
 ### capítulo II del título III, salvo el artículo 20, y los artículos 22.3, 24 y 84. {#capitulo-ii-del-titulo-iii-salvo-el-articulo-20-y-los-articulos-22-3-24-y-84}
 
-Página 9 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. Cada vez que este Estatuto haga mención al personal funcionario de carrera se entenderá comprendido el personal estatutario de los Servicios de Salud.
 
 5. El presente Estatuto tiene carácter supletorio para todo el personal de las Administraciones Públicas no incluido en su ámbito de aplicación.
 
@@ -548,7 +541,6 @@ El personal laboral al servicio de las Administraciones públicas se rige, adem�
 
 No obstante, en materia de permisos de nacimiento, adopción, del progenitor diferente de la madre biológica, de lactancia y parental, el personal laboral al servicio de las Administraciones públicas se regirá por lo previsto en el presente Estatuto, no siendo de aplicación a este personal, por tanto, las previsiones del texto refundido de la Ley del Estatuto de los Trabajadores sobre las suspensiones de los contratos de trabajo que, en su caso, corresponderían por los mismos supuestos de hecho.
 
-Página 10 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO II {#titulo-ii}
 
@@ -594,7 +586,6 @@ b) Por razones organizativas que den lugar a la supresión o a la amortización 
 
 c) Por la finalización del plazo autorizado expresamente recogido en su nombramiento. d) Por la finalización de la causa que dio lugar a su nombramiento.
 
-Página 11 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. En el supuesto previsto en el apartado 1.a), las plazas vacantes desempeñadas por personal funcionario interino deberán ser objeto de cobertura mediante cualquiera de los mecanismos de provisión o movilidad previstos en la normativa de cada Administración Pública.
 
 No obstante, transcurridos tres años desde el nombramiento del personal funcionario interino se producirá el fin de la relación de interinidad, y la vacante solo podrá ser ocupada por personal funcionario de carrera, salvo que el correspondiente proceso selectivo quede desierto, en cuyo caso se podrá efectuar otro nombramiento de personal funcionario interino. Excepcionalmente, el personal funcionario interino podrá permanecer en la plaza que ocupe temporalmente, siempre que se haya publicado la correspondiente convocatoria dentro del plazo de los tres años, a contar desde la fecha del nombramiento del funcionario interino y sea resuelta conforme a los plazos establecidos en el artículo 70 del TREBEP. En este supuesto podrá permanecer hasta la resolución de la convocatoria, sin que su cese dé lugar a compensación económica.
 
@@ -670,7 +661,6 @@ j bis) A la intimidad en el uso de dispositivos digitales puestos a su disposici
 
 k) A la libertad de expresión dentro de los límites del ordenamiento jurídico. l) A recibir protección eficaz en materia de seguridad y salud en el trabajo.
 
-Página 13 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA m) A las vacaciones, descansos, permisos y licencias. n) A la jubilación según los términos y condiciones establecidas en las normas aplicables.
 
 o) A las prestaciones de la Seguridad Social correspondientes al régimen que les sea de aplicación.
 
@@ -714,7 +704,6 @@ d) Promoción interna horizontal, que consiste en el acceso a cuerpos o escalas 
 
 Las leyes de Función Pública que se dicten en desarrollo del presente Estatuto podrán regular la carrera horizontal de los funcionarios de carrera, pudiendo aplicar, entre otras, las siguientes reglas:
 
-Página 14 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) Se articulará un sistema de grados, categorías o escalones de ascenso fijándose la remuneración a cada uno de ellos. Los ascensos serán consecutivos con carácter general, salvo en aquellos supuestos excepcionales en los que se prevea otra posibilidad.
 
 b) Se deberá valorar la trayectoria y actuación profesional, la calidad de los trabajos realizados, los conocimientos adquiridos y el resultado de la evaluación del desempeño. Podrán incluirse asimismo otros méritos y aptitudes por razón de la especificidad de la función desarrollada y la experiencia adquirida.
 
@@ -792,7 +781,6 @@ c) El grado de interés, iniciativa o esfuerzo con que el funcionario desempeña
 
 d) Los servicios extraordinarios prestados fuera de la jornada normal de trabajo.
 
-Página 16 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 25. Retribuciones de los funcionarios interinos.**
 
@@ -836,7 +824,6 @@ Derecho a la negociación colectiva, representación y participación institucio
 
 3. Por representación, a los efectos de esta ley, se entiende la facultad de elegir representantes y constituir órganos unitarios a través de los cuales se instrumente la interlocución entre las Administraciones Públicas y sus empleados.
 
-Página 17 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. Por participación institucional, a los efectos de esta ley, se entiende el derecho a participar, a través de las organizaciones sindicales, en los órganos de control y seguimiento de las entidades u organismos que legalmente se determine.
 
 5. El ejercicio de los derechos establecidos en este artículo se garantiza y se lleva a cabo a través de los órganos y sistemas específicos regulados en el presente capítulo, sin perjuicio de otras formas de colaboración entre las Administraciones Públicas y sus empleados públicos o los representantes de éstos.
 
@@ -870,7 +857,6 @@ los representantes de 2. Las Administraciones Públicas podrán encargar el desa
 
 2. Se reconoce la legitimación negocial de las asociaciones de municipios, así como la de las Entidades Locales de ámbito supramunicipal. A tales efectos, los municipios podrán adherirse con carácter previo o de manera sucesiva a la negociación colectiva que se lleve a cabo en el ámbito correspondiente.
 
-Página 18 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Asimismo, una Administración o Entidad Pública podrá adherirse a los acuerdos alcanzados dentro del territorio de cada comunidad autónoma, o a los acuerdos alcanzados en un ámbito supramunicipal.
 
 3. Son competencias propias de las Mesas Generales la negociación de las materias relacionadas con condiciones de trabajo comunes a los funcionarios de su ámbito.
 
@@ -936,7 +922,6 @@ b) La regulación del ejercicio de los derechos de los ciudadanos y de los usuar
 
 c) La determinación de condiciones de trabajo del personal directivo. d) Los poderes de dirección y control propios de la relación jerárquica.
 
-Página 20 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA e) La regulación y determinación concreta, en cada caso, de los sistemas, criterios, órganos y procedimientos de acceso al empleo público y la promoción profesional.
 
 **Artículo 38. Pactos y Acuerdos.**
 
@@ -996,7 +981,6 @@ b) Emitir informe, a solicitud de la Administración Pública correspondiente, s
 
 c) Ser informados de todas las sanciones impuestas por faltas muy graves. d) Tener conocimiento y ser oídos en el establecimiento de la jornada laboral y horario de trabajo, así como en el régimen de vacaciones y permisos.
 
-Página 22 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA e) Vigilar el cumplimiento de las normas vigentes en materia de condiciones de trabajo, prevención de riesgos laborales, Seguridad Social y empleo y ejercer, en su caso, las acciones legales oportunas ante los organismos competentes.
 
 f) Colaborar con la Administración correspondiente para conseguir el establecimiento de cuantas medidas procuren el mantenimiento e incremento de la productividad.
 
@@ -1028,7 +1012,6 @@ e) No ser trasladados ni sancionados por causas relacionadas con el ejercicio de
 
 El mandato de los miembros de las Juntas de Personal y de los Delegados de Personal, en su caso, será de cuatro años, pudiendo ser reelegidos. El mandato se entenderá prorrogado si, a su término, no se hubiesen promovido nuevas elecciones, sin que los representantes con mandato prorrogado se contabilicen a efectos de determinar la capacidad representativa de los Sindicatos.
 
-Página 23 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 43. Promoción de elecciones a Delegados y Juntas de Personal.**
 
@@ -1068,7 +1051,6 @@ f) Las impugnaciones se tramitarán conforme a un procedimiento arbitral, except
 
 3. Los sistemas podrán estar integrados por procedimientos de mediación y arbitraje. La mediación será obligatoria cuando lo solicite una de las partes y las propuestas de solución que ofrezcan el mediador o mediadores podrán ser libremente aceptadas o rechazadas por las mismas.
 
-Página 24 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Mediante el procedimiento de arbitraje las partes podrán acordar voluntariamente encomendar a un tercero la resolución del conflicto planteado, comprometiéndose de antemano a aceptar el contenido de la misma.
 
 4. El acuerdo logrado a través de la mediación o de la resolución de arbitraje tendrá la misma eficacia jurídica y tramitación de los Pactos y Acuerdos regulados en el presente Estatuto, siempre que quienes hubieran adoptado el acuerdo o suscrito el compromiso arbitral tuviesen la legitimación que les permita acordar, en el ámbito del conflicto, un Pacto o Acuerdo conforme a lo previsto en este Estatuto.
 
@@ -1136,7 +1118,6 @@ Se podrá solicitar la sustitución del tiempo de lactancia por un permiso retri
 
 Este permiso se incrementará proporcionalmente en los casos de parto, adopción, guarda con fines de adopción o acogimiento múltiple.
 
-Página 26 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA g) Por nacimiento de hijos prematuros o que por cualquier otra causa deban permanecer hospitalizados a continuación del parto, la funcionaria o el funcionario tendrá derecho a ausentarse del trabajo durante un máximo de dos horas diarias percibiendo las retribuciones íntegras.
 
 Asimismo, tendrán derecho a reducir su jornada de trabajo hasta un máximo de dos horas, con la disminución proporcional de sus retribuciones.
 
@@ -1214,7 +1195,6 @@ El permiso previsto en los apartados 2.º y 3.º podrá disfrutarse a jornada co
 
 En el caso del disfrute interrumpido del permiso se requerirá, para cada período de disfrute, un preaviso de al menos quince días y se realizará por semanas completas.
 
-Página 28 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA En el caso de las semanas a que se refiere el párrafo 3.º, cuando concurran en ambas personas progenitoras, adoptantes, o acogedoras, por el mismo sujeto y hecho causante, y el período solicitado altere seriamente el correcto funcionamiento de la unidad de la administración en la que ambas presten servicios, esta podrá aplazar la concesión del permiso por un período razonable, justificándolo por escrito y después de haber ofrecido una alternativa de disfrute más flexible.
 
 Si fuera necesario el desplazamiento previo de los progenitores al país de origen del adoptado, en los casos de adopción o acogimiento internacional, se tendrá derecho, además, a un permiso de hasta dos meses de duración, percibiendo durante este periodo exclusivamente las retribuciones básicas.
 
@@ -1290,7 +1270,6 @@ Este permiso, constituye un derecho individual de las personas progenitoras, ado
 
 Cuando las necesidades del servicio lo permitan, corresponderá a la persona progenitora, adoptante o acogedora especificar la fecha de inicio y fin del disfrute o, en su caso, de los períodos de disfrute, debiendo comunicarlo a la Administración con una antelación de quince días y realizándose por semanas completas.
 
-Página 31 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Cuando concurran en ambas personas progenitoras, adoptantes, o acogedoras, por el mismo sujeto y hecho causante, las circunstancias necesarias para tener derecho a este permiso en los que el disfrute del permiso parental en el período solicitado altere seriamente el correcto funcionamiento de la unidad de la administración en la que ambas presten servicios, esta podrá aplazar la concesión del permiso por un período razonable, justificándolo por escrito y después de haber ofrecido una alternativa de disfrute más flexible. A efectos de lo dispuesto en este apartado, el término de madre biológica incluye también a las personas trans gestantes.
 
 **Artículo 50. Vacaciones de los funcionarios públicos.**
 
@@ -1394,7 +1373,6 @@ e) Poseer la titulación exigida.
 
 3. Podrá exigirse el cumplimiento de otros requisitos específicos que guarden relación objetiva y proporcionada con las funciones asumidas y las tareas a desempeñar. En todo caso, habrán de establecerse de manera abstracta y general.
 
-Página 34 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 57. Acceso al empleo público de nacionales de otros Estados.**
 
@@ -1428,7 +1406,6 @@ La reserva del mínimo del siete por ciento se realizará de manera que, al meno
 
 1. Los órganos de selección serán colegiados y su composición deberá ajustarse a los principios de imparcialidad y profesionalidad de sus miembros, y se tenderá, asimismo, a la paridad entre mujer y hombre.
 
-Página 35 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. El personal de elección o de designación política, los funcionarios interinos y el personal eventual no podrán formar parte de los órganos de selección.
 
 3. La pertenencia a los órganos de selección será siempre a título individual, no pudiendo ostentarse ésta en representación o por cuenta de nadie.
 
@@ -1466,7 +1443,6 @@ No obstante lo anterior, siempre que los órganos de selección hayan propuesto 
 
 a) Superación del proceso selectivo. b) Nombramiento por el órgano o autoridad competente, que será publicado en el Diario Oficial correspondiente.
 
-Página 36 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico.
 
 d) Toma de posesión dentro del plazo que se establezca.
 
@@ -1544,7 +1520,6 @@ b) Previsiones sobre los sistemas de organización del trabajo y modificaciones 
 
 c) Medidas de movilidad, entre las cuales podrá figurar la suspensión de incorporaciones de personal externo a un determinado ámbito o la convocatoria de concursos de provisión de puestos limitados a personal de ámbitos que se determinen.
 
-Página 38 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) Medidas de promoción interna y de formación del personal y de movilidad forzosa de conformidad con lo dispuesto en el capítulo III del presente título de este Estatuto.
 
 e) La previsión de la incorporación de recursos humanos a través de la Oferta de empleo público, de acuerdo con lo establecido en el artículo siguiente.
 
@@ -1582,7 +1557,6 @@ En el marco de sus competencias de autoorganización, las Administraciones Públ
 
 2. Las Administraciones Públicas podrán asignar a su personal funciones, tareas o responsabilidades distintas a las correspondientes al puesto de trabajo que desempeñen siempre que resulten adecuadas a su clasificación, grado o categoría, cuando las necesidades del servicio lo justifiquen sin merma en las retribuciones.
 
-Página 39 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. Los puestos de trabajo podrán agruparse en función de sus características para ordenar la selección, la formación y la movilidad.
 
 **Artículo 74. Ordenación de los puestos de trabajo.**
 
@@ -1632,7 +1606,6 @@ funcionario de carrera.
 
 3. Las leyes de Función Pública que se dicten en desarrollo del presente Estatuto podrán establecer otros procedimientos de provisión en los supuestos de movilidad a que se refiere el artículo 81.2, permutas entre puestos de trabajo, movilidad por motivos de salud o rehabilitación del funcionario, reingreso al servicio activo, cese o remoción en los puestos de trabajo y supresión de los mismos.
 
-Página 40 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 79. Concurso de provisión de los puestos de trabajo del personal funcionario de**
 
@@ -1668,7 +1641,6 @@ Para la acreditación de estos extremos, reglamentariamente se determinarán los
 
 2. Las Administraciones Públicas, de manera motivada, podrán trasladar a sus funcionarios, por necesidades de servicio o funcionales, a unidades, departamentos u organismos públicos o entidades distintos a los de su destino, respetando sus retribuciones, condiciones esenciales de trabajo, modificando, en su caso, la adscripción de los puestos de trabajo de los que sean titulares. Cuando por motivos excepcionales los planes de ordenación de recursos impliquen cambio de lugar de residencia se dará prioridad a la voluntariedad de los traslados. Los funcionarios tendrán derecho a las indemnizaciones establecidas reglamentariamente para los traslados forzosos.
 
-Página 41 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. En caso de urgente e inaplazable necesidad, los puestos de trabajo podrán proveerse con carácter provisional debiendo procederse a su convocatoria pública dentro del plazo que señalen las normas que sean de aplicación.
 
 **Artículo 82. Movilidad por razón de violencia de género, violencia sexual y violencia**
 
@@ -1724,7 +1696,6 @@ Dicha regulación, según la situación administrativa de que se trate, podrá c
 
 2. Los funcionarios de carrera en situación de servicio activo gozan de todos los derechos inherentes a su condición de funcionarios y quedan sujetos a los deberes y responsabilidades derivados de la misma. Se regirán por las normas de este Estatuto y por la normativa de función pública de la Administración Pública en que presten servicios.
 
-Página 43 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 87. Servicios especiales.**
 
@@ -1780,7 +1751,6 @@ Se reconoce la igualdad entre todos los funcionarios propios de las comunidades 
 
 a) Excedencia voluntaria por interés particular. b) Excedencia voluntaria por agrupación familiar. c) Excedencia por cuidado de familiares. d) Excedencia por razón de violencia de género o de violencia sexual. e) Excedencia por razón de violencia terrorista.
 
-Página 45 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los funcionarios de carrera podrán obtener la excedencia voluntaria por interés particular cuando hayan prestado servicios efectivos en cualquiera de las Administraciones Públicas durante un periodo mínimo de cinco años inmediatamente anteriores.
 
 No obstante, las leyes de Función Pública que se dicten en desarrollo del presente Estatuto podrán establecer una duración menor del periodo de prestación de servicios exigido para que el funcionario de carrera pueda solicitar la excedencia y se determinarán los periodos mínimos de permanencia en la misma.
 
@@ -1808,7 +1778,6 @@ Los funcionarios en esta situación podrán participar en los cursos de formaci�
 
 5. Las funcionarias víctimas de violencia de género o de violencia sexual, para hacer efectiva su protección o su derecho a la asistencia social integral, tendrán derecho a solicitar la situación de excedencia sin tener que haber prestado un tiempo mínimo de servicios previos y sin que sea exigible plazo de permanencia en la misma.
 
-Página 46 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Durante los seis primeros meses tendrán derecho a la reserva del puesto de trabajo que desempeñarán, siendo computable dicho período a efectos de antigüedad, carrera y derechos del régimen de Seguridad Social que sea de aplicación.
 
 Cuando las actuaciones judiciales lo exigieran se podrá prorrogar este periodo por tres meses, con un máximo de dieciocho, con idénticos efectos a los señalados anteriormente, a fin de garantizar la efectividad del derecho de protección de la víctima.
 
@@ -1846,7 +1815,6 @@ Régimen disciplinario
 
 1. Los funcionarios públicos y el personal laboral quedan sujetos al régimen disciplinario establecido en el presente título y en las normas que las leyes de Función Pública dicten en desarrollo de este Estatuto.
 
-Página 47 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los funcionarios públicos o el personal laboral que indujeren a otros a la realización de actos o conductas constitutivos de falta disciplinaria incurrirán en la misma responsabilidad que éstos.
 
 3. Igualmente, incurrirán en responsabilidad los funcionarios públicos o personal laboral que encubrieren las faltas consumadas muy graves o graves, cuando de dichos actos se derive daño grave para la Administración o los ciudadanos.
 
@@ -1890,7 +1858,6 @@ h) La violación de la imparcialidad, utilizando las facultades atribuidas para 
 
 i) La desobediencia abierta a las órdenes o instrucciones de un superior, salvo que constituyan infracción manifiesta del Ordenamiento jurídico.
 
-Página 48 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA j) La prevalencia de la condición de empleado público para obtener un beneficio indebido para sí o para otro.
 
 k) La obstaculización al ejercicio de las libertades públicas y derechos sindicales. l) La realización de actos encaminados a coartar el libre ejercicio del derecho de huelga. m) El incumplimiento de la obligación de atender los servicios esenciales en caso de huelga.
 
@@ -1932,7 +1899,6 @@ e) Demérito, que consistirá en la penalización a efectos de carrera, promoci�
 
 2. El plazo de prescripción de las faltas comenzará a contarse desde que se hubieran cometido, y desde el cese de su comisión cuando se trate de faltas continuadas.
 
-Página 49 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA El de las sanciones, desde la firmeza de la resolución sancionadora.
 
 **Artículo 98. Procedimiento disciplinario y medidas provisionales.**
 
@@ -2004,7 +1970,6 @@ a) El establecimiento, modificación y supresión de Escalas, Subescalas y clase
 
 b) La aprobación de las plantillas y relaciones de puestos de trabajo. c) La regulación del procedimiento de provisión de puestos directivos así como su régimen de permanencia y cese.
 
-Página 51 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) La determinación de las faltas y sanciones disciplinarias leves.
 
 3. Los funcionarios transferidos se regirán por la Ley de Función Pública de la Administración General del Estado y sus normas de desarrollo. No obstante, podrán integrarse como funcionarios propios de la ciudad a la que hayan sido transferidos quedando en la situación administrativa de servicio en otras administraciones públicas.
 
@@ -2036,7 +2001,6 @@ Disposición adicional octava.
 
 Los funcionarios de carrera tendrán garantizados los derechos económicos alcanzados o reconocidos en el marco de los sistemas de carrera profesional establecidos por las leyes de cada Administración Pública.
 
-Página 52 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional novena.
 
 La carrera profesional de los funcionarios de carrera se iniciará en el grado, nivel, categoría, escalón y otros conceptos análogos correspondientes a la plaza inicialmente asignada al funcionario tras la superación del correspondiente proceso selectivo, que tendrán la consideración de mínimos. A partir de aquellos, se producirán los ascensos que procedan según la modalidad de carrera aplicable en cada ámbito.
 
@@ -2128,7 +2092,6 @@ Disposición transitoria tercera. Entrada en vigor de la nueva clasificación pr
 
 Grupo A: Subgrupo A1. Grupo B: Subgrupo A2. Grupo C: Subgrupo C1. Grupo D: Subgrupo C2.
 
-Página 55 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Grupo E: Agrupaciones Profesionales a que hace referencia la disposición adicional sexta.
 
 3. Los funcionarios del Subgrupo C1 que reúnan la titulación exigida podrán promocionar al Grupo A sin necesidad de pasar por el nuevo Grupo B, de acuerdo con lo establecido en el artículo 18 de este Estatuto.
 
@@ -2168,7 +2131,6 @@ La duración del permiso del progenitor diferente de la madre biológica por nac
 
 **artículo 49 de la presente norma, en la redacción dada por el Real Decreto-ley 6/2019, de 1**
 
-Página 56 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA de marzo, de medidas urgentes para garantía de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación, se incrementará de forma progresiva, de tal forma que:
 
 a) En 2019, la duración del permiso será de ocho semanas; las dos primeras semanas serán ininterrumpidas e inmediatamente posteriores a la fecha del nacimiento, de la decisión judicial de guarda con fines de adopción o acogimiento o decisión judicial por la que se constituya la adopción. Las seis semanas restantes podrán ser de disfrute interrumpido; ya sea con posterioridad a las seis semanas inmediatas posteriores al periodo de descanso obligatorio para la madre, o bien con posterioridad a la finalización de los permisos contenidos en los apartados a) y b) del artículo 49 o de la suspensión del contrato por nacimiento, adopción, guarda con fines de adopción o acogimiento.
 
@@ -2220,4 +2182,3 @@ final La disposición tercera del presente Estatuto producirá efectos en cada A
 
 Este documento es de carácter informativo y no tiene valor jurídico.
 
-Página 58
