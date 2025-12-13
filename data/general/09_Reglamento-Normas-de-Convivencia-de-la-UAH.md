@@ -22,7 +22,11 @@ Los principios sobre los que deben configurarse estos medios alternativos indica
 
 **IV.** Finalmente hay que reseñar que se prevé la creación en el seno de las universidades de una Comisión de Convivencia, con representación paritaria de los distintos sectores de la Comunidad Universitaria.
 
-Boletín Oficial de la Universidad de Alcalá 1 AÑO XIX Número 3 Marzo 2024 V. La Universidad de Alcalá es una Institución de derecho público encargada de la prestación del servicio público de la educación superior, que desarrolla mediante la investigación, la docencia y el estudio.
+Boletín Oficial de la Universidad de Alcalá 
+
+1 AÑO XIX Número 3 Marzo 2024 V. 
+
+La Universidad de Alcalá es una Institución de derecho público encargada de la prestación del servicio público de la educación superior, que desarrolla mediante la investigación, la docencia y el estudio.
 
 Tal y como prevén sus Estatutos, la Universidad de Alcalá, en el cumplimiento de sus fines y funciones, actúa de acuerdo con los principios y valores de libertad, igualdad de derechos y oportunidades, justicia, pluralismo y participación democrática. Además, somete su gestión a los criterios superiores de respeto al medio ambiente, sostenibilidad en el uso de los recursos y solidaridad.
 
