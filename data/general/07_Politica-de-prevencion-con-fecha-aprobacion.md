@@ -1,4 +1,4 @@
- R E C T O R A D O Plaza de San Diego s/n 28801 Alcalá de Henares (Madrid) Teléfonos: 91 885 4000 D A D I N A M U H A L E D O I N O M I R T A P , Á L A C L A E D D A D I S R E V I N U DECLARACIÓN DE POLÍTICA DE PREVENCIÓN DE RIESGOS LABORALES DE LA UNIVERSIDAD DE ALCALÁ
+Rectorado – Plaza de San Diego s/n 28801 Alcalá de Henares (Madrid). Teléfono: 91 885 4000. Declaración de Política de Prevención de Riesgos Laborales de la Universidad de Alcalá.
 
 ## POLÍTICA DE PREVENCIÓN {#politica-de-prevencion}
 

@@ -29,9 +29,10 @@
       "materialId": "uah-tema-003",
       "cobertura_convocatoria": [
         "#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades",
-        "#titulo-ix-capitulo-i",
-        "#titulo-ix-capitulo-ii",
-        "#titulo-ix-capitulo-v"
+        "#titulo-ix",
+        "#capitulo-i",
+        "#capitulo-ii",
+        "#capitulo-v"
       ]
     },
     {
