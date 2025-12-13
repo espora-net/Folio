@@ -13,7 +13,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
-import AppLogo from './AppLogo';
+import AppLogo from '@/components/AppLogo';
 
 const navigation = [
   { name: 'Estudiar hoy', href: '/estudiar-hoy', icon: Calendar },

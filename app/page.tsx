@@ -1,12 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { BookOpen } from "lucide-react";
-import { Calendar } from "lucide-react";
-import { CreditCard } from "lucide-react";
-import { FileText } from "lucide-react";
-import { Sparkles } from "lucide-react";
+import { ArrowRight, BookOpen, Calendar, CreditCard, FileText, Sparkles } from "lucide-react";
 import AppLogo from "@/components/AppLogo";
 
 const modules = [
@@ -40,12 +35,24 @@ const modules = [
   },
 ];
 
+const heroGlows = [
+  {
+    id: "primary-glow",
+    className: "absolute -left-10 top-10 h-56 w-56 rounded-full bg-sky-500/30 blur-3xl",
+  },
+  {
+    id: "secondary-glow",
+    className: "absolute right-0 top-28 h-64 w-64 rounded-full bg-indigo-500/25 blur-3xl",
+  },
+];
+
 export default function Home() {
   return (
     <div className="relative max-w-6xl mx-auto space-y-8">
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-40">
-        <div className="absolute -left-10 top-10 h-56 w-56 rounded-full bg-sky-500/30 blur-3xl" />
-        <div className="absolute right-0 top-28 h-64 w-64 rounded-full bg-indigo-500/25 blur-3xl" />
+        {heroGlows.map((glow) => (
+          <div key={glow.id} className={glow.className} />
+        ))}
       </div>
 
       <section className="overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-black p-8 shadow-[0_25px_80px_rgba(59,130,246,0.25)]">
