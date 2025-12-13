@@ -1179,8 +1179,6 @@ Cuando en el proceso jurisdiccional se haya suscitado una cuestión de discrimin
 
 2. Lo establecido en el apartado anterior no es de aplicación a los procesos penales ni a los contencioso-administrativos interpuestos contra resoluciones sancionadoras.
 
-Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad
-
 ## TÍTULO III {#titulo-iii}
 
 ### CAPÍTULO I {#capitulo-i}
