@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       ruta_pdf:
-        description: "Directorio donde buscar PDFs (por defecto docs/)"
+        description: "Directorio donde buscar PDFs (por defecto data/general)"
         required: false
-        default: "docs"
+        default: "data/general"
 
 permissions:
   contents: read
@@ -38,17 +38,32 @@ jobs:
           set -u
           set -o pipefail
 
-          raiz="${PDF_ROOT:-docs}"
+          workspace_root="$(pwd -P)"
+          raiz="${PDF_ROOT:-data/general}"
           raiz="${raiz%/}"
-          if [ -z "$raiz" ]; then
-            raiz="."
-          fi
-          raiz_con_slash="${raiz}/"
-          mkdir -p markdown
           if [ ! -d "$raiz" ]; then
-            echo "El directorio ${raiz} no existe." | tee markdown/README.md
+            echo "El directorio ${raiz} no existe."
             exit 0
           fi
+
+          if ! raiz_abs="$(realpath "$raiz")"; then
+            echo "No se pudo resolver la ruta absoluta de ${raiz}."
+            exit 1
+          fi
+          case "$raiz_abs" in
+            "$workspace_root"|"$workspace_root"/*)
+              ;;
+            *)
+              echo "La ruta ${raiz} debe estar dentro del repositorio clonado."
+              exit 1
+              ;;
+          esac
+          if [ "$raiz_abs" = "$workspace_root" ]; then
+            echo "Debe especificarse un directorio diferente a la raíz del repositorio."
+            exit 1
+          fi
+          echo "OUTPUT_ROOT=${raiz_abs}" >> "$GITHUB_ENV"
+          raiz="$raiz_abs"
 
           listado_pdf="$(mktemp)"
           if ! find "$raiz" -type f -name '*.pdf' -print0 > "$listado_pdf"; then
@@ -63,26 +78,39 @@ jobs:
           rm -f "$listado_pdf"
 
           if [ ${#pdf_files[@]} -eq 0 ]; then
-            echo "No se encontraron archivos PDF en ${raiz}." | tee markdown/README.md
+            echo "No se encontraron archivos PDF en ${raiz}."
             exit 0
           fi
 
+          generated_files=()
           for file in "${pdf_files[@]}"; do
-            relative="${file#"$raiz_con_slash"}"
-            relative="${relative#./}"
-            output="markdown/${relative%.pdf}.md"
-            mkdir -p "$(dirname "$output")"
+            output="${file%.pdf}.md"
             echo "Convirtiendo $file a $output"
             tmp_error="$(mktemp)"
             if ! markitdown "$file" > "$output" 2>"$tmp_error"; then
               echo "Error al convertir $file; se continúa con el siguiente." >&2
               cat "$tmp_error" >&2
+            else
+              generated_files+=("$output")
             fi
             rm -f "$tmp_error"
           done
 
+          if [ ${#generated_files[@]} -gt 0 ]; then
+            markdown_json="$(printf '%s\n' "${generated_files[@]}" | python - <<'PY'
+import json
+import sys
+
+paths = [line.rstrip("\n") for line in sys.stdin if line.strip()]
+print(json.dumps(paths))
+PY
+)"
+            echo "MARKDOWN_PATHS=${markdown_json}" >> "$GITHUB_ENV"
+          fi
+
       - name: Publicar artefacto
         uses: actions/upload-artifact@v4
+        if: env.MARKDOWN_PATHS != ''
         with:
           name: markdown-desde-pdfs
-          path: markdown
+          path: ${{ fromJSON(env.MARKDOWN_PATHS) }}
