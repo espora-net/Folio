@@ -13,6 +13,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
+import AppLogo from './AppLogo';
 
 const navigation = [
   { name: 'Estudiar hoy', href: '/estudiar-hoy', icon: Calendar },
@@ -45,14 +46,11 @@ export default function Sidebar({
       style={{ width: collapsed ? 80 : 256 }}
     >
       <div className="flex items-center justify-between p-4">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex flex-col">
-            <h1 className="text-xl font-bold text-white leading-none">
-              {collapsed ? 'F' : 'Folio'}
-            </h1>
-            {!collapsed && (
-              <p className="text-xs text-zinc-400 mt-1">Oposiciones C1</p>
-            )}
+        <Link href="/" className="flex items-center gap-3">
+          <AppLogo size={collapsed ? "w-10 h-10" : "w-12 h-12"} className="shrink-0" />
+          <div className={`flex flex-col ${collapsed ? 'hidden' : ''}`}>
+            <h1 className="text-xl font-bold text-white leading-none">Folio</h1>
+            <p className="text-xs text-zinc-400 mt-1">Oposiciones C1</p>
           </div>
         </Link>
         <button
