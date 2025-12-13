@@ -1,5 +1,5 @@
 {
-  "descripcion": "Referencias oficiales de los documentos almacenados en la carpeta data/",
+  "descripcion": "Referencias oficiales de los documentos almacenados en la carpeta data/, usando la numeración de los prefijos de archivo.",
   "version": "1.0.0",
   "fecha_actualizacion": "2025-12-13",
   "referencias": [
@@ -46,19 +46,19 @@
       "url": "https://www.uah.es/export/sites/uah/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-prevencion/.galleries/documentos/Politica-de-prevencion-con-fecha-aprobacion.pdf"
     },
     {
-      "numero": 8,
+      "numero": 7,
       "titulo": "Plan de Prevención de Riesgos Laborales de la UAH",
       "path": "general/07_Plan-de-Prevencion_UAH.pdf",
       "url": "https://www.uah.es/export/sites/uah/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-prevencion/.galleries/documentos/SG00CH20016_Plan-de-Prevencion.pdf"
     },
     {
-      "numero": 9,
+      "numero": 8,
       "titulo": "Código Ético General de la Universidad de Alcalá",
       "path": "general/08_codigo-etico-general-UAH.pdf",
       "url": "https://www.uah.es/export/shared/es/conoce-la-uah/organizacion-y-gobierno/.galleries/Galeria-Secretaria-General/codigo-etico-general-UAH.pdf"
     },
     {
-      "numero": 10,
+      "numero": 9,
       "titulo": "Reglamento de Normas de Convivencia de la UAH",
       "path": "general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf",
       "url": "https://www.uah.es/export/shared/es/conoce-la-uah/organizacion-y-gobierno/.galleries/Galeria-Secretaria-General/Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
