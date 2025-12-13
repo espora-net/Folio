@@ -20,7 +20,7 @@ Tal y como prevén sus Estatutos, la Universidad de Alcalá, en el cumplimiento 
 
 El presente Reglamento tiene por objeto aprobar las Normas de Convivencia de la Universidad de Alcalá, estableciendo así las bases de la convivencia en el ámbito de toda la comunidad universitaria de la Universidad de Alcalá, de conformidad con lo dispuesto en el Título Preliminar de la Ley 3/2022, de 24 de febrero, de convivencia universitaria.
 
-No obstante la necesidad de aprobar las presentes Normas de Convivencia, por mandato de lo establecido en la LCU, hay que decir que la Universidad de Alcala ya dispone de un Código Ético General de la Universidad de Alcalá, que pretende servir de orientación y guía inspiradora de los comportamientos y conductas que deben seguir la totalidad de miembros de la comunidad que conforma la Universidad de Alcalá –estudiantado, personal docente e investigador, personal de administración y servicios y responsables de la gestión- en el ejercicio de sus derechos y en el cumplimiento de sus respectivos deberes. Dicho Código, que carece de carácter sancionador o disciplinario, tiene como propósito contribuir a la mejora del clima ético de la Universidad de Alcalá, en sus diferentes manifestaciones, y su vocación meramente orientativa o preventiva.
+No obstante la necesidad de aprobar las presentes Normas de Convivencia, por mandato de lo establecido en la LCU, hay que decir que la Universidad de Alcalá ya dispone de un Código Ético General de la Universidad de Alcalá, que pretende servir de orientación y guía inspiradora de los comportamientos y conductas que deben seguir la totalidad de miembros de la comunidad que conforma la Universidad de Alcalá –estudiantado, personal docente e investigador, personal de administración y servicios y responsables de la gestión- en el ejercicio de sus derechos y en el cumplimiento de sus respectivos deberes. Dicho Código, que carece de carácter sancionador o disciplinario, tiene como propósito contribuir a la mejora del clima ético de la Universidad de Alcalá, en sus diferentes manifestaciones, y su vocación meramente orientativa o preventiva.
 
 Igualmente son reseñables los siguientes Reglamentos y Protocolos conexos con las presentes normas de Convivencia, que mantienen su vigencia y que contienen muchas de las medidas de prevención que exige la nueva LCU:
 
@@ -66,9 +66,7 @@ La finalidad de las Normas de Convivencia de la Universidad de Alcalá es favore
 
 2. Las personas integrantes de la comunidad universitaria en relación con sus actividades universitarias están sujetas a la observancia de las leyes, de los Estatutos de la Universidad de Alcalá y de sus normas de desarrollo y en particular de las presentes Normas de Convivencia.
 
-#### SECCIÓN SEGUNDA. ÓRGANOS ENCARGADOS DE VELAR POR ESTAS NORMAS DE {#seccion-segunda-organos-encargados-de-velar-por-estas-normas-de}
-
-CONVIVENCIA
+#### SECCIÓN SEGUNDA. ÓRGANOS ENCARGADOS DE VELAR POR ESTAS NORMAS DE CONVIVENCIA {#seccion-segunda-organos-encargados-de-velar-por-estas-normas-de-convivencia}
 
 **Artículo 5. Competencias**
 
@@ -92,7 +90,7 @@ Con el fin de garantizar la debida confidencialidad, la denuncia, comunicación 
 
 2. La composición, organización y funcionamiento de esta Comisión se establecen en la Sección I del
 
-## Título II de las presentes Normas de Convivencia. {#titulo-ii-de-las-presentes-normas-de-convivencia}
+## TÍTULO II {#titulo-ii}
 
 **Artículo 7. Medios para la correcta aplicación de las Normas de Convivencia**
 
@@ -104,9 +102,9 @@ Boletín Oficial de la Universidad de Alcalá 4 AÑO XIX Número 3 Marzo 2024
 
 La Comisión de Prevención del Acoso Laboral actuará de conformidad con lo dispuesto en el Protocolo para la prevención y actuación frente al acoso laboral en el ámbito de la Universidad de Alcalá.
 
-**Artículo 9. Actuación frente al acoso sexual, por razón de sexo, orientación sexual o identidad de**
+**Artículo 9. Actuación frente al acoso sexual, por razón de sexo, orientación sexual o identidad de género**
 
-género La Dirección de la Unidad de Igualdad actuará de conformidad con el Protocolo de prevención y actuación frente al acoso sexual, por razón de sexo, orientación sexual o identidad de género en el ámbito de la Universidad de Alcalá.
+La Dirección de la Unidad de Igualdad actuará de conformidad con el Protocolo de prevención y actuación frente al acoso sexual, por razón de sexo, orientación sexual o identidad de género en el ámbito de la Universidad de Alcalá.
 
 **Artículo 10. Actuaciones del Servicio de Prevención de Riesgos Laborales**
 
@@ -152,7 +150,9 @@ Boletín Oficial de la Universidad de Alcalá 5 AÑO XIX Número 3 Marzo 2024 2.
 
 5. Todas las personas de la comunidad universitaria de la Universidad de Alcalá tienen el derecho a recibir y el deber de mantener una actitud de respeto y cortesía en su relación con el resto de las personas integrantes de la comunidad universitaria en las actividades docentes, académicas, culturales, lúdicas, administrativas, laborales y de prestación de servicio, o de cualquier otro tipo, en las que participen. Como parte de esta actitud de respeto, todas las personas tienen derecho a ser tratadas de forma educada.
 
-6. La actitud de respeto deberá observarse, asimismo, en el uso legítimo que se haga de Internet, entornos y aulas virtuales y en las redes sociales, todo ello sin perjuicio del pleno respeto a la libertad de expresión de todas las personas de la comunidad universitaria 7. Garantizando, en todo caso, el pleno respeto a la libertad individual, al libre desarrollo de la personalidad y al derecho a la libre elección de imagen, todas las personas de la comunidad universitaria de la Universidad de Alcalá tienen el deber de guardar una indumentaria ajustada a las actividades y al contexto en las que participen.
+6. La actitud de respeto deberá observarse, asimismo, en el uso legítimo que se haga de Internet, entornos y aulas virtuales y en las redes sociales, todo ello sin perjuicio del pleno respeto a la libertad de expresión de todas las personas de la comunidad universitaria.
+
+7. Garantizando, en todo caso, el pleno respeto a la libertad individual, al libre desarrollo de la personalidad y al derecho a la libre elección de imagen, todas las personas de la comunidad universitaria de la Universidad de Alcalá tienen el deber de guardar una indumentaria ajustada a las actividades y al contexto en las que participen.
 
 **Artículo 13. Libertad de expresión**
 
@@ -428,11 +428,7 @@ Boletín Oficial de la Universidad de Alcalá 14 AÑO XIX Número 3 Marzo 2024 2
 
 2. Recibida la solicitud de intervención, de conformidad con lo dispuesto en el artículo 5.2 de este Reglamento, a la vista del contenido de la misma, y en un plazo no superior a cinco días hábiles desde su recepción, la Comisión de Convivencia, tras un primer análisis del contenido de la solicitud procederá a admitir o a no admitir a trámite la solicitud, notificándolo a la persona solicitante, una vez verificada la procedencia del mecanismo de mediación, excluyendo del mismo comportamientos o conductas que pudiesen tener la consideración de faltas, según el régimen disciplinario aplicable, o puedan ser constitutivas de delito, de conformidad con lo dispuesto en la Ley 3/2022, de 24 de febrero, de convivencia universitaria.
 
-3. En la solicitud se tendrá que consignar con claridad la petición de acogerse al mecanismo de mediación, el objeto del conflicto y las partes que puedan estar involucradas de conformidad con lo indicado en el
-
-**artículo 5.2. La Comisión de Convivencia recabará de las restantes partes del conflicto que manifiesten**
-
-si aceptan o no acogerse al mecanismo de mediación. Las partes deberán pronunciarse al respecto en el plazo de cuatro días hábiles.
+3. En la solicitud se tendrá que consignar con claridad la petición de acogerse al mecanismo de mediación, el objeto del conflicto y las partes que puedan estar involucradas de conformidad con lo indicado en el artículo 5.2. La Comisión de Convivencia recabará de las restantes partes del conflicto que manifiesten si aceptan o no acogerse al mecanismo de mediación. Las partes deberán pronunciarse al respecto en el plazo de cuatro días hábiles.
 
 4. Una vez verificada la procedencia del mecanismo de mediación, la Comisión de Convivencia de la Universidad de Alcalá propondrá a las partes una persona mediadora que podrá pertenecer a cualquiera los grupos que forman el Registro de personas mediadoras, de conformidad con lo dispuesto en el artículo 25.3 de este reglamento. Las partes podrán oponerse a tal propuesta en el plazo de cuatro días hábiles.
 
@@ -548,7 +544,7 @@ Boletín Oficial de la Universidad de Alcalá 23 AÑO XIX Número 3 Marzo 2024 D
 
 Documentación que se adjunta:
 
-SOLICITO el inicio de las actuaciones oportunas frente a la conducata de acoso denunciada, Alcalá de Henares, a de de 20 SECRETARÍA GENERAL.- Los datos personales recogidos serán tratados por la Universidad de Alcalá con la finalidad de gestionar su solicitud, la correcta tramitación de la misma, así como con fines estadísticos. La base legítima de dicho tratamiento es su consentimiento expreso, las obligaciones legales de la UAH en materia laboral, prevención de riesgos laborales y de violencia de género. Para el supuesto caso de ser necesario garantizar la seguridad jurídica y salvaguardar los derechos implicados en el procedimiento para su correcta resolución, con su petición consiente expresamente a que sus datos sean cedidos exclusivamente a las personas, Servicios o Unidades correspondientes implicados y/o encargados del procedimiento. Fuera de estos casos, sus datos no serán cedidos salvo los casos previstos legalmente y se conservarán durante el tiempo legalmente establecido y el necesario para cumplir con la finalidad descrita. No obstante, en todo caso, sus datos serán tratados con absoluta confidencialidad. El órgano responsable del tratamiento es la Secretaría General de la Universidad, ante quien se podrán ejercer los correspondientes derechos, mediante escrito dirigido a la Delegada de Protección de Datos (Colegio de San Ildefonso, Plaza de San Diego, s/n. 28801 Alcalá de Henares. Madrid) o por correo electrónico (protecciondedatos@uah.es), adjuntando copia del DNI o equivalente. En caso de conflicto, se podrá plantear recurso ante la Agencia Española de Protección de Datos. Para una información más detallada puede consultarse la Política de Privacidad de la Universidad.
+SOLICITO el inicio de las actuaciones oportunas frente a la conducta de acoso denunciada, Alcalá de Henares, a de de 20 SECRETARÍA GENERAL.- Los datos personales recogidos serán tratados por la Universidad de Alcalá con la finalidad de gestionar su solicitud, la correcta tramitación de la misma, así como con fines estadísticos. La base legítima de dicho tratamiento es su consentimiento expreso, las obligaciones legales de la UAH en materia laboral, prevención de riesgos laborales y de violencia de género. Para el supuesto caso de ser necesario garantizar la seguridad jurídica y salvaguardar los derechos implicados en el procedimiento para su correcta resolución, con su petición consiente expresamente a que sus datos sean cedidos exclusivamente a las personas, Servicios o Unidades correspondientes implicados y/o encargados del procedimiento. Fuera de estos casos, sus datos no serán cedidos salvo los casos previstos legalmente y se conservarán durante el tiempo legalmente establecido y el necesario para cumplir con la finalidad descrita. No obstante, en todo caso, sus datos serán tratados con absoluta confidencialidad. El órgano responsable del tratamiento es la Secretaría General de la Universidad, ante quien se podrán ejercer los correspondientes derechos, mediante escrito dirigido a la Delegada de Protección de Datos (Colegio de San Ildefonso, Plaza de San Diego, s/n. 28801 Alcalá de Henares. Madrid) o por correo electrónico (protecciondedatos@uah.es), adjuntando copia del DNI o equivalente. En caso de conflicto, se podrá plantear recurso ante la Agencia Española de Protección de Datos. Para una información más detallada puede consultarse la Política de Privacidad de la Universidad.
 
 Boletín Oficial de la Universidad de Alcalá 24 AÑO XIX Número 3 Marzo 2024 ANEXO IV. FORMULARIOS DE SOLICITUD Y DENUNCIA DEL PROTOCOLO DE PREVENCIÓN Y ACTUACIÓN FRENTE AL ACOSO SEXUAL, POR RAZÓN DE SEXO, ORIENTACIÓN SEXUAL O IDENTIDAD DE GÉNERO EN EL ÁMBITO DE LA UNIVERSIDAD DE ALCALÁ Boletín Oficial de la Universidad de Alcalá 25 AÑO XIX Número 3 Marzo 2024 SOLICITUD DE INTERVENCIÓN (Anexo al Protocolo I.1)
 

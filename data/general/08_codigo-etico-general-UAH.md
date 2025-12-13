@@ -32,11 +32,9 @@ Los principios y valores recogidos en este Código son plenamente compatibles co
 
 En el Título Tercero se regula el régimen del órgano encargado de supervisar el grado de cumplimiento de la ética pública en la Universidad de Alcalá, estableciéndose las funciones concretas que le corresponde a este órgano para dar cumplimiento a la finalidad para la que se crea.
 
-En el Título Cuarto se prevé la posibilidad de llevar a cabo auditorías de ética, encargándose el
+En el Título Cuarto se prevé la posibilidad de llevar a cabo auditorías de ética, encargándose el Título Quinto de establecer los mecanismos de control y/o reprobación de comportamientos incorrectos o de acciones contrarias a los principios y valores éticos cuyo respeto y cumplimiento pretende inculcar el presente Código como guía de conducta de todos los miembros de la comunidad universitaria.
 
-## Título Quinto de establecer los mecanismos de control y/o reprobación de comportamientos {#titulo-quinto-de-establecer-los-mecanismos-de-control-y-o-reprobacion-de-comportamientos}
-
-incorrectos o de acciones contrarias a los principios y valores éticos cuyo respeto y cumplimiento pretende inculcar el presente Código como guía de conducta de todos los miembros de la comunidad universitaria.
+## TÍTULO QUINTO {#titulo-quinto}
 
 En su virtud, a propuesta de la Secretaría General y de acuerdo con los informes emitidos por la Inspección de Servicios, el Defensor Universitario, el Órgano Técnico de Auditoría y Control Internos y la Asesoría Jurídica, el Consejo de Gobierno de la Universidad de Alcalá, en sesión celebrada en fecha 22 de junio de 2017, ha aprobado el texto del Código Ético General de la Universidad de Alcalá que se inserta a continuación.
 
