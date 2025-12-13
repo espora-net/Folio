@@ -1,0 +1,67 @@
+{
+  "descripcion": "Referencias oficiales de los documentos almacenados en la carpeta data/",
+  "version": "1.0.0",
+  "fecha_actualizacion": "2025-12-13",
+  "referencias": [
+    {
+      "numero": 1,
+      "titulo": "Constitución Española de 1978",
+      "path": "general/01_constitucion_española_1978.pdf",
+      "url": "https://app.congreso.es/consti/constitucion/indice/index.htm"
+    },
+    {
+      "numero": 2,
+      "titulo": "Real Decreto Legislativo 5/2015, Estatuto Básico del Empleado Público",
+      "path": "general/02_Estatuto Básico del Empleado Público.pdf",
+      "url": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
+    },
+    {
+      "numero": 3,
+      "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+      "path": "general/03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.pdf",
+      "url": "https://www.boe.es/eli/es/lo/2023/03/22/2/con"
+    },
+    {
+      "numero": 4,
+      "titulo": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales",
+      "path": "general/04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.pdf",
+      "url": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+    },
+    {
+      "numero": 5,
+      "titulo": "Real Decreto Legislativo 1/2013, de Derechos de las Personas con Discapacidad",
+      "path": "general/05_Real Decreto Legislativo 1_2013 de 29 de noviembre.pdf",
+      "url": "https://www.boe.es/eli/es/rdlg/2013/11/29/1/con"
+    },
+    {
+      "numero": 6,
+      "titulo": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres",
+      "path": "general/06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.pdf",
+      "url": "https://www.boe.es/eli/es/lo/2007/03/22/3/con"
+    },
+    {
+      "numero": 7,
+      "titulo": "Política de Prevención de Riesgos Laborales de la UAH",
+      "path": "general/07_Politica-de-prevencion-con-fecha-aprobacion.pdf",
+      "url": "https://www.uah.es/export/sites/uah/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-prevencion/.galleries/documentos/Politica-de-prevencion-con-fecha-aprobacion.pdf"
+    },
+    {
+      "numero": 7,
+      "titulo": "Plan de Prevención de Riesgos Laborales de la UAH",
+      "path": "general/07_Plan-de-Prevencion_UAH.pdf",
+      "url": "https://www.uah.es/export/sites/uah/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-prevencion/.galleries/documentos/SG00CH20016_Plan-de-Prevencion.pdf"
+    },
+    {
+      "numero": 8,
+      "titulo": "Código Ético General de la Universidad de Alcalá",
+      "path": "general/08_codigo-etico-general-UAH.pdf",
+      "url": "https://www.uah.es/export/shared/es/conoce-la-uah/organizacion-y-gobierno/.galleries/Galeria-Secretaria-General/codigo-etico-general-UAH.pdf"
+    },
+    {
+      "numero": 9,
+      "titulo": "Reglamento de Normas de Convivencia de la UAH",
+      "path": "general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf",
+      "url": "https://www.uah.es/export/shared/es/conoce-la-uah/organizacion-y-gobierno/.galleries/Galeria-Secretaria-General/Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
+    }
+  ]
+}
