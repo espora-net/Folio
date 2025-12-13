@@ -1,6 +1,6 @@
 AÑO XII Número 6 Martes, 4 julio 2017 
 
-# CÓDIGO ÉTICO GENERAL DE LA UNIVERSIDAD DE ALCALÁ 
+# CÓDIGO ÉTICO GENERAL DE LA UNIVERSIDAD DE ALCALÁ {#codigo-etico-general-uah}
 
 Aprobado en Consejo de Gobierno de 22 junio 2017
 

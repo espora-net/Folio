@@ -1,8 +1,84 @@
 {
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
-  "convocatoria": "Universidad de Alcalá de Henares (UAH) - 2025",
+  "convocatoria": {
+    "institucion": "Universidad de Alcalá de Henares",
+    "cuerpo": "Técnico Auxiliar de Bibliotecas (C1)",
+    "año": 2025,
+    "fuente_oficial": "BOE de 14 de octubre de 2025 - Anexo I de la Resolución de convocatoria",
+    "enlace_publicacion": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+    "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
+  },
   "total_temas": 22,
-  "fuente": "BOE de 14 de octubre de 2025 - Anexo I de la Resolución de convocatoria",
+  "cobertura_temas": [
+    {
+      "materialId": "uah-tema-001",
+      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"]
+    },
+    {
+      "materialId": "uah-tema-002",
+      "cobertura_convocatoria": [
+        "#titulo-i-objeto-y-ambito-de-aplicacion",
+        "#capitulo-i-clases-de-personal",
+        "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos",
+        "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio",
+        "#capitulo-iii-provision-de-puestos-de-trabajo",
+        "#titulo-vii-regimen-disciplinario"
+      ]
+    },
+    {
+      "materialId": "uah-tema-003",
+      "cobertura_convocatoria": [
+        "#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades",
+        "#titulo-ix",
+        "#capitulo-i",
+        "#capitulo-ii",
+        "#capitulo-v"
+      ]
+    },
+    {
+      "materialId": "uah-tema-004",
+      "cobertura_convocatoria": [
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-iii"
+      ]
+    },
+    {
+      "materialId": "uah-tema-005",
+      "cobertura_convocatoria": [
+        "#titulo-i-capitulo-iv",
+        "#titulo-i-capitulo-vi"
+      ]
+    },
+    {
+      "materialId": "uah-tema-006",
+      "cobertura_convocatoria": ["#titulo-ii"]
+    },
+    {
+      "materialId": "uah-plan-igualdad-2023-2026",
+      "cobertura_convocatoria": ["#plan-igualdad-uah-2023-2026"]
+    },
+    {
+      "materialId": "uah-tema-007",
+      "cobertura_convocatoria": [
+        "#politica-de-prevencion",
+        "#organizacion-de-la-prevencion",
+        "#responsabilidades-y-funciones",
+        "#planificacion-y-seguimiento"
+      ]
+    },
+    {
+      "materialId": "uah-tema-008",
+      "cobertura_convocatoria": ["#codigo-etico-general-uah"]
+    },
+    {
+      "materialId": "uah-tema-009",
+      "cobertura_convocatoria": [
+        "#normas-de-convivencia-uah",
+        "#modificacion-2024"
+      ]
+    }
+  ],
   "materiales": [
     {
       "id": "uah-tema-001",
@@ -16,7 +92,7 @@
       "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "constitucion-espanola.pdf"
+      "archivo": "01_constitucion_española_1978.pdf"
     },
     {
       "id": "guia-respuestas-001",
@@ -52,7 +128,7 @@
       "temas_relacionados": ["Función Pública", "EBEP", "Derechos y Deberes del Empleado Público"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-02-ebep-estatuto-empleado-publico.pdf",
+      "archivo": "02_Estatuto Básico del Empleado Público.pdf",
       "estructura_respuestas": {
         "objeto_ambito": "Art. 1-6 - Objeto del EBEP y ámbito de aplicación",
         "clases_personal": "Art. 8-13 - Funcionarios carrera/interino, laborales, eventuales, directivos",
@@ -77,7 +153,7 @@
       "temas_relacionados": ["Sistema Universitario", "Autonomía Universitaria", "PAS", "Gobernanza Universitaria"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-03-ley-sistema-universitario-2023.pdf",
+      "archivo": "03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.pdf",
       "estructura_respuestas": {
         "funciones_universidad": "Art. 2 - Docencia, investigación, transferencia conocimiento, formación continua",
         "autonomia": "Art. 3-5 - Autonomía universitaria garantizada y su alcance",
@@ -99,7 +175,7 @@
       "temas_relacionados": ["LOPD-GDD", "Protección de Datos", "RGPD", "Derechos Digitales"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-04-lopd-proteccion-datos-2018.pdf",
+      "archivo": "04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.pdf",
       "estructura_respuestas": {
         "objeto": "Art. 1 - Garantizar derechos digitales y protección datos personales",
         "definiciones": "Art. 3 - Datos personales, tratamiento, responsable, encargado",
@@ -125,7 +201,7 @@
       "temas_relacionados": ["Discapacidad", "Inclusión Social", "Igualdad de Oportunidades", "Accesibilidad"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-05-ley-discapacidad-inclusion-2013.pdf"
+      "archivo": "05_Real Decreto Legislativo 1_2013 de 29 de noviembre.pdf"
     },
     {
       "id": "uah-tema-006",
@@ -139,7 +215,7 @@
       "temas_relacionados": ["Igualdad de Género", "Políticas Públicas", "Plan de Igualdad UAH"],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-06-ley-igualdad-efectiva-2007.pdf"
+      "archivo": "06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.pdf"
     },
     {
       "id": "uah-plan-igualdad-2023-2026",
@@ -163,11 +239,11 @@
       "categoria": "Legislación",
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
       "descripcion": "La temática 7 se centra en la Política de Prevención de la UAH: la Universidad dispone de una Declaración de Política de Prevención de Riesgos Laborales (aprobada por Consejo de Gobierno en octubre de 2004). Este documento institucional (2 págs., texto completo) fija los compromisos de la UAH en materia de seguridad y salud laboral: fomentar la cultura preventiva, integrar la prevención en todos los niveles, cumplir la Ley 31/1995 de PRL, definir responsabilidades (existe un documento específico de Funciones y Responsabilidades PRL en la UAH) y planificar la actividad preventiva con seguimiento periódico.",
-      "contenido_especifico": "La UAH cuenta con un Servicio de Prevención propio que implementa esta política, en cumplimiento de la normativa nacional de PRL",
+      "contenido_especifico": "Incluye la organización de la prevención, las responsabilidades y funciones asignadas y la planificación y seguimiento de la actividad preventiva en la UAH",
       "temas_relacionados": ["Prevención de Riesgos Laborales", "Seguridad y Salud", "PRL UAH"],
       "relevancia": "media",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-07-prevencion-riesgos-laborales-uah.pdf"
+      "fecha_actualizacion": "2025-12-13",
+      "archivo": "07_Politica-de-prevencion-con-fecha-aprobacion.pdf"
     },
     {
       "id": "uah-tema-008",
@@ -181,7 +257,7 @@
       "temas_relacionados": ["Código Ético", "Integridad", "Valores Institucionales", "Conducta Profesional"],
       "relevancia": "media",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-08-codigo-etico-uah.pdf"
+      "archivo": "08_codigo-etico-general-UAH.pdf"
     },
     {
       "id": "uah-tema-009",
@@ -195,7 +271,7 @@
       "temas_relacionados": ["Convivencia Universitaria", "Procedimiento Sancionador", "Resolución de Conflictos"],
       "relevancia": "media",
       "fecha_actualizacion": "2025-12-08",
-      "archivo": "tema-09-reglamento-convivencia-uah.pdf"
+      "archivo": "09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
     },
     {
       "id": "uah-tema-010",
