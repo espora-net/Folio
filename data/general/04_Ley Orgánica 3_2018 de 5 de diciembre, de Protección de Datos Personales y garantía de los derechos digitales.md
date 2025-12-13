@@ -1,432 +1,349 @@
 LEGISLACIÓN CONSOLIDADA Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
 
-Jefatura del Estado «BOE» núm. 294, de 06 de diciembre de 2018 Referencia: BOE-A-2018-16673 ÍNDICE Preámbulo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Jefatura del Estado «BOE» núm. 294, de 06 de diciembre de 2018 Referencia: BOE-A-2018-16673
+ÍNDICE
+Preámbulo
 
-## TÍTULO I. Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-i-disposiciones-generales}
+## TÍTULO I. Disposiciones generales {#titulo-i-disposiciones-generales}
 
-**Artículo 1. Objeto de la ley. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 1. Objeto de la ley **
 
-**Artículo 2. Ámbito de aplicación de los Títulos I a IX y de los artículos 89 a 94. . . . . . . . . . . . . . . . . .**
+**Artículo 2. Ámbito de aplicación de los Títulos I a IX y de los artículos 89 a 94 **
 
-**Artículo 3. Datos de las personas fallecidas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 3. Datos de las personas fallecidas **
 
-## TÍTULO II. Principios de protección de datos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-ii-principios-de-proteccion-de-datos}
+## TÍTULO II. Principios de protección de datos {#titulo-ii-principios-de-proteccion-de-datos}
 
 **Artículo 4. Exactitud de los datos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 5. Deber de confidencialidad **
 
-**Artículo 5. Deber de confidencialidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 6. Tratamiento basado en el consentimiento del afectado **
 
-**Artículo 6. Tratamiento basado en el consentimiento del afectado. . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 7. Consentimiento de los menores de edad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 7. Consentimiento de los menores de edad **
 
 **Artículo 8. Tratamiento de datos por obligación legal, interés público o ejercicio de poderes públicos.**
 
-. .
-
 **Artículo 9. Categorías especiales de datos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 10. Tratamiento de datos de naturaleza penal **
 
-**Artículo 10. Tratamiento de datos de naturaleza penal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO III. Derechos de las personas {#titulo-iii-derechos-de-las-personas}
 
-## TÍTULO III. Derechos de las personas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-iii-derechos-de-las-personas}
+### CAPÍTULO I. Transparencia e información {#capitulo-i-transparencia-e-informacion}
 
-### CAPÍTULO I. Transparencia e información . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-transparencia-e-informacion}
+**Artículo 11. Transparencia e información al afectado **
 
-**Artículo 11. Transparencia e información al afectado. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO II. Ejercicio de los derechos {#capitulo-ii-ejercicio-de-los-derechos}
 
-### CAPÍTULO II. Ejercicio de los derechos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-ejercicio-de-los-derechos}
-
-**Artículo 12. Disposiciones generales sobre ejercicio de los derechos.. . . . . . . . . . . . . . . . . . . . . . .**
-
-8 15 15 15 15 16 16 16 16 17 17 17 17 18 18 18 18 18 Página 1 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+**Artículo 12. Disposiciones generales sobre ejercicio de los derechos **
 
 **Artículo 13. Derecho de acceso.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 14. Derecho de rectificación **
 
-**Artículo 14. Derecho de rectificación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 15. Derecho de supresión **
 
-**Artículo 15. Derecho de supresión. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 16. Derecho a la limitación del tratamiento **
 
-**Artículo 16. Derecho a la limitación del tratamiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 17. Derecho a la portabilidad **
 
-**Artículo 17. Derecho a la portabilidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 18. Derecho de oposición **
 
-**Artículo 18. Derecho de oposición. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-## TÍTULO IV. Disposiciones aplicables a tratamientos concretos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-iv-disposiciones-aplicables-a-tratamientos-concretos}
+## TÍTULO IV. Disposiciones aplicables a tratamientos concretos {#titulo-iv-disposiciones-aplicables-a-tratamientos-concretos}
 
 **Artículo 19. Tratamiento de datos de contacto, de empresarios individuales y de profesionales liberales.**
 
-**Artículo 20. Sistemas de información crediticia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 20. Sistemas de información crediticia **
 
-**Artículo 21. Tratamientos relacionados con la realización de determinadas operaciones mercantiles. . . .**
+**Artículo 21. Tratamientos relacionados con la realización de determinadas operaciones mercantiles **
 
 **Artículo 22. Tratamientos con fines de videovigilancia.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 23. Sistemas de exclusión publicitaria **
 
-**Artículo 23. Sistemas de exclusión publicitaria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 24. Tratamiento de datos para la protección de las personas que informen sobre infracciones** normativas
 
-**Artículo 24. Tratamiento de datos para la protección de las personas que informen sobre infracciones**
+**Artículo 25. Tratamiento de datos en el ámbito de la función estadística pública **
 
-normativas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 26. Tratamiento de datos con fines de archivo en interés público por parte de las** Administraciones Públicas
 
-**Artículo 25. Tratamiento de datos en el ámbito de la función estadística pública. . . . . . . . . . . . . . . . .**
+**Artículo 27. Tratamiento de datos relativos a infracciones y sanciones administrativas **
 
-**Artículo 26. Tratamiento de datos con fines de archivo en interés público por parte de las**
+## TÍTULO V. Responsable y encargado del tratamiento {#titulo-v-responsable-y-encargado-del-tratamiento}
 
-Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO I. Disposiciones generales. Medidas de responsabilidad activa {#capitulo-i-disposiciones-generales-medidas-de-responsabilidad-activa}
 
-**Artículo 27. Tratamiento de datos relativos a infracciones y sanciones administrativas. . . . . . . . . . . . .**
+**Artículo 28. Obligaciones generales del responsable y encargado del tratamiento **
 
-## TÍTULO V. Responsable y encargado del tratamiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-v-responsable-y-encargado-del-tratamiento}
-
-### CAPÍTULO I. Disposiciones generales. Medidas de responsabilidad activa . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-disposiciones-generales-medidas-de-responsabilidad-activa}
-
-**Artículo 28. Obligaciones generales del responsable y encargado del tratamiento.. . . . . . . . . . . . . . .**
-
-**Artículo 29. Supuestos de corresponsabilidad en el tratamiento. . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 29. Supuestos de corresponsabilidad en el tratamiento **
 
 **Artículo 30. Representantes de los responsables o encargados del tratamiento no establecidos en la**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 Unión Europea.
 
-**Artículo 31. Registro de las actividades de tratamiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 31. Registro de las actividades de tratamiento **
 
 **Artículo 32. Bloqueo de los datos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO II. Encargado del tratamiento {#capitulo-ii-encargado-del-tratamiento}
 
-### CAPÍTULO II. Encargado del tratamiento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-encargado-del-tratamiento}
+**Artículo 33. Encargado del tratamiento **
 
-**Artículo 33. Encargado del tratamiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO III. Delegado de protección de datos {#capitulo-iii-delegado-de-proteccion-de-datos}
 
-### CAPÍTULO III. Delegado de protección de datos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iii-delegado-de-proteccion-de-datos}
+**Artículo 34. Designación de un delegado de protección de datos **
 
-**Artículo 34. Designación de un delegado de protección de datos. . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 35. Cualificación del delegado de protección de datos **
 
-**Artículo 35. Cualificación del delegado de protección de datos. . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 36. Posición del delegado de protección de datos **
 
-**Artículo 36. Posición del delegado de protección de datos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 37. Intervención del delegado de protección de datos en caso de reclamación ante las** autoridades de protección de datos
 
-19 19 19 20 20 20 20 20 20 21 21 22 23 23 23 23 24 24 24 25 25 25 25 26 26 26 26 27 27 Página 2 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+### CAPÍTULO IV. Códigos de conducta y certificación {#capitulo-iv-codigos-de-conducta-y-certificacion}
 
-**Artículo 37. Intervención del delegado de protección de datos en caso de reclamación ante las**
-
-autoridades de protección de datos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### CAPÍTULO IV. Códigos de conducta y certificación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iv-codigos-de-conducta-y-certificacion}
-
-**Artículo 38. Códigos de conducta. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 38. Códigos de conducta **
 
 **Artículo 39. Acreditación de instituciones de certificación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## TÍTULO VI. Transferencias internacionales de datos {#titulo-vi-transferencias-internacionales-de-datos}
 
-## TÍTULO VI. Transferencias internacionales de datos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vi-transferencias-internacionales-de-datos}
+**Artículo 40. Régimen de las transferencias internacionales de datos **
 
-**Artículo 40. Régimen de las transferencias internacionales de datos. . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 41. Supuestos de adopción por la Agencia Española de Protección de Datos **
 
-**Artículo 41. Supuestos de adopción por la Agencia Española de Protección de Datos. . . . . . . . . . . . .**
-
-**Artículo 42. Supuestos sometidos a autorización previa de las autoridades de protección de datos. . . . .**
+**Artículo 42. Supuestos sometidos a autorización previa de las autoridades de protección de datos **
 
 **Artículo 43. Supuestos sometidos a información previa a la autoridad de protección de datos**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 competente.
 
-## TÍTULO VII. Autoridades de protección de datos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vii-autoridades-de-proteccion-de-datos}
+## TÍTULO VII. Autoridades de protección de datos {#titulo-vii-autoridades-de-proteccion-de-datos}
 
-### CAPÍTULO I. La Agencia Española de Protección de Datos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-la-agencia-espanola-de-proteccion-de-datos}
+### CAPÍTULO I. La Agencia Española de Protección de Datos {#capitulo-i-la-agencia-espanola-de-proteccion-de-datos}
 
-#### Sección 1.ª Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-disposiciones-generales}
+#### Sección 1.ª Disposiciones generales {#seccion-1-a-disposiciones-generales}
 
-**Artículo 44. Disposiciones generales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 44. Disposiciones generales **
 
-**Artículo 45. Régimen jurídico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 45. Régimen jurídico **
 
 **Artículo 46. Régimen económico presupuestario y de personal.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 47. Funciones y potestades de la Agencia Española de Protección de Datos **
 
-**Artículo 47. Funciones y potestades de la Agencia Española de Protección de Datos. . . . . . . . . . . . .**
+**Artículo 48. La Presidencia de la Agencia Española de Protección de Datos **
 
-**Artículo 48. La Presidencia de la Agencia Española de Protección de Datos. . . . . . . . . . . . . . . . . . .**
+**Artículo 49. Consejo Consultivo de la Agencia Española de Protección de Datos **
 
-**Artículo 49. Consejo Consultivo de la Agencia Española de Protección de Datos. . . . . . . . . . . . . . . .**
+**Artículo 50. Publicidad **
 
-**Artículo 50. Publicidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+#### Sección 2.ª Potestades de investigación y planes de auditoría preventiva {#seccion-2-a-potestades-de-investigacion-y-planes-de-auditoria-preventiva}
 
-#### Sección 2.ª Potestades de investigación y planes de auditoría preventiva . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-potestades-de-investigacion-y-planes-de-auditoria-preventiva}
+**Artículo 51. Ámbito y personal competente **
 
-**Artículo 51. Ámbito y personal competente. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 52. Deber de colaboración **
 
-**Artículo 52. Deber de colaboración. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 53. Alcance de la actividad de investigación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 53. Alcance de la actividad de investigación **
 
 **Artículo 53 bis. Actuaciones de investigación a través de sistemas digitales.**
 
-. . . . . . . . . . . . . . . . . .
-
 **Artículo 54. Planes de auditoría.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 3.ª Otras potestades de la Agencia Española de Protección de Datos {#seccion-3-a-otras-potestades-de-la-agencia-espanola-de-proteccion-de-datos}
 
-#### Sección 3.ª Otras potestades de la Agencia Española de Protección de Datos . . . . . . . . . . . . . . . . . . . . {#seccion-3-a-otras-potestades-de-la-agencia-espanola-de-proteccion-de-datos}
-
-**Artículo 55. Potestades de regulación. Circulares de la Agencia Española de Protección de Datos. . . . .**
+**Artículo 55. Potestades de regulación. Circulares de la Agencia Española de Protección de Datos **
 
 **Artículo 56. Acción exterior.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO II. Autoridades autonómicas de protección de datos {#capitulo-ii-autoridades-autonomicas-de-proteccion-de-datos}
 
-### CAPÍTULO II. Autoridades autonómicas de protección de datos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-autoridades-autonomicas-de-proteccion-de-datos}
-
-#### Sección 1.ª Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-disposiciones-generales}
-
-28 28 28 29 29 29 30 30 30 31 31 31 31 31 31 32 32 33 34 34 34 34 35 36 36 36 36 36 37 37 Página 3 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+#### Sección 1.ª Disposiciones generales {#seccion-1-a-disposiciones-generales}
 
 **Artículo 57. Autoridades autonómicas de protección de datos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 58. Cooperación institucional **
 
-**Artículo 58. Cooperación institucional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 59. Tratamientos contrarios al Reglamento (UE) 2016/679. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 59. Tratamientos contrarios al Reglamento (UE) 2016/679 **
 
 #### Sección 2.ª Coordinación en el marco de los procedimientos establecidos en el Reglamento (UE) 2016/679 . {#seccion-2-a-coordinacion-en-el-marco-de-los-procedimientos-establecidos-en-el-reglamento-ue-2016-679}
 
-**Artículo 60. Coordinación en caso de emisión de dictamen por el Comité Europeo de Protección de**
+**Artículo 60. Coordinación en caso de emisión de dictamen por el Comité Europeo de Protección de** Datos
 
-Datos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 61. Intervención en caso de tratamientos transfronterizos **
 
-**Artículo 61. Intervención en caso de tratamientos transfronterizos.. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 62. Coordinación en caso de resolución de conflictos por el Comité Europeo de Protección de** Datos
 
-**Artículo 62. Coordinación en caso de resolución de conflictos por el Comité Europeo de Protección de**
+## TÍTULO VIII. Procedimientos en caso de posible vulneración de la normativa de protección de datos {#titulo-viii-procedimientos-en-caso-de-posible-vulneracion-de-la-normativa-de-proteccion-de-datos}
 
-Datos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 63. Régimen jurídico **
 
-## TÍTULO VIII. Procedimientos en caso de posible vulneración de la normativa de protección de datos . . . . . . . . . {#titulo-viii-procedimientos-en-caso-de-posible-vulneracion-de-la-normativa-de-proteccion-de-datos}
+**Artículo 64. Forma de iniciación del procedimiento y duración **
 
-**Artículo 63. Régimen jurídico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 65. Admisión a trámite de las reclamaciones **
 
-**Artículo 64. Forma de iniciación del procedimiento y duración. . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 66. Determinación del alcance territorial **
 
-**Artículo 65. Admisión a trámite de las reclamaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 66. Determinación del alcance territorial. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 67. Actuaciones previas de investigación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 67. Actuaciones previas de investigación **
 
 **Artículo 68. Acuerdo de inicio del procedimiento para el ejercicio de la potestad sancionadora.**
 
-. . . . . .
+**Artículo 69. Medidas provisionales y de garantía de los derechos **
 
-**Artículo 69. Medidas provisionales y de garantía de los derechos. . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO IX. Régimen sancionador {#titulo-ix-regimen-sancionador}
 
-## TÍTULO IX. Régimen sancionador . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-ix-regimen-sancionador}
+**Artículo 70. Sujetos responsables **
 
-**Artículo 70. Sujetos responsables. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 71. Infracciones **
 
-**Artículo 71. Infracciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 72. Infracciones consideradas muy graves **
 
-**Artículo 72. Infracciones consideradas muy graves. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 73. Infracciones consideradas graves **
 
-**Artículo 73. Infracciones consideradas graves. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 74. Infracciones consideradas leves **
 
-**Artículo 74. Infracciones consideradas leves. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 75. Interrupción de la prescripción de la infracción **
 
-**Artículo 75. Interrupción de la prescripción de la infracción. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 76. Sanciones y medidas correctivas **
 
-**Artículo 76. Sanciones y medidas correctivas.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 77. Régimen aplicable a determinadas categorías de responsables o encargados del** tratamiento
 
-**Artículo 77. Régimen aplicable a determinadas categorías de responsables o encargados del**
+**Artículo 78. Prescripción de las sanciones **
 
-tratamiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## TÍTULO X. Garantía de los derechos digitales {#titulo-x-garantia-de-los-derechos-digitales}
 
-**Artículo 78. Prescripción de las sanciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 79. Los derechos en la Era digital **
 
-## TÍTULO X. Garantía de los derechos digitales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-x-garantia-de-los-derechos-digitales}
+**Artículo 80. Derecho a la neutralidad de Internet **
 
-**Artículo 79. Los derechos en la Era digital. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 81. Derecho de acceso universal a Internet **
 
-**Artículo 80. Derecho a la neutralidad de Internet. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 81. Derecho de acceso universal a Internet.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 82. Derecho a la seguridad digital. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-37 37 38 38 38 38 38 39 39 39 40 41 41 42 42 42 42 42 43 43 45 46 47 47 48 49 49 49 49 49 Página 4 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+**Artículo 82. Derecho a la seguridad digital **
 
 **Artículo 83. Derecho a la educación digital.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 84. Protección de los menores en Internet **
 
-**Artículo 84. Protección de los menores en Internet. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 85. Derecho de rectificación en Internet **
 
-**Artículo 85. Derecho de rectificación en Internet. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 86. Derecho a la actualización de informaciones en medios de comunicación digitales **
 
-**Artículo 86. Derecho a la actualización de informaciones en medios de comunicación digitales. . . . . . .**
+**Artículo 87. Derecho a la intimidad y uso de dispositivos digitales en el ámbito laboral **
 
-**Artículo 87. Derecho a la intimidad y uso de dispositivos digitales en el ámbito laboral. . . . . . . . . . . . .**
+**Artículo 88. Derecho a la desconexión digital en el ámbito laboral **
 
-**Artículo 88. Derecho a la desconexión digital en el ámbito laboral. . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 89. Derecho a la intimidad frente al uso de dispositivos de videovigilancia y de grabación de** sonidos en el lugar de trabajo
 
-**Artículo 89. Derecho a la intimidad frente al uso de dispositivos de videovigilancia y de grabación de**
+**Artículo 90. Derecho a la intimidad ante la utilización de sistemas de geolocalización en el ámbito** laboral
 
-sonidos en el lugar de trabajo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 91. Derechos digitales en la negociación colectiva **
 
-**Artículo 90. Derecho a la intimidad ante la utilización de sistemas de geolocalización en el ámbito**
+**Artículo 92. Protección de datos de los menores en Internet **
 
-laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 93. Derecho al olvido en búsquedas de Internet **
 
-**Artículo 91. Derechos digitales en la negociación colectiva. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 94. Derecho al olvido en servicios de redes sociales y servicios equivalentes **
 
-**Artículo 92. Protección de datos de los menores en Internet. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 95. Derecho de portabilidad en servicios de redes sociales y servicios equivalentes **
 
-**Artículo 93. Derecho al olvido en búsquedas de Internet. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 96. Derecho al testamento digital **
 
-**Artículo 94. Derecho al olvido en servicios de redes sociales y servicios equivalentes. . . . . . . . . . . . .**
+**Artículo 97. Políticas de impulso de los derechos digitales **
 
-**Artículo 95. Derecho de portabilidad en servicios de redes sociales y servicios equivalentes. . . . . . . . .**
-
-**Artículo 96. Derecho al testamento digital. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 97. Políticas de impulso de los derechos digitales.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones adicionales
 
 Disposición adicional primera. Medidas de seguridad en el ámbito del sector público.
 
-. . . . . . . . . . . .
+Disposición adicional segunda. Protección de datos y transparencia y acceso a la información pública.
 
-Disposición adicional segunda. Protección de datos y transparencia y acceso a la información pública. .
+Disposición adicional tercera. Cómputo de plazos
 
-Disposición adicional tercera. Cómputo de plazos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional cuarta. Procedimiento en relación con las competencias atribuidas a la Agencia Española de Protección de Datos por otras leyes.
 
-Disposición adicional cuarta. Procedimiento en relación con las competencias atribuidas a la Agencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional quinta. Autorización judicial en relación con decisiones de la Comisión Europea en materia de transferencia internacional de datos
 
-Española de Protección de Datos por otras leyes.
+Disposición adicional sexta. Incorporación de deudas a sistemas de información crediticia
 
-Disposición adicional quinta. Autorización judicial en relación con decisiones de la Comisión Europea en materia de transferencia internacional de datos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional sexta. Incorporación de deudas a sistemas de información crediticia. . . . . . . . . .
-
-Disposición adicional séptima. Identificación de los interesados en las notificaciones por medio de anuncios y publicaciones de actos administrativos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional séptima. Identificación de los interesados en las notificaciones por medio de anuncios y publicaciones de actos administrativos
 
 Disposición adicional octava. Potestad de verificación de las Administraciones Públicas.
 
-. . . . . . . . . .
+Disposición adicional novena. Tratamiento de datos personales en relación con la notificación de incidentes de seguridad
 
-Disposición adicional novena. Tratamiento de datos personales en relación con la notificación de incidentes de seguridad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional décima. Comunicaciones de datos por los sujetos enumerados en el artículo 77.1. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima. Comunicaciones de datos por los sujetos enumerados en el artículo 77.1
 
 Disposición adicional undécima. Privacidad en las comunicaciones electrónicas.
 
-. . . . . . . . . . . . . . .
+Disposición adicional decimotercera. Transferencias internacionales de datos tributarios
 
-49 50 50 50 50 51 51 51 52 52 52 52 53 53 53 54 54 54 54 55 55 55 55 56 56 56 56 Página 5 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional duodécima. Disposiciones específicas aplicables a los tratamientos de los registros de personal del sector público. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimocuarta. Normas dictadas en desarrollo del artículo 13 de la Directiva 95/46/CE
 
-Disposición adicional decimotercera. Transferencias internacionales de datos tributarios. . . . . . . . . . .
+Disposición adicional decimoquinta. Requerimiento de información por parte de la Comisión Nacional del Mercado de Valores
 
-Disposición adicional decimocuarta. Normas dictadas en desarrollo del artículo 13 de la Directiva 95/46/CE. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimosexta. Prácticas agresivas en materia de protección de datos
 
-Disposición adicional decimoquinta. Requerimiento de información por parte de la Comisión Nacional del Mercado de Valores. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional decimosexta. Prácticas agresivas en materia de protección de datos.. . . . . . . . .
-
-Disposición adicional decimoséptima. Tratamientos de datos de salud. . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimoséptima. Tratamientos de datos de salud
 
 Disposición adicional decimoctava. Criterios de seguridad.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimonovena. Derechos de los menores ante Internet
 
-Disposición adicional decimonovena. Derechos de los menores ante Internet. . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima. Especialidades del régimen jurídico de la Agencia Española de Protección de Datos
 
-Disposición adicional vigésima. Especialidades del régimen jurídico de la Agencia Española de Protección de Datos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional vigésima primera. Educación digital. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima primera. Educación digital
 
 Disposición adicional vigésima segunda. Acceso a los archivos públicos y eclesiásticos.
 
-. . . . . . . . . .
+Disposición adicional vigésima tercera. Modelos de presentación de reclamaciones
 
-Disposición adicional vigésima tercera. Modelos de presentación de reclamaciones. . . . . . . . . . . . . .
+Disposiciones transitorias
 
-Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria primera. Estatuto de la Agencia Española de Protección de Datos
 
-Disposición transitoria primera. Estatuto de la Agencia Española de Protección de Datos. . . . . . . . . . .
-
-Disposición transitoria segunda. Códigos tipo inscritos en las autoridades de protección de datos conforme a la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria segunda. Códigos tipo inscritos en las autoridades de protección de datos conforme a la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal
 
 Disposición transitoria tercera. Régimen transitorio de los procedimientos.
 
-. . . . . . . . . . . . . . . . . . .
+Disposición transitoria cuarta. Tratamientos sometidos a la Directiva (UE) 2016/680
 
-Disposición transitoria cuarta. Tratamientos sometidos a la Directiva (UE) 2016/680. . . . . . . . . . . . . .
+Disposición transitoria quinta. Contratos de encargado del tratamiento
 
-Disposición transitoria quinta. Contratos de encargado del tratamiento.. . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria sexta. Reutilización con fines de investigación en materia de salud y biomédica de datos personales recogidos con anterioridad a la entrada en vigor de esta ley orgánica
 
-Disposición transitoria sexta. Reutilización con fines de investigación en materia de salud y biomédica de datos personales recogidos con anterioridad a la entrada en vigor de esta ley orgánica. . . . . . . .
+Disposiciones derogatorias
 
-Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición derogatoria única. Derogación normativa
 
-Disposición derogatoria única. Derogación normativa.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones finales
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final primera. Naturaleza de la presente ley
 
-Disposición final primera. Naturaleza de la presente ley. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final segunda. Título competencial
 
-Disposición final segunda. Título competencial. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición final tercera. Modificación de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final tercera. Modificación de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General
 
 Disposición final cuarta. Modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.
 
-. . . .
-
 Disposición final quinta. Modificación de la Ley 14/1986, de 25 de abril, General de Sanidad.
-
-. . . . . . .
-
-56 56 57 57 57 57 59 59 60 60 60 60 60 60 60 60 61 61 61 61 61 62 62 62 62 63 64 Página 6 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final sexta. Modificación de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 Contencioso-administrativa.
 
-Disposición final séptima. Modificación de la Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil. . . . . .
+Disposición final séptima. Modificación de la Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil
 
-Disposición final octava. Modificación de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final octava. Modificación de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades
 
-Disposición final novena. Modificación de la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final novena. Modificación de la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica
 
 Disposición final décima. Modificación de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
 
-. . . . .
+Disposición final undécima. Modificación de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno
 
-Disposición final undécima. Modificación de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final duodécima. Modificación de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas
 
-Disposición final duodécima. Modificación de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final decimotercera. Modificación del texto refundido de la Ley del Estatuto de los Trabajadores
 
-Disposición final decimotercera. Modificación del texto refundido de la Ley del Estatuto de los Trabajadores.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final decimocuarta. Modificación del texto refundido de la Ley del Estatuto Básico del Empleado Público
 
-Disposición final decimocuarta. Modificación del texto refundido de la Ley del Estatuto Básico del Empleado Público. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final decimoquinta. Desarrollo normativo
 
-Disposición final decimoquinta. Desarrollo normativo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición final decimosexta. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-64 65 66 66 66 67 67 68 68 68 68 Página 7 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TEXTO CONSOLIDADO Última modificación: 09 de mayo de 2023 FELIPE VI REY DE ESPAÑA A todos los que la presente vieren y entendieren. Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley orgánica.
+Disposición final decimosexta. Entrada en vigor
 
 PREÁMBULO I La protección de las personas físicas en relación con el tratamiento de datos personales es un derecho fundamental protegido por el artículo 18.4 de la Constitución española. De esta manera, nuestra Constitución fue pionera en el reconocimiento del derecho fundamental a la protección de datos personales cuando dispuso que «la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos». Se hacía así eco de los trabajos desarrollados desde finales de la década de 1960 en el Consejo de Europa y de las pocas disposiciones legales adoptadas en países de nuestro entorno.
 
@@ -436,7 +353,6 @@ A nivel legislativo, la concreción y desarrollo del derecho fundamental de prot
 
 Por otra parte, también se recoge en el artículo 8 de la Carta de los Derechos Fundamentales de la Unión Europea y en el artículo 16.1 del Tratado de Funcionamiento de la Unión Europea. Anteriormente, a nivel europeo, se había adoptado la Directiva 95/46/CE citada, cuyo objeto era procurar que la garantía del derecho a la protección de datos personales no supusiese un obstáculo a la libre circulación de los datos en el seno de la Unión, estableciendo así un espacio común de garantía del derecho que, al propio tiempo, asegurase que en caso de transferencia internacional de los datos, su tratamiento en el país de destino estuviese protegido por salvaguardas adecuadas a las previstas en la propia directiva.
 
-Página 8 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA II En los últimos años de la pasada década se intensificaron los impulsos tendentes a lograr una regulación más uniforme del derecho fundamental a la protección de datos en el marco de una sociedad cada vez más globalizada. Así, se fueron adoptando en distintas instancias internacionales propuestas para la reforma del marco vigente. Y en este marco la Comisión lanzó el 4 de noviembre de 2010 su Comunicación titulada «Un enfoque global de la protección de los datos personales en la Unión Europea», que constituye el germen de la posterior reforma del marco de la Unión Europea. Al propio tiempo, el Tribunal de Justicia de la Unión ha venido adoptando a lo largo de los últimos años una jurisprudencia que resulta fundamental en su interpretación.
 
 El último hito en esta evolución tuvo lugar con la adopción del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de sus datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos), así como de la Directiva (UE) 2016/680 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales por parte de las autoridades competentes para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales, y a la libre circulación de dichos datos y por la que se deroga la Decisión Marco 2008/977/JAI del Consejo.
 
@@ -502,7 +418,6 @@ Asimismo, se introducen las modificaciones necesarias de la Ley 1/2000, de 7 de 
 
 Finalmente, y en relación con la garantía de los derechos digitales, también se introducen modificaciones en la Ley Orgánica 2/2006, de 3 de mayo, de Educación, la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, así como en el Texto Refundido de la Ley del Estatuto de los Trabajadores y en el Texto Refundido de la Ley del Estatuto Básico del Empleado Público.
 
-Página 14 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO I {#titulo-i}
 
@@ -544,7 +459,6 @@ c) A los tratamientos sometidos a la normativa sobre protección de materias cla
 
 Como excepción, las personas a las que se refiere el párrafo anterior no podrán acceder a los datos del causante, ni solicitar su rectificación o supresión, cuando la persona fallecida lo hubiese prohibido expresamente o así lo establezca una ley. Dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante.
 
-Página 15 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Las personas o instituciones a las que el fallecido hubiese designado expresamente para ello podrán también solicitar, con arreglo a las instrucciones recibidas, el acceso a los datos personales de este y, en su caso su rectificación o supresión.
 
 Mediante real decreto se establecerán los requisitos y condiciones para acreditar la validez y vigencia de estos mandatos e instrucciones y, en su caso, el registro de los mismos.
 
@@ -584,7 +498,6 @@ d) Fuesen obtenidos de un registro público por el responsable.
 
 2. Cuando se pretenda fundar el tratamiento de los datos en el consentimiento del afectado para una pluralidad de finalidades será preciso que conste de manera específica e inequívoca que dicho consentimiento se otorga para todas ellas.
 
-Página 16 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. No podrá supeditarse la ejecución del contrato a que el afectado consienta el tratamiento de los datos personales para finalidades que no guarden relación con el mantenimiento, desarrollo o control de la relación contractual.
 
 **Artículo 7. Consentimiento de los menores de edad.**
 
@@ -620,7 +533,6 @@ En particular, dicha norma podrá amparar el tratamiento de datos en el ámbito 
 
 1. El tratamiento de datos personales relativos a condenas e infracciones penales, así como a procedimientos y medidas cautelares y de seguridad conexas, para fines distintos de los de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales, solo podrá llevarse a cabo cuando se encuentre amparado en una norma de Derecho de la Unión, en esta ley orgánica o en otras normas de rango legal.
 
-Página 17 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. El registro completo de los datos referidos a condenas e infracciones penales, así como a procedimientos y medidas cautelares y de seguridad conexas a que se refiere el
 
 **artículo 10 del Reglamento (UE) 2016/679, podrá realizarse conforme con lo establecido en**
 
@@ -702,7 +614,6 @@ Al ejercer el derecho de rectificación reconocido en el artículo 16 del Reglam
 
 identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines de mercadotecnia directa.
 
-Página 19 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 16. Derecho a la limitación del tratamiento.**
 
@@ -846,7 +757,6 @@ a) Que los responsables de dichos tratamientos sean los órganos competentes par
 
 b) Que el tratamiento se limite a los datos estrictamente necesarios para la finalidad perseguida por aquel.
 
-Página 23 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Cuando no se cumpla alguna de las condiciones previstas en el apartado anterior, los tratamientos de datos referidos a infracciones y sanciones administrativas habrán de contar con el consentimiento del interesado o estar autorizados por una norma con rango de ley, en la que se regularán, en su caso, garantías adicionales para los derechos y libertades de los afectados.
 
 3. Fuera de los supuestos señalados en los apartados anteriores, los tratamientos de datos referidos a infracciones y sanciones administrativas solo serán posibles cuando sean llevados a cabo por abogados y procuradores y tengan por objeto recoger la información facilitada por sus clientes para el ejercicio de sus funciones.
 
@@ -880,7 +790,6 @@ g) Cuando los datos personales fuesen a ser objeto de transferencia, con caráct
 
 h) Cualesquiera otros que a juicio del responsable o del encargado pudieran tener relevancia y en particular aquellos previstos en códigos de conducta y estándares definidos por esquemas de certificación.
 
-Página 24 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 29. Supuestos de corresponsabilidad en el tratamiento.**
 
@@ -962,7 +871,6 @@ d) Los prestadores de servicios de la sociedad de la información cuando elabore
 
 e) Las entidades incluidas en el artículo 1 de la Ley 10/2014, de 26 de junio, de ordenación, supervisión y solvencia de entidades de crédito.
 
-Página 26 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA f) Los establecimientos financieros de crédito. g) Las entidades aseguradoras y reaseguradoras. h) Las empresas de servicios de inversión, reguladas por la legislación del Mercado de Valores.
 
 i) Los distribuidores y comercializadores de energía eléctrica y los distribuidores y comercializadores de gas natural.
 
@@ -1060,7 +968,6 @@ Las transferencias internacionales de datos se regirán por lo dispuesto en el R
 
 En todo caso se aplicarán a los tratamientos en que consista la propia transferencia las disposiciones contenidas en dichas normas, en particular las que regulan los principios de protección de datos.
 
-Página 29 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 41. Supuestos de adopción por la Agencia Española de Protección de Datos.**
 
@@ -1096,7 +1003,6 @@ Esta transferencia.
 
 información deberá facilitarse con carácter previo a la realización de la Lo dispuesto en este artículo no será de aplicación a las actividades llevadas a cabo por las autoridades públicas en el ejercicio de sus poderes públicos, de acuerdo con el artículo 49.3 del Reglamento (UE) 2016/679.
 
-Página 30 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO VII {#titulo-vii}
 
@@ -1138,7 +1044,6 @@ Corresponde a la Presidencia de la Agencia Española de Protección de Datos aut
 
 3. La Agencia Española de Protección de Datos contará para el cumplimiento de sus fines con las asignaciones que se establezcan con cargo a los Presupuestos Generales del Estado, los bienes y valores que constituyan su patrimonio y los ingresos, ordinarios y extraordinarios derivados del ejercicio de sus actividades, incluidos los derivados del ejercicio de las potestades establecidos en el artículo 58 del Reglamento (UE) 2016/679.
 
-Página 31 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. El resultado positivo de sus ingresos se destinará por la Agencia Española de Protección de Datos a la dotación de sus reservas con el fin de garantizar su plena independencia.
 
 5. El personal al servicio de la Agencia Española de Protección de Datos será funcionario o laboral y se regirá por lo previsto en el texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre, y demás normativa reguladora de los funcionarios públicos y, en su caso, por la normativa laboral.
 
@@ -1166,7 +1071,6 @@ El ejercicio del resto de competencias será asumido por el Adjunto en los térm
 
 3. La Presidencia de la Agencia Española de Protección de Datos y su Adjunto serán nombrados por el Gobierno, a propuesta del Ministerio de Justicia, entre personas de reconocida competencia profesional, en particular en materia de protección de datos.
 
-Página 32 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Dos meses antes de producirse la expiración del mandato o, en el resto de las causas de cese, cuando se haya producido éste, el Ministerio de Justicia ordenará la publicación en el Boletín Oficial del Estado de la convocatoria pública de candidatos.
 
 Previa evaluación del mérito, capacidad, competencia e idoneidad de los candidatos, el Gobierno remitirá al Congreso de los Diputados una propuesta de Presidencia y Adjunto acompañada de un informe justificativo que, tras la celebración de la preceptiva audiencia de los candidatos, deberá ser ratificada por la Comisión de Justicia en votación pública por mayoría de tres quintos de sus miembros en primera votación o, de no alcanzarse ésta, por mayoría absoluta en segunda votación, que se realizará inmediatamente después de la primera. En este último supuesto, los votos favorables deberán proceder de Diputados pertenecientes, al menos, a dos grupos parlamentarios diferentes.
 
@@ -1202,7 +1106,6 @@ m) Un representante de los profesionales de la seguridad de la información, pro
 
 n) Un experto en transparencia y acceso a la información pública propuesto por el Consejo de Transparencia y Buen Gobierno.
 
-Página 33 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA ñ) Dos expertos propuestos por las organizaciones sindicales más representativas.
 
 2. A los efectos del apartado anterior, la condición de experto requerirá acreditar conocimientos especializados en el Derecho y la práctica en materia de protección de datos mediante el ejercicio profesional o académico.
 
@@ -1242,7 +1145,6 @@ Cuando la información contenga datos personales la comunicación de dichos dato
 
 2. En el marco de las actuaciones previas de investigación, cuando no haya podido realizar la identificación por otros medios, la Agencia Española de Protección de Datos podrá recabar de las Administraciones Públicas, incluidas las tributarias y de la Seguridad Social, las informaciones y datos que resulten imprescindibles con la exclusiva finalidad de lograr la identificación de los responsables de las conductas que pudieran ser constitutivas de infracción del Reglamento (UE) 2016/679 y de la presente ley orgánica.
 
-Página 34 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA En el supuesto de las Administraciones tributarias y de la Seguridad Social, la información se limitará a la que resulte necesaria para poder identificar inequívocamente contra quién debe dirigirse la actuación de la Agencia Española de Protección de Datos en los supuestos de creación de entramados societarios que dificultasen el conocimiento directo del presunto responsable de la conducta contraria al Reglamento (UE) 2016/679 y a la presente ley orgánica.
 
 3. Cuando no haya podido realizar la identificación por otros medios, la Agencia Española de Protección de Datos podrá recabar de los operadores que presten servicios de comunicaciones electrónicas disponibles al público y de los prestadores de servicios de la sociedad de la información los datos que obren en su poder y que resulten imprescindibles para la identificación del presunto responsable de la conducta contraria al Reglamento (UE) 2016/679 y a la presente ley orgánica cuando se hubiere llevado a cabo mediante la utilización de un servicio de la sociedad de la información o la realización de una comunicación electrónica. A tales efectos, los datos que la Agencia Española de Protección de Datos podrá recabar al amparo de este apartado son los siguientes:
 
@@ -1270,7 +1172,6 @@ Quedan excluidos de lo previsto en este apartado los datos de tráfico que los o
 
 1. Quienes desarrollen la actividad de investigación podrán recabar las informaciones precisas para el cumplimiento de sus funciones, realizar inspecciones, requerir la exhibición o el envío de los documentos y datos necesarios, examinarlos en el lugar en que se encuentren depositados o en donde se lleven a cabo los tratamientos, obtener copia de ellos, inspeccionar los equipos físicos y lógicos y requerir la ejecución de tratamientos y programas o procedimientos de gestión y soporte del tratamiento sujetos a investigación.
 
-Página 35 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Cuando fuese necesario el acceso por el personal que desarrolla la actividad de investigación al domicilio constitucionalmente protegido del inspeccionado, será preciso contar con su consentimiento o haber obtenido la correspondiente autorización judicial.
 
 3. Cuando se trate de órganos judiciales u oficinas judiciales el ejercicio de las facultades de inspección se efectuará a través y por mediación del Consejo General del Poder Judicial.
 
@@ -1376,7 +1277,6 @@ Protección de Datos.
 
 2. Las autoridades autonómicas de protección de datos que tengan la condición de autoridad interesada no principal en un procedimiento de los previstos en el artículo 65 del Reglamento (UE) 2016/679 informarán a la Agencia Española de Protección de Datos cuando el asunto sea remitido al Comité Europeo de Protección de Datos, facilitándole la documentación e información necesarias para su tramitación.
 
-Página 38 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA La Agencia Española de Protección de Datos será asistida por un representante de la autoridad autonómica interesada en su intervención ante el mencionado comité.
 
 Procedimientos en caso de posible vulneración de la normativa de protección de datos
 
@@ -1406,7 +1306,6 @@ El procedimiento tendrá una duración máxima de doce meses a contar desde la f
 
 3. Cuando así proceda en atención a la naturaleza de los hechos y teniendo debidamente en cuenta los criterios establecidos en el artículo 83.2 del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, la Agencia Española de Protección de Datos, previa audiencia al responsable o encargado del tratamiento, podrá dirigir un apercibimiento, así como ordenar al responsable o encargado del tratamiento que adopten las medidas correctivas encaminadas a poner fin al posible incumplimiento de la legislación de protección de datos de una determinada manera y dentro del plazo especificado.
 
-Página 39 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA El procedimiento tendrá una duración máxima de seis meses a contar desde la fecha del acuerdo de inicio. Transcurrido ese plazo se producirá su caducidad y, en consecuencia, el archivo de actuaciones.
 
 Será de aplicación en este caso lo dispuesto en los párrafos segundo y tercero del apartado 2 de este artículo.
 
@@ -1430,7 +1329,6 @@ La Agencia Española de Protección de Datos podrá igualmente remitir la reclam
 
 Si como consecuencia de dichas actuaciones de remisión, el responsable o encargado del tratamiento demuestra haber adoptado medidas para el cumplimiento de la normativa aplicable, la Agencia Española de Protección de Datos podrá inadmitir a trámite la reclamación.
 
-Página 40 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 5. La decisión sobre la admisión o inadmisión a trámite, así como la que determine, en su caso, la remisión de la reclamación a la autoridad de control principal que se estime competente, deberá notificarse al reclamante en el plazo de tres meses. Si transcurrido este plazo no se produjera dicha notificación, se entenderá que prosigue la tramitación de la reclamación con arreglo a lo dispuesto en este título a partir de la fecha en que se cumpliesen tres meses desde que la reclamación tuvo entrada en la Agencia Española de Protección de Datos, sin perjuicio de la facultad de la Agencia de archivar posteriormente y de forma expresa la reclamación.
 
 En el supuesto de que la Agencia Española de Protección de Datos actúe como consecuencia de la comunicación que le hubiera sido remitida por la autoridad de control de otro Estado miembro de la Unión Europea, conforme al artículo 64.4 de esta ley orgánica, el cómputo del plazo señalado en el párrafo anterior se iniciará una vez que se reciba en la Agencia toda la documentación necesaria para su tramitación.
 
@@ -1454,7 +1352,6 @@ La Agencia Española de Protección de Datos actuará en todo caso cuando sea pr
 
 2. Las actuaciones previas de investigación se someterán a lo dispuesto en la sección 2.ª del capítulo I del título VII de esta ley orgánica y no podrán tener una duración superior a dieciocho meses a contar desde la fecha del acuerdo de admisión a trámite o de la fecha del acuerdo por el que se decida su iniciación cuando la Agencia Española de Protección de Datos actúe por propia iniciativa.
 
-Página 41 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 68. Acuerdo de inicio del procedimiento para el ejercicio de la potestad**
 
@@ -1490,7 +1387,6 @@ d) Las entidades de certificación. e) Las entidades acreditadas de supervisión
 
 Constituyen infracciones los actos y conductas a las que se refieren los apartados 4, 5 y 6 del artículo 83 del Reglamento (UE) 2016/679, así como las que resulten contrarias a la presente ley orgánica.
 
-Página 42 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 72. Infracciones consideradas muy graves.**
 
@@ -1538,7 +1434,6 @@ p) La reversión deliberada de un procedimiento de anonimización a fin de permi
 
 En función de lo que establece el artículo 83.4 del Reglamento (UE) 2016/679 se consideran graves y prescribirán a los dos años las infracciones que supongan una vulneración sustancial de los artículos mencionados en aquel y, en particular, las siguientes:
 
-Página 43 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) El tratamiento de datos personales de un menor de edad sin recabar su consentimiento, cuando tenga capacidad para ello, o el del titular de su patria potestad o tutela, conforme al artículo 8 del Reglamento (UE) 2016/679.
 
 b) No acreditar la realización de esfuerzos razonables para verificar la validez del consentimiento prestado por un menor de edad o por el titular de su patria potestad o tutela sobre el mismo, conforme a lo requerido por el artículo 8.2 del Reglamento (UE) 2016/679.
 
@@ -1580,7 +1475,6 @@ r) El incumplimiento del deber de notificación a la autoridad de protección de
 
 **artículo 33 del Reglamento (UE) 2016/679.**
 
-Página 44 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA s) El incumplimiento del deber de comunicación al afectado de una violación de la seguridad de los datos de conformidad con lo previsto en el artículo 34 del Reglamento (UE) 2016/679 si el responsable del tratamiento hubiera sido requerido por la autoridad de protección de datos para llevar a cabo dicha notificación.
 
 t) El tratamiento de datos personales sin haber llevado a cabo la evaluación del impacto de las operaciones de tratamiento en la protección de datos personales en los supuestos en que la misma sea exigible.
 
@@ -1622,7 +1516,6 @@ d) No atender los derechos de acceso, rectificación, supresión, limitación de
 
 **artículo 73 c) de esta ley orgánica.**
 
-Página 45 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA e) El incumplimiento de la obligación de notificación relativa a la rectificación o supresión de datos personales o la limitación del tratamiento exigida por el artículo 19 del Reglamento (UE) 2016/679.
 
 f) El incumplimiento de la obligación de informar al afectado, cuando así lo haya solicitado, de los destinatarios a los que se hayan comunicado los datos personales rectificados, suprimidos o respecto de los que se ha limitado el tratamiento.
 
@@ -1702,7 +1595,6 @@ e) Las autoridades administrativas independientes. f) El Banco de España. g) La
 
 h) Las fundaciones del sector público. i) Las Universidades Públicas. j) Los consorcios. k) Los grupos parlamentarios de las Cortes Generales y las Asambleas Legislativas autonómicas, así como los grupos políticos de las Corporaciones Locales.
 
-Página 47 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Cuando los responsables o encargados enumerados en el apartado 1 cometiesen alguna de las infracciones a las que se refieren los artículos 72 a 74 de esta ley orgánica, la autoridad de protección de datos que resulte competente dictará resolución declarando la infracción y estableciendo, en su caso, las medidas que proceda adoptar para que cese la conducta o se corrijan los efectos de la infracción que se hubiese cometido, con excepción de la prevista en el artículo 58.2.i del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016.
 
 La resolución se notificará al responsable o encargado del tratamiento, al órgano del que dependa jerárquicamente, en su caso, y a los afectados que tuvieran la condición de interesado, en su caso.
 
@@ -1732,7 +1624,6 @@ c) Las sanciones por un importe superior a 300.000 euros prescriben a los tres a
 
 3. La prescripción se interrumpirá por la iniciación, con conocimiento del interesado, del procedimiento de ejecución, volviendo a transcurrir el plazo si el mismo está paralizado durante más de seis meses por causa no imputable al infractor.
 
-Página 48 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO X {#titulo-x}
 
@@ -1776,7 +1667,6 @@ Las Administraciones educativas deberán incluir en el desarrollo del currículo
 
 4. Las Administraciones Públicas incorporarán a los temarios de las pruebas de acceso a los cuerpos superiores y a aquéllos en que habitualmente se desempeñen funciones que impliquen el acceso a datos personales materias relacionadas con la garantía de los derechos digitales y en particular el de protección de datos.
 
-Página 49 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 84. Protección de los menores en Internet.**
 
@@ -1810,7 +1700,6 @@ El acceso por el empleador al contenido de dispositivos digitales respecto de lo
 
 Los trabajadores deberán ser informados de los criterios de utilización a los que se refiere este apartado.
 
-Página 50 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 88. Derecho a la desconexión digital en el ámbito laboral.**
 
@@ -1840,7 +1729,6 @@ En el supuesto de que se haya captado la comisión flagrante de un acto ilícito
 
 2. Con carácter previo, los empleadores habrán de informar de forma expresa, clara e inequívoca a los trabajadores o los empleados públicos y, en su caso, a sus representantes, acerca de la existencia y características de estos dispositivos. Igualmente deberán informarles acerca del posible ejercicio de los derechos de acceso, rectificación, limitación del tratamiento y supresión.
 
-Página 51 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 91. Derechos digitales en la negociación colectiva.**
 
@@ -1874,7 +1762,6 @@ Se exceptúan de lo dispuesto en este apartado los datos que hubiesen sido facil
 
 3. En caso de que el derecho se ejercitase por un afectado respecto de datos que hubiesen sido facilitados al servicio, por él o por terceros, durante su minoría de edad, el prestador deberá proceder sin dilación a su supresión por su simple solicitud, sin necesidad de que concurran las circunstancias mencionadas en el apartado 2.
 
-Página 52 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 95. Derecho de portabilidad en servicios de redes sociales y servicios equivalentes.**
 
@@ -1940,7 +1827,6 @@ c) Si el plazo se fija en meses o años, concluirá el mismo día en que se prod
 
 d) Cuando el último día del plazo sea inhábil, se entenderá prorrogado al primer día hábil siguiente.
 
-Página 54 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional cuarta. Procedimiento en relación con las competencias atribuidas a la Agencia Española de Protección de Datos por otras leyes.
 
 Lo dispuesto en el Título VIII y en sus normas de desarrollo será de aplicación a los procedimientos que la Agencia Española de Protección de Datos hubiera de tramitar en ejercicio de las competencias que le fueran atribuidas por otras leyes.
 
@@ -2034,7 +1920,6 @@ Disposición adicional decimoséptima. Tratamientos de datos de salud.
 
 a) La Ley 14/1986, de 25 de abril, General de Sanidad. b) La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales.
 
-Página 57 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) La Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica.
 
 d) La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud. e) La Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias. f) La Ley 14/2007, de 3 de julio, de Investigación biomédica. g) La Ley 33/2011, de 4 de octubre, General de Salud Pública. h) La Ley 20/2015, de 14 de julio, de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras.
 
@@ -2106,7 +1991,6 @@ Disposición adicional decimonovena. Derechos de los menores ante Internet.
 
 En el plazo de un año desde la entrada en vigor de esta ley orgánica, el Gobierno remitirá al Congreso de los Diputados un proyecto de ley dirigido específicamente a garantizar los derechos de los menores ante el impacto de Internet, con el fin de garantizar su seguridad y luchar contra la discriminación y la violencia que sobre los mismos es ejercida mediante las nuevas tecnologías.
 
-Página 59 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional vigésima. Especialidades del régimen jurídico de la Agencia Española de Protección de Datos.
 
 1. No será de aplicación a la Agencia Española de Protección de Datos el artículo 50.2.c)
 
@@ -2146,7 +2030,6 @@ Disposición transitoria tercera. Régimen transitorio de los procedimientos.
 
 #### Sección 2.ª del Capítulo III del Título IX del Reglamento de desarrollo de la Ley Orgánica {#seccion-2-a-del-capitulo-iii-del-titulo-ix-del-reglamento-de-desarrollo-de-la-ley-organica}
 
-Página 60 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, aprobado por Real Decreto 1720/2007, de 21 de diciembre.
 
 Disposición transitoria cuarta. Tratamientos sometidos a la Directiva (UE) 2016/680.
 
@@ -2174,7 +2057,6 @@ Disposición derogatoria única. Derogación normativa.
 
 3. Asimismo, quedan derogadas cuantas disposiciones de igual o inferior rango contradigan, se opongan, o resulten incompatibles con lo dispuesto en el Reglamento (UE) 2016/679 y en la presente ley orgánica.
 
-Página 61 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final primera. Naturaleza de la presente ley.
 
 La presente ley tiene el carácter de ley orgánica. No obstante, tienen carácter de ley ordinaria:
 
@@ -2206,7 +2088,6 @@ Uno. El apartado 3 del artículo treinta y nueve queda redactado como sigue:
 
 1. (Anulado)
 
-Página 62 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los partidos políticos, coaliciones y agrupaciones electorales podrán utilizar datos personales obtenidos en páginas web y otras fuentes de acceso público para la realización de actividades políticas durante el periodo electoral.
 
 3. El envío de propaganda electoral por medios electrónicos o sistemas de mensajería y la contratación de propaganda electoral en redes sociales o medios equivalentes no tendrán la consideración de actividad o comunicación comercial.
 
@@ -2260,7 +2141,6 @@ Uno. Se añade un nuevo apartado 7 al artículo 10:
 
 3. El acuerdo de admisión o inadmisión a trámite del procedimiento confirmará, modificará o levantará la suspensión del procedimiento por posible vulneración de la normativa de protección de datos tramitado ante la autoridad de protección de datos, del que trae causa este procedimiento de autorización judicial.
 
-Página 64 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. Admitida a trámite la solicitud, el Tribunal competente lo notificará a la autoridad de protección de datos a fin de que dé traslado a quienes interviniesen en el procedimiento tramitado ante la misma para que se personen en el plazo de tres días. Igualmente, se dará traslado a la Comisión Europea a los mismos efectos.
 
 5. Concluido el plazo mencionado en la letra anterior, se dará traslado de la solicitud de autorización a las partes personadas a fin de que en el plazo de diez días aleguen lo que estimen procedente, pudiendo solicitar en ese momento la práctica de las pruebas que estimen necesarias.
 
@@ -2349,5 +2229,3 @@ Madrid, 5 de diciembre de 2018.
 El Presidente del Gobierno, PEDRO SÁNCHEZ PÉREZ-CASTEJÓN FELIPE R.
 
 Este texto consolidado no tiene valor jurídico.
-
-Página 68

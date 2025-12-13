@@ -1,384 +1,315 @@
 LEGISLACIÓN CONSOLIDADA Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.
 
-Jefatura del Estado «BOE» núm. 71, de 23 de marzo de 2007 Referencia: BOE-A-2007-6115 ÍNDICE Preámbulo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Jefatura del Estado «BOE» núm. 71, de 23 de marzo de 2007 Referencia: BOE-A-2007-6115
+ÍNDICE
+Preámbulo
 
-## TÍTULO PRELIMINAR. Objeto y ámbito de la Ley . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-preliminar-objeto-y-ambito-de-la-ley}
+## TÍTULO PRELIMINAR. Objeto y ámbito de la Ley {#titulo-preliminar-objeto-y-ambito-de-la-ley}
 
-**Artículo 1. Objeto de la Ley. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 1. Objeto de la Ley **
 
-**Artículo 2. Ámbito de aplicación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 2. Ámbito de aplicación **
 
-## TÍTULO I. El principio de igualdad y la tutela contra la discriminación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-i-el-principio-de-igualdad-y-la-tutela-contra-la-discriminacion}
+## TÍTULO I. El principio de igualdad y la tutela contra la discriminación {#titulo-i-el-principio-de-igualdad-y-la-tutela-contra-la-discriminacion}
 
-**Artículo 3. El principio de igualdad de trato entre mujeres y hombres. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 3. El principio de igualdad de trato entre mujeres y hombres **
 
-**Artículo 4. Integración del principio de igualdad en la interpretación y aplicación de las normas. . . . . . . . . . . .**
+**Artículo 4. Integración del principio de igualdad en la interpretación y aplicación de las normas **
 
-**Artículo 5. Igualdad de trato y de oportunidades en el acceso al empleo, en la formación y en la promoción**
-
-profesionales, y en las condiciones de trabajo.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 5. Igualdad de trato y de oportunidades en el acceso al empleo, en la formación y en la promoción** profesionales, y en las condiciones de trabajo
 
 **Artículo 6. Discriminación directa e indirecta.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 7. Acoso sexual y acoso por razón de sexo **
 
-**Artículo 7. Acoso sexual y acoso por razón de sexo.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 8. Discriminación por embarazo o maternidad **
 
-**Artículo 8. Discriminación por embarazo o maternidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 9. Indemnidad frente a represalias **
 
-**Artículo 9. Indemnidad frente a represalias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 10. Consecuencias jurídicas de las conductas discriminatorias **
 
-**Artículo 10. Consecuencias jurídicas de las conductas discriminatorias. . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 11. Acciones positivas **
 
-**Artículo 11. Acciones positivas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 12. Tutela judicial efectiva **
 
-**Artículo 12. Tutela judicial efectiva. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 13. Prueba **
 
-**Artículo 13. Prueba. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO II. Políticas públicas para la igualdad {#titulo-ii-politicas-publicas-para-la-igualdad}
 
-## TÍTULO II. Políticas públicas para la igualdad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-ii-politicas-publicas-para-la-igualdad}
-
-### CAPÍTULO I. Principios generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-principios-generales}
-
-7 11 11 11 12 12 12 12 12 12 13 13 13 13 13 13 14 14 Página 1 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+### CAPÍTULO I. Principios generales {#capitulo-i-principios-generales}
 
 **Artículo 14. Criterios generales de actuación de los Poderes Públicos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 15. Transversalidad del principio de igualdad de trato entre mujeres y hombres. . . . . . . . . . . . . . .**
+**Artículo 15. Transversalidad del principio de igualdad de trato entre mujeres y hombres **
 
 **Artículo 16. Nombramientos realizados por los Poderes Públicos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 17. Plan Estratégico de Igualdad de Oportunidades **
 
-**Artículo 17. Plan Estratégico de Igualdad de Oportunidades.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 18. Informe periódico **
 
-**Artículo 18. Informe periódico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 19. Informes de impacto de género **
 
-**Artículo 19. Informes de impacto de género. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 20. Adecuación de las estadísticas y estudios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 20. Adecuación de las estadísticas y estudios **
 
 **Artículo 21. Colaboración entre las Administraciones públicas.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 **Artículo 22. Acciones de planificación equitativa de los tiempos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO II. Acción administrativa para la igualdad {#capitulo-ii-accion-administrativa-para-la-igualdad}
 
-### CAPÍTULO II. Acción administrativa para la igualdad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-accion-administrativa-para-la-igualdad}
+**Artículo 23. La educación para la igualdad de mujeres y hombres **
 
-**Artículo 23. La educación para la igualdad de mujeres y hombres. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 24. Integración del principio de igualdad en la política de educación **
 
-**Artículo 24. Integración del principio de igualdad en la política de educación. . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 25. La igualdad en el ámbito de la educación superior **
 
-**Artículo 25. La igualdad en el ámbito de la educación superior. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 26. La igualdad en el ámbito de la creación y producción artística e intelectual.. . . . . . . . . . . . . . .**
+**Artículo 26. La igualdad en el ámbito de la creación y producción artística e intelectual **
 
 **Artículo 27. Integración del principio de igualdad en la política de salud.**
 
-. . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 28. Sociedad de la Información.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 28. Sociedad de la Información **
 
 **Artículo 29. Deportes.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 30. Desarrollo rural **
 
-**Artículo 30. Desarrollo rural. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 31. Políticas urbanas, de ordenación territorial y vivienda **
 
-**Artículo 31. Políticas urbanas, de ordenación territorial y vivienda. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 32. Política española de cooperación para el desarrollo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 32. Política española de cooperación para el desarrollo **
 
 **Artículo 33. Contratos de las Administraciones públicas.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 34. Contratos de la Administración General del Estado.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 34. Contratos de la Administración General del Estado **
 
 **Artículo 35. Subvenciones públicas.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## TÍTULO III. Igualdad y medios de comunicación {#titulo-iii-igualdad-y-medios-de-comunicacion}
 
-## TÍTULO III. Igualdad y medios de comunicación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-iii-igualdad-y-medios-de-comunicacion}
+**Artículo 36. La igualdad en los medios de comunicación social de titularidad pública **
 
-**Artículo 36. La igualdad en los medios de comunicación social de titularidad pública. . . . . . . . . . . . . . . . . . .**
-
-**Artículo 37. Corporación RTVE. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 37. Corporación RTVE **
 
 **Artículo 38. Agencia EFE.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 39. La igualdad en los medios de comunicación social de titularidad privada **
 
-**Artículo 39. La igualdad en los medios de comunicación social de titularidad privada.. . . . . . . . . . . . . . . . . .**
+**Artículo 40. Autoridad audiovisual **
 
-**Artículo 40. Autoridad audiovisual. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 41. Igualdad y publicidad **
 
-**Artículo 41. Igualdad y publicidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-## TÍTULO IV. El derecho al trabajo en igualdad de oportunidades . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-iv-el-derecho-al-trabajo-en-igualdad-de-oportunidades}
-
-14 14 14 15 15 15 15 15 15 16 16 16 16 16 17 17 18 18 18 18 19 19 19 20 20 20 20 20 20 21 21 Página 2 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+## TÍTULO IV. El derecho al trabajo en igualdad de oportunidades {#titulo-iv-el-derecho-al-trabajo-en-igualdad-de-oportunidades}
 
 ### CAPÍTULO I. Igualdad de trato y de oportunidades en el ámbito laboral {#capitulo-i-igualdad-de-trato-y-de-oportunidades-en-el-ambito-laboral}
 
-. . . . . . . . . . . . . . . . . . . . . . . . . .
-
 **Artículo 42. Programas de mejora de la empleabilidad de las mujeres.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 43. Promoción de la igualdad en la negociación colectiva **
 
-**Artículo 43. Promoción de la igualdad en la negociación colectiva. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-### CAPÍTULO II. Igualdad y conciliación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-igualdad-y-conciliacion}
+### CAPÍTULO II. Igualdad y conciliación {#capitulo-ii-igualdad-y-conciliacion}
 
 **Artículo 44. Los derechos de conciliación de la vida personal, familiar y laboral.**
 
-. . . . . . . . . . . . . . . . . . .
+### CAPÍTULO III. Los planes de igualdad de las empresas y otras medidas de promoción de la igualdad {#capitulo-iii-los-planes-de-igualdad-de-las-empresas-y-otras-medidas-de-promocion-de-la-igualdad}
 
-### CAPÍTULO III. Los planes de igualdad de las empresas y otras medidas de promoción de la igualdad . . . . . . . {#capitulo-iii-los-planes-de-igualdad-de-las-empresas-y-otras-medidas-de-promocion-de-la-igualdad}
+**Artículo 45. Elaboración y aplicación de los planes de igualdad **
 
-**Artículo 45. Elaboración y aplicación de los planes de igualdad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 46. Concepto y contenido de los planes de igualdad de las empresas. . . . . . . . . . . . . . . . . . . . .**
+**Artículo 46. Concepto y contenido de los planes de igualdad de las empresas **
 
 **Artículo 47. Transparencia en la implantación del plan de igualdad.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 48. Medidas específicas para prevenir la comisión de delitos y otras conductas contra la libertad** sexual y la integridad moral en el trabajo
 
-**Artículo 48. Medidas específicas para prevenir la comisión de delitos y otras conductas contra la libertad**
+**Artículo 49. Apoyo para la implantación voluntaria de planes de igualdad **
 
-sexual y la integridad moral en el trabajo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO IV. Distintivo empresarial en materia de igualdad {#capitulo-iv-distintivo-empresarial-en-materia-de-igualdad}
 
-**Artículo 49. Apoyo para la implantación voluntaria de planes de igualdad. . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 50. Distintivo para las empresas en materia de igualdad **
 
-### CAPÍTULO IV. Distintivo empresarial en materia de igualdad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iv-distintivo-empresarial-en-materia-de-igualdad}
+## TÍTULO V. El principio de igualdad en el empleo público {#titulo-v-el-principio-de-igualdad-en-el-empleo-publico}
 
-**Artículo 50. Distintivo para las empresas en materia de igualdad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO I. Criterios de actuación de las Administraciones públicas {#capitulo-i-criterios-de-actuacion-de-las-administraciones-publicas}
 
-## TÍTULO V. El principio de igualdad en el empleo público . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-v-el-principio-de-igualdad-en-el-empleo-publico}
+**Artículo 51. Criterios de actuación de las Administraciones públicas **
 
-### CAPÍTULO I. Criterios de actuación de las Administraciones públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-criterios-de-actuacion-de-las-administraciones-publicas}
-
-**Artículo 51. Criterios de actuación de las Administraciones públicas.. . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-### CAPÍTULO II. El principio de presencia equilibrada en la Administración General del Estado y en los {#capitulo-ii-el-principio-de-presencia-equilibrada-en-la-administracion-general-del-estado-y-en-los}
-
-organismos públicos vinculados o dependientes de ella . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO II. El principio de presencia equilibrada en la Administración General del Estado y en los {#capitulo-ii-el-principio-de-presencia-equilibrada-en-la-administracion-general-del-estado-y-en-los} organismos públicos vinculados o dependientes de ella
 
 **Artículo 52. Titulares de órganos directivos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 53. Órganos de selección y Comisiones de valoración **
 
-**Artículo 53. Órganos de selección y Comisiones de valoración. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 54. Designación de representantes de la Administración General del Estado **
 
-**Artículo 54. Designación de representantes de la Administración General del Estado. . . . . . . . . . . . . . . . .**
+### CAPÍTULO III. Medidas de Igualdad en el empleo para la Administración General del Estado y para los {#capitulo-iii-medidas-de-igualdad-en-el-empleo-para-la-administracion-general-del-estado-y-para-los} organismos públicos vinculados o dependientes de ella
 
-### CAPÍTULO III. Medidas de Igualdad en el empleo para la Administración General del Estado y para los {#capitulo-iii-medidas-de-igualdad-en-el-empleo-para-la-administracion-general-del-estado-y-para-los}
+**Artículo 55. Informe de impacto de género en las pruebas de acceso al empleo público **
 
-organismos públicos vinculados o dependientes de ella . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 56. Permisos y beneficios de protección a la maternidad y la conciliación de la vida personal, familiar** y laboral
 
-**Artículo 55. Informe de impacto de género en las pruebas de acceso al empleo público. . . . . . . . . . . . . . .**
+**Artículo 57. Conciliación y provisión de puestos de trabajo **
 
-**Artículo 56. Permisos y beneficios de protección a la maternidad y la conciliación de la vida personal, familiar**
+**Artículo 58. Licencia por riesgo durante el embarazo y lactancia **
 
-y laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 57. Conciliación y provisión de puestos de trabajo.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 58. Licencia por riesgo durante el embarazo y lactancia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 59. Vacaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 59. Vacaciones **
 
 **Artículo 60. Acciones positivas en las actividades de formación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 61. Formación para la igualdad **
 
-**Artículo 61. Formación para la igualdad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 62. Protocolo de actuación frente al acoso sexual y al acoso por razón de sexo **
 
-**Artículo 62. Protocolo de actuación frente al acoso sexual y al acoso por razón de sexo. . . . . . . . . . . . . . .**
-
-21 21 21 21 21 21 21 22 23 23 23 23 23 24 24 24 24 24 24 24 25 25 25 25 25 25 25 26 26 Página 3 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
-**Artículo 63. Evaluación sobre la igualdad en el empleo público. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 63. Evaluación sobre la igualdad en el empleo público **
 
 **Artículo 64. Plan de Igualdad en la Administración General del Estado y en los organismos públicos**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 vinculados o dependientes de ella.
 
-### CAPÍTULO IV. Fuerzas Armadas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iv-fuerzas-armadas}
+### CAPÍTULO IV. Fuerzas Armadas {#capitulo-iv-fuerzas-armadas}
 
-**Artículo 65. Respeto del principio de igualdad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 65. Respeto del principio de igualdad **
 
-**Artículo 66. Aplicación en las Fuerzas Armadas de las normas referidas al personal de las administraciones**
+**Artículo 66. Aplicación en las Fuerzas Armadas de las normas referidas al personal de las administraciones** públicas
 
-públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO V. Fuerzas y Cuerpos de Seguridad del Estado {#capitulo-v-fuerzas-y-cuerpos-de-seguridad-del-estado}
 
-### CAPÍTULO V. Fuerzas y Cuerpos de Seguridad del Estado . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-v-fuerzas-y-cuerpos-de-seguridad-del-estado}
+**Artículo 67. Respeto del principio de igualdad **
 
-**Artículo 67. Respeto del principio de igualdad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 68. Aplicación de las normas referidas al personal de las administraciones públicas en las Fuerzas y** Cuerpos de Seguridad
 
-**Artículo 68. Aplicación de las normas referidas al personal de las administraciones públicas en las Fuerzas y**
+## TÍTULO VI. Igualdad de trato en el acceso a bienes y servicios y su suministro {#titulo-vi-igualdad-de-trato-en-el-acceso-a-bienes-y-servicios-y-su-suministro}
 
-Cuerpos de Seguridad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 69. Igualdad de trato en el acceso a bienes y servicios **
 
-## TÍTULO VI. Igualdad de trato en el acceso a bienes y servicios y su suministro . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vi-igualdad-de-trato-en-el-acceso-a-bienes-y-servicios-y-su-suministro}
+**Artículo 70. Protección en situación de embarazo **
 
-**Artículo 69. Igualdad de trato en el acceso a bienes y servicios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 71. Factores actuariales **
 
-**Artículo 70. Protección en situación de embarazo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 72. Consecuencias del incumplimiento de las prohibiciones **
 
-**Artículo 71. Factores actuariales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO VII. La igualdad en la responsabilidad social de las empresas {#titulo-vii-la-igualdad-en-la-responsabilidad-social-de-las-empresas}
 
-**Artículo 72. Consecuencias del incumplimiento de las prohibiciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 73. Acciones de responsabilidad social de las empresas en materia de igualdad **
 
-## TÍTULO VII. La igualdad en la responsabilidad social de las empresas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vii-la-igualdad-en-la-responsabilidad-social-de-las-empresas}
+**Artículo 74. Publicidad de las acciones de responsabilidad social en materia de igualdad **
 
-**Artículo 73. Acciones de responsabilidad social de las empresas en materia de igualdad. . . . . . . . . . . . . . . .**
+**Artículo 75. Participación de las mujeres en los Consejos de administración de las sociedades mercantiles **
 
-**Artículo 74. Publicidad de las acciones de responsabilidad social en materia de igualdad. . . . . . . . . . . . . . . .**
-
-**Artículo 75. Participación de las mujeres en los Consejos de administración de las sociedades mercantiles. . . .**
-
-## TÍTULO VIII. Disposiciones organizativas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-viii-disposiciones-organizativas}
+## TÍTULO VIII. Disposiciones organizativas {#titulo-viii-disposiciones-organizativas}
 
 **Artículo 76. Comisión Interministerial de Igualdad entre mujeres y hombres.**
 
-. . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 77. Las Unidades de Igualdad **
 
-**Artículo 77. Las Unidades de Igualdad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 78. Consejo de Participación de la Mujer **
 
-**Artículo 78. Consejo de Participación de la Mujer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+Disposiciones adicionales
 
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional primera. Presencia o composición equilibrada
 
-Disposición adicional primera. Presencia o composición equilibrada. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional segunda. Modificación de la Ley Orgánica de Régimen Electoral General
 
-Disposición adicional segunda. Modificación de la Ley Orgánica de Régimen Electoral General.. . . . . . . . . . .
+Disposición adicional tercera. Modificaciones de la Ley Orgánica del Poder Judicial
 
-Disposición adicional tercera. Modificaciones de la Ley Orgánica del Poder Judicial. . . . . . . . . . . . . . . . . . .
+Disposición adicional cuarta. Modificación del Estatuto Orgánico del Ministerio Fiscal
 
-Disposición adicional cuarta. Modificación del Estatuto Orgánico del Ministerio Fiscal. . . . . . . . . . . . . . . . . .
-
-Disposición adicional quinta. Modificaciones de la Ley de Enjuiciamiento Civil. . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional quinta. Modificaciones de la Ley de Enjuiciamiento Civil
 
 Disposición adicional sexta. Modificaciones de la Ley reguladora de la Jurisdicción Contencioso Administrativa.
 
-Disposición adicional séptima. Modificaciones de la Ley por la que se incorpora al ordenamiento jurídico español la Directiva 89/552/CEE. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-26 26 27 27 27 27 27 27 27 27 27 28 28 28 28 28 28 29 29 29 29 29 29 29 30 33 33 34 34 Página 4 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición adicional octava. Modificaciones de la Ley General de Sanidad. . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional séptima. Modificaciones de la Ley por la que se incorpora al ordenamiento jurídico español la Directiva 89/552/CEE
 
 Disposición adicional novena. Modificaciones de la Ley de Cohesión y Calidad del Sistema Nacional de Salud.
 
-Disposición adicional décima. Fondo en materia de Sociedad de la información. . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima. Fondo en materia de Sociedad de la información
 
-Disposición adicional décimo primera. Modificaciones del texto refundido de la Ley del Estatuto de los Trabajadores.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décimo primera. Modificaciones del texto refundido de la Ley del Estatuto de los Trabajadores
 
-Disposición adicional duodécima. Modificaciones de la Ley de Prevención de Riesgos Laborales.. . . . . . . . . .
+Disposición adicional duodécima. Modificaciones de la Ley de Prevención de Riesgos Laborales
 
-Disposición adicional decimotercera. Modificaciones de la Ley de Procedimiento Laboral. . . . . . . . . . . . . . . .
+Disposición adicional decimotercera. Modificaciones de la Ley de Procedimiento Laboral
 
 Disposición adicional decimocuarta. Modificaciones de la Ley de Infracciones y Sanciones del Orden Social.
 
-. .
+Disposición adicional decimoquinta. Modificación del Real Decreto Ley por el que se regulan las bonificaciones de cuotas a la Seguridad Social de los contratos de interinidad que se celebren con personas desempleadas para sustituir a trabajadores durante los períodos de descanso por maternidad, adopción o acogimiento
 
-Disposición adicional decimoquinta. Modificación del Real Decreto Ley por el que se regulan las bonificaciones de cuotas a la Seguridad Social de los contratos de interinidad que se celebren con personas desempleadas para sustituir a trabajadores durante los períodos de descanso por maternidad, adopción o acogimiento. . . .
+Disposición adicional decimosexta. Modificaciones de la Ley de Medidas Urgentes de Reforma del Mercado de Trabajo para el incremento del empleo y la mejora de su calidad
 
-Disposición adicional decimosexta. Modificaciones de la Ley de Medidas Urgentes de Reforma del Mercado de Trabajo para el incremento del empleo y la mejora de su calidad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimoséptima. Modificaciones de la Ley de Empleo
 
-Disposición adicional decimoséptima. Modificaciones de la Ley de Empleo. . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional decimoctava. Modificaciones de la Ley General de la Seguridad Social
 
-Disposición adicional decimoctava. Modificaciones de la Ley General de la Seguridad Social. . . . . . . . . . . . .
+Disposición adicional decimonovena. Modificaciones a la Ley de Medidas para la Reforma de la Función Pública
 
-Disposición adicional decimonovena. Modificaciones a la Ley de Medidas para la Reforma de la Función Pública. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima. Modificaciones de la Ley de Régimen del Personal de las Fuerzas Armadas
 
-Disposición adicional vigésima. Modificaciones de la Ley de Régimen del Personal de las Fuerzas Armadas. . .
+Disposición adicional vigésima primera. Modificaciones de la Ley de Funcionarios Civiles del Estado
 
-Disposición adicional vigésima primera. Modificaciones de la Ley de Funcionarios Civiles del Estado. . . . . . . .
+Disposición adicional vigésima segunda. Modificación de la Ley 55/2003, del Estatuto Marco del Personal Estatutario de los Servicios de salud
 
-Disposición adicional vigésima segunda. Modificación de la Ley 55/2003, del Estatuto Marco del Personal Estatutario de los Servicios de salud.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima tercera
 
-Disposición adicional vigésima tercera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima cuarta. Modificaciones de la Ley de Régimen del Personal del Cuerpo de la Guardia Civil
 
-Disposición adicional vigésima cuarta. Modificaciones de la Ley de Régimen del Personal del Cuerpo de la Guardia Civil. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima quinta. Modificación de la Ley General para la Defensa de Consumidores y Usuarios
 
-Disposición adicional vigésima quinta. Modificación de la Ley General para la Defensa de Consumidores y Usuarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional vigésima sexta. Modificación de la Ley de Sociedades Anónimas. . . . . . . . . . . . . . . . .
+Disposición adicional vigésima sexta. Modificación de la Ley de Sociedades Anónimas
 
 Disposición adicional vigésima séptima. Modificaciones de la Ley de creación del Instituto de la Mujer.
 
-. . . . . .
+Disposición adicional vigésima octava. Designación del Instituto de la Mujer
 
-Disposición adicional vigésima octava. Designación del Instituto de la Mujer. . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional vigésima novena
 
-Disposición adicional vigésima novena. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional trigésima. Modificaciones de la Ley de Ordenación de los Cuerpos Especiales Penitenciarios y de Creación del Cuerpo de Ayudantes de Instituciones Penitenciarias
 
-Disposición adicional trigésima. Modificaciones de la Ley de Ordenación de los Cuerpos Especiales Penitenciarios y de Creación del Cuerpo de Ayudantes de Instituciones Penitenciarias.. . . . . . . . . . . . . . .
+Disposición adicional trigésima primera. Ampliación a otros colectivos
 
-Disposición adicional trigésima primera. Ampliación a otros colectivos. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional trigésima segunda. Regulación del acceso a la profesión de agente de igualdad
 
-Disposición adicional trigésima segunda. Regulación del acceso a la profesión de agente de igualdad. . . . . . .
+Disposiciones transitorias
 
-Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria segunda. Regulación reglamentaria de transitoriedad en relación con el distintivo empresarial en materia de igualdad
 
-34 35 36 36 42 43 45 47 47 48 48 55 58 59 59 59 60 60 61 61 61 61 61 62 62 62 Página 5 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria primera. Régimen transitorio de nombramientos. . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria tercera. Régimen transitorio de procedimientos
 
-Disposición transitoria segunda. Regulación reglamentaria de transitoriedad en relación con el distintivo empresarial en materia de igualdad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición transitoria tercera. Régimen transitorio de procedimientos. . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición transitoria cuarta. Régimen de aplicación del deber de negociar en materia de igualdad. . . . . . . . .
+Disposición transitoria cuarta. Régimen de aplicación del deber de negociar en materia de igualdad
 
 Disposición transitoria quinta. Tablas de mortalidad y supervivencia.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria sexta. Retroactividad de efectos para medidas de conciliación
 
-Disposición transitoria sexta. Retroactividad de efectos para medidas de conciliación. . . . . . . . . . . . . . . . . .
+Disposición transitoria séptima. Régimen transitorio de los nuevos derechos en materia de maternidad, paternidad, riesgo durante el embarazo y consideración como cotizados a efectos de Seguridad Social de determinados períodos
 
-Disposición transitoria séptima. Régimen transitorio de los nuevos derechos en materia de maternidad, paternidad, riesgo durante el embarazo y consideración como cotizados a efectos de Seguridad Social de determinados períodos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria octava. Régimen transitorio del subsidio por desempleo
 
-Disposición transitoria octava. Régimen transitorio del subsidio por desempleo. . . . . . . . . . . . . . . . . . . . . .
-
-Disposición transitoria novena. Ampliación de la suspensión del contrato de trabajo. . . . . . . . . . . . . . . . . . .
+Disposición transitoria novena. Ampliación de la suspensión del contrato de trabajo
 
 Disposición transitoria décima. Despliegue del impacto de género.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria décima primera
 
-Disposición transitoria décima primera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria décima segunda. Aplicación paulatina de los artículos 45 y 46 en la redacción por el Real Decreto-ley 6/2019, de 1 de marzo, de medidas urgentes para garantía de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación
 
-Disposición transitoria décima segunda. Aplicación paulatina de los artículos 45 y 46 en la redacción por el Real Decreto-ley 6/2019, de 1 de marzo, de medidas urgentes para garantía de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación. . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones derogatorias
 
-Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición derogatoria única
 
-Disposición derogatoria única.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones finales
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final primera. Fundamento constitucional
 
-Disposición final primera. Fundamento constitucional.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final segunda. Naturaleza de la Ley
 
-Disposición final segunda. Naturaleza de la Ley. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final tercera. Habilitaciones reglamentarias
 
-Disposición final tercera. Habilitaciones reglamentarias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final cuarta. Transposición de Directivas
 
-Disposición final cuarta. Transposición de Directivas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final quinta. Planes de igualdad y negociación colectiva
 
-Disposición final quinta. Planes de igualdad y negociación colectiva. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final sexta. Implantación de las medidas preventivas del acoso sexual y del acoso por razón de sexo en la Administración General del Estado
 
-Disposición final sexta. Implantación de las medidas preventivas del acoso sexual y del acoso por razón de sexo en la Administración General del Estado.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final séptima. Medidas para posibilitar los permisos de maternidad y paternidad de las personas que ostentan un cargo electo
 
-Disposición final séptima. Medidas para posibilitar los permisos de maternidad y paternidad de las personas que ostentan un cargo electo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición final octava. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-62 62 62 62 63 63 63 63 63 63 63 63 64 64 64 64 64 64 65 65 65 65 65 Página 6 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TEXTO CONSOLIDADO Última modificación: 02 de agosto de 2024 JUAN CARLOS I REY DE ESPAÑA A todos los que la presente vieren y entendieren. Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley Orgánica.
+Disposición final octava. Entrada en vigor
 
 EXPOSICIÓN DE MOTIVOS I El artículo 14 de la Constitución española proclama el derecho a la igualdad y a la no discriminación por razón de sexo. Por su parte, el artículo 9.2 consagra la obligación de los poderes públicos de promover las condiciones para que la igualdad del individuo y de los grupos en que se integra sean reales y efectivas.
 
@@ -428,7 +359,6 @@ El Título III contiene medidas de fomento de la igualdad en los medios de comun
 
 El Título IV se ocupa del derecho al trabajo en igualdad de oportunidades, incorporando medidas para garantizar la igualdad entre mujeres y hombres en el acceso al empleo, en la formación y en la promoción profesionales, y en las condiciones de trabajo. Se incluye además, entre los derechos laborales de los trabajadores y las trabajadoras, la protección frente al acoso sexual y al acoso por razón de sexo.
 
-Página 9 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Además del deber general de las empresas de respetar el principio de igualdad en el ámbito laboral, se contempla, específicamente, el deber de negociar planes de igualdad en las empresas de más de doscientos cincuenta trabajadores o trabajadoras. La relevancia del instrumento de los planes de igualdad explica también la previsión del fomento de su implantación voluntaria en las pequeñas y medianas empresas.
 
 Para favorecer la incorporación de las mujeres al mercado de trabajo, se establece un objetivo de mejora del acceso y la permanencia en el empleo de las mujeres, potenciando su nivel formativo y su adaptabilidad a los requerimientos del mercado de trabajo mediante su posible consideración como grupo de población prioritario de las políticas activas de empleo. Igualmente, la ley recoge una serie de medidas sociales y laborales concretas, que quedan reguladas en las distintas disposiciones adicionales de la Ley.
 
@@ -450,7 +380,6 @@ El Título VI de la Ley está dedicado a la igualdad de trato en el acceso a bie
 
 El Título VII contempla la realización voluntaria de acciones de responsabilidad social por las empresas en materia de igualdad, que pueden ser también objeto de concierto con la representación de los trabajadores y trabajadoras, las organizaciones de consumidores, las asociaciones de defensa de la igualdad o los organismos de igualdad. Específicamente, se regula el uso de estas acciones con fines publicitarios.
 
-Página 10 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA En este Título, y en el marco de la responsabilidad social corporativa, se ha incluido el fomento de la presencia equilibrada de mujeres y hombres en los consejos de administración de las sociedades mercantiles, concediendo para ello un plazo razonable. Es finalidad de esta medida que el criterio prevalente en la incorporación de consejeros sea el talento y el rendimiento profesional, ya que, para que el proceso esté presidido por el criterio de imparcialidad, el sexo no debe constituir un obstáculo como factor de elección.
 
 El Título VIII de la Ley establece una serie de disposiciones organizativas, con la creación de una Comisión Interministerial de Igualdad entre mujeres y hombres y de las Unidades de Igualdad en cada Ministerio. Junto a lo anterior, la Ley constituye un Consejo de participación de la mujer, como órgano colegiado que ha de servir de cauce para la participación institucional en estas materias.
 
@@ -476,7 +405,6 @@ Objeto y ámbito de la Ley
 
 2. Las obligaciones establecidas en esta Ley serán de aplicación a toda persona, física o jurídica, que se encuentre o actúe en territorio español, cualquiera que fuese su nacionalidad, domicilio o residencia.
 
-Página 11 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA El principio de igualdad y la tutela contra la discriminación
 
 ## TÍTULO I {#titulo-i}
 
@@ -516,7 +444,6 @@ No constituirá discriminación en el acceso al empleo, incluida la formación n
 
 4. El condicionamiento de un derecho o de una expectativa de derecho a la aceptación de una situación constitutiva de acoso sexual o de acoso por razón de sexo se considerará también acto de discriminación por razón de sexo.
 
-Página 12 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 8. Discriminación por embarazo o maternidad.**
 
@@ -552,7 +479,6 @@ A los efectos de lo dispuesto en el párrafo anterior, el órgano judicial, a in
 
 2. Lo establecido en el apartado anterior no será de aplicación a los procesos penales.
 
-Página 13 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO II {#titulo-ii}
 
@@ -598,7 +524,6 @@ El principio de igualdad de trato y oportunidades entre mujeres y hombres inform
 
 Los Poderes Públicos procurarán atender al principio de presencia equilibrada de mujeres y hombres en los nombramientos y designaciones de los cargos de responsabilidad que les correspondan.
 
-Página 14 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 17. Plan Estratégico de Igualdad de Oportunidades.**
 
@@ -682,7 +607,6 @@ b) La creación de postgrados específicos. c) La realización de estudios e inv
 
 1. Las autoridades públicas, en el ámbito de sus competencias, velarán por hacer efectivo el principio de igualdad de trato y de oportunidades entre mujeres y hombres en todo lo concerniente a la creación y producción artística e intelectual y a la difusión de la misma.
 
-Página 16 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA las 2. Los distintos organismos, agencias, entes y demás estructuras de administraciones públicas que de modo directo o indirecto configuren el sistema de gestión cultural, desarrollarán las siguientes actuaciones:
 
 a) Adoptar iniciativas destinadas a favorecer la promoción específica de las mujeres en la cultura y a combatir su discriminación estructural y/o difusa.
 
@@ -780,7 +704,6 @@ Las Administraciones públicas, en los planes estratégicos de subvenciones que 
 
 A estos efectos podrán valorarse, entre otras, las medidas de conciliación de la vida personal, laboral y familiar, de responsabilidad social de la empresa, o la obtención del distintivo empresarial en materia de igualdad regulado en el Capítulo IV del Título IV de la presente Ley.
 
-Página 19 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO III {#titulo-iii}
 
@@ -866,7 +789,6 @@ Los planes de igualdad de las empresas y otras medidas de promoción de la igual
 
 1. Las empresas están obligadas a respetar la igualdad de trato y de oportunidades en el ámbito laboral y, con esta finalidad, deberán adoptar medidas dirigidas a evitar cualquier tipo de discriminación laboral entre mujeres y hombres, medidas que deberán negociar, y en su caso acordar, con los representantes legales de los trabajadores en la forma que se determine en la legislación laboral.
 
-Página 21 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. En el caso de las empresas de cincuenta o más trabajadores, las medidas de igualdad a que se refiere el apartado anterior deberán dirigirse a la elaboración y aplicación de un plan de igualdad, con el alcance y contenido establecidos en este capítulo, que deberá ser asimismo objeto de negociación en la forma que se determine en la legislación laboral.
 
 3. Sin perjuicio de lo dispuesto en el apartado anterior, las empresas deberán elaborar y aplicar un plan de igualdad cuando así se establezca en el convenio colectivo que sea aplicable, en los términos previstos en el mismo.
 
@@ -892,7 +814,6 @@ La elaboración del diagnóstico se realizará en el seno de la Comisión Negoci
 
 5. Las empresas están obligadas a inscribir sus planes de igualdad en el citado registro. 6. Reglamentariamente se desarrollará el diagnóstico, los contenidos, las materias, las auditorías salariales, los sistemas de seguimiento y evaluación de los planes de igualdad; así como el Registro de Planes de Igualdad, en lo relativo a su constitución, características y condiciones para la inscripción y acceso.
 
-Página 22 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 47. Transparencia en la implantación del plan de igualdad.**
 
@@ -930,7 +851,6 @@ Distintivo empresarial en materia de igualdad
 
 5. El Ministerio de Trabajo y Asuntos Sociales controlará que las empresas que obtengan el distintivo mantengan permanentemente la aplicación de políticas de igualdad de trato y de oportunidades con sus trabajadores y trabajadoras y, en caso de incumplirlas, les retirará el distintivo.
 
-Página 23 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO V {#titulo-v}
 
@@ -1042,7 +962,6 @@ públicos vinculados o dependientes de ella.
 
 El Gobierno aprobará, al inicio de cada legislatura, un Plan para la Igualdad entre mujeres y hombres en la Administración General del Estado y en los organismos públicos vinculados o dependientes de ella. El Plan establecerá los objetivos a alcanzar en materia de promoción de la igualdad de trato y oportunidades en el empleo público, así como las estrategias o medidas a adoptar para su consecución. El Plan será objeto de negociación, y en su caso acuerdo, con la representación legal de los empleados públicos en la forma que se determine en la legislación sobre negociación colectiva en la Administración Pública y su cumplimiento será evaluado anualmente por el Consejo de Ministros.
 
-Página 26 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ### CAPÍTULO IV {#capitulo-iv}
 
@@ -1088,7 +1007,6 @@ Igualdad de trato en el acceso a bienes y servicios y su suministro
 
 En el acceso a bienes y servicios, ningún contratante podrá indagar sobre la situación de embarazo de una mujer demandante de los mismos, salvo por razones de protección de su salud.
 
-Página 27 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 71. Factores actuariales.**
 
@@ -1130,7 +1048,6 @@ Las sociedades obligadas a presentar cuenta de pérdidas y ganancias no abreviad
 
 Lo previsto en el párrafo anterior se tendrá en cuenta para los nombramientos que se realicen a medida que venza el mandato de los consejeros designados antes de la entrada en vigor de esta Ley.
 
-Página 28 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO VIII {#titulo-viii}
 
@@ -1244,7 +1161,6 @@ Estos permisos quedarán reducidos a dos y cuatro días hábiles, respectivament
 
 «7. Los jueces y magistrados tendrán derecho a permisos y licencias para la conciliación de la vida personal, familiar y laboral, y por razón de violencia de género. El Consejo General del Poder Judicial, mediante reglamento, adaptará a las particularidades de la carrera judicial la normativa de la Administración General del Estado vigente en la materia.» Quince. Se añade un apartado 5 al artículo 433 bis, con la siguiente redacción:
 
-Página 32 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «5. El Plan de Formación Continuada de la Carrera Judicial contemplará la formación de los Jueces y Magistrados en el principio de igualdad entre mujeres y hombres y la perspectiva de género.
 
 La Escuela Judicial impartirá anualmente cursos de formación sobre la tutela jurisdiccional del principio de igualdad entre mujeres y hombres y la violencia de género.» Dieciséis. Se añade un segundo párrafo al apartado 2 del artículo 434, con la siguiente redacción:
 
@@ -1330,7 +1246,6 @@ Uno. Se modifica el párrafo e) del apartado 2 del artículo 4, que queda redact
 
 Asimismo, la negociación colectiva podrá establecer este tipo de medidas en las condiciones de clasificación profesional, promoción y formación, de modo que, en igualdad de condiciones de idoneidad, tengan preferencia las personas del sexo menos representado para favorecer su acceso en el grupo, categoría profesional o puesto de trabajo de que se trate.» «5. El establecimiento de planes de igualdad en las empresas se ajustará a lo dispuesto en esta ley y en la Ley Orgánica para la igualdad efectiva de mujeres y hombres.» Tres. Se introduce un apartado 8 en el artículo 34, con la siguiente redacción:
 
-Página 36 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «8. El trabajador tendrá derecho a adaptar la duración y distribución de la jornada de trabajo para hacer efectivo su derecho a la conciliación de la vida personal, familiar y laboral en los términos que se establezcan en la negociación colectiva o en el acuerdo a que llegue con el empresario respetando, en su caso, lo previsto en aquélla.» Cuatro. Se modifica la letra b) del apartado 3 del artículo 37, que queda redactado del modo siguiente:
 
 «b) Dos días por el nacimiento de hijo y por el fallecimiento, accidente o enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que precise reposo domiciliario, de parientes hasta el segundo grado de consanguinidad o afinidad. Cuando con tal motivo el trabajador necesite hacer un desplazamiento al efecto, el plazo será de cuatro días.» Cinco. Se modifican el apartado 4 y el párrafo primero del apartado 5 del artículo 37, quedando redactados en los siguientes términos:
 
@@ -1382,7 +1297,6 @@ En los supuestos de nacimiento de hijo, adopción o acogimiento de acuerdo con e
 
 En el supuesto de parto, la suspensión corresponde en exclusiva al otro progenitor. En los supuestos de adopción o acogimiento, este derecho corresponderá sólo a uno de los progenitores, a elección de los interesados; no obstante, cuando el período de descanso regulado en el artículo 48.4 sea disfrutado en su totalidad por uno de los progenitores, el derecho a la suspensión por paternidad únicamente podrá ser ejercido por el otro.
 
-Página 39 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA El trabajador que ejerza este derecho podrá hacerlo durante el periodo comprendido desde la finalización del permiso por nacimiento de hijo, previsto legal o convencionalmente, o desde la resolución judicial por la que se constituye la adopción o a partir de la decisión administrativa o judicial de acogimiento, hasta que finalice la suspensión del contrato regulada en el artículo 48.4 o inmediatamente después de la finalización de dicha suspensión.
 
 La suspensión del contrato a que se refiere este artículo podrá disfrutarse en régimen de jornada completa o en régimen de jornada parcial de un mínimo del 50 por 100, previo acuerdo entre el empresario y el trabajador, y conforme se determine reglamentariamente.
 
@@ -1458,7 +1372,6 @@ a) El de los trabajadores durante el período de suspensión del contrato de tra
 
 b) El de las trabajadoras embarazadas, desde la fecha de inicio del embarazo hasta el comienzo del período de suspensión a que se refiere la letra a), y el de los trabajadores que hayan solicitado uno de los permisos a los que se refieren los apartados 4, 4 bis y 5 del artículo 37 del Estatuto de los Trabajadores, o estén disfrutando de ellos, o hayan solicitado o estén disfrutando la excedencia prevista en el apartado 3 del artículo 46 del Estatuto de los Trabajadores; y el de las trabajadoras víctimas de violencia de género por el ejercicio de los derechos de reducción o reordenación de su tiempo de trabajo, de movilidad geográfica, de cambio de centro de trabajo o de suspensión de la relación laboral en los términos y condiciones reconocidos en el Estatuto de los Trabajadores.
 
-Página 43 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) El de los trabajadores después de haberse reintegrado al trabajo al finalizar los períodos de suspensión del contrato por maternidad, adopción o acogimiento o paternidad, siempre que no hubieran transcurrido más de nueve meses desde la fecha de nacimiento, adopción o acogimiento del hijo.
 
 Lo establecido en las letras anteriores será de aplicación, salvo que, en esos casos, se declare la procedencia del despido por motivos no relacionados con el embarazo o con el ejercicio del derecho a los permisos y excedencias señalados.» Tres. Se modifica el apartado 2 del artículo 122, con el siguiente tenor:
 
@@ -1572,7 +1485,6 @@ Uno. Se modifica el párrafo primero de la letra c) del apartado 1 del artículo
 
 «4. La obligación de cotizar continuará en la situación de incapacidad temporal, cualquiera que sea su causa, en la de maternidad, en la de paternidad, en la de riesgo durante el embarazo y en la de riesgo durante la lactancia natural, así como en las demás situaciones previstas en el artículo 125 en que así se establezca reglamentariamente.» Tres. Se modifica el apartado 3 del artículo 124, que queda redactado en los siguientes términos:
 
-Página 48 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «3. Las cuotas correspondientes a la situación de incapacidad temporal, de maternidad, de paternidad, de riesgo durante el embarazo o de riesgo durante la lactancia natural serán computables a efectos de los distintos períodos previos de cotización exigidos para el derecho a las prestaciones.» Cuatro. Se añade un nuevo apartado 6 al artículo 124, con el siguiente contenido:
 
 «6. El período por maternidad o paternidad que subsista a la fecha de extinción del contrato de trabajo, o que se inicie durante la percepción de la prestación por desempleo, será considerado como período de cotización efectiva a efectos de las correspondientes prestaciones de la Seguridad Social por jubilación, incapacidad permanente, muerte y supervivencia, maternidad y paternidad.» Cinco. Se modifica el apartado 1 del artículo 125, que queda redactado en los siguientes términos:
 
@@ -1622,7 +1534,6 @@ La cuantía de la prestación será igual al 100 por 100 del indicador público 
 
 La duración de la prestación, que tendrá la consideración de no contributiva a los efectos del artículo 86, será de 42 días naturales a contar desde el parto, pudiendo denegarse, anularse o suspenderse el derecho por la mismas causas establecidas en el artículo 133 quinquies.» Siete. El actual Capítulo IV ter del Título II, pasa a ser el Capítulo IV quater, introduciéndose en dicho Título un nuevo Capítulo IV ter, con la siguiente redacción:
 
-Página 50 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «CAPÍTULO IV TER Paternidad
 
 **Artículo 133 octies. Situación protegida.**
 
@@ -1702,7 +1613,6 @@ La acción protectora de la Seguridad Social del trabajador contratado para la f
 
 «4. Lo previsto en los artículos 134, 135, 135 bis, 135 ter y 166 será aplicable, en su caso, a los trabajadores por cuenta ajena de los regímenes especiales. Lo previsto en los artículos 112 bis y 162.6 será igualmente de aplicación a los trabajadores por cuenta ajena de los regímenes especiales con excepción de los incluidos en los regímenes especiales agrario y de empleados de hogar. Asimismo, lo dispuesto en los artículos 134, 135, 135 bis, 135 ter y 166 resultará de aplicación a los trabajadores por cuenta propia incluidos en los regímenes especiales de trabajadores del mar, agrario y de trabajadores autónomos, en los términos y condiciones que se establezcan reglamentariamente.» Veintiuno. Se modifica la disposición adicional undécima bis, que queda redactada en los siguientes términos:
 
-Página 54 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «Disposición adicional undécima bis. Prestaciones por maternidad y por paternidad en los Regímenes Especiales.
 
 1. Los trabajadores por cuenta ajena y por cuenta propia incluidos en los distintos Regímenes Especiales del sistema tendrán derecho a las prestaciones establecidas en el Capítulo IV bis y en el Capítulo IV ter del Título II de la presente Ley, con la misma extensión y en los mismos términos y condiciones allí previstos para los trabajadores del Régimen General.
 
@@ -1724,7 +1634,6 @@ Uno. Se modifica el párrafo segundo del artículo 29.4, que queda redactado de 
 
 «También tendrán derecho a un periodo de excedencia de duración no superior a tres años, los funcionarios para atender al cuidado de un familiar que se encuentre a su cargo, hasta el segundo grado inclusive de consanguinidad o afinidad, que por razones de edad, accidente, enfermedad o discapacidad no pueda valerse por sí mismo y no desempeñe actividad retribuida.» Dos. Se modifica el párrafo quinto del artículo 29.4, que queda redactado de la siguiente manera:
 
-Página 55 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «El periodo de permanencia en esta situación será computable a efectos de trienios, consolidación de grado personal y derechos pasivos.
 
 Los funcionarios podrán participar en los cursos de formación que convoque la Administración. Durante los dos primeros años, tendrán derecho a la reserva del puesto de trabajo que desempeñaban. Transcurrido este periodo, dicha reserva lo será al puesto en la misma localidad y de igual nivel y retribución.» Tres. Se suprime el actual párrafo sexto del artículo 29.4. Cuatro. Se modifica la denominación del artículo 29.8 que queda redactado de la siguiente manera:
 
@@ -1748,7 +1657,7 @@ Igualmente, la funcionaria podrá solicitar la sustitución del tiempo de lactan
 
 «g bis) El funcionario que precise atender al cuidado de un familiar en primer grado, tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral, con carácter retribuido, por razones de enfermedad muy grave y por el plazo máximo de un mes. Si hubiera más de un titular de este derecho por el mismo hecho causante, el tiempo de disfrute de esta reducción se podrá prorratear entre los mismos, respetando, en todo caso, el plazo máximo de un mes.» Doce. Se añade al final del artículo 30.2 lo siguiente:
 
-«... y por deberes derivados de la conciliación de la vida familiar y laboral.» Trece. Se modifica el artículo 30.3, que queda redactado de la siguiente manera:
+« y por deberes derivados de la conciliación de la vida familiar y laboral.» Trece. Se modifica el artículo 30.3, que queda redactado de la siguiente manera:
 
 «En el supuesto de parto, la duración del permiso será de dieciséis semanas ininterrumpidas ampliables en el caso de parto múltiple en dos semanas más por cada hijo a partir del segundo. El permiso se distribuirá a opción de la funcionaria siempre que seis semanas sean inmediatamente posteriores al parto. En caso de fallecimiento de la madre, el otro progenitor podrá hacer uso de la totalidad o, en su caso, de la parte que reste del permiso.
 
@@ -1788,7 +1697,6 @@ La aplicación de estos supuestos no supondrá pérdida del destino.» Cuatro. S
 
 «e) Lo soliciten para atender al cuidado de los hijos o en caso de acogimiento tanto preadoptivo como permanente o simple, de conformidad con el Código Civil o las leyes civiles de las Comunidades Autónomas que lo regulen, siempre que su duración no sea inferior a un año, aunque éstos sean provisionales, de menores de hasta seis años, o de menores de edad que sean mayores de seis años cuando se trate de menores discapacitados o que por sus circunstancias y experiencias personales o por provenir del extranjero, tengan especiales dificultades de inserción social y familiar debidamente acreditados por los servicios sociales competentes.
 
-Página 58 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA También tendrán derecho a un período de excedencia de duración no superior a un año los que lo soliciten para encargarse del cuidado directo de un familiar, hasta el segundo grado de consanguinidad o afinidad, que por razones de edad, accidente o enfermedad no pueda valerse por sí mismo y no desempeñe actividad retribuida.
 
 No podrá concederse la situación de excedencia voluntaria por estas causas cuando al cónyuge o persona con análoga relación de afectividad o a otro familiar del militar se le hubieran reconocido los derechos derivados de esta situación administrativa y en relación al mismo causante.
 
@@ -1832,7 +1740,6 @@ Estos derechos no podrán ser ejercidos simultáneamente por dos o más guardias
 
 Se da nueva redacción al apartado 10 del artículo 34 de la Ley 26/1984, de 19 de julio, General para la Defensa de Consumidores y Usuarios, pasando su actual contenido a constituir un nuevo apartado 11:
 
-Página 60 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA «10. Las conductas discriminatorias en el acceso a los bienes y la prestación de los servicios, y en especial las previstas como tales en la Ley Orgánica para la igualdad efectiva de mujeres y hombres.» Disposición adicional vigésima sexta. Modificación de la Ley de Sociedades Anónimas.
 
 Se modifica la indicación novena del artículo 200 de la Ley de Sociedades Anónimas, texto refundido aprobado por Real Decreto Legislativo 1564/1989, de 22 de diciembre, que queda redactada en los siguientes términos:
 
@@ -1860,7 +1767,6 @@ Lo dispuesto en el apartado 1 del artículo 3 será de aplicación a las mujeres
 
 La Ley 36/1977, de 23 de mayo, de Ordenación de los Cuerpos Especiales Penitenciarios y de Creación del Cuerpo de Ayudantes de Instituciones Penitenciarias, queda modificada como sigue:
 
-Página 61 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Uno. Se da nueva redacción al artículo 1:
 
 «El Cuerpo de Ayudantes de Instituciones Penitenciarias estará integrado por personal funcionario, garantizando el acceso al mismo en los términos definidos en la Ley Orgánica para la igualdad efectiva de mujeres y hombres.» Dos. Se da nueva redacción a la Disposición transitoria primera:
 
@@ -1892,7 +1798,6 @@ Disposición transitoria cuarta. Régimen de aplicación del deber de negociar e
 
 Lo dispuesto en el artículo 85 del Estatuto de los Trabajadores en materia de igualdad, según la redacción dada por esta Ley, será de aplicación en la negociación subsiguiente a la primera denuncia del convenio que se produzca a partir de la entrada en vigor de la misma.
 
-Página 62 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria quinta. Tablas de mortalidad y supervivencia.
 
 (Suprimida)
 
@@ -1968,7 +1873,6 @@ Disposición final tercera. Habilitaciones reglamentarias.
 
 2. Reglamentariamente, en el plazo de seis meses a partir de la entrada en vigor de esta Ley:
 
-Página 64 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Se llevará a efecto la regulación del distintivo empresarial en materia de igualdad establecido en el Capítulo IV del Título IV de esta Ley.
 
 Se integrará el contenido de los Anexos de la Directiva 92/85, del Consejo Europeo, de 19 de octubre de 1992, sobre aplicación de medidas para promover la mejora de la seguridad y salud en el trabajo de la trabajadora embarazada, que haya dado a luz o en período de lactancia. El Ministerio de Trabajo y Asuntos Sociales elaborará, en el plazo de seis meses desde la publicación del Real Decreto, unas directrices sobre evaluación del riesgo.
 
@@ -2004,4 +1908,3 @@ JUAN CARLOS R.
 
 El Presidente del Gobierno, JOSÉ LUIS RODRÍGUEZ ZAPATERO Página 65 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Este documento es de carácter informativo y no tiene valor jurídico.
 
-Página 66

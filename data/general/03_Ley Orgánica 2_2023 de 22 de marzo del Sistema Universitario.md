@@ -1,422 +1,336 @@
 LEGISLACIÓN CONSOLIDADA Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.
 
-Jefatura del Estado «BOE» núm. 70, de 23 de marzo de 2023 Referencia: BOE-A-2023-7500 ÍNDICE Preámbulo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Jefatura del Estado «BOE» núm. 70, de 23 de marzo de 2023 Referencia: BOE-A-2023-7500
+ÍNDICE
+Preámbulo
 
-## TÍTULO PRELIMINAR. Disposiciones generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-preliminar-disposiciones-generales}
+## TÍTULO PRELIMINAR. Disposiciones generales {#titulo-preliminar-disposiciones-generales}
 
 **Artículo 1. Objeto.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## TÍTULO I. Funciones del sistema universitario y autonomía de las universidades {#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades}
 
-## TÍTULO I. Funciones del sistema universitario y autonomía de las universidades . . . . . . . . . . . . . . . . . . . . . . {#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades}
+**Artículo 2. Funciones del sistema universitario **
 
-**Artículo 2. Funciones del sistema universitario. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 3. Autonomía de las universidades **
 
-**Artículo 3. Autonomía de las universidades. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO II. Creación y reconocimiento de las universidades y calidad del sistema universitario {#titulo-ii-creacion-y-reconocimiento-de-las-universidades-y-calidad-del-sistema-universitario}
 
-## TÍTULO II. Creación y reconocimiento de las universidades y calidad del sistema universitario . . . . . . . . . . . . . {#titulo-ii-creacion-y-reconocimiento-de-las-universidades-y-calidad-del-sistema-universitario}
+**Artículo 4. Creación y reconocimiento de las universidades **
 
-**Artículo 4. Creación y reconocimiento de las universidades. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 5. La calidad del sistema universitario **
 
-**Artículo 5. La calidad del sistema universitario. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-## TÍTULO III. Organización de enseñanzas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-iii-organizacion-de-ensenanzas}
+## TÍTULO III. Organización de enseñanzas {#titulo-iii-organizacion-de-ensenanzas}
 
 **Artículo 6. La función docente.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 7. Los títulos universitarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 7. Los títulos universitarios **
 
 **Artículo 8. Los títulos universitarios oficiales.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 9. Estructura de las enseñanzas oficiales **
 
-**Artículo 9. Estructura de las enseñanzas oficiales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de equivalencia de títulos** extranjeros, validación de experiencia y reconocimiento de créditos
 
-**Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de equivalencia de títulos**
+## TÍTULO IV. Investigación y transferencia e intercambio del conocimiento e innovación {#titulo-iv-investigacion-y-transferencia-e-intercambio-del-conocimiento-e-innovacion}
 
-extranjeros, validación de experiencia y reconocimiento de créditos. . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## TÍTULO IV. Investigación y transferencia e intercambio del conocimiento e innovación. . . . . . . . . . . . . . . . . . . {#titulo-iv-investigacion-y-transferencia-e-intercambio-del-conocimiento-e-innovacion}
-
-**Artículo 11. Normas generales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 11. Normas generales **
 
 **Artículo 12. Fomento de la Ciencia Abierta y Ciencia Ciudadana.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-8 15 15 15 15 16 17 17 17 18 18 19 19 19 20 21 21 21 Página 1 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
 **Artículo 13. Desarrollo de proyectos para la investigación, creación y transferencia e intercambio del**
-
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 conocimiento.
 
-## TÍTULO V. Cooperación, coordinación y participación en el sistema universitario . . . . . . . . . . . . . . . . . . . . . . {#titulo-v-cooperacion-coordinacion-y-participacion-en-el-sistema-universitario}
+## TÍTULO V. Cooperación, coordinación y participación en el sistema universitario {#titulo-v-cooperacion-coordinacion-y-participacion-en-el-sistema-universitario}
 
-**Artículo 14. Cooperación y coordinación en el sistema universitario.. . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 14. Cooperación y coordinación en el sistema universitario **
 
-**Artículo 15. La Conferencia General de Política Universitaria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 15. La Conferencia General de Política Universitaria **
 
-**Artículo 16. El Consejo de Universidades. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 16. El Consejo de Universidades **
 
-**Artículo 17. El Consejo de Estudiantes Universitario del Estado. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 17. El Consejo de Estudiantes Universitario del Estado **
 
-## TÍTULO VI. Universidad, sociedad y cultura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vi-universidad-sociedad-y-cultura}
+## TÍTULO VI. Universidad, sociedad y cultura {#titulo-vi-universidad-sociedad-y-cultura}
 
 **Artículo 18. Cohesión social y territorial.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 19. La cultura en la Universidad **
 
-**Artículo 19. La cultura en la Universidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 20. Universidad y diversidad lingüística. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 20. Universidad y diversidad lingüística **
 
 **Artículo 21. El patrimonio histórico, artístico y cultural universitario y las bibliotecas.**
 
-. . . . . . . . . . . . . . . . . .
+**Artículo 22. El deporte y la actividad física en la Universidad **
 
-**Artículo 22. El deporte y la actividad física en la Universidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-## TÍTULO VII. Internacionalización del sistema universitario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-vii-internacionalizacion-del-sistema-universitario}
+## TÍTULO VII. Internacionalización del sistema universitario {#titulo-vii-internacionalizacion-del-sistema-universitario}
 
 **Artículo 23. Fomento de la internacionalización del sistema universitario.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 24. Estrategia de Internacionalización del Sistema Universitario **
 
-**Artículo 24. Estrategia de Internacionalización del Sistema Universitario.. . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 25. Alianzas interuniversitarias.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 25. Alianzas interuniversitarias **
 
 **Artículo 26. Títulos y programas conjuntos.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 27. Movilidad internacional de la comunidad universitaria **
 
-**Artículo 27. Movilidad internacional de la comunidad universitaria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 28. Atracción de talento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 28. Atracción de talento **
 
 **Artículo 29. Centros en el extranjero.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo **
 
-**Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo. . . . . . . . . . . . . . . . . .**
-
-## TÍTULO VIII. El estudiantado en el Sistema Universitario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-viii-el-estudiantado-en-el-sistema-universitario}
+## TÍTULO VIII. El estudiantado en el Sistema Universitario {#titulo-viii-el-estudiantado-en-el-sistema-universitario}
 
 **Artículo 31. Derecho de acceso.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 32. Becas y ayudas al estudio **
 
-**Artículo 32. Becas y ayudas al estudio. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 33. Derechos relativos a la formación académica **
 
-**Artículo 33. Derechos relativos a la formación académica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 34. Derechos de participación y representación **
 
-**Artículo 34. Derechos de participación y representación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 35. Eficacia y garantía de los derechos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 35. Eficacia y garantía de los derechos **
 
 **Artículo 36. Deberes del estudiantado.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 37. Equidad y no discriminación **
 
-**Artículo 37. Equidad y no discriminación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO IX. Régimen específico de las universidades públicas {#titulo-ix-regimen-especifico-de-las-universidades-publicas}
 
-## TÍTULO IX. Régimen específico de las universidades públicas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-ix-regimen-especifico-de-las-universidades-publicas}
-
-### CAPÍTULO I. Régimen jurídico y estructura de las universidades públicas . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas}
-
-22 23 23 23 24 24 25 25 26 26 26 26 27 27 27 27 28 28 28 28 29 29 29 29 30 31 32 32 32 33 33 Página 2 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
+### CAPÍTULO I. Régimen jurídico y estructura de las universidades públicas {#capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas}
 
 **Artículo 38. Régimen jurídico.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 39. Rendición de cuentas, transparencia e integridad.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 39. Rendición de cuentas, transparencia e integridad **
 
 **Artículo 40. Centros y estructuras.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 41. Creación, modificación y supresión de centros y estructuras **
 
-**Artículo 41. Creación, modificación y supresión de centros y estructuras. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 42. Adscripción de centros **
 
-**Artículo 42. Adscripción de centros.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 43. Unidades básicas **
 
-**Artículo 43. Unidades básicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-### CAPÍTULO II. Gobernanza de las universidades públicas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#capitulo-ii-gobernanza-de-las-universidades-publicas}
+### CAPÍTULO II. Gobernanza de las universidades públicas {#capitulo-ii-gobernanza-de-las-universidades-publicas}
 
 **Artículo 44. Normas generales de gobernanza, representación y participación en las universidades públicas.**
 
-**Artículo 45. El Claustro Universitario.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 45. El Claustro Universitario **
 
-**Artículo 46. El Consejo de Gobierno. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 46. El Consejo de Gobierno **
 
-**Artículo 47. El Consejo Social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 47. El Consejo Social **
 
-**Artículo 48. El Consejo de Estudiantes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 48. El Consejo de Estudiantes **
 
-**Artículo 49. Otros órganos colegiados. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 49. Otros órganos colegiados **
 
-**Artículo 50. El Rector o la Rectora y su Equipo de Gobierno.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 50. El Rector o la Rectora y su Equipo de Gobierno **
 
-**Artículo 51. La elección del Rector o la Rectora.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 51. La elección del Rector o la Rectora **
 
-**Artículo 52. Otros órganos unipersonales.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 52. Otros órganos unipersonales **
 
-### CAPÍTULO III. Régimen económico y financiero de las universidades públicas . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas}
+### CAPÍTULO III. Régimen económico y financiero de las universidades públicas {#capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas}
 
 **Artículo 53. Marco normativo.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-**Artículo 54. Autonomía económica y financiera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 54. Autonomía económica y financiera **
 
 **Artículo 55. Suficiencia financiera.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 **Artículo 56. Programación y sistema de financiación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 57. Presupuesto **
 
-**Artículo 57. Presupuesto. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 58. Patrimonio **
 
-**Artículo 58. Patrimonio. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera. . . . . . . . . . . . . . . .**
+**Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera **
 
 **Artículo 60. Colaboración con otras entidades o personas físicas.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 61. Entidades o empresas basadas en el conocimiento **
 
-**Artículo 61. Entidades o empresas basadas en el conocimiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades** funcionales
 
-**Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades**
+**Artículo 63. Creación de fundaciones públicas y otras personas jurídicas públicas **
 
-funcionales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+### CAPÍTULO IV. Personal docente e investigador de las universidades públicas {#capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas}
 
-**Artículo 63. Creación de fundaciones públicas y otras personas jurídicas públicas.. . . . . . . . . . . . . . . . . .**
+**Artículo 64. Personal docente e investigador **
 
-### CAPÍTULO IV. Personal docente e investigador de las universidades públicas . . . . . . . . . . . . . . . . . . . . . . {#capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas}
+**Artículo 65. Promoción de la equidad entre el personal docente e investigador **
 
-**Artículo 64. Personal docente e investigador.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 65. Promoción de la equidad entre el personal docente e investigador. . . . . . . . . . . . . . . . . . . . .**
-
-33 33 33 34 34 34 35 35 36 36 37 38 39 39 40 40 41 41 41 41 41 42 44 45 45 45 46 46 46 46 47 Página 3 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
-**Artículo 66. Movilidad temporal del personal docente e investigador. . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 66. Movilidad temporal del personal docente e investigador **
 
 **Artículo 67. Formación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 1.ª El profesorado de los cuerpos docentes universitarios {#seccion-1-a-el-profesorado-de-los-cuerpos-docentes-universitarios}
 
-#### Sección 1.ª El profesorado de los cuerpos docentes universitarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-1-a-el-profesorado-de-los-cuerpos-docentes-universitarios}
-
-**Artículo 68. Cuerpos docentes universitarios. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 68. Cuerpos docentes universitarios **
 
 **Artículo 69. Acreditación de los cuerpos docentes universitarios.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios** asistenciales y de salud pública de instituciones sanitarias
 
-**Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios**
+**Artículo 71. Concursos para el acceso a plazas de los cuerpos docentes universitarios **
 
-asistenciales y de salud pública de instituciones sanitarias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 72. Concursos de movilidad del profesorado **
 
-**Artículo 71. Concursos para el acceso a plazas de los cuerpos docentes universitarios. . . . . . . . . . . . . .**
+**Artículo 73. Comisiones de reclamaciones **
 
-**Artículo 72. Concursos de movilidad del profesorado.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 73. Comisiones de reclamaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 74. Reingreso de excedentes al servicio activo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 74. Reingreso de excedentes al servicio activo **
 
 **Artículo 75. Régimen de dedicación.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 76. Retribuciones del personal docente e investigador funcionario **
 
-**Artículo 76. Retribuciones del personal docente e investigador funcionario. . . . . . . . . . . . . . . . . . . . . .**
+#### Sección 2.ª El personal docente e investigador laboral {#seccion-2-a-el-personal-docente-e-investigador-laboral}
 
-#### Sección 2.ª El personal docente e investigador laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-2-a-el-personal-docente-e-investigador-laboral}
+**Artículo 77. Normas generales **
 
-**Artículo 77. Normas generales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 78. Profesoras y Profesores Ayudantes Doctoras/es **
 
-**Artículo 78. Profesoras y Profesores Ayudantes Doctoras/es.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 79. Profesoras y Profesores Asociadas/os **
 
-**Artículo 79. Profesoras y Profesores Asociadas/os. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 80. Profesoras y Profesores Sustitutas/os **
 
-**Artículo 80. Profesoras y Profesores Sustitutas/os. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 81. Profesoras y Profesores Eméritas/os **
 
-**Artículo 81. Profesoras y Profesores Eméritas/os. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 82. Profesoras y Profesores Permanentes Laborales **
 
-**Artículo 82. Profesoras y Profesores Permanentes Laborales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 83. Profesoras y Profesores Visitantes **
 
-**Artículo 83. Profesoras y Profesores Visitantes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 84. Profesoras y Profesores Distinguidas/os **
 
-**Artículo 84. Profesoras y Profesores Distinguidas/os. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 85. Acreditación **
 
-**Artículo 85. Acreditación.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-**Artículo 86. Concursos para el acceso a plazas de personal docente e investigador laboral. . . . . . . . . . .**
+**Artículo 86. Concursos para el acceso a plazas de personal docente e investigador laboral **
 
 **Artículo 87. Retribuciones del personal docente e investigador laboral.**
 
-. . . . . . . . . . . . . . . . . . . . . . .
+#### Sección 3.ª El profesorado de la Unión Europea {#seccion-3-a-el-profesorado-de-la-union-europea}
 
-#### Sección 3.ª El profesorado de la Unión Europea. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#seccion-3-a-el-profesorado-de-la-union-europea}
+**Artículo 88. Profesorado de la Unión Europea **
 
-**Artículo 88. Profesorado de la Unión Europea. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+### CAPÍTULO V. Personal técnico, de gestión y de administración y servicios de las universidades públicas {#capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas}
 
-### CAPÍTULO V. Personal técnico, de gestión y de administración y servicios de las universidades públicas . . . . . {#capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas}
+**Artículo 89. Personal técnico, de gestión y de administración y servicios **
 
-**Artículo 89. Personal técnico, de gestión y de administración y servicios. . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 90. Carrera profesional **
 
-**Artículo 90. Carrera profesional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 91. Acceso a plazas de personal técnico, de gestión y de administración y servicios de las** universidades públicas
 
-**Artículo 91. Acceso a plazas de personal técnico, de gestión y de administración y servicios de las**
-
-universidades públicas.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-47 48 48 48 48 49 49 50 50 50 50 51 51 51 52 52 53 53 54 54 54 54 55 55 56 56 56 56 57 57 Página 4 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
-
-**Artículo 92. Provisión de puestos de trabajo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 92. Provisión de puestos de trabajo **
 
 **Artículo 93. Retribuciones.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 94. Formación y movilidad **
 
-**Artículo 94. Formación y movilidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+## TÍTULO X. Régimen específico de las universidades privadas {#titulo-x-regimen-especifico-de-las-universidades-privadas}
 
-## TÍTULO X. Régimen específico de las universidades privadas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . {#titulo-x-regimen-especifico-de-las-universidades-privadas}
-
-**Artículo 95. Régimen jurídico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 95. Régimen jurídico **
 
 **Artículo 96. Creación de universidades y centros universitarios.**
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Artículo 97. Centros y estructuras **
 
-**Artículo 97. Centros y estructuras. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 98. Órganos de gobierno **
 
-**Artículo 98. Órganos de gobierno. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 99. Personal docente e investigador **
 
-**Artículo 99. Personal docente e investigador. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
+**Artículo 100. Régimen económico-financiero **
 
-**Artículo 100. Régimen económico-financiero. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-
-Disposiciones adicionales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones adicionales
 
 Disposición adicional primera. Universidad Nacional de Educación a Distancia.
 
-. . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional segunda. Universidad Internacional Menéndez Pelayo. . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional segunda. Universidad Internacional Menéndez Pelayo
 
 Disposición adicional tercera. Otras universidades públicas con especificidades académicas.
 
-. . . . . . . . . . . .
+Disposición adicional cuarta. Universidades de la Iglesia Católica
 
-Disposición adicional cuarta. Universidades de la Iglesia Católica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional quinta. Centros Universitarios de la Defensa
 
-Disposición adicional quinta. Centros Universitarios de la Defensa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional sexta. Centro Universitario de la Guardia Civil y Centro Universitario de Formación de la Policía Nacional
 
-Disposición adicional sexta. Centro Universitario de la Guardia Civil y Centro Universitario de Formación de la Policía Nacional.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición adicional séptima. Colegios mayores. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional séptima. Colegios mayores
 
 Disposición adicional octava. Centros docentes privados de educación superior no universitarios.
 
-. . . . . . . . .
-
 Disposición adicional novena. Funciones de tutoría en las universidades no presenciales.
 
-. . . . . . . . . . . . . .
+Disposición adicional décima. Derechos adquiridos de títulos universitarios de anteriores ordenaciones académicas
 
-Disposición adicional décima. Derechos adquiridos de títulos universitarios de anteriores ordenaciones académicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima primera. Catedráticos o Catedráticas y Profesores o Profesoras Titulares de Escuelas Universitarias
 
-Disposición adicional décima primera. Catedráticos o Catedráticas y Profesores o Profesoras Titulares de Escuelas Universitarias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima segunda. Régimen de Seguridad Social de Profesores y Profesoras Asociados/as, Eméritos/as, Visitantes y Distinguidos/as.
 
-Disposición adicional décima segunda. Régimen de Seguridad Social de Profesores y Profesoras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima tercera. Títulos habilitantes para el ejercicio de una profesión sanitaria o de una especialidad en Ciencias de la Salud
 
-Asociados/as, Eméritos/as, Visitantes y Distinguidos/as.
+Disposición adicional décima cuarta. Plan de incremento del gasto público
 
-Disposición adicional décima tercera. Títulos habilitantes para el ejercicio de una profesión sanitaria o de una especialidad en Ciencias de la Salud. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima quinta. Garantía del ámbito competencial de las universidades y las Comunidades Autónomas
 
-Disposición adicional décima cuarta. Plan de incremento del gasto público. . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima sexta. Principio de «no causar un daño significativo»
 
-Disposición adicional décima quinta. Garantía del ámbito competencial de las universidades y las Comunidades Autónomas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición adicional décima séptima. Acceso a titulaciones de formación permanente y a lo largo de la vida
+66 Disposición transitoria primera. Aprobación de los Estatutos, constitución de órganos y de cargos unipersonales
 
-Disposición adicional décima sexta. Principio de «no causar un daño significativo».. . . . . . . . . . . . . . . . . . .
-
-Disposición adicional décima séptima. Acceso a titulaciones de formación permanente y a lo largo de la vida. . .
-
-58 58 58 59 59 59 60 60 60 61 61 61 61 62 62 62 63 63 64 64 64 64 65 65 65 65 65 66 Página 5 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-66 Disposición transitoria primera. Aprobación de los Estatutos, constitución de órganos y de cargos unipersonales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición transitoria segunda. Implantación de sistemas de contabilidad analítica o equivalente. . . . . . . . . .
+Disposición transitoria segunda. Implantación de sistemas de contabilidad analítica o equivalente
 
 Disposición transitoria tercera. Adaptación de las acreditaciones vigentes.
 
-. . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria cuarta. Adaptación de las nuevas acreditaciones
 
-Disposición transitoria cuarta. Adaptación de las nuevas acreditaciones. . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria quinta. Adaptación de determinadas figuras vigentes de personal docente e investigador laboral
 
-Disposición transitoria quinta. Adaptación de determinadas figuras vigentes de personal docente e investigador laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria sexta. Adaptación de las plantillas de personal docente e investigador a lo dispuesto en el artículo 64
 
-Disposición transitoria sexta. Adaptación de las plantillas de personal docente e investigador a lo dispuesto en el artículo 64. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria séptima. Proceso de estabilización de plazas de Profesoras y Profesores Asociadas/os de las universidades públicas
 
-Disposición transitoria séptima. Proceso de estabilización de plazas de Profesoras y Profesores Asociadas/os de las universidades públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria octava. Mecanismos de adaptación para determinadas figuras de personal docente e investigador de las universidades públicas
 
-Disposición transitoria octava. Mecanismos de adaptación para determinadas figuras de personal docente e investigador de las universidades públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria novena. Proceso de estabilización de las plazas del personal técnico, de gestión y de administración y servicios de las universidades públicas
 
-Disposición transitoria novena. Proceso de estabilización de las plazas del personal técnico, de gestión y de administración y servicios de las universidades públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria novena bis. Temporalidad en la implementación de las medidas relativas a la atracción de talento joven, rejuvenecimiento y estabilización de plantillas previstos en la presente Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario
 
-Disposición transitoria novena bis. Temporalidad en la implementación de las medidas relativas a la atracción de talento joven, rejuvenecimiento y estabilización de plantillas previstos en la presente Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria décima. Adaptación de los títulos oficiales con mención dual previos a la regulación legal del modelo de contratación formativa en alternancia
 
-Disposición transitoria décima. Adaptación de los títulos oficiales con mención dual previos a la regulación legal del modelo de contratación formativa en alternancia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria décima primera. Concursos para la cobertura de plazas de personal docente e investigador
 
-Disposición transitoria décima primera. Concursos para la cobertura de plazas de personal docente e investigador. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición transitoria décima segunda. Adaptación del régimen de dedicación del personal docente e investigador permanente
 
-Disposición transitoria décima segunda. Adaptación del régimen de dedicación del personal docente e investigador permanente. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones derogatorias
 
-Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición derogatoria única. Derogación normativa
 
-Disposición derogatoria única. Derogación normativa.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposiciones finales
 
-Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final primera. Modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de la Administraciones Públicas
 
-Disposición final primera. Modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de la Administraciones Públicas.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final segunda. Modificación de la Ley 14/1986, de 25 de abril, General de Sanidad
 
-Disposición final segunda. Modificación de la Ley 14/1986, de 25 de abril, General de Sanidad. . . . . . . . . . . .
+Disposición final tercera. Modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.
 
-Disposición final tercera. Modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final cuarta. Modificación de la Ley 33/2011, de 4 de octubre, General de Salud Pública
 
-de los extranjeros en España y su integración social.
+Disposición final quinta. Modificación de la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización
 
-Disposición final cuarta. Modificación de la Ley 33/2011, de 4 de octubre, General de Salud Pública.. . . . . . . .
-
-Disposición final quinta. Modificación de la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Disposición final sexta. Título competencial. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-66 66 66 67 67 67 68 68 68 69 69 69 69 69 69 70 70 70 71 72 72 72 Página 6 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final séptima. Naturaleza de ley orgánica.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final sexta. Título competencial
 
 Disposición final octava. Habilitación normativa.
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final novena. Bases reguladoras del régimen de conciertos entre las universidades e instituciones sanitarias
 
-Disposición final novena. Bases reguladoras del régimen de conciertos entre las universidades e instituciones sanitarias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final décima. Estatuto del personal docente e investigador
 
-Disposición final décima. Estatuto del personal docente e investigador.. . . . . . . . . . . . . . . . . . . . . . . . . . .
+Disposición final décima primera. Reconocimiento de efectos civiles de determinados títulos académicos
 
-Disposición final décima primera. Reconocimiento de efectos civiles de determinados títulos académicos. . . . .
-
-Disposición final décima segunda. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-73 73 73 73 73 74 Página 7 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA TEXTO CONSOLIDADO Última modificación: 02 de agosto de 2024 FELIPE VI REY DE ESPAÑA A todos los que la presente vieren y entendieren. Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley orgánica:
+Disposición final décima segunda. Entrada en vigor
 
 PREÁMBULO I La Universidad es una institución fundamental en la sociedad del conocimiento en la que vivimos. De la Universidad, y del sistema educativo en su conjunto, depende la educación avanzada de las personas, y lo que ello conlleva con relación a la igualdad de oportunidades para todas y el desarrollo económico, científico y tecnológico de nuestra sociedad en momentos de emergencia climática. Además, la comunidad universitaria ha constituido a través de la historia un espacio de libertad intelectual, de espíritu crítico, de tolerancia, de diálogo, de debate, de afirmación de valores éticos y humanistas, de aprendizaje del respeto al medio ambiente y de preservación y creación cultural, abierto a la diversidad de expresiones del espíritu humano.
 
@@ -474,7 +388,6 @@ Por otro lado, la parte final de la ley orgánica se divide en diecisiete dispos
 
 finales. Así, A continuación, las disposiciones transitorias fundamentalmente persiguen facilitar el tránsito al régimen jurídico previsto por la nueva regulación tanto a las instituciones universitarias como al personal que en ellas desarrolla su labor.
 
-Página 13 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Por su parte, la disposición derogatoria deja sin vigencia expresamente, para mayor seguridad jurídica, tres normas de rango legal: la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades; la Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, salvo sus disposiciones finales segunda y cuarta, y el Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo.
 
 típicas, incluyen Las disposiciones las determinaciones finales, además de la modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, con la finalidad de autorizar la compatibilidad para el desempeño de un puesto de trabajo en la esfera docente como Profesor universitario asociado en régimen de dedicación no superior a la de tiempo parcial; la Ley 14/1986, de 25 de abril, General de Sanidad, en lo relativo a la vinculación asistencial del personal docente universitario laboral; la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, en lo relativo a la vigencia de las autorizaciones iniciales de estancia por estudios superiores cuya duración se extienda más allá de un curso académico y a las prórrogas de las autorizaciones de otras categorías, así como respecto de los lugares de presentación de las solicitudes y exigencia de comparecencia personal; la Ley 33/2011, de 4 de octubre, General de Salud Pública, para clarificar la regulación relativa a los requisitos para el ejercicio profesional de la psicología en el ámbito sanitario y la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización, para ampliar los períodos de eficacia de las autorizaciones de residencia del estudiantado para búsqueda de empleo y la autorización de residencia para prácticas.
 
@@ -514,7 +427,6 @@ d) La promoción de la innovación a partir del conocimiento en los ámbitos soc
 
 e) La contribución al bienestar social, al progreso económico y a la cohesión de la sociedad y del entorno territorial en que estén insertas, así como a la promoción de las lenguas oficiales de las mismas, a través de la formación, la investigación, la transferencia e intercambio del conocimiento y la cultura del emprendimiento, tanto individual como colectiva, a partir de fórmulas societarias convencionales o de economía social. f) La generación de espacios de creación y difusión de pensamiento crítico. g) La transferencia e intercambio del conocimiento y de la cultura al conjunto de la sociedad a través de la actividad universitaria y la formación permanente o a lo largo de la vida del conjunto de la ciudadanía.
 
-Página 15 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA h) La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos.
 
 i) El fomento de la participación de la comunidad universitaria y de la ciudadanía en actividades promovidas por entidades de voluntariado y del tercer sector que se encuentren en línea con los principios y valores del sistema universitario. j) Las demás funciones que se les atribuyan legalmente.
 
@@ -558,7 +470,6 @@ o) La definición, estructuración y desarrollo de sistemas internos de garantí
 
 p) La definición, estructuración y desarrollo de políticas propias que contribuyan a la internacionalización de la Universidad.
 
-Página 16 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA q) El establecimiento de relaciones con otras universidades, instituciones, organismos, Corporaciones de Derecho Público, Administraciones Públicas o empresas y entidades locales, nacionales e internacionales, con el objeto de desarrollar algunas de las funciones que le son propias a la Universidad.
 
 r) El desarrollo de las normas de convivencia y de los mecanismos de mediación para la solución alternativa de los conflictos en el ámbito universitario.
 
@@ -592,7 +503,6 @@ En el caso de estas últimas universidades las referencias que en esta ley orgá
 
 1. El sistema universitario deberá garantizar niveles de buen gobierno y calidad contrastables con los estándares internacionalmente reconocidos, en particular, con los criterios y directrices establecidos para el aseguramiento de la calidad en el Espacio Europeo de Educación Superior.
 
-Página 17 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. La promoción y el aseguramiento de dicha calidad es responsabilidad compartida por las universidades, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia.
 
 El aseguramiento de la calidad se hará efectivo en las condiciones y mediante los procedimientos de evaluación, certificación y acreditación que establezca el Gobierno, mediante real decreto, previo informe de la Conferencia General de Política Universitaria.
 
@@ -690,7 +600,6 @@ d) Las condiciones para el reconocimiento académico de la experiencia laboral o
 
 e) El régimen de convalidaciones y de reconocimiento de créditos entre las enseñanzas oficiales universitarias y las otras enseñanzas que constituyen la educación superior.
 
-Página 20 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Investigación y transferencia e intercambio del conocimiento e innovación
 
 ## TÍTULO IV {#titulo-iv}
 
@@ -796,7 +705,6 @@ f) Plantear medidas y acciones que garanticen el acceso a los estudios universit
 
 g) Formular propuestas e informar los planes para fomentar la relación entre el sistema universitario y el entorno social y económico.
 
-Página 23 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA h) Elaborar informes sobre la aplicación del principio de igualdad de género, y de las políticas antidiscriminación o de reconocimiento de la diversidad en todos los aspectos de la vida universitaria.
 
 i) Establecer y valorar líneas generales de política universitaria, su internacionalización y, en especial, su articulación en el Espacio Europeo de Educación Superior y su interrelación con las políticas de investigación científica y tecnológica. j) Desarrollar cuantas otras funciones le atribuya el ordenamiento jurídico.
 
@@ -834,7 +742,6 @@ a) Los Rectores o Rectoras de las universidades del sistema universitario. b) Ci
 
 1. El Consejo de Estudiantes Universitario del Estado es el órgano de participación, deliberación y consulta del estudiantado universitario ante el Ministerio de Universidades.
 
-Página 24 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. El Consejo de Estudiantes Universitario del Estado se adscribe al Ministerio de Universidades.
 
 3. Corresponden al Consejo de Estudiantes Universitario del Estado las siguientes funciones:
 
@@ -872,7 +779,6 @@ Universidad, sociedad y cultura
 
 5. Las universidades impulsarán el voluntariado universitario de conformidad con la Ley 45/2015, de 14 de octubre, de Voluntariado, y la normativa de las Comunidades Autónomas sobre la materia.
 
-Página 25 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 19. La cultura en la Universidad.**
 
@@ -906,7 +812,6 @@ Las Administraciones Públicas apoyarán y facilitarán el desarrollo de las pol
 
 2. Corresponde a las universidades la ordenación y organización de actividades y competiciones deportivas en su ámbito respectivo y, en su caso, la articulación de fórmulas para compatibilizar los estudios de deportistas de alto nivel con sus actividades deportivas.
 
-Página 26 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO VII {#titulo-vii}
 
@@ -972,7 +877,6 @@ A tal efecto, se promoverán programas de información, acogida, orientación, a
 
 3. La propuesta de creación y supresión de los centros previstos en el apartado 1 corresponderá al Consejo de Gobierno de la universidad y se aprobará por la Comunidad Autónoma competente, previo informe favorable de los Ministerios de Universidades y de Asuntos Exteriores, Unión Europea y Cooperación.
 
-Página 28 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo.**
 
@@ -1030,7 +934,6 @@ b) A una formación académica inclusiva de calidad, que fomente la adquisición
 
 c) A conocer los planes docentes de las asignaturas en las que prevea matricularse y ser informado de la lengua de impartición.
 
-Página 30 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) A ser informado previamente al periodo de matriculación de las modalidades, presencial, virtual o híbrida, de la docencia y la evaluación.
 
 e) A las tutorías y al asesoramiento, a la orientación psicopedagógica y al cuidado de la salud mental y emocional, en los términos dispuestos por la normativa universitaria.
 
@@ -1104,7 +1007,6 @@ Las universidades facilitarán a las personas usuarias de las lenguas de signos 
 
 Las universidades promoverán el acceso a estudios universitarios de las personas con discapacidad intelectual y por otras razones de discapacidad mediante el fomento de estudios propios adaptados a sus capacidades.
 
-Página 32 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO IX {#titulo-ix}
 
@@ -1234,7 +1136,6 @@ g) Aprobar los convenios de adscripción a la universidad de centros de educaci�
 
 h) Aprobar los convenios de colaboración y cooperación académica y de investigación suscritos entre la universidad y otras universidades nacionales o extranjeras, así como con otras instituciones, organismos, entidades o empresas con fines académicos o de investigación, salvo que dicha facultad sea atribuida a otros órganos estatutarios a través de mecanismos internos de distribución de competencias de la universidad.
 
-Página 36 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA i) Definir y aprobar planes de captación, estabilización y promoción del personal docente e investigador.
 
 j) Definir e impulsar, en coordinación con la unidad de igualdad, un plan de igualdad de género del conjunto de la comunidad universitaria.
 
@@ -1264,7 +1165,6 @@ b) Informar, con carácter previo, la oferta de titulaciones oficiales y de form
 
 c) Promover acciones para facilitar la conexión de la universidad con la sociedad y para el fortalecimiento de las actividades de formación a lo largo de la vida que desarrollan las universidades.
 
-Página 37 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA d) Promover la captación de recursos económicos destinados a la financiación de la universidad, procedentes de los diversos ámbitos sociales, empresariales e institucionales locales, nacionales e internacionales.
 
 e) Analizar y valorar el rendimiento de las actividades académicas y proponer acciones de mejora.
 
@@ -1298,7 +1198,6 @@ Los Estatutos contemplarán la posibilidad de establecer consejos de estudiantes
 
 a) Defender los intereses del estudiantado en los órganos de gobierno. b) Velar por el cumplimiento y el respeto de sus derechos y deberes.
 
-Página 38 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) Realizar propuestas a los órganos de gobierno en materias relacionadas con sus competencias para su inclusión en el orden del día.
 
 d) Fomentar el asociacionismo estudiantil y la participación del estudiantado en la vida universitaria.
 
@@ -1328,7 +1227,6 @@ las f) Nombrar y cesar a los miembros del Equipo de Gobierno.
 
 3. En los Estatutos se deberá consignar el mecanismo de sustitución temporal del Rector o la Rectora.
 
-Página 39 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. El Rector o la Rectora podrá, igualmente, nombrar personal eventual para realizar las funciones previstas y con las condiciones establecidas en el artículo 12 del texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre. El número máximo de personal eventual se recogerá en los Estatutos de acuerdo con lo dispuesto en la normativa de la Comunidad Autónoma correspondiente. Este número y las condiciones retributivas serán públicas.
 
 5. El Rector o la Rectora podrá nombrar aquellos representantes de la universidad en diversos órganos, entidades e instituciones en los cuales tenga representación la universidad.
 
@@ -1356,7 +1254,6 @@ Los Decanos y Decanas de Facultad y los Directores y Directoras de Escuela se el
 
 la Los Directores y Directoras de Departamento se elegirán mediante elección directa por sufragio universal por todos los miembros del Consejo de Departamento de entre el personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profesores Permanentes Laborales de la universidad.
 
-Página 40 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los Estatutos fijarán los mecanismos de sustitución temporal del cargo y el procedimiento para convocar, con carácter extraordinario, elecciones a los mismos, así como sus efectos sobre los Consejos de Facultad o Escuela.
 
 3. Las universidades deberán contar, además, con directores o directoras en todas las estructuras que definan en sus Estatutos y con un Secretario o Secretaria que ejercerá como fedatario o fedataria. Serán elegidos en la forma en que se recoja estatutariamente, prevaleciendo lo dispuesto en el convenio de adscripción para los Institutos universitarios de investigación adscritos a universidades públicas.
 
@@ -1416,7 +1313,6 @@ Asimismo, las universidades deberán dedicar recursos suficientes a los servicio
 
 4. El presupuesto de las universidades contendrá en su estado de ingresos:
 
-Página 42 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA a) Las transferencias para gastos corrientes y de capital fijadas, anualmente, por las Comunidades Autónomas dentro de un marco presupuestario a medio plazo.
 
 b) Los ingresos por los precios públicos por servicios académicos y demás derechos que legalmente se establezcan. En el caso de estudios conducentes a la obtención de títulos universitarios de carácter oficial, los precios públicos y derechos serán fijados por la Comunidad Autónoma o Administración correspondiente, dentro de un marco general de contención o reducción progresiva de los precios públicos.
 
@@ -1444,7 +1340,6 @@ El nombramiento de personal funcionario interino y la contratación de personal 
 
 8. La elaboración, aprobación, ejecución y liquidación del presupuesto se regirán por las normas estatales y autonómicas aplicables a esta materia.
 
-Página 43 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA En caso de liquidación del presupuesto con remanente de tesorería negativo, el Consejo Social deberá proceder a la reducción de gastos del nuevo presupuesto por cuantía igual al déficit producido. La expresada reducción sólo podrá revocarse por acuerdo de dicho órgano, a propuesta del Rector/a, previo informe del interventor/a y autorización del órgano correspondiente de la Comunidad Autónoma, cuando la disponibilidad presupuestaria y la situación de tesorería lo permitiesen. En todo caso, el Consejo de Gobierno deberá ser informado sobre los motivos de dicho déficit y las posibles alternativas para corregirlo.
 
 Las transferencias, con cargo a los presupuestos de la Comunidad Autónoma a favor, directa o indirectamente, de las universidades requerirán la aprobación y puesta en marcha de la reducción de gastos.
 
@@ -1472,7 +1367,6 @@ Dicha exención tributaria se aplicará siempre que los tributos y exenciones re
 
 7. La investigación que realizan las universidades constituye una actividad económica que se desarrolla mediante la investigación básica y aplicada, con la finalidad de transferir a la sociedad la tecnología y el conocimiento adquirido.
 
-Página 44 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera.**
 
@@ -1504,7 +1398,6 @@ industrial y propiedad intelectual cuya 3. El profesorado funcionario de los cue
 
 El Gobierno, mediante real decreto y previo informe de la Conferencia General de Política Universitaria, regulará las condiciones y el procedimiento para la concesión de dicha excedencia que, en todo caso, sólo podrá concederse por un tiempo máximo de cinco años. Durante este período, el personal en situación de excedencia tendrá derecho a la reserva del puesto de trabajo y a su cómputo a efectos de antigüedad. Si con anterioridad a la finalización del período por el que se hubiera concedido la excedencia la persona interesada no solicitase el reingreso al servicio activo, será declarada de oficio en situación de excedencia voluntaria por interés particular.
 
-Página 45 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. Las limitaciones establecidas en el artículo cuarto, en su caso, y en los artículos doce.1.b) y d) y dieciséis de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, no serán de aplicación a los profesores/as funcionarios/as de los cuerpos docentes universitarios, al profesorado laboral permanente y al personal técnico, de gestión y de administración y servicios funcionario y laboral cuando participen en las entidades o empresas basadas en el conocimiento previstas en este artículo, siempre que exista un acuerdo explícito del Consejo de Gobierno de la universidad y se autorice por la Administración Pública competente.
 
 **Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como**
 
@@ -1534,7 +1427,6 @@ Personal docente e investigador de las universidades públicas
 
 3. El profesorado funcionario será mayoritario, computado en equivalencias a tiempo completo, sobre el total de personal docente e investigador de la universidad. No se computará como profesorado laboral a quienes no tengan responsabilidades docentes en las enseñanzas conducentes a la obtención de los títulos universitarios oficiales, ni al personal propio de los institutos de investigación adscritos a la universidad y de las escuelas de doctorado.
 
-Página 46 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA El profesorado con contrato laboral temporal no podrá superar el 8 por ciento en efectivos de la plantilla de personal docente e investigador. No se computará a tal efecto el profesorado asociado de Ciencias de la Salud y el profesorado ayudante doctor.
 
 4. Todos los puestos de trabajo de profesorado funcionario y laboral deberán adscribirse a los ámbitos de conocimiento que serán establecidos reglamentariamente por el Gobierno, previo informe del Consejo de Universidades. Dichos ámbitos serán suficientemente amplios para permitir y favorecer la movilidad del profesorado y facilitar su carrera profesional.
 
@@ -1560,7 +1452,6 @@ Asimismo, los períodos de adscripción a otra universidad pública, organismos 
 
 3. Las universidades y las Administraciones Públicas dotarán de la adecuada financiación presupuestaria a los planes de movilidad para el refuerzo de los conocimientos científicos, tecnológicos, humanísticos, artísticos, culturales, lingüísticos, la creatividad y el desarrollo profesional del personal docente e investigador. Sus correspondientes programas de gasto tendrán en cuenta la singularidad de las universidades de los territorios insulares y la distancia al territorio peninsular.
 
-Página 47 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 67. Formación.**
 
@@ -1602,7 +1493,6 @@ g) La justificación de forma detallada, objetiva y transparente del resultado d
 
 3. Por real decreto del Consejo de Ministros, previo informe del Consejo de Universidades, se regulará el procedimiento de acreditación. En estos procedimientos el sentido del silencio administrativo será desestimatorio.
 
-Página 48 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a**
 
@@ -1624,7 +1514,6 @@ c) Se aplicará una reserva en el cómputo anual, de un mínimo del 15 por cient
 
 2. Las universidades establecerán programas de promoción interna, que estén dotados en el estado de gastos de su presupuesto, para el acceso desde la categoría de Profesora y Profesor Titular de Universidad y de Profesora y Profesor Permanente Laboral a otra de superior categoría. Las plazas de estos programas no podrán superar el número máximo de plazas que sean objeto de la Oferta de Empleo Público de turno libre, en ese mismo año, para el acceso a los cuerpos docentes del artículo 68 y de Profesorado Permanente Laboral. Sólo podrán acceder a dichas plazas profesoras y profesores que hayan prestado, como mínimo, dos años de servicios efectivos en el puesto de origen y que estén acreditados para la categoría a la que promocionan. La universidad regulará, en su normativa interna, el procedimiento a seguir en los programas de promoción interna. En todo caso, el procedimiento de acceso será el de concurso de méritos.
 
-Página 49 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 **Artículo 72. Concursos de movilidad del profesorado.**
 
@@ -1662,7 +1551,6 @@ b) Hacerla compatible con el ejercicio de cargos unipersonales de gobierno y con
 
 c) Permitir las tareas del profesorado que represente los intereses de los empleados públicos.
 
-Página 50 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 3. Los planes de dedicación individual anuales reflejarán las actividades académicas encomendadas y respetarán el desarrollo profesional y la igualdad de oportunidades y de resultados del profesorado funcionario.
 
 4. Las bases del régimen general de dedicación del personal docente e investigador funcionario se regularán en el Estatuto del personal docente e investigador universitario.
 
@@ -1696,7 +1584,6 @@ Asimismo, podrán contratar, con financiación interna de la universidad o con f
 
 3. En relación con este personal, corresponde a las Comunidades Autónomas la regulación de las materias expresamente remitidas por esta ley orgánica y aquellas otras que pueden corresponderle en el ámbito de sus competencias.
 
-Página 51 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 4. El régimen de dedicación del personal laboral se ajustará, en todo caso, a los principios previstos en el artículo 75, salvo lo dispuesto en el artículo 79 respecto de la dedicación de las Profesoras y Profesores Asociados.
 
 5. El personal docente e investigador laboral tendrá derecho a negociar sus condiciones retributivas con la universidad, quedando fijadas en los convenios y acuerdos específicos que se alcancen. Igualmente, tendrá derecho a tomar parte en las convocatorias que las Comunidades Autónomas establezcan para fijar retribuciones adicionales ligadas a méritos individuales por el ejercicio de actividades docentes, investigadoras, de transferencia del conocimiento, innovación o gestión.
 
@@ -1752,7 +1639,6 @@ a) Las universidades, de acuerdo con sus Estatutos, podrán nombrar a Profesoras
 
 b) La finalidad de este nombramiento será contribuir desde su experiencia a mejorar la docencia e impulsar la investigación y la transferencia e intercambio del conocimiento e innovación.
 
-Página 53 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA c) Los requisitos de desempeño y acceso a esta modalidad, así como las funciones que podrá desempeñar serán definidos por cada universidad.
 
 **Artículo 82. Profesoras y Profesores Permanentes Laborales.**
 
@@ -1786,7 +1672,6 @@ b) La finalidad del contrato será desarrollar tareas docentes, investigadoras, 
 
 1. El acceso del personal docente e investigador laboral a las plazas de Profesora y Profesor Permanente Laboral y, en su caso, la promoción dentro de dicha modalidad contractual exigirá la obtención previa de una acreditación, de acuerdo con la normativa de la Comunidad Autónoma.
 
-Página 54 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Las Comunidades Autónomas deberán regular el procedimiento de acreditación. Tal acreditación se realizará por parte de las agencias de calidad autonómicas o, en su caso, de la ANECA.
 
 3. Las agencias de calidad, en el marco de las competencias que éstas tienen atribuidas por la normativa estatal y por las respectivas Comunidades Autónomas, trabajarán en criterios mínimos comunes en materia de acreditación de la figura de Profesorado Permanente Laboral. Asimismo, desde su independencia institucional y técnica, dichas agencias de calidad establecerán acuerdos entre ellas para el pleno reconocimiento de las acreditaciones, para evitar cargas administrativas.
 
@@ -1816,7 +1701,6 @@ Los complementos retributivos a que se refiere este apartado se asignarán singu
 
 3. Sin perjuicio de lo dispuesto en el apartado anterior, el Gobierno podrá establecer programas de incentivos para el personal docente e investigador laboral para el ejercicio de las mismas funciones a que se hace referencia en el apartado 2.
 
-Página 55 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Los incentivos a que se hace referencia en este apartado se asignarán, singular y personalmente, mediante un procedimiento transparente.
 
 4. Las universidades podrán establecer retribuciones adicionales ligadas a méritos individuales, mediante procedimientos negociados con la parte social y transparentes.
 
@@ -1906,7 +1790,6 @@ En todo caso, los incentivos económicos se asignarán mediante un procedimiento
 
 Las universidades incluirán en estos planes la movilidad internacional, en coordinación con las Administraciones Públicas, y mediante programas y convenios específicos incluidos aquellos que instituya la Unión Europea mediante estancias con fines formativos en instituciones de educación superior, entidades o empresas.
 
-Página 58 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA
 
 ## TÍTULO X {#titulo-x}
 
@@ -2012,7 +1895,6 @@ Disposición adicional segunda. Universidad Internacional Menéndez Pelayo.
 
 1. La Universidad Internacional Menéndez Pelayo es una institución que forma parte del sistema universitario español, y que tiene como objeto fundamental la contribución a la generación, divulgación y difusión del conocimiento científico, tecnológico, humanístico y artístico a través de la organización de cursos avanzados y actividades culturales, así como del desarrollo de programas de posgrado y formación a lo largo de la vida.
 
-Página 61 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. De acuerdo con su objeto y dada su especificidad en el sistema universitario español, la Universidad Internacional Menéndez Pelayo tiene naturaleza de organismo autónomo adscrito al Ministerio de Universidades, con personalidad jurídica y patrimonio propios, con plena capacidad para organizar los medios humanos y materiales para realizar sus actividades, sin más limitaciones que las establecidas por las leyes y los criterios de calidad exigibles.
 
 3. La Universidad Internacional Menéndez Pelayo se regirá por el principio de autonomía universitaria en relación con la planificación, organización y desarrollo de sus actividades académicas. La colaboración de profesorado de universidades públicas para el desarrollo de las funciones de la Universidad Internacional Menéndez Pelayo en los términos que se determinen en sus Estatutos, será compatible con la dedicación de dicho profesorado.
 
@@ -2090,7 +1972,6 @@ Quienes no soliciten dicha integración mantendrán su condición de profesorado
 
 Asimismo, podrán presentar la solicitud para obtener la acreditación para Catedrático de Universidad prevista en el artículo 69.
 
-Página 64 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Los Profesores y Profesoras Titulares de Escuela Universitaria que, a la entrada en vigor de esta ley orgánica, posean el título de doctor o doctora o lo obtengan posteriormente, y se acrediten específicamente en el marco de lo previsto por el artículo 69, accederán directamente al Cuerpo de Profesores/as Titulares de Universidad, en sus propias plazas. Para la acreditación a Titulares de Universidad de los Profesores/as Titulares de Escuela Universitaria se valorará particularmente la docencia, así como la investigación y, en su caso, la gestión.
 
 Quienes no accedan a la condición de Profesor/a Titular de Universidad permanecerán en su situación actual, manteniendo todos sus derechos y conservando su plena capacidad docente y, en su caso, investigadora, de transferencia e intercambio del conocimiento e innovación.
 
@@ -2128,7 +2009,6 @@ Disposición adicional décima sexta. Principio de «no causar un daño signific
 
 De conformidad con lo dispuesto en el Plan de Recuperación, Transformación y Resiliencia, en el Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, por el que se establece el Mecanismo de Recuperación y Resiliencia, y su normativa de desarrollo, en la Comunicación de la Comisión Guía técnica (2021/C 58/01)
 
-Página 65 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA sobre la aplicación del principio de «no causar un perjuicio significativo», así como con lo requerido en la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del plan de recuperación y resiliencia de España, todas las actuaciones que deban llevarse a cabo en cumplimiento de esta ley orgánica deberán respetar el llamado principio de no causar un perjuicio significativo al medioambiente.
 
 Esta obligación incluye el cumplimiento de las condiciones específicas previstas en el Componente 21 «Modernización y digitalización del sistema educativo, incluida la educación temprana de 0 a 3 años», en particular en la medida R3 «Reforma integral del sistema universitario» del Plan de Recuperación, Transformación y Resiliencia, en el que se enmarcan dichas actuaciones.
 
@@ -2156,7 +2036,6 @@ Disposición transitoria tercera. Adaptación de las acreditaciones vigentes.
 
 3. El procedimiento de acreditación para la figura de Profesor/a Contratado/a Doctor/a continuará siendo aplicable hasta que se haga efectivo lo dispuesto en el artículo 85, así como lo dispuesto en la disposición transitoria cuarta.
 
-Página 66 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria cuarta. Adaptación de las nuevas acreditaciones.
 
 1. La ANECA y las agencias de calidad autonómicas dispondrán de un periodo de un año desde la entrada en vigor de esta ley orgánica para adaptar los criterios de la acreditación a Profesor/a Titular de Universidad y a la figura de Profesor/a Permanente Laboral, a la duración de la etapa inicial de la carrera académica que establece esta ley orgánica.
 
@@ -2182,7 +2061,6 @@ Disposición transitoria sexta. Adaptación de las plantillas de personal docent
 
 La mayoría de profesorado funcionario establecida en el artículo 64.3 deberá cumplirse dentro del periodo previsto en el artículo 155.2 de la Ley Orgánica 2/2006, de 3 de mayo, relativo al plan de incremento del gasto público en educación.
 
-Página 67 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición transitoria séptima. Proceso de estabilización de plazas de Profesoras y Profesores Asociadas/os de las universidades públicas.
 
 1. Antes del 31 de diciembre de 2024 y conforme a lo establecido por la Ley 20/2021, de 28 de diciembre, las universidades públicas deberán articular procesos de estabilización de las plazas de Profesoras y Profesores Asociadas/os, de acuerdo con las condiciones profesionales y de dedicación docente previstas en el artículo 79.b). El sistema de selección en estos procesos será el de concurso garantizando los principios de igualdad, mérito, capacidad, publicidad y concurrencia, con las particularidades del artículo 86.2. Estas plazas no computarán en la tasa de reposición de efectivos.
 
@@ -2238,7 +2116,6 @@ Disposición derogatoria única. Derogación normativa.
 
 a) La Ley Orgánica 6/2001, de 21 de diciembre, de Universidades.
 
-Página 69 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA b) La Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, salvo sus disposiciones finales segunda y cuarta.
 
 c) El Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo.
 
@@ -2338,7 +2215,6 @@ Disposición final décima primera. Reconocimiento de efectos civiles de determi
 
 1. El Gobierno, a propuesta de las personas titulares de los Ministerios de Universidades y de Presidencia, Relaciones con las Cortes y Memoria Democrática, en aplicación de lo establecido en los Acuerdos de Cooperación entre el Estado y la Federación de Entidades Religiosas Evangélicas de España, aprobado por la Ley 24/1992, de 10 de noviembre, la Federación de Comunidades Israelitas de España, aprobado por la Ley 25/1992, de 10 de noviembre, y la Comisión Islámica de España, aprobado por la Ley 26/1992, de 10 de noviembre, regulará las condiciones para el reconocimiento de efectos civiles de los títulos académicos relativos a enseñanzas de nivel universitario, de carácter teológico y de formación de ministros de culto, impartidas en centros docentes de nivel superior dependientes de las mencionadas entidades religiosas.
 
-Página 73 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA 2. Del mismo modo se podrán reconocer otros acuerdos siempre que en ellos se recoja esta posibilidad.
 
 Disposición final décima segunda. Entrada en vigor.
 
@@ -2352,4 +2228,3 @@ El Presidente del Gobierno, PEDRO SÁNCHEZ PÉREZ-CASTEJÓN FELIPE R.
 
 Este documento es de carácter informativo y no tiene valor jurídico.
 
-Página 74
