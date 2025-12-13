@@ -230,7 +230,7 @@ Disposición final única. Entrada en vigor
 
 **Artículo 77. Criterios especiales sobre la prueba de hechos relevantes.**
 
-## TÍTULO III. Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad {#titulo-iii-infracciones-y-sanciones-en-materia-de-igualdad-de-oportunidades-no-discriminacion-y-accesibilidad} universal de las personas con discapacidad
+## TÍTULO III. Infracciones y sanciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad {#titulo-iii-infracciones-y-sanciones-en-materia-de-igualdad-de-oportunidades-no-discriminacion-y-accesibilidad}
 
 ### CAPÍTULO I. Régimen común de infracciones y sanciones {#capitulo-i-regimen-comun-de-infracciones-y-sanciones}
 
