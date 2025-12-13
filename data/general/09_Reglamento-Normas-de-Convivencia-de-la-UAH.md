@@ -1,18 +1,26 @@
-AÑO XIX Número 3 Marzo 2024 REGLAMENTO POR EL QUE SE ESTABLECEN LAS NORMAS DE CONVIVENCIA DE LA UNIVERSIDAD DE ALCALÁ Aprobado en Consejo de Gobierno de 16 de febrero de 2023 Modificado en Consejo de Gobierno de 21 de marzo de 2024 PREÁMBULO I. La Ley 3/2022, de 24 de febrero, de convivencia universitaria, publicada en el BOE 25 de febrero de 2022 (LCU), tiene un doble objeto:
+AÑO XIX Número 3 Marzo 2024 
+
+# REGLAMENTO POR EL QUE SE ESTABLECEN LAS NORMAS DE CONVIVENCIA DE LA UNIVERSIDAD DE ALCALÁ 
+
+Aprobado en Consejo de Gobierno de 16 de febrero de 2023 Modificado en Consejo de Gobierno de 21 de marzo de 2024 
+
+## PREÁMBULO 
+
+**I.** La Ley 3/2022, de 24 de febrero, de convivencia universitaria, publicada en el BOE 25 de febrero de 2022 (LCU), tiene un doble objeto:
 
 a) Por un lado, establecer las bases de la convivencia en el ámbito universitario para todos los colectivos universitarios (estudiantado, personal docente e investigador y del personal de administración y servicios) fomentando la utilización preferente de modalidades alternativas de resolución de aquellos conflictos que pudieran alterarla, o que impidan el normal desarrollo de las funciones esenciales de docencia, investigación y transferencia del conocimiento.
 
 b) Por otro, establecer el régimen disciplinario del estudiantado universitario, rigiéndose el régimen disciplinario del personal docente e investigador y del personal de administración y servicios por lo dispuesto en su normativa específica.
 
-II. El artículo 3 de la LCU establece que, con el fin de favorecer el entendimiento, la convivencia pacífica y el pleno respeto de los valores democráticos, los derechos fundamentales y las libertades públicas en el ámbito universitario, las universidades públicas y privadas aprobarán sus propias Normas de Convivencia, que serán de obligado cumplimiento para todos los miembros de la comunidad universitaria, tanto respecto de sus actuaciones individuales, como colectivas.
+**II.** El artículo 3 de la LCU establece que, con el fin de favorecer el entendimiento, la convivencia pacífica y el pleno respeto de los valores democráticos, los derechos fundamentales y las libertades públicas en el ámbito universitario, las universidades públicas y privadas aprobarán sus propias Normas de Convivencia, que serán de obligado cumplimiento para todos los miembros de la comunidad universitaria, tanto respecto de sus actuaciones individuales, como colectivas.
 
 De manera particular, las Normas de Convivencia deberán ajustarse a principios básicos como el respeto y protección a las personas afectadas, la protección de su dignidad, la imparcialidad y el trato justo a todas las partes, la confidencialidad, la diligencia y celeridad del procedimiento, entre otros. A su vez, deberán ajustarse a las normas sobre igualdad efectiva entre hombres y mujeres y de protección integral contra la violencia de género. En materia de violencia, discriminación o acoso sexual, por razón de sexo, por racismo o xenofobia o por cualquier otra causa, deberán incluir también medidas de prevención primaria y secundaria, y dispondrán de procedimientos específicos para dar cauce a las quejas y denuncias. Para evitar el mantenimiento de los efectos nocivos mientras se tramitan los procedimientos, y para asegurar la eficacia de la resolución, se contempla la posibilidad de adoptar medidas provisionales e, igualmente, se prevé el desarrollo de medidas de acompañamiento psicológico y jurídico de las víctimas. Todo ello, sin perjuicio de los derechos y previsiones contenidas en la legislación laboral que resulte aplicable al personal docente e investigador y al personal de administración y servicios de las universidades.
 
-III. Por otro lado, el Título I de la LCU, emplaza a las universidades públicas y privadas a desarrollar medios alternativos de solución de los conflictos.
+**III.** Por otro lado, el Título I de la LCU, emplaza a las universidades públicas y privadas a desarrollar medios alternativos de solución de los conflictos.
 
 Los principios sobre los que deben configurarse estos medios alternativos indica que son los de voluntariedad, confidencialidad, equidad, imparcialidad, buena fe y respeto mutuo, flexibilidad, calidad y transparencia. Para garantizar estos principios y concretarlos en el marco de los procedimientos, la norma prevé que se podrán elaborar manuales de actuación. Asimismo, las universidades podrán fomentar la formación técnica de las personas mediadoras.
 
-IV. Finalmente hay que reseñar que se prevé la creación en el seno de las universidades de una Comisión de Convivencia, con representación paritaria de los distintos sectores de la Comunidad Universitaria.
+**IV.** Finalmente hay que reseñar que se prevé la creación en el seno de las universidades de una Comisión de Convivencia, con representación paritaria de los distintos sectores de la Comunidad Universitaria.
 
 Boletín Oficial de la Universidad de Alcalá 1 AÑO XIX Número 3 Marzo 2024 V. La Universidad de Alcalá es una Institución de derecho público encargada de la prestación del servicio público de la educación superior, que desarrolla mediante la investigación, la docencia y el estudio.
 
@@ -34,7 +42,9 @@ Finalmente hay que mencionar que en cumplimiento de la LCU se ha creado la Comis
 
 El presente Reglamento ha sido elaborado siguiendo los mandatos de la LCU, con criterios participativos y de audiencia a la comunidad universitaria, a través de consulta pública del anteproyecto de reglamento, además de seguir el cauce establecido en el Reglamento de régimen interno del Consejo de Gobierno de la Universidad de Alcalá, aprobado en Consejo de Gobierno de 22 de julio de 2004 y modificado en Consejo de Gobierno de 28 de octubre de 2021.
 
-Boletín Oficial de la Universidad de Alcalá 2 AÑO XIX Número 3 Marzo 2024
+Boletín Oficial de la Universidad de Alcalá 
+
+2 AÑO XIX Número 3 Marzo 2024
 
 ## TÍTULO PRELIMINAR {#titulo-preliminar}
 
