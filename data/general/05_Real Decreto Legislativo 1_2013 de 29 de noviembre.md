@@ -1,7 +1,7 @@
 LEGISLACIÓN CONSOLIDADA Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social.
 
 Ministerio de Sanidad, Servicios Sociales e Igualdad «BOE» núm. 289, de 03 de diciembre de 2013 Referencia: BOE-A-2013-12632
-ÍNDICE
+## ÍNDICE
 Preámbulo
 
 Artículos
@@ -1431,9 +1431,9 @@ Estas actuaciones se realizarán en todo caso de conformidad con lo establecido 
 
 3. Será órgano competente para imponer las sanciones previstas en el artículo 96:
 
-b) La Secretaría de Estado de Derechos Sociales cuando se trate de sanciones por la comisión de infracciones graves.
+a) La Secretaría de Estado de Derechos Sociales cuando se trate de sanciones por la comisión de infracciones graves.
 
-c) La persona titular del Ministerio de Derechos Sociales y Agenda 2030 cuando se trate de sanciones por la comisión de infracciones muy graves, si bien se requerirá el acuerdo previo del Consejo de Ministros cuando las sanciones sean de cuantía superior a 300.000 euros.
+b) La persona titular del Ministerio de Derechos Sociales y Agenda 2030 cuando se trate de sanciones por la comisión de infracciones muy graves, si bien se requerirá el acuerdo previo del Consejo de Ministros cuando las sanciones sean de cuantía superior a 300.000 euros.
 
 Disposición adicional primera. Garantía del respeto al reparto de competencias constitucional y estatutariamente vigente.
 
