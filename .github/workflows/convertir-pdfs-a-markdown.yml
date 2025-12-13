@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       ruta_pdf:
-        description: "Directorio donde buscar PDFs (por defecto docs/)"
+        description: "Directorio donde buscar PDFs (por defecto data/general)"
         required: false
-        default: "docs"
+        default: "data/general"
 
 permissions:
   contents: read
@@ -38,15 +38,14 @@ jobs:
           set -u
           set -o pipefail
 
-          raiz="${PDF_ROOT:-docs}"
+          raiz="${PDF_ROOT:-data/general}"
           raiz="${raiz%/}"
           if [ -z "$raiz" ]; then
             raiz="."
           fi
-          raiz_con_slash="${raiz}/"
-          mkdir -p markdown
+          echo "OUTPUT_ROOT=${raiz}" >> "$GITHUB_ENV"
           if [ ! -d "$raiz" ]; then
-            echo "El directorio ${raiz} no existe." | tee markdown/README.md
+            echo "El directorio ${raiz} no existe."
             exit 0
           fi
 
@@ -63,15 +62,12 @@ jobs:
           rm -f "$listado_pdf"
 
           if [ ${#pdf_files[@]} -eq 0 ]; then
-            echo "No se encontraron archivos PDF en ${raiz}." | tee markdown/README.md
+            echo "No se encontraron archivos PDF en ${raiz}."
             exit 0
           fi
 
           for file in "${pdf_files[@]}"; do
-            relative="${file#"$raiz_con_slash"}"
-            relative="${relative#./}"
-            output="markdown/${relative%.pdf}.md"
-            mkdir -p "$(dirname "$output")"
+            output="${file%.pdf}.md"
             echo "Convirtiendo $file a $output"
             tmp_error="$(mktemp)"
             if ! markitdown "$file" > "$output" 2>"$tmp_error"; then
@@ -85,4 +81,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: markdown-desde-pdfs
-          path: markdown
+          path: ${{ env.OUTPUT_ROOT }}/**/*.md
