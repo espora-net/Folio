@@ -68,11 +68,21 @@
     {
       "numero": 6,
       "titulo": "Ley Orgánica 3/2007 para la Igualdad Efectiva de Mujeres y Hombres",
-      "materialId": "uah-tema-006",
-      "archivo": null,
-      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "referencias": [
+        {
+          "materialId": "uah-tema-006",
+          "archivo": "./comun/tema-06-ley-igualdad-efectiva-2007.pdf",
+          "descripcion": "Ley Orgánica 3/2007 - Título II: Políticas públicas para la igualdad"
+        },
+        {
+          "materialId": "uah-plan-igualdad-2023-2026",
+          "archivo": "./comun/plan-igualdad-uah-2023-2026.pdf",
+          "descripcion": "II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)"
+        }
+      ],
       "cobertura_convocatoria": [
-        "Título II. Políticas públicas para la igualdad"
+        "Título II. Políticas públicas para la igualdad",
+        "II Plan de Igualdad UAH (2023-2026) - Medidas institucionales concretas"
       ]
     },
     {
@@ -143,6 +153,7 @@
     }
   ],
   "nota_cobertura": "Solo se listan los temas con desglose concreto; los números ausentes en cobertura_temas corresponden a temas aún no desarrollados.",
+  "nota_estructura": "Algunos temas (ej: tema 6) incluyen un array 'referencias' con múltiples documentos. Para temas con un único documento, se mantiene la estructura legacy con 'materialId' y 'archivo' directos.",
   "temas_pendientes": [
     {
       "numeros": [11, 12, 13, 14, 15, 16],
