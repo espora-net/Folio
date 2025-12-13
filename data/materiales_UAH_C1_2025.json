@@ -1,8 +1,14 @@
 {
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
-  "convocatoria": "Universidad de Alcalá de Henares (UAH) - 2025",
+  "convocatoria": {
+    "institucion": "Universidad de Alcalá de Henares",
+    "cuerpo": "Técnico Auxiliar de Bibliotecas (C1)",
+    "año": 2025,
+    "fuente_oficial": "BOE de 14 de octubre de 2025 - Anexo I de la Resolución de convocatoria",
+    "enlace_publicacion": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+    "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
+  },
   "total_temas": 22,
-  "fuente": "BOE de 14 de octubre de 2025 - Anexo I de la Resolución de convocatoria",
   "materiales": [
     {
       "id": "uah-tema-001",
