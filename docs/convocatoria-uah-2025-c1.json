@@ -1,0 +1,158 @@
+{
+  "convocatoria": {
+    "institucion": "Universidad de Alcalá de Henares",
+    "cuerpo": "Técnico Auxiliar de Bibliotecas (C1)",
+    "año": 2025,
+    "fuente_oficial": "BOE de 14 de octubre de 2025 - Anexo I de la Resolución de convocatoria",
+    "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
+  },
+  "cobertura_temas": [
+    {
+      "numero": 1,
+      "titulo": "Constitución Española de 1978",
+      "materialId": "uah-tema-001",
+      "archivo": "./comun/tema-01-constitucion-espanola-1978.pdf",
+      "cobertura_convocatoria": [
+        "Título Preliminar",
+        "Título I. De los derechos y deberes fundamentales"
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Estatuto Básico del Empleado Público (EBEP)",
+      "materialId": "uah-tema-002",
+      "archivo": "./comun/tema-02-ebep-estatuto-empleado-publico.pdf",
+      "cobertura_convocatoria": [
+        "Título I",
+        "Título II - Capítulo I",
+        "Título III",
+        "Título IV",
+        "Título V - Capítulo III",
+        "Título VII"
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
+      "materialId": "uah-tema-003",
+      "archivo": "./comun/tema-03-ley-sistema-universitario-2023.pdf",
+      "cobertura_convocatoria": [
+        "Título I",
+        "Título IX - Capítulo I",
+        "Título IX - Capítulo II",
+        "Título IX - Capítulo V"
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Ley Orgánica 3/2018 de Protección de Datos Personales",
+      "materialId": "uah-tema-004",
+      "archivo": "./comun/tema-04-lopd-proteccion-datos-2018.pdf",
+      "cobertura_convocatoria": [
+        "Título I",
+        "Título II",
+        "Título III"
+      ]
+    },
+    {
+      "numero": 5,
+      "titulo": "Ley General de Derechos de las Personas con Discapacidad",
+      "materialId": "uah-tema-005",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Título I - Capítulo IV. Derecho a la educación",
+        "Título I - Capítulo VI. Derecho al trabajo"
+      ]
+    },
+    {
+      "numero": 6,
+      "titulo": "Ley Orgánica 3/2007 para la Igualdad Efectiva de Mujeres y Hombres",
+      "materialId": "uah-tema-006",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Título II. Políticas públicas para la igualdad"
+      ]
+    },
+    {
+      "numero": 7,
+      "titulo": "Prevención de Riesgos Laborales en la UAH",
+      "materialId": "uah-tema-007",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Declaración de Política de Prevención de Riesgos Laborales de la UAH (texto completo)",
+        "Funciones y Responsabilidades PRL en la UAH (documento institucional complementario)"
+      ]
+    },
+    {
+      "numero": 8,
+      "titulo": "Código Ético General de la Universidad de Alcalá",
+      "materialId": "uah-tema-008",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Texto completo del Código Ético (Boletín Oficial UAH, 4/7/2017)"
+      ]
+    },
+    {
+      "numero": 9,
+      "titulo": "Reglamento de Normas de Convivencia de la UAH",
+      "materialId": "uah-tema-009",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Texto consolidado aprobado el 16/02/2023 y modificado el 21/03/2024 (contenido íntegro)"
+      ]
+    },
+    {
+      "numero": 10,
+      "titulo": "Misión, Visión y Estructura del Servicio de Biblioteca de la UAH",
+      "materialId": "uah-tema-010",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Estatutos de la UAH: artículos 215 a 218 (funciones del Servicio de Biblioteca)",
+        "Reglamento de la Biblioteca de la UAH (2005) - estructura organizativa"
+      ]
+    },
+    {
+      "numero": 17,
+      "titulo": "Carta de Servicios de la Biblioteca de la UAH",
+      "materialId": "uah-tema-017",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Carta de Servicios de la Biblioteca (texto completo y compromisos de calidad)"
+      ]
+    },
+    {
+      "numero": 18,
+      "titulo": "Normativa de Préstamo de la Biblioteca de la UAH",
+      "materialId": "uah-tema-018",
+      "archivo": null,
+      "estado_material": "Pendiente de añadir PDF a docs/comun; cobertura extraída de la convocatoria oficial.",
+      "cobertura_convocatoria": [
+        "Condiciones generales de uso del préstamo",
+        "Materiales prestables y excluidos",
+        "Plazos y cupos por tipología de usuario",
+        "Reservas, renovaciones y sanciones",
+        "Normas de uso de salas de estudio y trabajo en grupo"
+      ]
+    }
+  ],
+  "nota_cobertura": "Solo se listan los temas con desglose concreto; los números ausentes en cobertura_temas corresponden a temas aún no desarrollados.",
+  "temas_pendientes": [
+    {
+      "numeros": [11, 12, 13, 14, 15, 16],
+      "estado": "Pendiente de desglosar a partir del PDF completo de la convocatoria."
+    },
+    {
+      "numeros": [19, 20, 21, 22],
+      "estado": "Pendiente de desglosar a partir del PDF completo de la convocatoria."
+    }
+  ],
+  "version": "1.0.0",
+  "fecha_actualizacion": "2025-12-13"
+}
