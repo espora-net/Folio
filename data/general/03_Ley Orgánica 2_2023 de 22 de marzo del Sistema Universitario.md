@@ -91,7 +91,8 @@ Artículo 12. Fomento de la Ciencia Abierta y Ciencia Ciudadana.
 
 Página 1
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo  13.  Desarrollo  de  proyectos  para  la  investigación,  creación  y  transferencia  e  intercambio  del
@@ -237,7 +238,8 @@ CAPÍTULO I. Régimen jurídico y estructura de las universidades públicas . . 
 
 Página 2
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 38. Régimen jurídico.
@@ -379,7 +381,8 @@ Artículo 65. Promoción de la equidad entre el personal docente e investigador.
 
 Página 3
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 66. Movilidad temporal del personal docente e investigador. . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -514,7 +517,8 @@ universidades públicas.. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 Página 4
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 92. Provisión de puestos de trabajo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -651,7 +655,8 @@ Disposición adicional décima séptima. Acceso a titulaciones de formación per
 
 Página 5
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -766,7 +771,8 @@ Disposición final sexta. Título competencial. . . . . . . . . . . . . . . . . 
 
 Página 6
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición final séptima. Naturaleza de ley orgánica.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -798,7 +804,8 @@ Disposición final décima segunda. Entrada en vigor. . . . . . . . . . . . . . 
 
 Página 7
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 TEXTO CONSOLIDADO
@@ -872,7 +879,8 @@ cada vez más amplios de la población, y de una concepción intelectual cerrada
 
 Página 8
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 del saber, para entablar una relación de diálogo y colaboración, a través del conocimiento, el
@@ -939,7 +947,8 @@ de  cooperación,  en  especial  con  el  Espacio  Iberoamericano  de  Educació
 
 Página 9
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Conocimiento  que  cuenta  con  una  base  idiomática  común  de  cerca  de  600  millones  de
@@ -1019,7 +1028,8 @@ la
 
 Página 10
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Ciencia  Abierta,  que  asuma  ese  conocimiento  como  un  bien  común,  accesible  y  no
@@ -1091,7 +1101,8 @@ estudiantado  el  que  asuma  labores  de  tutoría,  mentoría  y  experiencias
 
 Página 11
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 efectivas,  por  la  salud  emocional  del  estudiantado,  promoviendo  asimismo  su  participación
@@ -1160,7 +1171,8 @@ simultáneamente,  la  toma  de  decisiones  y  su  gestión  pueda  realizarse 
 
 Página 12
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 eficiente,  la  Ley  consagra  la  transparencia  y  la  rendición  de  cuentas  de  las  universidades
@@ -1241,7 +1253,8 @@ universitarias como al personal que en ellas desarrolla su labor.
 
 Página 13
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Por  su  parte,  la  disposición  derogatoria  deja  sin  vigencia  expresamente,  para  mayor
@@ -1317,7 +1330,8 @@ disposición  final  primera  de  modificación  de  la  Ley  53/1984,  de  26  
 
 Página 14
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Incompatibilidades  del  personal  al  servicio  de  las  Administraciones  Públicas;  la  disposición
@@ -1329,7 +1343,7 @@ la disposición final quinta de modificación de Ley 14/2013, de 27 de septiembr
 los  emprendedores  y  su  internacionalización,  que  se  incardinan  en  las  competencias
 expresadas en las leyes objeto de modificación.
 
-TÍTULO PRELIMINAR
+## TÍTULO PRELIMINAR {#titulo-preliminar}
 
 Disposiciones generales
 
@@ -1355,7 +1369,7 @@ de conocimiento, pudiendo desarrollar otras actividades formativas.
 
 Funciones del sistema universitario y autonomía de las universidades
 
-TÍTULO I
+## TÍTULO I {#titulo-i}
 
 Artículo 2.  Funciones del sistema universitario.
 
@@ -1394,7 +1408,8 @@ vida del conjunto de la ciudadanía.
 
 Página 15
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 h)  La  formación  de  la  ciudadanía  a  través  de  la  transmisión  de  los  valores  y  principios
@@ -1488,7 +1503,8 @@ internacionalización de la Universidad.
 
 Página 16
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 q)  El  establecimiento  de  relaciones  con  otras  universidades,  instituciones,  organismos,
@@ -1516,7 +1532,7 @@ suficiencia y estabilidad financieras conforme a lo establecido en el título IX
 sociedad del uso de sus medios y recursos humanos, materiales y económicos, desarrollar
 sus actividades mediante una gestión transparente y ofrecer un servicio público de calidad.
 
-TÍTULO II
+## TÍTULO II {#titulo-ii}
 
 Creación  y  reconocimiento  de  las  universidades  y  calidad  del  sistema
 universitario
@@ -1566,7 +1582,8 @@ Europeo de Educación Superior.
 
 Página 17
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. La promoción y el aseguramiento de dicha calidad es responsabilidad compartida por
@@ -1600,7 +1617,7 @@ trabajadoras, con un plan de igualdad relativo a su organización.
 institucional de los centros universitarios, basada en el reconocimiento de la capacidad de la
 universidad para garantizar la calidad académica de aquéllos.
 
-TÍTULO III
+## TÍTULO III {#titulo-iii}
 
 Organización de enseñanzas
 
@@ -1652,7 +1669,8 @@ titulaciones  podrán  organizarse  como
 
 Página 18
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Los títulos propios también podrán establecerse conjuntamente entre universidades y la
@@ -1732,7 +1750,8 @@ carácter especializado temáticamente, o de carácter multidisciplinar o interd
 
 Página 19
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a la especialización académica o profesional, o bien encaminada a la iniciación en tareas de
@@ -1804,12 +1823,13 @@ oficiales universitarias y las otras enseñanzas que constituyen la educación s
 
 Página 20
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Investigación y transferencia e intercambio del conocimiento e innovación
 
-TÍTULO IV
+## TÍTULO IV {#titulo-iv}
 
 Artículo 11.  Normas generales.
 
@@ -1896,7 +1916,8 @@ los  recursos  informativos,  digitales  y  no  digitales,  así  como  la  form
 
 Página 21
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 promover la difusión de la Ciencia Abierta en la comunidad universitaria y en el conjunto de
@@ -1988,7 +2009,8 @@ Impulsar  programas  que
 
 Página 22
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 k)  Promocionar  políticas  de  creación  de  patentes  y  de  generación  de  entidades  o
@@ -2010,7 +2032,7 @@ mayor número de mujeres investigadoras principales.
 
 Cooperación, coordinación y participación en el sistema universitario
 
-TÍTULO V
+## TÍTULO V {#titulo-v}
 
 Artículo 14.  Cooperación y coordinación en el sistema universitario.
 
@@ -2068,7 +2090,8 @@ universitario y el entorno social y económico.
 
 Página 23
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 h)  Elaborar  informes  sobre  la  aplicación  del  principio  de  igualdad  de  género,  y  de  las
@@ -2155,7 +2178,8 @@ deliberación y consulta del estudiantado universitario ante el Ministerio de Un
 
 Página 24
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  El  Consejo  de  Estudiantes  Universitario  del  Estado  se  adscribe  al  Ministerio  de
@@ -2207,7 +2231,7 @@ Ministro  o  Ministra  de  Universidades.  El  Secretario  o  Secretaria  Genera
 actuará  como  Vicepresidente  o  Vicepresidenta  primera,  correspondiendo  la  vicepresidencia
 segunda al estudiantado.
 
-TÍTULO VI
+## TÍTULO VI {#titulo-vi}
 
 Universidad, sociedad y cultura
 
@@ -2238,7 +2262,8 @@ sobre la materia.
 
 Página 25
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 19.  La cultura en la Universidad.
@@ -2309,10 +2334,11 @@ para compatibilizar los estudios de deportistas de alto nivel con sus actividade
 
 Página 26
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO VII
+## TÍTULO VII {#titulo-vii}
 
 Internacionalización del sistema universitario
 
@@ -2391,7 +2417,8 @@ facilitarán
 
 Página 27
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 26.  Títulos y programas conjuntos.
@@ -2475,7 +2502,8 @@ Asuntos Exteriores, Unión Europea y Cooperación.
 
 Página 28
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 30.  Cooperación internacional universitaria para la solidaridad y el desarrollo.
@@ -2484,7 +2512,7 @@ Las  universidades  fomentarán  la  realización  de  actividades  orientadas  
 
 de los Objetivos de Desarrollo Sostenible, de conformidad con la normativa sobre la materia.
 
-TÍTULO VIII
+## TÍTULO VIII {#titulo-viii}
 
 El estudiantado en el Sistema Universitario
 
@@ -2548,7 +2576,8 @@ capacidad  económica  de  las  personas  o  familias  y  de  su  lugar  de  res
 
 Página 29
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 reconoce el derecho subjetivo del estudiantado universitario a acceder a becas y ayudas al
@@ -2624,7 +2653,8 @@ informado de la lengua de impartición.
 
 Página 30
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 d)  A  ser  informado  previamente  al  periodo  de  matriculación  de  las  modalidades,
@@ -2715,7 +2745,8 @@ participativa en los órganos de gobierno y representación de la universidad, a
 
 Página 31
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 procesos para su elección, en particular, en los consejos de estudiantes de su universidad y
@@ -2792,16 +2823,17 @@ estudios propios adaptados a sus capacidades.
 
 Página 32
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO IX
+## TÍTULO IX {#titulo-ix}
 
 Régimen específico de las universidades públicas
 
 Régimen jurídico y estructura de las universidades públicas
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-ix-capitulo-i}
 
 Artículo 38.  Régimen jurídico.
 
@@ -2867,7 +2899,8 @@ la  universidad  para  proponer  y  organizar  las  enseñanzas  universitarias 
 
 Página 33
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 procedimientos académicos, administrativos y de gestión conducentes a la obtención de los
@@ -2942,7 +2975,8 @@ estructura  de  la  defensoría  universitaria,  cuyo  máximo  cargo  podrá  s
 
 Página 34
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 unipersonal  o  colegiado,  así  como  el  procedimiento  para  su  elección  por  el  Claustro
@@ -2969,7 +3003,7 @@ La inspección de servicios actuará motu proprio, a instancia de los distintos 
 Gobierno  de  la  universidad  o  tras  denuncia  escrita  interpuesta  por  algún  miembro  de  la
 comunidad universitaria.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-ix-capitulo-ii}
 
 Gobernanza de las universidades públicas
 
@@ -3017,7 +3051,8 @@ información  actualizada  en
 
 Página 35
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 45.  El Claustro Universitario.
@@ -3099,7 +3134,8 @@ mecanismos internos de distribución de competencias de la universidad.
 
 Página 36
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 i) Definir y aprobar planes de captación, estabilización y promoción del personal docente
@@ -3178,7 +3214,8 @@ universidades.
 
 Página 37
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 d)  Promover  la  captación  de  recursos  económicos  destinados  a  la  financiación  de  la
@@ -3258,7 +3295,8 @@ b) Velar por el cumplimiento y el respeto de sus derechos y deberes.
 
 Página 38
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 c)  Realizar  propuestas  a  los  órganos  de  gobierno  en  materias  relacionadas  con  sus
@@ -3340,7 +3378,8 @@ o la Rectora.
 
 Página 39
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4. El Rector o la Rectora podrá, igualmente, nombrar personal eventual para realizar las
@@ -3417,7 +3456,8 @@ Laborales de la universidad.
 
 Página 40
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Los  Estatutos  fijarán  los  mecanismos  de  sustitución  temporal  del  cargo  y  el
@@ -3432,7 +3472,7 @@ investigación adscritos a universidades públicas.
 
 Régimen económico y financiero de las universidades públicas
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-ix-capitulo-iii}
 
 Artículo 53.  Marco normativo.
 
@@ -3490,7 +3530,8 @@ instrumentos  de  programación  y  financiación  que  incluyan  los  objetivos
 
 Página 41
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 recursos financieros para ello y los mecanismos de evaluación del grado de consecución de
@@ -3568,7 +3609,8 @@ por razón de género y de impacto medioambiental.
 
 Página 42
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a)  Las  transferencias  para  gastos  corrientes  y  de  capital  fijadas,  anualmente,  por  las
@@ -3648,7 +3690,8 @@ normas estatales y autonómicas aplicables a esta materia.
 
 Página 43
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 En caso de liquidación del presupuesto con remanente de tesorería negativo, el Consejo
@@ -3732,7 +3775,8 @@ la sociedad la tecnología y el conocimiento adquirido.
 
 Página 44
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 59.  Transparencia y rendición de cuentas en la gestión económico-financiera.
@@ -3814,7 +3858,8 @@ excedencia voluntaria por interés particular.
 
 Página 45
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  Las  limitaciones  establecidas  en  el  artículo  cuarto,  en  su  caso,  y  en  los  artículos
@@ -3863,7 +3908,7 @@ participación  en  los  beneficios  derivados  se  ajustarán  a  lo  previsto 
 
 Personal docente e investigador de las universidades públicas
 
-CAPÍTULO IV
+### CAPÍTULO IV {#titulo-ix-capitulo-iv}
 
 Artículo 64.  Personal docente e investigador.
 
@@ -3886,7 +3931,8 @@ doctorado.
 
 Página 46
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 El  profesorado  con  contrato  laboral  temporal  no  podrá  superar  el  8  por  ciento  en
@@ -3960,7 +4006,8 @@ la distancia al territorio peninsular.
 
 Página 47
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 67.  Formación.
@@ -4041,7 +4088,8 @@ sentido del silencio administrativo será desestimatorio.
 
 Página 48
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 70.  Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a
@@ -4110,7 +4158,8 @@ procedimiento de acceso será el de concurso de méritos.
 
 Página 49
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 72.  Concursos de movilidad del profesorado.
@@ -4192,7 +4241,8 @@ públicos.
 
 Página 50
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3.  Los  planes  de  dedicación  individual  anuales  reflejarán  las  actividades  académicas
@@ -4270,7 +4320,8 @@ que pueden corresponderle en el ámbito de sus competencias.
 
 Página 51
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  El  régimen  de  dedicación  del  personal  laboral  se  ajustará,  en  todo  caso,  a  los
@@ -4345,7 +4396,8 @@ profesionales  de  reconocida  competencia  que  acrediten  ejercer  su  activid
 
 Página 52
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 del  ámbito  académico  universitario  cuando  existan  necesidades  docentes  específicas
@@ -4420,7 +4472,8 @@ innovación.
 
 Página 53
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 c) Los requisitos de desempeño y acceso a esta modalidad, así como las funciones que
@@ -4495,7 +4548,8 @@ la Comunidad Autónoma.
 
 Página 54
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Las  Comunidades  Autónomas  deberán  regular  el  procedimiento  de  acreditación.  Tal
@@ -4571,7 +4625,8 @@ las mismas funciones a que se hace referencia en el apartado 2.
 
 Página 55
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Los  incentivos  a  que  se  hace  referencia  en  este  apartado  se  asignarán,  singular  y
@@ -4634,7 +4689,7 @@ las
 
 universidades públicas
 
-CAPÍTULO V
+### CAPÍTULO V {#titulo-ix-capitulo-v}
 
 Artículo 89.  Personal técnico, de gestión y de administración y servicios.
 
@@ -4655,7 +4710,8 @@ establecidos en el artículo 149.1.18.ª y disposición adicional primera de la 
 
 Página 56
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 la  Ley  Orgánica  13/1982,  de  10  de  agosto,  de  reintegración  y  amejoramiento  del  Régimen
@@ -4732,7 +4788,8 @@ imparcialidad  e  independencia  de  los  órganos  de  selección,  así  como 
 
 Página 57
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 equilibrada entre mujeres y hombres en los mismos, la adecuación de los contenidos de las
@@ -4799,10 +4856,11 @@ instituciones de educación superior, entidades o empresas.
 
 Página 58
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO X
+## TÍTULO X {#titulo-x}
 
 Régimen específico de las universidades privadas
 
@@ -4883,7 +4941,8 @@ modificación  de  las  condiciones  esenciales  del  reconocimiento  o  de  la 
 
 Página 59
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 adscripción  y  será  causa  de  su  revocación  por  parte  de  la  Comunidad  Autónoma
@@ -4963,7 +5022,8 @@ mayoritariamente  con  fondos  públicos,  hará  pública  una  versión  digit
 
 Página 60
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 finales  que  hayan  sido  aceptados  para  su  publicación  en  revistas  y  otras  publicaciones
@@ -5042,7 +5102,8 @@ del desarrollo de programas de posgrado y formación a lo largo de la vida.
 
 Página 61
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. De acuerdo con su objeto y dada su especificidad en el sistema universitario español,
@@ -5118,7 +5179,8 @@ formación  de  los  futuros/as  oficiales  de  las  Fuerzas  Armadas.  Asimismo
 
 Página 62
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Universitarios de la Defensa desarrollarán líneas de investigación consideradas de interés en
@@ -5191,7 +5253,8 @@ supresión y funcionamiento de los colegios mayores de fundación directa, y el 
 
 Página 63
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 de  adscripción  de  los  colegios  mayores  adscritos,  que  gozarán  de  los  beneficios  o
@@ -5264,7 +5327,8 @@ Universidad prevista en el artículo 69.
 
 Página 64
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Los  Profesores  y  Profesoras  Titulares  de  Escuela  Universitaria  que,  a  la  entrada  en
@@ -5339,7 +5403,8 @@ su normativa de desarrollo, en la Comunicación de la Comisión Guía técnica (
 
 Página 65
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 sobre  la  aplicación  del  principio  de  «no  causar  un  perjuicio  significativo»,  así  como  con  lo
@@ -5409,7 +5474,8 @@ como lo dispuesto en la disposición transitoria cuarta.
 
 Página 66
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición transitoria cuarta.  Adaptación de las nuevas acreditaciones.
@@ -5481,7 +5547,8 @@ relativo al plan de incremento del gasto público en educación.
 
 Página 67
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  transitoria  séptima.    Proceso  de  estabilización  de  plazas  de  Profesoras  y
@@ -5553,7 +5620,8 @@ de diciembre, las universidades públicas deberán articular procesos de estabil
 
 Página 68
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 plazas  de  su  personal  técnico,  de  gestión  y  de  administración  y  servicios.  El  sistema  de
@@ -5620,7 +5688,8 @@ a) La Ley Orgánica 6/2001, de 21 de diciembre, de Universidades.
 
 Página 69
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 b)  La  Ley  Orgánica  4/2007,  de  12  de  abril,  por  la  que  se  modifica  la  Ley  Orgánica
@@ -5714,7 +5783,8 @@ a
 
 Página 70
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición final tercera.  Modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre
@@ -5790,7 +5860,8 @@ visados.»
 
 Página 71
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  final  cuarta.    Modificación  de  la  Ley  33/2011,  de  4  de  octubre,  General  de
@@ -5866,7 +5937,8 @@ aprobación de las normas básicas para el desarrollo del artículo 27 de la Con
 
 Página 72
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 de  garantizar  el  cumplimiento  de  las  obligaciones  de  los  poderes  públicos  en  esta  materia,
@@ -5935,7 +6007,8 @@ dependientes de las mencionadas entidades religiosas.
 
 Página 73
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. Del mismo modo se podrán reconocer otros acuerdos siempre que en ellos se recoja

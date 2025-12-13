@@ -82,7 +82,8 @@ Artículo 6. Leyes de Función Pública.
 
 Página 1
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 7. Normativa aplicable al personal laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -221,10 +222,11 @@ Artículo 30. Deducción de retribuciones. . . . . . . . . . . . . . . . . . . .
 
 Página 2
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO IV. Derecho a la negociación colectiva, representación y participación institucional. Derecho de
+### CAPÍTULO IV. Derecho a la negociación colectiva, representación y participación institucional. Derecho de {#capitulo-iv-derecho-negociacion}
 reunión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 Artículo 31. Principios generales.
@@ -360,7 +362,8 @@ CAPÍTULO I. Acceso al empleo público y adquisición de la relación de servici
 
 Página 3
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 55. Principios rectores.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -506,7 +509,8 @@ Artículo 80. Libre designación con convocatoria pública del personal funciona
 
 Página 4
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 81. Movilidad del personal funcionario de carrera.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -646,7 +650,8 @@ Disposición adicional séptima. Planes de igualdad.
 
 Página 5
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición adicional octava.
@@ -769,7 +774,8 @@ Disposición final cuarta. Entrada en vigor. . . . . . . . . . . . . . . . . . .
 
 Página 6
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 TEXTO CONSOLIDADO
@@ -842,7 +848,8 @@ habían producido con anterioridad.
 
 Página 7
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 En  su  virtud,  a  propuesta  del  Ministro  de  Hacienda  y  Administraciones  Públicas,  de
@@ -931,7 +938,8 @@ transitoria sexta de dicho texto refundido.
 
 Página 8
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Por  último,  la  entrada  en  vigor,  tanto  del  apartado  2  del  artículo  50  como  de  la
@@ -948,7 +956,7 @@ FELIPE R.
 TEXTO  REFUNDIDO  DE  LA  LEY  DEL  ESTATUTO  BÁSICO  DEL  EMPLEADO
 PÚBLICO
 
-TÍTULO I
+## TÍTULO I {#titulo-i}
 
 Objeto y ámbito de aplicación
 
@@ -1018,7 +1026,8 @@ capítulo II del título III, salvo el artículo 20, y los artículos 22.3, 24 y
 
 Página 9
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  Cada  vez  que  este  Estatuto  haga  mención  al  personal  funcionario  de  carrera  se
@@ -1107,14 +1116,15 @@ caso, corresponderían por los mismos supuestos de hecho.
 
 Página 10
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO II
+## TÍTULO II {#titulo-ii}
 
 Personal al servicio de las Administraciones Públicas
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-ii-capitulo-i}
 
 Clases de personal
 
@@ -1190,7 +1200,8 @@ d) Por la finalización de la causa que dio lugar a su nombramiento.
 
 Página 11
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  En  el  supuesto  previsto  en  el  apartado  1.a),  las  plazas  vacantes  desempeñadas  por
@@ -1255,7 +1266,7 @@ Función Pública o para la promoción interna.
 
 condición, el régimen general de los funcionarios de carrera.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-ii-capitulo-ii}
 
 Personal directivo
 
@@ -1266,7 +1277,8 @@ establecer,  en  desarrollo  de  este  Estatuto,  el  régimen  jurídico  espec
 
 Página 12
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 directivo así como los criterios para determinar su condición, de acuerdo, entre otros, con los
@@ -1291,9 +1303,9 @@ laboral de carácter especial de alta dirección.
 
 Derechos y deberes. Código de conducta de los empleados públicos
 
-TÍTULO III
+## TÍTULO III {#titulo-iii}
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-iii-capitulo-i}
 
 Derechos de los empleados públicos
 
@@ -1349,7 +1361,8 @@ l) A recibir protección eficaz en materia de seguridad y salud en el trabajo.
 
 Página 13
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 m) A las vacaciones, descansos, permisos y licencias.
@@ -1388,7 +1401,7 @@ e) Al de reunión, en los términos establecidos en el artículo 46 de este Esta
 Derecho  a  la  carrera  profesional  y  a  la  promoción  interna.  La  evaluación  del
 desempeño
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-iii-capitulo-ii}
 
 Artículo  16.    Concepto,  principios  y  modalidades  de  la  carrera  profesional  de  los
 funcionarios de carrera.
@@ -1439,7 +1452,8 @@ siguientes reglas:
 
 Página 14
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a)  Se  articulará  un  sistema  de  grados,  categorías  o  escalones  de  ascenso  fijándose  la
@@ -1519,10 +1533,11 @@ las
 
 Página 15
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-iii-capitulo-iii}
 
 Derechos retributivos
 
@@ -1599,7 +1614,8 @@ d) Los servicios extraordinarios prestados fuera de la jornada normal de trabajo
 
 Página 16
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 25.  Retribuciones de los funcionarios interinos.
@@ -1670,7 +1686,7 @@ representación  y  participación
 
 institucional. Derecho de reunión
 
-CAPÍTULO IV
+### CAPÍTULO IV {#titulo-iii-capitulo-iv}
 
 Artículo 31.  Principios generales.
 
@@ -1688,7 +1704,8 @@ interlocución entre las Administraciones Públicas y sus empleados.
 
 Página 17
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  Por  participación  institucional,  a  los  efectos  de  esta  ley,  se  entiende  el  derecho  a
@@ -1768,7 +1785,8 @@ cabo en el ámbito correspondiente.
 
 Página 18
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Asimismo,  una  Administración  o  Entidad  Pública  podrá  adherirse  a  los  acuerdos
@@ -1846,7 +1864,8 @@ Negociación  de  las  Administraciones  Públicas  el  incremento  global  de  
 
 Página 19
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 personal al servicio de las Administraciones Públicas que corresponda incluir en el Proyecto
@@ -1933,7 +1952,8 @@ d) Los poderes de dirección y control propios de la relación jerárquica.
 
 Página 20
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 e)  La  regulación  y  determinación  concreta,  en  cada  caso,  de  los  sistemas,  criterios,
@@ -2012,7 +2032,8 @@ de las circunstancias económicas, los órganos de gobierno de las Administracio
 
 Página 21
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 suspendan  o  modifiquen  el  cumplimiento  de  Pactos  y  Acuerdos  ya  firmados,  en  la  medida
@@ -2095,7 +2116,8 @@ trabajo, así como en el régimen de vacaciones y permisos.
 
 Página 22
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 e) Vigilar el cumplimiento de las normas vigentes en materia de condiciones de trabajo,
@@ -2170,7 +2192,8 @@ capacidad representativa de los Sindicatos.
 
 Página 23
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 43.  Promoción de elecciones a Delegados y Juntas de Personal.
@@ -2249,7 +2272,8 @@ las mismas.
 
 Página 24
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Mediante  el  procedimiento  de  arbitraje  las  partes  podrán  acordar  voluntariamente
@@ -2293,7 +2317,7 @@ La  celebración  de  la  reunión  no  perjudicará  la  prestación  de  los  
 
 convocantes de la misma serán responsables de su normal desarrollo.
 
-CAPÍTULO V
+### CAPÍTULO V {#titulo-iii-capitulo-v}
 
 Derecho a la jornada de trabajo, permisos y vacaciones
 
@@ -2325,7 +2349,8 @@ términos  de  las  normas  que  se  dicten  en  desarrollo  de  este  Estatuto,
 
 Página 25
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 negociación  colectiva  en  el  ámbito  correspondiente  y  contemplarán  criterios  objetivos  en  el
@@ -2410,7 +2435,8 @@ guarda con fines de adopción o acogimiento múltiple.
 
 Página 26
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 g) Por nacimiento de hijos prematuros o que por cualquier otra causa deban permanecer
@@ -2496,7 +2522,8 @@ voluntad de la madre, en períodos semanales a disfrutar de forma acumulada o in
 
 Página 27
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 y ejercitarse desde la finalización del descanso obligatorio posterior al parto hasta que el hijo
@@ -2585,7 +2612,8 @@ disfrute, un preaviso de al menos quince días y se realizará por semanas compl
 
 Página 28
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 En el caso de las semanas a que se refiere el párrafo 3.º, cuando concurran en ambas
@@ -2669,7 +2697,8 @@ tiempo  parcial,  cuando  las  necesidades  del  servicio  lo  permitan,  y  en 
 
 Página 29
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 reglamentariamente  se  determinen,  conforme  a  las  reglas  establecidas  en  el  presente
@@ -2746,7 +2775,8 @@ objeto  de  acogimiento  permanente  o  guarda  con  fines  de  adopción  cumpl
 
 Página 30
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 estos efectos, el mero cumplimiento de los 18 años del hijo o del menor sujeto a acogimiento
@@ -2827,7 +2857,8 @@ antelación de quince días y realizándose por semanas completas.
 
 Página 31
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Cuando  concurran  en  ambas  personas  progenitoras,  adoptantes,  o  acogedoras,  por  el
@@ -2873,7 +2904,7 @@ Para  el  régimen  de  jornada  de  trabajo,  permisos  y  vacaciones  del  per
 
 estará a lo establecido en este capítulo y en la legislación laboral correspondiente.
 
-CAPÍTULO VI
+### CAPÍTULO VI {#titulo-iii-capitulo-vi}
 
 Deberes de los empleados públicos. Código de Conducta
 
@@ -2908,7 +2939,8 @@ se fundamentará en consideraciones objetivas orientadas hacia la imparcialidad 
 
 Página 32
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 común,  al  margen  de  cualquier  otro  factor  que  exprese  posiciones  personales,  familiares,
@@ -2996,7 +3028,8 @@ unidad  en  la  que  estén  destinados.  A  estos  efectos  se  podrá  prever 
 
 Página 33
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 instancia  adecuada  competente  para  centralizar  la  recepción  de  las  propuestas  de  los
@@ -3006,13 +3039,13 @@ empleados públicos o administrados que sirvan para mejorar la eficacia en el se
 
 oficial en el territorio.
 
-TÍTULO IV
+## TÍTULO IV {#titulo-iv}
 
 Adquisición y pérdida de la relación de servicio
 
 Acceso al empleo público y adquisición de la relación de servicio
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-iv-capitulo-i}
 
 Artículo 55.  Principios rectores.
 
@@ -3072,7 +3105,8 @@ caso, habrán de establecerse de manera abstracta y general.
 
 Página 34
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 57.  Acceso al empleo público de nacionales de otros Estados.
@@ -3145,7 +3179,8 @@ paridad entre mujer y hombre.
 
 Página 35
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  El  personal  de  elección  o  de  designación  política,  los  funcionarios  interinos  y  el
@@ -3229,7 +3264,8 @@ Oficial correspondiente.
 
 Página 36
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 c)  Acto  de  acatamiento  de  la  Constitución  y,  en  su  caso,  del  Estatuto  de  Autonomía
@@ -3242,7 +3278,7 @@ d) Toma de posesión dentro del plazo que se establezca.
 quedarán  sin  efecto  las  actuaciones  relativas  a  quienes  no  acrediten,  una  vez  superado  el
 proceso selectivo, que reúnen los requisitos y condiciones exigidos en la convocatoria.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-iv-capitulo-ii}
 
 Pérdida de la relación de servicio
 
@@ -3303,7 +3339,8 @@ propias  de  su  cuerpo  o  escala,  o  por  el  reconocimiento  de  una  pensi�
 
 Página 37
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 permanente  absoluta  o,  incapacidad  permanente  total  en  relación  con  el  ejercicio  de  las
@@ -3347,11 +3384,11 @@ inhabilitación, atendiendo a las circunstancias y entidad del delito cometido. 
 plazo  para  dictar  la  resolución,  no  se  hubiera  producido  de  forma  expresa,  se  entenderá
 desestimada la solicitud.
 
-TÍTULO V
+## TÍTULO V {#titulo-v}
 
 Ordenación de la actividad profesional
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-v-capitulo-i}
 
 Planificación de recursos humanos
 
@@ -3381,7 +3418,8 @@ puestos limitados a personal de ámbitos que se determinen.
 
 Página 38
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 d) Medidas de promoción interna y de formación del personal y de movilidad forzosa de
@@ -3435,7 +3473,7 @@ protección de datos de carácter personal.
 técnica,  la  Administración  General  del  Estado  y  las  Comunidades  Autónomas  cooperarán
 con aquéllas a los efectos contemplados en este artículo.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-v-capitulo-ii}
 
 Estructuración del empleo público
 
@@ -3459,7 +3497,8 @@ necesidades del servicio lo justifiquen sin merma en las retribuciones.
 
 Página 39
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3.  Los  puestos  de  trabajo  podrán  agruparse  en  función  de  sus  características  para
@@ -3516,7 +3555,7 @@ Artículo 77.  Clasificación del personal laboral.
 
 El personal laboral se clasificará de conformidad con la legislación laboral.
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-v-capitulo-iii}
 
 Provisión de puestos de trabajo y movilidad
 
@@ -3543,7 +3582,8 @@ trabajo y supresión de los mismos.
 
 Página 40
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo  79.    Concurso  de  provisión  de  los  puestos  de  trabajo  del  personal  funcionario  de
@@ -3616,7 +3656,8 @@ establecidas reglamentariamente para los traslados forzosos.
 
 Página 41
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3. En caso de urgente e inaplazable necesidad, los puestos de trabajo podrán proveerse
@@ -3688,7 +3729,8 @@ en  la  situación  administrativa  de  servicio  en  otras  Administraciones  P
 
 Página 42
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 supuestos  de  remoción  o  supresión  del  puesto  de  trabajo  obtenido  por  concurso,
@@ -3712,7 +3754,7 @@ De  no  solicitarse  el  reingreso  al  servicio  activo  en  el  plazo  indicad
 oficio  en  situación  de  excedencia  voluntaria  por  interés  particular,  con  efectos  desde  el  día
 siguiente a que hubiesen cesado en el servicio activo en la Administración de destino.
 
-TÍTULO VI
+## TÍTULO VI {#titulo-vi}
 
 Situaciones administrativas
 
@@ -3758,7 +3800,8 @@ la normativa de función pública de la Administración Pública en que presten 
 
 Página 43
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 87.  Servicios especiales.
@@ -3843,7 +3886,8 @@ que pertenezcan. Tendrán, asimismo, los derechos que cada Administración Públ
 
 Página 44
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 establecer  en  función  del  cargo  que  haya  originado  el  pase  a  la  mencionada  situación.  En
@@ -3918,7 +3962,8 @@ e) Excedencia por razón de violencia terrorista.
 
 Página 45
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Los  funcionarios  de  carrera  podrán  obtener  la  excedencia  voluntaria  por  interés
@@ -3994,7 +4039,8 @@ previos y sin que sea exigible plazo de permanencia en la misma.
 
 Página 46
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Durante los seis primeros meses tendrán derecho a la reserva del puesto de trabajo que
@@ -4058,7 +4104,7 @@ Los  convenios  colectivos  podrán  determinar  la  aplicación  de  este  cap�
 incluido  en  su  ámbito  de  aplicación  en  lo  que  resulte  compatible  con  el  Estatuto  de  los
 Trabajadores.
 
-TÍTULO VII
+## TÍTULO VII {#titulo-vii}
 
 Régimen disciplinario
 
@@ -4070,7 +4116,8 @@ desarrollo de este Estatuto.
 
 Página 47
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. Los funcionarios públicos o el personal laboral que indujeren a otros a la realización de
@@ -4163,7 +4210,8 @@ constituyan infracción manifiesta del Ordenamiento jurídico.
 
 Página 48
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 j) La prevalencia de la condición de empleado público para obtener un beneficio indebido
@@ -4251,7 +4299,8 @@ cometido, y desde el cese de su comisión cuando se trate de faltas continuadas.
 
 Página 49
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 El de las sanciones, desde la firmeza de la resolución sancionadora.
@@ -4309,7 +4358,7 @@ computará  como  de  servicio  activo,  debiendo  acordarse  la  inmediata  rei
 funcionario a su puesto de trabajo, con reconocimiento de todos los derechos económicos y
 demás que procedan desde la fecha de suspensión.
 
-TÍTULO VIII
+## TÍTULO VIII {#titulo-viii}
 
 Cooperación entre las Administraciones Públicas
 
@@ -4335,7 +4384,8 @@ trabajo dependiente de la Conferencia Sectorial de Administración Pública. En 
 
 Página 50
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 se hará efectiva la coordinación de la política de personal entre la Administración General del
@@ -4413,7 +4463,8 @@ régimen de permanencia y cese.
 
 Página 51
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 d) La determinación de las faltas y sanciones disciplinarias leves.
@@ -4484,7 +4535,8 @@ cada Administración Pública.
 
 Página 52
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición adicional novena.
@@ -4563,7 +4615,8 @@ segundo del artículo 33.1 de este Estatuto, cuya representación se distribuir�
 
 Página 53
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 los  resultados  obtenidos  en  las  elecciones  a  los  órganos  de  representación  propios  del
@@ -4636,7 +4689,8 @@ de  sus  retribuciones  fijas  por  año  de  servicio,  prorrateándose  por  m
 
 Página 54
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 tiempo  inferiores  a  un  año,  hasta  un  máximo  de  doce  mensualidades.  El  derecho  a  esta
@@ -4708,7 +4762,8 @@ Grupo D: Subgrupo C2.
 
 Página 55
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Grupo  E:  Agrupaciones  Profesionales  a  que  hace  referencia  la  disposición  adicional
@@ -4785,7 +4840,8 @@ artículo 49 de la presente norma, en la redacción dada por el Real Decreto-ley
 
 Página 56
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 de  marzo,  de  medidas  urgentes  para  garantía  de  la  igualdad  de  trato  y  de  oportunidades
@@ -4861,7 +4917,8 @@ amparo del artículo 149.1.7.ª de la Constitución, por lo que se refiere a la 
 
 Página 57
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 y  al  amparo  del  artículo  149.1.13.ª  de  la  Constitución,  bases  y  coordinación  de  la

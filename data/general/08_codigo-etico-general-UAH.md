@@ -45,7 +45,8 @@ administración y servicios.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  1
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
+
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
 4º.- Código de conducta ante el acoso sexual y por razón de sexo en la Universidad de
 Alcalá, aprobado por la Comisión Delegada de la Unidad de Igualdad de la UAH en fecha 11
@@ -96,7 +97,8 @@ servir de orientación y guía inspiradora de los comportamientos y conductas qu
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  2
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
+
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
 totalidad  de  miembros  de  la  comunidad  que  conforma  la  Universidad  de  Alcalá  –estudiantes,
 profesores, investigadores, personal de administración y servicios y responsables de la gestión- en
@@ -144,11 +146,12 @@ Universidad de Alcalá que se inserta a continuación.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  3
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
-TÍTULO I
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
-Capítulo Primero
+## TÍTULO I {#titulo-i}
+
+### Capítulo Primero {#titulo-i-capitulo-primero}
 
 VALORES ÉTICOS DE LOS MIEMBROS
 DE LA COMUNIDAD UNIVERSITARIA
@@ -176,7 +179,7 @@ Artículo 5.- El personal docente e investigador asumirá la especial responsabi
 promover  en  la  formación  de  los  estudiantes  todos  los  valores  éticos  reflejados  en  este  Código,
 fomentando su crecimiento en estos valores y su inquietud por el respeto y defensa de los mismos.
 
-Capítulo Segundo
+### Capítulo Segundo {#titulo-i-capitulo-segundo}
 
 FOMENTO DE LOS VALORES ÉTICOS DE LOS ESTUDIANTES
 
@@ -195,7 +198,8 @@ d)  Sean responsables, dispuestos a asumir sus actos y consecuencias.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  4
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
+
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
 e)  Sean leales con la institución, así como en el cumplimiento de todas sus obligaciones como
 discentes,  cultivando  el  respeto  a  la  integridad  de  los  restantes  miembros  de  la
@@ -206,9 +210,9 @@ uno dentro de su ámbito funcional, promoverá que los estudiantes tengan sentid
 conozcan la legalidad, de manera que puedan actuar racionalmente y con objetividad e imparcialidad
 en la resolución de sus diferencias con los otros implicados.
 
-TÍTULO II
+## TÍTULO II {#titulo-ii}
 
-Capítulo Primero
+### Capítulo Primero {#titulo-ii-capitulo-primero}
 
 PRINCIPIOS ÉTICOS Y DE CONDUCTA
 DEL PERSONAL AL SERVICIO DE LA UNIVERSIDAD DE ALCALÁ
@@ -245,7 +249,8 @@ caso se derive de ello beneficio para su entorno familiar o social inmediato, ni
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  5
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
+
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
 titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya
 más allá de los usos habituales, sociales y de cortesía.
@@ -264,7 +269,7 @@ adecuadamente los recursos públicos, que sólo podrán ser utilizados con la fi
 hayan sido asignados. La administración de los recursos y bienes públicos estará presidida por el
 principio de austeridad.
 
-Capítulo Segundo
+### Capítulo Segundo {#titulo-ii-capitulo-segundo}
 
 PRINCIPIOS DE BUEN GOBIERNO
 
@@ -288,7 +293,7 @@ ni  se  valdrán  de  su  posición  en  la  Universidad  para  obtener  ventaja
 absteniéndose  de  intervenir  en  los  asuntos  en  que  concurra  alguna  causa que  pueda  afectar  a  su
 dignidad.
 
-TÍTULO III
+## TÍTULO III {#titulo-iii}
 
 COMITÉ DE ÉTICA
 
@@ -298,7 +303,8 @@ Código.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  6
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
+
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
 Artículo  18.-  El  Comité  de  Ética  de  la  Universidad  de  Alcalá  se  compone  de  los  siguientes
 miembros:
@@ -323,7 +329,7 @@ soliciten  dos  terceras  partes  de  sus  miembros  o  lo  acuerde  el  Preside
 anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad,
 para su conocimiento y de toda la comunidad universitaria.
 
-TÍTULO IV
+## TÍTULO IV {#titulo-iv}
 
 AUDITORÍAS
 
@@ -353,7 +359,8 @@ el desarrollo de los procedimientos de concurrencia competitiva.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                                  7
 
-AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
+
+AÑO XII                   Número 6                                                                                    Martes, 4 julio 2017
 
 - Conflictividad académica y sus causas.
 
@@ -374,7 +381,7 @@ Artículo  22.-  Corresponderá  al  Comité  de  Ética  promover  la  realizac
 diferentes  ámbitos,  con  la  periodicidad  que  se  estime  igualmente  por  parte  de  este  órgano.  Los
 informes emitidos serán remitidos al Consejo de Gobierno.
 
-TÍTULO V
+## TÍTULO V {#titulo-v}
 
 CONTROL DEL CUMPLIMIENTO DEL CÓDIGO ÉTICO
 DE LA UNIVERSIDAD DE ALCALÁ

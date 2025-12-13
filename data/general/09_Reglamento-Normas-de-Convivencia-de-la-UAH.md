@@ -55,7 +55,8 @@ de Convivencia, con representación paritaria de los distintos sectores de la Co
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             1
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 V. La Universidad de Alcalá es una Institución de derecho público encargada de la prestación del servicio
 público de la educación superior, que desarrolla mediante la investigación, la docencia y el estudio.
@@ -109,9 +110,10 @@ Consejo de Gobierno de 28 de octubre de 2021.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             2
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
 
-TÍTULO PRELIMINAR
+AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+## TÍTULO PRELIMINAR {#titulo-preliminar}
 
 SECCIÓN PRIMERA DISPOSICIONES GENERALES
 
@@ -167,7 +169,8 @@ velará por el cumplimiento de las presentes Normas de Convivencia.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             3
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 2. Las solicitudes de intervención en relación con conflictos de convivencia, tendrán que dirigirse a la
 atención de la Presidencia de la Comisión de Convivencia, por alguno de los siguientes medios: por correo
@@ -223,7 +226,8 @@ para contribuir a la correcta aplicación de las presentes Normas de Convivencia
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             4
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 Artículo 8. Comisión de Prevención del Acoso Laboral
 La Comisión de Prevención del Acoso Laboral actuará de conformidad con lo dispuesto en el Protocolo
@@ -240,7 +244,7 @@ El Servicio de Prevención de Riesgos Laborales de la Universidad promoverá cua
 precisas para  que  el  desarrollo de  las actividades que  se  realizan en  el  ámbito de  esta  institución sea
 seguro y contribuya a mejorar la salud y el bienestar de la comunidad universitaria.
 
-TÍTULO PRIMERO. DE LAS NORMAS DE CONVIVENCIA
+## TÍTULO PRIMERO. DE LAS NORMAS DE CONVIVENCIA {#titulo-primero-normas-convivencia}
 
 SECCIÓN PRIMERA. PRINCIPIOS
 
@@ -283,7 +287,8 @@ cumplimiento de los valores medioambientales y de desarrollo sostenible.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             5
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 2. La actuación de todas las personas de la comunidad universitaria estará presidida por la honradez,
 veracidad, rigor, justicia, eficiencia, respeto y responsabilidad, velando, especialmente, por la protección
@@ -340,7 +345,8 @@ Universidad de Alcalá como Patrimonio de la Humanidad por la UNESCO.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             6
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 Artículo 15. Normas básicas de convivencia del estudiantado de la Universidad de Alcalá
 1. El estudiantado debe comportarse en clase correctamente, cumpliendo las normas que el profesorado
@@ -399,7 +405,8 @@ que vaya más allá de los usos habituales, sociales y de cortesía.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             7
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 6. El personal ejercerá sus funciones según el principio de dedicación al servicio público, absteniéndose
 de  conductas  contrarias  al  mismo  y  de  cualesquiera  otras  que  comprometan  la  neutralidad  en  la
@@ -458,7 +465,8 @@ especializado de apoyo y asesoramiento con el objeto de impulsar el desarrollo, 
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             8
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 de  todas aquellas actuaciones adoptadas en y desde  la Universidad  de Alcalá que favorezcan la plena
 inclusión de las personas de la comunidad universitaria con diversidad.
@@ -520,7 +528,8 @@ sexual, por razón de sexo, orientación sexual o identidad de género en el ám
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             9
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 Alcalá”, con el fin de facilitar la resolución de cualquier duda sobre el procedimiento de actuación frente
 a posibles situaciones de acoso y/o discriminación.
@@ -580,7 +589,8 @@ precoz de conflictos y procedimientos específicos para la resolución de los mi
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             10
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 medidas preventivas y recomendaciones recogidas en las correspondientes evaluaciones de riesgos
 laborales, especialmente en lo que al ámbito psicosocial se refiere.
@@ -641,7 +651,8 @@ violencia, acoso y/o discriminación.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             11
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 5. Elaborará planes de formación en materia de prevención violencia, discriminación y acoso por origen
 nacional,  pertenencia  a  grupo  étnico,  discapacidad,  edad,  estado  de  salud,  clase  social,  religión  o
@@ -656,7 +667,7 @@ evaluación de riesgos, que permitan su prevención.
 SECCIÓN PRIMERA. DE LOS MEDIOS ALTERNATIVOS DE SOLUCIÓN DE LOS
 CONFLICTOS DE CONVIVENCIA
 
-TÍTULO SEGUNDO
+## TÍTULO SEGUNDO {#titulo-segundo}
 
 Artículo 24.  Medios alternativos de solución de los conflictos de convivencia
 1. En cumplimiento de lo dispuesto de la Ley 3/2022, de 24 de febrero, de convivencia universitaria, se
@@ -700,7 +711,8 @@ de  la  persona  interesada,  una  vez  acreditado  el  haber  superado  el  cur
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             12
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ofertado  por  la  Universidad.  La  persona  integrante  de  la  Comisión  de  Convivencia  que  solicite  su
 inscripción en el Registro se abstendrá en la decisión que concierna a su inscripción.
@@ -759,7 +771,8 @@ administración y servicios para la mejora de la convivencia, y formular propues
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             13
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 2. Promover la utilización del mecanismo de mediación para intentar dar respuesta a los conflictos que
 pudieran plantearse entre miembros de la comunidad universitaria pertenecientes al mismo o diferente
@@ -820,7 +833,8 @@ Alcalá.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             14
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 2. El procedimiento de mediación, a solicitud de las partes en conflicto, para intentar dar respuesta a los
 conflictos  que  pudieran  plantearse  entre  miembros  de  la  comunidad  universitaria  pertenecientes  al
@@ -877,7 +891,8 @@ prorrogarse  una  vez  por  un  plazo  máximo  de  cinco  días  cuando  concur
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             15
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 excepcional que deberán acreditarse en el acuerdo de prórroga, que tendrá que contar con la aceptación
 de las partes.
@@ -937,7 +952,8 @@ artículo 25.2 de este reglamento y el correspondiente Registro de Personas Medi
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             16
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 Convivencia  podrá  proponer  a  las  partes  la  persona  mediadora  que  considere  más  adecuada  por  sus
 conocimientos y competencias, en cada caso, para la mediación.
@@ -948,14 +964,16 @@ su publicación en el Boletín Oficial de la Universidad de Alcalá.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             17
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ANEXO  I.  ESCRITO  DE  SOLICITUD  DE  INTERVENCIÓN  DE  LA  COMISIÓN  DE
 CONVIVENCIA
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             18
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 DOC I. SOLICITUD DE INTERVENCIÓN
 
@@ -995,7 +1013,8 @@ Henares. Madrid) o por correo electrónico (secre.gene@uah.es)
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             19
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ANEXO
 SOLICITANDO MEDIACIÓN
@@ -1049,7 +1068,8 @@ Española de Protección de Datos. Para una información más detallada puede co
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             20
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ANEXO III. FORMULARIOS DE SOLICITUD Y DENUNCIA DEL PROTOCOLO PARA LA
 PREVENCIÓN  Y  ACTUACIÓN  FRENTE  AL  ACOSO   LABORAL  EN  EL  ÁMBITO  DE  LA
@@ -1057,7 +1077,8 @@ UNIVERSIDAD DE ALCALÁ
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             21
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 SOLICITUD DE INTERVENCIÓN
 (Anexo III.A)
@@ -1106,7 +1127,8 @@ información más detallada puede consultarse la Política de Privacidad de la U
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             22
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 DENUNCIA
 (Anexo III.B)
@@ -1165,7 +1187,8 @@ Otros datos:
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             23
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 Descripción (breve) de los hechos o situaciones que motivan la denuncia:
 
@@ -1193,7 +1216,8 @@ información más detallada puede consultarse la Política de Privacidad de la U
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             24
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ANEXO  IV.  FORMULARIOS  DE  SOLICITUD  Y  DENUNCIA  DEL  PROTOCOLO  DE
 PREVENCIÓN  Y  ACTUACIÓN  FRENTE  AL  ACOSO  SEXUAL,  POR  RAZÓN  DE  SEXO,
@@ -1202,7 +1226,8 @@ UNIVERSIDAD DE ALCALÁ
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             25
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 SOLICITUD DE INTERVENCIÓN
 (Anexo al Protocolo I.1)
@@ -1241,7 +1266,8 @@ de Henares. Madrid) o por correo electrónico (secre.gene@uah.es)
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             26
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ANEXO I.2 al Protocolo
 (Solicitud de intervención)
@@ -1287,7 +1313,8 @@ Puesto de trabajo o titulación que cursa:
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             27
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 Descripción (breve) de los hechos o situaciones que motivan la denuncia:
 
@@ -1310,7 +1337,8 @@ de Henares. Madrid) o por correo electrónico (secre.gene@uah.es)
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             28
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 ANEXO  V.  FORMULARIOS  DE  SOLICITUD  Y  DENUNCIA  DEL  PROTOCOLO  DE
 PREVENCIÓN,  ACTUACIÓN  Y  ERRADICACIÓN  DE  DISCRIMINACIÓN,  VIOLENCIA  O
@@ -1318,7 +1346,8 @@ ACOSO POR DIVERSIDAD EN LA UNIVERSIDAD DE ALCALÁ
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             29
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 I. FORMULARIO DE SOLICITUD DE INTERVENCIÓN
 
@@ -1355,7 +1384,8 @@ protecciondedatos@uah.es, adjuntando copia del DNI o equivalente.
 
 Boletín Oficial de la Universidad de Alcalá                                                                                             30
 
-AÑO XIX                                  Número 3                                                                                Marzo 2024
+
+AÑO XIX                                  Número 3                                                                                Marzo 2024
 
 II. FORMULARIO DE DENUNCIA
 

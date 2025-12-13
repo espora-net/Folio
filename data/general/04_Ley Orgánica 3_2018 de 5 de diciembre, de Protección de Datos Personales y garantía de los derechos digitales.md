@@ -89,7 +89,8 @@ Artículo 12. Disposiciones generales sobre ejercicio de los derechos.. . . . . 
 
 Página 1
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 13. Derecho de acceso.
@@ -221,7 +222,8 @@ Artículo 36. Posición del delegado de protección de datos.. . . . . . . . . .
 
 Página 2
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo  37.  Intervención  del  delegado  de  protección  de  datos  en  caso  de  reclamación  ante  las
@@ -360,7 +362,8 @@ Sección 1.ª Disposiciones generales . . . . . . . . . . . . . . . . . . . . . 
 
 Página 3
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 57. Autoridades autonómicas de protección de datos.
@@ -492,7 +495,8 @@ Artículo 82. Derecho a la seguridad digital. . . . . . . . . . . . . . . . . . 
 
 Página 4
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 83. Derecho a la educación digital.
@@ -622,7 +626,8 @@ Disposición adicional undécima. Privacidad en las comunicaciones electrónicas
 
 Página 5
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  adicional  duodécima.  Disposiciones  específicas  aplicables  a  los  tratamientos  de  los
@@ -753,7 +758,8 @@ Disposición final quinta. Modificación de la Ley 14/1986, de 25 de abril, Gene
 
 Página 6
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  final  sexta.  Modificación  de  la  Ley  29/1998,  de  13  de  julio,  reguladora  de  la  Jurisdicción
@@ -814,7 +820,8 @@ Disposición final decimosexta. Entrada en vigor. . . . . . . . . . . . . . . . 
 
 Página 7
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 TEXTO CONSOLIDADO
@@ -880,7 +887,8 @@ directiva.
 
 Página 8
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 II
@@ -950,7 +958,8 @@ seguridad  jurídica,  en  su  vertiente  positiva,  obliga  a  los  Estados  mi
 
 Página 9
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 ordenamiento europeo en el interno de una manera lo suficientemente clara y pública como
@@ -1020,7 +1029,8 @@ orgánica, que es, conforme a lo que se ha indicado, doble. Así, en primer luga
 
 Página 10
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 lograr  la  adaptación  del  ordenamiento  jurídico  español  al  Reglamento  (UE)  2016/679  del
@@ -1088,7 +1098,8 @@ mismos  puedan  ser  objeto  de  tratamiento  en  los  demás  supuestos  previs
 
 Página 11
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Reglamento  (UE)  2016/679.  Así,  por  ejemplo,  la  prestación  del  consentimiento  no  dará
@@ -1158,7 +1169,8 @@ denominación  del  Capítulo  IV  del  Reglamento,  dividiendo  el  articulado 
 
 Página 12
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 dedicados, respectivamente, a las medidas generales de responsabilidad activa, al régimen
@@ -1227,7 +1239,8 @@ conocimiento  de  los  hechos  que  se  imputan  a  la  persona,  pero  teniendo
 
 Página 13
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 problemática  derivada  de  los  procedimientos  establecidos  en  el  reglamento  europeo,  en
@@ -1298,10 +1311,11 @@ del Empleado Público.
 
 Página 14
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO I
+## TÍTULO I {#titulo-i}
 
 Disposiciones generales
 
@@ -1376,7 +1390,8 @@ al derecho de los herederos a acceder a los datos de carácter patrimonial del c
 
 Página 15
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Las  personas  o  instituciones  a  las  que  el  fallecido  hubiese  designado  expresamente
@@ -1396,7 +1411,7 @@ ejercerse,  además  de  por  quienes  señala  el  párrafo  anterior,  por  qu
 designados  para  el  ejercicio  de  funciones  de  apoyo,  si  tales  facultades  se  entendieran
 comprendidas en las medidas de apoyo prestadas por el designado.
 
-TÍTULO II
+## TÍTULO II {#titulo-ii}
 
 Principios de protección de datos
 
@@ -1454,7 +1469,8 @@ inequívoca que dicho consentimiento se otorga para todas ellas.
 
 Página 16
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 3.  No  podrá  supeditarse  la  ejecución  del  contrato  a  que  el  afectado  consienta  el
@@ -1526,7 +1542,8 @@ legal.
 
 Página 17
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  El  registro  completo  de  los  datos  referidos  a  condenas  e  infracciones  penales,  así
@@ -1541,11 +1558,11 @@ cautelares  y  de  seguridad  conexas  solo  serán  posibles  cuando  sean  lle
 abogados  y  procuradores  y  tengan  por  objeto  recoger  la  información  facilitada  por  sus
 clientes para el ejercicio de sus funciones.
 
-TÍTULO III
+## TÍTULO III {#titulo-iii}
 
 Derechos de las personas
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-iii-capitulo-i}
 
 Transparencia e información
 
@@ -1585,7 +1602,7 @@ En estos supuestos, la información básica incluirá también:
 a) Las categorías de datos objeto de tratamiento.
 b) Las fuentes de las que procedieran los datos.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-iii-capitulo-ii}
 
 Ejercicio de los derechos
 
@@ -1600,7 +1617,8 @@ a  su  disposición  para  ejercer  los  derechos  que  le  corresponden.  Los  
 
 Página 18
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 fácilmente accesibles para el afectado. El ejercicio del derecho no podrá ser denegado por el
@@ -1678,7 +1696,8 @@ mercadotecnia directa.
 
 Página 19
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 16.  Derecho a la limitación del tratamiento.
@@ -1703,7 +1722,7 @@ El  derecho  de  oposición,  así  como  los  derechos  relacionados  con  las 
 individuales automatizadas, incluida la realización de perfiles, se ejercerán de acuerdo con lo
 establecido, respectivamente, en los artículos 21 y 22 del Reglamento (UE) 2016/679.
 
-TÍTULO IV
+## TÍTULO IV {#titulo-iv}
 
 Disposiciones aplicables a tratamientos concretos
 
@@ -1758,7 +1777,8 @@ derechos establecidos en los artículos 15 a 22 del Reglamento (UE) 2016/679 den
 
 Página 20
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 treinta  días  siguientes  a  la  notificación  de  la  deuda  al  sistema,  permaneciendo  bloqueados
@@ -1836,7 +1856,8 @@ la  integridad  de  personas,  bienes  o  instalaciones.  En  tal  caso,  las  i
 
 Página 21
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 puestas  a  disposición  de  la  autoridad  competente  en  un  plazo  máximo  de  setenta  y  dos
@@ -1917,7 +1938,8 @@ actuación, excluyendo del tratamiento los datos de los afectados que hubieran m
 
 Página 22
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 su  oposición  o  negativa  al  mismo.  A  estos  efectos,  para  considerar  cumplida  la  obligación
@@ -1990,7 +2012,8 @@ perseguida por aquel.
 
 Página 23
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. Cuando no se cumpla alguna de las condiciones previstas en el apartado anterior, los
@@ -2004,13 +2027,13 @@ datos referidos a infracciones y sanciones administrativas solo serán posibles 
 llevados  a  cabo  por  abogados  y  procuradores  y  tengan  por  objeto  recoger  la  información
 facilitada por sus clientes para el ejercicio de sus funciones.
 
-TÍTULO V
+## TÍTULO V {#titulo-v}
 
 Responsable y encargado del tratamiento
 
 Disposiciones generales. Medidas de responsabilidad activa
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-v-capitulo-i}
 
 Artículo 28.  Obligaciones generales del responsable y encargado del tratamiento.
 
@@ -2064,7 +2087,8 @@ por esquemas de certificación.
 
 Página 24
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 29.  Supuestos de corresponsabilidad en el tratamiento.
@@ -2140,7 +2164,8 @@ excepciones  a  la  obligación  de  bloqueo  establecida  en  este  artículo, 
 
 Página 25
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 que,  atendida  la  naturaleza  de  los  datos  o  el  hecho  de  que  se  refieran  a  un  número
@@ -2156,7 +2181,7 @@ la  conservación  de
 
 los  que
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-v-capitulo-ii}
 
 Encargado del tratamiento
 
@@ -2198,7 +2223,7 @@ Administración Local o a los Organismos vinculados o dependientes de las mismas
 la  adopción  de  una  norma  reguladora  de  dichas  competencias,  que  deberá  incorporar  el
 contenido exigido por el artículo 28.3 del Reglamento (UE) 2016/679.
 
-CAPÍTULO III
+### CAPÍTULO III {#titulo-v-capitulo-iii}
 
 Delegado de protección de datos
 
@@ -2233,7 +2258,8 @@ ordenación, supervisión y solvencia de entidades de crédito.
 
 Página 26
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 f) Los establecimientos financieros de crédito.
@@ -2318,7 +2344,8 @@ la  presente
 
 Página 27
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2. Cuando se trate de una persona física integrada en la organización del responsable o
@@ -2368,7 +2395,7 @@ en  el  Título  VIII  de  esta  ley  orgánica  y  en  sus  normas  de  desarro
 comunidades  autónomas  regularán  el  procedimiento  correspondiente  ante  sus  autoridades
 autonómicas de protección de datos.
 
-CAPÍTULO IV
+### CAPÍTULO IV {#titulo-v-capitulo-iv}
 
 Códigos de conducta y certificación
 
@@ -2396,7 +2423,8 @@ reclamación, sin perjuicio de lo dispuesto en el artículo 37 de esta ley orgá
 
 Página 28
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 menoscabo  de  las  competencias  atribuidas  por  el  Reglamento  (UE)  2016/679  a  las
@@ -2449,7 +2477,7 @@ la Agencia Española de Protección de Datos y a las autoridades de protección 
 las  comunidades  autónomas  las  concesiones,  denegaciones  o  revocaciones  de  las
 acreditaciones, así como su motivación.
 
-TÍTULO VI
+## TÍTULO VI {#titulo-vi}
 
 Transferencias internacionales de datos
 
@@ -2467,7 +2495,8 @@ protección de datos.
 
 Página 29
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 41.  Supuestos de adopción por la Agencia Española de Protección de Datos.
@@ -2545,14 +2574,15 @@ las autoridades públicas en el ejercicio de sus poderes públicos, de acuerdo c
 
 Página 30
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO VII
+## TÍTULO VII {#titulo-vii}
 
 Autoridades de protección de datos
 
-CAPÍTULO I
+### CAPÍTULO I {#titulo-vii-capitulo-i}
 
 La Agencia Española de Protección de Datos
 
@@ -2620,7 +2650,8 @@ ejercicio de las potestades establecidos en el artículo 58 del Reglamento (UE) 
 
 Página 31
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  El  resultado  positivo  de  sus  ingresos  se  destinará  por  la  Agencia  Española  de
@@ -2695,7 +2726,8 @@ reconocida competencia profesional, en particular en materia de protección de d
 
 Página 32
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Dos meses antes de producirse la expiración del mandato o, en el resto de las causas de
@@ -2782,7 +2814,8 @@ Consejo de Transparencia y Buen Gobierno.
 
 Página 33
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 ñ) Dos expertos propuestos por las organizaciones sindicales más representativas.
@@ -2860,7 +2893,8 @@ infracción del Reglamento (UE) 2016/679 y de la presente ley orgánica.
 
 Página 34
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 En  el  supuesto  de  las  Administraciones  tributarias  y  de  la  Seguridad  Social,  la
@@ -2938,7 +2972,8 @@ programas o procedimientos de gestión y soporte del tratamiento sujetos a inves
 
 Página 35
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Cuando  fuese  necesario  el  acceso  por  el  personal  que  desarrolla  la  actividad  de
@@ -3014,7 +3049,8 @@ de  marzo,  de  la  Acción  y  del  Servicio  Exterior  del  Estado,  así  com
 
 Página 36
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 internacionales  administrativos  en  ejecución  y  concreción  de  un  tratado  internacional  y
@@ -3058,7 +3094,7 @@ datos,  en  particular  en  el  ámbito
 iberoamericano,  pudiendo  suscribir  acuerdos
 internacionales administrativos y no normativos en la materia.
 
-CAPÍTULO II
+### CAPÍTULO II {#titulo-vii-capitulo-ii}
 
 Autoridades autonómicas de protección de datos
 
@@ -3095,7 +3131,8 @@ propia  o  cuando  lo  solicite  otra  autoridad,  a  las  autoridades  autonóm
 
 Página 37
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 datos  para  contribuir  a  la  aplicación  coherente  del  Reglamento  (UE)  2016/679  y  de  la
@@ -3165,7 +3202,8 @@ documentación e información necesarias para su tramitación.
 
 Página 38
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 La  Agencia  Española  de  Protección  de  Datos  será  asistida  por  un  representante  de  la
@@ -3175,7 +3213,7 @@ autoridad autonómica interesada en su intervención ante el mencionado comité.
 Procedimientos en caso de posible vulneración de la normativa de protección
 de datos
 
-TÍTULO VIII
+## TÍTULO VIII {#titulo-viii}
 
 Artículo 63.  Régimen jurídico.
 
@@ -3237,7 +3275,8 @@ del plazo especificado.
 
 Página 39
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 El procedimiento tendrá una duración máxima de seis meses a contar desde la fecha del
@@ -3312,7 +3351,8 @@ reclamación.
 
 Página 40
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 5. La decisión sobre la admisión o inadmisión a trámite, así como la que determine, en
@@ -3384,7 +3424,8 @@ Datos actúe por propia iniciativa.
 
 Página 41
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo  68.    Acuerdo  de  inicio  del  procedimiento  para  el  ejercicio  de  la  potestad
@@ -3427,7 +3468,7 @@ mediante  resolución  motivada  y  previa  audiencia  del  responsable  del  tr
 obligación  de  atender  el  derecho  solicitado,  prosiguiéndose  el  procedimiento  en  cuanto  al
 resto de las cuestiones objeto de la reclamación.
 
-TÍTULO IX
+## TÍTULO IX {#titulo-ix}
 
 Régimen sancionador
 
@@ -3458,7 +3499,8 @@ presente ley orgánica.
 
 Página 42
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 72.  Infracciones consideradas muy graves.
@@ -3550,7 +3592,8 @@ vulneración sustancial de los artículos mencionados en aquel y, en particular,
 
 Página 43
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 a)  El  tratamiento  de  datos  personales  de  un  menor  de  edad  sin  recabar  su
@@ -3638,7 +3681,8 @@ artículo 33 del Reglamento (UE) 2016/679.
 
 Página 44
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 s)  El  incumplimiento  del  deber  de  comunicación  al  afectado  de  una  violación  de  la
@@ -3716,7 +3760,8 @@ artículo 73 c) de esta ley orgánica.
 
 Página 45
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 e) El incumplimiento de la obligación de notificación relativa a la rectificación o supresión
@@ -3805,7 +3850,8 @@ la
 
 Página 46
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Cuando la Agencia Española de Protección de Datos ostente la condición de autoridad
@@ -3891,7 +3937,8 @@ autonómicas, así como los grupos políticos de las Corporaciones Locales.
 
 Página 47
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Cuando  los  responsables  o  encargados  enumerados  en  el  apartado  1  cometiesen
@@ -3961,10 +4008,11 @@ durante más de seis meses por causa no imputable al infractor.
 
 Página 48
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
-TÍTULO X
+## TÍTULO X {#titulo-x}
 
 Garantía de los derechos digitales
 
@@ -4044,7 +4092,8 @@ derechos digitales y en particular el de protección de datos.
 
 Página 49
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 84.  Protección de los menores en Internet.
@@ -4116,7 +4165,8 @@ refiere este apartado.
 
 Página 50
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 88.  Derecho a la desconexión digital en el ámbito laboral.
@@ -4184,7 +4234,8 @@ del tratamiento y supresión.
 
 Página 51
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 91.  Derechos digitales en la negociación colectiva.
@@ -4256,7 +4307,8 @@ de que concurran las circunstancias mencionadas en el apartado 2.
 
 Página 52
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Artículo 95.  Derecho de portabilidad en servicios de redes sociales y servicios equivalentes.
@@ -4335,7 +4387,8 @@ b) impulsar la existencia de espacios de conexión de acceso público; y
 
 Página 53
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 c)  fomentar  medidas  educativas  que  promuevan  la  formación  en  competencias  y
@@ -4411,7 +4464,8 @@ siguiente.
 
 Página 54
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición adicional cuarta.  Procedimiento en relación con las competencias atribuidas a
@@ -4487,7 +4541,8 @@ la  elaboración  de  un  protocolo  de  colaboración  que  defina  procedimien
 
 Página 55
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 publicación  y  notificación  de  actos  administrativos,  con  la  participación  de  los  órganos  con
@@ -4556,7 +4611,8 @@ o  en  el  marco  de  los  convenios  para  evitar  la  doble  imposición  o  d
 
 Página 56
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 internacionales,  así  como  por  las  normas  sobre  la  asistencia  mutua  establecidas  en  el
@@ -4630,7 +4686,8 @@ b) La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales.
 
 Página 57
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 c) La Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente
@@ -4722,7 +4779,8 @@ la  biomédica,  a  los  efectos  del  artículo  89.2  del  Reglamento  (UE)  2
 
 Página 58
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 excepcionarse  los  derechos  de  los  afectados  previstos  en  los  artículos  15,  16,  18  y  21  del
@@ -4795,7 +4853,8 @@ mediante las nuevas tecnologías.
 
 Página 59
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  adicional  vigésima.    Especialidades  del  régimen  jurídico  de  la  Agencia
@@ -4870,7 +4929,8 @@ Sección  2.ª  del  Capítulo  III  del  Título  IX  del  Reglamento  de  desa
 
 Página 60
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 15/1999,  de  13  de  diciembre,  de  Protección  de  Datos  de  Carácter  Personal,  aprobado  por
@@ -4936,7 +4996,8 @@ contradigan, se opongan, o resulten incompatibles con lo dispuesto en el Reglame
 
 Página 61
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición final primera.  Naturaleza de la presente ley.
@@ -5014,7 +5075,8 @@ personales en las actividades electorales.
 
 Página 62
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 2.  Los  partidos  políticos,  coaliciones  y  agrupaciones  electorales  podrán  utilizar
@@ -5090,7 +5152,8 @@ electrónicas  disponibles  al  público  y  de  los  prestadores  de  servicios
 
 Página 63
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 de  la  información,  cuando  ello  sea  necesario  de  acuerdo  con  la  legislación
@@ -5163,7 +5226,8 @@ del que trae causa este procedimiento de autorización judicial.
 
 Página 64
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 4.  Admitida  a  trámite  la  solicitud,  el  Tribunal  competente  lo  notificará  a  la
@@ -5250,7 +5314,8 @@ asimismo  de  aplicación  cuando  la  Comisión  Europea,  la  Agencia  Españo
 
 Página 65
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Protección  de  Datos  y  las  autoridades  autonómicas  de  protección  de  datos,  en  el
@@ -5322,7 +5387,8 @@ individual y colectiva.»
 
 Página 66
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 Disposición  final  undécima.    Modificación  de  la  Ley  19/2013,  de  9  de  diciembre,  de
@@ -5402,7 +5468,8 @@ Públicas  recabarlos  electrónicamente  a  través  de  sus  redes  corporativ
 
 Página 67
 
-BOLETÍN OFICIAL DEL ESTADO
+
+BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 
 consulta a las plataformas de intermediación de datos u otros sistemas electrónicos
