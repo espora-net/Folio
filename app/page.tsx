@@ -1,7 +1,12 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight, BookOpen, Calendar, CreditCard, FileText, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { BookOpen } from "lucide-react";
+import { Calendar } from "lucide-react";
+import { CreditCard } from "lucide-react";
+import { FileText } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import AppLogo from "@/components/AppLogo";
 
 const modules = [
