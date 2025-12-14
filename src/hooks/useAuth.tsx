@@ -153,6 +153,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       setUser(null);
       setActiveUserId('guest');
       setSession(null);
+      // Redirigir a la página principal después del logout
+      window.location.href = window.location.origin;
     }
   };
 

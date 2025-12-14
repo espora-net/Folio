@@ -66,9 +66,7 @@ export async function logout(): Promise<void> {
   const authgear = await getAuthgear();
   await configureAuthgear();
   
-  await authgear.logout({
-    redirectURI: window.location.origin,
-  });
+  await authgear.logout();
 }
 
 export async function fetchUserInfo(): Promise<import('@authgear/web').UserInfo | null> {
