@@ -54,7 +54,7 @@ const hasStoredValue = (key: keyof typeof STORAGE_KEYS) => {
 export const setActiveUserId = (userId?: string | null) => {
   if (typeof window === 'undefined') return;
   const trimmed = userId?.trim();
-  const sanitized = trimmed ? trimmed.replace(/[^\w@.-]/g, '') || 'guest' : 'guest';
+  const sanitized = trimmed ? trimmed.replace(/[^\w-]/g, '') || 'guest' : 'guest';
   localStorage.setItem(ACTIVE_USER_KEY, sanitized);
 };
 

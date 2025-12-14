@@ -309,7 +309,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
           datasetPayloads.push({ descriptor, data: fallback });
         } else {
           console.warn(
-            `Dataset ${descriptor.id ?? descriptor.file} (${descriptor.title ?? descriptor.file}) could not be loaded from ${datasetUrl}`,
+            `Dataset ${descriptor.id ?? descriptor.file} (${descriptor.title ?? descriptor.file}) could not be loaded from ${datasetUrl}. Verify network access and that the file is present in public/api with the expected basePath.`,
             error
           );
         }
