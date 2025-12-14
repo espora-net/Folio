@@ -6,9 +6,9 @@ const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 
 function getRedirectURI(): string {
   if (typeof window !== 'undefined') {
-    return `${window.location.origin}/auth/callback`;
+    return `${window.location.origin}/auth/callback/`;
   }
-  return 'https://folio.espora.net/auth/callback';
+  return 'https://folio.espora.net/auth/callback/';
 }
 
 let configured = false;
