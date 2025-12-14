@@ -1,0 +1,545 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Card, CardContent } from '@/components/ui/card';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/ui/alert-dialog';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+import { Badge } from '@/components/ui/badge';
+import { TestQuestion, Topic, getQuestions, saveQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
+import { useToast } from '@/hooks/use-toast';
+
+const Tests = () => {
+  const [questions, setQuestions] = useState<TestQuestion[]>([]);
+  const [topics, setTopics] = useState<Topic[]>([]);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [testing, setTesting] = useState(false);
+  const [showFinalResults, setShowFinalResults] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+  const [showResult, setShowResult] = useState(false);
+  const [score, setScore] = useState(0);
+  const [totalQuestions, setTotalQuestions] = useState(0);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [newQuestion, setNewQuestion] = useState('');
+  const [newOptions, setNewOptions] = useState(['', '', '', '']);
+  const [correctIndex, setCorrectIndex] = useState(0);
+  const [newExplanation, setNewExplanation] = useState('');
+  const [newTopicId, setNewTopicId] = useState('');
+  const { toast } = useToast();
+
+  useEffect(() => {
+    const loadData = () => {
+      setQuestions(getQuestions());
+      setTopics(getTopics());
+    };
+    
+    loadData();
+    
+    // Escuchar actualizaciones de datos
+    window.addEventListener('folio-data-updated', loadData);
+    return () => window.removeEventListener('folio-data-updated', loadData);
+  }, []);
+
+  const filteredQuestions = selectedTopics.length > 0
+    ? questions.filter(q => selectedTopics.includes(q.topicId))
+    : questions;
+
+  const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
+
+  const toggleTopic = (topicId: string) => {
+    setSelectedTopics(prev =>
+      prev.includes(topicId)
+        ? prev.filter(id => id !== topicId)
+        : [...prev, topicId]
+    );
+  };
+
+  const selectAllTopics = () => {
+    setSelectedTopics(topics.map(t => t.id));
+  };
+
+  const clearAllTopics = () => {
+    setSelectedTopics([]);
+  };
+
+  const handleAddQuestion = () => {
+    if (!newQuestion.trim() || newOptions.some(o => !o.trim())) {
+      toast({ title: 'Completa todos los campos', variant: 'destructive' });
+      return;
+    }
+
+    const question: TestQuestion = {
+      id: crypto.randomUUID(),
+      topicId: newTopicId,
+      question: newQuestion.trim(),
+      options: newOptions.map(o => o.trim()),
+      correctIndex,
+      explanation: newExplanation.trim(),
+    };
+
+    const updated = [...questions, question];
+    setQuestions(updated);
+    saveQuestions(updated);
+    setNewQuestion('');
+    setNewOptions(['', '', '', '']);
+    setCorrectIndex(0);
+    setNewExplanation('');
+    setNewTopicId('');
+    setDialogOpen(false);
+    toast({ title: 'Pregunta añadida' });
+  };
+
+  const handleDelete = (id: string) => {
+    const updated = questions.filter(q => q.id !== id);
+    setQuestions(updated);
+    saveQuestions(updated);
+    toast({ title: 'Pregunta eliminada' });
+  };
+
+  const startTest = () => {
+    if (filteredQuestions.length === 0) {
+      toast({ title: 'Sin preguntas', description: 'No hay preguntas para los temas seleccionados.', variant: 'destructive' });
+      return;
+    }
+    setTesting(true);
+    setShowFinalResults(false);
+    setCurrentIndex(0);
+    setSelectedAnswer(null);
+    setShowResult(false);
+    setScore(0);
+    setTotalQuestions(filteredQuestions.length);
+  };
+
+  const handleAnswer = () => {
+    if (selectedAnswer === null) return;
+
+    const isCorrect = selectedAnswer === filteredQuestions[currentIndex].correctIndex;
+    if (isCorrect) setScore(prev => prev + 1);
+
+    setShowResult(true);
+  };
+
+  const nextQuestion = () => {
+    if (currentIndex < filteredQuestions.length - 1) {
+      setCurrentIndex(prev => prev + 1);
+      setSelectedAnswer(null);
+      setShowResult(false);
+    } else {
+      const stats = getStats();
+      stats.testsCompleted += 1;
+      stats.correctAnswers += score;
+      saveStats(stats);
+
+      setTesting(false);
+      setShowFinalResults(true);
+    }
+  };
+
+  const closeResults = () => {
+    setShowFinalResults(false);
+  };
+
+  const getResultIcon = () => {
+    const percentage = (score / totalQuestions) * 100;
+    if (percentage >= 80) return { icon: Trophy, color: 'text-yellow-500', bg: 'bg-yellow-500/10' };
+    if (percentage >= 50) return { icon: CheckCircle, color: 'text-green-500', bg: 'bg-green-500/10' };
+    return { icon: XCircle, color: 'text-orange-500', bg: 'bg-orange-500/10' };
+  };
+
+  const currentQuestion = filteredQuestions[currentIndex];
+
+  return (
+    <div className="space-y-6">
+      {/* Pantalla de resultados */}
+      {showFinalResults && (
+        <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex items-center justify-center">
+          <div className="max-w-md w-full mx-4 text-center space-y-6">
+            <div className={`mx-auto w-24 h-24 rounded-full ${getResultIcon().bg} flex items-center justify-center`}>
+              {(() => {
+                const IconComponent = getResultIcon().icon;
+                return <IconComponent className={`h-12 w-12 ${getResultIcon().color}`} />;
+              })()}
+            </div>
+            
+            <div>
+              <h2 className="text-3xl font-bold text-foreground mb-2">¡Test completado!</h2>
+              <p className="text-muted-foreground">Has terminado todas las preguntas</p>
+            </div>
+
+            <div className="bg-card border border-border rounded-xl p-6 space-y-4">
+              <div className="text-5xl font-bold text-foreground">
+                {Math.round((score / totalQuestions) * 100)}%
+              </div>
+              <p className="text-muted-foreground">
+                Has acertado <span className="font-semibold text-foreground">{score}</span> de <span className="font-semibold text-foreground">{totalQuestions}</span> preguntas
+              </p>
+              <div className="w-full bg-muted rounded-full h-3">
+                <div 
+                  className="h-3 rounded-full bg-primary transition-all duration-500"
+                  style={{ width: `${(score / totalQuestions) * 100}%` }}
+                />
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              <Button onClick={startTest} className="w-full">
+                <RotateCcw className="h-4 w-4 mr-2" />
+                Repetir test
+              </Button>
+              <Button variant="outline" onClick={closeResults} className="w-full">
+                Ver todas las preguntas
+              </Button>
+              <a 
+                href="/dashboard/flashcards" 
+                className="block text-sm text-primary hover:underline"
+              >
+                Añadir a flashcards para repasar →
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-3xl font-bold text-foreground">Tests</h1>
+          <p className="text-muted-foreground">Practica con preguntas tipo test</p>
+        </div>
+        <div className="flex gap-2">
+          <Button variant="outline" onClick={startTest}>
+            <Play className="h-4 w-4 mr-2" />
+            Empezar test ({filteredQuestions.length})
+          </Button>
+          <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
+            <DialogTrigger asChild>
+              <Button>
+                <Plus className="h-4 w-4 mr-2" />
+                Nueva pregunta
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto">
+              <DialogHeader>
+                <DialogTitle>Nueva pregunta</DialogTitle>
+              </DialogHeader>
+              <div className="space-y-4 pt-4">
+                <div className="space-y-2">
+                  <Label>Tema</Label>
+                  <select
+                    className="w-full h-10 px-3 rounded-md border border-input bg-background text-sm"
+                    value={newTopicId}
+                    onChange={(e) => setNewTopicId(e.target.value)}
+                  >
+                    <option value="">Sin tema</option>
+                    {topics.map((topic) => (
+                      <option key={topic.id} value={topic.id}>
+                        {topic.tag || topic.title}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div className="space-y-2">
+                  <Label>
+                    Pregunta <span className="text-destructive">*</span>
+                  </Label>
+                  <Textarea
+                    placeholder="Escribe la pregunta..."
+                    value={newQuestion}
+                    onChange={(e) => setNewQuestion(e.target.value)}
+                    required
+                  />
+                </div>
+                {newOptions.map((option, i) => (
+                  <div key={i} className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <Label>
+                        Opción {i + 1} <span className="text-destructive">*</span>
+                      </Label>
+                      {i === correctIndex && (
+                        <span className="text-xs text-primary">(Correcta)</span>
+                      )}
+                    </div>
+                    <div className="flex gap-2">
+                      <Input
+                        placeholder={`Opción ${i + 1}`}
+                        value={option}
+                        onChange={(e) => {
+                          const updated = [...newOptions];
+                          updated[i] = e.target.value;
+                          setNewOptions(updated);
+                        }}
+                      />
+                      <Button
+                        variant={correctIndex === i ? 'default' : 'outline'}
+                        size="icon"
+                        onClick={() => setCorrectIndex(i)}
+                      >
+                        <CheckCircle className="h-4 w-4" />
+                      </Button>
+                    </div>
+                  </div>
+                ))}
+                <div className="space-y-2">
+                  <Label>Explicación (opcional)</Label>
+                  <Textarea
+                    placeholder="Explica por qué es correcta..."
+                    value={newExplanation}
+                    onChange={(e) => setNewExplanation(e.target.value)}
+                  />
+                </div>
+                <div className="flex gap-2 justify-end">
+                  <Button variant="outline" onClick={() => setDialogOpen(false)}>
+                    Cancelar
+                  </Button>
+                  <Button onClick={handleAddQuestion}>
+                    Añadir pregunta
+                  </Button>
+                </div>
+              </div>
+            </DialogContent>
+          </Dialog>
+        </div>
+      </div>
+
+      {testing && currentQuestion ? (
+        <div className="max-w-2xl mx-auto">
+          <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <span>Pregunta {currentIndex + 1} de {filteredQuestions.length}</span>
+              {currentQuestion.topicId && getTopicById(currentQuestion.topicId) && (
+                <Badge
+                  style={{ backgroundColor: getTopicById(currentQuestion.topicId)?.color || '#6b7280' }}
+                >
+                  {getTopicById(currentQuestion.topicId)?.tag || getTopicById(currentQuestion.topicId)?.title}
+                </Badge>
+              )}
+            </div>
+            <span>Aciertos: {score}</span>
+          </div>
+          <Card className="border-border">
+            <CardContent className="p-6">
+              <h3 className="text-lg font-medium text-foreground mb-6">
+                {currentQuestion.question}
+              </h3>
+              <RadioGroup
+                value={selectedAnswer?.toString()}
+                onValueChange={(val) => !showResult && setSelectedAnswer(parseInt(val))}
+              >
+                {currentQuestion.options.map((option, i) => (
+                  <div
+                    key={i}
+                    className={`flex items-center space-x-3 p-3 rounded-lg border transition-colors ${
+                      showResult
+                        ? i === currentQuestion.correctIndex
+                          ? 'border-primary bg-primary/10'
+                          : selectedAnswer === i
+                          ? 'border-destructive bg-destructive/10'
+                          : 'border-border'
+                        : selectedAnswer === i
+                        ? 'border-primary bg-primary/5'
+                        : 'border-border hover:bg-muted/50'
+                    }`}
+                  >
+                    <RadioGroupItem value={i.toString()} id={`option-${i}`} disabled={showResult} />
+                    <Label htmlFor={`option-${i}`} className="flex-1 cursor-pointer">
+                      {option}
+                    </Label>
+                    {showResult && i === currentQuestion.correctIndex && (
+                      <CheckCircle className="h-5 w-5 text-primary" />
+                    )}
+                    {showResult && selectedAnswer === i && i !== currentQuestion.correctIndex && (
+                      <XCircle className="h-5 w-5 text-destructive" />
+                    )}
+                  </div>
+                ))}
+              </RadioGroup>
+
+              {showResult && currentQuestion.explanation && (
+                <div className="mt-6 p-4 rounded-lg bg-muted">
+                  <p className="text-sm font-medium text-foreground mb-1">Explicación:</p>
+                  <p className="text-sm text-muted-foreground">{currentQuestion.explanation}</p>
+                </div>
+              )}
+
+              <div className="mt-6 flex justify-end gap-2">
+                {!showResult ? (
+                  <Button onClick={handleAnswer} disabled={selectedAnswer === null}>
+                    Comprobar
+                  </Button>
+                ) : (
+                  <Button onClick={nextQuestion}>
+                    {currentIndex < filteredQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
+                  </Button>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+          <div className="text-center mt-4">
+            <Button variant="ghost" onClick={() => setTesting(false)}>
+              Cancelar test
+            </Button>
+          </div>
+        </div>
+      ) : (
+        <>
+          {/* Filtros por tags */}
+          {topics.length > 0 && (
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
+                  <Filter className="h-4 w-4" />
+                  <span>Filtrar por tema:</span>
+                </div>
+                <div className="flex gap-1">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-6 text-xs px-2"
+                    onClick={selectAllTopics}
+                  >
+                    Todos
+                  </Button>
+                  <span className="text-muted-foreground">·</span>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-6 text-xs px-2"
+                    onClick={clearAllTopics}
+                  >
+                    Limpiar
+                  </Button>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {topics.map((topic) => {
+                  const isSelected = selectedTopics.includes(topic.id);
+                  const questionCount = questions.filter(q => q.topicId === topic.id).length;
+                  return (
+                    <button
+                      key={topic.id}
+                      onClick={() => toggleTopic(topic.id)}
+                      className={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[10px] font-medium transition-all ${
+                        isSelected
+                          ? 'ring-2 ring-offset-2 ring-offset-background'
+                          : 'opacity-60 hover:opacity-100'
+                      }`}
+                      style={{
+                        backgroundColor: topic.color || '#6b7280',
+                        color: 'white',
+                        '--tw-ring-color': topic.color || '#6b7280',
+                      } as React.CSSProperties}
+                    >
+                      {topic.tag || topic.title}
+                      <span className="bg-white/20 px-1 py-0.5 rounded-full text-[10px]">
+                        {questionCount}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {filteredQuestions.length === 0 ? (
+            <Card className="border-border border-dashed">
+              <CardContent className="py-12 text-center">
+                <p className="text-muted-foreground mb-4">
+                  {selectedTopics.length > 0
+                    ? 'No hay preguntas para los temas seleccionados.'
+                    : 'No tienes preguntas creadas todavía.'}
+                </p>
+                <Button variant="outline" onClick={() => setDialogOpen(true)}>
+                  <Plus className="h-4 w-4 mr-2" />
+                  Crear tu primera pregunta
+                </Button>
+              </CardContent>
+            </Card>
+          ) : (
+            <div className="space-y-3">
+              {filteredQuestions.map((q, index) => {
+                const topic = getTopicById(q.topicId);
+                return (
+                  <Card key={q.id} className="border-border">
+                    <CardContent className="p-4">
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-sm text-muted-foreground">#{index + 1}</span>
+                          </div>
+                          <p className="text-foreground font-medium">{q.question}</p>
+                          <p className="text-sm text-primary mt-1">
+                            Respuesta correcta: {q.options[q.correctIndex]}
+                          </p>
+                          {topic && (
+                            <div className="mt-3 pt-3 border-t border-border">
+                              <Badge
+                                className="text-[10px] px-2 py-0.5"
+                                style={{ backgroundColor: topic.color || '#6b7280' }}
+                              >
+                                {topic.tag || topic.title}
+                              </Badge>
+                            </div>
+                          )}
+                        </div>
+                        <AlertDialog>
+                          <AlertDialogTrigger asChild>
+                            <Button
+                              variant="ghost"
+                              size="icon"
+                            >
+                              <Trash2 className="h-4 w-4 text-destructive" />
+                            </Button>
+                          </AlertDialogTrigger>
+                          <AlertDialogContent>
+                            <AlertDialogHeader>
+                              <AlertDialogTitle>¿Eliminar pregunta?</AlertDialogTitle>
+                              <AlertDialogDescription>
+                                Esta acción no se puede deshacer. La pregunta será eliminada permanentemente.
+                              </AlertDialogDescription>
+                            </AlertDialogHeader>
+                            <AlertDialogFooter>
+                              <AlertDialogCancel>Cancelar</AlertDialogCancel>
+                              <AlertDialogAction
+                                onClick={() => handleDelete(q.id)}
+                                className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                              >
+                                Eliminar
+                              </AlertDialogAction>
+                            </AlertDialogFooter>
+                          </AlertDialogContent>
+                        </AlertDialog>
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          )}
+        </>
+      )}
+    </div>
+  );
+};
+
+export default Tests;
