@@ -2,17 +2,26 @@
 
 import { useState, useEffect, createContext, useContext, ReactNode, useCallback } from 'react';
 import { setActiveUserId } from '@/lib/storage';
+import { 
+  configureAuthgear, 
+  startLogin, 
+  logout as authgearLogout, 
+  fetchUserInfo, 
+  isAuthenticated,
+  getAccessToken,
+  getAuthgearDelegate,
+  type UserInfo
+} from '@/lib/authgear';
 
-type AuthsiteModule = {
-  login?: (redirect?: string) => void;
-  logout?: (redirect?: string) => void;
-  isAuthenticated?: () => boolean;
-  currentUser?: () => Record<string, unknown> | null;
-  accessToken?: () => string | null;
-};
+interface AuthUser {
+  id: string;
+  email?: string;
+  name?: string;
+  picture?: string;
+}
 
 interface AuthContextType {
-  user: Record<string, unknown> | null;
+  user: AuthUser | null;
   session: string | null;
   loading: boolean;
   signIn: () => Promise<void>;
@@ -20,93 +29,131 @@ interface AuthContextType {
   signOut: () => Promise<void>;
 }
 
-const extractUserId = (currentUser: Record<string, unknown> | null) => {
-  if (!currentUser || typeof currentUser !== 'object') return null;
-  const { id, email } = currentUser as { id?: string; email?: string };
-  return id ?? email ?? null;
-};
-
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+const mapUserInfo = (userInfo: UserInfo): AuthUser => {
+  return {
+    id: userInfo.sub,
+    email: userInfo.email ?? undefined,
+    name: userInfo.name ?? userInfo.preferredUsername ?? userInfo.email ?? undefined,
+    picture: userInfo.picture ?? undefined,
+  };
+};
+
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
-  const [user, setUser] = useState<Record<string, unknown> | null>(null);
+  const [user, setUser] = useState<AuthUser | null>(null);
   const [session, setSession] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const [authApi, setAuthApi] = useState<AuthsiteModule | null>(null);
 
-  const hydrateUser = useCallback(
-    (api?: AuthsiteModule) => {
-      // Saltar autenticación en desarrollo si la variable está activada
-      const skipAuth = process.env.NEXT_PUBLIC_SKIP_AUTH === 'true';
-      if (skipAuth) {
-        const devUser = { id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev' };
-        setUser(devUser);
-        setActiveUserId(extractUserId(devUser));
-        setSession('dev-session-token');
-        return;
-      }
+  const hydrateUser = useCallback(async () => {
+    // Saltar autenticación en desarrollo si la variable está activada
+    const skipAuth = process.env.NEXT_PUBLIC_SKIP_AUTH === 'true';
+    if (skipAuth) {
+      const devUser: AuthUser = { id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev' };
+      setUser(devUser);
+      setActiveUserId(devUser.id);
+      setSession('dev-session-token');
+      setLoading(false);
+      return;
+    }
 
-      const client = api ?? authApi;
-      if (!client) return;
-      const authenticated = client.isAuthenticated?.() ?? false;
+    try {
+      await configureAuthgear();
+      
+      const authenticated = await isAuthenticated();
       if (authenticated) {
-        const currentUser = client.currentUser?.() ?? null;
-        setUser(currentUser);
-        setActiveUserId(extractUserId(currentUser));
-        setSession(client.accessToken?.() ?? null);
+        const userInfo = await fetchUserInfo();
+        if (userInfo) {
+          const authUser = mapUserInfo(userInfo);
+          setUser(authUser);
+          setActiveUserId(authUser.id);
+          const token = await getAccessToken();
+          setSession(token ?? null);
+        } else {
+          setUser(null);
+          setActiveUserId('guest');
+          setSession(null);
+        }
       } else {
         setUser(null);
         setActiveUserId('guest');
         setSession(null);
       }
-    },
-    [authApi]
-  );
+    } catch (error) {
+      console.error('Error inicializando autenticación:', error);
+      setUser(null);
+      setActiveUserId('guest');
+      setSession(null);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
 
   useEffect(() => {
-    let mounted = true;
     if (typeof window === 'undefined') return;
+    
+    hydrateUser();
 
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-    const authPath = `${basePath}/auth/api.js`.replace(/\/{2,}/g, '/');
+    // Escuchar cambios en el estado de sesión de Authgear
+    const handleSessionChange = () => {
+      hydrateUser();
+    };
 
-    import(/* webpackIgnore: true */ authPath)
-      .then((api: AuthsiteModule) => {
-        if (!mounted) return;
-        setAuthApi(api);
-        hydrateUser(api);
-      })
-      .catch(() => setAuthApi(null))
-      .finally(() => setLoading(false));
+    // Configurar delegate de Authgear asíncronamente
+    const setupDelegate = async () => {
+      try {
+        const authgear = await getAuthgearDelegate();
+        authgear.delegate = {
+          onSessionStateChange: handleSessionChange,
+        };
+      } catch (error) {
+        // Ignorar error si no se puede configurar el delegate
+      }
+    };
+    
+    setupDelegate();
 
-    const listener = () => hydrateUser();
-    window.addEventListener('storage', listener);
-    window.addEventListener('visibilitychange', listener);
+    // Escuchar eventos de visibilidad para revalidar sesión
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        hydrateUser();
+      }
+    };
+    
+    window.addEventListener('visibilitychange', handleVisibilityChange);
 
     return () => {
-      mounted = false;
-      window.removeEventListener('storage', listener);
-      window.removeEventListener('visibilitychange', listener);
+      window.removeEventListener('visibilitychange', handleVisibilityChange);
+      // Limpiar delegate asíncronamente
+      getAuthgearDelegate().then(authgear => {
+        authgear.delegate = undefined;
+      }).catch(() => {});
     };
   }, [hydrateUser]);
 
   const signIn = async () => {
-    if (!authApi?.login) {
-      console.warn('Auth module no disponible');
-      return;
+    try {
+      await startLogin();
+    } catch (error) {
+      console.error('Error iniciando login:', error);
     }
-    authApi.login(window.location.href);
   };
 
   const signUp = async () => {
+    // Authgear maneja registro y login en el mismo flujo
     await signIn();
   };
 
   const signOut = async () => {
-    authApi?.logout?.(window.location.origin);
-    setUser(null);
-    setActiveUserId('guest');
-    setSession(null);
+    try {
+      await authgearLogout();
+    } catch (error) {
+      console.error('Error cerrando sesión:', error);
+    } finally {
+      setUser(null);
+      setActiveUserId('guest');
+      setSession(null);
+    }
   };
 
   return (

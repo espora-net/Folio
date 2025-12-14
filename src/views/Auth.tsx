@@ -41,7 +41,7 @@ const Auth = () => {
           </Link>
           <CardTitle>Acceso con GitHub</CardTitle>
           <CardDescription>
-            Autentícate con tu cuenta de GitHub mediante Authsite para continuar.
+            Autentícate con tu cuenta de GitHub mediante Authgear para continuar.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -50,11 +50,11 @@ const Auth = () => {
               <div className="rounded-lg border border-border bg-muted/40 p-4 text-left">
                 <p className="text-sm text-muted-foreground">Sesión activa</p>
                 <p className="text-lg font-semibold text-foreground mt-1">
-                  {(user as { name?: string; email?: string }).name || 'Usuario GitHub'}
+                  {user.name || 'Usuario GitHub'}
                 </p>
-                {(user as { email?: string }).email && (
+                {user.email && (
                   <p className="text-sm text-muted-foreground">
-                    {(user as { email?: string }).email}
+                    {user.email}
                   </p>
                 )}
               </div>
