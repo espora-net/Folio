@@ -18,12 +18,20 @@ interface AuthUser {
   email?: string;
   name?: string;
   picture?: string;
+  githubUsername?: string;
+}
+
+interface BetaConfig {
+  formUrl: string;
+  allowedUsers: { githubUsername: string }[];
 }
 
 interface AuthContextType {
   user: AuthUser | null;
   session: string | null;
   loading: boolean;
+  isBetaUser: boolean;
+  betaFormUrl: string | null;
   signIn: () => Promise<void>;
   signUp: () => Promise<void>;
   signOut: () => Promise<void>;
@@ -37,27 +45,48 @@ const mapUserInfo = (userInfo: UserInfo): AuthUser => {
     email: userInfo.email ?? undefined,
     name: userInfo.name ?? userInfo.preferredUsername ?? userInfo.email ?? undefined,
     picture: userInfo.picture ?? undefined,
+    githubUsername: userInfo.preferredUsername ?? undefined,
   };
+};
+
+const fetchBetaConfig = async (): Promise<BetaConfig | null> => {
+  try {
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const response = await fetch(`${basePath}/data/beta-users.json`);
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
 };
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [session, setSession] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isBetaUser, setIsBetaUser] = useState(false);
+  const [betaFormUrl, setBetaFormUrl] = useState<string | null>(null);
 
   const hydrateUser = useCallback(async () => {
     // Saltar autenticación en desarrollo si la variable está activada
     const skipAuth = process.env.NEXT_PUBLIC_SKIP_AUTH === 'true';
     if (skipAuth) {
-      const devUser: AuthUser = { id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev' };
+      const devUser: AuthUser = { id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev', githubUsername: 'dev-user' };
       setUser(devUser);
       setActiveUserId(devUser.id);
       setSession('dev-session-token');
+      setIsBetaUser(true);
       setLoading(false);
       return;
     }
 
     try {
+      // Cargar configuración beta
+      const betaConfig = await fetchBetaConfig();
+      if (betaConfig) {
+        setBetaFormUrl(betaConfig.formUrl);
+      }
+
       await configureAuthgear();
       
       const authenticated = await isAuthenticated();
@@ -66,6 +95,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         if (userInfo) {
           const authUser = mapUserInfo(userInfo);
           setUser(authUser);
+          
+          // Verificar si el usuario está en la lista beta
+          const isAllowed = betaConfig?.allowedUsers.some(
+            u => u.githubUsername.toLowerCase() === (authUser.githubUsername?.toLowerCase() || '')
+          ) ?? false;
+          setIsBetaUser(isAllowed);
           setActiveUserId(authUser.id);
           const token = await getAccessToken();
           setSession(token ?? null);
@@ -150,6 +185,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       setUser(null);
       setActiveUserId('guest');
       setSession(null);
+      setIsBetaUser(false);
       
       // Llamar al logout de Authgear (limpia tokens y revoca sesión)
       await authgearLogout();
@@ -165,7 +201,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, loading, signUp, signIn, signOut }}>
+    <AuthContext.Provider value={{ user, session, loading, isBetaUser, betaFormUrl, signUp, signIn, signOut }}>
       {children}
     </AuthContext.Provider>
   );
