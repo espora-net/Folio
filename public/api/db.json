@@ -1,0 +1,78 @@
+{
+  "topics": [
+    {
+      "id": "topic-1",
+      "title": "Planificación semanal",
+      "description": "Define qué vas a estudiar cada semana y mide tu avance.",
+      "parentId": null,
+      "order": 0,
+      "completed": false,
+      "tag": "Planificación",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "topic-2",
+      "title": "Recopilación de materiales",
+      "description": "Organiza apuntes, esquemas y normativa clave en un solo lugar.",
+      "parentId": null,
+      "order": 1,
+      "completed": false,
+      "tag": "Materiales",
+      "color": "#06b6d4"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card-1",
+      "topicId": "topic-1",
+      "question": "¿Qué es Folio?",
+      "answer": "El hub de estudio con login GitHub pensado para desplegar en GitHub Pages.",
+      "nextReview": "2025-01-01T00:00:00.000Z",
+      "interval": 1,
+      "easeFactor": 2.5
+    },
+    {
+      "id": "card-2",
+      "topicId": "topic-2",
+      "question": "¿Dónde se guardan los datos base ahora?",
+      "answer": "En el archivo local data/db.json sin usar Supabase.",
+      "nextReview": "2025-01-02T00:00:00.000Z",
+      "interval": 1,
+      "easeFactor": 2.5
+    }
+  ],
+  "questions": [
+    {
+      "id": "question-1",
+      "topicId": "topic-1",
+      "question": "¿Qué servicio de login usa Folio?",
+      "options": [
+        "Supabase",
+        "Authsite + GitHub",
+        "Firebase"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa authsite para delegar el login de GitHub en un despliegue de GitHub Pages."
+    },
+    {
+      "id": "question-2",
+      "topicId": "topic-2",
+      "question": "¿Cómo se sirven los datos sin base de datos externa?",
+      "options": [
+        "Consultas a Supabase",
+        "Lectura del JSON en data/db.json",
+        "Persistencia en cookies"
+      ],
+      "correctIndex": 1,
+      "explanation": "El almacenamiento inicial ahora proviene del archivo estático data/db.json."
+    }
+  ],
+  "stats": {
+    "totalStudyTime": 0,
+    "cardsReviewed": 0,
+    "testsCompleted": 0,
+    "correctAnswers": 0,
+    "streak": 0,
+    "lastStudyDate": null
+  }
+}
