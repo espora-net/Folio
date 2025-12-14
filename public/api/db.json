@@ -1,4 +1,20 @@
 {
+  "meta": {
+    "title": "Folio - Índice de datos",
+    "description": "Índice principal con enlaces a datasets temáticos y semilla de progreso.",
+    "version": "2025.01",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  "datasets": [
+    {
+      "id": "constitucion-1978",
+      "title": "Constitución Española 1978",
+      "description": "Preguntas y flashcards organizadas por títulos y capítulos de la Constitución.",
+      "file": "db-constitucion.json",
+      "tag": "Constitución",
+      "color": "#1d4ed8"
+    }
+  ],
   "topics": [
     {
       "id": "topic-1",

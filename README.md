@@ -73,8 +73,8 @@ src/
 ```
 
 ## 🔄 Datos y almacenamiento
-- `data/db.json` se copia automáticamente a `public/api/db.json` durante el build para exponerla como API estática respetando `NEXT_PUBLIC_BASE_PATH`.
-- En el navegador se trabaja sobre `localStorage` (temario, flashcards, tests y estadísticas) para mantener el progreso sin backend.
+- `data/db.json` actúa como índice y enlaza los datasets temáticos (`data/db-*.json`, p. ej. `db-constitucion.json`) que se copian automáticamente a `public/api/` durante el build para exponerlos como API estática respetando `NEXT_PUBLIC_BASE_PATH`.
+- En el navegador se trabaja sobre `localStorage` (temario, flashcards, tests y estadísticas) para mantener el progreso sin backend, aislando los datos por usuario autenticado.
 - Los componentes escuchan el evento `folio-data-updated` para refrescar la información cuando cambian los datos locales.
 
 ## 🔑 Autenticación con GitHub

@@ -11,50 +11,82 @@ const STORAGE_KEYS = {
   QUESTIONS: 'folio_questions',
   STATS: 'folio_stats',
 };
+const ACTIVE_USER_KEY = 'folio_active_user_id';
+
+const getActiveUserId = () => {
+  if (typeof window === 'undefined') return 'guest';
+  const stored = localStorage.getItem(ACTIVE_USER_KEY);
+  return stored && stored.trim() ? stored : 'guest';
+};
+
+const scopedKey = (key: string) => `${key}::${getActiveUserId()}`;
+
+const readFromStorage = <T>(key: keyof typeof STORAGE_KEYS, fallback: T): T => {
+  if (typeof window === 'undefined') return fallback;
+  const scoped = localStorage.getItem(scopedKey(STORAGE_KEYS[key]));
+  if (scoped) return JSON.parse(scoped) as T;
+  const legacy = localStorage.getItem(STORAGE_KEYS[key]);
+  return legacy ? (JSON.parse(legacy) as T) : fallback;
+};
+
+const writeToStorage = <T>(key: keyof typeof STORAGE_KEYS, value: T) => {
+  if (typeof window === 'undefined') return;
+  localStorage.setItem(scopedKey(STORAGE_KEYS[key]), JSON.stringify(value));
+};
+
+const hasStoredValue = (key: keyof typeof STORAGE_KEYS) => {
+  if (typeof window === 'undefined') return false;
+  return Boolean(
+    localStorage.getItem(scopedKey(STORAGE_KEYS[key])) ??
+    localStorage.getItem(STORAGE_KEYS[key])
+  );
+};
+
+export const setActiveUserId = (userId?: string | null) => {
+  if (typeof window === 'undefined') return;
+  const sanitized = userId && userId.trim() ? userId.trim() : 'guest';
+  localStorage.setItem(ACTIVE_USER_KEY, sanitized);
+};
 
 export const getTopics = (): Topic[] => {
   if (typeof window === 'undefined') return getCachedDatabase().topics;
-  const data = localStorage.getItem(STORAGE_KEYS.TOPICS);
-  return data ? JSON.parse(data) : getCachedDatabase().topics;
+  return readFromStorage('TOPICS', getCachedDatabase().topics);
 };
 
 export const saveTopics = (topics: Topic[]) => {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEYS.TOPICS, JSON.stringify(topics));
+  writeToStorage('TOPICS', topics);
   window.dispatchEvent(new Event('folio-data-updated'));
 };
 
 export const getFlashcards = (): Flashcard[] => {
   if (typeof window === 'undefined') return getCachedDatabase().flashcards;
-  const data = localStorage.getItem(STORAGE_KEYS.FLASHCARDS);
-  return data ? JSON.parse(data) : getCachedDatabase().flashcards;
+  return readFromStorage('FLASHCARDS', getCachedDatabase().flashcards);
 };
 
 export const saveFlashcards = (flashcards: Flashcard[]) => {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEYS.FLASHCARDS, JSON.stringify(flashcards));
+  writeToStorage('FLASHCARDS', flashcards);
 };
 
 export const getQuestions = (): TestQuestion[] => {
   if (typeof window === 'undefined') return getCachedDatabase().questions;
-  const data = localStorage.getItem(STORAGE_KEYS.QUESTIONS);
-  return data ? JSON.parse(data) : getCachedDatabase().questions;
+  return readFromStorage('QUESTIONS', getCachedDatabase().questions);
 };
 
 export const saveQuestions = (questions: TestQuestion[]) => {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(questions));
+  writeToStorage('QUESTIONS', questions);
 };
 
 export const getStats = (): StudyStats => {
   if (typeof window === 'undefined') return getCachedDatabase().stats;
-  const data = localStorage.getItem(STORAGE_KEYS.STATS);
-  return data ? JSON.parse(data) : getCachedDatabase().stats;
+  return readFromStorage('STATS', getCachedDatabase().stats);
 };
 
 export const saveStats = (stats: StudyStats) => {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEYS.STATS, JSON.stringify(stats));
+  writeToStorage('STATS', stats);
 };
 
 export const updateStreak = () => {
@@ -82,27 +114,23 @@ export const hydrateFromApi = async () => {
   if (typeof window === 'undefined') return database;
 
   const stored = {
-    topics: localStorage.getItem(STORAGE_KEYS.TOPICS),
-    flashcards: localStorage.getItem(STORAGE_KEYS.FLASHCARDS),
-    questions: localStorage.getItem(STORAGE_KEYS.QUESTIONS),
-    stats: localStorage.getItem(STORAGE_KEYS.STATS),
+    topics: hasStoredValue('TOPICS'),
+    flashcards: hasStoredValue('FLASHCARDS'),
+    questions: hasStoredValue('QUESTIONS'),
+    stats: hasStoredValue('STATS'),
   };
 
   // Siempre actualizar topics para obtener tags y colores nuevos,
   // pero preservar el estado 'completed' del usuario
-  if (stored.topics) {
-    const localTopics: Topic[] = JSON.parse(stored.topics);
-    const mergedTopics = database.topics.map(apiTopic => {
-      const localTopic = localTopics.find(t => t.id === apiTopic.id);
-      return {
-        ...apiTopic,
-        completed: localTopic?.completed ?? apiTopic.completed,
-      };
-    });
-    saveTopics(mergedTopics);
-  } else {
-    saveTopics(database.topics);
-  }
+  const localTopics: Topic[] = stored.topics ? getTopics() : [];
+  const mergedTopics = database.topics.map(apiTopic => {
+    const localTopic = localTopics.find(t => t.id === apiTopic.id);
+    return {
+      ...apiTopic,
+      completed: localTopic?.completed ?? apiTopic.completed,
+    };
+  });
+  saveTopics(mergedTopics);
 
   if (!stored.flashcards) saveFlashcards(database.flashcards);
   if (!stored.questions) saveQuestions(database.questions);

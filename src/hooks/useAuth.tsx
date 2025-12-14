@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, createContext, useContext, ReactNode, useCallback } from 'react';
+import { setActiveUserId } from '@/lib/storage';
 
 type AuthsiteModule = {
   login?: (redirect?: string) => void;
@@ -32,7 +33,9 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       // Saltar autenticación en desarrollo si la variable está activada
       const skipAuth = process.env.NEXT_PUBLIC_SKIP_AUTH === 'true';
       if (skipAuth) {
-        setUser({ id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev' });
+        const devUser = { id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev' };
+        setUser(devUser);
+        setActiveUserId(devUser.id);
         setSession('dev-session-token');
         return;
       }
@@ -41,10 +44,17 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       if (!client) return;
       const authenticated = client.isAuthenticated?.() ?? false;
       if (authenticated) {
-        setUser(client.currentUser?.() ?? null);
+        const currentUser = client.currentUser?.() ?? null;
+        setUser(currentUser);
+        setActiveUserId(
+          (currentUser as { id?: string; email?: string } | null)?.id ??
+            (currentUser as { email?: string } | null)?.email ??
+            null
+        );
         setSession(client.accessToken?.() ?? null);
       } else {
         setUser(null);
+        setActiveUserId('guest');
         setSession(null);
       }
     },
@@ -93,6 +103,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const signOut = async () => {
     authApi?.logout?.(window.location.origin);
     setUser(null);
+    setActiveUserId('guest');
     setSession(null);
   };
 
