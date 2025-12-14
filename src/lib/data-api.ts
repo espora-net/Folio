@@ -160,6 +160,7 @@ const normalizeDatasetTopics = (dataset: RawDataset, descriptor?: DatasetDescrip
   });
 };
 
+// Normaliza los nombres de campo usados en datasets antiguos/nuevos
 const pickNextReview = (data: Record<string, unknown>) => {
   if (typeof data.nextReview === 'string') return data.nextReview;
   if (typeof data.nextReviewDate === 'string') return data.nextReviewDate;
@@ -195,6 +196,7 @@ const normalizeDatasetFlashcards = (dataset: RawDataset): Flashcard[] => {
     .filter((entry): entry is Flashcard => Boolean(entry));
 };
 
+// Soporta diferentes variantes de índice correcto en datasets heterogéneos
 const pickCorrectIndex = (data: Record<string, unknown>) => {
   if (typeof data.correctIndex === 'number') return data.correctIndex;
   if (typeof data.correctAnswer === 'number') return data.correctAnswer;
@@ -269,10 +271,7 @@ const buildFallbackDatabase = (index: DatabaseIndex): Database => {
     .filter((entry): entry is DatasetPayload => Boolean(entry));
 
   const merged = mergeDatabaseIndex(index, availableDatasets);
-  return {
-    ...merged,
-    stats: merged.stats,
-  };
+  return { ...merged };
 };
 
 cachedDatabase = buildFallbackDatabase(baseIndex as DatabaseIndex);
@@ -309,7 +308,10 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
         if (fallback) {
           datasetPayloads.push({ descriptor, data: fallback });
         } else {
-          console.warn(`Dataset ${descriptor.file} could not be loaded from ${datasetUrl}`, error);
+          console.warn(
+            `Dataset ${descriptor.id ?? descriptor.file} (${descriptor.title ?? descriptor.file}) could not be loaded from ${datasetUrl}`,
+            error
+          );
         }
       }
     }

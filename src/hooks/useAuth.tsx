@@ -20,6 +20,12 @@ interface AuthContextType {
   signOut: () => Promise<void>;
 }
 
+const extractUserId = (currentUser: Record<string, unknown> | null) => {
+  if (!currentUser || typeof currentUser !== 'object') return null;
+  const { id, email } = currentUser as { id?: string; email?: string };
+  return id ?? email ?? null;
+};
+
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
@@ -35,7 +41,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       if (skipAuth) {
         const devUser = { id: 'dev-user', email: 'dev@example.com', name: 'Usuario Dev' };
         setUser(devUser);
-        setActiveUserId(devUser.id);
+        setActiveUserId(extractUserId(devUser));
         setSession('dev-session-token');
         return;
       }
@@ -46,11 +52,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       if (authenticated) {
         const currentUser = client.currentUser?.() ?? null;
         setUser(currentUser);
-        setActiveUserId(
-          (currentUser as { id?: string; email?: string } | null)?.id ??
-            (currentUser as { email?: string } | null)?.email ??
-            null
-        );
+        setActiveUserId(extractUserId(currentUser));
         setSession(client.accessToken?.() ?? null);
       } else {
         setUser(null);

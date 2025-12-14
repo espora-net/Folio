@@ -18,15 +18,19 @@ if (fs.existsSync(dataFile)) {
 }
 
 try {
-  const datasetFiles = fs
-    .readdirSync(dataDir)
-    .filter(file => file.startsWith('db-') && file.endsWith('.json'));
+  if (fs.existsSync(dataDir)) {
+    const datasetFiles = fs
+      .readdirSync(dataDir)
+      .filter(file => file.startsWith('db-') && file.endsWith('.json'));
 
-  for (const file of datasetFiles) {
-    const source = path.join(dataDir, file);
-    const target = path.join(publicApiDir, file);
-    fs.mkdirSync(path.dirname(target), { recursive: true });
-    fs.copyFileSync(source, target);
+    for (const file of datasetFiles) {
+      const source = path.join(dataDir, file);
+      const target = path.join(publicApiDir, file);
+      fs.mkdirSync(path.dirname(target), { recursive: true });
+      fs.copyFileSync(source, target);
+    }
+  } else {
+    console.warn(`Data directory not found at ${dataDir}, skipping dataset copy`);
   }
 } catch (error) {
   console.warn('Unable to copy dataset files to public/api', error);
