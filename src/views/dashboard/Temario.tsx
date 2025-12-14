@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { 
   getConvocatoriaDescriptors, 
   getActiveConvocatoria, 
@@ -185,13 +186,13 @@ const Temario = () => {
         {/* Visor de Markdown */}
         {viewer.type === 'md' && (
           <Card className="border-border">
-            <CardContent className="p-6 prose prose-sm dark:prose-invert max-w-none overflow-auto max-h-[calc(100vh-200px)]">
+            <CardContent className="p-6 prose prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-base prose-li:text-base prose-table:text-sm prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-muted max-w-none overflow-auto max-h-[calc(100vh-200px)]">
               {loadingContent ? (
                 <div className="flex items-center justify-center py-12">
                   <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
                 </div>
               ) : (
-                <ReactMarkdown>{mdContent}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{mdContent}</ReactMarkdown>
               )}
             </CardContent>
           </Card>
