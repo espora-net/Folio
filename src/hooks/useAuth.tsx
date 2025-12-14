@@ -146,14 +146,20 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   const signOut = async () => {
     try {
-      await authgearLogout();
-    } catch (error) {
-      console.error('Error cerrando sesión:', error);
-    } finally {
+      // Limpiar estado local primero
       setUser(null);
       setActiveUserId('guest');
       setSession(null);
-      // Redirigir a la página principal después del logout
+      
+      // Llamar al logout de Authgear (limpia tokens y revoca sesión)
+      await authgearLogout();
+      
+      // Nota: authgearLogout() para sessionType='refresh_token' no redirige,
+      // pero hemos configurado redirectURI para el caso de 'cookie'.
+      // La redirección se maneja en authgear.ts
+    } catch (error) {
+      console.error('Error cerrando sesión:', error);
+      // Incluso si hay error, redirigir a la página principal
       window.location.href = window.location.origin;
     }
   };

@@ -66,7 +66,17 @@ export async function logout(): Promise<void> {
   const authgear = await getAuthgear();
   await configureAuthgear();
   
-  await authgear.logout();
+  // Para sessionType 'refresh_token', el logout:
+  // 1. Revoca el refresh token en el servidor
+  // 2. Limpia los tokens del localStorage
+  // 3. NO redirige automáticamente (eso solo ocurre con sessionType 'cookie')
+  await authgear.logout({
+    force: true,
+    redirectURI: window.location.origin,
+  });
+  
+  // Redirigir manualmente ya que sessionType es 'refresh_token'
+  window.location.href = window.location.origin;
 }
 
 export async function fetchUserInfo(): Promise<import('@authgear/web').UserInfo | null> {
