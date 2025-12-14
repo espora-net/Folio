@@ -37,9 +37,27 @@ export interface StudyStats {
   lastStudyDate: string | null;
 }
 
+export interface DatabaseMeta {
+  title?: string;
+  description?: string;
+  version?: string;
+  updatedAt?: string;
+}
+
+export interface DatasetDescriptor {
+  id: string;
+  title: string;
+  description?: string;
+  file: string;
+  tag?: string;
+  color?: string;
+}
+
 export type Database = {
   topics: Topic[];
   flashcards: Flashcard[];
   questions: TestQuestion[];
   stats: StudyStats;
+  meta?: DatabaseMeta;
+  datasets?: DatasetDescriptor[];
 };
