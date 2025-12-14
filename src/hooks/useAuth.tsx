@@ -39,13 +39,52 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+// Extraer el username de GitHub desde la info del usuario de Authgear
+const extractGithubUsername = (userInfo: UserInfo): string | undefined => {
+  // Intentar obtener de preferredUsername (formato común)
+  if (userInfo.preferredUsername) {
+    return userInfo.preferredUsername;
+  }
+  
+  // Intentar extraer del email si es de GitHub
+  if (userInfo.email?.endsWith('@users.noreply.github.com')) {
+    // Formato: username@users.noreply.github.com o ID+username@users.noreply.github.com
+    const emailPrefix = userInfo.email.split('@')[0];
+    // Si tiene formato numérico+username, extraer el username
+    const plusIndex = emailPrefix.indexOf('+');
+    if (plusIndex !== -1) {
+      return emailPrefix.substring(plusIndex + 1);
+    }
+    return emailPrefix;
+  }
+  
+  // Intentar extraer del campo 'name' si parece un username
+  if (userInfo.name && !userInfo.name.includes(' ')) {
+    return userInfo.name;
+  }
+  
+  return undefined;
+};
+
 const mapUserInfo = (userInfo: UserInfo): AuthUser => {
+  const githubUsername = extractGithubUsername(userInfo);
+  
+  // Log para depuración (se puede quitar después)
+  console.log('[Folio Auth] UserInfo recibido:', {
+    sub: userInfo.sub,
+    email: userInfo.email,
+    name: userInfo.name,
+    preferredUsername: userInfo.preferredUsername,
+    picture: userInfo.picture,
+    extractedGithubUsername: githubUsername,
+  });
+  
   return {
     id: userInfo.sub,
     email: userInfo.email ?? undefined,
     name: userInfo.name ?? userInfo.preferredUsername ?? userInfo.email ?? undefined,
     picture: userInfo.picture ?? undefined,
-    githubUsername: userInfo.preferredUsername ?? undefined,
+    githubUsername,
   };
 };
 
@@ -100,6 +139,14 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
           const isAllowed = betaConfig?.allowedUsers.some(
             u => u.githubUsername.toLowerCase() === (authUser.githubUsername?.toLowerCase() || '')
           ) ?? false;
+          
+          // Log para depuración
+          console.log('[Folio Auth] Verificación beta:', {
+            githubUsername: authUser.githubUsername,
+            allowedUsers: betaConfig?.allowedUsers.map(u => u.githubUsername),
+            isAllowed,
+          });
+          
           setIsBetaUser(isAllowed);
           setActiveUserId(authUser.id);
           const token = await getAccessToken();
