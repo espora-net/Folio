@@ -1,6 +1,7 @@
 import baseIndex from '../../data/db.json';
 import constitucionDataset from '../../data/db-constitucion.json';
-import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic } from './data-types';
+import convocatoriaUah2025 from '../../data/convocatoria-uah-2025-c1.json';
+import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const DUPLICATE_SLASHES = /\/{2,}/g;
@@ -329,4 +330,77 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
   }
 
   return cachedDatabase;
+};
+
+// ============================================================================
+// Convocatorias API
+// ============================================================================
+
+type RawConvocatoria = Record<string, unknown>;
+
+const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
+  'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria,
+};
+
+let cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
+
+// Inicializar con datos bundled
+const initConvocatorias = () => {
+  const descriptors = (baseIndex as DatabaseIndex).convocatorias ?? [];
+  for (const descriptor of descriptors) {
+    const fallback = FALLBACK_CONVOCATORIAS[descriptor.file];
+    if (fallback) {
+      cachedConvocatorias.set(descriptor.id, fallback as unknown as ConvocatoriaData);
+    }
+  }
+};
+initConvocatorias();
+
+export const getConvocatoriaDescriptors = (): ConvocatoriaDescriptor[] => {
+  return ((baseIndex as DatabaseIndex).convocatorias ?? []) as ConvocatoriaDescriptor[];
+};
+
+export const getActiveConvocatoria = (): ConvocatoriaDescriptor | undefined => {
+  const descriptors = getConvocatoriaDescriptors();
+  return descriptors.find(c => c.activa);
+};
+
+export const getCachedConvocatoria = (id: string): ConvocatoriaData | undefined => {
+  return cachedConvocatorias.get(id);
+};
+
+export const fetchConvocatoria = async (id: string): Promise<ConvocatoriaData | null> => {
+  // Devolver del cache si existe
+  const cached = cachedConvocatorias.get(id);
+  if (cached) return cached;
+
+  // Buscar el descriptor
+  const descriptors = getConvocatoriaDescriptors();
+  const descriptor = descriptors.find(c => c.id === id);
+  if (!descriptor) return null;
+
+  // Intentar cargar desde la API
+  if (typeof window !== 'undefined') {
+    try {
+      const url = buildDatasetEndpoint(descriptor.file);
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json() as ConvocatoriaData;
+        cachedConvocatorias.set(id, data);
+        return data;
+      }
+    } catch (error) {
+      console.warn(`Error fetching convocatoria ${id}:`, error);
+    }
+  }
+
+  // Fallback a datos bundled
+  const fallback = FALLBACK_CONVOCATORIAS[descriptor.file];
+  if (fallback) {
+    const data = fallback as unknown as ConvocatoriaData;
+    cachedConvocatorias.set(id, data);
+    return data;
+  }
+
+  return null;
 };

@@ -1,10 +1,23 @@
 {
   "meta": {
     "title": "Folio - Índice de datos",
-    "description": "Índice principal con enlaces a datasets temáticos y semilla de progreso.",
-    "version": "2025.01",
-    "updatedAt": "2025-01-01T00:00:00.000Z"
+    "description": "Índice principal con convocatorias, datasets temáticos y progreso del usuario.",
+    "version": "2025.02",
+    "updatedAt": "2025-12-14T00:00:00.000Z"
   },
+  "convocatorias": [
+    {
+      "id": "uah-2025-c1",
+      "title": "Técnico Auxiliar de Bibliotecas UAH 2025",
+      "shortTitle": "UAH 2025 C1",
+      "institucion": "Universidad de Alcalá de Henares",
+      "cuerpo": "Técnico Auxiliar de Archivos y Bibliotecas (C1)",
+      "año": 2025,
+      "file": "convocatoria-uah-2025-c1.json",
+      "color": "#7c3aed",
+      "activa": true
+    }
+  ],
   "datasets": [
     {
       "id": "constitucion-1978",

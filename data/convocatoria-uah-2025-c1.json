@@ -1,6 +1,11 @@
 {
+  "meta": {
+    "version": "2025.02",
+    "updatedAt": "2025-12-14T00:00:00.000Z"
+  },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
+    "id": "uah-2025-c1",
     "institucion": "Universidad de Alcalá de Henares",
     "cuerpo": "Técnico Auxiliar de Bibliotecas (C1)",
     "año": 2025,
@@ -9,13 +14,51 @@
     "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
   },
   "total_temas": 22,
-  "cobertura_temas": [
+  "temas": [
     {
-      "materialId": "uah-tema-001",
-      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"]
+      "id": "uah-tema-001",
+      "numero": 1,
+      "titulo": "Constitución Española de 1978",
+      "bloque": "Legislación General (Temas 1-5)",
+      "descripcion": "Texto constitucional completo (Título Preliminar y Título I sobre derechos fundamentales). Referencia oficial: BOE-A-1978-31229, texto completo consolidado en BOE.",
+      "contenido_especifico": "Establece el marco fundamental de derechos y deberes de los ciudadanos, relevante para el tema 1",
+      "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/01_constitucion_española_1978.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/01_constitucion_española_1978.pdf"
+        },
+        {
+          "tipo": "mp3",
+          "nombre": "Audio del texto",
+          "archivo": "general/01_constitucion_española_1978.mp3"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-constitucion.json"
+        }
+      ]
     },
     {
-      "materialId": "uah-tema-002",
+      "id": "uah-tema-002",
+      "numero": 2,
+      "titulo": "Estatuto Básico del Empleado Público (EBEP)",
+      "bloque": "Legislación General (Temas 1-5)",
+      "descripcion": "Texto Refundido de la Ley del EBEP, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre. Incluye: Título I, Título II Cap. I, Título III, Título IV, Título V Cap. III y Título VII. Referencia oficial: BOE-A-2015-11719, texto consolidado actualizado a 2025.",
+      "contenido_especifico": "Clases de personal, derechos, deberes, código de conducta, adquisición y pérdida de la condición de funcionario, provisión de puestos y régimen disciplinario",
+      "temas_relacionados": ["Función Pública", "EBEP", "Derechos y Deberes del Empleado Público"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#titulo-i-objeto-y-ambito-de-aplicacion",
         "#capitulo-i-clases-de-personal",
@@ -23,255 +66,235 @@
         "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio",
         "#capitulo-iii-provision-de-puestos-de-trabajo",
         "#titulo-vii-regimen-disciplinario"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/02_Estatuto Básico del Empleado Público.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/02_Estatuto Básico del Empleado Público.pdf"
+        }
       ]
     },
     {
-      "materialId": "uah-tema-003",
+      "id": "uah-tema-003",
+      "numero": 3,
+      "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
+      "bloque": "Legislación General (Temas 1-5)",
+      "descripcion": "Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.",
+      "contenido_especifico": "Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios",
+      "temas_relacionados": ["Sistema Universitario", "Autonomía Universitaria", "PAS", "Gobernanza Universitaria"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades",
         "#titulo-ix",
         "#capitulo-i",
         "#capitulo-ii",
         "#capitulo-v"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.pdf"
+        }
       ]
-    },
-    {
-      "materialId": "uah-tema-004",
-      "cobertura_convocatoria": [
-        "#titulo-i",
-        "#titulo-ii",
-        "#titulo-iii"
-      ]
-    },
-    {
-      "materialId": "uah-tema-005",
-      "cobertura_convocatoria": [
-        "#titulo-i-capitulo-iv",
-        "#titulo-i-capitulo-vi"
-      ]
-    },
-    {
-      "materialId": "uah-tema-006",
-      "cobertura_convocatoria": ["#titulo-ii"]
-    },
-    {
-      "materialId": "uah-plan-igualdad-2023-2026",
-      "cobertura_convocatoria": ["#plan-igualdad-uah-2023-2026"]
-    },
-    {
-      "materialId": "uah-tema-007",
-      "cobertura_convocatoria": [
-        "#politica-de-prevencion",
-        "#organizacion-de-la-prevencion",
-        "#responsabilidades-y-funciones",
-        "#planificacion-y-seguimiento"
-      ]
-    },
-    {
-      "materialId": "uah-tema-008",
-      "cobertura_convocatoria": ["#codigo-etico-general-uah"]
-    },
-    {
-      "materialId": "uah-tema-009",
-      "cobertura_convocatoria": [
-        "#normas-de-convivencia-uah",
-        "#modificacion-2024"
-      ]
-    }
-  ],
-  "materiales": [
-    {
-      "id": "uah-tema-001",
-      "tema_numero": 1,
-      "titulo": "Constitución Española de 1978",
-      "tipo": "PDF",
-      "categoria": "Legislación",
-      "bloque": "Legislación General (Temas 1-5)",
-      "descripcion": "Texto constitucional completo (Título Preliminar y Título I sobre derechos fundamentales). Referencia oficial: BOE-A-1978-31229, texto completo consolidado en BOE.",
-      "contenido_especifico": "Establece el marco fundamental de derechos y deberes de los ciudadanos, relevante para el tema 1",
-      "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "01_constitucion_española_1978.pdf"
-    },
-    {
-      "id": "guia-respuestas-001",
-      "titulo": "Guía rápida de respuestas Folio",
-      "tipo": "PDF",
-      "categoria": "Resúmenes",
-      "descripcion": "Frases clave con la localización exacta de las respuestas usadas en ejercicios y preguntas.",
-      "temas_relacionados": ["Biblioteconomía", "CDU", "Servicios bibliotecarios"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "guia-respuestas.pdf",
-      "estructura_respuestas": {
-        "valores_superiores": "Art. 1 - Libertad, justicia, igualdad, pluralismo político",
-        "unidad_autonomia": "Art. 2 - Unidad de España y derecho a la autonomía de nacionalidades",
-        "igualdad": "Art. 14 - Igualdad ante la ley, no discriminación",
-        "derechos_fundamentales": "Art. 15-29 - Vida, libertad, honor, expresión, reunión, asociación",
-        "deberes_ciudadanos": "Art. 30-38 - Defensa, tributos, trabajo, etc.",
-        "corona": "Art. 56-65 - Funciones del Rey como Jefe del Estado",
-        "cortes_generales": "Art. 66-96 - Congreso, Senado, procedimiento legislativo",
-        "gobierno": "Art. 97-107 - Funciones ejecutivas y Administración",
-        "organizacion_territorial": "Art. 137-158 - Municipios, provincias, CCAA"
-      }
-    },
-    {
-      "id": "uah-tema-002",
-      "tema_numero": 2,
-      "titulo": "Estatuto Básico del Empleado Público (EBEP)",
-      "tipo": "PDF",
-      "categoria": "Legislación",
-      "bloque": "Legislación General (Temas 1-5)",
-      "descripcion": "Texto Refundido de la Ley del EBEP, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre. Incluye: Título I, Título II Cap. I, Título III, Título IV, Título V Cap. III y Título VII. Referencia oficial: BOE-A-2015-11719, texto consolidado actualizado a 2025.",
-      "contenido_especifico": "Clases de personal, derechos, deberes, código de conducta, adquisición y pérdida de la condición de funcionario, provisión de puestos y régimen disciplinario",
-      "temas_relacionados": ["Función Pública", "EBEP", "Derechos y Deberes del Empleado Público"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "02_Estatuto Básico del Empleado Público.pdf",
-      "estructura_respuestas": {
-        "objeto_ambito": "Art. 1-6 - Objeto del EBEP y ámbito de aplicación",
-        "clases_personal": "Art. 8-13 - Funcionarios carrera/interino, laborales, eventuales, directivos",
-        "derechos": "Art. 14 - Derechos individuales (igualdad, formación, carrera, etc.)",
-        "deberes": "Art. 48 - Deberes de los empleados públicos",
-        "codigo_conducta": "Art. 52-54 - Principios éticos, generales y de conducta",
-        "adquisicion_condicion": "Art. 55-61 - Requisitos, acceso, selección, nombramiento",
-        "perdida_condicion": "Art. 62 - Causas de pérdida de la condición de funcionario",
-        "provision_puestos": "Art. 78-84 - Concurso, libre designación, comisiones de servicio",
-        "regimen_disciplinario": "Art. 93-98 - Faltas (muy graves/graves/leves) y sanciones"
-      }
-    },
-    {
-      "id": "uah-tema-003",
-      "tema_numero": 3,
-      "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
-      "tipo": "PDF",
-      "categoria": "Legislación",
-      "bloque": "Legislación General (Temas 1-5)",
-      "descripcion": "Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.",
-      "contenido_especifico": "Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios",
-      "temas_relacionados": ["Sistema Universitario", "Autonomía Universitaria", "PAS", "Gobernanza Universitaria"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.pdf",
-      "estructura_respuestas": {
-        "funciones_universidad": "Art. 2 - Docencia, investigación, transferencia conocimiento, formación continua",
-        "autonomia": "Art. 3-5 - Autonomía universitaria garantizada y su alcance",
-        "regimen_juridico": "Art. 52-54 - Personalidad jurídica, patrimonio, régimen presupuestario",
-        "organos_gobierno": "Art. 55-61 - Consejo Gobierno, Claustro, Rector, Vicerrectores, Gerente",
-        "pas_definicion": "Art. 86 - Personal técnico, de gestión y administración",
-        "pas_regimen": "Art. 87-88 - Funcionarios o laborales, formación, participación"
-      }
     },
     {
       "id": "uah-tema-004",
-      "tema_numero": 4,
+      "numero": 4,
       "titulo": "Ley Orgánica 3/2018 de Protección de Datos Personales",
-      "tipo": "PDF",
-      "categoria": "Legislación",
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Regulación vigente en materia de protección de datos. El tema 4 abarca Título I (disposiciones generales), Título II (principios de protección de datos) y Título III (derechos de las personas). Referencia oficial: BOE-A-2018-16673 (BOE núm. 294, de 06/12/2018), texto legal completo consolidado.",
       "contenido_especifico": "Esta ley adapta el ordenamiento español al RGPD de la UE e incluye los derechos digitales",
       "temas_relacionados": ["LOPD-GDD", "Protección de Datos", "RGPD", "Derechos Digitales"],
       "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.pdf",
-      "estructura_respuestas": {
-        "objeto": "Art. 1 - Garantizar derechos digitales y protección datos personales",
-        "definiciones": "Art. 3 - Datos personales, tratamiento, responsable, encargado",
-        "principios": "Art. 4-12 - Exactitud, confidencialidad, consentimiento, transparencia",
-        "datos_menores": "Art. 8 - Tratamiento de datos de menores de edad",
-        "categorias_especiales": "Art. 9 - Datos sensibles (salud, ideología, etc.)",
-        "derecho_acceso": "Art. 13 - Derecho a conocer qué datos se tratan",
-        "derecho_rectificacion": "Art. 15 - Corrección de datos inexactos",
-        "derecho_supresion": "Art. 16 - Derecho al olvido",
-        "derecho_portabilidad": "Art. 18 - Portabilidad de datos entre responsables",
-        "derechos_digitales": "Art. 79-97 - Neutralidad Internet, desconexión digital, testamento digital"
-      }
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": [
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-iii"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-005",
-      "tema_numero": 5,
+      "numero": 5,
       "titulo": "Ley de Derechos de las Personas con Discapacidad",
-      "tipo": "PDF",
-      "categoria": "Legislación",
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Real Decreto Legislativo 1/2013, de 29 de noviembre - Texto Refundido de la Ley General de Derechos de las Personas con Discapacidad y su Inclusión Social. Para el tema 5 se requieren el Capítulo IV (derecho a la educación) y Capítulo VI (derecho al trabajo) del Título I. Referencia oficial: BOE-A-2013-12632 (BOE núm. 289, de 03/12/2013), texto consolidado completo.",
       "contenido_especifico": "Reúne la legislación de discapacidad, garantizando la igualdad de oportunidades y no discriminación, incluyendo acceso a educación superior y empleo público",
       "temas_relacionados": ["Discapacidad", "Inclusión Social", "Igualdad de Oportunidades", "Accesibilidad"],
       "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "05_Real Decreto Legislativo 1_2013 de 29 de noviembre.pdf"
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": [
+        "#titulo-i-capitulo-iv",
+        "#titulo-i-capitulo-vi"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/05_Real Decreto Legislativo 1_2013 de 29 de noviembre.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/05_Real Decreto Legislativo 1_2013 de 29 de noviembre.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-006",
-      "tema_numero": 6,
+      "numero": 6,
       "titulo": "Ley Orgánica 3/2007 para la Igualdad Efectiva",
-      "tipo": "PDF",
-      "categoria": "Legislación",
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
-      "descripcion": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Marco legal en materia de igualdad de género. El tema 6 abarca su Título II (Políticas públicas para la igualdad). Referencia oficial: BOE-A-2007-6115 (BOE núm. 71, de 23/03/2007), texto completo consolidado.",
-      "contenido_especifico": "Complementariamente, la UAH cuenta con el II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026), documento oficial (~275 págs.) que desarrolla medidas concretas de igualdad en la Universidad",
+      "descripcion": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Marco legal en materia de igualdad de género. El tema 6 abarca su Título II (Políticas públicas para la igualdad).",
+      "contenido_especifico": "Complementariamente, la UAH cuenta con el II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)",
       "temas_relacionados": ["Igualdad de Género", "Políticas Públicas", "Plan de Igualdad UAH"],
       "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.pdf"
-    },
-    {
-      "id": "uah-plan-igualdad-2023-2026",
-      "tema_numero": 6,
-      "titulo": "II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)",
-      "tipo": "PDF",
-      "categoria": "Legislación",
-      "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
-      "descripcion": "II Plan de Igualdad de Oportunidades para el Personal de la Universidad de Alcalá, período 2023-2026. Documento institucional oficial (~275 páginas) que desarrolla medidas concretas de igualdad en la Universidad, complementando la Ley Orgánica 3/2007 para la Igualdad Efectiva de Mujeres y Hombres.",
-      "contenido_especifico": "Plan específico de la UAH que detalla políticas, objetivos y acciones concretas en materia de igualdad de género para el personal universitario, incluyendo medidas de conciliación, formación, prevención del acoso, y promoción de la igualdad en el acceso y desarrollo profesional",
-      "temas_relacionados": ["Igualdad de Género", "Plan de Igualdad UAH", "Políticas Institucionales"],
-      "relevancia": "alta",
-      "fecha_actualizacion": "2025-12-13",
-      "archivo": "plan-igualdad-uah-2023-2026.pdf"
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": ["#titulo-ii"],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.pdf"
+        }
+      ],
+      "materiales_complementarios": [
+        {
+          "id": "uah-plan-igualdad-2023-2026",
+          "titulo": "II Plan de Igualdad UAH (2023-2026)",
+          "archivo": "general/plan-igualdad-uah-2023-2026.pdf",
+          "cobertura_convocatoria": ["#plan-igualdad-uah-2023-2026"]
+        }
+      ]
     },
     {
       "id": "uah-tema-007",
-      "tema_numero": 7,
+      "numero": 7,
       "titulo": "Prevención de Riesgos Laborales en la UAH",
-      "tipo": "PDF",
-      "categoria": "Legislación",
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
-      "descripcion": "La temática 7 se centra en la Política de Prevención de la UAH: la Universidad dispone de una Declaración de Política de Prevención de Riesgos Laborales (aprobada por Consejo de Gobierno en octubre de 2004). Este documento institucional (2 págs., texto completo) fija los compromisos de la UAH en materia de seguridad y salud laboral: fomentar la cultura preventiva, integrar la prevención en todos los niveles, cumplir la Ley 31/1995 de PRL, definir responsabilidades (existe un documento específico de Funciones y Responsabilidades PRL en la UAH) y planificar la actividad preventiva con seguimiento periódico.",
+      "descripcion": "La temática 7 se centra en la Política de Prevención de la UAH: la Universidad dispone de una Declaración de Política de Prevención de Riesgos Laborales (aprobada por Consejo de Gobierno en octubre de 2004).",
       "contenido_especifico": "Incluye la organización de la prevención, las responsabilidades y funciones asignadas y la planificación y seguimiento de la actividad preventiva en la UAH",
       "temas_relacionados": ["Prevención de Riesgos Laborales", "Seguridad y Salud", "PRL UAH"],
       "relevancia": "media",
-      "fecha_actualizacion": "2025-12-13",
-      "archivo": "07_Politica-de-prevencion-con-fecha-aprobacion.pdf"
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": [
+        "#politica-de-prevencion",
+        "#organizacion-de-la-prevencion",
+        "#responsabilidades-y-funciones",
+        "#planificacion-y-seguimiento"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Política de Prevención",
+          "archivo": "general/07_Politica-de-prevencion-con-fecha-aprobacion.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Política de Prevención (PDF)",
+          "archivo": "general/07_Politica-de-prevencion-con-fecha-aprobacion.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Plan de Prevención",
+          "archivo": "general/07_Plan-de-Prevencion_UAH.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Plan de Prevención (PDF)",
+          "archivo": "general/07_Plan-de-Prevencion_UAH.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-008",
-      "tema_numero": 8,
+      "numero": 8,
       "titulo": "Código Ético General de la Universidad de Alcalá",
-      "tipo": "PDF",
-      "categoria": "Legislación",
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
-      "descripcion": "Documento marco aprobado en Consejo de Gobierno de 22 de junio de 2017 (publicado en el Boletín Oficial de la UAH). Este código ético (texto íntegro de 8 págs.) recoge los valores institucionales, principios de buena conducta y compromisos de integridad que deben guiar a los empleados públicos de la UAH.",
+      "descripcion": "Documento marco aprobado en Consejo de Gobierno de 22 de junio de 2017 (publicado en el Boletín Oficial de la UAH). Este código ético recoge los valores institucionales, principios de buena conducta y compromisos de integridad.",
       "contenido_especifico": "Incluye referencias a normativa de buen gobierno y códigos de conducta sectoriales. Fuente: Boletín Oficial UAH, año XII, nº 6, 4/7/2017",
       "temas_relacionados": ["Código Ético", "Integridad", "Valores Institucionales", "Conducta Profesional"],
       "relevancia": "media",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "08_codigo-etico-general-UAH.pdf"
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": ["#codigo-etico-general-uah"],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/08_codigo-etico-general-UAH.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/08_codigo-etico-general-UAH.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-009",
-      "tema_numero": 9,
+      "numero": 9,
       "titulo": "Reglamento de Normas de Convivencia de la UAH",
-      "tipo": "PDF",
-      "categoria": "Legislación",
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
-      "descripcion": "Reglamento interno que desarrolla la Ley 3/2022, de convivencia universitaria, en el ámbito de la UAH. Fue aprobado en Consejo de Gobierno el 16 de febrero de 2023 y posteriormente modificado el 21 de marzo de 2024. El texto consolidado (28 págs., publicado en Boletín Oficial UAH núm. 2, 24/02/2023) establece las bases de la convivencia en la comunidad universitaria, el procedimiento sancionador para el estudiantado y medidas alternativas de resolución de conflictos.",
-      "contenido_especifico": "Incluye principios y garantías (respeto a la dignidad, igualdad de trato, confidencialidad, etc.) y crea la Comisión de Convivencia de la UAH. La modificación de 2024 actualizó disposiciones para alinear el reglamento con cambios normativos recientes. Fuente: Boletín Oficial UAH, Año XVIII nº2",
+      "descripcion": "Reglamento interno que desarrolla la Ley 3/2022, de convivencia universitaria, en el ámbito de la UAH. Fue aprobado en Consejo de Gobierno el 16 de febrero de 2023 y posteriormente modificado el 21 de marzo de 2024.",
+      "contenido_especifico": "Incluye principios y garantías (respeto a la dignidad, igualdad de trato, confidencialidad, etc.) y crea la Comisión de Convivencia de la UAH",
       "temas_relacionados": ["Convivencia Universitaria", "Procedimiento Sancionador", "Resolución de Conflictos"],
       "relevancia": "media",
-      "fecha_actualizacion": "2025-12-08",
-      "archivo": "09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
+      "fecha_actualizacion": "2025-12-14",
+      "cobertura_convocatoria": [
+        "#normas-de-convivencia-uah",
+        "#modificacion-2024"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
+        }
+      ]
+    }
+  ],
+  "guias_apoyo": [
+    {
+      "id": "guia-respuestas-001",
+      "titulo": "Guía rápida de respuestas Folio",
+      "descripcion": "Frases clave con la localización exacta de las respuestas usadas en ejercicios y preguntas.",
+      "archivo": "guia-respuestas.pdf",
+      "relevancia": "alta"
     }
   ]
 }

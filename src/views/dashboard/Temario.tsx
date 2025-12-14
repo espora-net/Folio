@@ -1,219 +1,350 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Plus, ChevronRight, Check, Trash2, Edit2 } from 'lucide-react';
+import { ChevronRight, ChevronDown, FileText, FileAudio, Database, ExternalLink, BookOpen, Filter, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent } from '@/components/ui/card';
-import { Checkbox } from '@/components/ui/checkbox';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
-import { Topic, getTopics, saveTopics } from '@/lib/storage';
-import { useToast } from '@/hooks/use-toast';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { 
+  getConvocatoriaDescriptors, 
+  getActiveConvocatoria, 
+  getCachedConvocatoria, 
+  fetchConvocatoria 
+} from '@/lib/data-api';
+import { 
+  type ConvocatoriaDescriptor, 
+  type ConvocatoriaData, 
+  type TemaConvocatoria 
+} from '@/lib/data-types';
 
 const Temario = () => {
-  const [topics, setTopics] = useState<Topic[]>([]);
-  const [newTitle, setNewTitle] = useState('');
-  const [newDescription, setNewDescription] = useState('');
-  const [dialogOpen, setDialogOpen] = useState(false);
-  const [editingTopic, setEditingTopic] = useState<Topic | null>(null);
-  const { toast } = useToast();
+  const [convocatorias, setConvocatorias] = useState<ConvocatoriaDescriptor[]>([]);
+  const [selectedConvocatoria, setSelectedConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
+  const [convocatoriaData, setConvocatoriaData] = useState<ConvocatoriaData | null>(null);
+  const [selectedTema, setSelectedTema] = useState<TemaConvocatoria | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [expandedBloque, setExpandedBloque] = useState<string | null>(null);
 
   useEffect(() => {
-    setTopics(getTopics());
+    const loadConvocatorias = async () => {
+      const descriptors = getConvocatoriaDescriptors();
+      setConvocatorias(descriptors);
+      
+      // Seleccionar convocatoria activa por defecto
+      const active = getActiveConvocatoria();
+      if (active) {
+        setSelectedConvocatoria(active);
+        // Cargar datos de la convocatoria
+        const data = getCachedConvocatoria(active.id) || await fetchConvocatoria(active.id);
+        setConvocatoriaData(data);
+      }
+      
+      setLoading(false);
+    };
+    
+    loadConvocatorias();
   }, []);
 
-  const handleAddTopic = () => {
-    if (!newTitle.trim()) return;
-
-    const topic: Topic = {
-      id: crypto.randomUUID(),
-      title: newTitle.trim(),
-      description: newDescription.trim(),
-      parentId: null,
-      order: topics.length,
-      completed: false,
-    };
-
-    const updated = [...topics, topic];
-    setTopics(updated);
-    saveTopics(updated);
-    setNewTitle('');
-    setNewDescription('');
-    setDialogOpen(false);
-    toast({ title: 'Tema añadido', description: 'El tema se ha creado correctamente.' });
+  const handleSelectConvocatoria = async (conv: ConvocatoriaDescriptor) => {
+    setSelectedConvocatoria(conv);
+    setSelectedTema(null);
+    setLoading(true);
+    const data = getCachedConvocatoria(conv.id) || await fetchConvocatoria(conv.id);
+    setConvocatoriaData(data);
+    setLoading(false);
   };
 
-  const handleUpdateTopic = () => {
-    if (!editingTopic || !newTitle.trim()) return;
+  const handleSelectTema = (tema: TemaConvocatoria) => {
+    setSelectedTema(tema);
+  };
 
-    const updated = topics.map(t =>
-      t.id === editingTopic.id
-        ? { ...t, title: newTitle.trim(), description: newDescription.trim() }
-        : t
+  const handleBackToList = () => {
+    setSelectedTema(null);
+  };
+
+  // Agrupar temas por bloque
+  const temasPorBloque = convocatoriaData?.temas.reduce((acc, tema) => {
+    const bloque = tema.bloque || 'Sin bloque';
+    if (!acc[bloque]) acc[bloque] = [];
+    acc[bloque].push(tema);
+    return acc;
+  }, {} as Record<string, TemaConvocatoria[]>) || {};
+
+  const getRecursoIcon = (tipo: string) => {
+    switch (tipo) {
+      case 'md': return <FileText className="h-4 w-4" />;
+      case 'pdf': return <FileText className="h-4 w-4 text-red-500" />;
+      case 'mp3': return <FileAudio className="h-4 w-4 text-purple-500" />;
+      case 'db': return <Database className="h-4 w-4 text-blue-500" />;
+      default: return <FileText className="h-4 w-4" />;
+    }
+  };
+
+  const getRecursoLabel = (tipo: string) => {
+    switch (tipo) {
+      case 'md': return 'Markdown';
+      case 'pdf': return 'PDF';
+      case 'mp3': return 'Audio';
+      case 'db': return 'Flashcards/Tests';
+      default: return tipo.toUpperCase();
+    }
+  };
+
+  const getRelevanciaColor = (relevancia: string) => {
+    switch (relevancia) {
+      case 'alta': return 'bg-red-500/10 text-red-500 border-red-500/20';
+      case 'media': return 'bg-yellow-500/10 text-yellow-500 border-yellow-500/20';
+      case 'baja': return 'bg-green-500/10 text-green-500 border-green-500/20';
+      default: return 'bg-muted text-muted-foreground';
+    }
+  };
+
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+  const getRecursoUrl = (archivo: string) => {
+    // Construir URL relativa al directorio data
+    return `${basePath}/data/${archivo}`;
+  };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-64">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+      </div>
     );
-    setTopics(updated);
-    saveTopics(updated);
-    setNewTitle('');
-    setNewDescription('');
-    setEditingTopic(null);
-    setDialogOpen(false);
-    toast({ title: 'Tema actualizado' });
-  };
+  }
 
-  const handleToggleComplete = (id: string) => {
-    const updated = topics.map(t =>
-      t.id === id ? { ...t, completed: !t.completed } : t
+  // Vista de detalle del tema
+  if (selectedTema) {
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center gap-4">
+          <Button variant="ghost" size="sm" onClick={handleBackToList}>
+            <ArrowLeft className="h-4 w-4 mr-2" />
+            Volver al temario
+          </Button>
+        </div>
+
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <Badge variant="outline" className="text-xs">
+              Tema {selectedTema.numero}
+            </Badge>
+            <Badge className={getRelevanciaColor(selectedTema.relevancia)}>
+              {selectedTema.relevancia === 'alta' ? 'Esencial' : 
+               selectedTema.relevancia === 'media' ? 'Importante' : 'Complementario'}
+            </Badge>
+          </div>
+          <h1 className="text-3xl font-bold text-foreground">{selectedTema.titulo}</h1>
+          <p className="text-muted-foreground mt-2">{selectedTema.descripcion}</p>
+        </div>
+
+        {selectedTema.contenido_especifico && (
+          <Card className="border-primary/20 bg-primary/5">
+            <CardContent className="p-4">
+              <p className="text-sm">{selectedTema.contenido_especifico}</p>
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Recursos */}
+        <div>
+          <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+            <BookOpen className="h-5 w-5" />
+            Recursos disponibles
+          </h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {selectedTema.recursos.map((recurso, index) => (
+              <a
+                key={index}
+                href={getRecursoUrl(recurso.archivo)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Card className="border-border hover:border-primary/50 hover:bg-muted/50 transition-all cursor-pointer">
+                  <CardContent className="p-4 flex items-center gap-4">
+                    <div className="p-2 rounded-lg bg-muted">
+                      {getRecursoIcon(recurso.tipo)}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium truncate">{recurso.nombre}</p>
+                      <p className="text-sm text-muted-foreground">{getRecursoLabel(recurso.tipo)}</p>
+                    </div>
+                    <ExternalLink className="h-4 w-4 text-muted-foreground" />
+                  </CardContent>
+                </Card>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Materiales complementarios */}
+        {selectedTema.materiales_complementarios && selectedTema.materiales_complementarios.length > 0 && (
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Materiales complementarios</h2>
+            <div className="grid gap-3">
+              {selectedTema.materiales_complementarios.map((material) => (
+                <a
+                  key={material.id}
+                  href={getRecursoUrl(material.archivo)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <Card className="border-border hover:border-primary/50 hover:bg-muted/50 transition-all cursor-pointer">
+                    <CardContent className="p-4 flex items-center gap-4">
+                      <div className="p-2 rounded-lg bg-muted">
+                        <FileText className="h-4 w-4 text-red-500" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="font-medium truncate">{material.titulo}</p>
+                        <p className="text-sm text-muted-foreground">PDF</p>
+                      </div>
+                      <ExternalLink className="h-4 w-4 text-muted-foreground" />
+                    </CardContent>
+                  </Card>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Temas relacionados */}
+        {selectedTema.temas_relacionados.length > 0 && (
+          <div>
+            <h2 className="text-lg font-semibold mb-3">Temas relacionados</h2>
+            <div className="flex flex-wrap gap-2">
+              {selectedTema.temas_relacionados.map((tag, index) => (
+                <Badge key={index} variant="secondary">{tag}</Badge>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     );
-    setTopics(updated);
-    saveTopics(updated);
-  };
+  }
 
-  const handleDelete = (id: string) => {
-    const updated = topics.filter(t => t.id !== id);
-    setTopics(updated);
-    saveTopics(updated);
-    toast({ title: 'Tema eliminado' });
-  };
-
-  const openEditDialog = (topic: Topic) => {
-    setEditingTopic(topic);
-    setNewTitle(topic.title);
-    setNewDescription(topic.description);
-    setDialogOpen(true);
-  };
-
-  const closeDialog = () => {
-    setDialogOpen(false);
-    setEditingTopic(null);
-    setNewTitle('');
-    setNewDescription('');
-  };
-
+  // Vista de lista de temas
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold text-foreground">Temario</h1>
-          <p className="text-muted-foreground">Organiza los temas de tu oposición</p>
+          <p className="text-muted-foreground">Accede a los temas y recursos de tu oposición</p>
         </div>
-        <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
-          <DialogTrigger asChild>
-            <Button onClick={() => { setEditingTopic(null); setNewTitle(''); setNewDescription(''); }}>
-              <Plus className="h-4 w-4 mr-2" />
-              Añadir tema
-            </Button>
-          </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
-              <DialogTitle>{editingTopic ? 'Editar tema' : 'Nuevo tema'}</DialogTitle>
-            </DialogHeader>
-            <div className="space-y-4 pt-4">
-              <div className="space-y-2">
-                <Label htmlFor="title">Título</Label>
-                <Input
-                  id="title"
-                  placeholder="Ej: Constitución Española"
-                  value={newTitle}
-                  onChange={(e) => setNewTitle(e.target.value)}
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="description">Descripción (opcional)</Label>
-                <Textarea
-                  id="description"
-                  placeholder="Describe el contenido del tema..."
-                  value={newDescription}
-                  onChange={(e) => setNewDescription(e.target.value)}
-                />
-              </div>
-              <div className="flex gap-2 justify-end">
-                <Button variant="outline" onClick={closeDialog}>
-                  Cancelar
-                </Button>
-                <Button onClick={editingTopic ? handleUpdateTopic : handleAddTopic}>
-                  {editingTopic ? 'Guardar cambios' : 'Crear tema'}
-                </Button>
-              </div>
-            </div>
-          </DialogContent>
-        </Dialog>
       </div>
 
-      {topics.length === 0 ? (
-        <Card className="border-border border-dashed">
-          <CardContent className="py-12 text-center">
-            <p className="text-muted-foreground mb-4">
-              No tienes temas creados todavía.
-            </p>
-            <Button variant="outline" onClick={() => setDialogOpen(true)}>
-              <Plus className="h-4 w-4 mr-2" />
-              Crear tu primer tema
-            </Button>
+      {/* Selector de convocatoria */}
+      {convocatorias.length > 1 && (
+        <div className="flex items-center gap-3">
+          <Filter className="h-4 w-4 text-muted-foreground" />
+          <span className="text-sm text-muted-foreground">Convocatoria:</span>
+          <div className="flex gap-2">
+            {convocatorias.map((conv) => (
+              <Button
+                key={conv.id}
+                variant={selectedConvocatoria?.id === conv.id ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => handleSelectConvocatoria(conv)}
+                style={selectedConvocatoria?.id === conv.id ? { backgroundColor: conv.color } : undefined}
+              >
+                {conv.shortTitle}
+              </Button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Info de la convocatoria */}
+      {selectedConvocatoria && convocatoriaData && (
+        <Card className="border-l-4" style={{ borderLeftColor: selectedConvocatoria.color }}>
+          <CardContent className="p-4">
+            <div className="flex items-start justify-between">
+              <div>
+                <h2 className="font-semibold">{selectedConvocatoria.title}</h2>
+                <p className="text-sm text-muted-foreground">
+                  {convocatoriaData.convocatoria.institucion} · {convocatoriaData.total_temas} temas
+                </p>
+              </div>
+              {convocatoriaData.convocatoria.enlace_publicacion && (
+                <a
+                  href={convocatoriaData.convocatoria.enlace_publicacion}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline text-sm flex items-center gap-1"
+                >
+                  Ver convocatoria
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              )}
+            </div>
           </CardContent>
         </Card>
-      ) : (
-        <div className="space-y-3">
-          {topics.map((topic, index) => (
-            <Card
-              key={topic.id}
-              className={`border-border transition-all ${topic.completed ? 'bg-muted/50' : ''}`}
-            >
-              <CardContent className="p-4 flex items-center gap-4">
-                <Checkbox
-                  checked={topic.completed}
-                  onCheckedChange={() => handleToggleComplete(topic.id)}
-                />
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm text-muted-foreground">
-                      {(index + 1).toString().padStart(2, '0')}
-                    </span>
-                    <ChevronRight className="h-4 w-4 text-muted-foreground" />
-                    <h3
-                      className={`font-medium truncate ${
-                        topic.completed ? 'line-through text-muted-foreground' : 'text-foreground'
-                      }`}
-                    >
-                      {topic.title}
-                    </h3>
-                    {topic.completed && (
-                      <Check className="h-4 w-4 text-primary flex-shrink-0" />
+      )}
+
+      {/* Lista de temas agrupados por bloque */}
+      {convocatoriaData && Object.entries(temasPorBloque).length > 0 ? (
+        <div className="space-y-4">
+          {Object.entries(temasPorBloque).map(([bloque, temas]) => (
+            <Card key={bloque} className="border-border">
+              <CardHeader 
+                className="cursor-pointer hover:bg-muted/50 transition-colors"
+                onClick={() => setExpandedBloque(expandedBloque === bloque ? null : bloque)}
+              >
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-lg flex items-center gap-2">
+                    {expandedBloque === bloque ? (
+                      <ChevronDown className="h-5 w-5" />
+                    ) : (
+                      <ChevronRight className="h-5 w-5" />
                     )}
+                    {bloque}
+                  </CardTitle>
+                  <Badge variant="secondary">{temas.length} temas</Badge>
+                </div>
+              </CardHeader>
+              
+              {expandedBloque === bloque && (
+                <CardContent className="pt-0">
+                  <div className="space-y-2">
+                    {temas.map((tema) => (
+                      <div
+                        key={tema.id}
+                        className="flex items-center gap-4 p-3 rounded-lg hover:bg-muted/50 cursor-pointer transition-colors border border-transparent hover:border-border"
+                        onClick={() => handleSelectTema(tema)}
+                      >
+                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-sm font-medium text-primary">
+                          {tema.numero}
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h3 className="font-medium truncate">{tema.titulo}</h3>
+                          <div className="flex items-center gap-2 mt-1">
+                            <span className="text-xs text-muted-foreground">
+                              {tema.recursos.length} recursos
+                            </span>
+                            <Badge className={`text-[10px] ${getRelevanciaColor(tema.relevancia)}`}>
+                              {tema.relevancia}
+                            </Badge>
+                          </div>
+                        </div>
+                        <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                      </div>
+                    ))}
                   </div>
-                  {topic.description && (
-                    <p className="text-sm text-muted-foreground mt-1 truncate">
-                      {topic.description}
-                    </p>
-                  )}
-                </div>
-                <div className="flex gap-1">
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => openEditDialog(topic)}
-                  >
-                    <Edit2 className="h-4 w-4" />
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => handleDelete(topic.id)}
-                  >
-                    <Trash2 className="h-4 w-4 text-destructive" />
-                  </Button>
-                </div>
-              </CardContent>
+                </CardContent>
+              )}
             </Card>
           ))}
         </div>
+      ) : (
+        <Card className="border-border border-dashed">
+          <CardContent className="py-12 text-center">
+            <p className="text-muted-foreground">
+              No hay temas disponibles para esta convocatoria.
+            </p>
+          </CardContent>
+        </Card>
       )}
     </div>
   );
