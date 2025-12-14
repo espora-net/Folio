@@ -335,7 +335,12 @@ const Tests = () => {
                 </Badge>
               )}
             </div>
-            <span>Aciertos: {score}</span>
+            <div className="flex items-center gap-4">
+              <span>Aciertos: {score}</span>
+              <Button variant="ghost" size="sm" onClick={() => setTesting(false)}>
+                Terminar test
+              </Button>
+            </div>
           </div>
           <Card className="border-border">
             <CardContent className="p-6">
@@ -343,7 +348,7 @@ const Tests = () => {
                 {currentQuestion.question}
               </h3>
               <RadioGroup
-                value={selectedAnswer?.toString()}
+                value={selectedAnswer !== null ? selectedAnswer.toString() : undefined}
                 onValueChange={(val) => !showResult && setSelectedAnswer(parseInt(val))}
               >
                 {currentQuestion.options.map((option, i) => (
@@ -395,11 +400,6 @@ const Tests = () => {
               </div>
             </CardContent>
           </Card>
-          <div className="text-center mt-4">
-            <Button variant="ghost" onClick={() => setTesting(false)}>
-              Cancelar test
-            </Button>
-          </div>
         </div>
       ) : (
         <>
