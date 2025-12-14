@@ -12,11 +12,12 @@ const CTA = () => {
           ¿Listo para aprobar tu oposición?
         </h2>
         <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-8">
-          Únete a miles de opositores que ya están preparando su futuro con Folio.
+          Estamos construyendo la mejor herramienta de estudio para opositores. 
+          Únete ahora y ayúdanos a darle forma.
         </p>
         <Link href="/auth">
           <Button size="lg" className="text-lg px-8 py-6">
-            Empezar gratis
+            Empezar
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </Link>

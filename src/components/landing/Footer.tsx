@@ -1,4 +1,4 @@
-import { BookOpen } from 'lucide-react';
+import { BookOpen, MessageSquare } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -10,9 +10,20 @@ const Footer = () => {
             <span className="font-semibold text-foreground">Folio</span>
           </div>
           
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Folio. Todos los derechos reservados.
-          </p>
+          <div className="flex items-center gap-6">
+            <a 
+              href="https://forms.office.com/r/zn5AwbZxmD" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              <MessageSquare className="h-4 w-4" />
+              <span>Enviar feedback</span>
+            </a>
+            <p className="text-sm text-muted-foreground">
+              © {new Date().getFullYear()} Folio
+            </p>
+          </div>
         </div>
       </div>
     </footer>
