@@ -145,6 +145,7 @@ const normalizeDatasetTopics = (dataset: RawDataset, descriptor?: DatasetDescrip
             return {
               id: typeof data.id === 'string' ? data.id : '',
               title: typeof data.title === 'string' ? data.title : '',
+              // Los subtemas usan el campo "content" en los datasets temáticos
               description: typeof data.content === 'string' ? data.content : '',
               parentId: baseTopic.id,
               order: typeof data.order === 'number' ? data.order : 0,
@@ -169,6 +170,7 @@ const pickNextReview = (data: Record<string, unknown>) => {
 
 const normalizeDatasetFlashcards = (dataset: RawDataset): Flashcard[] => {
   const rawCards = Array.isArray(dataset.flashcards) ? dataset.flashcards : [];
+  const defaultNextReview = new Date().toISOString();
   return rawCards
     .map(card => {
       if (!card || typeof card !== 'object') return null;
@@ -179,7 +181,7 @@ const normalizeDatasetFlashcards = (dataset: RawDataset): Flashcard[] => {
       const answer = typeof data.answer === 'string' ? data.answer : '';
       if (!id || !topicId || !question || !answer) return null;
 
-      const nextReview = pickNextReview(data) ?? new Date().toISOString();
+      const nextReview = pickNextReview(data) ?? defaultNextReview;
       const interval = typeof data.interval === 'number' ? data.interval : 1;
       const easeFactor = typeof data.easeFactor === 'number' ? data.easeFactor : 2.5;
 

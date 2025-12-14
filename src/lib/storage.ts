@@ -54,8 +54,13 @@ const hasStoredValue = (key: keyof typeof STORAGE_KEYS) => {
 export const setActiveUserId = (userId?: string | null) => {
   if (typeof window === 'undefined') return;
   const trimmed = userId?.trim();
-  const sanitized = trimmed ? trimmed.replace(/[^\w-]/g, '') || 'guest' : 'guest';
-  localStorage.setItem(ACTIVE_USER_KEY, sanitized);
+  const sanitized = trimmed ? trimmed.replace(/[^\w-]/g, '') : '';
+  const fallbackId =
+    trimmed && !sanitized
+      ? `u-${Array.from(trimmed).reduce((acc, char) => acc + char.charCodeAt(0), 0).toString(16)}`
+      : 'guest';
+  const safeId = sanitized || fallbackId;
+  localStorage.setItem(ACTIVE_USER_KEY, safeId);
 };
 
 export const getTopics = (): Topic[] => {
