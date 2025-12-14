@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Plus, RotateCcw, Check, X, Trash2, Filter, Trophy } from 'lucide-react';
+import { Plus, RotateCcw, Check, Bookmark, Trash2, Filter, Trophy, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -39,6 +39,7 @@ const Flashcards = () => {
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [totalReviewed, setTotalReviewed] = useState(0);
+  const [markedForReview, setMarkedForReview] = useState<Flashcard[]>([]);
   const [newQuestion, setNewQuestion] = useState('');
   const [newAnswer, setNewAnswer] = useState('');
   const [newTopicId, setNewTopicId] = useState('');
@@ -110,10 +111,15 @@ const Flashcards = () => {
     toast({ title: 'Tarjeta eliminada' });
   };
 
-  const handleReview = (correct: boolean) => {
+  const handleReview = (markForReview: boolean) => {
     const stats = getStats();
     stats.cardsReviewed += 1;
-    if (correct) {
+    
+    if (markForReview) {
+      // Marcar para repasar
+      setMarkedForReview(prev => [...prev, currentCard]);
+    } else {
+      // No marcada = correcta
       stats.correctAnswers += 1;
       setCorrectCount(prev => prev + 1);
     }
@@ -139,6 +145,7 @@ const Flashcards = () => {
     setShowAnswer(false);
     setCorrectCount(0);
     setTotalReviewed(filteredFlashcards.length);
+    setMarkedForReview([]);
   };
 
   const closeResults = () => {
@@ -158,8 +165,8 @@ const Flashcards = () => {
     <div className="space-y-6">
       {/* Pantalla de resultados */}
       {showFinalResults && (
-        <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex items-center justify-center">
-          <div className="max-w-md w-full mx-4 text-center space-y-6">
+        <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex items-center justify-center overflow-y-auto py-8">
+          <div className="max-w-2xl w-full mx-4 text-center space-y-6">
             <div className={`mx-auto w-24 h-24 rounded-full ${getResultIcon().bg} flex items-center justify-center`}>
               <Trophy className={`h-12 w-12 ${getResultIcon().color}`} />
             </div>
@@ -174,7 +181,7 @@ const Flashcards = () => {
                 {totalReviewed > 0 ? Math.round((correctCount / totalReviewed) * 100) : 0}%
               </div>
               <p className="text-muted-foreground">
-                Has acertado <span className="font-semibold text-foreground">{correctCount}</span> de <span className="font-semibold text-foreground">{totalReviewed}</span> tarjetas
+                <span className="font-semibold text-foreground">{correctCount}</span> de <span className="font-semibold text-foreground">{totalReviewed}</span> tarjetas sin necesidad de repaso
               </p>
               <div className="w-full bg-muted rounded-full h-3">
                 <div 
@@ -183,6 +190,31 @@ const Flashcards = () => {
                 />
               </div>
             </div>
+
+            {/* Tarjetas marcadas para repasar */}
+            {markedForReview.length > 0 && (
+              <div className="bg-card border border-border rounded-xl p-6 space-y-4 text-left">
+                <div className="flex items-center gap-2 text-foreground font-semibold">
+                  <Bookmark className="h-5 w-5 text-orange-500" />
+                  <span>Tarjetas para repasar ({markedForReview.length})</span>
+                </div>
+                <div className="space-y-3 max-h-[300px] overflow-y-auto">
+                  {markedForReview.map((card, index) => (
+                    <div key={card.id} className="bg-muted/50 rounded-lg p-4 space-y-2">
+                      <div className="flex items-start gap-2">
+                        <span className="text-xs font-medium text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                          {index + 1}
+                        </span>
+                        <div className="flex-1 space-y-2">
+                          <p className="text-sm font-medium text-foreground">{card.question}</p>
+                          <p className="text-sm text-muted-foreground">{card.answer}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="space-y-3">
               <Button onClick={startStudying} className="w-full">
@@ -281,8 +313,21 @@ const Flashcards = () => {
 
       {studying && currentCard ? (
         <div className="max-w-2xl mx-auto">
+          {/* Botón terminar sesión arriba */}
+          <div className="flex justify-end mb-4">
+            <Button variant="ghost" size="sm" onClick={() => setStudying(false)}>
+              <X className="h-4 w-4 mr-2" />
+              Terminar sesión
+            </Button>
+          </div>
+          
           <div className="mb-4 text-center text-sm text-muted-foreground">
             Tarjeta {currentIndex + 1} de {filteredFlashcards.length}
+            {markedForReview.length > 0 && (
+              <span className="ml-2 text-orange-500">
+                ({markedForReview.length} marcadas)
+              </span>
+            )}
             {currentCard.topicId && getTopicById(currentCard.topicId) && (
               <Badge
                 className="ml-2"
@@ -347,27 +392,22 @@ const Flashcards = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="flex-1 max-w-[150px]"
-                onClick={() => handleReview(false)}
+                className="flex-1 max-w-[200px]"
+                onClick={() => handleReview(true)}
               >
-                <X className="h-5 w-5 mr-2 text-destructive" />
-                Incorrecta
+                <Bookmark className="h-5 w-5 mr-2 text-orange-500" />
+                Marcar para repasar
               </Button>
               <Button
                 size="lg"
                 className="flex-1 max-w-[150px]"
-                onClick={() => handleReview(true)}
+                onClick={() => handleReview(false)}
               >
                 <Check className="h-5 w-5 mr-2" />
-                Correcta
+                Siguiente
               </Button>
             </div>
           )}
-          <div className="text-center mt-4">
-            <Button variant="ghost" onClick={() => setStudying(false)}>
-              Terminar sesión
-            </Button>
-          </div>
         </div>
       ) : (
         <>
