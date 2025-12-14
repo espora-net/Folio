@@ -160,6 +160,12 @@ const normalizeDatasetTopics = (dataset: RawDataset, descriptor?: DatasetDescrip
   });
 };
 
+const pickNextReview = (data: Record<string, unknown>) => {
+  if (typeof data.nextReview === 'string') return data.nextReview;
+  if (typeof data.nextReviewDate === 'string') return data.nextReviewDate;
+  return undefined;
+};
+
 const normalizeDatasetFlashcards = (dataset: RawDataset): Flashcard[] => {
   const rawCards = Array.isArray(dataset.flashcards) ? dataset.flashcards : [];
   return rawCards
@@ -172,14 +178,7 @@ const normalizeDatasetFlashcards = (dataset: RawDataset): Flashcard[] => {
       const answer = typeof data.answer === 'string' ? data.answer : '';
       if (!id || !topicId || !question || !answer) return null;
 
-      const nextReviewValue =
-        typeof data.nextReview === 'string'
-          ? data.nextReview
-          : typeof data.nextReviewDate === 'string'
-            ? data.nextReviewDate
-            : undefined;
-
-      const nextReview = nextReviewValue ?? new Date().toISOString();
+      const nextReview = pickNextReview(data) ?? new Date().toISOString();
       const interval = typeof data.interval === 'number' ? data.interval : 1;
       const easeFactor = typeof data.easeFactor === 'number' ? data.easeFactor : 2.5;
 
@@ -196,6 +195,12 @@ const normalizeDatasetFlashcards = (dataset: RawDataset): Flashcard[] => {
     .filter((entry): entry is Flashcard => Boolean(entry));
 };
 
+const pickCorrectIndex = (data: Record<string, unknown>) => {
+  if (typeof data.correctIndex === 'number') return data.correctIndex;
+  if (typeof data.correctAnswer === 'number') return data.correctAnswer;
+  return undefined;
+};
+
 const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
   const rawQuestions = Array.isArray(dataset.questions) ? dataset.questions : [];
   return rawQuestions
@@ -210,12 +215,7 @@ const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
         : [];
       if (!id || !topicId || !prompt || options.length === 0) return null;
 
-      const correctIndex =
-        typeof data.correctIndex === 'number'
-          ? data.correctIndex
-          : typeof data.correctAnswer === 'number'
-            ? data.correctAnswer
-            : 0;
+      const correctIndex = pickCorrectIndex(data) ?? 0;
 
       return {
         id,
@@ -271,7 +271,7 @@ const buildFallbackDatabase = (index: DatabaseIndex): Database => {
   const merged = mergeDatabaseIndex(index, availableDatasets);
   return {
     ...merged,
-    stats: merged.stats ?? defaultStats(),
+    stats: merged.stats,
   };
 };
 
