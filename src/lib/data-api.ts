@@ -298,8 +298,9 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
     const datasetPayloads: DatasetPayload[] = [];
 
     for (const descriptor of datasetDescriptors) {
+      const datasetUrl = buildDatasetEndpoint(descriptor.file);
       try {
-        const datasetResponse = await fetch(buildDatasetEndpoint(descriptor.file));
+        const datasetResponse = await fetch(datasetUrl);
         if (!datasetResponse.ok) throw new Error(`Unexpected dataset response: ${datasetResponse.status}`);
         const data = (await datasetResponse.json()) as RawDataset;
         datasetPayloads.push({ descriptor, data });
@@ -308,7 +309,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
         if (fallback) {
           datasetPayloads.push({ descriptor, data: fallback });
         } else {
-          console.warn(`Dataset ${descriptor.file} could not be loaded`, error);
+          console.warn(`Dataset ${descriptor.file} could not be loaded from ${datasetUrl}`, error);
         }
       }
     }

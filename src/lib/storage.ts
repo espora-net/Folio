@@ -21,12 +21,21 @@ const getActiveUserId = () => {
 
 const scopedKey = (key: string) => `${key}::${getActiveUserId()}`;
 
+const safeParse = <T>(value: string | null): T | null => {
+  if (!value) return null;
+  try {
+    return JSON.parse(value) as T;
+  } catch {
+    return null;
+  }
+};
+
 const readFromStorage = <T>(key: keyof typeof STORAGE_KEYS, fallback: T): T => {
   if (typeof window === 'undefined') return fallback;
-  const scoped = localStorage.getItem(scopedKey(STORAGE_KEYS[key]));
-  if (scoped) return JSON.parse(scoped) as T;
-  const legacy = localStorage.getItem(STORAGE_KEYS[key]);
-  return legacy ? (JSON.parse(legacy) as T) : fallback;
+  const scoped = safeParse<T>(localStorage.getItem(scopedKey(STORAGE_KEYS[key])));
+  if (scoped) return scoped;
+  const legacy = safeParse<T>(localStorage.getItem(STORAGE_KEYS[key]));
+  return legacy ?? fallback;
 };
 
 const writeToStorage = <T>(key: keyof typeof STORAGE_KEYS, value: T) => {
@@ -44,7 +53,8 @@ const hasStoredValue = (key: keyof typeof STORAGE_KEYS) => {
 
 export const setActiveUserId = (userId?: string | null) => {
   if (typeof window === 'undefined') return;
-  const sanitized = userId && userId.trim() ? userId.trim() : 'guest';
+  const trimmed = userId?.trim();
+  const sanitized = trimmed ? trimmed : 'guest';
   localStorage.setItem(ACTIVE_USER_KEY, sanitized);
 };
 
