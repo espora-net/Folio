@@ -7,8 +7,13 @@
   "formUrl": "https://forms.gle/N8RFDmEaJ74bNNsZ8",
   "allowedUsers": [
     {
-      "githubUsername": "pablofelipe01",
-      "name": "Pablo Felipe",
+      "githubUsername": "evaft",
+      "name": "Eva",
+      "addedAt": "2025-12-14"
+    },
+    {
+      "githubUsername": "carloshm",
+      "name": "Carlos",
       "addedAt": "2025-12-14"
     }
   ]
