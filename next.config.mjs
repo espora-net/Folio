@@ -7,6 +7,7 @@ const dataFile = path.join(process.cwd(), 'data/db.json');
 const publicApiFile = path.join(process.cwd(), 'public/api/db.json');
 const dataDir = path.join(process.cwd(), 'data');
 const publicApiDir = path.join(process.cwd(), 'public/api');
+const publicDataDir = path.join(process.cwd(), 'public/data');
 
 if (fs.existsSync(dataFile)) {
   try {
@@ -28,6 +29,22 @@ try {
       const target = path.join(publicApiDir, file);
       fs.mkdirSync(path.dirname(target), { recursive: true });
       fs.copyFileSync(source, target);
+    }
+
+    // Copiar archivos de data/general a public/data/general
+    const generalDir = path.join(dataDir, 'general');
+    if (fs.existsSync(generalDir)) {
+      const targetGeneralDir = path.join(publicDataDir, 'general');
+      fs.mkdirSync(targetGeneralDir, { recursive: true });
+      
+      const generalFiles = fs.readdirSync(generalDir);
+      for (const file of generalFiles) {
+        const source = path.join(generalDir, file);
+        const target = path.join(targetGeneralDir, file);
+        if (fs.statSync(source).isFile()) {
+          fs.copyFileSync(source, target);
+        }
+      }
     }
   } else {
     console.warn(`Data directory not found at ${dataDir}, skipping dataset copy`);

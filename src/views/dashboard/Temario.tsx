@@ -1,10 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ChevronRight, ChevronDown, FileText, FileAudio, Database, ExternalLink, BookOpen, Filter, ArrowLeft } from 'lucide-react';
+import { ChevronRight, ChevronDown, FileText, FileAudio, Database, BookOpen, Filter, ArrowLeft, X, ExternalLink, Play, Pause, Volume2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import ReactMarkdown from 'react-markdown';
 import { 
   getConvocatoriaDescriptors, 
   getActiveConvocatoria, 
@@ -14,8 +15,16 @@ import {
 import { 
   type ConvocatoriaDescriptor, 
   type ConvocatoriaData, 
-  type TemaConvocatoria 
+  type TemaConvocatoria,
+  type TemaRecurso
 } from '@/lib/data-types';
+
+type ViewerState = {
+  type: 'md' | 'pdf' | 'mp3' | null;
+  url: string;
+  nombre: string;
+  content?: string;
+};
 
 const Temario = () => {
   const [convocatorias, setConvocatorias] = useState<ConvocatoriaDescriptor[]>([]);
@@ -24,17 +33,20 @@ const Temario = () => {
   const [selectedTema, setSelectedTema] = useState<TemaConvocatoria | null>(null);
   const [loading, setLoading] = useState(true);
   const [expandedBloque, setExpandedBloque] = useState<string | null>(null);
+  const [viewer, setViewer] = useState<ViewerState>({ type: null, url: '', nombre: '' });
+  const [mdContent, setMdContent] = useState<string>('');
+  const [loadingContent, setLoadingContent] = useState(false);
+
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   useEffect(() => {
     const loadConvocatorias = async () => {
       const descriptors = getConvocatoriaDescriptors();
       setConvocatorias(descriptors);
       
-      // Seleccionar convocatoria activa por defecto
       const active = getActiveConvocatoria();
       if (active) {
         setSelectedConvocatoria(active);
-        // Cargar datos de la convocatoria
         const data = getCachedConvocatoria(active.id) || await fetchConvocatoria(active.id);
         setConvocatoriaData(data);
       }
@@ -48,6 +60,7 @@ const Temario = () => {
   const handleSelectConvocatoria = async (conv: ConvocatoriaDescriptor) => {
     setSelectedConvocatoria(conv);
     setSelectedTema(null);
+    setViewer({ type: null, url: '', nombre: '' });
     setLoading(true);
     const data = getCachedConvocatoria(conv.id) || await fetchConvocatoria(conv.id);
     setConvocatoriaData(data);
@@ -56,10 +69,50 @@ const Temario = () => {
 
   const handleSelectTema = (tema: TemaConvocatoria) => {
     setSelectedTema(tema);
+    setViewer({ type: null, url: '', nombre: '' });
   };
 
   const handleBackToList = () => {
     setSelectedTema(null);
+    setViewer({ type: null, url: '', nombre: '' });
+  };
+
+  const getRecursoUrl = (archivo: string) => {
+    return `${basePath}/data/${archivo}`;
+  };
+
+  const handleOpenRecurso = async (recurso: TemaRecurso) => {
+    const url = getRecursoUrl(recurso.archivo);
+    
+    if (recurso.tipo === 'db') {
+      // Para db, redirigir a flashcards o tests
+      window.location.href = `${basePath}/dashboard/flashcards`;
+      return;
+    }
+
+    if (recurso.tipo === 'md') {
+      setLoadingContent(true);
+      setViewer({ type: 'md', url, nombre: recurso.nombre });
+      try {
+        const response = await fetch(url);
+        if (response.ok) {
+          const text = await response.text();
+          setMdContent(text);
+        } else {
+          setMdContent('Error al cargar el contenido');
+        }
+      } catch {
+        setMdContent('Error al cargar el contenido');
+      }
+      setLoadingContent(false);
+    } else {
+      setViewer({ type: recurso.tipo as 'pdf' | 'mp3', url, nombre: recurso.nombre });
+    }
+  };
+
+  const closeViewer = () => {
+    setViewer({ type: null, url: '', nombre: '' });
+    setMdContent('');
   };
 
   // Agrupar temas por bloque
@@ -82,7 +135,7 @@ const Temario = () => {
 
   const getRecursoLabel = (tipo: string) => {
     switch (tipo) {
-      case 'md': return 'Markdown';
+      case 'md': return 'Texto';
       case 'pdf': return 'PDF';
       case 'mp3': return 'Audio';
       case 'db': return 'Flashcards/Tests';
@@ -99,17 +152,87 @@ const Temario = () => {
     }
   };
 
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
-  const getRecursoUrl = (archivo: string) => {
-    // Construir URL relativa al directorio data
-    return `${basePath}/data/${archivo}`;
-  };
-
   if (loading) {
     return (
       <div className="flex items-center justify-center h-64">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+      </div>
+    );
+  }
+
+  // Vista del visor
+  if (viewer.type) {
+    return (
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <Button variant="ghost" size="sm" onClick={closeViewer}>
+            <ArrowLeft className="h-4 w-4 mr-2" />
+            Volver a recursos
+          </Button>
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-muted-foreground">{viewer.nombre}</span>
+            <a
+              href={viewer.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          </div>
+        </div>
+
+        {/* Visor de Markdown */}
+        {viewer.type === 'md' && (
+          <Card className="border-border">
+            <CardContent className="p-6 prose prose-sm dark:prose-invert max-w-none overflow-auto max-h-[calc(100vh-200px)]">
+              {loadingContent ? (
+                <div className="flex items-center justify-center py-12">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                </div>
+              ) : (
+                <ReactMarkdown>{mdContent}</ReactMarkdown>
+              )}
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Visor de PDF */}
+        {viewer.type === 'pdf' && (
+          <Card className="border-border overflow-hidden">
+            <CardContent className="p-0">
+              <iframe
+                src={viewer.url}
+                className="w-full h-[calc(100vh-200px)] border-0"
+                title={viewer.nombre}
+              />
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Reproductor de Audio */}
+        {viewer.type === 'mp3' && (
+          <Card className="border-border">
+            <CardContent className="p-6">
+              <div className="flex flex-col items-center gap-6">
+                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Volume2 className="h-12 w-12 text-primary" />
+                </div>
+                <h3 className="text-lg font-semibold text-center">{viewer.nombre}</h3>
+                <audio
+                  controls
+                  className="w-full max-w-md"
+                  src={viewer.url}
+                >
+                  Tu navegador no soporta el elemento de audio.
+                </audio>
+                <p className="text-sm text-muted-foreground text-center">
+                  Escucha el contenido del tema mientras realizas otras actividades
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        )}
       </div>
     );
   }
@@ -155,26 +278,22 @@ const Temario = () => {
           </h2>
           <div className="grid gap-3 sm:grid-cols-2">
             {selectedTema.recursos.map((recurso, index) => (
-              <a
+              <Card 
                 key={index}
-                href={getRecursoUrl(recurso.archivo)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
+                className="border-border hover:border-primary/50 hover:bg-muted/50 transition-all cursor-pointer"
+                onClick={() => handleOpenRecurso(recurso)}
               >
-                <Card className="border-border hover:border-primary/50 hover:bg-muted/50 transition-all cursor-pointer">
-                  <CardContent className="p-4 flex items-center gap-4">
-                    <div className="p-2 rounded-lg bg-muted">
-                      {getRecursoIcon(recurso.tipo)}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="font-medium truncate">{recurso.nombre}</p>
-                      <p className="text-sm text-muted-foreground">{getRecursoLabel(recurso.tipo)}</p>
-                    </div>
-                    <ExternalLink className="h-4 w-4 text-muted-foreground" />
-                  </CardContent>
-                </Card>
-              </a>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <div className="p-2 rounded-lg bg-muted">
+                    {getRecursoIcon(recurso.tipo)}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-medium truncate">{recurso.nombre}</p>
+                    <p className="text-sm text-muted-foreground">{getRecursoLabel(recurso.tipo)}</p>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>
@@ -185,26 +304,22 @@ const Temario = () => {
             <h2 className="text-xl font-semibold mb-4">Materiales complementarios</h2>
             <div className="grid gap-3">
               {selectedTema.materiales_complementarios.map((material) => (
-                <a
+                <Card 
                   key={material.id}
-                  href={getRecursoUrl(material.archivo)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
+                  className="border-border hover:border-primary/50 hover:bg-muted/50 transition-all cursor-pointer"
+                  onClick={() => handleOpenRecurso({ tipo: 'pdf', nombre: material.titulo, archivo: material.archivo })}
                 >
-                  <Card className="border-border hover:border-primary/50 hover:bg-muted/50 transition-all cursor-pointer">
-                    <CardContent className="p-4 flex items-center gap-4">
-                      <div className="p-2 rounded-lg bg-muted">
-                        <FileText className="h-4 w-4 text-red-500" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="font-medium truncate">{material.titulo}</p>
-                        <p className="text-sm text-muted-foreground">PDF</p>
-                      </div>
-                      <ExternalLink className="h-4 w-4 text-muted-foreground" />
-                    </CardContent>
-                  </Card>
-                </a>
+                  <CardContent className="p-4 flex items-center gap-4">
+                    <div className="p-2 rounded-lg bg-muted">
+                      <FileText className="h-4 w-4 text-red-500" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium truncate">{material.titulo}</p>
+                      <p className="text-sm text-muted-foreground">PDF</p>
+                    </div>
+                    <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                  </CardContent>
+                </Card>
               ))}
             </div>
           </div>
