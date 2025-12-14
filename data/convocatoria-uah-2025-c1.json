@@ -30,17 +30,17 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "general/01_constitucion_española_1978.md"
+          "archivo": "general/01_constitucion_espanola_1978.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "general/01_constitucion_española_1978.pdf"
+          "archivo": "general/01_constitucion_espanola_1978.pdf"
         },
         {
           "tipo": "mp3",
           "nombre": "Audio del texto",
-          "archivo": "general/01_constitucion_española_1978.mp3"
+          "archivo": "general/01_constitucion_espanola_1978.mp3"
         },
         {
           "tipo": "db",
@@ -71,12 +71,12 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "general/02_Estatuto Básico del Empleado Público.md"
+          "archivo": "general/02_Estatuto_Basico_del_Empleado_Publico.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "general/02_Estatuto Básico del Empleado Público.pdf"
+          "archivo": "general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
         }
       ]
     },
@@ -101,12 +101,12 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "general/03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.md"
+          "archivo": "general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "general/03_Ley Orgánica 2_2023 de 22 de marzo del Sistema Universitario.pdf"
+          "archivo": "general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.pdf"
         }
       ]
     },
@@ -129,12 +129,12 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "general/04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.md"
+          "archivo": "general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "general/04_Ley Orgánica 3_2018 de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.pdf"
+          "archivo": "general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.pdf"
         }
       ]
     },
@@ -156,12 +156,12 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "general/05_Real Decreto Legislativo 1_2013 de 29 de noviembre.md"
+          "archivo": "general/05_ley_discapacidad.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "general/05_Real Decreto Legislativo 1_2013 de 29 de noviembre.pdf"
+          "archivo": "general/05_ley_discapacidad.pdf"
         }
       ]
     },
@@ -180,12 +180,12 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "general/06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.md"
+          "archivo": "general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "general/06_Ley Orgánica 3_2007 de 22 de marzo para la igualdad efectiva de mujeres y hombres.pdf"
+          "archivo": "general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.pdf"
         }
       ],
       "materiales_complementarios": [
