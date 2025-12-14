@@ -51,11 +51,16 @@ const Hero = () => {
         
         {/* Early adopter message */}
         <div className="mt-16 max-w-xl mx-auto">
-          <div className="inline-flex items-center gap-2 rounded-lg bg-primary/10 border border-primary/20 px-6 py-3">
+          <a 
+            href="https://forms.office.com/r/zn5AwbZxmD" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg bg-primary/10 border border-primary/20 px-6 py-3 hover:bg-primary/20 transition-colors"
+          >
             <span className="text-sm text-primary font-medium">
               🚀 Sé de los primeros en probarlo — tu feedback nos ayuda a mejorar
             </span>
-          </div>
+          </a>
         </div>
       </div>
     </section>

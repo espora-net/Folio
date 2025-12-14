@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link href="/auth">
-              <Button>Empezar gratis</Button>
+              <Button>Empezar</Button>
             </Link>
           )}
         </div>
