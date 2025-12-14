@@ -23,7 +23,7 @@ interface AuthUser {
 
 interface BetaConfig {
   formUrl: string;
-  allowedUsers: { githubUsername: string }[];
+  allowedUsers: { githubUsername: string; authgearId?: string }[];
 }
 
 interface AuthContextType {
@@ -135,15 +135,19 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
           const authUser = mapUserInfo(userInfo);
           setUser(authUser);
           
-          // Verificar si el usuario está en la lista beta
+          // Verificar si el usuario está en la lista beta (por githubUsername o authgearId)
           const isAllowed = betaConfig?.allowedUsers.some(
-            u => u.githubUsername.toLowerCase() === (authUser.githubUsername?.toLowerCase() || '')
+            u => 
+              (u.githubUsername && authUser.githubUsername && 
+               u.githubUsername.toLowerCase() === authUser.githubUsername.toLowerCase()) ||
+              (u.authgearId && u.authgearId === authUser.id)
           ) ?? false;
           
           // Log para depuración
           console.log('[Folio Auth] Verificación beta:', {
+            userId: authUser.id,
             githubUsername: authUser.githubUsername,
-            allowedUsers: betaConfig?.allowedUsers.map(u => u.githubUsername),
+            allowedUsers: betaConfig?.allowedUsers,
             isAllowed,
           });
           
