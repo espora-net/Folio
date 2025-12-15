@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactNode, useEffect } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Sidebar from '@/components/dashboard/Sidebar';
@@ -10,9 +10,27 @@ import { hydrateFromApi } from '@/lib/storage';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
+const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
+
 const Dashboard = ({ children }: { children: ReactNode }) => {
   const { user, loading, isBetaUser, betaFormUrl, signOut } = useAuth();
   const router = useRouter();
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+
+  useEffect(() => {
+    // Leer estado inicial del sidebar
+    const saved = localStorage.getItem(SIDEBAR_COLLAPSED_KEY);
+    if (saved !== null) {
+      setSidebarCollapsed(saved === 'true');
+    }
+
+    // Escuchar cambios del sidebar
+    const handleSidebarToggle = (e: CustomEvent<{ collapsed: boolean }>) => {
+      setSidebarCollapsed(e.detail.collapsed);
+    };
+    window.addEventListener('folio-sidebar-toggle', handleSidebarToggle as EventListener);
+    return () => window.removeEventListener('folio-sidebar-toggle', handleSidebarToggle as EventListener);
+  }, []);
 
   useEffect(() => {
     hydrateFromApi().catch((error) => console.warn('Failed to hydrate study data from static API', error));
@@ -94,7 +112,7 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   return (
     <div className="min-h-screen bg-background">
       <Sidebar />
-      <main className="ml-64 p-8">{children}</main>
+      <main className={`p-8 transition-all duration-300 ${sidebarCollapsed ? 'ml-16' : 'ml-64'}`}>{children}</main>
     </div>
   );
 };

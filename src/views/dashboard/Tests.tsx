@@ -385,7 +385,8 @@ const Tests = () => {
                 {currentQuestion.question}
               </h3>
               <RadioGroup
-                value={selectedAnswer !== null ? selectedAnswer.toString() : undefined}
+                key={currentIndex}
+                value={selectedAnswer !== null ? selectedAnswer.toString() : ''}
                 onValueChange={(val) => !showResult && setSelectedAnswer(parseInt(val))}
               >
                 {currentQuestion.options.map((option, i) => (
