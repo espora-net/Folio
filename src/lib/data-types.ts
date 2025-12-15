@@ -19,6 +19,12 @@ export interface Flashcard {
   easeFactor: number;
 }
 
+export interface QuestionSource {
+  materialId: string;
+  path: string;
+  highlightText: string;
+}
+
 export interface TestQuestion {
   id: string;
   topicId: string;
@@ -26,6 +32,7 @@ export interface TestQuestion {
   options: string[];
   correctIndex: number;
   explanation: string;
+  source?: QuestionSource;
 }
 
 export interface StudyStats {

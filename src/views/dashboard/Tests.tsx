@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List } from 'lucide-react';
+import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List, BookOpen, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -11,6 +11,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DialogDescription,
 } from '@/components/ui/dialog';
 import {
   AlertDialog,
@@ -53,6 +54,7 @@ const Tests = () => {
   const [score, setScore] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [dialogOpen, setDialogOpen] = useState(false);
+  const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
   const [newQuestion, setNewQuestion] = useState('');
   const [newOptions, setNewOptions] = useState(['', '', '', '']);
   const [correctIndex, setCorrectIndex] = useState(0);
@@ -422,10 +424,80 @@ const Tests = () => {
                 ))}
               </RadioGroup>
 
-              {showResult && currentQuestion.explanation && (
-                <div className="mt-6 p-4 rounded-lg bg-muted">
-                  <p className="text-sm font-medium text-foreground mb-1">Explicación:</p>
-                  <p className="text-sm text-muted-foreground">{currentQuestion.explanation}</p>
+              {showResult && (
+                <div className="mt-6 space-y-4">
+                  {/* Respuesta correcta resaltada */}
+                  <div className="p-4 rounded-lg bg-primary/10 border border-primary/20">
+                    <p className="text-sm font-medium text-primary mb-1">✓ Respuesta correcta:</p>
+                    <p className="text-base font-semibold text-foreground">
+                      {currentQuestion.options[currentQuestion.correctIndex]}
+                    </p>
+                  </div>
+
+                  {/* Explicación */}
+                  {currentQuestion.explanation && (
+                    <div className="p-4 rounded-lg bg-muted">
+                      <p className="text-sm font-medium text-foreground mb-1">Explicación:</p>
+                      <p className="text-sm text-muted-foreground">{currentQuestion.explanation}</p>
+                    </div>
+                  )}
+
+                  {/* Botón ver fuente */}
+                  {currentQuestion.source && (
+                    <Dialog open={sourceDialogOpen} onOpenChange={setSourceDialogOpen}>
+                      <DialogTrigger asChild>
+                        <Button variant="outline" size="sm" className="gap-2">
+                          <BookOpen className="h-4 w-4" />
+                          Ver fuente de referencia
+                        </Button>
+                      </DialogTrigger>
+                      <DialogContent className="sm:max-w-lg">
+                        <DialogHeader>
+                          <DialogTitle className="flex items-center gap-2">
+                            <BookOpen className="h-5 w-5 text-primary" />
+                            Fuente de referencia
+                          </DialogTitle>
+                          <DialogDescription>
+                            Información de la fuente original de esta pregunta
+                          </DialogDescription>
+                        </DialogHeader>
+                        <div className="space-y-4 pt-4">
+                          {/* Texto resaltado */}
+                          <div className="p-4 rounded-lg bg-yellow-50 dark:bg-yellow-950/30 border border-yellow-200 dark:border-yellow-800">
+                            <p className="text-sm font-medium text-yellow-800 dark:text-yellow-200 mb-2">
+                              Texto literal:
+                            </p>
+                            <blockquote className="text-sm text-yellow-900 dark:text-yellow-100 italic border-l-4 border-yellow-400 pl-3">
+                              "{currentQuestion.source.highlightText}"
+                            </blockquote>
+                          </div>
+
+                          {/* Ruta del documento */}
+                          <div className="p-3 rounded-lg bg-muted">
+                            <p className="text-xs text-muted-foreground mb-1">Documento:</p>
+                            <p className="text-sm font-mono text-foreground break-all">
+                              {currentQuestion.source.path}
+                            </p>
+                          </div>
+
+                          {/* Enlace para abrir */}
+                          <Button
+                            variant="outline"
+                            className="w-full gap-2"
+                            onClick={() => {
+                              // Extraer solo el nombre del archivo del path
+                              const path = currentQuestion.source?.path || '';
+                              const filename = path.split('/').pop()?.split('#')[0] || path;
+                              window.open(`/dashboard/temario?file=${encodeURIComponent(filename)}`, '_blank');
+                            }}
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                            Abrir en el temario
+                          </Button>
+                        </div>
+                      </DialogContent>
+                    </Dialog>
+                  )}
                 </div>
               )}
 
