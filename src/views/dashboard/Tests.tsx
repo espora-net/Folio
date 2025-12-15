@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight } from 'lucide-react';
+import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -27,6 +27,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Badge } from '@/components/ui/badge';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { TestQuestion, Topic, getQuestions, saveQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
@@ -36,11 +37,14 @@ type TopicGroup = {
   totalQuestions: number;
 };
 
+type ViewMode = 'cards' | 'list';
+
 const Tests = () => {
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
+  const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -563,20 +567,65 @@ const Tests = () => {
               </CardContent>
             </Card>
           ) : (
-            <div className="space-y-3">
-              {filteredQuestions.map((q, index) => {
-                const topic = getTopicById(q.topicId);
-                return (
-                  <Card key={q.id} className="border-border">
-                    <CardContent className="p-4">
-                      <div className="flex items-start justify-between gap-4">
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2 mb-1">
-                            <span className="text-sm text-muted-foreground">#{index + 1}</span>
+            <>
+              {/* Toggle de vista */}
+              <div className="flex justify-end mb-4">
+                <ToggleGroup type="single" value={viewMode} onValueChange={(v) => v && setViewMode(v as ViewMode)}>
+                  <ToggleGroupItem value="cards" aria-label="Vista tarjetas" className="px-3">
+                    <LayoutGrid className="h-4 w-4 mr-2" />
+                    Tarjetas
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value="list" aria-label="Vista lista" className="px-3">
+                    <List className="h-4 w-4 mr-2" />
+                    Lista
+                  </ToggleGroupItem>
+                </ToggleGroup>
+              </div>
+
+              {viewMode === 'cards' ? (
+                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                  {filteredQuestions.map((q) => {
+                    const topic = getTopicById(q.topicId);
+                    return (
+                      <Card key={q.id} className="border-border">
+                        <CardContent className="p-4 flex flex-col h-full">
+                          <div className="flex justify-between items-start mb-2">
+                            <p className="text-xs text-muted-foreground">Pregunta</p>
+                            <AlertDialog>
+                              <AlertDialogTrigger asChild>
+                                <Button
+                                  variant="ghost"
+                                  size="icon"
+                                  className="h-6 w-6 -mt-1 -mr-1"
+                                >
+                                  <Trash2 className="h-4 w-4 text-destructive" />
+                                </Button>
+                              </AlertDialogTrigger>
+                              <AlertDialogContent>
+                                <AlertDialogHeader>
+                                  <AlertDialogTitle>¿Eliminar pregunta?</AlertDialogTitle>
+                                  <AlertDialogDescription>
+                                    Esta acción no se puede deshacer. La pregunta será eliminada permanentemente.
+                                  </AlertDialogDescription>
+                                </AlertDialogHeader>
+                                <AlertDialogFooter>
+                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
+                                  <AlertDialogAction
+                                    onClick={() => handleDelete(q.id)}
+                                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                                  >
+                                    Eliminar
+                                  </AlertDialogAction>
+                                </AlertDialogFooter>
+                              </AlertDialogContent>
+                            </AlertDialog>
                           </div>
-                          <p className="text-foreground font-medium">{q.question}</p>
-                          <p className="text-sm text-primary mt-1">
-                            Respuesta correcta: {q.options[q.correctIndex]}
+                          <p className="font-medium text-foreground mb-3 line-clamp-3">
+                            {q.question}
+                          </p>
+                          <p className="text-xs text-muted-foreground">Respuesta correcta</p>
+                          <p className="text-sm text-primary line-clamp-2 flex-1">
+                            {q.options[q.correctIndex]}
                           </p>
                           {topic && (
                             <div className="mt-3 pt-3 border-t border-border">
@@ -588,40 +637,71 @@ const Tests = () => {
                               </Badge>
                             </div>
                           )}
-                        </div>
-                        <AlertDialog>
-                          <AlertDialogTrigger asChild>
-                            <Button
-                              variant="ghost"
-                              size="icon"
-                            >
-                              <Trash2 className="h-4 w-4 text-destructive" />
-                            </Button>
-                          </AlertDialogTrigger>
-                          <AlertDialogContent>
-                            <AlertDialogHeader>
-                              <AlertDialogTitle>¿Eliminar pregunta?</AlertDialogTitle>
-                              <AlertDialogDescription>
-                                Esta acción no se puede deshacer. La pregunta será eliminada permanentemente.
-                              </AlertDialogDescription>
-                            </AlertDialogHeader>
-                            <AlertDialogFooter>
-                              <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                              <AlertDialogAction
-                                onClick={() => handleDelete(q.id)}
-                                className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                              >
-                                Eliminar
-                              </AlertDialogAction>
-                            </AlertDialogFooter>
-                          </AlertDialogContent>
-                        </AlertDialog>
-                      </div>
-                    </CardContent>
-                  </Card>
-                );
-              })}
-            </div>
+                        </CardContent>
+                      </Card>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="space-y-2">
+                  {filteredQuestions.map((q, index) => {
+                    const topic = getTopicById(q.topicId);
+                    return (
+                      <Card key={q.id} className="border-border">
+                        <CardContent className="p-4">
+                          <div className="flex items-start justify-between gap-4">
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-2 mb-1">
+                                <span className="text-sm text-muted-foreground">#{index + 1}</span>
+                                {topic && (
+                                  <Badge
+                                    className="text-[10px] px-2 py-0.5"
+                                    style={{ backgroundColor: topic.color || '#6b7280' }}
+                                  >
+                                    {topic.tag || topic.title}
+                                  </Badge>
+                                )}
+                              </div>
+                              <p className="text-foreground font-medium">{q.question}</p>
+                              <p className="text-sm text-primary mt-1">
+                                Respuesta correcta: {q.options[q.correctIndex]}
+                              </p>
+                            </div>
+                            <AlertDialog>
+                              <AlertDialogTrigger asChild>
+                                <Button
+                                  variant="ghost"
+                                  size="icon"
+                                >
+                                  <Trash2 className="h-4 w-4 text-destructive" />
+                                </Button>
+                              </AlertDialogTrigger>
+                              <AlertDialogContent>
+                                <AlertDialogHeader>
+                                  <AlertDialogTitle>¿Eliminar pregunta?</AlertDialogTitle>
+                                  <AlertDialogDescription>
+                                    Esta acción no se puede deshacer. La pregunta será eliminada permanentemente.
+                                  </AlertDialogDescription>
+                                </AlertDialogHeader>
+                                <AlertDialogFooter>
+                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
+                                  <AlertDialogAction
+                                    onClick={() => handleDelete(q.id)}
+                                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                                  >
+                                    Eliminar
+                                  </AlertDialogAction>
+                                </AlertDialogFooter>
+                              </AlertDialogContent>
+                            </AlertDialog>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    );
+                  })}
+                </div>
+              )}
+            </>
           )}
         </>
       )}
