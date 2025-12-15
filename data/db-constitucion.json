@@ -285,7 +285,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
         "highlightText": "La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-2",
@@ -311,7 +312,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
         "highlightText": "Ningún español de origen podrá ser privado de su nacionalidad."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-3",
@@ -337,7 +339,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
         "highlightText": "El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-4",
@@ -363,7 +366,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
         "highlightText": "Los españoles son mayores de edad a los dieciocho años."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-5",
@@ -389,7 +393,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
         "highlightText": "Solamente los españoles serán titulares de los derechos reconocidos en el artículo 23, salvo lo que... pueda establecerse por tratado o ley para el derecho de sufragio activo y pasivo en las elecciones municipales."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-6",
@@ -415,7 +420,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
         "highlightText": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición..."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-7",
@@ -441,7 +447,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
         "highlightText": "Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-8",
@@ -467,7 +474,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
         "highlightText": "La detención preventiva... en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-9",
@@ -493,7 +501,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
         "highlightText": "El domicilio es inviolable. Ninguna entrada o registro podrá hacerse en él sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito."
-      }
+      },
+      "origin": "generated"
     },
     {
       "id": "ce-q-10",
@@ -519,7 +528,8 @@
         "materialId": "ce-1978",
         "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
         "highlightText": "En los casos de reuniones en lugares de tránsito público y manifestaciones se dará comunicación previa a la autoridad..."
-      }
+      },
+      "origin": "generated"
     }
   ],
   "comments": [],

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List, BookOpen, ExternalLink } from 'lucide-react';
+import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -29,6 +29,12 @@ import { Textarea } from '@/components/ui/textarea';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Badge } from '@/components/ui/badge';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 import { TestQuestion, Topic, getQuestions, saveQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
@@ -39,6 +45,7 @@ type TopicGroup = {
 };
 
 type ViewMode = 'cards' | 'list';
+type OriginFilter = 'all' | 'generated' | 'published';
 
 const Tests = () => {
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
@@ -46,6 +53,7 @@ const Tests = () => {
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
+  const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,9 +83,20 @@ const Tests = () => {
     return () => window.removeEventListener('folio-data-updated', loadData);
   }, []);
 
-  const filteredQuestions = selectedTopics.length > 0
-    ? questions.filter(q => selectedTopics.includes(q.topicId))
-    : questions;
+  // Filtrar por tema y origen
+  const filteredQuestions = useMemo(() => {
+    let result = questions;
+    
+    if (selectedTopics.length > 0) {
+      result = result.filter(q => selectedTopics.includes(q.topicId));
+    }
+    
+    if (originFilter !== 'all') {
+      result = result.filter(q => (q.origin || 'generated') === originFilter);
+    }
+    
+    return result;
+  }, [questions, selectedTopics, originFilter]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 
@@ -624,12 +643,53 @@ const Tests = () => {
             </div>
           )}
 
+          {/* Filtro por origen */}
+          <TooltipProvider>
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-medium text-muted-foreground">Origen:</span>
+              <ToggleGroup 
+                type="single" 
+                value={originFilter} 
+                onValueChange={(v) => v && setOriginFilter(v as OriginFilter)}
+                className="gap-1"
+              >
+                <ToggleGroupItem value="all" aria-label="Todas" className="px-3 text-xs">
+                  Todas
+                </ToggleGroupItem>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <ToggleGroupItem value="generated" aria-label="Generadas" className="px-3 text-xs gap-1.5">
+                      <Sparkles className="h-3.5 w-3.5" />
+                      Generadas
+                    </ToggleGroupItem>
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom" className="max-w-xs">
+                    <p className="font-medium">Preguntas generadas por IA</p>
+                    <p className="text-xs text-muted-foreground">Creadas automáticamente a partir del material de estudio. Útiles para practicar pero pueden contener imprecisiones.</p>
+                  </TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <ToggleGroupItem value="published" aria-label="Publicadas" className="px-3 text-xs gap-1.5">
+                      <FileCheck className="h-3.5 w-3.5" />
+                      Publicadas
+                    </ToggleGroupItem>
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom" className="max-w-xs">
+                    <p className="font-medium">Preguntas de exámenes oficiales</p>
+                    <p className="text-xs text-muted-foreground">Extraídas de convocatorias reales de oposiciones. Verificadas y con respuestas oficiales.</p>
+                  </TooltipContent>
+                </Tooltip>
+              </ToggleGroup>
+            </div>
+          </TooltipProvider>
+
           {filteredQuestions.length === 0 ? (
             <Card className="border-border border-dashed">
               <CardContent className="py-12 text-center">
                 <p className="text-muted-foreground mb-4">
-                  {selectedTopics.length > 0
-                    ? 'No hay preguntas para los temas seleccionados.'
+                  {selectedTopics.length > 0 || originFilter !== 'all'
+                    ? 'No hay preguntas para los filtros seleccionados.'
                     : 'No tienes preguntas creadas todavía.'}
                 </p>
                 <Button variant="outline" onClick={() => setDialogOpen(true)}>
@@ -700,13 +760,36 @@ const Tests = () => {
                             {q.options[q.correctIndex]}
                           </p>
                           {topic && (
-                            <div className="mt-3 pt-3 border-t border-border">
+                            <div className="mt-3 pt-3 border-t border-border flex items-center gap-2 flex-wrap">
                               <Badge
                                 className="text-[10px] px-2 py-0.5"
                                 style={{ backgroundColor: topic.color || '#6b7280' }}
                               >
                                 {topic.tag || topic.title}
                               </Badge>
+                              <Tooltip>
+                                <TooltipTrigger asChild>
+                                  <Badge 
+                                    variant="outline" 
+                                    className={`text-[10px] px-2 py-0.5 gap-1 ${
+                                      (q.origin || 'generated') === 'generated' 
+                                        ? 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400' 
+                                        : 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400'
+                                    }`}
+                                  >
+                                    {(q.origin || 'generated') === 'generated' ? (
+                                      <><Sparkles className="h-3 w-3" /> IA</>
+                                    ) : (
+                                      <><FileCheck className="h-3 w-3" /> Oficial</>
+                                    )}
+                                  </Badge>
+                                </TooltipTrigger>
+                                <TooltipContent side="top">
+                                  {(q.origin || 'generated') === 'generated' 
+                                    ? 'Pregunta generada por IA' 
+                                    : 'Pregunta de examen oficial'}
+                                </TooltipContent>
+                              </Tooltip>
                             </div>
                           )}
                         </CardContent>
@@ -723,7 +806,7 @@ const Tests = () => {
                         <CardContent className="p-4">
                           <div className="flex items-start justify-between gap-4">
                             <div className="flex-1 min-w-0">
-                              <div className="flex items-center gap-2 mb-1">
+                              <div className="flex items-center gap-2 mb-1 flex-wrap">
                                 <span className="text-sm text-muted-foreground">#{index + 1}</span>
                                 {topic && (
                                   <Badge
@@ -733,6 +816,29 @@ const Tests = () => {
                                     {topic.tag || topic.title}
                                   </Badge>
                                 )}
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <Badge 
+                                      variant="outline" 
+                                      className={`text-[10px] px-2 py-0.5 gap-1 ${
+                                        (q.origin || 'generated') === 'generated' 
+                                          ? 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400' 
+                                          : 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400'
+                                      }`}
+                                    >
+                                      {(q.origin || 'generated') === 'generated' ? (
+                                        <><Sparkles className="h-3 w-3" /> IA</>
+                                      ) : (
+                                        <><FileCheck className="h-3 w-3" /> Oficial</>
+                                      )}
+                                    </Badge>
+                                  </TooltipTrigger>
+                                  <TooltipContent side="top">
+                                    {(q.origin || 'generated') === 'generated' 
+                                      ? 'Pregunta generada por IA' 
+                                      : 'Pregunta de examen oficial'}
+                                  </TooltipContent>
+                                </Tooltip>
                               </div>
                               <p className="text-foreground font-medium">{q.question}</p>
                               <p className="text-sm text-primary mt-1">

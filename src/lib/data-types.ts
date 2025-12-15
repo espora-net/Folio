@@ -19,6 +19,8 @@ export interface Flashcard {
   easeFactor: number;
 }
 
+export type QuestionOrigin = 'generated' | 'published';
+
 export interface QuestionSource {
   materialId: string;
   path: string;
@@ -32,6 +34,7 @@ export interface TestQuestion {
   options: string[];
   correctIndex: number;
   explanation: string;
+  origin?: QuestionOrigin;
   source?: QuestionSource;
 }
 
