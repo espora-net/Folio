@@ -220,7 +220,7 @@ const pickCorrectIndex = (data: Record<string, unknown>) => {
 const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
   const rawQuestions = Array.isArray(dataset.questions) ? dataset.questions : [];
   return rawQuestions
-    .map(question => {
+    .map((question): TestQuestion | null => {
       if (!question || typeof question !== 'object') return null;
       const data = question as Record<string, unknown>;
       const id = typeof data.id === 'string' ? data.id : '';
@@ -233,6 +233,19 @@ const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
 
       const correctIndex = pickCorrectIndex(data) ?? 0;
 
+      // Parse source if present
+      const rawSource = data.source as Record<string, unknown> | undefined;
+      const source = rawSource && typeof rawSource === 'object' && typeof rawSource.highlightText === 'string' && rawSource.highlightText
+        ? {
+            materialId: typeof rawSource.materialId === 'string' ? rawSource.materialId : '',
+            path: typeof rawSource.path === 'string' ? rawSource.path : '',
+            highlightText: rawSource.highlightText,
+          }
+        : undefined;
+
+      // Parse origin
+      const origin: 'generated' | 'published' = data.origin === 'published' ? 'published' : 'generated';
+
       return {
         id,
         topicId,
@@ -240,9 +253,11 @@ const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
         options,
         correctIndex,
         explanation: typeof data.explanation === 'string' ? data.explanation : '',
-      } satisfies TestQuestion;
+        origin,
+        source,
+      };
     })
-    .filter((entry): entry is TestQuestion => Boolean(entry));
+    .filter((entry): entry is TestQuestion => entry !== null);
 };
 
 const mergeDatabaseIndex = (index: DatabaseIndex, datasets: DatasetPayload[]): Database => {

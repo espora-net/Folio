@@ -647,40 +647,48 @@ const Tests = () => {
           <TooltipProvider>
             <div className="flex items-center gap-3">
               <span className="text-sm font-medium text-muted-foreground">Origen:</span>
-              <ToggleGroup 
-                type="single" 
-                value={originFilter} 
-                onValueChange={(v) => v && setOriginFilter(v as OriginFilter)}
-                className="gap-1"
-              >
-                <ToggleGroupItem value="all" aria-label="Todas" className="px-3 text-xs">
+              <div className="flex gap-1">
+                <Button
+                  variant={originFilter === 'all' ? 'default' : 'outline'}
+                  size="sm"
+                  className="h-8 px-3 text-xs"
+                  onClick={() => setOriginFilter('all')}
+                >
                   Todas
-                </ToggleGroupItem>
+                </Button>
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <ToggleGroupItem value="generated" aria-label="Generadas" className="px-3 text-xs gap-1.5">
+                    <Button
+                      variant={originFilter === 'generated' ? 'default' : 'outline'}
+                      size="sm"
+                      className="h-8 px-3 text-xs gap-1.5"
+                      onClick={() => setOriginFilter('generated')}
+                    >
                       <Sparkles className="h-3.5 w-3.5" />
                       Generadas
-                    </ToggleGroupItem>
+                    </Button>
                   </TooltipTrigger>
-                  <TooltipContent side="bottom" className="max-w-xs">
-                    <p className="font-medium">Preguntas generadas por IA</p>
-                    <p className="text-xs text-muted-foreground">Creadas automáticamente a partir del material de estudio. Útiles para practicar pero pueden contener imprecisiones.</p>
+                  <TooltipContent side="bottom">
+                    <p>Creadas por IA a partir del temario</p>
                   </TooltipContent>
                 </Tooltip>
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <ToggleGroupItem value="published" aria-label="Publicadas" className="px-3 text-xs gap-1.5">
+                    <Button
+                      variant={originFilter === 'published' ? 'default' : 'outline'}
+                      size="sm"
+                      className="h-8 px-3 text-xs gap-1.5"
+                      onClick={() => setOriginFilter('published')}
+                    >
                       <FileCheck className="h-3.5 w-3.5" />
                       Publicadas
-                    </ToggleGroupItem>
+                    </Button>
                   </TooltipTrigger>
-                  <TooltipContent side="bottom" className="max-w-xs">
-                    <p className="font-medium">Preguntas de exámenes oficiales</p>
-                    <p className="text-xs text-muted-foreground">Extraídas de convocatorias reales de oposiciones. Verificadas y con respuestas oficiales.</p>
+                  <TooltipContent side="bottom">
+                    <p>De exámenes oficiales de oposiciones</p>
                   </TooltipContent>
                 </Tooltip>
-              </ToggleGroup>
+              </div>
             </div>
           </TooltipProvider>
 
