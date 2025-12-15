@@ -147,8 +147,36 @@ export const hydrateFromApi = async () => {
   });
   saveTopics(mergedTopics);
 
-  if (!stored.flashcards) saveFlashcards(database.flashcards);
-  if (!stored.questions) saveQuestions(database.questions);
+  // Siempre actualizar flashcards para obtener source y nuevos campos
+  const localFlashcards: Flashcard[] = stored.flashcards ? getFlashcards() : [];
+  const mergedFlashcards = database.flashcards.map(apiCard => {
+    const localCard = localFlashcards.find(f => f.id === apiCard.id);
+    return {
+      ...apiCard,
+      // Preservar progreso del usuario
+      nextReview: localCard?.nextReview ?? apiCard.nextReview,
+      interval: localCard?.interval ?? apiCard.interval,
+      easeFactor: localCard?.easeFactor ?? apiCard.easeFactor,
+    };
+  });
+  // Incluir flashcards creadas localmente que no están en la API
+  const localOnlyFlashcards = localFlashcards.filter(
+    local => !database.flashcards.some(api => api.id === local.id)
+  );
+  saveFlashcards([...mergedFlashcards, ...localOnlyFlashcards]);
+
+  // Siempre actualizar questions para obtener source, origin y nuevos campos
+  const localQuestions: TestQuestion[] = stored.questions ? getQuestions() : [];
+  const mergedQuestions = database.questions.map(apiQuestion => {
+    // Usar siempre la versión de la API (tiene source, origin, etc.)
+    return apiQuestion;
+  });
+  // Incluir questions creadas localmente que no están en la API
+  const localOnlyQuestions = localQuestions.filter(
+    local => !database.questions.some(api => api.id === local.id)
+  );
+  saveQuestions([...mergedQuestions, ...localOnlyQuestions]);
+
   if (!stored.stats) saveStats(database.stats);
 
   return database;
