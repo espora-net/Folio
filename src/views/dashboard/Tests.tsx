@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -30,10 +30,17 @@ import { Badge } from '@/components/ui/badge';
 import { TestQuestion, Topic, getQuestions, saveQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
+type TopicGroup = {
+  parent: Topic;
+  subtopics: Topic[];
+  totalQuestions: number;
+};
+
 const Tests = () => {
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -82,6 +89,36 @@ const Tests = () => {
 
   const clearAllTopics = () => {
     setSelectedTopics([]);
+  };
+
+  // Agrupar topics por padre/subtopics
+  const topicGroups = useMemo((): TopicGroup[] => {
+    const parentTopics = topics.filter(t => !t.parentId);
+    return parentTopics.map(parent => {
+      const subtopics = topics.filter(t => t.parentId === parent.id);
+      const allIds = [parent.id, ...subtopics.map(s => s.id)];
+      const totalQuestions = questions.filter(q => allIds.includes(q.topicId)).length;
+      return { parent, subtopics, totalQuestions };
+    });
+  }, [topics, questions]);
+
+  const toggleGroup = (groupId: string) => {
+    setExpandedGroups(prev =>
+      prev.includes(groupId)
+        ? prev.filter(id => id !== groupId)
+        : [...prev, groupId]
+    );
+  };
+
+  const toggleGroupSelection = (group: TopicGroup) => {
+    const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
+    const allSelected = allIds.every(id => selectedTopics.includes(id));
+    
+    if (allSelected) {
+      setSelectedTopics(prev => prev.filter(id => !allIds.includes(id)));
+    } else {
+      setSelectedTopics(prev => [...new Set([...prev, ...allIds])]);
+    }
   };
 
   const handleAddQuestion = () => {
@@ -403,8 +440,8 @@ const Tests = () => {
         </div>
       ) : (
         <>
-          {/* Filtros por tags */}
-          {topics.length > 0 && (
+          {/* Filtros jerárquicos por tema */}
+          {topicGroups.length > 0 && (
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
@@ -431,30 +468,79 @@ const Tests = () => {
                   </Button>
                 </div>
               </div>
-              <div className="flex flex-wrap gap-2">
-                {topics.map((topic) => {
-                  const isSelected = selectedTopics.includes(topic.id);
-                  const questionCount = questions.filter(q => q.topicId === topic.id).length;
+              
+              {/* Topics principales con subtopics desplegables */}
+              <div className="space-y-2">
+                {topicGroups.map((group) => {
+                  const isExpanded = expandedGroups.includes(group.parent.id);
+                  const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
+                  const selectedCount = allIds.filter(id => selectedTopics.includes(id)).length;
+                  const allSelected = selectedCount === allIds.length;
+                  const someSelected = selectedCount > 0 && !allSelected;
+                  
                   return (
-                    <button
-                      key={topic.id}
-                      onClick={() => toggleTopic(topic.id)}
-                      className={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[10px] font-medium transition-all ${
-                        isSelected
-                          ? 'ring-2 ring-offset-2 ring-offset-background'
-                          : 'opacity-60 hover:opacity-100'
-                      }`}
-                      style={{
-                        backgroundColor: topic.color || '#6b7280',
-                        color: 'white',
-                        '--tw-ring-color': topic.color || '#6b7280',
-                      } as React.CSSProperties}
-                    >
-                      {topic.tag || topic.title}
-                      <span className="bg-white/20 px-1 py-0.5 rounded-full text-[10px]">
-                        {questionCount}
-                      </span>
-                    </button>
+                    <div key={group.parent.id} className="border border-border rounded-lg overflow-hidden">
+                      {/* Topic principal */}
+                      <div 
+                        className={`flex items-center gap-2 p-3 bg-card hover:bg-muted/50 transition-colors ${
+                          allSelected ? 'bg-primary/5' : someSelected ? 'bg-primary/3' : ''
+                        }`}
+                      >
+                        {group.subtopics.length > 0 && (
+                          <button
+                            onClick={() => toggleGroup(group.parent.id)}
+                            className="p-0.5 hover:bg-muted rounded"
+                          >
+                            {isExpanded ? (
+                              <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                            ) : (
+                              <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                            )}
+                          </button>
+                        )}
+                        <button
+                          onClick={() => toggleGroupSelection(group)}
+                          className={`flex-1 flex items-center gap-2 text-left ${
+                            allSelected ? 'text-primary font-medium' : 'text-foreground'
+                          }`}
+                        >
+                          <div 
+                            className="w-3 h-3 rounded-full flex-shrink-0"
+                            style={{ backgroundColor: group.parent.color || '#6b7280' }}
+                          />
+                          <span className="text-sm">{group.parent.title}</span>
+                          <Badge variant="secondary" className="ml-auto text-[10px] px-1.5">
+                            {group.totalQuestions}
+                          </Badge>
+                        </button>
+                      </div>
+                      
+                      {/* Subtopics */}
+                      {isExpanded && group.subtopics.length > 0 && (
+                        <div className="border-t border-border bg-muted/30">
+                          {group.subtopics.map((subtopic) => {
+                            const isSelected = selectedTopics.includes(subtopic.id);
+                            const questionCount = questions.filter(q => q.topicId === subtopic.id).length;
+                            
+                            return (
+                              <button
+                                key={subtopic.id}
+                                onClick={() => toggleTopic(subtopic.id)}
+                                className={`w-full flex items-center gap-2 px-3 py-2 pl-10 text-left hover:bg-muted/50 transition-colors ${
+                                  isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
+                                }`}
+                              >
+                                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${
+                                  isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
+                                }`} />
+                                <span className="text-xs flex-1 truncate">{subtopic.title}</span>
+                                <span className="text-[10px] text-muted-foreground">{questionCount}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
                   );
                 })}
               </div>

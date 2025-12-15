@@ -1,9 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Plus, RotateCcw, Check, Bookmark, Trash2, Filter, Trophy, X } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { Plus, RotateCcw, Check, Bookmark, Trash2, Filter, Trophy, X, ChevronDown, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Dialog,
@@ -29,10 +28,17 @@ import { Badge } from '@/components/ui/badge';
 import { Flashcard, Topic, getFlashcards, saveFlashcards, getTopics, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
+type TopicGroup = {
+  parent: Topic;
+  subtopics: Topic[];
+  totalCards: number;
+};
+
 const Flashcards = () => {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [studying, setStudying] = useState(false);
@@ -59,6 +65,26 @@ const Flashcards = () => {
     return () => window.removeEventListener('folio-data-updated', loadData);
   }, []);
 
+  // Agrupar topics por jerarquía (padres y subtopics)
+  const topicGroups = useMemo((): TopicGroup[] => {
+    const parentTopics = topics.filter(t => !t.parentId);
+    const groups: TopicGroup[] = [];
+
+    parentTopics.forEach(parent => {
+      const subtopics = topics.filter(t => t.parentId === parent.id);
+      const allTopicIds = [parent.id, ...subtopics.map(s => s.id)];
+      const totalCards = flashcards.filter(f => allTopicIds.includes(f.topicId)).length;
+      
+      groups.push({
+        parent,
+        subtopics,
+        totalCards,
+      });
+    });
+    
+    return groups;
+  }, [topics, flashcards]);
+
   const filteredFlashcards = selectedTopics.length > 0
     ? flashcards.filter(f => selectedTopics.includes(f.topicId))
     : flashcards;
@@ -71,6 +97,25 @@ const Flashcards = () => {
         ? prev.filter(id => id !== topicId)
         : [...prev, topicId]
     );
+  };
+
+  const toggleGroup = (groupId: string) => {
+    setExpandedGroups(prev =>
+      prev.includes(groupId)
+        ? prev.filter(id => id !== groupId)
+        : [...prev, groupId]
+    );
+  };
+
+  const toggleGroupSelection = (group: TopicGroup) => {
+    const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
+    const allSelected = allIds.every(id => selectedTopics.includes(id));
+    
+    if (allSelected) {
+      setSelectedTopics(prev => prev.filter(id => !allIds.includes(id)));
+    } else {
+      setSelectedTopics(prev => [...new Set([...prev, ...allIds])]);
+    }
   };
 
   const selectAllTopics = () => {
@@ -411,8 +456,8 @@ const Flashcards = () => {
         </div>
       ) : (
         <>
-          {/* Filtros por tags */}
-          {topics.length > 0 && (
+          {/* Filtros jerárquicos por tema */}
+          {topicGroups.length > 0 && (
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
@@ -439,30 +484,79 @@ const Flashcards = () => {
                   </Button>
                 </div>
               </div>
-              <div className="flex flex-wrap gap-2">
-                {topics.map((topic) => {
-                  const isSelected = selectedTopics.includes(topic.id);
-                  const cardCount = flashcards.filter(f => f.topicId === topic.id).length;
+              
+              {/* Topics principales con subtopics desplegables */}
+              <div className="space-y-2">
+                {topicGroups.map((group) => {
+                  const isExpanded = expandedGroups.includes(group.parent.id);
+                  const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
+                  const selectedCount = allIds.filter(id => selectedTopics.includes(id)).length;
+                  const allSelected = selectedCount === allIds.length;
+                  const someSelected = selectedCount > 0 && !allSelected;
+                  
                   return (
-                    <button
-                      key={topic.id}
-                      onClick={() => toggleTopic(topic.id)}
-                      className={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[10px] font-medium transition-all ${
-                        isSelected
-                          ? 'ring-2 ring-offset-2 ring-offset-background'
-                          : 'opacity-60 hover:opacity-100'
-                      }`}
-                      style={{
-                        backgroundColor: topic.color || '#6b7280',
-                        color: 'white',
-                        '--tw-ring-color': topic.color || '#6b7280',
-                      } as React.CSSProperties}
-                    >
-                      {topic.tag || topic.title}
-                      <span className="bg-white/20 px-1 py-0.5 rounded-full text-[10px]">
-                        {cardCount}
-                      </span>
-                    </button>
+                    <div key={group.parent.id} className="border border-border rounded-lg overflow-hidden">
+                      {/* Topic principal */}
+                      <div 
+                        className={`flex items-center gap-2 p-3 bg-card hover:bg-muted/50 transition-colors ${
+                          allSelected ? 'bg-primary/5' : someSelected ? 'bg-primary/3' : ''
+                        }`}
+                      >
+                        {group.subtopics.length > 0 && (
+                          <button
+                            onClick={() => toggleGroup(group.parent.id)}
+                            className="p-0.5 hover:bg-muted rounded"
+                          >
+                            {isExpanded ? (
+                              <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                            ) : (
+                              <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                            )}
+                          </button>
+                        )}
+                        <button
+                          onClick={() => toggleGroupSelection(group)}
+                          className={`flex-1 flex items-center gap-2 text-left ${
+                            allSelected ? 'text-primary font-medium' : 'text-foreground'
+                          }`}
+                        >
+                          <div 
+                            className="w-3 h-3 rounded-full flex-shrink-0"
+                            style={{ backgroundColor: group.parent.color || '#6b7280' }}
+                          />
+                          <span className="text-sm">{group.parent.title}</span>
+                          <Badge variant="secondary" className="ml-auto text-[10px] px-1.5">
+                            {group.totalCards}
+                          </Badge>
+                        </button>
+                      </div>
+                      
+                      {/* Subtopics */}
+                      {isExpanded && group.subtopics.length > 0 && (
+                        <div className="border-t border-border bg-muted/30">
+                          {group.subtopics.map((subtopic) => {
+                            const isSelected = selectedTopics.includes(subtopic.id);
+                            const cardCount = flashcards.filter(f => f.topicId === subtopic.id).length;
+                            
+                            return (
+                              <button
+                                key={subtopic.id}
+                                onClick={() => toggleTopic(subtopic.id)}
+                                className={`w-full flex items-center gap-2 px-3 py-2 pl-10 text-left hover:bg-muted/50 transition-colors ${
+                                  isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
+                                }`}
+                              >
+                                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${
+                                  isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
+                                }`} />
+                                <span className="text-xs flex-1 truncate">{subtopic.title}</span>
+                                <span className="text-[10px] text-muted-foreground">{cardCount}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
                   );
                 })}
               </div>
