@@ -91,7 +91,11 @@ const mapUserInfo = (userInfo: UserInfo): AuthUser => {
 const fetchBetaConfig = async (): Promise<BetaConfig | null> => {
   try {
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-    const response = await fetch(`${basePath}/data/beta-users.json`);
+    // Añadir cache busting para evitar caché del navegador
+    const cacheBuster = Math.floor(Date.now() / 60000);
+    const response = await fetch(`${basePath}/data/beta-users.json?_v=${cacheBuster}`, {
+      cache: 'no-store',
+    });
     if (!response.ok) return null;
     return await response.json();
   } catch {

@@ -5,6 +5,17 @@ import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats,
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const DUPLICATE_SLASHES = /\/{2,}/g;
+
+/**
+ * Añade cache busting a una URL para evitar caché del navegador.
+ * Usa un timestamp que cambia cada minuto.
+ */
+const noCacheUrl = (url: string): string => {
+  const cacheBuster = Math.floor(Date.now() / 60000);
+  const separator = url.includes('?') ? '&' : '?';
+  return `${url}${separator}_v=${cacheBuster}`;
+};
+
 const buildDataEndpoint = (path: string) => {
   const trimmed = path.replace(/\/+$/, '');
   const endpoint = `${trimmed}/api/db.json`.replace(DUPLICATE_SLASHES, '/');
@@ -290,7 +301,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
   }
 
   try {
-    const response = await fetch(DATA_ENDPOINT);
+    const response = await fetch(noCacheUrl(DATA_ENDPOINT), { cache: 'no-store' });
     if (!response.ok) {
       throw new Error(`Unexpected response: ${response.status}`);
     }
@@ -302,7 +313,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
     for (const descriptor of datasetDescriptors) {
       const datasetUrl = buildDatasetEndpoint(descriptor.file);
       try {
-        const datasetResponse = await fetch(datasetUrl);
+        const datasetResponse = await fetch(noCacheUrl(datasetUrl), { cache: 'no-store' });
         if (!datasetResponse.ok) throw new Error(`Unexpected dataset response: ${datasetResponse.status}`);
         const data = (await datasetResponse.json()) as RawDataset;
         datasetPayloads.push({ descriptor, data });
@@ -383,7 +394,7 @@ export const fetchConvocatoria = async (id: string): Promise<ConvocatoriaData | 
   if (typeof window !== 'undefined') {
     try {
       const url = buildDatasetEndpoint(descriptor.file);
-      const response = await fetch(url);
+      const response = await fetch(noCacheUrl(url), { cache: 'no-store' });
       if (response.ok) {
         const data = await response.json() as ConvocatoriaData;
         cachedConvocatorias.set(id, data);

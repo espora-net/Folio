@@ -95,7 +95,10 @@ const Temario = () => {
       setLoadingContent(true);
       setViewer({ type: 'md', url, nombre: recurso.nombre });
       try {
-        const response = await fetch(url);
+        // Añadir cache busting para evitar caché del navegador
+        const cacheBuster = Math.floor(Date.now() / 60000);
+        const noCacheUrl = `${url}${url.includes('?') ? '&' : '?'}_v=${cacheBuster}`;
+        const response = await fetch(noCacheUrl, { cache: 'no-store' });
         if (response.ok) {
           const text = await response.text();
           setMdContent(text);
