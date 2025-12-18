@@ -14,9 +14,15 @@
     },
     {
       "githubUsername": "carloshm",
-      "authgearId": "c730161d-5f48-4151-8283-177a7a68dbd4",
+      "authgearId": "",
       "name": "Carlos",
       "addedAt": "2025-12-14"
+    },
+    {
+      "githubUsername": "murggu",
+      "authgearId": "",
+      "name": "Aitor",
+      "addedAt": "2025-12-18"
     }
   ]
 }
