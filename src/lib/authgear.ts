@@ -7,7 +7,8 @@ const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 const BASE_PATH = (() => {
   const value = process.env.NEXT_PUBLIC_BASE_PATH?.trim() ?? '';
   if (!value) return '';
-  return value.startsWith('/') ? value : `/${value}`;
+  const trimmed = value.replace(/^\/+|\/+$/g, '');
+  return trimmed ? `/${trimmed}` : '';
 })();
 
 function getRedirectURI(): string {
