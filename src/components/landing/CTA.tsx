@@ -1,10 +1,22 @@
 'use client';
 
-import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { useAuth } from '@/hooks/useAuth';
 
 const CTA = () => {
+  const router = useRouter();
+  const { user, signIn } = useAuth();
+
+  const handleStart = async () => {
+    if (user) {
+      router.push('/dashboard');
+      return;
+    }
+    await signIn('/dashboard');
+  };
+
   return (
     <section className="py-24 bg-primary/5">
       <div className="container mx-auto px-4 text-center">
@@ -15,12 +27,10 @@ const CTA = () => {
           Estamos construyendo la mejor herramienta de estudio para opositores. 
           Únete ahora y ayúdanos a darle forma.
         </p>
-        <Link href="/auth">
-          <Button size="lg" className="text-lg px-8 py-6">
-            Empezar
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </Link>
+        <Button size="lg" className="text-lg px-8 py-6" onClick={handleStart}>
+          Empezar
+          <ArrowRight className="ml-2 h-5 w-5" />
+        </Button>
       </div>
     </section>
   );

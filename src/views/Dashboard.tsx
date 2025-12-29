@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Sidebar from '@/components/dashboard/Sidebar';
 import { useAuth } from '@/hooks/useAuth';
@@ -10,9 +10,10 @@ import { hydrateFromApi } from '@/lib/storage';
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
 
 const Dashboard = ({ children }: { children: ReactNode }) => {
-  const { user, loading } = useAuth();
+  const { user, loading, signIn } = useAuth();
   const router = useRouter();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const hasStartedLogin = useRef(false);
 
   useEffect(() => {
     // Leer estado inicial del sidebar
@@ -34,10 +35,14 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
-    if (!loading && !user) {
-      router.push('/auth');
+    if (!loading && !user && !hasStartedLogin.current) {
+      hasStartedLogin.current = true;
+      signIn('/dashboard').catch(() => {
+        hasStartedLogin.current = false;
+        router.push('/');
+      });
     }
-  }, [user, loading, router]);
+  }, [user, loading, router, signIn]);
 
   if (loading) {
     return (

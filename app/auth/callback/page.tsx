@@ -2,22 +2,24 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { finishLogin } from '@/lib/authgear';
+import { finishLogin, consumePostLoginRedirect } from '@/lib/authgear';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { BookOpen, Loader2, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { useAuth } from '@/hooks/useAuth';
 
 export default function AuthCallbackPage() {
   const router = useRouter();
+  const { signIn } = useAuth();
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const handleCallback = async () => {
       try {
         await finishLogin();
-        // Redirigir al dashboard después de completar el login
-        router.push('/dashboard');
+        const redirectTo = consumePostLoginRedirect() ?? '/dashboard';
+        router.replace(redirectTo);
       } catch (err) {
         console.error('Error en callback de autenticación:', err);
         setError(err instanceof Error ? err.message : 'Error desconocido durante la autenticación');
@@ -43,7 +45,7 @@ export default function AuthCallbackPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-center text-muted-foreground">{error}</p>
-            <Button className="w-full" onClick={() => router.push('/auth')}>
+            <Button className="w-full" onClick={() => signIn('/dashboard')}>
               Volver a intentar
             </Button>
           </CardContent>

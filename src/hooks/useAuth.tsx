@@ -25,8 +25,8 @@ interface AuthContextType {
   user: AuthUser | null;
   session: string | null;
   loading: boolean;
-  signIn: () => Promise<void>;
-  signUp: () => Promise<void>;
+  signIn: (returnTo?: string) => Promise<void>;
+  signUp: (returnTo?: string) => Promise<void>;
   signOut: () => Promise<void>;
 }
 
@@ -172,17 +172,26 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     };
   }, [hydrateUser]);
 
-  const signIn = async () => {
-    try {
-      await startLogin();
-    } catch (error) {
-      console.error('Error iniciando login:', error);
-    }
-  };
+  const signIn = useCallback(
+    async (returnTo?: string) => {
+      try {
+        if (user) {
+          if (returnTo && typeof window !== 'undefined') {
+            window.location.href = returnTo;
+          }
+          return;
+        }
+        await startLogin(returnTo);
+      } catch (error) {
+        console.error('Error iniciando login:', error);
+      }
+    },
+    [user]
+  );
 
-  const signUp = async () => {
+  const signUp = async (returnTo?: string) => {
     // Authgear maneja registro y login en el mismo flujo
-    await signIn();
+    await signIn(returnTo);
   };
 
   const signOut = async () => {

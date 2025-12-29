@@ -3,6 +3,7 @@
 // Configuración de Authgear
 const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
+const POST_LOGIN_REDIRECT_KEY = 'folio:post-login-redirect';
 
 function getRedirectURI(): string {
   if (typeof window !== 'undefined') {
@@ -45,14 +46,18 @@ export async function configureAuthgear(): Promise<void> {
   }
 }
 
-export async function startLogin(): Promise<void> {
+export async function startLogin(returnTo?: string): Promise<void> {
   const authgear = await getAuthgear();
   await configureAuthgear();
-  
-  const { PromptOption } = await import('@authgear/web');
+
+  if (typeof window !== 'undefined') {
+    const candidatePath = returnTo ?? window.location.pathname + window.location.search;
+    const safePath = candidatePath.startsWith('/auth') ? '/dashboard' : candidatePath;
+    sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, safePath);
+  }
+
   await authgear.startAuthentication({
     redirectURI: getRedirectURI(),
-    prompt: PromptOption.Login,
     page: 'login',
   });
 }
@@ -75,6 +80,10 @@ export async function logout(): Promise<void> {
     force: true,
     redirectURI: window.location.origin,
   });
+
+  if (typeof window !== 'undefined') {
+    sessionStorage.removeItem(POST_LOGIN_REDIRECT_KEY);
+  }
   
   // Redirigir manualmente ya que sessionType es 'refresh_token'
   window.location.href = window.location.origin;
@@ -116,6 +125,13 @@ export async function getAccessToken(): Promise<string | undefined> {
   const authgear = await getAuthgear();
   await configureAuthgear();
   return authgear.accessToken;
+}
+
+export function consumePostLoginRedirect(): string | null {
+  if (typeof window === 'undefined') return null;
+  const redirectTo = sessionStorage.getItem(POST_LOGIN_REDIRECT_KEY);
+  sessionStorage.removeItem(POST_LOGIN_REDIRECT_KEY);
+  return redirectTo;
 }
 
 export async function getAuthgearDelegate(): Promise<typeof import('@authgear/web').default> {
