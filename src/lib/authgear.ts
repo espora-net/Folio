@@ -12,6 +12,15 @@ function getRedirectURI(): string {
   return 'https://folio.espora.net/auth/callback/';
 }
 
+function getSafeRedirectPath(returnTo?: string): string {
+  if (typeof window === 'undefined') return '/dashboard';
+  const candidatePath = returnTo ?? window.location.pathname + window.location.search;
+  if (candidatePath.startsWith('/auth')) {
+    return '/dashboard';
+  }
+  return candidatePath;
+}
+
 let configured = false;
 let authgearInstance: typeof import('@authgear/web').default | null = null;
 
@@ -51,13 +60,12 @@ export async function startLogin(returnTo?: string): Promise<void> {
   await configureAuthgear();
 
   if (typeof window !== 'undefined') {
-    const candidatePath = returnTo ?? window.location.pathname + window.location.search;
-    const safePath = candidatePath.startsWith('/auth') ? '/dashboard' : candidatePath;
-    sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, safePath);
+    sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, getSafeRedirectPath(returnTo));
   }
 
-  // Evitamos forzar prompt=login para permitir que Authgear reutilice sesiones existentes
-  // y reducir pantallas intermedias cuando el usuario ya tiene una sesión válida.
+  // Evitamos forzar prompt=login para permitir que Authgear reutilice sesiones existentes,
+  // reduciendo pantallas intermedias. Si se necesita una reautenticación forzada, debe
+  // solicitarse explícitamente desde la UI.
   await authgear.startAuthentication({
     redirectURI: getRedirectURI(),
     page: 'login',

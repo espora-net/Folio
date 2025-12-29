@@ -19,6 +19,7 @@ export default function AuthCallbackPage() {
       try {
         await finishLogin();
         const redirectTo = consumePostLoginRedirect() ?? '/dashboard';
+        // replace evita que el usuario vuelva a la URL de callback al navegar atrás
         router.replace(redirectTo);
       } catch (err) {
         console.error('Error en callback de autenticación:', err);

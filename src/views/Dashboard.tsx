@@ -37,7 +37,8 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     if (!loading && !user && !hasStartedLogin.current) {
       hasStartedLogin.current = true;
-      signIn('/dashboard').catch(() => {
+      signIn('/dashboard').catch((error) => {
+        console.error('Error iniciando login automático', error);
         hasStartedLogin.current = false;
         router.push('/');
       });
