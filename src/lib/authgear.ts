@@ -4,6 +4,7 @@
 const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 const POST_LOGIN_REDIRECT_KEY = 'folio:post-login-redirect';
+const ALLOWED_REDIRECT_PREFIXES = ['/dashboard'];
 export type StartLoginOptions = {
   forceReauthenticate?: boolean;
 };
@@ -23,6 +24,14 @@ function getSafeRedirectPath(returnTo?: string): string {
       return '/dashboard';
     }
     const normalizedPath = url.pathname + url.search;
+    const isAllowedPath =
+      normalizedPath === '/' ||
+      ALLOWED_REDIRECT_PREFIXES.some(
+        (prefix) => normalizedPath === prefix || normalizedPath.startsWith(prefix + (prefix.endsWith('/') ? '' : '/'))
+      );
+    if (!isAllowedPath) {
+      return '/dashboard';
+    }
     if (normalizedPath.startsWith('/auth')) {
       return '/dashboard';
     }

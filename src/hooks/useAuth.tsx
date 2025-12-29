@@ -191,10 +191,13 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     [router, user]
   );
 
-  const signUp = async (returnTo?: string, options?: StartLoginOptions) => {
-    // Authgear maneja registro y login en el mismo flujo
-    await signIn(returnTo, options);
-  };
+  const signUp = useCallback(
+    async (returnTo?: string, options?: StartLoginOptions) => {
+      // Authgear maneja registro y login en el mismo flujo
+      await signIn(returnTo, options);
+    },
+    [signIn]
+  );
 
   const signOut = async () => {
     try {

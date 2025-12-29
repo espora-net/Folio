@@ -54,6 +54,7 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
       hasStartedLogin.current = true;
       signIn('/dashboard').catch((error) => {
         console.error('Error al iniciar sesión automática', error);
+        hasStartedLogin.current = false;
         if (typeof window !== 'undefined') {
           sessionStorage.setItem(AUTO_LOGIN_ERROR_KEY, 'true');
         }
