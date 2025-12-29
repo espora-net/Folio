@@ -16,6 +16,8 @@ Folio utiliza **Authgear SDK** para gestionar la autenticación de usuarios. Tod
 ### Variables de configuración
 
 ```typescript
+// Nota: El Client ID de OAuth es público y se puede ver en el código del cliente.
+// Authgear usa PKCE (Proof Key for Code Exchange) para seguridad adicional.
 const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 ```

@@ -80,6 +80,7 @@ Todas las páginas bajo `/dashboard` comparten este layout, por lo que **automá
 ### Authgear
 
 ```typescript
+// Client ID público de OAuth (visible en código del cliente)
 AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8'
 AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud'
 ```
