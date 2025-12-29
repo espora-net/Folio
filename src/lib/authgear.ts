@@ -53,6 +53,7 @@ export async function startLogin(): Promise<void> {
   await authgear.startAuthentication({
     redirectURI: getRedirectURI(),
     prompt: PromptOption.Login,
+    page: 'login',
   });
 }
 
