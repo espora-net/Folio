@@ -17,16 +17,19 @@ function getRedirectURI(): string {
 
 function getSafeRedirectPath(returnTo?: string): string {
   if (typeof window === 'undefined') return '/dashboard';
-  const candidatePath = returnTo ?? window.location.pathname + window.location.search;
-  const isRelative =
-    candidatePath.startsWith('/') && !candidatePath.startsWith('//') && !candidatePath.includes('://');
-  if (!isRelative) {
+  try {
+    const url = new URL(returnTo ?? window.location.pathname + window.location.search, window.location.origin);
+    if (url.origin !== window.location.origin) {
+      return '/dashboard';
+    }
+    const normalizedPath = url.pathname + url.search;
+    if (normalizedPath.startsWith('/auth')) {
+      return '/dashboard';
+    }
+    return normalizedPath || '/dashboard';
+  } catch {
     return '/dashboard';
   }
-  if (candidatePath.startsWith('/auth')) {
-    return '/dashboard';
-  }
-  return candidatePath;
 }
 
 let configured = false;

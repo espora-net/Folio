@@ -26,7 +26,7 @@ export default function AuthCallbackPage() {
     const handleCallback = async () => {
       try {
         await finishLogin();
-        // replace prevents landing again on the callback URL when going back
+        // replace updates the current entry so the callback page is not kept in history
         router.replace(target);
       } catch (err) {
         console.error('Error en callback de autenticación:', err);
