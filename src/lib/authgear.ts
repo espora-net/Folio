@@ -18,6 +18,11 @@ function getRedirectURI(): string {
 function getSafeRedirectPath(returnTo?: string): string {
   if (typeof window === 'undefined') return '/dashboard';
   const candidatePath = returnTo ?? window.location.pathname + window.location.search;
+  const isRelative =
+    candidatePath.startsWith('/') && !candidatePath.startsWith('//') && !candidatePath.includes('://');
+  if (!isRelative) {
+    return '/dashboard';
+  }
   if (candidatePath.startsWith('/auth')) {
     return '/dashboard';
   }

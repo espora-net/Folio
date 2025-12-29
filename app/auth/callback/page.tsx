@@ -26,7 +26,7 @@ export default function AuthCallbackPage() {
     const handleCallback = async () => {
       try {
         await finishLogin();
-        // replace evita que el usuario vuelva a la URL de callback al navegar atrás
+        // replace prevents landing again on the callback URL when going back
         router.replace(target);
       } catch (err) {
         console.error('Error en callback de autenticación:', err);
@@ -53,7 +53,7 @@ export default function AuthCallbackPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-center text-muted-foreground">{error}</p>
-            {/* Reintento directo sin pasar por pantallas intermedias */}
+            {/* Direct retry without intermediate screens */}
             <Button className="w-full" onClick={handleRetry}>
               Volver a intentar
             </Button>
