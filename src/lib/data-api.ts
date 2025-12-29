@@ -368,7 +368,7 @@ const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
   'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria,
 };
 
-let cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
+const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
 
 // Inicializar con datos bundled
 const initConvocatorias = () => {

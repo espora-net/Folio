@@ -5,7 +5,7 @@ import '@/index.css';
 
 export const metadata: Metadata = {
   title: 'Folio - Prepara tu oposición con método',
-  description: 'Folio: tu hub de estudio moderno con login de GitHub y datos locales.',
+  description: 'Folio: tu hub de estudio moderno con autenticación segura y datos locales.',
 };
 
 export default function RootLayout({

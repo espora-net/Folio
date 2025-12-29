@@ -46,9 +46,9 @@ const Auth = () => {
               <BookOpen className="h-8 w-8 text-primary" />
               <span className="text-2xl font-bold text-foreground">Folio</span>
             </Link>
-            <CardTitle>Redirigiendo a GitHub...</CardTitle>
+            <CardTitle>Iniciando sesión...</CardTitle>
             <CardDescription>
-              Serás redirigido a GitHub para autenticarte.
+              Serás redirigido para autenticarte de forma segura.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center py-8">
@@ -70,14 +70,14 @@ const Auth = () => {
           </Link>
           <CardTitle>Sesión activa</CardTitle>
           <CardDescription>
-            Ya estás autenticado con GitHub.
+            Ya tienes una sesión activa.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="rounded-lg border border-border bg-muted/40 p-4 text-left">
             <p className="text-sm text-muted-foreground">Sesión activa</p>
             <p className="text-lg font-semibold text-foreground mt-1">
-              {user?.name || 'Usuario GitHub'}
+              {user?.name || 'Usuario'}
             </p>
             {user?.email && (
               <p className="text-sm text-muted-foreground">
