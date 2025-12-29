@@ -46,6 +46,7 @@ export default function AuthCallbackPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-center text-muted-foreground">{error}</p>
+            {/* Reintento directo sin pasar por pantallas intermedias */}
             <Button className="w-full" onClick={() => signIn('/dashboard')}>
               Volver a intentar
             </Button>

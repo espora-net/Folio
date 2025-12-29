@@ -63,7 +63,7 @@ export async function startLogin(returnTo?: string): Promise<void> {
     sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, getSafeRedirectPath(returnTo));
   }
 
-  // Evitamos forzar prompt=login para permitir que Authgear reutilice sesiones existentes,
+  // No incluimos prompt=login para permitir que Authgear reutilice sesiones existentes,
   // reduciendo pantallas intermedias. Si se necesita una reautenticación forzada, debe
   // solicitarse explícitamente desde la UI.
   await authgear.startAuthentication({
