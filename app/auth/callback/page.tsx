@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { finishLogin, consumePostLoginRedirect } from '@/lib/authgear';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -13,6 +13,10 @@ export default function AuthCallbackPage() {
   const router = useRouter();
   const { signIn } = useAuth();
   const [error, setError] = useState<string | null>(null);
+
+  const handleRetry = useCallback(() => {
+    signIn('/dashboard');
+  }, [signIn]);
 
   useEffect(() => {
     const handleCallback = async () => {
@@ -47,7 +51,7 @@ export default function AuthCallbackPage() {
           <CardContent className="space-y-4">
             <p className="text-center text-muted-foreground">{error}</p>
             {/* Reintento directo sin pasar por pantallas intermedias */}
-            <Button className="w-full" onClick={() => signIn('/dashboard')}>
+            <Button className="w-full" onClick={handleRetry}>
               Volver a intentar
             </Button>
           </CardContent>
