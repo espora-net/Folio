@@ -4,11 +4,15 @@
 const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 
+const BASE_PATH = (() => {
+  const value = process.env.NEXT_PUBLIC_BASE_PATH?.trim() ?? '';
+  if (!value) return '';
+  return value.startsWith('/') ? value : `/${value}`;
+})();
+
 function getRedirectURI(): string {
-  if (typeof window !== 'undefined') {
-    return `${window.location.origin}/auth/callback/`;
-  }
-  return 'https://folio.espora.net/auth/callback/';
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://folio.espora.net';
+  return `${origin}${BASE_PATH}/auth/callback/`;
 }
 
 let configured = false;
