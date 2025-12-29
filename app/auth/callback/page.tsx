@@ -13,18 +13,21 @@ export default function AuthCallbackPage() {
   const router = useRouter();
   const { signIn } = useAuth();
   const [error, setError] = useState<string | null>(null);
+  const [redirectTo, setRedirectTo] = useState('/dashboard');
 
   const handleRetry = useCallback(() => {
-    signIn('/dashboard');
-  }, [signIn]);
+    signIn(redirectTo);
+  }, [redirectTo, signIn]);
 
   useEffect(() => {
+    const target = consumePostLoginRedirect() ?? '/dashboard';
+    setRedirectTo(target);
+
     const handleCallback = async () => {
       try {
         await finishLogin();
-        const redirectTo = consumePostLoginRedirect() ?? '/dashboard';
         // replace evita que el usuario vuelva a la URL de callback al navegar atrás
-        router.replace(redirectTo);
+        router.replace(target);
       } catch (err) {
         console.error('Error en callback de autenticación:', err);
         setError(err instanceof Error ? err.message : 'Error desconocido durante la autenticación');

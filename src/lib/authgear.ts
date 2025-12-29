@@ -4,6 +4,9 @@
 const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 const POST_LOGIN_REDIRECT_KEY = 'folio:post-login-redirect';
+export type StartLoginOptions = {
+  forceReauthenticate?: boolean;
+};
 
 function getRedirectURI(): string {
   if (typeof window !== 'undefined') {
@@ -55,9 +58,10 @@ export async function configureAuthgear(): Promise<void> {
   }
 }
 
-export async function startLogin(returnTo?: string): Promise<void> {
+export async function startLogin(returnTo?: string, options?: StartLoginOptions): Promise<void> {
   const authgear = await getAuthgear();
   await configureAuthgear();
+  const { forceReauthenticate = false } = options ?? {};
 
   if (typeof window !== 'undefined') {
     sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, getSafeRedirectPath(returnTo));
@@ -66,10 +70,17 @@ export async function startLogin(returnTo?: string): Promise<void> {
   // No incluimos prompt=login para permitir que Authgear reutilice sesiones existentes,
   // reduciendo pantallas intermedias. Si se necesita una reautenticación forzada, debe
   // solicitarse explícitamente desde la UI.
-  await authgear.startAuthentication({
+  const startOptions: Parameters<typeof authgear.startAuthentication>[0] = {
     redirectURI: getRedirectURI(),
     page: 'login',
-  });
+  };
+
+  if (forceReauthenticate) {
+    const { PromptOption } = await import('@authgear/web');
+    startOptions.prompt = PromptOption.Login;
+  }
+
+  await authgear.startAuthentication(startOptions);
 }
 
 export async function finishLogin(): Promise<void> {
