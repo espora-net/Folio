@@ -98,6 +98,7 @@ export async function fetchUserInfo(): Promise<import('@authgear/web').UserInfo 
 
 export async function getSessionState(): Promise<import('@authgear/web').SessionState> {
   const authgear = await getAuthgear();
+  await configureAuthgear();
   return authgear.sessionState;
 }
 
@@ -105,12 +106,14 @@ export async function isAuthenticated(): Promise<boolean> {
   if (typeof window === 'undefined') return false;
   
   const authgear = await getAuthgear();
+  await configureAuthgear();
   const { SessionState } = await import('@authgear/web');
   return authgear.sessionState === SessionState.Authenticated;
 }
 
 export async function getAccessToken(): Promise<string | undefined> {
   const authgear = await getAuthgear();
+  await configureAuthgear();
   return authgear.accessToken;
 }
 
