@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, createContext, useContext, ReactNode, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import { setActiveUserId } from '@/lib/storage';
 import { 
   configureAuthgear, 
@@ -10,7 +11,8 @@ import {
   isAuthenticated,
   getAccessToken,
   getAuthgearDelegate,
-  type UserInfo
+  type UserInfo,
+  type StartLoginOptions
 } from '@/lib/authgear';
 
 interface AuthUser {
@@ -25,8 +27,8 @@ interface AuthContextType {
   user: AuthUser | null;
   session: string | null;
   loading: boolean;
-  signIn: () => Promise<void>;
-  signUp: () => Promise<void>;
+  signIn: (returnTo?: string, options?: StartLoginOptions) => Promise<void>;
+  signUp: (returnTo?: string, options?: StartLoginOptions) => Promise<void>;
   signOut: () => Promise<void>;
 }
 
@@ -85,6 +87,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [session, setSession] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
   const hydrateUser = useCallback(async () => {
     // Saltar autenticación en desarrollo si la variable está activada
@@ -172,18 +175,29 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     };
   }, [hydrateUser]);
 
-  const signIn = async () => {
-    try {
-      await startLogin();
-    } catch (error) {
-      console.error('Error iniciando login:', error);
-    }
-  };
+  const signIn = useCallback(
+    async (returnTo?: string, options?: StartLoginOptions) => {
+      try {
+        const target = returnTo ?? '/dashboard';
+        if (user) {
+          router.push(target);
+          return;
+        }
+        await startLogin(target, options);
+      } catch (error) {
+        console.error('Error iniciando login:', error);
+      }
+    },
+    [router, user]
+  );
 
-  const signUp = async () => {
-    // Authgear maneja registro y login en el mismo flujo
-    await signIn();
-  };
+  const signUp = useCallback(
+    async (returnTo?: string, options?: StartLoginOptions) => {
+      // Authgear maneja registro y login en el mismo flujo
+      await signIn(returnTo, options);
+    },
+    [signIn]
+  );
 
   const signOut = async () => {
     try {

@@ -3,12 +3,42 @@
 // Configuración de Authgear
 const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
+const POST_LOGIN_REDIRECT_KEY = 'folio:post-login-redirect';
+const ALLOWED_REDIRECT_PREFIXES = ['/dashboard'];
+export type StartLoginOptions = {
+  forceReauthenticate?: boolean;
+};
 
 function getRedirectURI(): string {
   if (typeof window !== 'undefined') {
     return `${window.location.origin}/auth/callback/`;
   }
   return 'https://folio.espora.net/auth/callback/';
+}
+
+function getSafeRedirectPath(returnTo?: string): string {
+  if (typeof window === 'undefined') return '/dashboard';
+  try {
+    const url = new URL(returnTo ?? window.location.pathname + window.location.search, window.location.origin);
+    if (url.origin !== window.location.origin) {
+      return '/dashboard';
+    }
+    const normalizedPath = url.pathname + url.search;
+    const isAllowedPath =
+      normalizedPath === '/' ||
+      ALLOWED_REDIRECT_PREFIXES.some(
+        (prefix) => normalizedPath === prefix || normalizedPath.startsWith(prefix + (prefix.endsWith('/') ? '' : '/'))
+      );
+    if (!isAllowedPath) {
+      return '/dashboard';
+    }
+    if (normalizedPath.startsWith('/auth')) {
+      return '/dashboard';
+    }
+    return normalizedPath || '/dashboard';
+  } catch {
+    return '/dashboard';
+  }
 }
 
 let configured = false;
@@ -45,16 +75,29 @@ export async function configureAuthgear(): Promise<void> {
   }
 }
 
-export async function startLogin(): Promise<void> {
+export async function startLogin(returnTo?: string, options?: StartLoginOptions): Promise<void> {
   const authgear = await getAuthgear();
   await configureAuthgear();
-  
-  const { PromptOption } = await import('@authgear/web');
-  await authgear.startAuthentication({
+  const { forceReauthenticate = false } = options ?? {};
+
+  if (typeof window !== 'undefined') {
+    sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, getSafeRedirectPath(returnTo));
+  }
+
+  // No incluimos prompt=login para permitir que Authgear reutilice sesiones existentes,
+  // reduciendo pantallas intermedias. Si se necesita una reautenticación forzada, debe
+  // solicitarse explícitamente desde la UI.
+  const startOptions: Parameters<typeof authgear.startAuthentication>[0] = {
     redirectURI: getRedirectURI(),
-    prompt: PromptOption.Login,
     page: 'login',
-  });
+  };
+
+  if (forceReauthenticate) {
+    const { PromptOption } = await import('@authgear/web');
+    startOptions.prompt = PromptOption.Login;
+  }
+
+  await authgear.startAuthentication(startOptions);
 }
 
 export async function finishLogin(): Promise<void> {
@@ -75,6 +118,10 @@ export async function logout(): Promise<void> {
     force: true,
     redirectURI: window.location.origin,
   });
+
+  if (typeof window !== 'undefined') {
+    sessionStorage.removeItem(POST_LOGIN_REDIRECT_KEY);
+  }
   
   // Redirigir manualmente ya que sessionType es 'refresh_token'
   window.location.href = window.location.origin;
@@ -116,6 +163,13 @@ export async function getAccessToken(): Promise<string | undefined> {
   const authgear = await getAuthgear();
   await configureAuthgear();
   return authgear.accessToken;
+}
+
+export function consumePostLoginRedirect(): string | null {
+  if (typeof window === 'undefined') return null;
+  const redirectTo = sessionStorage.getItem(POST_LOGIN_REDIRECT_KEY);
+  sessionStorage.removeItem(POST_LOGIN_REDIRECT_KEY);
+  return redirectTo;
 }
 
 export async function getAuthgearDelegate(): Promise<typeof import('@authgear/web').default> {

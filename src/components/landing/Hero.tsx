@@ -1,10 +1,22 @@
 'use client';
 
-import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { useAuth } from '@/hooks/useAuth';
 
 const Hero = () => {
+  const router = useRouter();
+  const { user, signIn } = useAuth();
+
+  const handleAccess = async () => {
+    if (user) {
+      router.push('/dashboard');
+      return;
+    }
+    await signIn('/dashboard');
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image */}
@@ -36,12 +48,10 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="/auth">
-            <Button size="lg" className="text-lg px-8 py-6">
-              Acceso Usuarios Beta
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </Link>
+          <Button size="lg" className="text-lg px-8 py-6" onClick={handleAccess}>
+            Acceso Usuarios Beta
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
           <a href="#features">
             <Button variant="outline" size="lg" className="text-lg px-8 py-6">
               Ver características

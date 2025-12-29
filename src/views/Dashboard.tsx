@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Sidebar from '@/components/dashboard/Sidebar';
 import { useAuth } from '@/hooks/useAuth';
@@ -8,11 +8,13 @@ import { Loader2 } from 'lucide-react';
 import { hydrateFromApi } from '@/lib/storage';
 
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
+const AUTO_LOGIN_ERROR_KEY = 'folio-auto-login-error';
 
 const Dashboard = ({ children }: { children: ReactNode }) => {
-  const { user, loading } = useAuth();
+  const { user, loading, signIn } = useAuth();
   const router = useRouter();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const hasStartedLogin = useRef(false);
 
   useEffect(() => {
     // Leer estado inicial del sidebar
@@ -34,10 +36,32 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
-    if (!loading && !user) {
-      router.push('/auth');
+    if (!loading && user && typeof window !== 'undefined') {
+      sessionStorage.removeItem(AUTO_LOGIN_ERROR_KEY);
     }
-  }, [user, loading, router]);
+  }, [user, loading]);
+
+  useEffect(() => {
+    const shouldBlockAutoLogin =
+      typeof window !== 'undefined' && sessionStorage.getItem(AUTO_LOGIN_ERROR_KEY) === 'true';
+
+    if (shouldBlockAutoLogin) {
+      router.push('/');
+      return;
+    }
+
+    if (!loading && !user && !hasStartedLogin.current) {
+      hasStartedLogin.current = true;
+      signIn('/dashboard').catch((error) => {
+        console.error('Error al iniciar sesión automática', error);
+        hasStartedLogin.current = false;
+        if (typeof window !== 'undefined') {
+          sessionStorage.setItem(AUTO_LOGIN_ERROR_KEY, 'true');
+        }
+        router.push('/');
+      });
+    }
+  }, [user, loading, router, signIn]);
 
   if (loading) {
     return (

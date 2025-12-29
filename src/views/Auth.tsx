@@ -26,7 +26,7 @@ const Auth = () => {
     // Si no está autenticado y no hemos iniciado el login, redirigir a Authgear
     if (!hasTriggeredLogin.current) {
       hasTriggeredLogin.current = true;
-      signIn();
+      signIn('/dashboard');
     }
   }, [loading, user, router, signIn]);
 

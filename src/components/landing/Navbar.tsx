@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Moon, Sun, BookOpen } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
@@ -8,7 +9,16 @@ import { useAuth } from '@/hooks/useAuth';
 
 const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
-  const { user, signOut } = useAuth();
+  const { user, signOut, signIn } = useAuth();
+  const router = useRouter();
+
+  const handleStart = async () => {
+    if (user) {
+      router.push('/dashboard');
+      return;
+    }
+    await signIn('/dashboard');
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -42,9 +52,7 @@ const Navbar = () => {
               </Button>
             </div>
           ) : (
-            <Link href="/auth">
-              <Button>Empezar</Button>
-            </Link>
+            <Button onClick={handleStart}>Empezar</Button>
           )}
         </div>
       </div>

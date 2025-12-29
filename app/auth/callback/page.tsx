@@ -1,23 +1,33 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { finishLogin } from '@/lib/authgear';
+import { finishLogin, consumePostLoginRedirect } from '@/lib/authgear';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { BookOpen, Loader2, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { useAuth } from '@/hooks/useAuth';
 
 export default function AuthCallbackPage() {
   const router = useRouter();
+  const { signIn } = useAuth();
   const [error, setError] = useState<string | null>(null);
+  const [redirectTo, setRedirectTo] = useState('/dashboard');
+
+  const handleRetry = useCallback(() => {
+    signIn(redirectTo);
+  }, [redirectTo, signIn]);
 
   useEffect(() => {
+    const target = consumePostLoginRedirect() ?? '/dashboard';
+    setRedirectTo(target);
+
     const handleCallback = async () => {
       try {
         await finishLogin();
-        // Redirigir al dashboard después de completar el login
-        router.push('/dashboard');
+        // replace updates the current entry so the callback page is not kept in history
+        router.replace(target);
       } catch (err) {
         console.error('Error en callback de autenticación:', err);
         setError(err instanceof Error ? err.message : 'Error desconocido durante la autenticación');
@@ -43,7 +53,8 @@ export default function AuthCallbackPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-center text-muted-foreground">{error}</p>
-            <Button className="w-full" onClick={() => router.push('/auth')}>
+            {/* Direct retry without intermediate screens */}
+            <Button className="w-full" onClick={handleRetry}>
               Volver a intentar
             </Button>
           </CardContent>
