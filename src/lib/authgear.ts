@@ -56,6 +56,8 @@ export async function startLogin(returnTo?: string): Promise<void> {
     sessionStorage.setItem(POST_LOGIN_REDIRECT_KEY, safePath);
   }
 
+  // Evitamos forzar prompt=login para permitir que Authgear reutilice sesiones existentes
+  // y reducir pantallas intermedias cuando el usuario ya tiene una sesión válida.
   await authgear.startAuthentication({
     redirectURI: getRedirectURI(),
     page: 'login',

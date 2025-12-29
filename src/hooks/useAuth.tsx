@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, createContext, useContext, ReactNode, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import { setActiveUserId } from '@/lib/storage';
 import { 
   configureAuthgear, 
@@ -85,6 +86,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [session, setSession] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
   const hydrateUser = useCallback(async () => {
     // Saltar autenticación en desarrollo si la variable está activada
@@ -176,8 +178,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     async (returnTo?: string) => {
       try {
         if (user) {
-          if (returnTo && typeof window !== 'undefined') {
-            window.location.href = returnTo;
+          if (returnTo) {
+            router.push(returnTo);
           }
           return;
         }
@@ -186,7 +188,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         console.error('Error iniciando login:', error);
       }
     },
-    [user]
+    [router, user]
   );
 
   const signUp = async (returnTo?: string) => {
