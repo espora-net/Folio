@@ -128,6 +128,38 @@ Valid categories for materials:
 - Maintain consistency with existing code style
 - Keep files organized according to the established structure
 
+## localStorage Coherence
+
+The application uses localStorage to persist user data. When modifying data structures or the hydration process, follow these rules:
+
+### Data Types (`src/lib/data-types.ts`)
+
+- **Always extend, never remove**: When adding new fields to interfaces (`TestQuestion`, `Flashcard`, `Topic`), make them optional (`field?: type`) to maintain backwards compatibility with existing localStorage data
+- **Document new fields**: Add comments explaining the purpose of new fields
+- **Export new types**: Ensure new types are exported for use across the application
+
+### Hydration Process (`src/lib/storage.ts`)
+
+- **hydrateFromApi()** must always update data from the API to get new fields, while preserving user progress:
+  - **Topics**: Preserve `completed` status
+  - **Flashcards**: Preserve `nextReview`, `interval`, `easeFactor` (spaced repetition state)
+  - **Questions**: Always use API version (contains `source`, `origin`, etc.)
+  - **Stats**: Only initialize if not present
+- **Preserve local-only items**: Items created by users locally (not in API) must be kept
+- **Merge strategy**: API data takes precedence for schema fields, local data for progress
+
+### Data Normalization (`src/lib/data-api.ts`)
+
+- **normalizeDataset*** functions must handle missing fields gracefully
+- **Parse new fields from raw data**: When adding fields like `source` or `origin`, update the normalization functions
+- **Use fallback values**: Provide sensible defaults for optional fields (e.g., `origin: 'generated'`)
+
+### Common Pitfalls to Avoid
+
+1. **Never check `hasStoredValue()` before updating**: This causes new API fields to never reach users with existing data
+2. **Don't break existing localStorage**: Old data without new fields must still load correctly
+3. **Test with existing data**: Verify changes work both with fresh installs and existing user data
+
 ## Testing and Validation
 
 - Validate JSON files for syntax errors before committing
