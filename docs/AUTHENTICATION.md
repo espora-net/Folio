@@ -223,19 +223,47 @@ Cuando el usuario hace clic en "Empezar" o accede a una ruta protegida:
 ```
 1. Usuario → /dashboard (protegido)
 2. Dashboard detecta !user && !loading
-3. Llama signIn('/dashboard')
-4. authgear.startAuthentication({ redirectURI: '/auth/callback/' })
-5. Navegador redirige a https://espora.authgear.cloud/ (pantalla de login)
-6. Usuario ve la pantalla de Authgear con el botón "Continuar con GitHub"
-7. Usuario hace clic → Redirige a GitHub para autorizar
-8. GitHub autoriza → Redirige de vuelta a Authgear
-9. Authgear → /auth/callback/?code=xxx
-10. AuthCallbackPage llama finishLogin()
-11. finishLogin() intercambia código por tokens
-12. Navegador → /dashboard (con sesión activa)
+3. Dashboard verifica isAuthenticated() directamente con Authgear
+4. Si NO hay sesión → Llama signIn('/dashboard')
+5. authgear.startAuthentication({ redirectURI: '/auth/callback/' })
+6. Navegador redirige a https://espora.authgear.cloud/ (pantalla de login)
+7. Usuario ve la pantalla de Authgear con el botón "Continuar con GitHub"
+8. Usuario hace clic → Redirige a GitHub para autorizar
+9. GitHub autoriza → Redirige de vuelta a Authgear
+10. Authgear → /auth/callback/?code=xxx
+11. AuthCallbackPage llama finishLogin()
+12. finishLogin() intercambia código por tokens
+13. Navegador → /dashboard (con sesión activa)
 ```
 
 > **Nota**: Es normal que al iniciar sesión el navegador redirija temporalmente a `https://espora.authgear.cloud/`. Esta es la pantalla de login de Authgear donde el usuario selecciona "Continuar con GitHub".
+
+### Prevención de Race Conditions
+
+Existe una posible race condition cuando el usuario vuelve del callback:
+
+1. El callback completa `finishLogin()` y redirige a `/dashboard`
+2. Dashboard se monta con `user = null` (el estado de React aún no se actualizó)
+3. Si no se verifica, Dashboard iniciaría un nuevo login innecesario
+
+**Solución implementada**: Antes de iniciar un login automático, Dashboard verifica directamente con `isAuthenticated()` de Authgear:
+
+```typescript
+// En Dashboard.tsx
+const checkAndLogin = async () => {
+  const alreadyAuthenticated = await isAuthenticated();
+  
+  if (alreadyAuthenticated) {
+    // Ya hay sesión, esperar a que React actualice el estado
+    return;
+  }
+  
+  // Realmente no hay sesión, iniciar login
+  await signIn('/dashboard');
+};
+```
+
+Esto evita loops de login y garantiza que solo se redirija a Authgear cuando realmente no hay sesión.
 
 ### Logout
 
