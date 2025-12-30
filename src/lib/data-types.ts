@@ -19,7 +19,7 @@ export interface Flashcard {
   easeFactor: number;
 }
 
-export type QuestionOrigin = 'generated' | 'published' | 'ia';
+export type QuestionOrigin = string;
 
 export interface QuestionSource {
   materialId: string;

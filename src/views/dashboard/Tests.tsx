@@ -53,7 +53,7 @@ const Tests = () => {
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
-  const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
+  const [originFilter, setOriginFilter] = useState<string>('all');
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -83,26 +83,29 @@ const Tests = () => {
     return () => window.removeEventListener('folio-data-updated', loadData);
   }, []);
 
-  // Filtrar por tema y origen
+  // Filtrar por tema y origen (originFilter puede ser 'all', 'generated', 'ia' o un origen literal)
   const filteredQuestions = useMemo(() => {
     let result = questions;
-    
+
     if (selectedTopics.length > 0) {
       result = result.filter(q => selectedTopics.includes(q.topicId));
     }
-    
+
     if (originFilter !== 'all') {
       if (originFilter === 'generated') {
-        // 'generated' should include IA-generated questions as well
+        // 'generated' incluye preguntas con origin === 'generated' y origin === 'ia'
         result = result.filter(q => {
           const o = (q.origin || 'generated');
           return o === 'generated' || o === 'ia';
         });
+      } else if (originFilter === 'ia') {
+        result = result.filter(q => (q.origin || '') === 'ia');
       } else {
+        // Filtrar por origen literal (p. ej. 'oposito.es')
         result = result.filter(q => (q.origin || 'generated') === originFilter);
       }
     }
-    
+
     return result;
   }, [questions, selectedTopics, originFilter]);
 
@@ -651,11 +654,11 @@ const Tests = () => {
             </div>
           )}
 
-          {/* Filtro por origen */}
+          {/* Filtro por origen (dinámico) */}
           <TooltipProvider>
             <div className="flex items-center gap-3">
               <span className="text-sm font-medium text-muted-foreground">Origen:</span>
-              <div className="flex gap-1">
+              <div className="flex gap-1 flex-wrap">
                 <Button
                   variant={originFilter === 'all' ? 'default' : 'outline'}
                   size="sm"
@@ -664,6 +667,7 @@ const Tests = () => {
                 >
                   Todas
                 </Button>
+
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <Button
@@ -677,41 +681,33 @@ const Tests = () => {
                     </Button>
                   </TooltipTrigger>
                   <TooltipContent side="bottom">
-                    <p>Creadas por IA a partir del temario</p>
+                    <p>Preguntas generadas (incluye IA)</p>
                   </TooltipContent>
                 </Tooltip>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      variant={originFilter === 'published' ? 'default' : 'outline'}
-                      size="sm"
-                      className="h-8 px-3 text-xs gap-1.5"
-                      onClick={() => setOriginFilter('published')}
-                    >
-                      <FileCheck className="h-3.5 w-3.5" />
-                      Publicadas
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent side="bottom">
-                    <p>De exámenes oficiales de oposiciones</p>
-                  </TooltipContent>
-                </Tooltip>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      variant={originFilter === 'ia' ? 'default' : 'outline'}
-                      size="sm"
-                      className="h-8 px-3 text-xs gap-1.5"
-                      onClick={() => setOriginFilter('ia')}
-                    >
-                      <Sparkles className="h-3.5 w-3.5" />
-                      IA
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent side="bottom">
-                    <p>Preguntas generadas por IA</p>
-                  </TooltipContent>
-                </Tooltip>
+
+                {/* dynamic origins from questions */}
+                {Array.from(new Set(questions.map(q => (q.origin || 'generated')))).map(origin => {
+                  if (origin === 'generated') return null; // already have 'Generadas'
+                  // represent 'ia' specifically
+                  const label = origin === 'ia' ? 'IA' : origin;
+                  return (
+                    <Tooltip key={origin}>
+                      <TooltipTrigger asChild>
+                        <Button
+                          variant={originFilter === origin ? 'default' : 'outline'}
+                          size="sm"
+                          className="h-8 px-3 text-xs gap-1.5"
+                          onClick={() => setOriginFilter(origin)}
+                        >
+                          {label}
+                        </Button>
+                      </TooltipTrigger>
+                      <TooltipContent side="bottom">
+                        <p>Origen: {origin}</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  );
+                })}
               </div>
             </div>
           </TooltipProvider>

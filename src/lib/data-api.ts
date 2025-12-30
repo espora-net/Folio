@@ -244,8 +244,9 @@ const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
         : undefined;
 
       // Parse origin (support 'published', 'ia' or default to 'generated')
-      const origin: 'generated' | 'published' | 'ia' =
-        data.origin === 'published' ? 'published' : data.origin === 'ia' ? 'ia' : 'generated';
+      // Preserve the literal origin string from the dataset when present.
+      // If not provided, default to 'generated'.
+      const origin: string = typeof data.origin === 'string' && data.origin.trim() ? String(data.origin) : 'generated';
 
       return {
         id,
