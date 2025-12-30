@@ -9,6 +9,7 @@ const STORAGE_KEYS = {
   TOPICS: 'folio_topics',
   FLASHCARDS: 'folio_flashcards',
   QUESTIONS: 'folio_questions',
+  HIDDEN_FLASHCARDS: 'folio_hidden_flashcards',
   STATS: 'folio_stats',
 };
 const ACTIVE_USER_KEY = 'folio_active_user_id';
@@ -51,6 +52,26 @@ const hasStoredValue = (key: keyof typeof STORAGE_KEYS) => {
   );
 };
 
+export const getHiddenFlashcards = (): string[] => {
+  if (typeof window === 'undefined') return [];
+  return readFromStorage('HIDDEN_FLASHCARDS', [] as string[]);
+};
+
+export const saveHiddenFlashcards = (ids: string[]) => {
+  if (typeof window === 'undefined') return;
+  writeToStorage('HIDDEN_FLASHCARDS', ids);
+};
+
+export const hideFlashcard = (id: string) => {
+  if (typeof window === 'undefined') return;
+  const ids = getHiddenFlashcards();
+  if (!ids.includes(id)) {
+    ids.push(id);
+    saveHiddenFlashcards(ids);
+    window.dispatchEvent(new Event('folio-data-updated'));
+  }
+};
+
 export const setActiveUserId = (userId?: string | null) => {
   if (typeof window === 'undefined') return;
   const trimmed = userId?.trim();
@@ -75,8 +96,31 @@ export const saveTopics = (topics: Topic[]) => {
 };
 
 export const getFlashcards = (): Flashcard[] => {
-  if (typeof window === 'undefined') return getCachedDatabase().flashcards;
-  return readFromStorage('FLASHCARDS', getCachedDatabase().flashcards);
+  // Derivar flashcards a partir de las preguntas para evitar duplicación de datos.
+  const derive = (db: ReturnType<typeof getCachedDatabase>) => {
+    const qs = db.questions || [];
+    return qs.map(q => {
+      // compatibilidad: algunos datasets usan 'correctAnswer' en lugar de 'correctIndex'
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const anyQ: any = q as any;
+      const correct = typeof anyQ.correctIndex === 'number' ? anyQ.correctIndex : anyQ.correctAnswer;
+      const answer = Array.isArray(q.options) && typeof correct === 'number' ? q.options[correct] : '';
+      return {
+        id: q.id,
+        topicId: q.topicId,
+        question: q.question,
+        answer,
+        nextReview: '',
+        interval: 0,
+        easeFactor: 2.5,
+      } as Flashcard;
+    });
+  };
+
+  if (typeof window === 'undefined') return derive(getCachedDatabase());
+  const all = readFromStorage('FLASHCARDS', derive(getCachedDatabase()));
+  const hidden = readFromStorage('HIDDEN_FLASHCARDS', [] as string[]);
+  return all.filter(f => !hidden.includes(f.id));
 };
 
 export const saveFlashcards = (flashcards: Flashcard[]) => {
@@ -148,22 +192,37 @@ export const hydrateFromApi = async () => {
   saveTopics(mergedTopics);
 
   // Siempre actualizar flashcards para obtener source y nuevos campos
+  // Ahora derivamos las flashcards a partir de las preguntas de la base de datos
+  // pero preservamos el estado de revisión local (nextReview, interval, easeFactor)
   const localFlashcards: Flashcard[] = stored.flashcards ? getFlashcards() : [];
-  const mergedFlashcards = database.flashcards.map(apiCard => {
-    const localCard = localFlashcards.find(f => f.id === apiCard.id);
-    return {
-      ...apiCard,
-      // Preservar progreso del usuario
-      nextReview: localCard?.nextReview ?? apiCard.nextReview,
-      interval: localCard?.interval ?? apiCard.interval,
-      easeFactor: localCard?.easeFactor ?? apiCard.easeFactor,
+  const derivedFromQuestions = (database.questions || []).map(q => {
+    // compatibilidad con nombres de campo
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const anyQ: any = q as any;
+    const correct = typeof anyQ.correctIndex === 'number' ? anyQ.correctIndex : anyQ.correctAnswer;
+    const answer = Array.isArray(q.options) && typeof correct === 'number' ? q.options[correct] : '';
+    const base: Flashcard = {
+      id: q.id,
+      topicId: q.topicId,
+      question: q.question,
+      answer,
+      nextReview: '',
+      interval: 0,
+      easeFactor: 2.5,
     };
+    const local = localFlashcards.find(f => f.id === base.id);
+    if (local) {
+      base.nextReview = local.nextReview ?? base.nextReview;
+      base.interval = local.interval ?? base.interval;
+      base.easeFactor = local.easeFactor ?? base.easeFactor;
+    }
+    return base;
   });
-  // Incluir flashcards creadas localmente que no están en la API
+  // Incluir flashcards locales creadas manualmente que no correspondan a preguntas
   const localOnlyFlashcards = localFlashcards.filter(
-    local => !database.flashcards.some(api => api.id === local.id)
+    local => !(database.questions || []).some(q => q.id === local.id)
   );
-  saveFlashcards([...mergedFlashcards, ...localOnlyFlashcards]);
+  saveFlashcards([...derivedFromQuestions, ...localOnlyFlashcards]);
 
   // Siempre actualizar questions para obtener source, origin y nuevos campos
   const localQuestions: TestQuestion[] = stored.questions ? getQuestions() : [];

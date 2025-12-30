@@ -26,7 +26,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Badge } from '@/components/ui/badge';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { Flashcard, Topic, getFlashcards, saveFlashcards, getTopics, getStats, saveStats } from '@/lib/storage';
+import { Flashcard, Topic, getFlashcards, saveFlashcards, getTopics, getQuestions, hideFlashcard, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
 type TopicGroup = {
@@ -154,6 +154,18 @@ const Flashcards = () => {
   };
 
   const handleDelete = (id: string) => {
+    // Si la tarjeta coincide con una pregunta (id igual), la ocultamos en lugar de borrarla
+    const questions = getQuestions();
+    const isDerived = questions.some(q => q.id === id);
+    if (isDerived) {
+      hideFlashcard(id);
+      // recargar
+      const reloaded = getFlashcards();
+      setFlashcards(reloaded);
+      toast({ title: 'Tarjeta oculta (derivada de pregunta)' });
+      return;
+    }
+
     const updated = flashcards.filter(f => f.id !== id);
     setFlashcards(updated);
     saveFlashcards(updated);

@@ -175,7 +175,505 @@
       ]
     }
   ],
+  "flashcards": [
+    {
+      "id": "ce-fc-1",
+      "topicId": "ce-titulo-preliminar",
+      "question": "¿Qué valores superiores propugna el Estado según el artículo 1?",
+      "answer": "Libertad, justicia, igualdad y pluralismo político como valores superiores de un Estado social y democrático de Derecho.",
+      "difficulty": "basica",
+      "tags": [
+        "Título Preliminar",
+        "Artículo 1",
+        "valores superiores"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#titulo-preliminar",
+        "highlightText": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores la libertad, la justicia, la igualdad y el pluralismo político."
+      }
+    },
+    {
+      "id": "ce-fc-2",
+      "topicId": "ce-titulo-preliminar",
+      "question": "¿En qué se fundamenta la Constitución respecto a la unidad de España?",
+      "answer": "En la indisoluble unidad de la Nación española, reconociendo el derecho a la autonomía de nacionalidades y regiones y la solidaridad entre todas ellas.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Título Preliminar",
+        "Artículo 2",
+        "unidad y autonomía"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#titulo-preliminar",
+        "highlightText": "La Constitución se fundamenta en la indisoluble unidad de la Nación española... y reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones..."
+      }
+    },
+    {
+      "id": "ce-fc-3",
+      "topicId": "ce-titulo-preliminar",
+      "question": "¿Qué establece el artículo 3 sobre la lengua oficial y las demás lenguas españolas?",
+      "answer": "El castellano es la lengua oficial del Estado; las demás lenguas serán oficiales en las Comunidades Autónomas según sus Estatutos y deben ser objeto de respeto y protección.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Título Preliminar",
+        "Artículo 3",
+        "lenguas oficiales"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#titulo-preliminar",
+        "highlightText": "El castellano es la lengua española oficial del Estado... Las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas..."
+      }
+    },
+    {
+      "id": "ce-fc-4",
+      "topicId": "ce-titulo-preliminar",
+      "question": "¿Cuál es la misión constitucional de las Fuerzas Armadas según el artículo 8?",
+      "answer": "Garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Título Preliminar",
+        "Artículo 8",
+        "Fuerzas Armadas"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#titulo-preliminar",
+        "highlightText": "Las Fuerzas Armadas... tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional."
+      }
+    },
+    {
+      "id": "ce-fc-5",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿Cómo se adquiere, conserva o pierde la nacionalidad española según el artículo 11?",
+      "answer": "Se adquiere, conserva y pierde conforme a lo establecido por la ley, que fija los supuestos de cada caso.",
+      "difficulty": "basica",
+      "tags": [
+        "Título I",
+        "Capítulo Primero",
+        "Artículo 11",
+        "nacionalidad"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley."
+      }
+    },
+    {
+      "id": "ce-fc-6",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿A qué edad se alcanza la mayoría de edad en España según el artículo 12?",
+      "answer": "A los dieciocho años.",
+      "difficulty": "basica",
+      "tags": [
+        "Título I",
+        "Capítulo Primero",
+        "Artículo 12",
+        "mayoría de edad"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "Los españoles son mayores de edad a los dieciocho años."
+      }
+    },
+    {
+      "id": "ce-fc-7",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿Quiénes pueden gozar de las libertades públicas según el artículo 13.1?",
+      "answer": "Los extranjeros en España gozarán de las libertades públicas que garantiza el Título I en los términos de los tratados y la ley.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Título I",
+        "Capítulo Primero",
+        "Artículo 13",
+        "libertades de extranjeros"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "Los extranjeros gozarán en España de las libertades públicas que garantiza el presente Título en los términos que establezcan los tratados y la ley."
+      }
+    },
+    {
+      "id": "ce-fc-8",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "¿Qué principio reconoce el artículo 14 respecto a la igualdad?",
+      "answer": "Que todos los españoles son iguales ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+      "difficulty": "basica",
+      "tags": [
+        "Título I",
+        "Capítulo Segundo",
+        "Artículo 14",
+        "igualdad"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna..."
+      }
+    },
+    {
+      "id": "ce-fc-9",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "¿Qué derecho garantiza el artículo 15 y qué pena queda abolida?",
+      "answer": "Garantiza el derecho a la vida y a la integridad física y moral, y queda abolida la pena de muerte salvo lo previsto para tiempos de guerra por leyes penales militares.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Título I",
+        "Capítulo Segundo",
+        "Artículo 15",
+        "derecho a la vida"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "Todos tienen derecho a la vida y a la integridad física y moral... Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra."
+      }
+    },
+    {
+      "id": "ce-fc-10",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "¿Qué límite temporal establece el artículo 17.2 para la detención preventiva?",
+      "answer": "No podrá durar más del tiempo estrictamente necesario y, en todo caso, un máximo de setenta y dos horas antes de ser puesto en libertad o a disposición judicial.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Título I",
+        "Capítulo Segundo",
+        "Artículo 17",
+        "detención preventiva"
+      ],
+      "nextReviewDate": "2025-01-10T00:00:00.000Z",
+      "reviewCount": 0,
+      "correctCount": 0,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "La detención preventiva no podrá durar más del tiempo estrictamente necesario... en el plazo máximo de setenta y dos horas..."
+      }
+    }
+  ],
   "questions": [
+    {
+      "id": "ce-q-1",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿Cómo se determina la adquisición y pérdida de la nacionalidad española según el artículo 11.1?",
+      "options": [
+        "Mediante inscripción automática en el registro civil al nacer",
+        "Exclusivamente por ius soli",
+        "Según lo que establezca la ley en cada supuesto",
+        "Únicamente por concesión discrecional del Gobierno"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El artículo 11.1 fija que la nacionalidad española se adquiere, conserva y pierde de acuerdo con lo establecido por la ley.",
+      "difficulty": "basica",
+      "tags": [
+        "Capítulo Primero",
+        "Artículo 11",
+        "nacionalidad"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-2",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "Según el artículo 11.2, ¿puede un español de origen ser privado de su nacionalidad?",
+      "options": [
+        "Sí, por resolución administrativa",
+        "Sí, si reside en el extranjero más de diez años",
+        "No, la Constitución lo prohíbe expresamente",
+        "Solo mediante decisión del Parlamento Europeo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El artículo 11.2 establece que ningún español de origen podrá ser privado de su nacionalidad.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Capítulo Primero",
+        "Artículo 11",
+        "nacionalidad de origen"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "Ningún español de origen podrá ser privado de su nacionalidad."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-3",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿Con qué países pueden concertarse tratados de doble nacionalidad según el artículo 11.3?",
+      "options": [
+        "Exclusivamente con países de la Unión Europea",
+        "Con países iberoamericanos o con los que tengan particular vinculación con España",
+        "Solo con países que hablen castellano",
+        "Con cualquier país sin condición previa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 11.3 permite tratados de doble nacionalidad con países iberoamericanos o con aquellos que tengan particular vinculación con España.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Capítulo Primero",
+        "Artículo 11",
+        "doble nacionalidad"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-4",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿Qué edad fija el artículo 12 para la mayoría de edad en España?",
+      "options": [
+        "Dieciséis años",
+        "Dieciocho años",
+        "Veinte años",
+        "Veintiún años"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 12 indica que los españoles son mayores de edad a los dieciocho años.",
+      "difficulty": "basica",
+      "tags": [
+        "Capítulo Primero",
+        "Artículo 12",
+        "mayoría de edad"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "Los españoles son mayores de edad a los dieciocho años."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-5",
+      "topicId": "ce-titulo-i-capitulo-primero",
+      "question": "¿Quiénes pueden ejercer el sufragio activo y pasivo en elecciones municipales según el artículo 13.2?",
+      "options": [
+        "Únicamente los españoles sin excepciones",
+        "Solo los extranjeros residentes permanentes",
+        "Españoles y, por reciprocidad, extranjeros según lo disponga tratado o ley",
+        "Cualquier persona mayor de edad residente en España"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El artículo 13.2 reserva el derecho de sufragio a los españoles salvo lo que, atendiendo a reciprocidad, pueda establecerse por tratado o ley para elecciones municipales.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Capítulo Primero",
+        "Artículo 13",
+        "sufragio de extranjeros"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-primero",
+        "highlightText": "Solamente los españoles serán titulares de los derechos reconocidos en el artículo 23, salvo lo que... pueda establecerse por tratado o ley para el derecho de sufragio activo y pasivo en las elecciones municipales."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-6",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "¿Qué prohíbe expresamente el artículo 14 al reconocer la igualdad ante la ley?",
+      "options": [
+        "La discriminación solo por razones de sexo",
+        "Cualquier discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición",
+        "La discriminación únicamente por origen social",
+        "La discriminación por razones económicas exclusivamente"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 14 prohíbe toda discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+      "difficulty": "basica",
+      "tags": [
+        "Capítulo Segundo",
+        "Artículo 14",
+        "igualdad"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición..."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-7",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "¿Qué pena queda abolida según el artículo 15 y en qué supuesto podría exceptuarse?",
+      "options": [
+        "La prisión permanente revisable, sin excepciones",
+        "La pena de muerte, salvo lo previsto en leyes penales militares para tiempos de guerra",
+        "La prisión menor, salvo delitos de terrorismo",
+        "La pena de multa, salvo delitos económicos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 15 suprime la pena de muerte, permitiendo solo lo que puedan disponer las leyes penales militares en tiempos de guerra.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Capítulo Segundo",
+        "Artículo 15",
+        "pena de muerte"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-8",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "Según el artículo 17.2, ¿cuál es el plazo máximo para poner a disposición judicial a una persona detenida?",
+      "options": [
+        "Cuarenta y ocho horas",
+        "Setenta y dos horas",
+        "Cinco días hábiles",
+        "Una semana natural"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 17.2 fija un máximo de setenta y dos horas para que el detenido sea puesto en libertad o a disposición judicial.",
+      "difficulty": "basica",
+      "tags": [
+        "Capítulo Segundo",
+        "Artículo 17",
+        "plazo de detención"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "La detención preventiva... en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-9",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "¿En qué supuestos permite el artículo 18.2 la entrada o registro en un domicilio?",
+      "options": [
+        "Solo con orden judicial",
+        "Con consentimiento del titular, resolución judicial o en caso de flagrante delito",
+        "Siempre que lo solicite la policía",
+        "Solo si hay denuncia vecinal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 18.2 declara la inviolabilidad del domicilio y solo admite entrada o registro con consentimiento del titular, resolución judicial o en caso de flagrante delito.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Capítulo Segundo",
+        "Artículo 18",
+        "inviolabilidad del domicilio"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "El domicilio es inviolable. Ninguna entrada o registro podrá hacerse en él sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito."
+      },
+      "origin": "generated"
+    },
+    {
+      "id": "ce-q-10",
+      "topicId": "ce-titulo-i-capitulo-segundo",
+      "question": "Según el artículo 21.2, ¿qué requisito se exige para reuniones en lugares de tránsito público y manifestaciones?",
+      "options": [
+        "Autorización previa de la autoridad competente",
+        "Comunicación previa a la autoridad, que solo puede prohibirlas por alteración del orden público",
+        "Inscripción de los asistentes en un registro municipal",
+        "Supervisión policial obligatoria durante todo el acto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 21.2 exige comunicación previa a la autoridad para reuniones en tránsito público, pudiendo prohibirlas solo por razones fundadas de alteración del orden público.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Capítulo Segundo",
+        "Artículo 21",
+        "derecho de reunión"
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "source": {
+        "materialId": "ce-1978",
+        "path": "data/general/01_constitucion_española_1978.md#capitulo-segundo",
+        "highlightText": "En los casos de reuniones en lugares de tránsito público y manifestaciones se dará comunicación previa a la autoridad..."
+      },
+      "origin": "generated"
+    },
     {
       "id": "constitucion-espanola-1978-caracteristicas-generales-de-la-constitucion-de-1978-q-1",
       "topicId": "constitucion-espanola-1978-caracteristicas-generales-de-la-constitucion-de-1978",
