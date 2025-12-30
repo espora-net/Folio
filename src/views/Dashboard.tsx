@@ -1,11 +1,12 @@
 'use client';
 
-import { ReactNode, useEffect, useRef, useState } from 'react';
+import { ReactNode, useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Sidebar from '@/components/dashboard/Sidebar';
+import StudyTypeSelector from '@/components/dashboard/StudyTypeSelector';
 import { useAuth } from '@/hooks/useAuth';
 import { Loader2 } from 'lucide-react';
-import { hydrateFromApi } from '@/lib/storage';
+import { hydrateFromApi, isOnboardingCompleted } from '@/lib/storage';
 import { isAuthenticated } from '@/lib/authgear';
 
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
@@ -15,7 +16,22 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   const { user, loading, signIn } = useAuth();
   const router = useRouter();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [showOnboarding, setShowOnboarding] = useState(false);
+  const [checkingOnboarding, setCheckingOnboarding] = useState(true);
   const hasStartedLogin = useRef(false);
+
+  // Verificar si el onboarding está completado
+  useEffect(() => {
+    if (user) {
+      const completed = isOnboardingCompleted();
+      setShowOnboarding(!completed);
+      setCheckingOnboarding(false);
+    }
+  }, [user]);
+
+  const handleOnboardingComplete = useCallback(() => {
+    setShowOnboarding(false);
+  }, []);
 
   useEffect(() => {
     // Leer estado inicial del sidebar
@@ -94,6 +110,19 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
 
   if (!user) {
     return null;
+  }
+
+  // Mostrar onboarding si no se ha completado
+  if (checkingOnboarding) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin text-primary" />
+      </div>
+    );
+  }
+
+  if (showOnboarding) {
+    return <StudyTypeSelector onComplete={handleOnboardingComplete} />;
   }
 
   return (

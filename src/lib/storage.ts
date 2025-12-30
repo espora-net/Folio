@@ -181,3 +181,51 @@ export const hydrateFromApi = async () => {
 
   return database;
 };
+
+// User preferences for study type
+import { type StudyType, type UserPreferences, STUDY_TYPES } from './data-types';
+export { type StudyType, type UserPreferences, STUDY_TYPES } from './data-types';
+
+const PREFERENCES_KEY = 'folio_preferences';
+
+const getPreferencesKey = () => `${PREFERENCES_KEY}::${getActiveUserId()}`;
+
+export const getUserPreferences = (): UserPreferences | null => {
+  if (typeof window === 'undefined') return null;
+  const stored = localStorage.getItem(getPreferencesKey());
+  if (!stored) return null;
+  try {
+    return JSON.parse(stored) as UserPreferences;
+  } catch {
+    return null;
+  }
+};
+
+export const saveUserPreferences = (prefs: UserPreferences) => {
+  if (typeof window === 'undefined') return;
+  localStorage.setItem(getPreferencesKey(), JSON.stringify(prefs));
+  window.dispatchEvent(new CustomEvent('folio-preferences-updated', { detail: prefs }));
+};
+
+export const getStudyType = (): StudyType => {
+  const prefs = getUserPreferences();
+  return prefs?.studyType ?? 'oposiciones'; // Default para compatibilidad
+};
+
+export const getStudyTypeConfig = () => {
+  const studyType = getStudyType();
+  return STUDY_TYPES.find(s => s.id === studyType) ?? STUDY_TYPES[0];
+};
+
+export const isOnboardingCompleted = (): boolean => {
+  const prefs = getUserPreferences();
+  return prefs?.onboardingCompleted ?? false;
+};
+
+export const completeOnboarding = (studyType: StudyType, customLabel?: string) => {
+  saveUserPreferences({
+    studyType,
+    studyTypeLabel: customLabel,
+    onboardingCompleted: true,
+  });
+};

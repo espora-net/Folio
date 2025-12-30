@@ -5,7 +5,7 @@ const features = [
   {
     icon: BookOpen,
     title: 'Gestión de Temario',
-    description: 'Organiza y estudia el contenido de tu oposición con una estructura jerárquica clara e intuitiva.',
+    description: 'Organiza y estudia tu contenido con una estructura jerárquica clara e intuitiva.',
   },
   {
     icon: Brain,
@@ -43,7 +43,7 @@ const Features = () => {
             Todo lo que necesitas para aprobar
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Herramientas diseñadas específicamente para opositores que quieren estudiar de forma eficiente.
+            Herramientas diseñadas para estudiantes que quieren aprender de forma eficiente.
           </p>
         </div>
         

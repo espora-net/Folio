@@ -14,7 +14,8 @@ import {
   Moon,
   Sun,
   PanelLeftClose,
-  PanelLeft
+  PanelLeft,
+  Settings
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/hooks/useAuth';
@@ -25,6 +26,19 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/input';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Check } from 'lucide-react';
+import { STUDY_TYPES, type StudyType, getUserPreferences, saveUserPreferences } from '@/lib/storage';
 
 const navItems = [
   { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard', end: true },
@@ -42,14 +56,48 @@ const Sidebar = () => {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [selectedStudyType, setSelectedStudyType] = useState<StudyType>('oposiciones');
+  const [customLabel, setCustomLabel] = useState('');
 
   useEffect(() => {
     const saved = localStorage.getItem(SIDEBAR_COLLAPSED_KEY);
     if (saved !== null) {
       setCollapsed(saved === 'true');
     }
+    
+    // Cargar preferencias actuales
+    const prefs = getUserPreferences();
+    if (prefs) {
+      setSelectedStudyType(prefs.studyType);
+      setCustomLabel(prefs.studyTypeLabel || '');
+    }
+    
+    // Escuchar cambios de preferencias realizados desde otros componentes
+    const onPrefsUpdated = (e: Event) => {
+      const detail = (e as CustomEvent)?.detail;
+      if (detail) {
+        setSelectedStudyType(detail.studyType);
+        setCustomLabel(detail.studyTypeLabel || '');
+      }
+    };
+    window.addEventListener('folio-preferences-updated', onPrefsUpdated);
+
     setMounted(true);
+
+    return () => {
+      window.removeEventListener('folio-preferences-updated', onPrefsUpdated);
+    };
   }, []);
+
+  const handleSavePreferences = () => {
+    saveUserPreferences({
+      studyType: selectedStudyType,
+      studyTypeLabel: customLabel.trim() || undefined,
+      onboardingCompleted: true,
+    });
+    setSettingsOpen(false);
+  };
 
   const toggleCollapsed = () => {
     const newValue = !collapsed;
@@ -146,6 +194,86 @@ const Sidebar = () => {
               <span>Colapsar menú</span>
             </Button>
           )}
+
+          {/* Settings/Preferences */}
+          <Dialog open={settingsOpen} onOpenChange={setSettingsOpen}>
+            {collapsed ? (
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <DialogTrigger asChild>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="w-full"
+                    >
+                      <Settings className="h-5 w-5" />
+                    </Button>
+                  </DialogTrigger>
+                </TooltipTrigger>
+                <TooltipContent side="right">
+                  <p>Preferencias</p>
+                </TooltipContent>
+              </Tooltip>
+            ) : (
+              <DialogTrigger asChild>
+                <Button
+                  variant="ghost"
+                  className="w-full justify-start gap-3"
+                >
+                  <Settings className="h-5 w-5" />
+                  <span>Preferencias</span>
+                </Button>
+              </DialogTrigger>
+            )}
+            <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto">
+              <DialogHeader>
+                <DialogTitle>Preferencias de estudio</DialogTitle>
+                <DialogDescription>
+                  Configura tu tipo de estudio para personalizar la experiencia.
+                </DialogDescription>
+              </DialogHeader>
+              <div className="space-y-4 py-4">
+                <div className="grid gap-2 grid-cols-2">
+                  {STUDY_TYPES.map((type) => (
+                    <Card
+                      key={type.id}
+                      className={cn(
+                        'cursor-pointer transition-all hover:shadow-md',
+                        selectedStudyType === type.id
+                          ? 'border-primary ring-2 ring-primary/20'
+                          : 'border-border hover:border-primary/50'
+                      )}
+                      onClick={() => setSelectedStudyType(type.id)}
+                    >
+                      <CardHeader className="p-3 pb-1">
+                        <CardTitle className="flex items-center justify-between text-sm">
+                          <span>{type.icon} {type.label}</span>
+                          {selectedStudyType === type.id && (
+                            <Check className="h-4 w-4 text-primary" />
+                          )}
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="p-3 pt-0">
+                        <CardDescription className="text-xs">{type.description}</CardDescription>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="customLabelSettings">Especifica qué estudias (opcional)</Label>
+                  <Input
+                    id="customLabelSettings"
+                    placeholder="Ej: Auxiliar Administrativo, Permiso B..."
+                    value={customLabel}
+                    onChange={(e) => setCustomLabel(e.target.value)}
+                  />
+                </div>
+                <Button className="w-full" onClick={handleSavePreferences}>
+                  Guardar preferencias
+                </Button>
+              </div>
+            </DialogContent>
+          </Dialog>
 
           {/* Theme toggle */}
           {collapsed ? (

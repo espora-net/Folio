@@ -2,12 +2,13 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Brain, ClipboardCheck, Flame, Clock, BookOpen, ArrowRight } from 'lucide-react';
+import { Brain, ClipboardCheck, Flame, Clock, BookOpen, ArrowRight, Settings } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
+import { Badge } from '@/components/ui/badge';
 import StatsCard from '@/components/dashboard/StatsCard';
-import { getStats, getTopics, getFlashcards, updateStreak, type StudyStats, type Topic } from '@/lib/storage';
+import { getStats, getTopics, getFlashcards, updateStreak, getStudyTypeConfig, getUserPreferences, type StudyStats, type Topic } from '@/lib/storage';
 import { useAuth } from '@/hooks/useAuth';
 
 const DashboardHome = () => {
@@ -15,6 +16,7 @@ const DashboardHome = () => {
   const [stats, setStats] = useState<StudyStats | null>(null);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [flashcardsCount, setFlashcardsCount] = useState(0);
+  const [studyTypeLabel, setStudyTypeLabel] = useState<string>('');
   const userInfo = (user as { name?: string; email?: string } | null) || null;
   const username =
     userInfo?.name ||
@@ -27,6 +29,23 @@ const DashboardHome = () => {
     setTopics(topicsData);
     setFlashcardsCount(getFlashcards().length);
     updateStreak();
+    
+    // Obtener información del tipo de estudio
+    const prefs = getUserPreferences();
+    const config = getStudyTypeConfig();
+    setStudyTypeLabel(prefs?.studyTypeLabel || config.label);
+    
+    // Escuchar cambios de preferencias para actualizar en tiempo real
+    const onPrefsUpdated = (e: Event) => {
+      const detail = (e as CustomEvent)?.detail;
+      const cfg = getStudyTypeConfig();
+      setStudyTypeLabel(detail?.studyTypeLabel || cfg.label);
+    };
+    window.addEventListener('folio-preferences-updated', onPrefsUpdated);
+
+    return () => {
+      window.removeEventListener('folio-preferences-updated', onPrefsUpdated);
+    };
   }, []);
 
   const completedTopics = topics.filter(t => t.completed).length;
@@ -42,13 +61,20 @@ const DashboardHome = () => {
 
   return (
     <div className="space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold text-foreground mb-2">
-          ¡Hola, {username}! 👋
-        </h1>
-        <p className="text-muted-foreground">
-          Aquí tienes un resumen de tu progreso de estudio.
-        </p>
+      <div className="flex items-start justify-between">
+        <div>
+          <h1 className="text-3xl font-bold text-foreground mb-2">
+            ¡Hola, {username}! 👋
+          </h1>
+          <p className="text-muted-foreground">
+            Aquí tienes un resumen de tu progreso de estudio.
+          </p>
+        </div>
+        {studyTypeLabel && (
+          <Badge variant="secondary" className="text-sm">
+            {studyTypeLabel}
+          </Badge>
+        )}
       </div>
 
       {/* Stats Grid */}

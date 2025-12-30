@@ -139,3 +139,65 @@ export type Database = {
   datasets?: DatasetDescriptor[];
   convocatorias?: ConvocatoriaDescriptor[];
 };
+
+// Tipos de estudio disponibles en Folio
+export type StudyType = 'oposiciones' | 'conducir' | 'secundaria' | 'universidad' | 'idiomas' | 'otro';
+
+export interface StudyTypeConfig {
+  id: StudyType;
+  label: string;
+  description: string;
+  icon: string; // emoji para simplicidad
+  examples: string[];
+}
+
+export const STUDY_TYPES: StudyTypeConfig[] = [
+  {
+    id: 'oposiciones',
+    label: 'Oposiciones',
+    description: 'Preparación de exámenes para acceso a empleo público',
+    icon: '📋',
+    examples: ['Auxiliar Administrativo', 'Técnico de Hacienda', 'Judicatura'],
+  },
+  {
+    id: 'conducir',
+    label: 'Carnet de conducir',
+    description: 'Examen teórico de la DGT',
+    icon: '🚗',
+    examples: ['Permiso B', 'Permiso A2', 'CAP'],
+  },
+  {
+    id: 'secundaria',
+    label: 'Secundaria / Bachillerato',
+    description: 'Estudios de educación secundaria',
+    icon: '📚',
+    examples: ['ESO', 'Bachillerato', 'Selectividad'],
+  },
+  {
+    id: 'universidad',
+    label: 'Universidad',
+    description: 'Estudios universitarios y másters',
+    icon: '🎓',
+    examples: ['Grado', 'Máster', 'Doctorado'],
+  },
+  {
+    id: 'idiomas',
+    label: 'Idiomas',
+    description: 'Certificaciones y aprendizaje de idiomas',
+    icon: '🌍',
+    examples: ['Cambridge', 'DELE', 'DELF'],
+  },
+  {
+    id: 'otro',
+    label: 'Otro',
+    description: 'Cualquier otra materia de estudio',
+    icon: '📖',
+    examples: ['Certificaciones IT', 'Formación profesional'],
+  },
+];
+
+export interface UserPreferences {
+  studyType: StudyType;
+  studyTypeLabel?: string; // Etiqueta personalizada opcional
+  onboardingCompleted: boolean;
+}
