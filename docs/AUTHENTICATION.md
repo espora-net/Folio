@@ -218,17 +218,24 @@ const extractGithubUsername = (userInfo: UserInfo): string | undefined => {
 
 ### Login
 
+Cuando el usuario hace clic en "Empezar" o accede a una ruta protegida:
+
 ```
 1. Usuario → /dashboard (protegido)
 2. Dashboard detecta !user && !loading
 3. Llama signIn('/dashboard')
 4. authgear.startAuthentication({ redirectURI: '/auth/callback/' })
-5. Navegador → Authgear → GitHub → Authgear
-6. Authgear → /auth/callback/?code=xxx
-7. AuthCallbackPage llama finishLogin()
-8. finishLogin() intercambia código por tokens
-9. Navegador → /dashboard (con sesión activa)
+5. Navegador redirige a https://espora.authgear.cloud/ (pantalla de login)
+6. Usuario ve la pantalla de Authgear con el botón "Continuar con GitHub"
+7. Usuario hace clic → Redirige a GitHub para autorizar
+8. GitHub autoriza → Redirige de vuelta a Authgear
+9. Authgear → /auth/callback/?code=xxx
+10. AuthCallbackPage llama finishLogin()
+11. finishLogin() intercambia código por tokens
+12. Navegador → /dashboard (con sesión activa)
 ```
+
+> **Nota**: Es normal que al iniciar sesión el navegador redirija temporalmente a `https://espora.authgear.cloud/`. Esta es la pantalla de login de Authgear donde el usuario selecciona "Continuar con GitHub".
 
 ### Logout
 
