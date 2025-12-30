@@ -9,6 +9,7 @@ import { hydrateFromApi } from '@/lib/storage';
 
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
 const AUTO_LOGIN_ERROR_KEY = 'folio-auto-login-error';
+const LOGIN_IN_PROGRESS_KEY = 'folio-login-in-progress';
 
 const Dashboard = ({ children }: { children: ReactNode }) => {
   const { user, loading, signIn } = useAuth();
@@ -38,6 +39,7 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     if (!loading && user && typeof window !== 'undefined') {
       sessionStorage.removeItem(AUTO_LOGIN_ERROR_KEY);
+      sessionStorage.removeItem(LOGIN_IN_PROGRESS_KEY);
     }
   }, [user, loading]);
 
@@ -50,11 +52,19 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
       return;
     }
 
-    if (!loading && !user && !hasStartedLogin.current) {
+    // Evitar iniciar login si ya hay uno en progreso (previene loops)
+    const loginInProgress =
+      typeof window !== 'undefined' && sessionStorage.getItem(LOGIN_IN_PROGRESS_KEY) === 'true';
+
+    if (!loading && !user && !hasStartedLogin.current && !loginInProgress) {
       hasStartedLogin.current = true;
+      sessionStorage.setItem(LOGIN_IN_PROGRESS_KEY, 'true');
+      console.log('[Folio Dashboard] Iniciando login automático...');
+      
       signIn('/dashboard').catch((error) => {
-        console.error('Error al iniciar sesión automática', error);
+        console.error('[Folio Dashboard] Error al iniciar sesión automática', error);
         hasStartedLogin.current = false;
+        sessionStorage.removeItem(LOGIN_IN_PROGRESS_KEY);
         if (typeof window !== 'undefined') {
           sessionStorage.setItem(AUTO_LOGIN_ERROR_KEY, 'true');
         }

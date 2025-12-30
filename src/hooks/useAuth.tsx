@@ -105,8 +105,11 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       await configureAuthgear();
       
       const authenticated = await isAuthenticated();
+      console.log('[Folio Auth] hydrateUser - authenticated:', authenticated);
+      
       if (authenticated) {
         const userInfo = await fetchUserInfo();
+        console.log('[Folio Auth] hydrateUser - userInfo:', userInfo ? 'present' : 'null');
         if (userInfo) {
           const authUser = mapUserInfo(userInfo);
           setUser(authUser);
@@ -124,7 +127,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         setSession(null);
       }
     } catch (error) {
-      console.error('Error inicializando autenticación:', error);
+      console.error('[Folio Auth] Error inicializando autenticación:', error);
       setUser(null);
       setActiveUserId('guest');
       setSession(null);
