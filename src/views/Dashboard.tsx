@@ -6,10 +6,10 @@ import Sidebar from '@/components/dashboard/Sidebar';
 import { useAuth } from '@/hooks/useAuth';
 import { Loader2 } from 'lucide-react';
 import { hydrateFromApi } from '@/lib/storage';
+import { isAuthenticated } from '@/lib/authgear';
 
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
 const AUTO_LOGIN_ERROR_KEY = 'folio-auto-login-error';
-const LOGIN_IN_PROGRESS_KEY = 'folio-login-in-progress';
 
 const Dashboard = ({ children }: { children: ReactNode }) => {
   const { user, loading, signIn } = useAuth();
@@ -39,7 +39,6 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     if (!loading && user && typeof window !== 'undefined') {
       sessionStorage.removeItem(AUTO_LOGIN_ERROR_KEY);
-      sessionStorage.removeItem(LOGIN_IN_PROGRESS_KEY);
     }
   }, [user, loading]);
 
@@ -52,24 +51,36 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
       return;
     }
 
-    // Evitar iniciar login si ya hay uno en progreso (previene loops)
-    const loginInProgress =
-      typeof window !== 'undefined' && sessionStorage.getItem(LOGIN_IN_PROGRESS_KEY) === 'true';
-
-    if (!loading && !user && !hasStartedLogin.current && !loginInProgress) {
-      hasStartedLogin.current = true;
-      sessionStorage.setItem(LOGIN_IN_PROGRESS_KEY, 'true');
-      console.log('[Folio Dashboard] Iniciando login automático...');
-      
-      signIn('/dashboard').catch((error) => {
-        console.error('[Folio Dashboard] Error al iniciar sesión automática', error);
-        hasStartedLogin.current = false;
-        sessionStorage.removeItem(LOGIN_IN_PROGRESS_KEY);
-        if (typeof window !== 'undefined') {
-          sessionStorage.setItem(AUTO_LOGIN_ERROR_KEY, 'true');
+    // Solo intentar login si no hay usuario Y no estamos cargando
+    if (!loading && !user && !hasStartedLogin.current) {
+      // Verificar directamente con Authgear antes de iniciar login
+      // Esto evita race conditions donde el estado de React aún no se actualizó
+      const checkAndLogin = async () => {
+        try {
+          const alreadyAuthenticated = await isAuthenticated();
+          console.log('[Folio Dashboard] Verificación directa - authenticated:', alreadyAuthenticated);
+          
+          if (alreadyAuthenticated) {
+            // Ya hay sesión en Authgear, solo esperar a que hydrateUser actualice el estado
+            console.log('[Folio Dashboard] Ya autenticado en Authgear, esperando actualización de estado...');
+            return;
+          }
+          
+          // Realmente no hay sesión, iniciar login
+          hasStartedLogin.current = true;
+          console.log('[Folio Dashboard] Sin sesión, iniciando login automático...');
+          await signIn('/dashboard');
+        } catch (error) {
+          console.error('[Folio Dashboard] Error al verificar/iniciar sesión', error);
+          hasStartedLogin.current = false;
+          if (typeof window !== 'undefined') {
+            sessionStorage.setItem(AUTO_LOGIN_ERROR_KEY, 'true');
+          }
+          router.push('/');
         }
-        router.push('/');
-      });
+      };
+      
+      checkAndLogin();
     }
   }, [user, loading, router, signIn]);
 

@@ -28,13 +28,10 @@ export default function AuthCallbackPage() {
         console.log('[Folio Callback] Procesando callback de autenticación...');
         await finishLogin();
         console.log('[Folio Callback] Login completado, redirigiendo a:', target);
-        // Limpiar flag de login en progreso
-        sessionStorage.removeItem('folio-login-in-progress');
         // replace updates the current entry so the callback page is not kept in history
         router.replace(target);
       } catch (err) {
         console.error('[Folio Callback] Error en callback de autenticación:', err);
-        sessionStorage.removeItem('folio-login-in-progress');
         setError(err instanceof Error ? err.message : 'Error desconocido durante la autenticación');
       }
     };
