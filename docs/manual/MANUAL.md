@@ -4,12 +4,44 @@ Folio es una aplicación de estudio diseñada para opositores que quieren aproba
 
 ## Índice
 
-1. [Página de Inicio](#página-de-inicio)
-2. [Estudiar Hoy](#estudiar-hoy)
-3. [Temario](#temario)
-4. [Tarjetas (Flashcards)](#tarjetas-flashcards)
-5. [Test](#test)
-6. [Estadísticas](#estadísticas)
+1. [Acceso y Autenticación](#acceso-y-autenticación)
+2. [Página de Inicio](#página-de-inicio)
+3. [Estudiar Hoy](#estudiar-hoy)
+4. [Temario](#temario)
+5. [Tarjetas (Flashcards)](#tarjetas-flashcards)
+6. [Test](#test)
+7. [Estadísticas](#estadísticas)
+
+---
+
+## Acceso y Autenticación
+
+Folio requiere autenticación con tu cuenta de GitHub para acceder al área de estudio.
+
+### Cómo iniciar sesión:
+
+1. Accede a la página principal de Folio
+2. Haz clic en **"Empezar"** o **"Acceso Usuarios Beta"**
+3. Serás redirigido a GitHub para autorizar la aplicación
+4. Una vez autorizado, volverás automáticamente al dashboard
+
+### Tu cuenta:
+
+- Se utiliza tu cuenta de GitHub para identificarte
+- Tus datos de estudio (progreso, estadísticas) se guardan localmente en tu navegador
+- Cada usuario tiene sus propios datos aislados
+
+### Cerrar sesión:
+
+- En el dashboard, haz clic en tu nombre de usuario en la barra lateral
+- Selecciona **"Cerrar sesión"**
+- Serás redirigido a la página principal
+
+### Programa Beta:
+
+Actualmente Folio está en fase beta. Si quieres participar:
+- Solicita acceso mediante el [formulario de beta](https://forms.office.com/r/zn5AwbZxmD)
+- Tu feedback nos ayuda a mejorar la aplicación
 
 ---
 

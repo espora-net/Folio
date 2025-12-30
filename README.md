@@ -78,16 +78,40 @@ src/
 - Los componentes escuchan el evento `folio-data-updated` para refrescar la información cuando cambian los datos locales.
 
 ## 🔑 Autenticación con GitHub
-- El login se delega al bundle generado por **authsite** en `/auth/api.js`, resolviendo la ruta con `NEXT_PUBLIC_BASE_PATH`.
-- Si quieres autenticación real, coloca la carpeta generada por authsite en `public/auth` antes de construir para que se exporte a `out/auth`.
-- Para desarrollo rápido, activa `NEXT_PUBLIC_SKIP_AUTH=true` y el dashboard se abrirá sin login.
+
+Folio utiliza [Authgear](https://www.authgear.com/) como proveedor de identidad con GitHub OAuth:
+
+- **Login real**: Autenticación OAuth con cuentas de GitHub mediante flujo PKCE
+- **Sesiones persistentes**: Refresh tokens almacenados de forma segura
+- **Protección client-side**: Las rutas del dashboard requieren sesión activa
+- **Modo desarrollador**: Activa `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo sin configurar OAuth
+
+### Configuración rápida
+
+1. Crea un proyecto en [Authgear](https://portal.authgear.com/)
+2. Configura GitHub como proveedor de identidad social
+3. Añade las URIs de redirect correspondientes
+4. Actualiza `AUTHGEAR_CLIENT_ID` y `AUTHGEAR_ENDPOINT` en `src/lib/authgear.ts`
+
+📖 **Documentación completa**: [docs/AUTHENTICATION.md](docs/AUTHENTICATION.md)
 
 ## 🛳️ Despliegue en GitHub Pages
-1. Define `NEXT_PUBLIC_BASE_PATH` con el nombre del repositorio (ej. `/mi-repo`) en `.env.local` o en tu flujo de CI.
-2. (Opcional, si usas auth real) Añade la carpeta generada por authsite en `public/auth` para que se publique `auth/api.js`.
-3. Ejecuta `npm run build` para generar la carpeta estática `out/`.
-4. Publica el contenido de `out/` en GitHub Pages (rama `gh-pages` o acción equivalente). La API quedará disponible en `${NEXT_PUBLIC_BASE_PATH}/api/db.json`.
-5. Previsualiza el resultado con `npx serve out` antes de subirlo.
+
+1. Configura Authgear con las URIs de tu dominio (ver [docs/AUTHENTICATION.md](docs/AUTHENTICATION.md))
+2. El workflow de GitHub Actions (`nextjs.yml`) gestiona automáticamente:
+   - Inyección del `basePath` para el repositorio
+   - Build de Next.js con export estático
+   - Despliegue a GitHub Pages
+3. Ejecuta `npm run build` localmente para generar la carpeta estática `out/`
+4. La API estática queda disponible en `${basePath}/api/db.json`
+5. Previsualiza el resultado con `npx serve out` antes de subir
+
+### Dominio personalizado
+
+Si usas un dominio personalizado (ej. `folio.espora.net`):
+- Configura el archivo CNAME en GitHub Pages
+- Actualiza las URIs de redirect en Authgear
+- Deja `NEXT_PUBLIC_BASE_PATH` vacío (no hay subdirectorio)
 
 ## 🧰 Tecnologías
 - Next.js 16 (App Router, export estático)

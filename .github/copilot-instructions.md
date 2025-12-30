@@ -8,19 +8,49 @@ Folio is a study application designed for competitive exam candidates (opositore
 
 ```
 /
-├── docs/                           # All documentation and study materials
-│   ├── comun/                      # Common materials for all competitive exams
-│   │   ├── materiales.json         # Metadata for common materials
-│   │   └── *.pdf                   # Common PDF documents
-│   ├── material-propio/            # User's personalized study materials
-│   │   ├── materiales.json         # Metadata for personal materials
-│   │   └── *.pdf                   # Personal PDF documents
-│   ├── indice.json                 # General index of all documentation
-│   └── README.md                   # Documentation structure explanation
-├── .github/                        # GitHub configuration
-├── .gitignore                      # Git ignore rules
-├── LICENSE                         # Project license
-└── README.md                       # Main project README
+├── app/                            # Next.js App Router pages
+│   ├── page.tsx                    # Landing page
+│   ├── auth/                       # Authentication pages
+│   │   ├── page.tsx                # Login page
+│   │   └── callback/page.tsx       # OAuth callback handler
+│   └── dashboard/                  # Protected study area
+│       ├── layout.tsx              # Dashboard layout with sidebar
+│       ├── page.tsx                # Dashboard home
+│       ├── temario/                # Syllabus section
+│       ├── flashcards/             # Flashcards section
+│       ├── tests/                  # Tests section
+│       └── progreso/               # Progress section
+├── src/
+│   ├── components/                 # React components
+│   │   ├── dashboard/              # Dashboard-specific components
+│   │   ├── landing/                # Landing page components
+│   │   └── ui/                     # shadcn/ui components
+│   ├── hooks/                      # Custom React hooks
+│   │   ├── useAuth.tsx             # Authentication context
+│   │   └── useTheme.tsx            # Theme management
+│   ├── lib/                        # Core utilities
+│   │   ├── authgear.ts             # Authgear SDK configuration
+│   │   ├── data-api.ts             # Data loading and normalization
+│   │   ├── data-types.ts           # TypeScript interfaces
+│   │   ├── storage.ts              # localStorage utilities
+│   │   └── utils.ts                # General utilities
+│   └── views/                      # Page view components
+│       ├── Auth.tsx                # Auth page view
+│       ├── Dashboard.tsx           # Dashboard wrapper
+│       └── dashboard/              # Dashboard section views
+├── data/                           # Source data (JSON datasets)
+│   ├── db.json                     # Main data index
+│   ├── db-*.json                   # Topic-specific datasets
+│   ├── beta-users.json             # Beta user list
+│   └── general/                    # Reference documents (markdown)
+├── docs/                           # Documentation
+│   ├── AUTHENTICATION.md           # Auth setup guide
+│   └── manual/                     # User manual
+├── public/                         # Static assets
+│   └── api/                        # Generated API files (from data/)
+└── .github/                        # GitHub configuration
+    ├── copilot-instructions.md     # This file
+    └── workflows/                  # CI/CD workflows
 ```
 
 ## Language and Terminology
@@ -127,6 +157,49 @@ Valid categories for materials:
 - JSON files should be properly indented (2 spaces)
 - Maintain consistency with existing code style
 - Keep files organized according to the established structure
+
+## Authentication Architecture
+
+The application uses **Authgear** with **GitHub OAuth** for authentication. Key files:
+
+- `src/lib/authgear.ts`: Authgear SDK configuration and core functions
+- `src/hooks/useAuth.tsx`: React context and hook for authentication state
+- `app/auth/callback/page.tsx`: OAuth callback handler
+
+### Authentication Guidelines
+
+- **Never expose secrets**: Client ID and Endpoint are public, secrets stay in Authgear
+- **Preserve dev mode**: Always maintain `NEXT_PUBLIC_SKIP_AUTH` for local development
+- **Session handling**: Use `sessionType: 'refresh_token'` for SPA compatibility
+- **Redirect URIs**: Always include trailing slashes for Next.js static export
+
+### Key Functions
+
+```typescript
+// Start login flow
+await startLogin('/dashboard');
+
+// Complete OAuth callback  
+await finishLogin();
+
+// Check authentication
+const authenticated = await isAuthenticated();
+
+// Get user info
+const userInfo = await fetchUserInfo();
+
+// Logout
+await logout();
+```
+
+### User Data Isolation
+
+User data in localStorage is isolated by user ID:
+- `setActiveUserId(userId)` sets the current user
+- All storage keys are prefixed with the user ID
+- Guest users use `'guest'` as their ID
+
+📖 **Full documentation**: `docs/AUTHENTICATION.md`
 
 ## localStorage Coherence
 
