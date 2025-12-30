@@ -243,8 +243,9 @@ const normalizeDatasetQuestions = (dataset: RawDataset): TestQuestion[] => {
           }
         : undefined;
 
-      // Parse origin
-      const origin: 'generated' | 'published' = data.origin === 'published' ? 'published' : 'generated';
+      // Parse origin (support 'published', 'ia' or default to 'generated')
+      const origin: 'generated' | 'published' | 'ia' =
+        data.origin === 'published' ? 'published' : data.origin === 'ia' ? 'ia' : 'generated';
 
       return {
         id,

@@ -45,7 +45,7 @@ type TopicGroup = {
 };
 
 type ViewMode = 'cards' | 'list';
-type OriginFilter = 'all' | 'generated' | 'published';
+type OriginFilter = 'all' | 'generated' | 'published' | 'ia';
 
 const Tests = () => {
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
@@ -92,7 +92,15 @@ const Tests = () => {
     }
     
     if (originFilter !== 'all') {
-      result = result.filter(q => (q.origin || 'generated') === originFilter);
+      if (originFilter === 'generated') {
+        // 'generated' should include IA-generated questions as well
+        result = result.filter(q => {
+          const o = (q.origin || 'generated');
+          return o === 'generated' || o === 'ia';
+        });
+      } else {
+        result = result.filter(q => (q.origin || 'generated') === originFilter);
+      }
     }
     
     return result;
@@ -686,6 +694,22 @@ const Tests = () => {
                   </TooltipTrigger>
                   <TooltipContent side="bottom">
                     <p>De exámenes oficiales de oposiciones</p>
+                  </TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant={originFilter === 'ia' ? 'default' : 'outline'}
+                      size="sm"
+                      className="h-8 px-3 text-xs gap-1.5"
+                      onClick={() => setOriginFilter('ia')}
+                    >
+                      <Sparkles className="h-3.5 w-3.5" />
+                      IA
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom">
+                    <p>Preguntas generadas por IA</p>
                   </TooltipContent>
                 </Tooltip>
               </div>
