@@ -1,6 +1,5 @@
-import baseIndex from '../../data/db.json';
-import constitucionDataset from '../../data/db-constitucion.json';
-import convocatoriaUah2025 from '../../data/convocatoria-uah-2025-c1.json';
+import baseIndex from '../../public/api/db.json';
+import constitucionDataset from '../../public/api/db-constitucion.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -366,9 +365,12 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
 
 type RawConvocatoria = Record<string, unknown>;
 
-const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
-  'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria,
-};
+// Fallback convocatorias bundled at build time
+// Currently empty - convocatoria files are loaded at runtime from /public/api
+// To add bundled fallback, import the JSON file and add it here:
+// import convocatoriaUah2025 from '../../public/api/convocatoria-uah-2025-c1.json';
+// Then add: 'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria
+const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {};
 
 const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
 
