@@ -73,12 +73,9 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Copy datasets to public/api
-        run: node scripts/copy-datasets.cjs
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      - name: Copy datasets to public/api (post-build)
-        run: node scripts/copy-datasets.cjs
+      # public/ is the source of truth, no dataset copy step needed
       - name: Ensure out directory exists
         run: |
           mkdir -p out/api
@@ -92,11 +89,11 @@ import json, sys
 from pathlib import Path
 data_count = None
 try:
-    with open('data/db-constitucion.json', encoding='utf-8') as f:
-        data_count = len(json.load(f).get('questions', []))
+  with open('public/api/db-constitucion.json', encoding='utf-8') as f:
+    data_count = len(json.load(f).get('questions', []))
 except Exception as e:
-    print('Could not read data/db-constitucion.json:', e)
-    sys.exit(1)
+  print('Could not read public/api/db-constitucion.json:', e)
+  sys.exit(1)
 try:
     with open('out/api/db-constitucion.json', encoding='utf-8') as f:
         out_count = len(json.load(f).get('questions', []))

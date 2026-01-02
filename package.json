@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/copy-datasets.cjs && next dev",
-    "prebuild": "node scripts/copy-datasets.cjs",
+    "dev": "next dev",
+    
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."
