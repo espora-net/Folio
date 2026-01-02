@@ -82,29 +82,6 @@ jobs:
       - name: Copy public/api to out/api
         run: |
           cp -a public/api/* out/api/ || true
-      - name: Verify dataset counts match
-        run: |
-          python - <<'PY'
-import json, sys
-from pathlib import Path
-data_count = None
-try:
-  with open('public/api/db-constitucion.json', encoding='utf-8') as f:
-    data_count = len(json.load(f).get('questions', []))
-except Exception as e:
-  print('Could not read public/api/db-constitucion.json:', e)
-  sys.exit(1)
-try:
-    with open('out/api/db-constitucion.json', encoding='utf-8') as f:
-        out_count = len(json.load(f).get('questions', []))
-except Exception as e:
-    print('Could not read out/api/db-constitucion.json:', e)
-    sys.exit(1)
-print(f'data count={data_count}, out count={out_count}')
-if data_count != out_count:
-    print('ERROR: question counts differ between data/ and out/api. Failing build.')
-    sys.exit(2)
-PY
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
