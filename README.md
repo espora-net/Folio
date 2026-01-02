@@ -20,101 +20,101 @@ Folio es la aplicación de estudio diseñada para opositores que quieren aprobar
 ### Requisitos previos
 - Node.js 20.x o superior
 - npm
+# Folio
 
-### Instalación y desarrollo local
+Folio es una aplicación de estudio para opositores que organiza temarios, flashcards y tests en un sitio estático.
+
+> Nota importante: los datasets maestros ahora se almacenan en `public/` (es la fuente de verdad). Modifica `public/api` y `public/data/general` directamente para actualizar los contenidos que se despliegan.
+
+## ✨ Resumen de características
+- Landing y Dashboard con métricas de estudio
+- Gestor de temario y progreso por tema
+- Flashcards con sesiones SRS y filtros por tema
+- Tests con feedback y estadísticas
+- Datos persistidos en `localStorage` por usuario
+
+## Requisitos
+- Node.js 20.x o superior
+- npm
+
+## Comenzar (local)
 ```bash
-git clone https://github.com/espora-net/study-buddy-hub.git
-cd study-buddy-hub
-npm install
+git clone https://github.com/espora-net/Folio.git
+cd Folio
+npm ci
 
-# Copia variables y, si quieres, omite el login en local
+# Copia variables de ejemplo
 cp .env.example .env.local
+# (opcional) evitar auth localmente
 # echo "NEXT_PUBLIC_SKIP_AUTH=true" >> .env.local
 
+# arranca en modo desarrollo
 npm run dev
 ```
 
-Abre `http://localhost:3000` en tu navegador.
+Abre `http://localhost:3000`.
 
-### Variables de entorno
-- `NEXT_PUBLIC_BASE_PATH`: base path para despliegues en GitHub Pages (ej. `/mi-repo`). Déjalo vacío en desarrollo local.
-- `NEXT_PUBLIC_SKIP_AUTH`: ajústalo a `true` para saltar la autenticación durante el desarrollo.
+## Estructura relevante
+- `public/api/` : JSON públicos que actúan como datasets (MASTER)
+- `public/data/general/` : recursos (markdown, pdf, mp3) expuestos
+- `src/` : código fuente de la aplicación
+- `.github/workflows/nextjs.yml` : workflow de CI/CD que genera `out/` y publica en Pages
 
-## 📝 Scripts disponibles
+## Actualizar datasets (flujo recomendado)
+- Edita directamente los archivos en `public/api/` y `public/data/general/`.
+- Ejemplo para actualizar el dataset de la Constitución:
 ```bash
-# Desarrollo
-npm run dev
-
-# Compilación estática (genera /out listo para Pages)
-npm run build
-
-# Previsualizar build exportado
-npx serve out
+# editar public/api/db-constitucion.json
+git add public/api/db-constitucion.json
+git commit -m "Actualiza preguntas: Constitución"
+git push origin main
 ```
 
-## 🏗️ Estructura del proyecto
+## Build y export (producción)
+- Build normal (si Next funciona en tu entorno):
+```bash
+npx next build
+# si tu next.config permite export, usa:
+npx next export
 ```
-app/
-├── page.tsx                 # Landing
-├── auth/                    # Pantalla de login con GitHub (authsite)
-└── dashboard/               # Área privada
-    ├── layout.tsx
-    ├── page.tsx             # Inicio del dashboard
-    ├── temario/
-    ├── flashcards/
-    ├── tests/
-    └── progreso/
-data/db.json                 # Semilla de datos
-public/api/db.json           # Copia estática generada en build
-src/
-├── components/              # UI y layout
-├── lib/                     # data-api, storage y utilidades
-└── views/                   # Pantallas de landing y dashboard
+- Si `next build`/`next export` falla en tu entorno, puedes simular la salida estática copiando `public/` a `out/`:
+```bash
+rm -rf out
+mkdir -p out/api
+cp -a public/. out/
 ```
 
-## 🔄 Datos y almacenamiento
-- `data/db.json` actúa como índice y enlaza los datasets temáticos (`data/db-*.json`, p. ej. `db-constitucion.json`) que se copian automáticamente a `public/api/` durante el build para exponerlos como API estática respetando `NEXT_PUBLIC_BASE_PATH`.
-- En el navegador se trabaja sobre `localStorage` (temario, flashcards, tests y estadísticas) para mantener el progreso sin backend, aislando los datos por usuario autenticado.
-- Los componentes escuchan el evento `folio-data-updated` para refrescar la información cuando cambian los datos locales.
+## Verificación local rápida
+Comprobar que la API pública que se va a desplegar es la que esperas:
+```bash
+python - <<'PY'
+import json
+with open('public/api/db-constitucion.json', encoding='utf-8') as f:
+    print('public questions =', len(json.load(f).get('questions', [])))
+with open('out/api/db-constitucion.json', encoding='utf-8') as f:
+    print('out questions =', len(json.load(f).get('questions', [])))
+PY
+```
 
-## 🔑 Autenticación con GitHub
+## CI / Despliegue (GitHub Actions)
+- El workflow `nextjs.yml` realiza:
+  1. `npx next build` (genera artefactos de Next)
+  2. Crea `out/api` y copia `public/api/*` -> `out/api/*`
+  3. Verifica que `public/api/db-constitucion.json` y `out/api/db-constitucion.json` tienen el mismo número de preguntas (si no coinciden, el job falla)
+  4. Sube `out/` y despliega a GitHub Pages
 
-Folio utiliza [Authgear](https://www.authgear.com/) como proveedor de identidad con GitHub OAuth:
+Esto asegura que lo que se publica proviene de `public/`, que ahora es la fuente de verdad.
 
-- **Login real**: Autenticación OAuth con cuentas de GitHub mediante flujo PKCE
-- **Sesiones persistentes**: Refresh tokens almacenados de forma segura
-- **Protección client-side**: Las rutas del dashboard requieren sesión activa
-- **Modo desarrollador**: Activa `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo sin configurar OAuth
+## Buenas prácticas
+- Mantén `public/api` versionado si quieres trazabilidad de cambios en datasets.
+- Evita subir binarios muy grandes al repo (`public/data/general` puede contener PDFs/MP3s; si esto es un problema, considera usar LFS o un bucket externo).
 
-### Configuración rápida
+## Autenticación
+- Folio usa Authgear con GitHub OAuth; en desarrollo puedes saltar la auth con `NEXT_PUBLIC_SKIP_AUTH=true`.
 
-1. Crea un proyecto en [Authgear](https://portal.authgear.com/)
-2. Configura GitHub como proveedor de identidad social
-3. Añade las URIs de redirect correspondientes
-4. Actualiza `AUTHGEAR_CLIENT_ID` y `AUTHGEAR_ENDPOINT` en `src/lib/authgear.ts`
+## Tecnología
+- Next.js 16, React 18, TypeScript, Tailwind CSS
 
-📖 **Documentación completa**: [docs/AUTHENTICATION.md](docs/AUTHENTICATION.md)
+---
 
-## 🛳️ Despliegue en GitHub Pages
-
-1. Configura Authgear con las URIs de tu dominio (ver [docs/AUTHENTICATION.md](docs/AUTHENTICATION.md))
-2. El workflow de GitHub Actions (`nextjs.yml`) gestiona automáticamente:
-   - Inyección del `basePath` para el repositorio
-   - Build de Next.js con export estático
-   - Despliegue a GitHub Pages
-3. Ejecuta `npm run build` localmente para generar la carpeta estática `out/`
-4. La API estática queda disponible en `${basePath}/api/db.json`
-5. Previsualiza el resultado con `npx serve out` antes de subir
-
-### Dominio personalizado
-
-Si usas un dominio personalizado (ej. `folio.espora.net`):
-- Configura el archivo CNAME en GitHub Pages
-- Actualiza las URIs de redirect en Authgear
-- Deja `NEXT_PUBLIC_BASE_PATH` vacío (no hay subdirectorio)
-
-## 🧰 Tecnologías
-- Next.js 16 (App Router, export estático)
-- React 18 + TypeScript
-- Tailwind CSS 3 + shadcn/ui + Lucide React
-- Datos locales en JSON y `localStorage`
+Si quieres que además cree un archivo `docs/DEPLOY.md` con una versión extendida de esta guía (logs, debugging y pasos de rollback), lo añado.
