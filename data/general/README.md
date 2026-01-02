@@ -1,1 +1,0 @@
-Ficheros generales de convocatorias
