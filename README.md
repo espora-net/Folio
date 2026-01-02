@@ -1,120 +1,121 @@
 # Folio
 
-Folio es la aplicación de estudio diseñada para opositores que quieren aprobar de forma inteligente, organizada y sin perder tiempo.
+Folio es una aplicación de estudio, pensada para funcionar como sitio estático (sin backend propio) y persistir el progreso en el navegador.
 
-> Listo para GitHub Pages: el proyecto se exporta de forma estática (`output: 'export'`, `trailingSlash: true`) y usa `NEXT_PUBLIC_BASE_PATH` para servir assets y la API JSON desde un subdirectorio (ej. `/study-buddy-hub`).
+El proyecto está construido con Next.js (App Router) y se exporta a HTML estático (`output: 'export'`) para poder desplegarse en GitHub Pages.
 
-[![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/espora-net/study-buddy-hub?quickstart=1)
+## Cómo funciona (según el código)
 
-## ✨ Características
-- Landing con CTA orientado a captar usuarios.
-- Dashboard con racha, tiempo de estudio y accesos rápidos.
-- Gestor de temario editable con progreso por tema.
-- Flashcards con filtros por tema, creación y sesión de repaso.
-- Tests con feedback inmediato y resultados finales.
-- Vista de progreso con métricas agregadas.
-- Modo claro/oscuro y datos persistidos en `localStorage`.
+### 1) Datos (JSON en `public/api`)
 
-## 🚀 Comenzar
+- La app carga el índice desde `GET <basePath>/api/db.json`.
+- Si `db.json` declara datasets, también carga cada dataset desde `GET <basePath>/api/<archivo>.json`.
+- Todo se normaliza en el cliente (topics/flashcards/questions/stats).
 
-### Requisitos previos
-- Node.js 20.x o superior
+Notas importantes:
+
+- El `basePath` se calcula con `NEXT_PUBLIC_BASE_PATH`.
+- Existe un fallback “bundled” para casos de fallo de red, que se alimenta desde la carpeta `data/` (import estático en `src/lib/data-api.ts`). Si quieres coherencia total (build-time + runtime), mantén `data/` y `public/api/` sincronizados.
+
+### 2) Persistencia (localStorage por usuario)
+
+- El estado del usuario (temas completados, SRS de flashcards, estadísticas) se guarda en `localStorage`.
+- Al iniciar, se ejecuta una hidratación que mezcla:
+  - Campos “de esquema” desde la API (lo nuevo gana).
+  - Progreso del usuario desde `localStorage` (se preserva).
+- Las claves se aíslan por usuario (prefijo por ID), y el usuario activo se guarda como `folio_active_user_id`.
+
+### 3) Autenticación (Authgear + GitHub OAuth)
+
+- La app usa Authgear con OAuth de GitHub.
+- El callback vive en `/auth/callback/` (con barra final por `trailingSlash: true`).
+- Para desarrollo, se puede saltar el login con `NEXT_PUBLIC_SKIP_AUTH=true`.
+
+Más detalles en `docs/AUTHENTICATION.md`.
+
+## Ejecutar en local
+
+Requisitos:
+
+- Node.js 20+
 - npm
-# Folio
 
-Folio es una aplicación de estudio para opositores que organiza temarios, flashcards y tests en un sitio estático.
+Pasos:
 
-> Nota importante: los datasets maestros ahora se almacenan en `public/` (es la fuente de verdad). Modifica `public/api` y `public/data/general` directamente para actualizar los contenidos que se despliegan.
-
-## ✨ Resumen de características
-- Landing y Dashboard con métricas de estudio
-- Gestor de temario y progreso por tema
-- Flashcards con sesiones SRS y filtros por tema
-- Tests con feedback y estadísticas
-- Datos persistidos en `localStorage` por usuario
-
-## Requisitos
-- Node.js 20.x o superior
-- npm
-
-## Comenzar (local)
 ```bash
 git clone https://github.com/espora-net/Folio.git
 cd Folio
+
 npm ci
-
-# Copia variables de ejemplo
 cp .env.example .env.local
-# (opcional) evitar auth localmente
-# echo "NEXT_PUBLIC_SKIP_AUTH=true" >> .env.local
 
-# arranca en modo desarrollo
+# Opcional: saltar autenticación en local
+# Edita .env.local y pon:
+# NEXT_PUBLIC_SKIP_AUTH=true
+
 npm run dev
 ```
 
-Abre `http://localhost:3000`.
+Abrir `http://localhost:3000`.
 
-## Estructura relevante
-- `public/api/` : JSON públicos que actúan como datasets (MASTER)
-- `public/data/general/` : recursos (markdown, pdf, mp3) expuestos
-- `src/` : código fuente de la aplicación
-- `.github/workflows/nextjs.yml` : workflow de CI/CD que genera `out/` y publica en Pages
+## Build estático (como en producción)
 
-## Actualizar datasets (flujo recomendado)
-- Edita directamente los archivos en `public/api/` y `public/data/general/`.
-- Ejemplo para actualizar el dataset de la Constitución:
+El repositorio está configurado para export estático. En Next.js con `output: 'export'`, el comando genera `out/`.
+
 ```bash
-# editar public/api/db-constitucion.json
-git add public/api/db-constitucion.json
-git commit -m "Actualiza preguntas: Constitución"
-git push origin main
+npm run build
 ```
 
-## Build y export (producción)
-- Build normal (si Next funciona en tu entorno):
+Para previsualizar `out/` como sitio estático:
+
 ```bash
-npx next build
-# si tu next.config permite export, usa:
-npx next export
-```
-- Si `next build`/`next export` falla en tu entorno, puedes simular la salida estática copiando `public/` a `out/`:
-```bash
-rm -rf out
-mkdir -p out/api
-cp -a public/. out/
+python3 -m http.server -d out 4173
 ```
 
-## Verificación local rápida
-Comprobar que la API pública que se va a desplegar es la que esperas:
-```bash
-python - <<'PY'
-import json
-with open('public/api/db-constitucion.json', encoding='utf-8') as f:
-    print('public questions =', len(json.load(f).get('questions', [])))
-with open('out/api/db-constitucion.json', encoding='utf-8') as f:
-    print('out questions =', len(json.load(f).get('questions', [])))
-PY
-```
+Abrir `http://localhost:4173`.
 
-## CI / Despliegue (GitHub Actions)
-- El workflow `nextjs.yml` realiza:
-  1. `npx next build` (genera artefactos de Next)
-  2. Crea `out/api` y copia `public/api/*` -> `out/api/*`
-  3. Verifica que `public/api/db-constitucion.json` y `out/api/db-constitucion.json` tienen el mismo número de preguntas (si no coinciden, el job falla)
-  4. Sube `out/` y despliega a GitHub Pages
+## Desplegar en GitHub Pages (según el repo)
 
-Esto asegura que lo que se publica proviene de `public/`, que ahora es la fuente de verdad.
+Este repo trae un workflow de Actions que construye y publica en Pages: `.github/workflows/nextjs.yml`.
 
-## Buenas prácticas
-- Mantén `public/api` versionado si quieres trazabilidad de cambios en datasets.
-- Evita subir binarios muy grandes al repo (`public/data/general` puede contener PDFs/MP3s; si esto es un problema, considera usar LFS o un bucket externo).
+### 1) Activar GitHub Pages
 
-## Autenticación
-- Folio usa Authgear con GitHub OAuth; en desarrollo puedes saltar la auth con `NEXT_PUBLIC_SKIP_AUTH=true`.
+- En GitHub: **Settings → Pages**
+- **Build and deployment**: seleccionar **GitHub Actions**
 
-## Tecnología
-- Next.js 16, React 18, TypeScript, Tailwind CSS
+### 2) Base path (subdirectorio en Pages)
 
----
+En GitHub Pages, la URL suele ser `https://<owner>.github.io/<repo>/`.
 
-Si quieres que además cree un archivo `docs/DEPLOY.md` con una versión extendida de esta guía (logs, debugging y pasos de rollback), lo añado.
+El código usa `NEXT_PUBLIC_BASE_PATH` para que:
+
+- Las rutas y assets se sirvan bajo `/<repo>`
+- La API JSON se resuelva como `/<repo>/api/...`
+
+El workflow usa `actions/configure-pages` con `static_site_generator: next`, que ajusta la configuración para Pages.
+
+### 3) Autenticación en Pages
+
+Si quieres login real en Pages, en Authgear debes permitir el redirect:
+
+- `https://<owner>.github.io/<repo>/auth/callback/`
+
+Si solo quieres un demo sin login, define `NEXT_PUBLIC_SKIP_AUTH=true` durante el build (por ejemplo como **Repository Variable** de Actions).
+
+### 4) Publicación
+
+- Push a `main` dispara el workflow.
+- El job construye `out/`, copia `public/api` a `out/api` y despliega el artifact.
+
+## Estructura del proyecto
+
+- `app/`: rutas Next.js (landing, `/dashboard`, `/auth/callback`)
+- `src/lib/data-api.ts`: carga/normaliza datasets desde `public/api`
+- `src/lib/storage.ts`: persistencia + hidratación desde la API
+- `public/api/`: datasets JSON servidos como “API estática”
+
+## Mejoras para simplificar (propuestas)
+
+- Eliminar duplicidad `data/` vs `public/api/`: generar el fallback desde `public/api` en build, o declarar una única fuente de verdad.
+- Añadir script de preview (ej. `"preview": "python3 -m http.server -d out 4173"`) para reproducir Pages sin comandos manuales.
+- Centralizar utilidades de `basePath` (una función compartida) para evitar discrepancias entre rutas (assets, API y auth).

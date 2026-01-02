@@ -5,13 +5,16 @@ const AUTHGEAR_CLIENT_ID = 'f618083b831bb0d8';
 const AUTHGEAR_ENDPOINT = 'https://espora.authgear.cloud';
 const POST_LOGIN_REDIRECT_KEY = 'folio:post-login-redirect';
 const ALLOWED_REDIRECT_PREFIXES = ['/dashboard'];
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const DUPLICATE_SLASHES = /\/{2,}/g;
 export type StartLoginOptions = {
   forceReauthenticate?: boolean;
 };
 
 function getRedirectURI(): string {
   if (typeof window !== 'undefined') {
-    return `${window.location.origin}/auth/callback/`;
+    const prefix = BASE_PATH ? `/${String(BASE_PATH).replace(/^\/+|\/+$/g, '')}` : '';
+    return `${window.location.origin}${prefix}/auth/callback/`.replace(DUPLICATE_SLASHES, '/').replace(':/', '://');
   }
   return 'https://folio.espora.net/auth/callback/';
 }
