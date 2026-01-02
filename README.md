@@ -15,7 +15,7 @@ El proyecto está construido con Next.js (App Router) y se exporta a HTML estát
 Notas importantes:
 
 - El `basePath` se calcula con `NEXT_PUBLIC_BASE_PATH`.
-- Existe un fallback “bundled” para casos de fallo de red, que se alimenta desde la carpeta `data/` (import estático en `src/lib/data-api.ts`). Si quieres coherencia total (build-time + runtime), mantén `data/` y `public/api/` sincronizados.
+- Existe un fallback “bundled” para casos de fallo de red, que se alimenta desde la carpeta `public/api/` (import estático en `src/lib/data-api.ts`). Los datos en `public/api/` son la única fuente de verdad tanto para build-time como para runtime.
 
 ### 2) Persistencia (localStorage por usuario)
 
@@ -116,6 +116,6 @@ Si solo quieres un demo sin login, define `NEXT_PUBLIC_SKIP_AUTH=true` durante e
 
 ## Mejoras para simplificar (propuestas)
 
-- Eliminar duplicidad `data/` vs `public/api/`: generar el fallback desde `public/api` en build, o declarar una única fuente de verdad.
+- ✅ Los datos ahora usan `public/api/` como única fuente de verdad (tanto en build-time como runtime).
 - Añadir script de preview (ej. `"preview": "python3 -m http.server -d out 4173"`) para reproducir Pages sin comandos manuales.
 - Centralizar utilidades de `basePath` (una función compartida) para evitar discrepancias entre rutas (assets, API y auth).

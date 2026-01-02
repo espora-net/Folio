@@ -1,6 +1,5 @@
-import baseIndex from '../../data/db.json';
-import constitucionDataset from '../../data/db-constitucion.json';
-import convocatoriaUah2025 from '../../data/convocatoria-uah-2025-c1.json';
+import baseIndex from '../../public/api/db.json';
+import constitucionDataset from '../../public/api/db-constitucion.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -367,7 +366,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
 type RawConvocatoria = Record<string, unknown>;
 
 const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
-  'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria,
+  // Convocatoria files should be placed in /public/api and will be loaded at runtime
 };
 
 const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
