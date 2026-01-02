@@ -365,9 +365,12 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
 
 type RawConvocatoria = Record<string, unknown>;
 
-const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
-  // Convocatoria files should be placed in /public/api and will be loaded at runtime
-};
+// Fallback convocatorias bundled at build time
+// Currently empty - convocatoria files are loaded at runtime from /public/api
+// To add bundled fallback, import the JSON file and add it here:
+// import convocatoriaUah2025 from '../../public/api/convocatoria-uah-2025-c1.json';
+// Then add: 'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria
+const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {};
 
 const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
 
