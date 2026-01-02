@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DB Constitución Española - esquema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["topics", "questions"],
+  "properties": {
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "order", "createdAt", "updatedAt", "subtopics"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "order": {"type": "integer"},
+          "createdAt": {"type": "string", "format": "date-time"},
+          "updatedAt": {"type": "string", "format": "date-time"},
+          "subtopics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "topicId", "title", "order"],
+              "properties": {
+                "id": {"type": "string"},
+                "topicId": {"type": "string"},
+                "title": {"type": "string"},
+                "content": {"type": "string"},
+                "order": {"type": "integer"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "topicId", "question", "options", "correctAnswer"],
+        "properties": {
+          "id": {"type": "string"},
+          "topicId": {"type": "string"},
+          "question": {"type": "string"},
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {"type": "string"}
+          },
+          "correctAnswer": {"type": "integer", "minimum": 0},
+          "correctIndex": {"type": "integer", "minimum": 0},
+          "explanation": {"type": "string"},
+          "difficulty": {"type": "string", "enum": ["basica","intermedia","avanzada"]},
+          "tags": {"type": "array", "items": {"type": "string"}},
+          "createdAt": {"type": "string", "format": "date-time"},
+          "updatedAt": {"type": "string", "format": "date-time"},
+          "source": {"type": "object"},
+          "origin": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -95,3 +95,4 @@ logs/
 # documentos temporales o borradores (opcional)
 # docs/**/*.tmp.pdf
 # docs/**/*.draft.*
+out/

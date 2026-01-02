@@ -1,37 +1,6 @@
 {
   "topics": [
     {
-      "id": "ce-1978",
-      "title": "Constitución Española 1978",
-      "description": "Preguntas y flashcards organizadas por títulos y capítulos de la Constitución Española de 1978.",
-      "order": 1,
-      "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z",
-      "subtopics": [
-        {
-          "id": "ce-titulo-preliminar",
-          "topicId": "ce-1978",
-          "title": "Título Preliminar",
-          "content": "Principios básicos del Estado y valores superiores (artículos 1 a 9).",
-          "order": 1
-        },
-        {
-          "id": "ce-titulo-i-capitulo-primero",
-          "topicId": "ce-1978",
-          "title": "Título I - Capítulo Primero. De los españoles y los extranjeros",
-          "content": "Régimen de nacionalidad y edad de mayoría de edad (artículos 11 a 13).",
-          "order": 2
-        },
-        {
-          "id": "ce-titulo-i-capitulo-segundo",
-          "topicId": "ce-1978",
-          "title": "Título I - Capítulo Segundo. Derechos y libertades",
-          "content": "Derechos fundamentales y libertades públicas (artículos 14 a 29).",
-          "order": 3
-        }
-      ]
-    },
-    {
       "id": "constitucion-espanola-1978",
       "title": "Constitución Española 1978",
       "description": "Constitución Española 1978",
