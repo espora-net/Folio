@@ -1,0 +1,136 @@
+name: Validate Syllabus Coverage
+
+on:
+  pull_request:
+    paths:
+      - 'public/api/db-*.json'
+      - 'public/api/convocatoria-*.json'
+  push:
+    paths:
+      - 'public/api/db-*.json'
+      - 'public/api/convocatoria-*.json'
+
+jobs:
+  validate-coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate syllabusCoverageIds match cobertura_convocatoria
+        id: validate
+        run: |
+          python3 - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          errors = []
+          warnings = []
+
+          # Load all convocatorias and build a map of cobertura_convocatoria per tema
+          convocatoria_files = list(Path('public/api').glob('convocatoria-*.json'))
+          
+          # Map: dataset_file -> set of valid coverage ids from convocatoria
+          dataset_valid_coverage: dict[str, set[str]] = {}
+          
+          for conv_file in convocatoria_files:
+              try:
+                  conv = json.loads(conv_file.read_text(encoding='utf-8'))
+              except json.JSONDecodeError as e:
+                  errors.append(f'{conv_file}: Invalid JSON - {e}')
+                  continue
+              
+              for tema in conv.get('temas', []):
+                  cobertura = set(tema.get('cobertura_convocatoria', []))
+                  
+                  # Find linked dataset file from recursos
+                  for recurso in tema.get('recursos', []):
+                      if recurso.get('tipo') == 'db':
+                          db_file = recurso.get('archivo', '')
+                          if db_file:
+                              if db_file not in dataset_valid_coverage:
+                                  dataset_valid_coverage[db_file] = set()
+                              dataset_valid_coverage[db_file].update(cobertura)
+          
+          # Now validate each db-*.json
+          db_files = list(Path('public/api').glob('db-*.json'))
+          
+          for db_file in db_files:
+              # Skip schema files
+              if 'schema' in db_file.name:
+                  continue
+              
+              try:
+                  db = json.loads(db_file.read_text(encoding='utf-8'))
+              except json.JSONDecodeError as e:
+                  errors.append(f'{db_file}: Invalid JSON - {e}')
+                  continue
+              
+              valid_coverage = dataset_valid_coverage.get(db_file.name, set())
+              
+              # If this dataset is not linked to any convocatoria, skip validation
+              if not valid_coverage:
+                  warnings.append(f'{db_file.name}: Not linked to any convocatoria tema (skipped)')
+                  continue
+              
+              # Collect all syllabusCoverageIds from subtopics
+              found_coverage_ids: set[str] = set()
+              unrecognized_ids: set[str] = set()
+              
+              for topic in db.get('topics', []):
+                  for subtopic in topic.get('subtopics', []):
+                      coverage_ids = subtopic.get('syllabusCoverageIds', [])
+                      for cid in coverage_ids:
+                          found_coverage_ids.add(cid)
+                          if cid not in valid_coverage:
+                              unrecognized_ids.add(cid)
+              
+              # Check for syllabusCoverageIds that don't match cobertura_convocatoria
+              if unrecognized_ids:
+                  errors.append(
+                      f'{db_file.name}: syllabusCoverageIds not in cobertura_convocatoria: {sorted(unrecognized_ids)}'
+                  )
+              
+              # Check for cobertura_convocatoria not covered by any subtopic
+              missing_coverage = valid_coverage - found_coverage_ids
+              if missing_coverage:
+                  warnings.append(
+                      f'{db_file.name}: cobertura_convocatoria without matching subtopics: {sorted(missing_coverage)}'
+                  )
+          
+          # Output results
+          if warnings:
+              print('⚠️  WARNINGS:')
+              for w in warnings:
+                  print(f'  - {w}')
+              print()
+          
+          if errors:
+              print('❌ ERRORS (requires manual review):')
+              for e in errors:
+                  print(f'  - {e}')
+              print()
+              print('::error::Syllabus coverage validation failed. Please review the syllabusCoverageIds in datasets.')
+              sys.exit(1)
+          
+          print('✅ All syllabusCoverageIds are valid and match cobertura_convocatoria.')
+          PY
+
+      - name: Add review label on failure
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-manual-review', 'syllabus-coverage']
+            });
+            
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '⚠️ **Syllabus Coverage Validation Failed**\n\nLos `syllabusCoverageIds` de los datasets no coinciden con los `cobertura_convocatoria` de la convocatoria.\n\nPor favor, revisa manualmente los cambios antes de mergear.\n\nConsulta el log del workflow para más detalles.'
+            });

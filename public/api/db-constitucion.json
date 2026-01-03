@@ -27,28 +27,40 @@
           "topicId": "constitucion-espanola-1978",
           "title": "Preámbulo y Título Preliminar de la Constitución de 1978",
           "content": "Preámbulo y Título Preliminar de la Constitución de 1978",
-          "order": 3
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar"
+          ]
         },
         {
           "id": "constitucion-espanola-1978-titulo-i-de-la-constitucion-derechos-y-deberes-fundamentales-parte-1-articulo-10-capitulo-primero-de-los-espanoles-y-los-extranjeros-y-capitulo-segundo-derechos-y-libertades",
           "topicId": "constitucion-espanola-1978",
           "title": "Título I de la Constitución. Derechos y deberes fundamentales (Parte 1) - Artículo 10, Capítulo Primero: De los españoles y los extranjeros y Capítulo Segundo: Derechos y libertades",
           "content": "Título I de la Constitución. Derechos y deberes fundamentales (Parte 1) - Artículo 10, Capítulo Primero: De los españoles y los extranjeros y Capítulo Segundo: Derechos y libertades",
-          "order": 4
+          "order": 4,
+          "syllabusCoverageIds": [
+            "#titulo-i"
+          ]
         },
         {
           "id": "constitucion-espanola-1978-titulo-i-de-la-constitucion-derechos-y-deberes-fundamentales-parte-2-capitulo-tercero-de-los-principios-rectores-de-la-politica-social-y-economica",
           "topicId": "constitucion-espanola-1978",
           "title": "Título I de la Constitución. Derechos y deberes fundamentales (Parte 2) - Capítulo Tercero. De los principios rectores de la política social y económica",
           "content": "Título I de la Constitución. Derechos y deberes fundamentales (Parte 2) - Capítulo Tercero. De los principios rectores de la política social y económica",
-          "order": 5
+          "order": 5,
+          "syllabusCoverageIds": [
+            "#titulo-i"
+          ]
         },
         {
           "id": "constitucion-espanola-1978-titulo-i-de-la-constitucion-derechos-y-deberes-fundamentales-parte-3-capitulo-cuarto-y-capitulo-quinto",
           "topicId": "constitucion-espanola-1978",
           "title": "Título I de la Constitución. Derechos y deberes fundamentales (Parte 3) - Capítulo Cuarto y Capítulo Quinto",
           "content": "Título I de la Constitución. Derechos y deberes fundamentales (Parte 3) - Capítulo Cuarto y Capítulo Quinto",
-          "order": 6
+          "order": 6,
+          "syllabusCoverageIds": [
+            "#titulo-i"
+          ]
         },
         {
           "id": "constitucion-espanola-1978-titulo-ii-de-la-constitucion-de-la-corona",

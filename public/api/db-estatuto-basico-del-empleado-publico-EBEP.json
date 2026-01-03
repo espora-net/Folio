@@ -13,84 +13,120 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "Título I del TREBEP. Objeto y ámbito de aplicación.",
           "content": "TBD",
-          "order": 1
+          "order": 1,
+          "syllabusCoverageIds": [
+            "#titulo-i-objeto-y-ambito-de-aplicacion"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO II. Personal al servicio de las Administraciones Públicas.",
           "content": "TBD",
-          "order": 2
+          "order": 2,
+          "syllabusCoverageIds": [
+            "#capitulo-i-clases-de-personal"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulos-1-y-2",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulos 1 y 2)",
           "content": "TBD",
-          "order": 3
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-3",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 3)",
           "content": "TBD",
-          "order": 4
+          "order": 4,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-4---test-1",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 4 - Test 1)",
           "content": "TBD",
-          "order": 5
+          "order": 5,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-4---test-2",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 4 - Test 2)",
           "content": "TBD",
-          "order": 6
+          "order": 6,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-4---test-3",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 4 - Test 3)",
           "content": "TBD",
-          "order": 7
+          "order": 7,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-5",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 5)",
           "content": "TBD",
-          "order": 8
+          "order": 8,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-6",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 6)",
           "content": "TBD",
-          "order": 9
+          "order": 9,
+          "syllabusCoverageIds": [
+            "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio-capitulo-1",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO IV. Adquisición y pérdida de la relación de servicio. (Capítulo 1)",
           "content": "TBD",
-          "order": 10
+          "order": 10,
+          "syllabusCoverageIds": [
+            "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio-capitulo-2",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO IV. Adquisición y pérdida de la relación de servicio. (Capítulo 2)",
           "content": "TBD",
-          "order": 11
+          "order": 11,
+          "syllabusCoverageIds": [
+            "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO V. Ordenación de la actividad profesional.",
           "content": "TBD",
-          "order": 12
+          "order": 12,
+          "syllabusCoverageIds": [
+            "#capitulo-iii-provision-de-puestos-de-trabajo"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-vi-situaciones-administrativas",
@@ -104,7 +140,10 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO VII. Régimen disciplinario.",
           "content": "TBD",
-          "order": 14
+          "order": 14,
+          "syllabusCoverageIds": [
+            "#titulo-vii-regimen-disciplinario"
+          ]
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-viii-cooperacion-entre-las-administraciones-publicas",
