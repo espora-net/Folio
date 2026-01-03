@@ -1,6 +1,7 @@
-import baseIndex from '../../data/db.json';
-import constitucionDataset from '../../data/db-constitucion.json';
-import convocatoriaUah2025 from '../../data/convocatoria-uah-2025-c1.json';
+// Bundled fallbacks come from public/api (no /data folder dependency)
+// Keep this lightweight: datasets are loaded at runtime from /public/api.
+import baseIndex from '../../public/api/db.json';
+import convocatoriaUah2025C1 from '../../public/api/convocatoria-uah-2025-c1.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -28,9 +29,7 @@ type RawDataset = Record<string, unknown>;
 type DatasetPayload = { descriptor: DatasetDescriptor; data: RawDataset };
 type DatabaseIndex = Database;
 
-const FALLBACK_DATASETS: Record<string, RawDataset> = {
-  'db-constitucion.json': constitucionDataset as RawDataset,
-};
+const FALLBACK_DATASETS: Record<string, RawDataset> = {};
 
 const defaultStats = (): StudyStats => ({
   totalStudyTime: 0,
@@ -367,7 +366,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
 type RawConvocatoria = Record<string, unknown>;
 
 const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
-  'convocatoria-uah-2025-c1.json': convocatoriaUah2025 as RawConvocatoria,
+  'convocatoria-uah-2025-c1.json': convocatoriaUah2025C1 as unknown as RawConvocatoria,
 };
 
 const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();

@@ -1,32 +1,20 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Plus, Play, Trash2, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-  DialogDescription,
 } from '@/components/ui/dialog';
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from '@/components/ui/alert-dialog';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import {
@@ -35,7 +23,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { TestQuestion, Topic, getQuestions, saveQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
+import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
 type TopicGroup = {
@@ -61,13 +49,7 @@ const Tests = () => {
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
-  const [dialogOpen, setDialogOpen] = useState(false);
   const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
-  const [newQuestion, setNewQuestion] = useState('');
-  const [newOptions, setNewOptions] = useState(['', '', '', '']);
-  const [correctIndex, setCorrectIndex] = useState(0);
-  const [newExplanation, setNewExplanation] = useState('');
-  const [newTopicId, setNewTopicId] = useState('');
   const { toast } = useToast();
 
   useEffect(() => {
@@ -155,40 +137,6 @@ const Tests = () => {
     } else {
       setSelectedTopics(prev => [...new Set([...prev, ...allIds])]);
     }
-  };
-
-  const handleAddQuestion = () => {
-    if (!newQuestion.trim() || newOptions.some(o => !o.trim())) {
-      toast({ title: 'Completa todos los campos', variant: 'destructive' });
-      return;
-    }
-
-    const question: TestQuestion = {
-      id: crypto.randomUUID(),
-      topicId: newTopicId,
-      question: newQuestion.trim(),
-      options: newOptions.map(o => o.trim()),
-      correctIndex,
-      explanation: newExplanation.trim(),
-    };
-
-    const updated = [...questions, question];
-    setQuestions(updated);
-    saveQuestions(updated);
-    setNewQuestion('');
-    setNewOptions(['', '', '', '']);
-    setCorrectIndex(0);
-    setNewExplanation('');
-    setNewTopicId('');
-    setDialogOpen(false);
-    toast({ title: 'Pregunta añadida' });
-  };
-
-  const handleDelete = (id: string) => {
-    const updated = questions.filter(q => q.id !== id);
-    setQuestions(updated);
-    saveQuestions(updated);
-    toast({ title: 'Pregunta eliminada' });
   };
 
   const startTest = () => {
@@ -305,93 +253,6 @@ const Tests = () => {
             <Play className="h-4 w-4 mr-2" />
             Empezar test ({filteredQuestions.length})
           </Button>
-          <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
-            <DialogTrigger asChild>
-              <Button>
-                <Plus className="h-4 w-4 mr-2" />
-                Nueva pregunta
-              </Button>
-            </DialogTrigger>
-            <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto">
-              <DialogHeader>
-                <DialogTitle>Nueva pregunta</DialogTitle>
-              </DialogHeader>
-              <div className="space-y-4 pt-4">
-                <div className="space-y-2">
-                  <Label>Tema</Label>
-                  <select
-                    className="w-full h-10 px-3 rounded-md border border-input bg-background text-sm"
-                    value={newTopicId}
-                    onChange={(e) => setNewTopicId(e.target.value)}
-                  >
-                    <option value="">Sin tema</option>
-                    {topics.map((topic) => (
-                      <option key={topic.id} value={topic.id}>
-                        {topic.tag || topic.title}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <div className="space-y-2">
-                  <Label>
-                    Pregunta <span className="text-destructive">*</span>
-                  </Label>
-                  <Textarea
-                    placeholder="Escribe la pregunta..."
-                    value={newQuestion}
-                    onChange={(e) => setNewQuestion(e.target.value)}
-                    required
-                  />
-                </div>
-                {newOptions.map((option, i) => (
-                  <div key={i} className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <Label>
-                        Opción {i + 1} <span className="text-destructive">*</span>
-                      </Label>
-                      {i === correctIndex && (
-                        <span className="text-xs text-primary">(Correcta)</span>
-                      )}
-                    </div>
-                    <div className="flex gap-2">
-                      <Input
-                        placeholder={`Opción ${i + 1}`}
-                        value={option}
-                        onChange={(e) => {
-                          const updated = [...newOptions];
-                          updated[i] = e.target.value;
-                          setNewOptions(updated);
-                        }}
-                      />
-                      <Button
-                        variant={correctIndex === i ? 'default' : 'outline'}
-                        size="icon"
-                        onClick={() => setCorrectIndex(i)}
-                      >
-                        <CheckCircle className="h-4 w-4" />
-                      </Button>
-                    </div>
-                  </div>
-                ))}
-                <div className="space-y-2">
-                  <Label>Explicación (opcional)</Label>
-                  <Textarea
-                    placeholder="Explica por qué es correcta..."
-                    value={newExplanation}
-                    onChange={(e) => setNewExplanation(e.target.value)}
-                  />
-                </div>
-                <div className="flex gap-2 justify-end">
-                  <Button variant="outline" onClick={() => setDialogOpen(false)}>
-                    Cancelar
-                  </Button>
-                  <Button onClick={handleAddQuestion}>
-                    Añadir pregunta
-                  </Button>
-                </div>
-              </div>
-            </DialogContent>
-          </Dialog>
         </div>
       </div>
 
@@ -716,14 +577,8 @@ const Tests = () => {
             <Card className="border-border border-dashed">
               <CardContent className="py-12 text-center">
                 <p className="text-muted-foreground mb-4">
-                  {selectedTopics.length > 0 || originFilter !== 'all'
-                    ? 'No hay preguntas para los filtros seleccionados.'
-                    : 'No tienes preguntas creadas todavía.'}
+                  No hay preguntas para los filtros seleccionados.
                 </p>
-                <Button variant="outline" onClick={() => setDialogOpen(true)}>
-                  <Plus className="h-4 w-4 mr-2" />
-                  Crear tu primera pregunta
-                </Button>
               </CardContent>
             </Card>
           ) : (
@@ -751,34 +606,6 @@ const Tests = () => {
                         <CardContent className="p-4 flex flex-col h-full">
                           <div className="flex justify-between items-start mb-2">
                             <p className="text-xs text-muted-foreground">Pregunta</p>
-                            <AlertDialog>
-                              <AlertDialogTrigger asChild>
-                                <Button
-                                  variant="ghost"
-                                  size="icon"
-                                  className="h-6 w-6 -mt-1 -mr-1"
-                                >
-                                  <Trash2 className="h-4 w-4 text-destructive" />
-                                </Button>
-                              </AlertDialogTrigger>
-                              <AlertDialogContent>
-                                <AlertDialogHeader>
-                                  <AlertDialogTitle>¿Eliminar pregunta?</AlertDialogTitle>
-                                  <AlertDialogDescription>
-                                    Esta acción no se puede deshacer. La pregunta será eliminada permanentemente.
-                                  </AlertDialogDescription>
-                                </AlertDialogHeader>
-                                <AlertDialogFooter>
-                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                                  <AlertDialogAction
-                                    onClick={() => handleDelete(q.id)}
-                                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                                  >
-                                    Eliminar
-                                  </AlertDialogAction>
-                                </AlertDialogFooter>
-                              </AlertDialogContent>
-                            </AlertDialog>
                           </div>
                           <p className="font-medium text-foreground mb-3 line-clamp-3">
                             {q.question}
@@ -873,33 +700,6 @@ const Tests = () => {
                                 Respuesta correcta: {q.options[q.correctIndex]}
                               </p>
                             </div>
-                            <AlertDialog>
-                              <AlertDialogTrigger asChild>
-                                <Button
-                                  variant="ghost"
-                                  size="icon"
-                                >
-                                  <Trash2 className="h-4 w-4 text-destructive" />
-                                </Button>
-                              </AlertDialogTrigger>
-                              <AlertDialogContent>
-                                <AlertDialogHeader>
-                                  <AlertDialogTitle>¿Eliminar pregunta?</AlertDialogTitle>
-                                  <AlertDialogDescription>
-                                    Esta acción no se puede deshacer. La pregunta será eliminada permanentemente.
-                                  </AlertDialogDescription>
-                                </AlertDialogHeader>
-                                <AlertDialogFooter>
-                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                                  <AlertDialogAction
-                                    onClick={() => handleDelete(q.id)}
-                                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                                  >
-                                    Eliminar
-                                  </AlertDialogAction>
-                                </AlertDialogFooter>
-                              </AlertDialogContent>
-                            </AlertDialog>
                           </div>
                         </CardContent>
                       </Card>
