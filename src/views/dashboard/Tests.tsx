@@ -462,14 +462,6 @@ const Tests = () => {
                     </p>
                   </div>
 
-                  {/* Explicación */}
-                  {currentQuestion.explanation && (
-                    <div className="p-4 rounded-lg bg-muted">
-                      <p className="text-sm font-medium text-foreground mb-1">Explicación:</p>
-                      <p className="text-sm text-muted-foreground">{currentQuestion.explanation}</p>
-                    </div>
-                  )}
-
                   {/* Botón ver fuente */}
                   {currentQuestion.source && (
                     <Dialog open={sourceDialogOpen} onOpenChange={setSourceDialogOpen}>
