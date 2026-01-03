@@ -226,20 +226,11 @@ const Tests = () => {
 
   // Pasar pregunta sin responder
   const skipQuestion = () => {
+    // Se contabiliza como no acertada, pero se muestra la respuesta correcta
+    // y se deja el botón de acción como "Siguiente"/"Finalizar".
     setSkippedCount(prev => prev + 1);
-    if (currentIndex < testQuestions.length - 1) {
-      setCurrentIndex(prev => prev + 1);
-      setSelectedAnswer(null);
-      setShowResult(false);
-    } else {
-      const stats = getStats();
-      stats.testsCompleted += 1;
-      stats.correctAnswers += score;
-      saveStats(stats);
-
-      setTesting(false);
-      setShowFinalResults(true);
-    }
+    setSelectedAnswer(null);
+    setShowResult(true);
   };
 
   // Calcular el número efectivo de preguntas a estudiar
@@ -499,6 +490,14 @@ const Tests = () => {
                           </DialogDescription>
                         </DialogHeader>
                         <div className="space-y-4 pt-4">
+                          {/* Explicación */}
+                          {currentQuestion.explanation && (
+                            <div className="p-4 rounded-lg bg-muted">
+                              <p className="text-sm font-medium text-foreground mb-1">Explicación:</p>
+                              <p className="text-sm text-muted-foreground">{currentQuestion.explanation}</p>
+                            </div>
+                          )}
+
                           {/* Texto resaltado */}
                           <div className="p-4 rounded-lg bg-yellow-50 dark:bg-yellow-950/30 border border-yellow-200 dark:border-yellow-800">
                             <p className="text-sm font-medium text-yellow-800 dark:text-yellow-200 mb-2">
@@ -539,7 +538,7 @@ const Tests = () => {
               )}
 
               <div className="mt-6 flex justify-between gap-2">
-                <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground">
+                <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
                   <SkipForward className="h-4 w-4 mr-2" />
                   Pasar
                 </Button>
