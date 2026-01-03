@@ -396,7 +396,7 @@ const Flashcards = () => {
                 <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
                   <div
                     className={`transition-all duration-300 ease-out ${
-                      cardTextVisible ? 'opacity-100 blur-0' : 'opacity-0 blur-sm'
+                      cardTextVisible ? 'opacity-100 blur-none' : 'opacity-0 blur-sm'
                     }`}
                   >
                     <p className="text-sm text-muted-foreground mb-4">Pregunta</p>
@@ -422,7 +422,7 @@ const Flashcards = () => {
                 <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
                   <div
                     className={`transition-all duration-300 ease-out ${
-                      cardTextVisible ? 'opacity-100 blur-0' : 'opacity-0 blur-sm'
+                      cardTextVisible ? 'opacity-100 blur-none' : 'opacity-0 blur-sm'
                     }`}
                   >
                     <p className="text-sm text-primary mb-4">Respuesta</p>
