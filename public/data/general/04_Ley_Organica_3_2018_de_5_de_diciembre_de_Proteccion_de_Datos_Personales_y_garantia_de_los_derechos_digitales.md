@@ -6,112 +6,112 @@ Preámbulo
 
 ## TÍTULO I. Disposiciones generales {#titulo-i-disposiciones-generales}
 
-**Artículo 1. Objeto de la ley **
+**Artículo 1. Objeto de la ley**
 
-**Artículo 2. Ámbito de aplicación de los Títulos I a IX y de los artículos 89 a 94 **
+**Artículo 2. Ámbito de aplicación de los Títulos I a IX y de los artículos 89 a 94**
 
-**Artículo 3. Datos de las personas fallecidas **
+**Artículo 3. Datos de las personas fallecidas**
 
 ## TÍTULO II. Principios de protección de datos {#titulo-ii-principios-de-proteccion-de-datos}
 
 **Artículo 4. Exactitud de los datos.**
 
-**Artículo 5. Deber de confidencialidad **
+**Artículo 5. Deber de confidencialidad**
 
-**Artículo 6. Tratamiento basado en el consentimiento del afectado **
+**Artículo 6. Tratamiento basado en el consentimiento del afectado**
 
-**Artículo 7. Consentimiento de los menores de edad **
+**Artículo 7. Consentimiento de los menores de edad**
 
 **Artículo 8. Tratamiento de datos por obligación legal, interés público o ejercicio de poderes públicos.**
 
 **Artículo 9. Categorías especiales de datos.**
 
-**Artículo 10. Tratamiento de datos de naturaleza penal **
+**Artículo 10. Tratamiento de datos de naturaleza penal**
 
 ## TÍTULO III. Derechos de las personas {#titulo-iii-derechos-de-las-personas}
 
 ### CAPÍTULO I. Transparencia e información {#capitulo-i-transparencia-e-informacion}
 
-**Artículo 11. Transparencia e información al afectado **
+**Artículo 11. Transparencia e información al afectado**
 
 ### CAPÍTULO II. Ejercicio de los derechos {#capitulo-ii-ejercicio-de-los-derechos}
 
-**Artículo 12. Disposiciones generales sobre ejercicio de los derechos **
+**Artículo 12. Disposiciones generales sobre ejercicio de los derechos**
 
 **Artículo 13. Derecho de acceso.**
 
-**Artículo 14. Derecho de rectificación **
+**Artículo 14. Derecho de rectificación**
 
-**Artículo 15. Derecho de supresión **
+**Artículo 15. Derecho de supresión**
 
-**Artículo 16. Derecho a la limitación del tratamiento **
+**Artículo 16. Derecho a la limitación del tratamiento**
 
-**Artículo 17. Derecho a la portabilidad **
+**Artículo 17. Derecho a la portabilidad**
 
-**Artículo 18. Derecho de oposición **
+**Artículo 18. Derecho de oposición**
 
 ## TÍTULO IV. Disposiciones aplicables a tratamientos concretos {#titulo-iv-disposiciones-aplicables-a-tratamientos-concretos}
 
 **Artículo 19. Tratamiento de datos de contacto, de empresarios individuales y de profesionales liberales.**
 
-**Artículo 20. Sistemas de información crediticia **
+**Artículo 20. Sistemas de información crediticia**
 
-**Artículo 21. Tratamientos relacionados con la realización de determinadas operaciones mercantiles **
+**Artículo 21. Tratamientos relacionados con la realización de determinadas operaciones mercantiles**
 
 **Artículo 22. Tratamientos con fines de videovigilancia.**
 
-**Artículo 23. Sistemas de exclusión publicitaria **
+**Artículo 23. Sistemas de exclusión publicitaria**
 
 **Artículo 24. Tratamiento de datos para la protección de las personas que informen sobre infracciones** normativas
 
-**Artículo 25. Tratamiento de datos en el ámbito de la función estadística pública **
+**Artículo 25. Tratamiento de datos en el ámbito de la función estadística pública**
 
 **Artículo 26. Tratamiento de datos con fines de archivo en interés público por parte de las** Administraciones Públicas
 
-**Artículo 27. Tratamiento de datos relativos a infracciones y sanciones administrativas **
+**Artículo 27. Tratamiento de datos relativos a infracciones y sanciones administrativas**
 
 ## TÍTULO V. Responsable y encargado del tratamiento {#titulo-v-responsable-y-encargado-del-tratamiento}
 
 ### CAPÍTULO I. Disposiciones generales. Medidas de responsabilidad activa {#capitulo-i-disposiciones-generales-medidas-de-responsabilidad-activa}
 
-**Artículo 28. Obligaciones generales del responsable y encargado del tratamiento **
+**Artículo 28. Obligaciones generales del responsable y encargado del tratamiento**
 
-**Artículo 29. Supuestos de corresponsabilidad en el tratamiento **
+**Artículo 29. Supuestos de corresponsabilidad en el tratamiento**
 
 **Artículo 30. Representantes de los responsables o encargados del tratamiento no establecidos en la**
 Unión Europea.
 
-**Artículo 31. Registro de las actividades de tratamiento **
+**Artículo 31. Registro de las actividades de tratamiento**
 
 **Artículo 32. Bloqueo de los datos.**
 
 ### CAPÍTULO II. Encargado del tratamiento {#capitulo-ii-encargado-del-tratamiento}
 
-**Artículo 33. Encargado del tratamiento **
+**Artículo 33. Encargado del tratamiento**
 
 ### CAPÍTULO III. Delegado de protección de datos {#capitulo-iii-delegado-de-proteccion-de-datos}
 
-**Artículo 34. Designación de un delegado de protección de datos **
+**Artículo 34. Designación de un delegado de protección de datos**
 
-**Artículo 35. Cualificación del delegado de protección de datos **
+**Artículo 35. Cualificación del delegado de protección de datos**
 
-**Artículo 36. Posición del delegado de protección de datos **
+**Artículo 36. Posición del delegado de protección de datos**
 
 **Artículo 37. Intervención del delegado de protección de datos en caso de reclamación ante las** autoridades de protección de datos
 
 ### CAPÍTULO IV. Códigos de conducta y certificación {#capitulo-iv-codigos-de-conducta-y-certificacion}
 
-**Artículo 38. Códigos de conducta **
+**Artículo 38. Códigos de conducta**
 
 **Artículo 39. Acreditación de instituciones de certificación.**
 
 ## TÍTULO VI. Transferencias internacionales de datos {#titulo-vi-transferencias-internacionales-de-datos}
 
-**Artículo 40. Régimen de las transferencias internacionales de datos **
+**Artículo 40. Régimen de las transferencias internacionales de datos**
 
-**Artículo 41. Supuestos de adopción por la Agencia Española de Protección de Datos **
+**Artículo 41. Supuestos de adopción por la Agencia Española de Protección de Datos**
 
-**Artículo 42. Supuestos sometidos a autorización previa de las autoridades de protección de datos **
+**Artículo 42. Supuestos sometidos a autorización previa de las autoridades de protección de datos**
 
 **Artículo 43. Supuestos sometidos a información previa a la autoridad de protección de datos**
 competente.
@@ -122,27 +122,27 @@ competente.
 
 #### Sección 1.ª Disposiciones generales {#seccion-1-a-disposiciones-generales}
 
-**Artículo 44. Disposiciones generales **
+**Artículo 44. Disposiciones generales**
 
-**Artículo 45. Régimen jurídico **
+**Artículo 45. Régimen jurídico**
 
 **Artículo 46. Régimen económico presupuestario y de personal.**
 
-**Artículo 47. Funciones y potestades de la Agencia Española de Protección de Datos **
+**Artículo 47. Funciones y potestades de la Agencia Española de Protección de Datos**
 
-**Artículo 48. La Presidencia de la Agencia Española de Protección de Datos **
+**Artículo 48. La Presidencia de la Agencia Española de Protección de Datos**
 
-**Artículo 49. Consejo Consultivo de la Agencia Española de Protección de Datos **
+**Artículo 49. Consejo Consultivo de la Agencia Española de Protección de Datos**
 
-**Artículo 50. Publicidad **
+**Artículo 50. Publicidad**
 
 #### Sección 2.ª Potestades de investigación y planes de auditoría preventiva {#seccion-2-a-potestades-de-investigacion-y-planes-de-auditoria-preventiva}
 
-**Artículo 51. Ámbito y personal competente **
+**Artículo 51. Ámbito y personal competente**
 
-**Artículo 52. Deber de colaboración **
+**Artículo 52. Deber de colaboración**
 
-**Artículo 53. Alcance de la actividad de investigación **
+**Artículo 53. Alcance de la actividad de investigación**
 
 **Artículo 53 bis. Actuaciones de investigación a través de sistemas digitales.**
 
@@ -150,7 +150,7 @@ competente.
 
 #### Sección 3.ª Otras potestades de la Agencia Española de Protección de Datos {#seccion-3-a-otras-potestades-de-la-agencia-espanola-de-proteccion-de-datos}
 
-**Artículo 55. Potestades de regulación. Circulares de la Agencia Española de Protección de Datos **
+**Artículo 55. Potestades de regulación. Circulares de la Agencia Española de Protección de Datos**
 
 **Artículo 56. Acción exterior.**
 
@@ -160,93 +160,93 @@ competente.
 
 **Artículo 57. Autoridades autonómicas de protección de datos.**
 
-**Artículo 58. Cooperación institucional **
+**Artículo 58. Cooperación institucional**
 
-**Artículo 59. Tratamientos contrarios al Reglamento (UE) 2016/679 **
+**Artículo 59. Tratamientos contrarios al Reglamento (UE) 2016/679**
 
 #### Sección 2.ª Coordinación en el marco de los procedimientos establecidos en el Reglamento (UE) 2016/679 . {#seccion-2-a-coordinacion-en-el-marco-de-los-procedimientos-establecidos-en-el-reglamento-ue-2016-679}
 
 **Artículo 60. Coordinación en caso de emisión de dictamen por el Comité Europeo de Protección de** Datos
 
-**Artículo 61. Intervención en caso de tratamientos transfronterizos **
+**Artículo 61. Intervención en caso de tratamientos transfronterizos**
 
 **Artículo 62. Coordinación en caso de resolución de conflictos por el Comité Europeo de Protección de** Datos
 
 ## TÍTULO VIII. Procedimientos en caso de posible vulneración de la normativa de protección de datos {#titulo-viii-procedimientos-en-caso-de-posible-vulneracion-de-la-normativa-de-proteccion-de-datos}
 
-**Artículo 63. Régimen jurídico **
+**Artículo 63. Régimen jurídico**
 
-**Artículo 64. Forma de iniciación del procedimiento y duración **
+**Artículo 64. Forma de iniciación del procedimiento y duración**
 
-**Artículo 65. Admisión a trámite de las reclamaciones **
+**Artículo 65. Admisión a trámite de las reclamaciones**
 
-**Artículo 66. Determinación del alcance territorial **
+**Artículo 66. Determinación del alcance territorial**
 
-**Artículo 67. Actuaciones previas de investigación **
+**Artículo 67. Actuaciones previas de investigación**
 
 **Artículo 68. Acuerdo de inicio del procedimiento para el ejercicio de la potestad sancionadora.**
 
-**Artículo 69. Medidas provisionales y de garantía de los derechos **
+**Artículo 69. Medidas provisionales y de garantía de los derechos**
 
 ## TÍTULO IX. Régimen sancionador {#titulo-ix-regimen-sancionador}
 
-**Artículo 70. Sujetos responsables **
+**Artículo 70. Sujetos responsables**
 
-**Artículo 71. Infracciones **
+**Artículo 71. Infracciones**
 
-**Artículo 72. Infracciones consideradas muy graves **
+**Artículo 72. Infracciones consideradas muy graves**
 
-**Artículo 73. Infracciones consideradas graves **
+**Artículo 73. Infracciones consideradas graves**
 
-**Artículo 74. Infracciones consideradas leves **
+**Artículo 74. Infracciones consideradas leves**
 
-**Artículo 75. Interrupción de la prescripción de la infracción **
+**Artículo 75. Interrupción de la prescripción de la infracción**
 
-**Artículo 76. Sanciones y medidas correctivas **
+**Artículo 76. Sanciones y medidas correctivas**
 
 **Artículo 77. Régimen aplicable a determinadas categorías de responsables o encargados del** tratamiento
 
-**Artículo 78. Prescripción de las sanciones **
+**Artículo 78. Prescripción de las sanciones**
 
 ## TÍTULO X. Garantía de los derechos digitales {#titulo-x-garantia-de-los-derechos-digitales}
 
-**Artículo 79. Los derechos en la Era digital **
+**Artículo 79. Los derechos en la Era digital**
 
-**Artículo 80. Derecho a la neutralidad de Internet **
+**Artículo 80. Derecho a la neutralidad de Internet**
 
-**Artículo 81. Derecho de acceso universal a Internet **
+**Artículo 81. Derecho de acceso universal a Internet**
 
-**Artículo 82. Derecho a la seguridad digital **
+**Artículo 82. Derecho a la seguridad digital**
 
 **Artículo 83. Derecho a la educación digital.**
 
-**Artículo 84. Protección de los menores en Internet **
+**Artículo 84. Protección de los menores en Internet**
 
-**Artículo 85. Derecho de rectificación en Internet **
+**Artículo 85. Derecho de rectificación en Internet**
 
-**Artículo 86. Derecho a la actualización de informaciones en medios de comunicación digitales **
+**Artículo 86. Derecho a la actualización de informaciones en medios de comunicación digitales**
 
-**Artículo 87. Derecho a la intimidad y uso de dispositivos digitales en el ámbito laboral **
+**Artículo 87. Derecho a la intimidad y uso de dispositivos digitales en el ámbito laboral**
 
-**Artículo 88. Derecho a la desconexión digital en el ámbito laboral **
+**Artículo 88. Derecho a la desconexión digital en el ámbito laboral**
 
 **Artículo 89. Derecho a la intimidad frente al uso de dispositivos de videovigilancia y de grabación de** sonidos en el lugar de trabajo
 
 **Artículo 90. Derecho a la intimidad ante la utilización de sistemas de geolocalización en el ámbito** laboral
 
-**Artículo 91. Derechos digitales en la negociación colectiva **
+**Artículo 91. Derechos digitales en la negociación colectiva**
 
-**Artículo 92. Protección de datos de los menores en Internet **
+**Artículo 92. Protección de datos de los menores en Internet**
 
-**Artículo 93. Derecho al olvido en búsquedas de Internet **
+**Artículo 93. Derecho al olvido en búsquedas de Internet**
 
-**Artículo 94. Derecho al olvido en servicios de redes sociales y servicios equivalentes **
+**Artículo 94. Derecho al olvido en servicios de redes sociales y servicios equivalentes**
 
-**Artículo 95. Derecho de portabilidad en servicios de redes sociales y servicios equivalentes **
+**Artículo 95. Derecho de portabilidad en servicios de redes sociales y servicios equivalentes**
 
-**Artículo 96. Derecho al testamento digital **
+**Artículo 96. Derecho al testamento digital**
 
-**Artículo 97. Políticas de impulso de los derechos digitales **
+**Artículo 97. Políticas de impulso de los derechos digitales**
 
 Disposiciones adicionales
 

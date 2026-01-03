@@ -664,9 +664,7 @@ Cuando una proposición de ley o una enmienda fuere contraria a una delegación 
 
 **Artículo 85**
 
-Las disposiciones del Gobierno que contengan legislación delegada recibirán el
-
-## título de Decretos Legislativos. {#titulo-de-decretos-legislativos}
+Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos.
 
 **Artículo 86**
 

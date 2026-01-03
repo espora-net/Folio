@@ -24,38 +24,38 @@ TEXTO REFUNDIDO DE LA LEY DEL ESTATUTO BÁSICO DEL EMPLEADO PÚBLICO
 
 ## TÍTULO I. Objeto y ámbito de aplicación {#titulo-i-objeto-y-ambito-de-aplicacion}
 
-**Artículo 1. Objeto **
+**Artículo 1. Objeto**
 
-**Artículo 2. Ámbito de aplicación **
+**Artículo 2. Ámbito de aplicación**
 
-**Artículo 3. Personal funcionario de las Entidades Locales **
+**Artículo 3. Personal funcionario de las Entidades Locales**
 
-**Artículo 4. Personal con legislación específica propia **
+**Artículo 4. Personal con legislación específica propia**
 
-**Artículo 5. Personal de la Sociedad Estatal Correos y Telégrafos **
+**Artículo 5. Personal de la Sociedad Estatal Correos y Telégrafos**
 
 **Artículo 6. Leyes de Función Pública.**
 
 
 
 
-**Artículo 7. Normativa aplicable al personal laboral **
+**Artículo 7. Normativa aplicable al personal laboral**
 
 ## TÍTULO II. Personal al servicio de las Administraciones Públicas {#titulo-ii-personal-al-servicio-de-las-administraciones-publicas}
 
 ### CAPÍTULO I. Clases de personal {#capitulo-i-clases-de-personal}
 
-**Artículo 8. Concepto y clases de empleados públicos **
+**Artículo 8. Concepto y clases de empleados públicos**
 
-**Artículo 9. Funcionarios de carrera **
+**Artículo 9. Funcionarios de carrera**
 
 **Artículo 10. Funcionarios interinos.**
 
 
 
-**Artículo 11. Personal laboral **
+**Artículo 11. Personal laboral**
 
-**Artículo 12. Personal eventual **
+**Artículo 12. Personal eventual**
 
 ### CAPÍTULO II. Personal directivo {#capitulo-ii-personal-directivo}
 
@@ -71,45 +71,45 @@ TEXTO REFUNDIDO DE LA LEY DEL ESTATUTO BÁSICO DEL EMPLEADO PÚBLICO
 
 
 
-**Artículo 15. Derechos individuales ejercidos colectivamente **
+**Artículo 15. Derechos individuales ejercidos colectivamente**
 
 ### CAPÍTULO II. Derecho a la carrera profesional y a la promoción interna. La evaluación del desempeño {#capitulo-ii-derecho-a-la-carrera-profesional-y-a-la-promocion-interna-la-evaluacion-del-desempeno}
 
-**Artículo 16. Concepto, principios y modalidades de la carrera profesional de los funcionarios de carrera **
+**Artículo 16. Concepto, principios y modalidades de la carrera profesional de los funcionarios de carrera**
 
 **Artículo 17. Carrera horizontal de los funcionarios de carrera.**
 
 
 
-**Artículo 18. Promoción interna de los funcionarios de carrera **
+**Artículo 18. Promoción interna de los funcionarios de carrera**
 
-**Artículo 19. Carrera profesional y promoción del personal laboral **
+**Artículo 19. Carrera profesional y promoción del personal laboral**
 
-**Artículo 20. La evaluación del desempeño **
+**Artículo 20. La evaluación del desempeño**
 
 ### CAPÍTULO III. Derechos retributivos {#capitulo-iii-derechos-retributivos}
 
-**Artículo 21. Determinación de las cuantías y de los incrementos retributivos **
+**Artículo 21. Determinación de las cuantías y de los incrementos retributivos**
 
-**Artículo 22. Retribuciones de los funcionarios **
+**Artículo 22. Retribuciones de los funcionarios**
 
 **Artículo 23. Retribuciones básicas.**
 
 
 
-**Artículo 24. Retribuciones complementarias **
+**Artículo 24. Retribuciones complementarias**
 
-**Artículo 25. Retribuciones de los funcionarios interinos **
+**Artículo 25. Retribuciones de los funcionarios interinos**
 
-**Artículo 26. Retribuciones de los funcionarios en prácticas **
+**Artículo 26. Retribuciones de los funcionarios en prácticas**
 
-**Artículo 27. Retribuciones del personal laboral **
+**Artículo 27. Retribuciones del personal laboral**
 
-**Artículo 28. Indemnizaciones **
+**Artículo 28. Indemnizaciones**
 
-**Artículo 29. Retribuciones diferidas **
+**Artículo 29. Retribuciones diferidas**
 
-**Artículo 30. Deducción de retribuciones **
+**Artículo 30. Deducción de retribuciones**
 
 
 ### CAPÍTULO IV. Derecho a la negociación colectiva, representación y participación institucional. Derecho de {#capitulo-iv-derecho-a-la-negociacion-colectiva-representacion-y-participacion-institucional-derecho-de}
@@ -120,17 +120,17 @@ reunión
 
 
 
-**Artículo 32. Negociación colectiva, representación y participación del personal laboral **
+**Artículo 32. Negociación colectiva, representación y participación del personal laboral**
 
-**Artículo 33. Negociación colectiva **
+**Artículo 33. Negociación colectiva**
 
-**Artículo 34. Mesas de Negociación **
+**Artículo 34. Mesas de Negociación**
 
 **Artículo 35. Constitución y composición de las Mesas de Negociación.**
 
 
 
-**Artículo 36. Mesas Generales de Negociación **
+**Artículo 36. Mesas Generales de Negociación**
 
 **Artículo 37. Materias objeto de negociación.**
 
@@ -140,39 +140,39 @@ reunión
 
 
 
-**Artículo 39. Órganos de representación **
+**Artículo 39. Órganos de representación**
 
-**Artículo 40. Funciones y legitimación de los órganos de representación **
+**Artículo 40. Funciones y legitimación de los órganos de representación**
 
-**Artículo 41. Garantías de la función representativa del personal **
+**Artículo 41. Garantías de la función representativa del personal**
 
-**Artículo 42. Duración de la representación **
+**Artículo 42. Duración de la representación**
 
-**Artículo 43. Promoción de elecciones a Delegados y Juntas de Personal **
+**Artículo 43. Promoción de elecciones a Delegados y Juntas de Personal**
 
 **Artículo 44. Procedimiento electoral.**
 
 
 
-**Artículo 45. Solución extrajudicial de conflictos colectivos **
+**Artículo 45. Solución extrajudicial de conflictos colectivos**
 
-**Artículo 46. Derecho de reunión **
+**Artículo 46. Derecho de reunión**
 
 ### CAPÍTULO V. Derecho a la jornada de trabajo, permisos y vacaciones {#capitulo-v-derecho-a-la-jornada-de-trabajo-permisos-y-vacaciones}
 
-**Artículo 47. Jornada de trabajo de los funcionarios públicos **
+**Artículo 47. Jornada de trabajo de los funcionarios públicos**
 
-**Artículo 47 bis. Teletrabajo **
+**Artículo 47 bis. Teletrabajo**
 
-**Artículo 48. Permisos de los funcionarios públicos **
+**Artículo 48. Permisos de los funcionarios públicos**
 
 **Artículo 49. Permisos por motivos de conciliación de la vida personal, familiar y laboral, por razón de**
 
 violencia de género o de violencia sexual y para las víctimas de terrorismo y sus familiares directos
 
-**Artículo 50. Vacaciones de los funcionarios públicos **
+**Artículo 50. Vacaciones de los funcionarios públicos**
 
-**Artículo 51. Jornada de trabajo, permisos y vacaciones del personal laboral **
+**Artículo 51. Jornada de trabajo, permisos y vacaciones del personal laboral**
 
 ### CAPÍTULO VI. Deberes de los empleados públicos. Código de Conducta {#capitulo-vi-deberes-de-los-empleados-publicos-codigo-de-conducta}
 
@@ -180,30 +180,30 @@ violencia de género o de violencia sexual y para las víctimas de terrorismo y 
 
 
 
-**Artículo 53. Principios éticos **
+**Artículo 53. Principios éticos**
 
-**Artículo 54. Principios de conducta **
+**Artículo 54. Principios de conducta**
 
 ## TÍTULO IV. Adquisición y pérdida de la relación de servicio {#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio}
 
 ### CAPÍTULO I. Acceso al empleo público y adquisición de la relación de servicio {#capitulo-i-acceso-al-empleo-publico-y-adquisicion-de-la-relacion-de-servicio}
 
 
-**Artículo 55. Principios rectores **
+**Artículo 55. Principios rectores**
 
-**Artículo 56. Requisitos generales **
+**Artículo 56. Requisitos generales**
 
 **Artículo 57. Acceso al empleo público de nacionales de otros Estados.**
 
 
 
-**Artículo 58. Acceso al empleo público de funcionarios españoles de Organismos Internacionales **
+**Artículo 58. Acceso al empleo público de funcionarios españoles de Organismos Internacionales**
 
-**Artículo 59. Personas con discapacidad **
+**Artículo 59. Personas con discapacidad**
 
-**Artículo 60. Órganos de selección **
+**Artículo 60. Órganos de selección**
 
-**Artículo 61. Sistemas selectivos **
+**Artículo 61. Sistemas selectivos**
 
 **Artículo 62. Adquisición de la condición de funcionario de carrera.**
 
@@ -211,7 +211,7 @@ violencia de género o de violencia sexual y para las víctimas de terrorismo y 
 
 ### CAPÍTULO II. Pérdida de la relación de servicio {#capitulo-ii-perdida-de-la-relacion-de-servicio}
 
-**Artículo 63. Causas de pérdida de la condición de funcionario de carrera **
+**Artículo 63. Causas de pérdida de la condición de funcionario de carrera**
 
 **Artículo 64. Renuncia.**
 
@@ -225,37 +225,37 @@ violencia de género o de violencia sexual y para las víctimas de terrorismo y 
 
 
 
-**Artículo 67. Jubilación **
+**Artículo 67. Jubilación**
 
-**Artículo 68. Rehabilitación de la condición de funcionario **
+**Artículo 68. Rehabilitación de la condición de funcionario**
 
 ## TÍTULO V. Ordenación de la actividad profesional {#titulo-v-ordenacion-de-la-actividad-profesional}
 
 ### CAPÍTULO I. Planificación de recursos humanos {#capitulo-i-planificacion-de-recursos-humanos}
 
-**Artículo 69. Objetivos e instrumentos de la planificación **
+**Artículo 69. Objetivos e instrumentos de la planificación**
 
 **Artículo 70. Oferta de empleo público.**
 
 
 
-**Artículo 71. Registros de personal y Gestión integrada de recursos humanos **
+**Artículo 71. Registros de personal y Gestión integrada de recursos humanos**
 
 ### CAPÍTULO II. Estructuración del empleo público {#capitulo-ii-estructuracion-del-empleo-publico}
 
-**Artículo 72. Estructuración de los recursos humanos **
+**Artículo 72. Estructuración de los recursos humanos**
 
-**Artículo 73. Desempeño y agrupación de puestos de trabajo **
+**Artículo 73. Desempeño y agrupación de puestos de trabajo**
 
 **Artículo 74. Ordenación de los puestos de trabajo.**
 
 
 
-**Artículo 75. Cuerpos y escalas **
+**Artículo 75. Cuerpos y escalas**
 
-**Artículo 76. Grupos de clasificación profesional del personal funcionario de carrera **
+**Artículo 76. Grupos de clasificación profesional del personal funcionario de carrera**
 
-**Artículo 77. Clasificación del personal laboral **
+**Artículo 77. Clasificación del personal laboral**
 
 ### CAPÍTULO III. Provisión de puestos de trabajo y movilidad {#capitulo-iii-provision-de-puestos-de-trabajo-y-movilidad}
 
@@ -267,36 +267,36 @@ carrera
 
 
 
-**Artículo 80. Libre designación con convocatoria pública del personal funcionario de carrera **
+**Artículo 80. Libre designación con convocatoria pública del personal funcionario de carrera**
 
 
-**Artículo 81. Movilidad del personal funcionario de carrera **
+**Artículo 81. Movilidad del personal funcionario de carrera**
 
 **Artículo 82. Movilidad por razón de violencia de género, violencia sexual y violencia terrorista.**
 
 
 
-**Artículo 83. Provisión de puestos y movilidad del personal laboral **
+**Artículo 83. Provisión de puestos y movilidad del personal laboral**
 
-**Artículo 84. La movilidad voluntaria entre Administraciones Públicas **
+**Artículo 84. La movilidad voluntaria entre Administraciones Públicas**
 
 ## TÍTULO VI. Situaciones administrativas {#titulo-vi-situaciones-administrativas}
 
-**Artículo 85. Situaciones administrativas de los funcionarios de carrera **
+**Artículo 85. Situaciones administrativas de los funcionarios de carrera**
 
-**Artículo 86. Servicio activo **
+**Artículo 86. Servicio activo**
 
-**Artículo 87. Servicios especiales **
+**Artículo 87. Servicios especiales**
 
-**Artículo 88. Servicio en otras Administraciones Públicas **
+**Artículo 88. Servicio en otras Administraciones Públicas**
 
-**Artículo 89. Excedencia **
+**Artículo 89. Excedencia**
 
-**Artículo 90. Suspensión de funciones **
+**Artículo 90. Suspensión de funciones**
 
-**Artículo 91. Reingreso al servicio activo **
+**Artículo 91. Reingreso al servicio activo**
 
-**Artículo 92. Situaciones del personal laboral **
+**Artículo 92. Situaciones del personal laboral**
 
 ## TÍTULO VII. Régimen disciplinario {#titulo-vii-regimen-disciplinario}
 
@@ -304,21 +304,21 @@ carrera
 
 
 
-**Artículo 94. Ejercicio de la potestad disciplinaria **
+**Artículo 94. Ejercicio de la potestad disciplinaria**
 
-**Artículo 95. Faltas disciplinarias **
+**Artículo 95. Faltas disciplinarias**
 
 **Artículo 96. Sanciones.**
 
 
 
-**Artículo 97. Prescripción de las faltas y sanciones **
+**Artículo 97. Prescripción de las faltas y sanciones**
 
-**Artículo 98. Procedimiento disciplinario y medidas provisionales **
+**Artículo 98. Procedimiento disciplinario y medidas provisionales**
 
 ## TÍTULO VIII. Cooperación entre las Administraciones Públicas {#titulo-viii-cooperacion-entre-las-administraciones-publicas}
 
-**Artículo 99. Relaciones de cooperación entre las Administraciones Públicas **
+**Artículo 99. Relaciones de cooperación entre las Administraciones Públicas**
 
 **Artículo 100. Órganos de cooperación.**
 
@@ -1574,11 +1574,7 @@ Las Administraciones Públicas estructurarán su organización a través de rela
 
 Los cuerpos y escalas se clasifican, de acuerdo con la titulación exigida para el acceso a los mismos, en los siguientes grupos:
 
-Grupo A: Dividido en dos Subgrupos, A1 y A2. Para el acceso a los cuerpos o escalas de este Grupo se exigirá estar en posesión del
-
-## título universitario de Grado. En aquellos supuestos en los que la ley exija otro título {#titulo-universitario-de-grado-en-aquellos-supuestos-en-los-que-la-ley-exija-otro-titulo}
-
-universitario será éste el que se tenga en cuenta.
+Grupo A: Dividido en dos Subgrupos, A1 y A2. Para el acceso a los cuerpos o escalas de este Grupo se exigirá estar en posesión del título universitario de Grado. En aquellos supuestos en los que la ley exija otro título universitario será éste el que se tenga en cuenta.
 
 La clasificación de los cuerpos y escalas en cada Subgrupo estará en función del nivel de responsabilidad de las funciones a desempeñar y de las características de las pruebas de acceso.
 

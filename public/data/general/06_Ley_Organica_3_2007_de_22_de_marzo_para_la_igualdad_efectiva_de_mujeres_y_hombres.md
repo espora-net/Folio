@@ -6,33 +6,33 @@ Preámbulo
 
 ## TÍTULO PRELIMINAR. Objeto y ámbito de la Ley {#titulo-preliminar-objeto-y-ambito-de-la-ley}
 
-**Artículo 1. Objeto de la Ley **
+**Artículo 1. Objeto de la Ley**
 
-**Artículo 2. Ámbito de aplicación **
+**Artículo 2. Ámbito de aplicación**
 
 ## TÍTULO I. El principio de igualdad y la tutela contra la discriminación {#titulo-i-el-principio-de-igualdad-y-la-tutela-contra-la-discriminacion}
 
-**Artículo 3. El principio de igualdad de trato entre mujeres y hombres **
+**Artículo 3. El principio de igualdad de trato entre mujeres y hombres**
 
-**Artículo 4. Integración del principio de igualdad en la interpretación y aplicación de las normas **
+**Artículo 4. Integración del principio de igualdad en la interpretación y aplicación de las normas**
 
 **Artículo 5. Igualdad de trato y de oportunidades en el acceso al empleo, en la formación y en la promoción** profesionales, y en las condiciones de trabajo
 
 **Artículo 6. Discriminación directa e indirecta.**
 
-**Artículo 7. Acoso sexual y acoso por razón de sexo **
+**Artículo 7. Acoso sexual y acoso por razón de sexo**
 
-**Artículo 8. Discriminación por embarazo o maternidad **
+**Artículo 8. Discriminación por embarazo o maternidad**
 
-**Artículo 9. Indemnidad frente a represalias **
+**Artículo 9. Indemnidad frente a represalias**
 
-**Artículo 10. Consecuencias jurídicas de las conductas discriminatorias **
+**Artículo 10. Consecuencias jurídicas de las conductas discriminatorias**
 
-**Artículo 11. Acciones positivas **
+**Artículo 11. Acciones positivas**
 
-**Artículo 12. Tutela judicial efectiva **
+**Artículo 12. Tutela judicial efectiva**
 
-**Artículo 13. Prueba **
+**Artículo 13. Prueba**
 
 ## TÍTULO II. Políticas públicas para la igualdad {#titulo-ii-politicas-publicas-para-la-igualdad}
 
@@ -40,17 +40,17 @@ Preámbulo
 
 **Artículo 14. Criterios generales de actuación de los Poderes Públicos.**
 
-**Artículo 15. Transversalidad del principio de igualdad de trato entre mujeres y hombres **
+**Artículo 15. Transversalidad del principio de igualdad de trato entre mujeres y hombres**
 
 **Artículo 16. Nombramientos realizados por los Poderes Públicos.**
 
-**Artículo 17. Plan Estratégico de Igualdad de Oportunidades **
+**Artículo 17. Plan Estratégico de Igualdad de Oportunidades**
 
-**Artículo 18. Informe periódico **
+**Artículo 18. Informe periódico**
 
-**Artículo 19. Informes de impacto de género **
+**Artículo 19. Informes de impacto de género**
 
-**Artículo 20. Adecuación de las estadísticas y estudios **
+**Artículo 20. Adecuación de las estadísticas y estudios**
 
 **Artículo 21. Colaboración entre las Administraciones públicas.**
 
@@ -58,45 +58,45 @@ Preámbulo
 
 ### CAPÍTULO II. Acción administrativa para la igualdad {#capitulo-ii-accion-administrativa-para-la-igualdad}
 
-**Artículo 23. La educación para la igualdad de mujeres y hombres **
+**Artículo 23. La educación para la igualdad de mujeres y hombres**
 
-**Artículo 24. Integración del principio de igualdad en la política de educación **
+**Artículo 24. Integración del principio de igualdad en la política de educación**
 
-**Artículo 25. La igualdad en el ámbito de la educación superior **
+**Artículo 25. La igualdad en el ámbito de la educación superior**
 
-**Artículo 26. La igualdad en el ámbito de la creación y producción artística e intelectual **
+**Artículo 26. La igualdad en el ámbito de la creación y producción artística e intelectual**
 
 **Artículo 27. Integración del principio de igualdad en la política de salud.**
 
-**Artículo 28. Sociedad de la Información **
+**Artículo 28. Sociedad de la Información**
 
 **Artículo 29. Deportes.**
 
-**Artículo 30. Desarrollo rural **
+**Artículo 30. Desarrollo rural**
 
-**Artículo 31. Políticas urbanas, de ordenación territorial y vivienda **
+**Artículo 31. Políticas urbanas, de ordenación territorial y vivienda**
 
-**Artículo 32. Política española de cooperación para el desarrollo **
+**Artículo 32. Política española de cooperación para el desarrollo**
 
 **Artículo 33. Contratos de las Administraciones públicas.**
 
-**Artículo 34. Contratos de la Administración General del Estado **
+**Artículo 34. Contratos de la Administración General del Estado**
 
 **Artículo 35. Subvenciones públicas.**
 
 ## TÍTULO III. Igualdad y medios de comunicación {#titulo-iii-igualdad-y-medios-de-comunicacion}
 
-**Artículo 36. La igualdad en los medios de comunicación social de titularidad pública **
+**Artículo 36. La igualdad en los medios de comunicación social de titularidad pública**
 
-**Artículo 37. Corporación RTVE **
+**Artículo 37. Corporación RTVE**
 
 **Artículo 38. Agencia EFE.**
 
-**Artículo 39. La igualdad en los medios de comunicación social de titularidad privada **
+**Artículo 39. La igualdad en los medios de comunicación social de titularidad privada**
 
-**Artículo 40. Autoridad audiovisual **
+**Artículo 40. Autoridad audiovisual**
 
-**Artículo 41. Igualdad y publicidad **
+**Artículo 41. Igualdad y publicidad**
 
 ## TÍTULO IV. El derecho al trabajo en igualdad de oportunidades {#titulo-iv-el-derecho-al-trabajo-en-igualdad-de-oportunidades}
 
@@ -104,7 +104,7 @@ Preámbulo
 
 **Artículo 42. Programas de mejora de la empleabilidad de las mujeres.**
 
-**Artículo 43. Promoción de la igualdad en la negociación colectiva **
+**Artículo 43. Promoción de la igualdad en la negociación colectiva**
 
 ### CAPÍTULO II. Igualdad y conciliación {#capitulo-ii-igualdad-y-conciliacion}
 
@@ -112,94 +112,94 @@ Preámbulo
 
 ### CAPÍTULO III. Los planes de igualdad de las empresas y otras medidas de promoción de la igualdad {#capitulo-iii-los-planes-de-igualdad-de-las-empresas-y-otras-medidas-de-promocion-de-la-igualdad}
 
-**Artículo 45. Elaboración y aplicación de los planes de igualdad **
+**Artículo 45. Elaboración y aplicación de los planes de igualdad**
 
-**Artículo 46. Concepto y contenido de los planes de igualdad de las empresas **
+**Artículo 46. Concepto y contenido de los planes de igualdad de las empresas**
 
 **Artículo 47. Transparencia en la implantación del plan de igualdad.**
 
 **Artículo 48. Medidas específicas para prevenir la comisión de delitos y otras conductas contra la libertad** sexual y la integridad moral en el trabajo
 
-**Artículo 49. Apoyo para la implantación voluntaria de planes de igualdad **
+**Artículo 49. Apoyo para la implantación voluntaria de planes de igualdad**
 
 ### CAPÍTULO IV. Distintivo empresarial en materia de igualdad {#capitulo-iv-distintivo-empresarial-en-materia-de-igualdad}
 
-**Artículo 50. Distintivo para las empresas en materia de igualdad **
+**Artículo 50. Distintivo para las empresas en materia de igualdad**
 
 ## TÍTULO V. El principio de igualdad en el empleo público {#titulo-v-el-principio-de-igualdad-en-el-empleo-publico}
 
 ### CAPÍTULO I. Criterios de actuación de las Administraciones públicas {#capitulo-i-criterios-de-actuacion-de-las-administraciones-publicas}
 
-**Artículo 51. Criterios de actuación de las Administraciones públicas **
+**Artículo 51. Criterios de actuación de las Administraciones públicas**
 
 ### CAPÍTULO II. El principio de presencia equilibrada en la Administración General del Estado y en los {#capitulo-ii-el-principio-de-presencia-equilibrada-en-la-administracion-general-del-estado-y-en-los} organismos públicos vinculados o dependientes de ella
 
 **Artículo 52. Titulares de órganos directivos.**
 
-**Artículo 53. Órganos de selección y Comisiones de valoración **
+**Artículo 53. Órganos de selección y Comisiones de valoración**
 
-**Artículo 54. Designación de representantes de la Administración General del Estado **
+**Artículo 54. Designación de representantes de la Administración General del Estado**
 
 ### CAPÍTULO III. Medidas de Igualdad en el empleo para la Administración General del Estado y para los {#capitulo-iii-medidas-de-igualdad-en-el-empleo-para-la-administracion-general-del-estado-y-para-los} organismos públicos vinculados o dependientes de ella
 
-**Artículo 55. Informe de impacto de género en las pruebas de acceso al empleo público **
+**Artículo 55. Informe de impacto de género en las pruebas de acceso al empleo público**
 
 **Artículo 56. Permisos y beneficios de protección a la maternidad y la conciliación de la vida personal, familiar** y laboral
 
-**Artículo 57. Conciliación y provisión de puestos de trabajo **
+**Artículo 57. Conciliación y provisión de puestos de trabajo**
 
-**Artículo 58. Licencia por riesgo durante el embarazo y lactancia **
+**Artículo 58. Licencia por riesgo durante el embarazo y lactancia**
 
-**Artículo 59. Vacaciones **
+**Artículo 59. Vacaciones**
 
 **Artículo 60. Acciones positivas en las actividades de formación.**
 
-**Artículo 61. Formación para la igualdad **
+**Artículo 61. Formación para la igualdad**
 
-**Artículo 62. Protocolo de actuación frente al acoso sexual y al acoso por razón de sexo **
+**Artículo 62. Protocolo de actuación frente al acoso sexual y al acoso por razón de sexo**
 
-**Artículo 63. Evaluación sobre la igualdad en el empleo público **
+**Artículo 63. Evaluación sobre la igualdad en el empleo público**
 
 **Artículo 64. Plan de Igualdad en la Administración General del Estado y en los organismos públicos**
 vinculados o dependientes de ella.
 
 ### CAPÍTULO IV. Fuerzas Armadas {#capitulo-iv-fuerzas-armadas}
 
-**Artículo 65. Respeto del principio de igualdad **
+**Artículo 65. Respeto del principio de igualdad**
 
 **Artículo 66. Aplicación en las Fuerzas Armadas de las normas referidas al personal de las administraciones** públicas
 
 ### CAPÍTULO V. Fuerzas y Cuerpos de Seguridad del Estado {#capitulo-v-fuerzas-y-cuerpos-de-seguridad-del-estado}
 
-**Artículo 67. Respeto del principio de igualdad **
+**Artículo 67. Respeto del principio de igualdad**
 
 **Artículo 68. Aplicación de las normas referidas al personal de las administraciones públicas en las Fuerzas y** Cuerpos de Seguridad
 
 ## TÍTULO VI. Igualdad de trato en el acceso a bienes y servicios y su suministro {#titulo-vi-igualdad-de-trato-en-el-acceso-a-bienes-y-servicios-y-su-suministro}
 
-**Artículo 69. Igualdad de trato en el acceso a bienes y servicios **
+**Artículo 69. Igualdad de trato en el acceso a bienes y servicios**
 
-**Artículo 70. Protección en situación de embarazo **
+**Artículo 70. Protección en situación de embarazo**
 
-**Artículo 71. Factores actuariales **
+**Artículo 71. Factores actuariales**
 
-**Artículo 72. Consecuencias del incumplimiento de las prohibiciones **
+**Artículo 72. Consecuencias del incumplimiento de las prohibiciones**
 
 ## TÍTULO VII. La igualdad en la responsabilidad social de las empresas {#titulo-vii-la-igualdad-en-la-responsabilidad-social-de-las-empresas}
 
-**Artículo 73. Acciones de responsabilidad social de las empresas en materia de igualdad **
+**Artículo 73. Acciones de responsabilidad social de las empresas en materia de igualdad**
 
-**Artículo 74. Publicidad de las acciones de responsabilidad social en materia de igualdad **
+**Artículo 74. Publicidad de las acciones de responsabilidad social en materia de igualdad**
 
-**Artículo 75. Participación de las mujeres en los Consejos de administración de las sociedades mercantiles **
+**Artículo 75. Participación de las mujeres en los Consejos de administración de las sociedades mercantiles**
 
 ## TÍTULO VIII. Disposiciones organizativas {#titulo-viii-disposiciones-organizativas}
 
 **Artículo 76. Comisión Interministerial de Igualdad entre mujeres y hombres.**
 
-**Artículo 77. Las Unidades de Igualdad **
+**Artículo 77. Las Unidades de Igualdad**
 
-**Artículo 78. Consejo de Participación de la Mujer **
+**Artículo 78. Consejo de Participación de la Mujer**
 
 Disposiciones adicionales
 
@@ -1117,9 +1117,7 @@ Uno. Se añade un último inciso en el apartado 1 del artículo 109, que queda e
 
 «En todo caso, se elaborará un informe previo de impacto de género.» Tres. Se añade, en el artículo 122.1, después de «Comisión de Calificación», la expresión «Comisión de Igualdad».
 
-Cuatro. Se añade un artículo 136 bis que integrará la nueva Sección 7.ª del Capítulo IV,
-
-## Título II, Libro II, rubricada como «De la Comisión de Igualdad», con la siguiente redacción: {#titulo-ii-libro-ii-rubricada-como-de-la-comision-de-igualdad-con-la-siguiente-redaccion}
+Cuatro. Se añade un artículo 136 bis que integrará la nueva Sección 7.ª del Capítulo IV, Título II, Libro II, rubricada como «De la Comisión de Igualdad», con la siguiente redacción:
 
 «Artículo 136 bis.
 
