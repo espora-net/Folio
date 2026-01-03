@@ -10,92 +10,91 @@ Preámbulo
 
 ## TÍTULO I. Funciones del sistema universitario y autonomía de las universidades {#titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades}
 
-**Artículo 2. Funciones del sistema universitario **
+**Artículo 2. Funciones del sistema universitario**
 
-**Artículo 3. Autonomía de las universidades **
+**Artículo 3. Autonomía de las universidades**
 
 ## TÍTULO II. Creación y reconocimiento de las universidades y calidad del sistema universitario {#titulo-ii-creacion-y-reconocimiento-de-las-universidades-y-calidad-del-sistema-universitario}
 
-**Artículo 4. Creación y reconocimiento de las universidades **
+**Artículo 4. Creación y reconocimiento de las universidades**
 
-**Artículo 5. La calidad del sistema universitario **
+**Artículo 5. La calidad del sistema universitario**
 
 ## TÍTULO III. Organización de enseñanzas {#titulo-iii-organizacion-de-ensenanzas}
 
 **Artículo 6. La función docente.**
 
-**Artículo 7. Los títulos universitarios **
+**Artículo 7. Los títulos universitarios**
 
 **Artículo 8. Los títulos universitarios oficiales.**
 
-**Artículo 9. Estructura de las enseñanzas oficiales **
+**Artículo 9. Estructura de las enseñanzas oficiales**
 
-**Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de equivalencia de títulos** extranjeros, validación de experiencia y reconocimiento de créditos
+**Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de equivalencia de títulos extranjeros, validación de experiencia y reconocimiento de créditos**
 
 ## TÍTULO IV. Investigación y transferencia e intercambio del conocimiento e innovación {#titulo-iv-investigacion-y-transferencia-e-intercambio-del-conocimiento-e-innovacion}
 
-**Artículo 11. Normas generales **
+**Artículo 11. Normas generales**
 
 **Artículo 12. Fomento de la Ciencia Abierta y Ciencia Ciudadana.**
 
-**Artículo 13. Desarrollo de proyectos para la investigación, creación y transferencia e intercambio del**
-conocimiento.
+**Artículo 13. Desarrollo de proyectos para la investigación, creación y transferencia e intercambio del conocimiento.**
 
 ## TÍTULO V. Cooperación, coordinación y participación en el sistema universitario {#titulo-v-cooperacion-coordinacion-y-participacion-en-el-sistema-universitario}
 
-**Artículo 14. Cooperación y coordinación en el sistema universitario **
+**Artículo 14. Cooperación y coordinación en el sistema universitario**
 
-**Artículo 15. La Conferencia General de Política Universitaria **
+**Artículo 15. La Conferencia General de Política Universitaria**
 
-**Artículo 16. El Consejo de Universidades **
+**Artículo 16. El Consejo de Universidades**
 
-**Artículo 17. El Consejo de Estudiantes Universitario del Estado **
+**Artículo 17. El Consejo de Estudiantes Universitario del Estado**
 
 ## TÍTULO VI. Universidad, sociedad y cultura {#titulo-vi-universidad-sociedad-y-cultura}
 
 **Artículo 18. Cohesión social y territorial.**
 
-**Artículo 19. La cultura en la Universidad **
+**Artículo 19. La cultura en la Universidad**
 
-**Artículo 20. Universidad y diversidad lingüística **
+**Artículo 20. Universidad y diversidad lingüística**
 
 **Artículo 21. El patrimonio histórico, artístico y cultural universitario y las bibliotecas.**
 
-**Artículo 22. El deporte y la actividad física en la Universidad **
+**Artículo 22. El deporte y la actividad física en la Universidad**
 
 ## TÍTULO VII. Internacionalización del sistema universitario {#titulo-vii-internacionalizacion-del-sistema-universitario}
 
 **Artículo 23. Fomento de la internacionalización del sistema universitario.**
 
-**Artículo 24. Estrategia de Internacionalización del Sistema Universitario **
+**Artículo 24. Estrategia de Internacionalización del Sistema Universitario**
 
-**Artículo 25. Alianzas interuniversitarias **
+**Artículo 25. Alianzas interuniversitarias**
 
 **Artículo 26. Títulos y programas conjuntos.**
 
-**Artículo 27. Movilidad internacional de la comunidad universitaria **
+**Artículo 27. Movilidad internacional de la comunidad universitaria**
 
-**Artículo 28. Atracción de talento **
+**Artículo 28. Atracción de talento**
 
 **Artículo 29. Centros en el extranjero.**
 
-**Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo **
+**Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo**
 
 ## TÍTULO VIII. El estudiantado en el Sistema Universitario {#titulo-viii-el-estudiantado-en-el-sistema-universitario}
 
 **Artículo 31. Derecho de acceso.**
 
-**Artículo 32. Becas y ayudas al estudio **
+**Artículo 32. Becas y ayudas al estudio**
 
-**Artículo 33. Derechos relativos a la formación académica **
+**Artículo 33. Derechos relativos a la formación académica**
 
-**Artículo 34. Derechos de participación y representación **
+**Artículo 34. Derechos de participación y representación**
 
-**Artículo 35. Eficacia y garantía de los derechos **
+**Artículo 35. Eficacia y garantía de los derechos**
 
 **Artículo 36. Deberes del estudiantado.**
 
-**Artículo 37. Equidad y no discriminación **
+**Artículo 37. Equidad y no discriminación**
 
 ## TÍTULO IX. Régimen específico de las universidades públicas {#titulo-ix-regimen-especifico-de-las-universidades-publicas}
 
@@ -103,145 +102,145 @@ conocimiento.
 
 **Artículo 38. Régimen jurídico.**
 
-**Artículo 39. Rendición de cuentas, transparencia e integridad **
+**Artículo 39. Rendición de cuentas, transparencia e integridad**
 
 **Artículo 40. Centros y estructuras.**
 
-**Artículo 41. Creación, modificación y supresión de centros y estructuras **
+**Artículo 41. Creación, modificación y supresión de centros y estructuras**
 
-**Artículo 42. Adscripción de centros **
+**Artículo 42. Adscripción de centros**
 
-**Artículo 43. Unidades básicas **
+**Artículo 43. Unidades básicas**
 
 ### CAPÍTULO II. Gobernanza de las universidades públicas {#capitulo-ii-gobernanza-de-las-universidades-publicas}
 
 **Artículo 44. Normas generales de gobernanza, representación y participación en las universidades públicas.**
 
-**Artículo 45. El Claustro Universitario **
+**Artículo 45. El Claustro Universitario**
 
-**Artículo 46. El Consejo de Gobierno **
+**Artículo 46. El Consejo de Gobierno**
 
-**Artículo 47. El Consejo Social **
+**Artículo 47. El Consejo Social**
 
-**Artículo 48. El Consejo de Estudiantes **
+**Artículo 48. El Consejo de Estudiantes**
 
-**Artículo 49. Otros órganos colegiados **
+**Artículo 49. Otros órganos colegiados**
 
-**Artículo 50. El Rector o la Rectora y su Equipo de Gobierno **
+**Artículo 50. El Rector o la Rectora y su Equipo de Gobierno**
 
-**Artículo 51. La elección del Rector o la Rectora **
+**Artículo 51. La elección del Rector o la Rectora**
 
-**Artículo 52. Otros órganos unipersonales **
+**Artículo 52. Otros órganos unipersonales**
 
 ### CAPÍTULO III. Régimen económico y financiero de las universidades públicas {#capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas}
 
 **Artículo 53. Marco normativo.**
 
-**Artículo 54. Autonomía económica y financiera **
+**Artículo 54. Autonomía económica y financiera**
 
 **Artículo 55. Suficiencia financiera.**
 
 **Artículo 56. Programación y sistema de financiación.**
 
-**Artículo 57. Presupuesto **
+**Artículo 57. Presupuesto**
 
-**Artículo 58. Patrimonio **
+**Artículo 58. Patrimonio**
 
-**Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera **
+**Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera**
 
 **Artículo 60. Colaboración con otras entidades o personas físicas.**
 
-**Artículo 61. Entidades o empresas basadas en el conocimiento **
+**Artículo 61. Entidades o empresas basadas en el conocimiento**
 
-**Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades** funcionales
+**Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades funcionales**
 
-**Artículo 63. Creación de fundaciones públicas y otras personas jurídicas públicas **
+**Artículo 63. Creación de fundaciones públicas y otras personas jurídicas públicas**
 
 ### CAPÍTULO IV. Personal docente e investigador de las universidades públicas {#capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas}
 
-**Artículo 64. Personal docente e investigador **
+**Artículo 64. Personal docente e investigador**
 
-**Artículo 65. Promoción de la equidad entre el personal docente e investigador **
+**Artículo 65. Promoción de la equidad entre el personal docente e investigador**
 
-**Artículo 66. Movilidad temporal del personal docente e investigador **
+**Artículo 66. Movilidad temporal del personal docente e investigador**
 
 **Artículo 67. Formación.**
 
 #### Sección 1.ª El profesorado de los cuerpos docentes universitarios {#seccion-1-a-el-profesorado-de-los-cuerpos-docentes-universitarios}
 
-**Artículo 68. Cuerpos docentes universitarios **
+**Artículo 68. Cuerpos docentes universitarios**
 
 **Artículo 69. Acreditación de los cuerpos docentes universitarios.**
 
-**Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios** asistenciales y de salud pública de instituciones sanitarias
+**Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios asistenciales y de salud pública de instituciones sanitarias**
 
-**Artículo 71. Concursos para el acceso a plazas de los cuerpos docentes universitarios **
+**Artículo 71. Concursos para el acceso a plazas de los cuerpos docentes universitarios**
 
-**Artículo 72. Concursos de movilidad del profesorado **
+**Artículo 72. Concursos de movilidad del profesorado**
 
-**Artículo 73. Comisiones de reclamaciones **
+**Artículo 73. Comisiones de reclamaciones**
 
-**Artículo 74. Reingreso de excedentes al servicio activo **
+**Artículo 74. Reingreso de excedentes al servicio activo**
 
 **Artículo 75. Régimen de dedicación.**
 
-**Artículo 76. Retribuciones del personal docente e investigador funcionario **
+**Artículo 76. Retribuciones del personal docente e investigador funcionario**
 
 #### Sección 2.ª El personal docente e investigador laboral {#seccion-2-a-el-personal-docente-e-investigador-laboral}
 
-**Artículo 77. Normas generales **
+**Artículo 77. Normas generales**
 
-**Artículo 78. Profesoras y Profesores Ayudantes Doctoras/es **
+**Artículo 78. Profesoras y Profesores Ayudantes Doctoras/es**
 
-**Artículo 79. Profesoras y Profesores Asociadas/os **
+**Artículo 79. Profesoras y Profesores Asociadas/os**
 
-**Artículo 80. Profesoras y Profesores Sustitutas/os **
+**Artículo 80. Profesoras y Profesores Sustitutas/os**
 
-**Artículo 81. Profesoras y Profesores Eméritas/os **
+**Artículo 81. Profesoras y Profesores Eméritas/os**
 
-**Artículo 82. Profesoras y Profesores Permanentes Laborales **
+**Artículo 82. Profesoras y Profesores Permanentes Laborales**
 
-**Artículo 83. Profesoras y Profesores Visitantes **
+**Artículo 83. Profesoras y Profesores Visitantes**
 
-**Artículo 84. Profesoras y Profesores Distinguidas/os **
+**Artículo 84. Profesoras y Profesores Distinguidas/os**
 
-**Artículo 85. Acreditación **
+**Artículo 85. Acreditación**
 
-**Artículo 86. Concursos para el acceso a plazas de personal docente e investigador laboral **
+**Artículo 86. Concursos para el acceso a plazas de personal docente e investigador laboral**
 
 **Artículo 87. Retribuciones del personal docente e investigador laboral.**
 
 #### Sección 3.ª El profesorado de la Unión Europea {#seccion-3-a-el-profesorado-de-la-union-europea}
 
-**Artículo 88. Profesorado de la Unión Europea **
+**Artículo 88. Profesorado de la Unión Europea**
 
 ### CAPÍTULO V. Personal técnico, de gestión y de administración y servicios de las universidades públicas {#capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas}
 
-**Artículo 89. Personal técnico, de gestión y de administración y servicios **
+**Artículo 89. Personal técnico, de gestión y de administración y servicios**
 
-**Artículo 90. Carrera profesional **
+**Artículo 90. Carrera profesional**
 
-**Artículo 91. Acceso a plazas de personal técnico, de gestión y de administración y servicios de las** universidades públicas
+**Artículo 91. Acceso a plazas de personal técnico, de gestión y de administración y servicios de las universidades públicas**
 
-**Artículo 92. Provisión de puestos de trabajo **
+**Artículo 92. Provisión de puestos de trabajo**
 
 **Artículo 93. Retribuciones.**
 
-**Artículo 94. Formación y movilidad **
+**Artículo 94. Formación y movilidad**
 
 ## TÍTULO X. Régimen específico de las universidades privadas {#titulo-x-regimen-especifico-de-las-universidades-privadas}
 
-**Artículo 95. Régimen jurídico **
+**Artículo 95. Régimen jurídico**
 
 **Artículo 96. Creación de universidades y centros universitarios.**
 
-**Artículo 97. Centros y estructuras **
+**Artículo 97. Centros y estructuras**
 
-**Artículo 98. Órganos de gobierno **
+**Artículo 98. Órganos de gobierno**
 
-**Artículo 99. Personal docente e investigador **
+**Artículo 99. Personal docente e investigador**
 
-**Artículo 100. Régimen económico-financiero **
+**Artículo 100. Régimen económico-financiero**
 
 Disposiciones adicionales
 
@@ -584,9 +583,7 @@ El doctorado con mención industrial, que requerirá en todo caso de un convenio
 
 8. En relación con las estructuras curriculares en las enseñanzas universitarias oficiales, las universidades, en el ejercicio de su autonomía, podrán desarrollar estrategias de innovación docente específicas, como los títulos oficiales con itinerario abierto, mención dual, dobles titulaciones u otras modalidades, en la forma en que se desarrolle reglamentariamente.
 
-**Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de**
-
-equivalencia de títulos extranjeros, validación de experiencia y reconocimiento de créditos.
+**Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de equivalencia de títulos extranjeros, validación de experiencia y reconocimiento de créditos.**
 
 Corresponde al Gobierno, previo informe del Consejo de Universidades, regular:
 
@@ -643,9 +640,7 @@ tendrá 1. El conocimiento científico la consideración de un bien común. Las 
 
 11. Lo anterior será compatible con la posibilidad de tomar las medidas oportunas para proteger, con carácter previo a la publicación científica, los derechos sobre los resultados de la actividad de investigación, desarrollo e innovación, de acuerdo con las normativas nacionales y europeas en materia de propiedad intelectual e industrial, obtenciones vegetales o secreto empresarial.
 
-**Artículo 13. Desarrollo de proyectos para la investigación, creación y transferencia e**
-
-intercambio del conocimiento.
+**Artículo 13. Desarrollo de proyectos para la investigación, creación y transferencia e intercambio del conocimiento.**
 
 1. Las Administraciones Públicas fomentarán la investigación y, asimismo, el desarrollo tecnológico en el ámbito universitario, sin perjuicio del desarrollo de programas propios de las universidades, mediante, entre otras, las siguientes actuaciones:
 
@@ -1084,9 +1079,7 @@ La inspección de servicios actuará motu proprio, a instancia de los distintos 
 
 Gobernanza de las universidades públicas
 
-**Artículo 44. Normas generales de gobernanza, representación y participación en las**
-
-universidades públicas.
+**Artículo 44. Normas generales de gobernanza, representación y participación en las universidades públicas.**
 
 1. Los Estatutos de las universidades establecerán y regularán los siguientes órganos colegiados: Claustro Universitario, Consejo de Gobierno y Consejo de Estudiantes. Asimismo, establecerán el Consejo Social y podrán establecer y regular Consejos de Escuela y de Facultad, Consejos de Departamento u otros órganos específicos que se determinen.
 
@@ -1399,9 +1392,7 @@ industrial y propiedad intelectual cuya 3. El profesorado funcionario de los cue
 El Gobierno, mediante real decreto y previo informe de la Conferencia General de Política Universitaria, regulará las condiciones y el procedimiento para la concesión de dicha excedencia que, en todo caso, sólo podrá concederse por un tiempo máximo de cinco años. Durante este período, el personal en situación de excedencia tendrá derecho a la reserva del puesto de trabajo y a su cómputo a efectos de antigüedad. Si con anterioridad a la finalización del período por el que se hubiera concedido la excedencia la persona interesada no solicitase el reingreso al servicio activo, será declarada de oficio en situación de excedencia voluntaria por interés particular.
 
 
-**Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como**
-
-unidades funcionales.
+**Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades funcionales.**
 
 Siempre que sean autónomos en su objeto, los proyectos de investigación, desarrollo e innovación que hayan sido encomendados a las universidades públicas mediante contratos, resoluciones de concesión de subvenciones o cualquier otro instrumento jurídico tendrán la consideración de unidades funcionales separadas dentro de dichas universidades, a los efectos del cálculo del valor estimado que establece el artículo 101.6 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público.
 
@@ -1494,9 +1485,7 @@ g) La justificación de forma detallada, objetiva y transparente del resultado d
 3. Por real decreto del Consejo de Ministros, previo informe del Consejo de Universidades, se regulará el procedimiento de acreditación. En estos procedimientos el sentido del silencio administrativo será desestimatorio.
 
 
-**Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a**
-
-servicios asistenciales y de salud pública de instituciones sanitarias.
+**Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios asistenciales y de salud pública de instituciones sanitarias.**
 
 1. El personal de los cuerpos docentes universitarios que ocupe una plaza vinculada a los servicios asistenciales y de salud pública de instituciones sanitarias, en áreas de conocimiento de carácter clínico asistencial y de salud pública, de acuerdo con lo establecido en el artículo ciento cinco de la Ley 14/1986, de 25 de abril, General de Sanidad, se regirá por lo establecido en este artículo y los demás de esta ley orgánica que le sean de aplicación. Dicha plaza se considerará, a todos los efectos, como un solo puesto de trabajo.
 
@@ -1754,9 +1743,7 @@ Asimismo, podrá desarrollar su carrera profesional, mediante el ascenso en la e
 
 3. En todo caso, en la carrera profesional de este personal se observarán los principios de transparencia retributiva y de igualdad efectiva en los procesos de promoción profesional.
 
-**Artículo 91. Acceso a plazas de personal técnico, de gestión y de administración y servicios**
-
-de las universidades públicas.
+**Artículo 91. Acceso a plazas de personal técnico, de gestión y de administración y servicios de las universidades públicas.**
 
 1. La selección del personal técnico, de gestión y de administración y servicios, funcionario y laboral, se realizará mediante la superación de las pruebas selectivas de acceso, en los términos establecidos por la normativa aplicable y por los Estatutos de las universidades y, en todo caso, de acuerdo con los principios de igualdad, mérito, capacidad, transparencia, publicidad y concurrencia, así como la posibilidad de recurso ante la propia universidad.
 
@@ -1799,11 +1786,7 @@ Régimen específico de las universidades privadas
 
 1. Las universidades privadas tendrán personalidad jurídica propia en cualquiera de las formas legalmente existentes, pudiendo ser entidades con ánimo de lucro o de carácter social, incluidas las sociedades cooperativas. Su objeto social exclusivo será la educación superior y la investigación y, en su caso, la transferencia e intercambio del conocimiento. Deberán realizar todas las funciones a las que se refiere el artículo 2.2.
 
-2. Su régimen jurídico resulta de lo dispuesto en los preceptos de esta ley orgánica que le son de aplicación y en las normas que los desarrollen. Además de lo dispuesto en este
-
-## título X, les será igualmente de aplicación lo establecido en los títulos preliminar, I, II, III, IV {#titulo-x-les-sera-igualmente-de-aplicacion-lo-establecido-en-los-titulos-preliminar-i-ii-iii-iv}
-
-exceptuando el artículo 13, V, VI, VII y VIII, así como las disposiciones adicionales cuarta, séptima, octava y novena.
+2. Su régimen jurídico resulta de lo dispuesto en los preceptos de esta ley orgánica que le son de aplicación y en las normas que los desarrollen. Además de lo dispuesto en este título X, les será igualmente de aplicación lo establecido en los títulos preliminar, I, II, III, IV exceptuando el artículo 13, V, VI, VII y VIII, así como las disposiciones adicionales cuarta, séptima, octava y novena.
 
 No obstante, siempre que sea posible, los programas de fomento de proyectos para la investigación, creación y transferencia e intercambio del conocimiento impulsados por las Administraciones Públicas conforme a la previsión contenida en el artículo 13, facilitarán la participación de las universidades de carácter social y sin ánimo de lucro declaradas de interés público.
 
@@ -1857,9 +1840,7 @@ En los supuestos de cambio de titularidad, el nuevo titular quedará subrogado e
 
 2. Dicho personal deberá estar en posesión de la titulación académica adecuada para la impartición de los diferentes títulos universitarios oficiales.
 
-3. Con independencia de las condiciones generales que se establezcan de conformidad con el artículo 4.3 y de la normativa que el Gobierno pueda establecer al respecto, en las universidades privadas y en los centros privados adscritos a universidades públicas y privadas deberá estar en posesión del título de Doctora o Doctor el mismo porcentaje que el exigido a las universidades públicas y, al menos, el 60 por ciento del total de su profesorado doctor deberá haber obtenido la evaluación positiva de la ANECA o del órgano de evaluación externa que la ley de la Comunidad Autónoma determine. A estos efectos, el número total de profesorado se computará sobre el equivalente en dedicación a tiempo completo del profesorado que imparta el conjunto de enseñanzas correspondientes a la obtención de un
-
-## título universitario oficial de Grado o Máster Universitario. {#titulo-universitario-oficial-de-grado-o-master-universitario}
+3. Con independencia de las condiciones generales que se establezcan de conformidad con el artículo 4.3 y de la normativa que el Gobierno pueda establecer al respecto, en las universidades privadas y en los centros privados adscritos a universidades públicas y privadas deberá estar en posesión del título de Doctora o Doctor el mismo porcentaje que el exigido a las universidades públicas y, al menos, el 60 por ciento del total de su profesorado doctor deberá haber obtenido la evaluación positiva de la ANECA o del órgano de evaluación externa que la ley de la Comunidad Autónoma determine. A estos efectos, el número total de profesorado se computará sobre el equivalente en dedicación a tiempo completo del profesorado que imparta el conjunto de enseñanzas correspondientes a la obtención de un título universitario oficial de Grado o Máster Universitario.
 
 4. El personal docente e investigador, cuya actividad investigadora esté financiada mayoritariamente con fondos públicos, hará pública una versión digital con los contenidos Página 60 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA finales que hayan sido aceptados para su publicación en revistas y otras publicaciones científicas, en el plazo previsto en el artículo 37 de la Ley 14/2011, de 1 de junio.
 
@@ -2068,9 +2049,7 @@ De la resolución de estos procesos no podrá resultar, en ningún caso, increme
 
 2. Los contratos de Profesoras y Profesores Asociadas/os vigentes a la entrada en vigor de esta ley orgánica, podrán renovarse en las mismas condiciones y con la misma dedicación docente hasta que las plazas estén incluidas en un proceso de estabilización de los previstos en la Ley 20/2021, de 28 de diciembre, y en cualquier caso antes del 31 de diciembre de 2024.
 
-3. En el plazo establecido en el apartado anterior, y para el supuesto de plazas de Profesorado Asociado con una dedicación docente superior a la prevista en el citado artículo 79.b), las universidades públicas podrán articular procesos de estabilización de estas plazas a través de actuaciones específicas que favorezcan el paso de Profesorado Asociado con
-
-## título de Doctor/a a la figura de Profesorado Ayudante Doctor/a. {#titulo-de-doctor-a-a-la-figura-de-profesorado-ayudante-doctor-a}
+3. En el plazo establecido en el apartado anterior, y para el supuesto de plazas de Profesorado Asociado con una dedicación docente superior a la prevista en el citado artículo 79.b), las universidades públicas podrán articular procesos de estabilización de estas plazas a través de actuaciones específicas que favorezcan el paso de Profesorado Asociado con título de Doctor/a a la figura de Profesorado Ayudante Doctor/a.
 
 Disposición transitoria octava. Mecanismos de adaptación para determinadas figuras de personal docente e investigador de las universidades públicas.
 
@@ -2141,9 +2120,7 @@ El título de especialista en Ciencias de la Salud será imprescindible en el ca
 
 En las comisiones que resuelvan los mencionados concursos de acceso, dos de sus miembros serán elegidos por sorteo público por institución sanitaria correspondiente. Estas comisiones deberán valorar la actividad asistencial de los candidatos y candidatas de la forma que reglamentariamente se determine.
 
-la 3. El profesorado asociado se regirá por las normas propias de los Profesores/a Asociados/as de la universidad, a excepción de la dedicación horaria, con las peculiaridades que reglamentariamente se establezcan en cuanto al régimen temporal de sus contratos. Además de reunir los requisitos exigidos en las indicadas normas, cumplirán determinada reglamentariamente. Asimismo, en el caso de las personas que posean la titulación que habilite para el ejercicio de la profesión médica, acreditarán estar en posesión del
-
-## título de Especialista en Ciencias de la Salud.» {#titulo-de-especialista-en-ciencias-de-la-salud}
+3. El profesorado asociado se regirá por las normas propias de los Profesores/a Asociados/as de la universidad, a excepción de la dedicación horaria, con las peculiaridades que reglamentariamente se establezcan en cuanto al régimen temporal de sus contratos. Además de reunir los requisitos exigidos en las indicadas normas, cumplirán determinada reglamentariamente. Asimismo, en el caso de las personas que posean la titulación que habilite para el ejercicio de la profesión médica, acreditarán estar en posesión del título de Especialista en Ciencias de la Salud.
 
 cualificación exigencias cuanto las en su a Página 70 BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Disposición final tercera. Modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.
 
