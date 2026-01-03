@@ -84,6 +84,7 @@ const Flashcards = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [pendingNextIndex, setPendingNextIndex] = useState<number | null>(null);
+  const [cardTextVisible, setCardTextVisible] = useState(true);
   const [studying, setStudying] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
@@ -216,9 +217,16 @@ const Flashcards = () => {
     const nextIndex = currentIndex + 1;
     setPendingNextIndex(nextIndex);
     setShowAnswer(false);
+
+    // Transición suave: difuminar/ocultar el contenido antes de cambiar de tarjeta
+    setCardTextVisible(false);
     window.setTimeout(() => {
       setCurrentIndex(nextIndex);
-      setPendingNextIndex(null);
+      // asegurar que la nueva tarjeta se renderiza oculta antes de reaparecer
+      window.setTimeout(() => {
+        setCardTextVisible(true);
+        setPendingNextIndex(null);
+      }, 20);
     }, 650);
   };
 
@@ -232,6 +240,7 @@ const Flashcards = () => {
     setCurrentIndex(0);
     setShowAnswer(false);
     setPendingNextIndex(null);
+    setCardTextVisible(true);
     setCorrectCount(0);
     setTotalReviewed(filteredFlashcards.length);
     setMarkedForReview([]);
@@ -385,13 +394,19 @@ const Flashcards = () => {
                 style={{ backfaceVisibility: 'hidden' }}
               >
                 <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
-                  <p className="text-sm text-muted-foreground mb-4">Pregunta</p>
-                  <p className="text-xl text-center text-foreground">
-                    {currentCard.question}
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-6">
-                    Toca para ver la respuesta
-                  </p>
+                  <div
+                    className={`transition-all duration-300 ease-out ${
+                      cardTextVisible ? 'opacity-100 blur-0' : 'opacity-0 blur-sm'
+                    }`}
+                  >
+                    <p className="text-sm text-muted-foreground mb-4">Pregunta</p>
+                    <p className="text-xl text-center text-foreground">
+                      {currentCard.question}
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-6">
+                      Toca para ver la respuesta
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
               
@@ -405,10 +420,16 @@ const Flashcards = () => {
                 }}
               >
                 <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
-                  <p className="text-sm text-primary mb-4">Respuesta</p>
-                  <p className="text-xl text-center text-foreground">
-                    {currentCard.answer}
-                  </p>
+                  <div
+                    className={`transition-all duration-300 ease-out ${
+                      cardTextVisible ? 'opacity-100 blur-0' : 'opacity-0 blur-sm'
+                    }`}
+                  >
+                    <p className="text-sm text-primary mb-4">Respuesta</p>
+                    <p className="text-xl text-center text-foreground">
+                      {currentCard.answer}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             </div>
