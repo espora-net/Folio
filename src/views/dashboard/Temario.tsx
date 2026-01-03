@@ -106,10 +106,16 @@ const Temario = () => {
   };
 
   const getRecursoUrl = (archivo: string) => {
-    // Los recursos se sirven desde public/api/ (export estático).
-    // En el JSON, los paths vienen como "data/..." o "db-...json".
+    // Convención actual de rutas:
+    // - Documentos de temario (md/pdf/mp3) se sirven desde public/ (ruta /data/...).
+    // - JSON de datasets/convocatorias se sirven desde public/api (ruta /api/...).
     const trimmedBase = String(basePath).replace(/\/+$/, '');
     const cleanArchivo = String(archivo).replace(/^\/+/, '');
+
+    if (cleanArchivo.startsWith('data/')) {
+      return `${trimmedBase}/${cleanArchivo}`.replace(DUPLICATE_SLASHES, '/');
+    }
+
     return `${trimmedBase}/api/${cleanArchivo}`.replace(DUPLICATE_SLASHES, '/');
   };
 

@@ -17,6 +17,10 @@ Notas importantes:
 - El `basePath` se calcula con `NEXT_PUBLIC_BASE_PATH`.
 - Existe un fallback “bundled” para casos de fallo de red, que se alimenta desde la carpeta `public/api/` (import estático en `src/lib/data-api.ts`). Los datos en `public/api/` son la única fuente de verdad tanto para build-time como para runtime.
 
+Documentos del temario:
+
+- Los recursos (Markdown/PDF/MP3) enlazados desde el temario se sirven como ficheros estáticos desde `public/data/` (por ejemplo: `/data/general/...`).
+
 ### 2) Persistencia (localStorage por usuario)
 
 - El estado del usuario (temas completados, SRS de flashcards, estadísticas) se guarda en `localStorage`.

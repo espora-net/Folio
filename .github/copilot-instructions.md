@@ -61,7 +61,9 @@ Decisiones actuales (fuente de verdad):
   db.json                   Índice principal
   db-*.json                 Datasets temáticos (si declarados en db.json)
   convocatoria-*.json       Datos de convocatorias (si declarados en db.json)
-  data/general/*.md         Documentos/recursos de referencia
+
+/public/data/               Recursos estáticos (temario en documentos)
+  general/*.{md,pdf,mp3}    Documentos/recursos del temario
 
 /docs/                      Documentación (AUTHENTICATION, manual)
 /out/                       Salida del export estático (generado)
