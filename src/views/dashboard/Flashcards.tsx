@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { RotateCcw, Check, Bookmark, Filter, Trophy, X, ChevronDown, ChevronRight, LayoutGrid, List, Sparkles } from 'lucide-react';
+import { RotateCcw, Check, Bookmark, Filter, Trophy, X, ChevronDown, ChevronRight, LayoutGrid, List, Sparkles, ExternalLink, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -23,6 +23,49 @@ type TopicGroup = {
 
 type ViewMode = 'cards' | 'list';
 type OriginFilter = 'all' | 'generated' | 'oposito.es';
+
+const normalizeOrigin = (origin?: string) => {
+  const o = (origin ?? 'generated').trim();
+  return o || 'generated';
+};
+
+const getOriginTag = (origin?: string) => {
+  const o = normalizeOrigin(origin);
+
+  if (o === 'oficial') {
+    return {
+      label: 'Oficial',
+      icon: FileCheck,
+      className: 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400',
+      tooltip: 'Contenido oficial',
+    };
+  }
+
+  if (o === 'ia') {
+    return {
+      label: 'IA',
+      icon: Sparkles,
+      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
+      tooltip: 'Contenido generado por IA',
+    };
+  }
+
+  if (o === 'generated') {
+    return {
+      label: 'Generada',
+      icon: Sparkles,
+      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
+      tooltip: 'Contenido generado (incluye IA)',
+    };
+  }
+
+  return {
+    label: o,
+    icon: ExternalLink,
+    className: 'border-sky-300 text-sky-700 dark:border-sky-700 dark:text-sky-400',
+    tooltip: `Origen: ${o}`,
+  };
+};
 
 const getOriginLabel = (origin?: string) => {
   const normalized = (origin || 'generated').trim();
@@ -552,18 +595,19 @@ const Flashcards = () => {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   {filteredFlashcards.map((card) => {
                     const topic = getTopicById(card.topicId);
-                    const originLabel = getOriginLabel(card.origin);
+                    const tag = getOriginTag(card.origin);
+                    const TagIcon = tag.icon;
                     return (
                       <Card key={card.id} className="border-border">
                         <CardContent className="p-4 flex flex-col h-full">
                           <div className="flex justify-between items-start mb-2">
                             <p className="text-xs text-muted-foreground">Pregunta</p>
                           </div>
-                          <p className="font-medium text-foreground mb-3 line-clamp-2">
+                          <p className="font-medium text-foreground mb-3 line-clamp-3">
                             {card.question}
                           </p>
                           <p className="text-xs text-muted-foreground">Respuesta</p>
-                          <p className="text-sm text-muted-foreground line-clamp-2 flex-1">
+                          <p className="text-sm text-primary line-clamp-2 flex-1">
                             {card.answer}
                           </p>
                           <div className="mt-3 pt-3 border-t border-border flex flex-wrap gap-2">
@@ -575,9 +619,19 @@ const Flashcards = () => {
                                 {topic.tag || topic.title}
                               </Badge>
                             )}
-                            <Badge variant="secondary" className="text-[10px] px-2 py-0.5">
-                              {originLabel}
-                            </Badge>
+                            <Tooltip>
+                              <TooltipTrigger asChild>
+                                <Badge
+                                  variant="outline"
+                                  className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                                >
+                                  <><TagIcon className="h-3 w-3" /> {tag.label}</>
+                                </Badge>
+                              </TooltipTrigger>
+                              <TooltipContent side="top">
+                                {tag.tooltip}
+                              </TooltipContent>
+                            </Tooltip>
                           </div>
                         </CardContent>
                       </Card>
@@ -588,13 +642,14 @@ const Flashcards = () => {
                 <div className="space-y-2">
                   {filteredFlashcards.map((card, index) => {
                     const topic = getTopicById(card.topicId);
-                    const originLabel = getOriginLabel(card.origin);
+                    const tag = getOriginTag(card.origin);
+                    const TagIcon = tag.icon;
                     return (
                       <Card key={card.id} className="border-border">
                         <CardContent className="p-4">
                           <div className="flex items-start justify-between gap-4">
                             <div className="flex-1 min-w-0">
-                              <div className="flex items-center gap-2 mb-1">
+                              <div className="flex items-center gap-2 mb-1 flex-wrap">
                                 <span className="text-sm text-muted-foreground">#{index + 1}</span>
                                 {topic && (
                                   <Badge
@@ -604,14 +659,22 @@ const Flashcards = () => {
                                     {topic.tag || topic.title}
                                   </Badge>
                                 )}
-                                <Badge variant="secondary" className="text-[10px] px-2 py-0.5">
-                                  {originLabel}
-                                </Badge>
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <Badge
+                                      variant="outline"
+                                      className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                                    >
+                                      <><TagIcon className="h-3 w-3" /> {tag.label}</>
+                                    </Badge>
+                                  </TooltipTrigger>
+                                  <TooltipContent side="top">
+                                    {tag.tooltip}
+                                  </TooltipContent>
+                                </Tooltip>
                               </div>
                               <p className="text-foreground font-medium">{card.question}</p>
-                              <p className="text-sm text-muted-foreground mt-1">
-                                {card.answer}
-                              </p>
+                              <p className="text-sm text-primary mt-1">Respuesta: {card.answer}</p>
                             </div>
                           </div>
                         </CardContent>
