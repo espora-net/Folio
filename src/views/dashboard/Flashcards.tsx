@@ -1,32 +1,18 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Plus, RotateCcw, Check, Bookmark, Trash2, Filter, Trophy, X, ChevronDown, ChevronRight, LayoutGrid, List } from 'lucide-react';
+import { RotateCcw, Check, Bookmark, Filter, Trophy, X, ChevronDown, ChevronRight, LayoutGrid, List, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from '@/components/ui/alert-dialog';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
 import { Badge } from '@/components/ui/badge';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { Flashcard, Topic, getFlashcards, saveFlashcards, getTopics, getQuestions, hideFlashcard, getStats, saveStats } from '@/lib/storage';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
+import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats } from '@/lib/storage';
 import { useToast } from '@/hooks/use-toast';
 
 type TopicGroup = {
@@ -36,6 +22,7 @@ type TopicGroup = {
 };
 
 type ViewMode = 'cards' | 'list';
+type OriginFilter = 'all' | 'generated' | 'oposito.es';
 
 const Flashcards = () => {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
@@ -43,6 +30,7 @@ const Flashcards = () => {
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
+  const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [studying, setStudying] = useState(false);
@@ -50,10 +38,6 @@ const Flashcards = () => {
   const [correctCount, setCorrectCount] = useState(0);
   const [totalReviewed, setTotalReviewed] = useState(0);
   const [markedForReview, setMarkedForReview] = useState<Flashcard[]>([]);
-  const [newQuestion, setNewQuestion] = useState('');
-  const [newAnswer, setNewAnswer] = useState('');
-  const [newTopicId, setNewTopicId] = useState('');
-  const [dialogOpen, setDialogOpen] = useState(false);
   const { toast } = useToast();
 
   useEffect(() => {
@@ -89,9 +73,27 @@ const Flashcards = () => {
     return groups;
   }, [topics, flashcards]);
 
-  const filteredFlashcards = selectedTopics.length > 0
-    ? flashcards.filter(f => selectedTopics.includes(f.topicId))
-    : flashcards;
+  const filteredFlashcards = useMemo(() => {
+    let result = flashcards;
+
+    if (selectedTopics.length > 0) {
+      result = result.filter(f => selectedTopics.includes(f.topicId));
+    }
+
+    if (originFilter !== 'all') {
+      if (originFilter === 'generated') {
+        // 'generated' incluye origin === 'generated' y origin === 'ia'
+        result = result.filter(f => {
+          const o = (f.origin || 'generated');
+          return o === 'generated' || o === 'ia';
+        });
+      } else {
+        result = result.filter(f => (f.origin || 'generated') === originFilter);
+      }
+    }
+
+    return result;
+  }, [flashcards, selectedTopics, originFilter]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 
@@ -128,48 +130,6 @@ const Flashcards = () => {
 
   const clearAllTopics = () => {
     setSelectedTopics([]);
-  };
-
-  const handleAddFlashcard = () => {
-    if (!newQuestion.trim() || !newAnswer.trim()) return;
-
-    const flashcard: Flashcard = {
-      id: crypto.randomUUID(),
-      topicId: newTopicId,
-      question: newQuestion.trim(),
-      answer: newAnswer.trim(),
-      nextReview: new Date().toISOString(),
-      interval: 1,
-      easeFactor: 2.5,
-    };
-
-    const updated = [...flashcards, flashcard];
-    setFlashcards(updated);
-    saveFlashcards(updated);
-    setNewQuestion('');
-    setNewAnswer('');
-    setNewTopicId('');
-    setDialogOpen(false);
-    toast({ title: 'Tarjeta creada' });
-  };
-
-  const handleDelete = (id: string) => {
-    // Si la tarjeta coincide con una pregunta (id igual), la ocultamos en lugar de borrarla
-    const questions = getQuestions();
-    const isDerived = questions.some(q => q.id === id);
-    if (isDerived) {
-      hideFlashcard(id);
-      // recargar
-      const reloaded = getFlashcards();
-      setFlashcards(reloaded);
-      toast({ title: 'Tarjeta oculta (derivada de pregunta)' });
-      return;
-    }
-
-    const updated = flashcards.filter(f => f.id !== id);
-    setFlashcards(updated);
-    saveFlashcards(updated);
-    toast({ title: 'Tarjeta eliminada' });
   };
 
   const handleReview = (markForReview: boolean) => {
@@ -285,12 +245,6 @@ const Flashcards = () => {
               <Button variant="outline" onClick={closeResults} className="w-full">
                 Ver todas las tarjetas
               </Button>
-              <button 
-                onClick={() => { closeResults(); setDialogOpen(true); }}
-                className="block w-full text-sm text-primary hover:underline"
-              >
-                Añadir nuevas tarjetas para repasar →
-              </button>
             </div>
           </div>
         </div>
@@ -306,69 +260,6 @@ const Flashcards = () => {
             <RotateCcw className="h-4 w-4 mr-2" />
             Estudiar ({filteredFlashcards.length})
           </Button>
-          <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
-            <DialogTrigger asChild>
-              <Button>
-                <Plus className="h-4 w-4 mr-2" />
-                Nueva tarjeta
-              </Button>
-            </DialogTrigger>
-            <DialogContent>
-              <DialogHeader>
-                <DialogTitle>Nueva tarjeta</DialogTitle>
-              </DialogHeader>
-              <div className="space-y-4 pt-4">
-                <div className="space-y-2">
-                  <Label htmlFor="topic">Tema</Label>
-                  <select
-                    id="topic"
-                    className="w-full h-10 px-3 rounded-md border border-input bg-background text-sm"
-                    value={newTopicId}
-                    onChange={(e) => setNewTopicId(e.target.value)}
-                  >
-                    <option value="">Sin tema</option>
-                    {topics.map((topic) => (
-                      <option key={topic.id} value={topic.id}>
-                        {topic.tag || topic.title}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="question">
-                    Pregunta <span className="text-destructive">*</span>
-                  </Label>
-                  <Textarea
-                    id="question"
-                    placeholder="Escribe la pregunta..."
-                    value={newQuestion}
-                    onChange={(e) => setNewQuestion(e.target.value)}
-                    required
-                  />
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="answer">
-                    Respuesta <span className="text-destructive">*</span>
-                  </Label>
-                  <Textarea
-                    id="answer"
-                    placeholder="Escribe la respuesta..."
-                    value={newAnswer}
-                    onChange={(e) => setNewAnswer(e.target.value)}
-                    required
-                  />
-                </div>
-                <div className="flex gap-2 justify-end">
-                  <Button variant="outline" onClick={() => setDialogOpen(false)}>
-                    Cancelar
-                  </Button>
-                  <Button onClick={handleAddFlashcard}>
-                    Crear tarjeta
-                  </Button>
-                </div>
-              </div>
-            </DialogContent>
-          </Dialog>
         </div>
       </div>
 
@@ -469,6 +360,49 @@ const Flashcards = () => {
               </Button>
             </div>
           )}
+
+          {/* Filtro por origen (como en Tests) */}
+          <TooltipProvider>
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-medium text-muted-foreground">Origen:</span>
+              <div className="flex gap-1 flex-wrap">
+                <Button
+                  variant={originFilter === 'all' ? 'default' : 'outline'}
+                  size="sm"
+                  className="h-8 px-3 text-xs"
+                  onClick={() => setOriginFilter('all')}
+                >
+                  Todas
+                </Button>
+
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant={originFilter === 'generated' ? 'default' : 'outline'}
+                      size="sm"
+                      className="h-8 px-3 text-xs gap-1.5"
+                      onClick={() => setOriginFilter('generated')}
+                    >
+                      <Sparkles className="h-3.5 w-3.5" />
+                      Generadas
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom">
+                    <p>Incluye origin 'generated' e 'ia'</p>
+                  </TooltipContent>
+                </Tooltip>
+
+                <Button
+                  variant={originFilter === 'oposito.es' ? 'default' : 'outline'}
+                  size="sm"
+                  className="h-8 px-3 text-xs"
+                  onClick={() => setOriginFilter('oposito.es')}
+                >
+                  oposito.es
+                </Button>
+              </div>
+            </div>
+          </TooltipProvider>
         </div>
       ) : (
         <>
@@ -583,14 +517,8 @@ const Flashcards = () => {
             <Card className="border-border border-dashed">
               <CardContent className="py-12 text-center">
                 <p className="text-muted-foreground mb-4">
-                  {selectedTopics.length > 0
-                    ? 'No hay tarjetas para los temas seleccionados.'
-                    : 'No tienes tarjetas creadas todavía.'}
+                  No hay tarjetas para los filtros seleccionados.
                 </p>
-                <Button variant="outline" onClick={() => setDialogOpen(true)}>
-                  <Plus className="h-4 w-4 mr-2" />
-                  Crear tu primera tarjeta
-                </Button>
               </CardContent>
             </Card>
           ) : (
@@ -618,34 +546,6 @@ const Flashcards = () => {
                         <CardContent className="p-4 flex flex-col h-full">
                           <div className="flex justify-between items-start mb-2">
                             <p className="text-xs text-muted-foreground">Pregunta</p>
-                            <AlertDialog>
-                              <AlertDialogTrigger asChild>
-                                <Button
-                                  variant="ghost"
-                                  size="icon"
-                                  className="h-6 w-6 -mt-1 -mr-1"
-                                >
-                                  <Trash2 className="h-4 w-4 text-destructive" />
-                                </Button>
-                              </AlertDialogTrigger>
-                              <AlertDialogContent>
-                                <AlertDialogHeader>
-                                  <AlertDialogTitle>¿Eliminar tarjeta?</AlertDialogTitle>
-                                  <AlertDialogDescription>
-                                    Esta acción no se puede deshacer. La tarjeta será eliminada permanentemente.
-                                  </AlertDialogDescription>
-                                </AlertDialogHeader>
-                                <AlertDialogFooter>
-                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                                  <AlertDialogAction
-                                    onClick={() => handleDelete(card.id)}
-                                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                                  >
-                                    Eliminar
-                                  </AlertDialogAction>
-                                </AlertDialogFooter>
-                              </AlertDialogContent>
-                            </AlertDialog>
                           </div>
                           <p className="font-medium text-foreground mb-3 line-clamp-2">
                             {card.question}
@@ -694,33 +594,6 @@ const Flashcards = () => {
                                 {card.answer}
                               </p>
                             </div>
-                            <AlertDialog>
-                              <AlertDialogTrigger asChild>
-                                <Button
-                                  variant="ghost"
-                                  size="icon"
-                                >
-                                  <Trash2 className="h-4 w-4 text-destructive" />
-                                </Button>
-                              </AlertDialogTrigger>
-                              <AlertDialogContent>
-                                <AlertDialogHeader>
-                                  <AlertDialogTitle>¿Eliminar tarjeta?</AlertDialogTitle>
-                                  <AlertDialogDescription>
-                                    Esta acción no se puede deshacer. La tarjeta será eliminada permanentemente.
-                                  </AlertDialogDescription>
-                                </AlertDialogHeader>
-                                <AlertDialogFooter>
-                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                                  <AlertDialogAction
-                                    onClick={() => handleDelete(card.id)}
-                                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                                  >
-                                    Eliminar
-                                  </AlertDialogAction>
-                                </AlertDialogFooter>
-                              </AlertDialogContent>
-                            </AlertDialog>
                           </div>
                         </CardContent>
                       </Card>

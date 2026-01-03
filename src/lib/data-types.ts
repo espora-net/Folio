@@ -17,6 +17,9 @@ export interface Flashcard {
   nextReview: string;
   interval: number;
   easeFactor: number;
+  // Origen del contenido (p. ej. 'generated', 'ia', 'oposito.es').
+  // Opcional para compatibilidad con localStorage antiguo.
+  origin?: QuestionOrigin;
 }
 
 export type QuestionOrigin = string;

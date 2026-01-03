@@ -236,7 +236,7 @@ const Tests = () => {
                 href="/dashboard/flashcards" 
                 className="block text-sm text-primary hover:underline"
               >
-                Añadir a flashcards para repasar →
+                Ir a flashcards para repasar →
               </a>
             </div>
           </div>
