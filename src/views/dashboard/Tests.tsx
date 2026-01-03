@@ -24,6 +24,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
+import { getActiveConvocatoria, getCachedConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
 
 type TopicGroup = {
@@ -85,6 +86,8 @@ const Tests = () => {
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [originFilter, setOriginFilter] = useState<string>('all');
+  const [convocatoriaFilter, setConvocatoriaFilter] = useState<boolean>(false);
+  const [activeConvocatoria, setActiveConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [testQuestions, setTestQuestions] = useState<TestQuestion[]>([]);
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
@@ -100,6 +103,9 @@ const Tests = () => {
     const loadData = () => {
       setQuestions(getQuestions());
       setTopics(getTopics());
+      // Cargar convocatoria activa
+      const convocatoria = getActiveConvocatoria();
+      setActiveConvocatoria(convocatoria ?? null);
     };
     
     loadData();
@@ -109,9 +115,20 @@ const Tests = () => {
     return () => window.removeEventListener('folio-data-updated', loadData);
   }, []);
 
-  // Filtrar por tema y origen (originFilter puede ser 'all', 'generated', 'ia' o un origen literal)
+  // Calcular los topic IDs que entran en la convocatoria activa
+  const convocatoriaTopicIds = useMemo(() => {
+    if (!activeConvocatoria || !convocatoriaFilter) return null;
+    return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
+  }, [topics, activeConvocatoria, convocatoriaFilter]);
+
+  // Filtrar por convocatoria, tema y origen
   const filteredQuestions = useMemo(() => {
     let result = questions;
+
+    // Primero filtrar por convocatoria si está activo
+    if (convocatoriaTopicIds && convocatoriaTopicIds.length > 0) {
+      result = result.filter(q => convocatoriaTopicIds.includes(q.topicId));
+    }
 
     if (selectedTopics.length > 0) {
       result = result.filter(q => selectedTopics.includes(q.topicId));
@@ -485,6 +502,38 @@ const Tests = () => {
         </div>
       ) : (
         <>
+          {/* Filtro por convocatoria */}
+          {activeConvocatoria && (
+            <div className="flex items-center gap-3 p-3 rounded-lg border border-border bg-card">
+              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
+                <Filter className="h-4 w-4" />
+                <span>Convocatoria:</span>
+              </div>
+              <Button
+                variant={convocatoriaFilter ? 'default' : 'outline'}
+                size="sm"
+                className="h-8 px-3 text-xs gap-1.5"
+                onClick={() => setConvocatoriaFilter(!convocatoriaFilter)}
+              >
+                <span 
+                  className="w-2 h-2 rounded-full" 
+                  style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
+                />
+                {activeConvocatoria.shortTitle}
+                {convocatoriaFilter && (
+                  <Badge variant="secondary" className="ml-1 text-[10px] px-1.5">
+                    Solo lo que entra
+                  </Badge>
+                )}
+              </Button>
+              {convocatoriaFilter && convocatoriaTopicIds && (
+                <span className="text-xs text-muted-foreground">
+                  {convocatoriaTopicIds.length} temas · {filteredQuestions.length} preguntas
+                </span>
+              )}
+            </div>
+          )}
+
           {/* Filtros jerárquicos por tema */}
           {topicGroups.length > 0 && (
             <div className="space-y-3">

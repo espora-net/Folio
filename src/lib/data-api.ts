@@ -153,6 +153,11 @@ const normalizeDatasetTopics = (dataset: RawDataset, descriptor?: DatasetDescrip
           .map(sub => {
             if (!sub || typeof sub !== 'object') return null;
             const data = sub as Record<string, unknown>;
+            // Extraer syllabusCoverageIds si existen
+            const rawCoverage = data.syllabusCoverageIds;
+            const syllabusCoverageIds = Array.isArray(rawCoverage)
+              ? rawCoverage.filter((id): id is string => typeof id === 'string')
+              : undefined;
             return {
               id: typeof data.id === 'string' ? data.id : '',
               title: typeof data.title === 'string' ? data.title : '',
@@ -163,6 +168,7 @@ const normalizeDatasetTopics = (dataset: RawDataset, descriptor?: DatasetDescrip
               completed: false,
               tag,
               color: descriptor?.color,
+              syllabusCoverageIds,
             } as Topic;
           })
           .filter((entry): entry is Topic => Boolean(entry?.id && entry.title))
@@ -313,6 +319,9 @@ const buildDatasetEndpoint = (file: string) =>
 
 export const getCachedDatabase = (): Database => cachedDatabase;
 
+// Re-export types needed by components
+export type { ConvocatoriaDescriptor, Topic } from './data-types';
+
 export const getStudyTypeRegistry = (): StudyTypeRegistryEntry[] => {
   return ((cachedDatabase.studyTypes ?? (baseIndex as DatabaseIndex).studyTypes ?? []) as StudyTypeRegistryEntry[]);
 };
@@ -436,4 +445,49 @@ export const fetchConvocatoria = async (id: string): Promise<ConvocatoriaData | 
   }
 
   return null;
+};
+
+// ============================================================================
+// Helpers para filtrar por cobertura de convocatoria
+// ============================================================================
+
+/**
+ * Obtiene todos los IDs de cobertura declarados en una convocatoria.
+ * Ej: ['#titulo-preliminar', '#titulo-i', '#titulo-iii-derechos-y-deberes...']
+ */
+export const getConvocatoriaCoverageIds = (convocatoriaId: string): string[] => {
+  const convocatoria = cachedConvocatorias.get(convocatoriaId);
+  if (!convocatoria) return [];
+  
+  const allCoverageIds = new Set<string>();
+  for (const tema of convocatoria.temas) {
+    if (Array.isArray(tema.cobertura_convocatoria)) {
+      tema.cobertura_convocatoria.forEach(id => allCoverageIds.add(id));
+    }
+  }
+  return Array.from(allCoverageIds);
+};
+
+/**
+ * Filtra los IDs de topics/subtopics que tienen syllabusCoverageIds 
+ * que coinciden con la cobertura de una convocatoria.
+ */
+export const getTopicIdsInConvocatoria = (
+  topics: Topic[],
+  convocatoriaId: string
+): string[] => {
+  const coverageIds = getConvocatoriaCoverageIds(convocatoriaId);
+  if (coverageIds.length === 0) return [];
+  
+  const coverageSet = new Set(coverageIds);
+  const matchingTopicIds: string[] = [];
+  
+  for (const topic of topics) {
+    // Un topic entra si alguno de sus syllabusCoverageIds está en la cobertura
+    if (topic.syllabusCoverageIds?.some(id => coverageSet.has(id))) {
+      matchingTopicIds.push(topic.id);
+    }
+  }
+  
+  return matchingTopicIds;
 };

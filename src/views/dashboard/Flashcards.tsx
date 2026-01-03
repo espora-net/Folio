@@ -13,6 +13,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats } from '@/lib/storage';
+import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
 
 type TopicGroup = {
@@ -81,6 +82,8 @@ const Flashcards = () => {
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
+  const [convocatoriaFilter, setConvocatoriaFilter] = useState<boolean>(false);
+  const [activeConvocatoria, setActiveConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [studyDeck, setStudyDeck] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -97,6 +100,9 @@ const Flashcards = () => {
     const loadData = () => {
       setFlashcards(getFlashcards());
       setTopics(getTopics());
+      // Cargar convocatoria activa
+      const convocatoria = getActiveConvocatoria();
+      setActiveConvocatoria(convocatoria ?? null);
     };
     
     loadData();
@@ -126,8 +132,19 @@ const Flashcards = () => {
     return groups;
   }, [topics, flashcards]);
 
+  // Calcular los topic IDs que entran en la convocatoria activa
+  const convocatoriaTopicIds = useMemo(() => {
+    if (!activeConvocatoria || !convocatoriaFilter) return null;
+    return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
+  }, [topics, activeConvocatoria, convocatoriaFilter]);
+
   const filteredFlashcards = useMemo(() => {
     let result = flashcards;
+
+    // Primero filtrar por convocatoria si está activo
+    if (convocatoriaTopicIds && convocatoriaTopicIds.length > 0) {
+      result = result.filter(f => convocatoriaTopicIds.includes(f.topicId));
+    }
 
     if (selectedTopics.length > 0) {
       result = result.filter(f => selectedTopics.includes(f.topicId));
@@ -146,7 +163,7 @@ const Flashcards = () => {
     }
 
     return result;
-  }, [flashcards, selectedTopics, originFilter]);
+  }, [flashcards, selectedTopics, originFilter, convocatoriaTopicIds]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 
@@ -488,6 +505,38 @@ const Flashcards = () => {
         </div>
       ) : (
         <>
+          {/* Filtro por convocatoria */}
+          {activeConvocatoria && (
+            <div className="flex items-center gap-3 p-3 rounded-lg border border-border bg-card">
+              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
+                <Filter className="h-4 w-4" />
+                <span>Convocatoria:</span>
+              </div>
+              <Button
+                variant={convocatoriaFilter ? 'default' : 'outline'}
+                size="sm"
+                className="h-8 px-3 text-xs gap-1.5"
+                onClick={() => setConvocatoriaFilter(!convocatoriaFilter)}
+              >
+                <span 
+                  className="w-2 h-2 rounded-full" 
+                  style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
+                />
+                {activeConvocatoria.shortTitle}
+                {convocatoriaFilter && (
+                  <Badge variant="secondary" className="ml-1 text-[10px] px-1.5">
+                    Solo lo que entra
+                  </Badge>
+                )}
+              </Button>
+              {convocatoriaFilter && convocatoriaTopicIds && (
+                <span className="text-xs text-muted-foreground">
+                  {convocatoriaTopicIds.length} temas · {filteredFlashcards.length} tarjetas
+                </span>
+              )}
+            </div>
+          )}
+
           {/* Filtros jerárquicos por tema */}
           {topicGroups.length > 0 && (
             <div className="space-y-3">

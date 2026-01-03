@@ -7,6 +7,8 @@ export interface Topic {
   completed: boolean;
   tag?: string;
   color?: string;
+  // IDs de cobertura de convocatoria (para filtrar qué entra en cada convocatoria)
+  syllabusCoverageIds?: string[];
 }
 
 export interface Flashcard {
