@@ -77,6 +77,11 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
         }
       ]
     },

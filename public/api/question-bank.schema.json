@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuestionBank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topics",
+    "questions"
+  ],
+  "properties": {
+    "topics": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/topic"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/question"
+      }
+    }
+  },
+  "definitions": {
+    "topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "description",
+        "order",
+        "createdAt",
+        "updatedAt",
+        "subtopics"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "order": {
+          "type": "integer"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "subtopics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/subtopic"
+          }
+        }
+      }
+    },
+    "subtopic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "topicId",
+        "title",
+        "content",
+        "order"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "topicId": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "order": {
+          "type": "integer"
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "topicId",
+        "question",
+        "options",
+        "correctAnswer",
+        "explanation",
+        "difficulty",
+        "tags",
+        "createdAt",
+        "updatedAt",
+        "source",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "topicId": {
+          "type": "string"
+        },
+        "question": {
+          "type": "string"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2
+        },
+        "correctAnswer": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": [
+            "basica",
+            "intermedia",
+            "avanzada"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source": {
+          "$ref": "#/definitions/source"
+        },
+        "origin": {
+          "type": "string"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "materialId",
+        "path",
+        "highlightText"
+      ],
+      "properties": {
+        "materialId": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "highlightText": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
