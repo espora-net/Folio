@@ -35,6 +35,49 @@ type TopicGroup = {
 type ViewMode = 'cards' | 'list';
 type OriginFilter = 'all' | 'generated' | 'published' | 'ia';
 
+const normalizeOrigin = (origin?: string) => {
+  const o = (origin ?? 'generated').trim();
+  return o || 'generated';
+};
+
+const getOriginTag = (origin?: string) => {
+  const o = normalizeOrigin(origin);
+
+  if (o === 'oficial') {
+    return {
+      label: 'Oficial',
+      icon: FileCheck,
+      className: 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400',
+      tooltip: 'Pregunta de examen oficial',
+    };
+  }
+
+  if (o === 'ia') {
+    return {
+      label: 'IA',
+      icon: Sparkles,
+      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
+      tooltip: 'Pregunta generada por IA',
+    };
+  }
+
+  if (o === 'generated') {
+    return {
+      label: 'Generada',
+      icon: Sparkles,
+      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
+      tooltip: 'Pregunta generada (incluye IA)',
+    };
+  }
+
+  return {
+    label: o,
+    icon: ExternalLink,
+    className: 'border-sky-300 text-sky-700 dark:border-sky-700 dark:text-sky-400',
+    tooltip: `Origen: ${o}`,
+  };
+};
+
 const Tests = () => {
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
@@ -268,6 +311,26 @@ const Tests = () => {
                   {getTopicById(currentQuestion.topicId)?.tag || getTopicById(currentQuestion.topicId)?.title}
                 </Badge>
               )}
+
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  {(() => {
+                    const tag = getOriginTag(currentQuestion.origin);
+                    const Icon = tag.icon;
+                    return (
+                      <Badge
+                        variant="outline"
+                        className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                      >
+                        <Icon className="h-3 w-3" /> {tag.label}
+                      </Badge>
+                    );
+                  })()}
+                </TooltipTrigger>
+                <TooltipContent side="top">
+                  {getOriginTag(currentQuestion.origin).tooltip}
+                </TooltipContent>
+              </Tooltip>
             </div>
             <div className="flex items-center gap-4">
               <span>Aciertos: {score}</span>
@@ -550,7 +613,7 @@ const Tests = () => {
                 {Array.from(new Set(questions.map(q => (q.origin || 'generated')))).map(origin => {
                   if (origin === 'generated') return null; // already have 'Generadas'
                   // represent 'ia' specifically
-                  const label = origin === 'ia' ? 'IA' : origin;
+                  const label = origin === 'ia' ? 'IA' : origin === 'oficial' ? 'Oficial' : origin;
                   return (
                     <Tooltip key={origin}>
                       <TooltipTrigger asChild>
@@ -601,6 +664,8 @@ const Tests = () => {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   {filteredQuestions.map((q) => {
                     const topic = getTopicById(q.topicId);
+                    const tag = getOriginTag(q.origin);
+                    const TagIcon = tag.icon;
                     return (
                       <Card key={q.id} className="border-border">
                         <CardContent className="p-4 flex flex-col h-full">
@@ -626,23 +691,13 @@ const Tests = () => {
                                 <TooltipTrigger asChild>
                                   <Badge 
                                     variant="outline" 
-                                    className={`text-[10px] px-2 py-0.5 gap-1 ${
-                                      (q.origin || 'generated') === 'generated' 
-                                        ? 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400' 
-                                        : 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400'
-                                    }`}
+                                    className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
                                   >
-                                    {(q.origin || 'generated') === 'generated' ? (
-                                      <><Sparkles className="h-3 w-3" /> IA</>
-                                    ) : (
-                                      <><FileCheck className="h-3 w-3" /> Oficial</>
-                                    )}
+                                    <><TagIcon className="h-3 w-3" /> {tag.label}</>
                                   </Badge>
                                 </TooltipTrigger>
                                 <TooltipContent side="top">
-                                  {(q.origin || 'generated') === 'generated' 
-                                    ? 'Pregunta generada por IA' 
-                                    : 'Pregunta de examen oficial'}
+                                  {tag.tooltip}
                                 </TooltipContent>
                               </Tooltip>
                             </div>
@@ -656,6 +711,8 @@ const Tests = () => {
                 <div className="space-y-2">
                   {filteredQuestions.map((q, index) => {
                     const topic = getTopicById(q.topicId);
+                    const tag = getOriginTag(q.origin);
+                    const TagIcon = tag.icon;
                     return (
                       <Card key={q.id} className="border-border">
                         <CardContent className="p-4">
@@ -675,23 +732,13 @@ const Tests = () => {
                                   <TooltipTrigger asChild>
                                     <Badge 
                                       variant="outline" 
-                                      className={`text-[10px] px-2 py-0.5 gap-1 ${
-                                        (q.origin || 'generated') === 'generated' 
-                                          ? 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400' 
-                                          : 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400'
-                                      }`}
+                                      className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
                                     >
-                                      {(q.origin || 'generated') === 'generated' ? (
-                                        <><Sparkles className="h-3 w-3" /> IA</>
-                                      ) : (
-                                        <><FileCheck className="h-3 w-3" /> Oficial</>
-                                      )}
+                                      <><TagIcon className="h-3 w-3" /> {tag.label}</>
                                     </Badge>
                                   </TooltipTrigger>
                                   <TooltipContent side="top">
-                                    {(q.origin || 'generated') === 'generated' 
-                                      ? 'Pregunta generada por IA' 
-                                      : 'Pregunta de examen oficial'}
+                                    {tag.tooltip}
                                   </TooltipContent>
                                 </Tooltip>
                               </div>
