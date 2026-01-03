@@ -392,7 +392,7 @@ const Flashcards = () => {
           </div>
           
           <div className="mb-4 text-center text-sm text-muted-foreground">
-            Tarjeta {currentIndex + 1} de {filteredFlashcards.length}
+            Tarjeta {currentIndex + 1} de {activeDeck.length}
             {markedForReview.length > 0 && (
               <span className="ml-2 text-orange-500">
                 ({markedForReview.length} marcadas)
