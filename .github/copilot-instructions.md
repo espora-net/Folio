@@ -36,6 +36,7 @@ Decisiones actuales (fuente de verdad):
 - 2025-12-14 — **No persistir preguntas**: `questions` vienen del dataset y no se guardan; `flashcards` se derivan de `questions`.
 - 2025-12-14 — **Authgear + GitHub OAuth**: login client-side, callback en `/auth/callback/` y `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo/demos.
 - 2026-01-03 — **Temario por tipo de estudio**: `public/api/db.json` declara `studyTypes` (plantilla de Temario + datasets asociados) y `convocatorias` enlaza `questionDatasetIds` para relacionar temario con tests.
+- 2026-01-03 — **syllabusCoverageIds**: Los subtopics de los datasets (`db-*.json`) incluyen `syllabusCoverageIds` que enlazan con `cobertura_convocatoria` de la convocatoria. Validado automáticamente por workflow `.github/workflows/validate-syllabus-coverage.yml`.
 
 ## Estructura del proyecto (resumen)
 
