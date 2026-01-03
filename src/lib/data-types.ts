@@ -220,8 +220,16 @@ export const STUDY_TYPES: StudyTypeConfig[] = [
   },
 ];
 
+export interface StudyFilters {
+  convocatoriaFilter: boolean;
+  selectedTopicIds: string[];
+  originFilter: string;
+}
+
 export interface UserPreferences {
   studyType: StudyType;
   studyTypeLabel?: string; // Etiqueta personalizada opcional
   onboardingCompleted: boolean;
+  // Filtros persistidos para Tests y Flashcards
+  filters?: StudyFilters;
 }

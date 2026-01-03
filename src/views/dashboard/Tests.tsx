@@ -23,7 +23,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats } from '@/lib/storage';
+import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters } from '@/lib/storage';
 import { getActiveConvocatoria, getCachedConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
 
@@ -97,8 +97,10 @@ const Tests = () => {
   const [score, setScore] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
+  const [filtersLoaded, setFiltersLoaded] = useState(false);
   const { toast } = useToast();
 
+  // Cargar datos y filtros guardados
   useEffect(() => {
     const loadData = () => {
       setQuestions(getQuestions());
@@ -106,6 +108,15 @@ const Tests = () => {
       // Cargar convocatoria activa
       const convocatoria = getActiveConvocatoria();
       setActiveConvocatoria(convocatoria ?? null);
+      
+      // Cargar filtros guardados (solo la primera vez)
+      if (!filtersLoaded) {
+        const savedFilters = getStudyFilters();
+        setConvocatoriaFilter(savedFilters.convocatoriaFilter);
+        setSelectedTopics(savedFilters.selectedTopicIds);
+        setOriginFilter(savedFilters.originFilter);
+        setFiltersLoaded(true);
+      }
     };
     
     loadData();
@@ -113,7 +124,17 @@ const Tests = () => {
     // Escuchar actualizaciones de datos
     window.addEventListener('folio-data-updated', loadData);
     return () => window.removeEventListener('folio-data-updated', loadData);
-  }, []);
+  }, [filtersLoaded]);
+
+  // Guardar filtros cuando cambien
+  useEffect(() => {
+    if (!filtersLoaded) return; // No guardar hasta que se hayan cargado
+    saveStudyFilters({
+      convocatoriaFilter,
+      selectedTopicIds: selectedTopics,
+      originFilter,
+    });
+  }, [convocatoriaFilter, selectedTopics, originFilter, filtersLoaded]);
 
   // Calcular los topic IDs que entran en la convocatoria activa
   const convocatoriaTopicIds = useMemo(() => {
