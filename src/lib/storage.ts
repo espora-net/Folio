@@ -8,7 +8,6 @@ export { type Database, type Flashcard, type StudyStats, type TestQuestion, type
 const STORAGE_KEYS = {
   TOPICS: 'folio_topics',
   FLASHCARDS: 'folio_flashcards',
-  QUESTIONS: 'folio_questions',
   HIDDEN_FLASHCARDS: 'folio_hidden_flashcards',
   STATS: 'folio_stats',
 };
@@ -129,13 +128,9 @@ export const saveFlashcards = (flashcards: Flashcard[]) => {
 };
 
 export const getQuestions = (): TestQuestion[] => {
-  if (typeof window === 'undefined') return getCachedDatabase().questions;
-  return readFromStorage('QUESTIONS', getCachedDatabase().questions);
-};
-
-export const saveQuestions = (questions: TestQuestion[]) => {
-  if (typeof window === 'undefined') return;
-  writeToStorage('QUESTIONS', questions);
+  // Las preguntas se consideran “fuente de verdad” del dataset (API estática/bundled).
+  // Para evitar problemas de sincronización, no se persisten en localStorage.
+  return getCachedDatabase().questions;
 };
 
 export const getStats = (): StudyStats => {
@@ -175,9 +170,19 @@ export const hydrateFromApi = async () => {
   const stored = {
     topics: hasStoredValue('TOPICS'),
     flashcards: hasStoredValue('FLASHCARDS'),
-    questions: hasStoredValue('QUESTIONS'),
     stats: hasStoredValue('STATS'),
   };
+
+  // Limpieza: dejar de usar preguntas persistidas en localStorage.
+  // Mantenerlo aquí evita que datos antiguos "ganen" al dataset actual.
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.removeItem('folio_questions');
+      localStorage.removeItem(scopedKey('folio_questions'));
+    } catch {
+      // noop
+    }
+  }
 
   // Siempre actualizar topics para obtener tags y colores nuevos,
   // pero preservar el estado 'completed' del usuario
@@ -223,18 +228,6 @@ export const hydrateFromApi = async () => {
     local => !(database.questions || []).some(q => q.id === local.id)
   );
   saveFlashcards([...derivedFromQuestions, ...localOnlyFlashcards]);
-
-  // Siempre actualizar questions para obtener source, origin y nuevos campos
-  const localQuestions: TestQuestion[] = stored.questions ? getQuestions() : [];
-  const mergedQuestions = database.questions.map(apiQuestion => {
-    // Usar siempre la versión de la API (tiene source, origin, etc.)
-    return apiQuestion;
-  });
-  // Incluir questions creadas localmente que no están en la API
-  const localOnlyQuestions = localQuestions.filter(
-    local => !database.questions.some(api => api.id === local.id)
-  );
-  saveQuestions([...mergedQuestions, ...localOnlyQuestions]);
 
   if (!stored.stats) saveStats(database.stats);
 
