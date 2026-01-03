@@ -114,8 +114,8 @@ Si solo quieres un demo sin login, define `NEXT_PUBLIC_SKIP_AUTH=true` durante e
 - `src/lib/storage.ts`: persistencia + hidratación desde la API
 - `public/api/`: datasets JSON servidos como “API estática”
 
-## Mejoras para simplificar (propuestas)
+## Notas de diseño
 
-- ✅ Los datos ahora usan `public/api/` como única fuente de verdad (tanto en build-time como runtime).
-- Añadir script de preview (ej. `"preview": "python3 -m http.server -d out 4173"`) para reproducir Pages sin comandos manuales.
-- Centralizar utilidades de `basePath` (una función compartida) para evitar discrepancias entre rutas (assets, API y auth).
+- `public/api/` es la única fuente de verdad de datos (runtime y fallback bundled).
+- `NEXT_PUBLIC_BASE_PATH` controla rutas y assets cuando se despliega bajo subdirectorio (p. ej. GitHub Pages).
+- La app evita persistir preguntas: `questions` vienen del dataset y `flashcards` se derivan a partir de ellas.

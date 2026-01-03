@@ -1,62 +1,76 @@
 # Copilot Instructions for Folio
 
-## Repository Overview
+## Visión general
 
-Folio is a study application designed for competitive exam candidates (opositores) in Spain who want to pass their exams in an intelligent, organized way without wasting time. The application helps manage and organize study materials for competitive examinations.
+Folio es una aplicación de estudio para opositores/as (y otros perfiles) pensada para funcionar como **sitio estático** (sin backend propio) y persistir el progreso **en el navegador**.
 
-## Project Structure
+- Framework: **Next.js (App Router)**
+- Despliegue: **export estático** (`output: 'export'`) para GitHub Pages u hosting estático.
+- Datos: JSON servidos desde `public/api/` (API estática) + fallback “bundled” durante build/runtime.
+
+## Objetivo de estas instrucciones
+
+Cuando propongas cambios:
+
+- Mantén compatibilidad con export estático (evita dependencias de servidor en runtime).
+- Respeta el modelo de datos y la estrategia de hidratación/persistencia descritas abajo.
+- Mantén el texto de UI y documentación en **español**.
+
+## Registro de decisiones de diseño (mantener actualizado)
+
+Regla obligatoria: **ante cualquier cambio relevante** (arquitectura, datos, persistencia, auth, routing, UX principal), actualiza este mismo documento añadiendo o ajustando una entrada aquí.
+
+Formato recomendado por entrada:
+
+- **Fecha**: `YYYY-MM-DD`
+- **Decisión**: (qué se decidió)
+- **Motivo**: (por qué)
+- **Impacto**: (qué afecta: datos/persistencia/UX/build)
+- **Archivos**: (lista corta de archivos tocados)
+
+Decisiones actuales (fuente de verdad):
+
+- 2025-12-14 — **Sitio estático**: Next.js App Router con `output: 'export'` y `trailingSlash: true` para GitHub Pages.
+- 2025-12-14 — **Datos sin backend**: `public/api/` es la “API estática” consumida vía `fetch`, con fallback bundled desde imports en `src/lib/data-api.ts`.
+- 2025-12-14 — **Persistencia por usuario**: progreso en `localStorage` con claves `clave::userId` y usuario activo en `folio_active_user_id`.
+- 2025-12-14 — **No persistir preguntas**: `questions` vienen del dataset y no se guardan; `flashcards` se derivan de `questions`.
+- 2025-12-14 — **Authgear + GitHub OAuth**: login client-side, callback en `/auth/callback/` y `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo/demos.
+
+## Estructura del proyecto (resumen)
 
 ```
-/
-├── app/                            # Next.js App Router pages
-│   ├── page.tsx                    # Landing page
-│   ├── auth/                       # Authentication pages
-│   │   ├── page.tsx                # Login page
-│   │   └── callback/page.tsx       # OAuth callback handler
-│   └── dashboard/                  # Protected study area
-│       ├── layout.tsx              # Dashboard layout with sidebar
-│       ├── page.tsx                # Dashboard home
-│       ├── temario/                # Syllabus section
-│       ├── flashcards/             # Flashcards section
-│       ├── tests/                  # Tests section
-│       └── progreso/               # Progress section
-├── src/
-│   ├── components/                 # React components
-│   │   ├── dashboard/              # Dashboard-specific components
-│   │   ├── landing/                # Landing page components
-│   │   └── ui/                     # shadcn/ui components
-│   ├── hooks/                      # Custom React hooks
-│   │   ├── useAuth.tsx             # Authentication context
-│   │   └── useTheme.tsx            # Theme management
-│   ├── lib/                        # Core utilities
-│   │   ├── authgear.ts             # Authgear SDK configuration
-│   │   ├── data-api.ts             # Data loading and normalization
-│   │   ├── data-types.ts           # TypeScript interfaces
-│   │   ├── storage.ts              # localStorage utilities
-│   │   └── utils.ts                # General utilities
-│   └── views/                      # Page view components
-│       ├── Auth.tsx                # Auth page view
-│       ├── Dashboard.tsx           # Dashboard wrapper
-│       └── dashboard/              # Dashboard section views
-├── data/                           # Source data (JSON datasets)
-│   ├── db.json                     # Main data index
-│   ├── db-*.json                   # Topic-specific datasets
-│   ├── beta-users.json             # Beta user list
-│   └── general/                    # Reference documents (markdown)
-├── docs/                           # Documentation
-│   ├── AUTHENTICATION.md           # Auth setup guide
-│   └── manual/                     # User manual
-├── public/                         # Static assets
-│   └── api/                        # Generated API files (from data/)
-└── .github/                        # GitHub configuration
-    ├── copilot-instructions.md     # This file
-    └── workflows/                  # CI/CD workflows
+/app/                       Rutas Next.js (App Router)
+  page.tsx                  Landing
+  auth/                     Pantallas de autenticación
+    page.tsx
+    callback/page.tsx       Callback OAuth (requiere trailing slash)
+  dashboard/                Área principal (layout + secciones)
+
+/src/
+  components/               Componentes React (incluye shadcn/ui en components/ui)
+  hooks/                    Hooks (auth, theme, toast, etc.)
+  lib/                      Núcleo de datos/auth/storage
+    data-api.ts             Carga/normalización desde public/api + fallback bundled
+    storage.ts              Persistencia localStorage + hidratación (merge)
+    data-types.ts           Tipos y contratos de datos
+    authgear.ts             Integración Authgear
+  views/                    Vistas por sección (UI de dashboard)
+
+/public/api/                “API” estática (JSON + markdown de apoyo)
+  db.json                   Índice principal
+  db-*.json                 Datasets temáticos (si declarados en db.json)
+  convocatoria-*.json       Datos de convocatorias (si declarados en db.json)
+  data/general/*.md         Documentos/recursos de referencia
+
+/docs/                      Documentación (AUTHENTICATION, manual)
+/out/                       Salida del export estático (generado)
+/.next/                     Build cache (generado)
 ```
 
-## Language and Terminology
+## Idioma y terminología
 
-- **Primary language**: Spanish (español)
-- **Target audience**: Spanish competitive exam candidates (opositores)
+- **Idioma principal**: español
+- **Audiencia**: opositores/as en España (y otros perfiles de estudio)
 - **Key terms**:
   - "Opositor/Opositora": Person preparing for competitive exams
   - "Oposiciones": Competitive examinations for public sector jobs in Spain
@@ -64,185 +78,119 @@ Folio is a study application designed for competitive exam candidates (opositore
   - "Material propio": Personal/customized study material
   - "Material común": Common/shared study material
 
-## JSON Schema Standards
+## Datos: API estática en `public/api/`
 
-### `materiales.json` Schema
+La app carga un índice desde:
 
-Each `materiales.json` file in `comun/` and `material-propio/` directories follows this structure:
+- `GET <basePath>/api/db.json`
 
-```json
-{
-  "descripcion": "Description of the materials collection",
-  "materiales": [
-    {
-      "id": "unique-identifier",
-      "titulo": "Descriptive title",
-      "tipo": "PDF|DOC|DOCX|TXT",
-      "categoria": "Legislación|Resúmenes|Esquemas|Tests|Casos Prácticos",
-      "descripcion": "Detailed description of the content",
-      "temas_relacionados": ["Tema 1", "Tema 2", "Conceptos básicos"],
-      "relevancia": "alta|media|baja",
-      "fecha_actualizacion": "YYYY-MM-DD",
-      "archivo": "filename.ext"
-    }
-  ]
-}
-```
+Y, si `db.json` declara `datasets`, carga cada dataset desde:
 
-### `indice.json` Schema
+- `GET <basePath>/api/<descriptor.file>`
 
-The main index file contains:
+Notas importantes:
 
-- **titulo**: General index title
-- **descripcion**: Index description
-- **estructura**: Directory structure with paths and descriptions
-- **categorias**: Available material categories with relevance levels
-- **niveles_relevancia**: Explanation of relevance levels
-- **tipos_archivo_soportados**: Supported file types
-- **version**: Index version
-- **fecha_actualizacion**: Last update date
+- El `basePath` se controla con `NEXT_PUBLIC_BASE_PATH` y se aplica también a assets (`assetPrefix`).
+- Existe un **fallback bundled** importado desde `public/api/` en `src/lib/data-api.ts`, usado si falla la red o durante render en servidor.
+- `src/lib/data-api.ts` normaliza datasets heterogéneos y aplica defaults (p. ej. `origin`).
 
-## Development Guidelines
+### Convocatorias
 
-### When Adding New Materials
+Las convocatorias se gestionan con funciones específicas en `src/lib/data-api.ts` (no forman parte del `cachedDatabase` principal):
 
-1. Place the PDF/document in the appropriate directory (`comun/` or `material-propio/`)
-2. Add a complete entry in the corresponding `materiales.json` file
-3. Ensure all required fields are present
-4. Use appropriate date format (YYYY-MM-DD)
-5. Maintain consistent Spanish language usage
+- Descriptores: `convocatorias` en `public/api/db.json`
+- Carga: `fetchConvocatoria(id)` desde `public/api/<descriptor.file>` con fallback bundled
 
-### When Modifying JSON Files
+## Persistencia: `localStorage` por usuario
 
-- Maintain proper JSON syntax and formatting
-- Preserve the existing schema structure
-- Use Spanish for all user-facing text
-- Follow the established category names
-- Keep date fields in ISO format (YYYY-MM-DD)
-- Ensure unique IDs for each material
+La persistencia está implementada en `src/lib/storage.ts` con aislamiento por usuario:
 
-### Documentation Standards
+- Usuario activo: `folio_active_user_id`
+- Claves “scoped”: `clave::userId` (con fallback a claves legacy sin scope)
 
-- All documentation files should be in Spanish
-- Use clear, professional language appropriate for educational context
-- Maintain consistent terminology across all files
-- README files should explain the purpose and structure clearly
+Reglas de persistencia actuales:
 
-### File Naming Conventions
+- **Topics**: se guardan en localStorage y se preserva `completed` durante la hidratación.
+- **Stats**: se guardan en localStorage (solo se inicializan si no existen).
+- **Questions**: son “fuente de verdad” desde la API estática/bundled y **no se persisten**.
+- **Flashcards**: se **derivan** de `questions` (no se guardan como entidad propia).
+- **Preferencias** (onboarding / tipo de estudio): `folio_preferences::userId`.
 
-- Use lowercase for directory names
-- Use hyphens for multi-word directory names (e.g., `material-propio`)
-- PDF and document names should be descriptive and lowercase
-- Avoid spaces in filenames; use hyphens instead
-- Use Spanish names that clearly indicate content
+⚠️ Importante al modificar tipos/merge:
 
-### Material Categories
+- En `src/lib/data-types.ts`, **añade campos como opcionales** (`field?: ...`) para compatibilidad con datos antiguos.
+- Evita reintroducir persistencia de preguntas: hay limpieza explícita de claves antiguas `folio_questions`.
 
-Valid categories for materials:
-- **Legislación**: Laws, regulations, and legal texts
-- **Resúmenes**: Summaries of topics and key concepts
-- **Esquemas**: Visual schemas and concept maps
-- **Tests**: Practice exams and self-assessment tests
-- **Casos Prácticos**: Practical cases and solved exercises
+## Guías de desarrollo
 
-### Relevance Levels
+### Añadir o actualizar datasets JSON
 
-- **alta**: Essential material for passing the exam
-- **media**: Recommended complementary material
-- **baja**: Additional support material
+Si añades un dataset nuevo o cambias uno existente:
 
-## Code Style
+1. Coloca/actualiza el JSON en `public/api/`.
+2. Registra/actualiza el descriptor en `public/api/db.json` (campo `datasets`).
+3. Si quieres que funcione también como fallback bundled (recomendado):
+  - Añade el `import` en `src/lib/data-api.ts` y rellena el `FALLBACK_DATASETS[...]` correspondiente.
+4. Mantén compatibilidad con normalización existente (campos `correctIndex`/`correctAnswer`, `nextReview`/`nextReviewDate`, etc.).
 
-- Use UTF-8 encoding for all files
-- JSON files should be properly indented (2 spaces)
-- Maintain consistency with existing code style
-- Keep files organized according to the established structure
+### Añadir o actualizar convocatorias
 
-## Authentication Architecture
+1. Coloca/actualiza el JSON de convocatoria en `public/api/`.
+2. Declara el descriptor en `public/api/db.json` (campo `convocatorias`).
+3. Añade el `import` y el mapping en `FALLBACK_CONVOCATORIAS` dentro de `src/lib/data-api.ts` para fallback bundled.
 
-The application uses **Authgear** with **GitHub OAuth** for authentication. Key files:
+### Al modificar JSON
 
-- `src/lib/authgear.ts`: Authgear SDK configuration and core functions
-- `src/hooks/useAuth.tsx`: React context and hook for authentication state
-- `app/auth/callback/page.tsx`: OAuth callback handler
+- Mantén JSON válido y formateado consistentemente.
+- Evita cambios breaking en nombres de campo sin actualizar la normalización.
+- Mantén textos user-facing en español.
+- Fechas en ISO (`YYYY-MM-DD`) cuando aplique.
 
-### Authentication Guidelines
+### Estándares de documentación
 
-- **Never expose secrets**: Client ID and Endpoint are public, secrets stay in Authgear
-- **Preserve dev mode**: Always maintain `NEXT_PUBLIC_SKIP_AUTH` for local development
-- **Session handling**: Use `sessionType: 'refresh_token'` for SPA compatibility
-- **Redirect URIs**: Always include trailing slashes for Next.js static export
+- Documentación en español y tono profesional/educativo.
+- Mantén terminología consistente (temario, oposiciones, etc.).
 
-### Key Functions
+### Convenciones de nombres
 
-```typescript
-// Start login flow
-await startLogin('/dashboard');
+- Minúsculas y guiones en nombres.
+- Evita espacios en nombres de archivo.
 
-// Complete OAuth callback  
-await finishLogin();
+## UI y componentes
 
-// Check authentication
-const authenticated = await isAuthenticated();
+- Componentes UI reutilizables: `src/components/ui/` (shadcn/ui + Radix).
+- Componentes de dominio: `src/components/dashboard/`, `src/components/landing/`.
+- Evita introducir nuevos patrones de estilos: reutiliza utilidades existentes (Tailwind + componentes).
 
-// Get user info
-const userInfo = await fetchUserInfo();
+## Autenticación (Authgear + GitHub OAuth)
 
-// Logout
-await logout();
-```
+Arquitectura:
 
-### User Data Isolation
+- SDK/configuración: `src/lib/authgear.ts`
+- Contexto/hook: `src/hooks/useAuth.tsx`
+- Callback OAuth: `app/auth/callback/page.tsx`
 
-User data in localStorage is isolated by user ID:
-- `setActiveUserId(userId)` sets the current user
-- All storage keys are prefixed with the user ID
-- Guest users use `'guest'` as their ID
+Guías:
 
-📖 **Full documentation**: `docs/AUTHENTICATION.md`
+- No expongas secretos (solo hay clientID/endpoint públicos; los secretos viven fuera).
+- Respeta `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo/demos.
+- Mantén el callback con barra final `/auth/callback/` (por `trailingSlash: true`).
+- No permitas redirects arbitrarios: el returnTo se sanitiza (solo prefijos permitidos).
 
-## localStorage Coherence
+## Convenciones de datos (questions / origin / source)
 
-The application uses localStorage to persist user data. When modifying data structures or the hydration process, follow these rules:
+- `TestQuestion.origin` es opcional (compatibilidad). En normalización se default a `'generated'` si falta.
+- `TestQuestion.source` (si existe) enlaza a un material y un `highlightText` (útil para trazabilidad).
+- En UI, el origen se muestra como etiqueta (por ejemplo: `oficial`, `ia`, `generated`). Evita acoplar a un set cerrado: si aparece un origen nuevo, debe degradar de forma legible.
 
-### Data Types (`src/lib/data-types.ts`)
+## Testing y validación
 
-- **Always extend, never remove**: When adding new fields to interfaces (`TestQuestion`, `Flashcard`, `Topic`), make them optional (`field?: type`) to maintain backwards compatibility with existing localStorage data
-- **Document new fields**: Add comments explaining the purpose of new fields
-- **Export new types**: Ensure new types are exported for use across the application
+- Valida JSON (sintaxis) y que los ficheros referenciados existan en `public/api`.
+- Verifica que `npm run dev` y `npm run build` sigan funcionando con export estático.
 
-### Hydration Process (`src/lib/storage.ts`)
+## Ejecución y build
 
-- **hydrateFromApi()** must always update data from the API to get new fields, while preserving user progress:
-  - **Topics**: Preserve `completed` status
-  - **Flashcards**: Preserve `nextReview`, `interval`, `easeFactor` (spaced repetition state)
-  - **Questions**: Always use API version (contains `source`, `origin`, etc.)
-  - **Stats**: Only initialize if not present
-- **Preserve local-only items**: Items created by users locally (not in API) must be kept
-- **Merge strategy**: API data takes precedence for schema fields, local data for progress
+- Dev: `npm run dev`
+- Build export: `npm run build` (genera `out/`)
 
-### Data Normalization (`src/lib/data-api.ts`)
-
-- **normalizeDataset*** functions must handle missing fields gracefully
-- **Parse new fields from raw data**: When adding fields like `source` or `origin`, update the normalization functions
-- **Use fallback values**: Provide sensible defaults for optional fields (e.g., `origin: 'generated'`)
-
-### Common Pitfalls to Avoid
-
-1. **Never check `hasStoredValue()` before updating**: This causes new API fields to never reach users with existing data
-2. **Don't break existing localStorage**: Old data without new fields must still load correctly
-3. **Test with existing data**: Verify changes work both with fresh installs and existing user data
-
-## Testing and Validation
-
-- Validate JSON files for syntax errors before committing
-- Ensure all referenced files exist in their specified locations
-- Check that dates are in correct format
-- Verify that all required fields are present in material entries
-
-## Important Notes
-
-- This is primarily a documentation and content management repository
-- Focus on maintaining clean, well-structured JSON metadata
-- All content should be appropriate for educational purposes
-- Respect the Spanish language and educational context
+Si necesitas detalles de despliegue/auth, ver `docs/AUTHENTICATION.md` y `README.md`.
