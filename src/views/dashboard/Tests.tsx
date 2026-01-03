@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck, SkipForward } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -90,6 +90,7 @@ const Tests = () => {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
+  const [skippedCount, setSkippedCount] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
   const [filtersLoaded, setFiltersLoaded] = useState(false);
@@ -206,7 +207,39 @@ const Tests = () => {
     setSelectedAnswer(null);
     setShowResult(false);
     setScore(0);
+    setSkippedCount(0);
     setTotalQuestions(shuffled.length);
+  };
+
+  // Repetir el mismo test con las mismas preguntas
+  const repeatSameTest = () => {
+    if (testQuestions.length === 0) return;
+    setTesting(true);
+    setShowFinalResults(false);
+    setCurrentIndex(0);
+    setSelectedAnswer(null);
+    setShowResult(false);
+    setScore(0);
+    setSkippedCount(0);
+    // testQuestions ya contiene las preguntas del test anterior
+  };
+
+  // Pasar pregunta sin responder
+  const skipQuestion = () => {
+    setSkippedCount(prev => prev + 1);
+    if (currentIndex < testQuestions.length - 1) {
+      setCurrentIndex(prev => prev + 1);
+      setSelectedAnswer(null);
+      setShowResult(false);
+    } else {
+      const stats = getStats();
+      stats.testsCompleted += 1;
+      stats.correctAnswers += score;
+      saveStats(stats);
+
+      setTesting(false);
+      setShowFinalResults(true);
+    }
   };
 
   // Calcular el número efectivo de preguntas a estudiar
@@ -280,6 +313,11 @@ const Tests = () => {
               </div>
               <p className="text-muted-foreground">
                 Has acertado <span className="font-semibold text-foreground">{score}</span> de <span className="font-semibold text-foreground">{totalQuestions}</span> preguntas
+                {skippedCount > 0 && (
+                  <span className="block text-sm text-orange-500 mt-1">
+                    ({skippedCount} {skippedCount === 1 ? 'pasada' : 'pasadas'} sin responder)
+                  </span>
+                )}
               </p>
               <div className="w-full bg-muted rounded-full h-3">
                 <div 
@@ -290,11 +328,15 @@ const Tests = () => {
             </div>
 
             <div className="space-y-3">
-              <Button onClick={startTest} className="w-full">
+              <Button onClick={repeatSameTest} className="w-full">
                 <RotateCcw className="h-4 w-4 mr-2" />
-                Repetir test
+                Repetir mismo test
               </Button>
-              <Button variant="outline" onClick={closeResults} className="w-full">
+              <Button variant="outline" onClick={startTest} className="w-full">
+                <Play className="h-4 w-4 mr-2" />
+                Nuevo test aleatorio
+              </Button>
+              <Button variant="ghost" onClick={closeResults} className="w-full">
                 Ver todas las preguntas
               </Button>
               <a 
@@ -496,16 +538,22 @@ const Tests = () => {
                 </div>
               )}
 
-              <div className="mt-6 flex justify-end gap-2">
-                {!showResult ? (
-                  <Button onClick={handleAnswer} disabled={selectedAnswer === null}>
-                    Comprobar
-                  </Button>
-                ) : (
-                  <Button onClick={nextQuestion}>
-                    {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
-                  </Button>
-                )}
+              <div className="mt-6 flex justify-between gap-2">
+                <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground">
+                  <SkipForward className="h-4 w-4 mr-2" />
+                  Pasar
+                </Button>
+                <div className="flex gap-2">
+                  {!showResult ? (
+                    <Button onClick={handleAnswer} disabled={selectedAnswer === null}>
+                      Comprobar
+                    </Button>
+                  ) : (
+                    <Button onClick={nextQuestion}>
+                      {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
+                    </Button>
+                  )}
+                </div>
               </div>
             </CardContent>
           </Card>
