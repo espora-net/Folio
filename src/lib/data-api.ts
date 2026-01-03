@@ -2,7 +2,7 @@
 // Keep this lightweight: datasets are loaded at runtime from /public/api.
 import baseIndex from '../../public/api/db.json';
 import convocatoriaUah2025C1 from '../../public/api/convocatoria-uah-2025-c1.json';
-import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData } from './data-types';
+import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData, type StudyTypeRegistryEntry } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const DUPLICATE_SLASHES = /\/{2,}/g;
@@ -288,6 +288,8 @@ const mergeDatabaseIndex = (index: DatabaseIndex, datasets: DatasetPayload[]): D
     stats: normalizedStats,
     meta: index.meta,
     datasets: index.datasets,
+    convocatorias: index.convocatorias,
+    studyTypes: index.studyTypes,
   };
 };
 
@@ -310,6 +312,10 @@ const buildDatasetEndpoint = (file: string) =>
   `${DATASET_BASE_ENDPOINT}${file}`.replace(DUPLICATE_SLASHES, '/');
 
 export const getCachedDatabase = (): Database => cachedDatabase;
+
+export const getStudyTypeRegistry = (): StudyTypeRegistryEntry[] => {
+  return ((cachedDatabase.studyTypes ?? (baseIndex as DatabaseIndex).studyTypes ?? []) as StudyTypeRegistryEntry[]);
+};
 
 export const fetchDatabaseFromApi = async (): Promise<Database> => {
   if (typeof window === 'undefined') {

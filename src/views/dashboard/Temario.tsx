@@ -8,16 +8,20 @@ import { Badge } from '@/components/ui/badge';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { 
+  getCachedDatabase,
   getConvocatoriaDescriptors, 
   getActiveConvocatoria, 
   getCachedConvocatoria, 
-  fetchConvocatoria 
+  fetchConvocatoria,
+  getStudyTypeRegistry,
 } from '@/lib/data-api';
+import { getStudyType } from '@/lib/storage';
 import { 
   type ConvocatoriaDescriptor, 
   type ConvocatoriaData, 
   type TemaConvocatoria,
-  type TemaRecurso
+  type TemaRecurso,
+  type StudyTypeRegistryEntry
 } from '@/lib/data-types';
 
 type ViewerState = {
@@ -28,6 +32,7 @@ type ViewerState = {
 };
 
 const Temario = () => {
+  const [studyTypeEntry, setStudyTypeEntry] = useState<StudyTypeRegistryEntry | null>(null);
   const [convocatorias, setConvocatorias] = useState<ConvocatoriaDescriptor[]>([]);
   const [selectedConvocatoria, setSelectedConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [convocatoriaData, setConvocatoriaData] = useState<ConvocatoriaData | null>(null);
@@ -39,9 +44,31 @@ const Temario = () => {
   const [loadingContent, setLoadingContent] = useState(false);
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const DUPLICATE_SLASHES = /\/{2,}/g;
+
+  // Mapa de datasets para enlazar por ID (información desde db.json)
+  const datasetMap = new Map((getCachedDatabase().datasets ?? []).map(d => [d.id, d] as const));
+  const linkedQuestionDatasetIds = selectedConvocatoria?.questionDatasetIds ?? [];
+  const linkedQuestionDatasets = linkedQuestionDatasetIds
+    .map(id => datasetMap.get(id))
+    .filter((d): d is NonNullable<typeof d> => Boolean(d));
+
+  const trimmedBase = String(basePath).replace(/\/+$/, '');
 
   useEffect(() => {
     const loadConvocatorias = async () => {
+      // Determinar plantilla de Temario según preferencias + registro de db.json
+      const currentStudyType = getStudyType();
+      const registry = getStudyTypeRegistry();
+      const entry = registry.find(r => r.id === currentStudyType) ?? null;
+      setStudyTypeEntry(entry);
+
+      // Si no es oposiciones, mostramos placeholder y no cargamos convocatorias.
+      if (entry && entry.temarioTemplate !== 'oposiciones') {
+        setLoading(false);
+        return;
+      }
+
       const descriptors = getConvocatoriaDescriptors();
       setConvocatorias(descriptors);
       
@@ -79,15 +106,20 @@ const Temario = () => {
   };
 
   const getRecursoUrl = (archivo: string) => {
-    return `${basePath}/data/${archivo}`;
+    // Los recursos se sirven desde public/api/ (export estático).
+    // En el JSON, los paths vienen como "data/..." o "db-...json".
+    const trimmedBase = String(basePath).replace(/\/+$/, '');
+    const cleanArchivo = String(archivo).replace(/^\/+/, '');
+    return `${trimmedBase}/api/${cleanArchivo}`.replace(DUPLICATE_SLASHES, '/');
   };
 
   const handleOpenRecurso = async (recurso: TemaRecurso) => {
     const url = getRecursoUrl(recurso.archivo);
     
     if (recurso.tipo === 'db') {
-      // Para db, redirigir a flashcards o tests
-      window.location.href = `${basePath}/dashboard/flashcards`;
+      // Para db, redirigir a tests (las preguntas se consumen desde datasets)
+      const trimmedBase = String(basePath).replace(/\/+$/, '');
+      window.location.href = `${trimmedBase}/dashboard/tests`.replace(DUPLICATE_SLASHES, '/');
       return;
     }
 
@@ -161,6 +193,28 @@ const Temario = () => {
       <div className="flex items-center justify-center h-64">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
       </div>
+    );
+  }
+
+  // Placeholder para tipos de estudio sin temario implementado
+  if (studyTypeEntry && studyTypeEntry.temarioTemplate !== 'oposiciones') {
+    return (
+      <Card className="border-border">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <BookOpen className="h-5 w-5" />
+            Temario ({studyTypeEntry.label})
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-3">
+          <p className="text-sm text-muted-foreground">
+            Esta plantilla de temario aún no está disponible para este tipo de estudio.
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Por ahora, Folio muestra el temario completo para oposiciones. Próximamente podrás cargar y organizar temarios específicos para “{studyTypeEntry.label}”.
+          </p>
+        </CardContent>
+      </Card>
     );
   }
 
@@ -385,6 +439,39 @@ const Temario = () => {
                 <p className="text-sm text-muted-foreground">
                   {convocatoriaData.convocatoria.institucion} · {convocatoriaData.total_temas} temas
                 </p>
+
+                <div className="flex flex-wrap items-center gap-2 mt-2">
+                  <span className="text-sm text-muted-foreground">Datasets de preguntas:</span>
+                  {linkedQuestionDatasets.length > 0 ? (
+                    linkedQuestionDatasets.map(ds => (
+                      <Badge key={ds.id} variant="outline" className="gap-1">
+                        {ds.tag ?? ds.title}
+                      </Badge>
+                    ))
+                  ) : (
+                    <span className="text-sm text-muted-foreground">(sin datasets asociados)</span>
+                  )}
+                </div>
+
+                <div className="flex flex-wrap gap-2 mt-3">
+                  <Button
+                    size="sm"
+                    onClick={() => {
+                      window.location.href = `${trimmedBase}/dashboard/tests`.replace(DUPLICATE_SLASHES, '/');
+                    }}
+                  >
+                    Ir a Tests
+                  </Button>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    onClick={() => {
+                      window.location.href = `${trimmedBase}/dashboard/flashcards`.replace(DUPLICATE_SLASHES, '/');
+                    }}
+                  >
+                    Ir a Flashcards
+                  </Button>
+                </div>
               </div>
               {convocatoriaData.convocatoria.enlace_publicacion && (
                 <a

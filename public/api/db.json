@@ -1,10 +1,49 @@
 {
   "meta": {
     "title": "Folio - Índice de datos",
-    "description": "Índice principal con convocatorias, datasets temáticos y progreso del usuario.",
+    "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
     "version": "2025.02",
     "updatedAt": "2025-12-14T00:00:00.000Z"
   },
+  "studyTypes": [
+    {
+      "id": "oposiciones",
+      "label": "Oposiciones",
+      "temarioTemplate": "oposiciones",
+      "convocatoriaId": "uah-2025-c1",
+      "questionDatasetIds": ["constitucion-1978"]
+    },
+    {
+      "id": "conducir",
+      "label": "Carnet de conducir",
+      "temarioTemplate": "placeholder",
+      "questionDatasetIds": []
+    },
+    {
+      "id": "secundaria",
+      "label": "Secundaria / Bachillerato",
+      "temarioTemplate": "placeholder",
+      "questionDatasetIds": []
+    },
+    {
+      "id": "universidad",
+      "label": "Universidad",
+      "temarioTemplate": "placeholder",
+      "questionDatasetIds": []
+    },
+    {
+      "id": "idiomas",
+      "label": "Idiomas",
+      "temarioTemplate": "placeholder",
+      "questionDatasetIds": []
+    },
+    {
+      "id": "otro",
+      "label": "Otro",
+      "temarioTemplate": "placeholder",
+      "questionDatasetIds": []
+    }
+  ],
   "convocatorias": [
     {
       "id": "uah-2025-c1",
@@ -15,7 +54,9 @@
       "año": 2025,
       "file": "convocatoria-uah-2025-c1.json",
       "color": "#7c3aed",
-      "activa": true
+      "activa": true,
+      "studyType": "oposiciones",
+      "questionDatasetIds": ["constitucion-1978"]
     }
   ],
   "datasets": [
@@ -27,13 +68,5 @@
       "tag": "Constitución",
       "color": "#1d4ed8"
     }
-  ],
-  "stats": {
-    "totalStudyTime": 0,
-    "cardsReviewed": 0,
-    "testsCompleted": 0,
-    "correctAnswers": 0,
-    "streak": 0,
-    "lastStudyDate": null
-  }
+  ]
 }

@@ -77,6 +77,24 @@ export interface ConvocatoriaDescriptor {
   file: string;
   color: string;
   activa: boolean;
+  // Para enlazar datasets (p. ej. preguntas) con el temario.
+  // Opcional para compatibilidad con db.json antiguos.
+  studyType?: StudyType;
+  questionDatasetIds?: string[];
+}
+
+export type TemarioTemplateId = 'oposiciones' | 'placeholder';
+
+// Registro de tipos de estudio declarados en db.json.
+// Permite asociar datasets por tipo y elegir la plantilla de Temario.
+export interface StudyTypeRegistryEntry {
+  id: StudyType;
+  label: string;
+  temarioTemplate: TemarioTemplateId;
+  // Datasets con preguntas/tests asociados a este tipo.
+  questionDatasetIds?: string[];
+  // Convocatoria activa (solo aplica a 'oposiciones' en el diseño actual).
+  convocatoriaId?: string;
 }
 
 export interface TemaRecurso {
@@ -141,6 +159,7 @@ export type Database = {
   meta?: DatabaseMeta;
   datasets?: DatasetDescriptor[];
   convocatorias?: ConvocatoriaDescriptor[];
+  studyTypes?: StudyTypeRegistryEntry[];
 };
 
 // Tipos de estudio disponibles en Folio
