@@ -62,8 +62,21 @@ export const setActiveUserId = (userId?: string | null) => {
 };
 
 export const getTopics = (): Topic[] => {
-  if (typeof window === 'undefined') return getCachedDatabase().topics;
-  return readFromStorage('TOPICS', getCachedDatabase().topics);
+  const apiTopics = getCachedDatabase().topics;
+  if (typeof window === 'undefined') return apiTopics;
+  
+  const stored = readFromStorage<Topic[]>('TOPICS', []);
+  if (!stored || stored.length === 0) return apiTopics;
+  
+  // Merge: usar datos de la API (incluye syllabusCoverageIds, etc.) 
+  // pero preservar estado del usuario (completed)
+  return apiTopics.map(apiTopic => {
+    const storedTopic = stored.find(t => t.id === apiTopic.id);
+    return {
+      ...apiTopic,
+      completed: storedTopic?.completed ?? apiTopic.completed,
+    };
+  });
 };
 
 export const saveTopics = (topics: Topic[]) => {

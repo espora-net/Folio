@@ -142,6 +142,18 @@ const Tests = () => {
     return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
   }, [topics, activeConvocatoria, convocatoriaFilter]);
 
+  // Set para lookup rápido de temas en convocatoria
+  const convocatoriaTopicSet = useMemo(() => {
+    return new Set(convocatoriaTopicIds ?? []);
+  }, [convocatoriaTopicIds]);
+
+  // Función para seleccionar solo temas de la convocatoria
+  const selectConvocatoriaTopics = () => {
+    if (convocatoriaTopicIds) {
+      setSelectedTopics(convocatoriaTopicIds);
+    }
+  };
+
   // Filtrar por convocatoria, tema y origen
   const filteredQuestions = useMemo(() => {
     let result = questions;
@@ -548,9 +560,19 @@ const Tests = () => {
                 )}
               </Button>
               {convocatoriaFilter && convocatoriaTopicIds && (
-                <span className="text-xs text-muted-foreground">
-                  {convocatoriaTopicIds.length} temas · {filteredQuestions.length} preguntas
-                </span>
+                <>
+                  <span className="text-xs text-muted-foreground">
+                    {convocatoriaTopicIds.length} temas · {filteredQuestions.length} preguntas
+                  </span>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-6 text-xs px-2"
+                    onClick={selectConvocatoriaTopics}
+                  >
+                    Seleccionar estos
+                  </Button>
+                </>
               )}
             </div>
           )}
@@ -636,6 +658,8 @@ const Tests = () => {
                           {group.subtopics.map((subtopic) => {
                             const isSelected = selectedTopics.includes(subtopic.id);
                             const questionCount = questions.filter(q => q.topicId === subtopic.id).length;
+                            const inConvocatoria = convocatoriaFilter && convocatoriaTopicSet.has(subtopic.id);
+                            const notInConvocatoria = convocatoriaFilter && !convocatoriaTopicSet.has(subtopic.id);
                             
                             return (
                               <button
@@ -643,12 +667,20 @@ const Tests = () => {
                                 onClick={() => toggleTopic(subtopic.id)}
                                 className={`w-full flex items-center gap-2 px-3 py-2 pl-10 text-left hover:bg-muted/50 transition-colors ${
                                   isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
-                                }`}
+                                } ${notInConvocatoria ? 'opacity-40' : ''}`}
                               >
                                 <div className={`w-2 h-2 rounded-full flex-shrink-0 ${
                                   isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
                                 }`} />
                                 <span className="text-xs flex-1 truncate">{subtopic.title}</span>
+                                {inConvocatoria && (
+                                  <Badge 
+                                    variant="outline" 
+                                    className="text-[9px] px-1 py-0 h-4 border-green-400 text-green-600 dark:border-green-600 dark:text-green-400"
+                                  >
+                                    ✓ Entra
+                                  </Badge>
+                                )}
                                 <span className="text-[10px] text-muted-foreground">{questionCount}</span>
                               </button>
                             );
