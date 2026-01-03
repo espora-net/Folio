@@ -37,30 +37,59 @@ Este agente valida que los campos `syllabusCoverageIds` en los subtopics de los 
 
 ## Formato del informe
 
-```markdown
-# Validación de Cobertura - Tema N: [Título]
+El informe debe seguir exactamente este formato:
+
+---
+
+# Validación de Cobertura - Tema N: [Título del tema]
 
 ## Resumen
-- **Convocatoria**: [id]
-- **Dataset**: [archivo]
-- **Estado**: ✅ Válido / ⚠️ Requiere revisión / ❌ Con errores
+- **Convocatoria**: `[id-convocatoria]`
+- **Dataset**: `[nombre-archivo.json]`
+- **Cobertura convocatoria**: `["#id-1", "#id-2", ...]`
 
 ## Cobertura de la convocatoria
+
 | ID Cobertura | Subtopics que lo cubren | Estado |
 |--------------|------------------------|--------|
-| #titulo-i    | subtopic-1, subtopic-2 | ✅     |
-| #titulo-ii   | (ninguno)              | ❌     |
+| `#titulo-preliminar` | Preámbulo y Título Preliminar de la Constitución de 1978 | ✅ |
+| `#titulo-i` | Título I (Parte 1), Título I (Parte 2), Título I (Parte 3) | ✅ |
+| `#titulo-ii` | (ninguno) | ❌ **Sin cobertura** |
 
 ## Subtopics del dataset
-| Subtopic | syllabusCoverageIds | Estado |
-|----------|---------------------|--------|
-| Título I | #titulo-i           | ✅     |
-| Título VI| (sin cobertura)     | ⚠️ No entra en convocatoria |
 
-## Acciones requeridas
-- [ ] Revisar subtopic X que no tiene syllabusCoverageIds
-- [ ] Añadir cobertura para #titulo-ii
-```
+| Order | Subtopic | syllabusCoverageIds | Estado |
+|-------|----------|---------------------|--------|
+| 1 | Características generales de la Constitución de 1978 | (sin cobertura) | ⚠️ **No entra en convocatoria** |
+| 2 | Estructura de la Constitución Española de 1978 | (sin cobertura) | ⚠️ **No entra en convocatoria** |
+| 3 | Preámbulo y Título Preliminar | `#titulo-preliminar` | ✅ Entra en convocatoria |
+| 4 | Título I (Parte 1) - Art. 10, Cap. I y II | `#titulo-i` | ✅ Entra en convocatoria |
+| ... | ... | ... | ... |
+
+## Resultado de validación
+
+| Métrica | Valor |
+|---------|-------|
+| Total subtopics | N |
+| Con cobertura | X (Y%) |
+| Sin cobertura | Z (W%) |
+| IDs huérfanos | 0 |
+| IDs sin cubrir | 0 |
+
+### ✅ Estado: VÁLIDO / ⚠️ Estado: REQUIERE REVISIÓN / ❌ Estado: CON ERRORES
+
+Descripción del resultado:
+- **X subtopics** tienen `syllabusCoverageIds` que coinciden con `cobertura_convocatoria`
+- **Y subtopics** NO entran en la convocatoria (no tienen `syllabusCoverageIds`)
+
+### Confirmación requerida
+
+Por favor, confirma que es **correcto** que los siguientes subtopics NO entren en la convocatoria:
+- [ ] Subtopic 1 sin cobertura
+- [ ] Subtopic 2 sin cobertura
+- [ ] ...
+
+---
 
 ## Notas importantes
 
