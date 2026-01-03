@@ -83,6 +83,7 @@ const Flashcards = () => {
   const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [pendingNextIndex, setPendingNextIndex] = useState<number | null>(null);
   const [studying, setStudying] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
@@ -183,6 +184,9 @@ const Flashcards = () => {
   };
 
   const handleReview = (markForReview: boolean) => {
+    // Evitar dobles clicks mientras se está avanzando de tarjeta
+    if (pendingNextIndex !== null) return;
+
     const stats = getStats();
     stats.cardsReviewed += 1;
     
@@ -196,13 +200,26 @@ const Flashcards = () => {
     }
     saveStats(stats);
 
-    setShowAnswer(false);
-    if (currentIndex < filteredFlashcards.length - 1) {
-      setCurrentIndex(prev => prev + 1);
-    } else {
+    // Importante: si estamos viendo la respuesta (carta girada), no debemos
+    // cambiar los datos de la tarjeta en el mismo render, porque la animación
+    // puede enseñar la cara trasera de la siguiente antes de leer la pregunta.
+    // Primero giramos la tarjeta a "pregunta" y, al finalizar la transición,
+    // avanzamos el índice.
+    const hasNext = currentIndex < filteredFlashcards.length - 1;
+    if (!hasNext) {
+      setShowAnswer(false);
       setStudying(false);
       setShowFinalResults(true);
+      return;
     }
+
+    const nextIndex = currentIndex + 1;
+    setPendingNextIndex(nextIndex);
+    setShowAnswer(false);
+    window.setTimeout(() => {
+      setCurrentIndex(nextIndex);
+      setPendingNextIndex(null);
+    }, 650);
   };
 
   const startStudying = () => {
@@ -214,6 +231,7 @@ const Flashcards = () => {
     setShowFinalResults(false);
     setCurrentIndex(0);
     setShowAnswer(false);
+    setPendingNextIndex(null);
     setCorrectCount(0);
     setTotalReviewed(filteredFlashcards.length);
     setMarkedForReview([]);
@@ -348,7 +366,10 @@ const Flashcards = () => {
           <div 
             className="relative min-h-[300px] cursor-pointer"
             style={{ perspective: '1000px' }}
-            onClick={() => setShowAnswer(!showAnswer)}
+            onClick={() => {
+              if (pendingNextIndex !== null) return;
+              setShowAnswer(!showAnswer);
+            }}
           >
             <div
               className="relative w-full h-full"
@@ -399,6 +420,7 @@ const Flashcards = () => {
                 variant="outline"
                 size="lg"
                 className="flex-1 max-w-[200px]"
+                disabled={pendingNextIndex !== null}
                 onClick={() => handleReview(true)}
               >
                 <Bookmark className="h-5 w-5 mr-2 text-orange-500" />
@@ -407,6 +429,7 @@ const Flashcards = () => {
               <Button
                 size="lg"
                 className="flex-1 max-w-[150px]"
+                disabled={pendingNextIndex !== null}
                 onClick={() => handleReview(false)}
               >
                 <Check className="h-5 w-5 mr-2" />
