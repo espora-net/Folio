@@ -24,6 +24,13 @@ type TopicGroup = {
 type ViewMode = 'cards' | 'list';
 type OriginFilter = 'all' | 'generated' | 'oposito.es';
 
+const getOriginLabel = (origin?: string) => {
+  const normalized = (origin || 'generated').trim();
+  if (normalized === 'generated') return 'Generadas';
+  if (normalized === 'ia') return 'IA';
+  return normalized;
+};
+
 const Flashcards = () => {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
@@ -288,6 +295,10 @@ const Flashcards = () => {
                 {getTopicById(currentCard.topicId)?.tag || getTopicById(currentCard.topicId)?.title}
               </Badge>
             )}
+
+            <Badge variant="secondary" className="ml-2">
+              {getOriginLabel(currentCard.origin)}
+            </Badge>
           </div>
           
           {/* Contenedor con perspectiva 3D */}
@@ -360,49 +371,6 @@ const Flashcards = () => {
               </Button>
             </div>
           )}
-
-          {/* Filtro por origen (como en Tests) */}
-          <TooltipProvider>
-            <div className="flex items-center gap-3">
-              <span className="text-sm font-medium text-muted-foreground">Origen:</span>
-              <div className="flex gap-1 flex-wrap">
-                <Button
-                  variant={originFilter === 'all' ? 'default' : 'outline'}
-                  size="sm"
-                  className="h-8 px-3 text-xs"
-                  onClick={() => setOriginFilter('all')}
-                >
-                  Todas
-                </Button>
-
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      variant={originFilter === 'generated' ? 'default' : 'outline'}
-                      size="sm"
-                      className="h-8 px-3 text-xs gap-1.5"
-                      onClick={() => setOriginFilter('generated')}
-                    >
-                      <Sparkles className="h-3.5 w-3.5" />
-                      Generadas
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent side="bottom">
-                    <p>Incluye origin 'generated' e 'ia'</p>
-                  </TooltipContent>
-                </Tooltip>
-
-                <Button
-                  variant={originFilter === 'oposito.es' ? 'default' : 'outline'}
-                  size="sm"
-                  className="h-8 px-3 text-xs"
-                  onClick={() => setOriginFilter('oposito.es')}
-                >
-                  oposito.es
-                </Button>
-              </div>
-            </div>
-          </TooltipProvider>
         </div>
       ) : (
         <>
@@ -513,6 +481,49 @@ const Flashcards = () => {
             </div>
           )}
 
+          {/* Filtro por origen (como en Tests) */}
+          <TooltipProvider>
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-medium text-muted-foreground">Origen:</span>
+              <div className="flex gap-1 flex-wrap">
+                <Button
+                  variant={originFilter === 'all' ? 'default' : 'outline'}
+                  size="sm"
+                  className="h-8 px-3 text-xs"
+                  onClick={() => setOriginFilter('all')}
+                >
+                  Todas
+                </Button>
+
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant={originFilter === 'generated' ? 'default' : 'outline'}
+                      size="sm"
+                      className="h-8 px-3 text-xs gap-1.5"
+                      onClick={() => setOriginFilter('generated')}
+                    >
+                      <Sparkles className="h-3.5 w-3.5" />
+                      Generadas
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom">
+                    <p>Incluye origin 'generated' e 'ia'</p>
+                  </TooltipContent>
+                </Tooltip>
+
+                <Button
+                  variant={originFilter === 'oposito.es' ? 'default' : 'outline'}
+                  size="sm"
+                  className="h-8 px-3 text-xs"
+                  onClick={() => setOriginFilter('oposito.es')}
+                >
+                  oposito.es
+                </Button>
+              </div>
+            </div>
+          </TooltipProvider>
+
           {filteredFlashcards.length === 0 ? (
             <Card className="border-border border-dashed">
               <CardContent className="py-12 text-center">
@@ -541,6 +552,7 @@ const Flashcards = () => {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   {filteredFlashcards.map((card) => {
                     const topic = getTopicById(card.topicId);
+                    const originLabel = getOriginLabel(card.origin);
                     return (
                       <Card key={card.id} className="border-border">
                         <CardContent className="p-4 flex flex-col h-full">
@@ -554,16 +566,19 @@ const Flashcards = () => {
                           <p className="text-sm text-muted-foreground line-clamp-2 flex-1">
                             {card.answer}
                           </p>
-                          {topic && (
-                            <div className="mt-3 pt-3 border-t border-border">
+                          <div className="mt-3 pt-3 border-t border-border flex flex-wrap gap-2">
+                            {topic && (
                               <Badge
                                 className="text-[10px] px-2 py-0.5"
                                 style={{ backgroundColor: topic.color || '#6b7280' }}
                               >
                                 {topic.tag || topic.title}
                               </Badge>
-                            </div>
-                          )}
+                            )}
+                            <Badge variant="secondary" className="text-[10px] px-2 py-0.5">
+                              {originLabel}
+                            </Badge>
+                          </div>
                         </CardContent>
                       </Card>
                     );
@@ -573,6 +588,7 @@ const Flashcards = () => {
                 <div className="space-y-2">
                   {filteredFlashcards.map((card, index) => {
                     const topic = getTopicById(card.topicId);
+                    const originLabel = getOriginLabel(card.origin);
                     return (
                       <Card key={card.id} className="border-border">
                         <CardContent className="p-4">
@@ -588,6 +604,9 @@ const Flashcards = () => {
                                     {topic.tag || topic.title}
                                   </Badge>
                                 )}
+                                <Badge variant="secondary" className="text-[10px] px-2 py-0.5">
+                                  {originLabel}
+                                </Badge>
                               </div>
                               <p className="text-foreground font-medium">{card.question}</p>
                               <p className="text-sm text-muted-foreground mt-1">
