@@ -218,16 +218,20 @@ const Flashcards = () => {
     setPendingNextIndex(nextIndex);
     setShowAnswer(false);
 
-    // Transición suave: difuminar/ocultar el contenido antes de cambiar de tarjeta
+    // Transición suave DURANTE el giro:
+    // 1) ocultar/difuminar el texto mientras la tarjeta empieza a girar
+    // 2) cambiar de índice cuando está "de canto" (mitad de la animación)
+    // 3) mostrar el texto nuevo al terminar el giro
+    const FLIP_MS = 600;
+    const SWAP_MS = 300;
     setCardTextVisible(false);
     window.setTimeout(() => {
       setCurrentIndex(nextIndex);
-      // asegurar que la nueva tarjeta se renderiza oculta antes de reaparecer
-      window.setTimeout(() => {
-        setCardTextVisible(true);
-        setPendingNextIndex(null);
-      }, 20);
-    }, 650);
+    }, SWAP_MS);
+    window.setTimeout(() => {
+      setCardTextVisible(true);
+      setPendingNextIndex(null);
+    }, FLIP_MS + 20);
   };
 
   const startStudying = () => {
@@ -399,14 +403,15 @@ const Flashcards = () => {
                       cardTextVisible ? 'opacity-100 blur-none' : 'opacity-0 blur-sm'
                     }`}
                   >
-                    <p className="text-sm text-muted-foreground mb-4">Pregunta</p>
                     <p className="text-xl text-center text-foreground">
                       {currentCard.question}
                     </p>
-                    <p className="text-sm text-muted-foreground mt-6">
-                      Toca para ver la respuesta
-                    </p>
                   </div>
+                  {!showAnswer && pendingNextIndex === null && (
+                    <p className="mt-4 text-xs text-muted-foreground text-center opacity-70">
+                      Pulsa para ver la respuesta
+                    </p>
+                  )}
                 </CardContent>
               </Card>
               
@@ -425,7 +430,6 @@ const Flashcards = () => {
                       cardTextVisible ? 'opacity-100 blur-none' : 'opacity-0 blur-sm'
                     }`}
                   >
-                    <p className="text-sm text-primary mb-4">Respuesta</p>
                     <p className="text-xl text-center text-foreground">
                       {currentCard.answer}
                     </p>
