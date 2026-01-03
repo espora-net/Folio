@@ -1,9 +1,8 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Play, CheckCircle, XCircle, Filter, Trophy, RotateCcw, ChevronDown, ChevronRight, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Dialog,
@@ -23,18 +22,13 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters } from '@/lib/storage';
-import { getActiveConvocatoria, getCachedConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
+import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
+import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
-
-type TopicGroup = {
-  parent: Topic;
-  subtopics: Topic[];
-  totalQuestions: number;
-};
+import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
+import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
 
 type ViewMode = 'cards' | 'list';
-type OriginFilter = 'all' | 'generated' | 'published' | 'ia';
 
 const normalizeOrigin = (origin?: string) => {
   const o = (origin ?? 'generated').trim();
@@ -86,7 +80,8 @@ const Tests = () => {
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [originFilter, setOriginFilter] = useState<string>('all');
-  const [convocatoriaFilter, setConvocatoriaFilter] = useState<boolean>(false);
+  const [filterMode, setFilterMode] = useState<FilterMode>('none');
+  const [questionLimit, setQuestionLimit] = useState<number>(0); // 0 = all
   const [activeConvocatoria, setActiveConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [testQuestions, setTestQuestions] = useState<TestQuestion[]>([]);
   const [testing, setTesting] = useState(false);
@@ -112,9 +107,10 @@ const Tests = () => {
       // Cargar filtros guardados (solo la primera vez)
       if (!filtersLoaded) {
         const savedFilters = getStudyFilters();
-        setConvocatoriaFilter(savedFilters.convocatoriaFilter);
+        setFilterMode(savedFilters.filterMode ?? 'none');
         setSelectedTopics(savedFilters.selectedTopicIds);
         setOriginFilter(savedFilters.originFilter);
+        setQuestionLimit(savedFilters.questionLimit ?? 0);
         setFiltersLoaded(true);
       }
     };
@@ -130,29 +126,24 @@ const Tests = () => {
   useEffect(() => {
     if (!filtersLoaded) return; // No guardar hasta que se hayan cargado
     saveStudyFilters({
-      convocatoriaFilter,
+      filterMode,
+      convocatoriaFilter: filterMode === 'convocatoria',
       selectedTopicIds: selectedTopics,
       originFilter,
+      questionLimit,
     });
-  }, [convocatoriaFilter, selectedTopics, originFilter, filtersLoaded]);
+  }, [filterMode, selectedTopics, originFilter, questionLimit, filtersLoaded]);
 
   // Calcular los topic IDs que entran en la convocatoria activa
   const convocatoriaTopicIds = useMemo(() => {
-    if (!activeConvocatoria || !convocatoriaFilter) return null;
+    if (!activeConvocatoria || filterMode !== 'convocatoria') return null;
     return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
-  }, [topics, activeConvocatoria, convocatoriaFilter]);
+  }, [topics, activeConvocatoria, filterMode]);
 
-  // Set para lookup rápido de temas en convocatoria
-  const convocatoriaTopicSet = useMemo(() => {
-    return new Set(convocatoriaTopicIds ?? []);
-  }, [convocatoriaTopicIds]);
-
-  // Función para seleccionar solo temas de la convocatoria
-  const selectConvocatoriaTopics = () => {
-    if (convocatoriaTopicIds) {
-      setSelectedTopics(convocatoriaTopicIds);
-    }
-  };
+  // Set para lookup rápido de temas en convocatoria (ya no se usa directamente)
+  // const convocatoriaTopicSet = useMemo(() => {
+  //   return new Set(convocatoriaTopicIds ?? []);
+  // }, [convocatoriaTopicIds]);
 
   // Filtrar por convocatoria, tema y origen
   const filteredQuestions = useMemo(() => {
@@ -183,55 +174,9 @@ const Tests = () => {
     }
 
     return result;
-  }, [questions, selectedTopics, originFilter]);
+  }, [questions, selectedTopics, originFilter, convocatoriaTopicIds]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
-
-  const toggleTopic = (topicId: string) => {
-    setSelectedTopics(prev =>
-      prev.includes(topicId)
-        ? prev.filter(id => id !== topicId)
-        : [...prev, topicId]
-    );
-  };
-
-  const selectAllTopics = () => {
-    setSelectedTopics(topics.map(t => t.id));
-  };
-
-  const clearAllTopics = () => {
-    setSelectedTopics([]);
-  };
-
-  // Agrupar topics por padre/subtopics
-  const topicGroups = useMemo((): TopicGroup[] => {
-    const parentTopics = topics.filter(t => !t.parentId);
-    return parentTopics.map(parent => {
-      const subtopics = topics.filter(t => t.parentId === parent.id);
-      const allIds = [parent.id, ...subtopics.map(s => s.id)];
-      const totalQuestions = questions.filter(q => allIds.includes(q.topicId)).length;
-      return { parent, subtopics, totalQuestions };
-    });
-  }, [topics, questions]);
-
-  const toggleGroup = (groupId: string) => {
-    setExpandedGroups(prev =>
-      prev.includes(groupId)
-        ? prev.filter(id => id !== groupId)
-        : [...prev, groupId]
-    );
-  };
-
-  const toggleGroupSelection = (group: TopicGroup) => {
-    const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
-    const allSelected = allIds.every(id => selectedTopics.includes(id));
-    
-    if (allSelected) {
-      setSelectedTopics(prev => prev.filter(id => !allIds.includes(id)));
-    } else {
-      setSelectedTopics(prev => [...new Set([...prev, ...allIds])]);
-    }
-  };
 
   const shuffleDeck = <T,>(items: T[]): T[] => {
     const deck = [...items];
@@ -248,7 +193,12 @@ const Tests = () => {
       return;
     }
 
-    const shuffled = shuffleDeck(filteredQuestions);
+    // Aplicar límite de preguntas
+    const limit = questionLimit > 0 && questionLimit < filteredQuestions.length 
+      ? questionLimit 
+      : filteredQuestions.length;
+
+    const shuffled = shuffleDeck(filteredQuestions).slice(0, limit);
     setTestQuestions(shuffled);
     setTesting(true);
     setShowFinalResults(false);
@@ -258,6 +208,14 @@ const Tests = () => {
     setScore(0);
     setTotalQuestions(shuffled.length);
   };
+
+  // Calcular el número efectivo de preguntas a estudiar
+  const effectiveQuestionCount = useMemo(() => {
+    if (questionLimit <= 0 || questionLimit >= filteredQuestions.length) {
+      return filteredQuestions.length;
+    }
+    return questionLimit;
+  }, [questionLimit, filteredQuestions.length]);
 
   const handleAnswer = () => {
     if (selectedAnswer === null) return;
@@ -355,10 +313,29 @@ const Tests = () => {
           <h1 className="text-3xl font-bold text-foreground">Tests</h1>
           <p className="text-muted-foreground">Practica con preguntas tipo test</p>
         </div>
-        <div className="flex gap-2">
-          <Button variant="outline" onClick={startTest}>
+        <div className="flex gap-2 items-center">
+          <StudyFiltersPopover
+            topics={topics}
+            items={questions}
+            activeConvocatoria={activeConvocatoria}
+            filterMode={filterMode}
+            selectedTopicIds={selectedTopics}
+            originFilter={originFilter}
+            expandedGroups={expandedGroups}
+            onFilterModeChange={setFilterMode}
+            onSelectedTopicsChange={setSelectedTopics}
+            onOriginFilterChange={setOriginFilter}
+            onExpandedGroupsChange={setExpandedGroups}
+            filteredCount={filteredQuestions.length}
+          />
+          <QuestionCountSelector
+            totalAvailable={filteredQuestions.length}
+            selectedCount={effectiveQuestionCount}
+            onCountChange={setQuestionLimit}
+          />
+          <Button onClick={startTest}>
             <Play className="h-4 w-4 mr-2" />
-            Empezar test ({filteredQuestions.length})
+            Empezar test ({effectiveQuestionCount})
           </Button>
         </div>
       </div>
@@ -367,7 +344,7 @@ const Tests = () => {
         <div className="max-w-2xl mx-auto">
           <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <span>Pregunta {currentIndex + 1} de {filteredQuestions.length}</span>
+              <span>Pregunta {currentIndex + 1} de {testQuestions.length}</span>
               {currentQuestion.topicId && getTopicById(currentQuestion.topicId) && (
                 <Badge
                   style={{ backgroundColor: getTopicById(currentQuestion.topicId)?.color || '#6b7280' }}
@@ -526,7 +503,7 @@ const Tests = () => {
                   </Button>
                 ) : (
                   <Button onClick={nextQuestion}>
-                    {currentIndex < filteredQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
+                    {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
                   </Button>
                 )}
               </div>
@@ -535,223 +512,6 @@ const Tests = () => {
         </div>
       ) : (
         <>
-          {/* Filtro por convocatoria */}
-          {activeConvocatoria && (
-            <div className="flex items-center gap-3 p-3 rounded-lg border border-border bg-card">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                <Filter className="h-4 w-4" />
-                <span>Convocatoria:</span>
-              </div>
-              <Button
-                variant={convocatoriaFilter ? 'default' : 'outline'}
-                size="sm"
-                className="h-8 px-3 text-xs gap-1.5"
-                onClick={() => setConvocatoriaFilter(!convocatoriaFilter)}
-              >
-                <span 
-                  className="w-2 h-2 rounded-full" 
-                  style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
-                />
-                {activeConvocatoria.shortTitle}
-                {convocatoriaFilter && (
-                  <Badge variant="secondary" className="ml-1 text-[10px] px-1.5">
-                    Solo lo que entra
-                  </Badge>
-                )}
-              </Button>
-              {convocatoriaFilter && convocatoriaTopicIds && (
-                <>
-                  <span className="text-xs text-muted-foreground">
-                    {convocatoriaTopicIds.length} temas · {filteredQuestions.length} preguntas
-                  </span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 text-xs px-2"
-                    onClick={selectConvocatoriaTopics}
-                  >
-                    Seleccionar estos
-                  </Button>
-                </>
-              )}
-            </div>
-          )}
-
-          {/* Filtros jerárquicos por tema */}
-          {topicGroups.length > 0 && (
-            <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                  <Filter className="h-4 w-4" />
-                  <span>Filtrar por tema:</span>
-                </div>
-                <div className="flex gap-1">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 text-xs px-2"
-                    onClick={selectAllTopics}
-                  >
-                    Todos
-                  </Button>
-                  <span className="text-muted-foreground">·</span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 text-xs px-2"
-                    onClick={clearAllTopics}
-                  >
-                    Limpiar
-                  </Button>
-                </div>
-              </div>
-              
-              {/* Topics principales con subtopics desplegables */}
-              <div className="space-y-2">
-                {topicGroups.map((group) => {
-                  const isExpanded = expandedGroups.includes(group.parent.id);
-                  const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
-                  const selectedCount = allIds.filter(id => selectedTopics.includes(id)).length;
-                  const allSelected = selectedCount === allIds.length;
-                  const someSelected = selectedCount > 0 && !allSelected;
-                  
-                  return (
-                    <div key={group.parent.id} className="border border-border rounded-lg overflow-hidden">
-                      {/* Topic principal */}
-                      <div 
-                        className={`flex items-center gap-2 p-3 bg-card hover:bg-muted/50 transition-colors ${
-                          allSelected ? 'bg-primary/5' : someSelected ? 'bg-primary/3' : ''
-                        }`}
-                      >
-                        {group.subtopics.length > 0 && (
-                          <button
-                            onClick={() => toggleGroup(group.parent.id)}
-                            className="p-0.5 hover:bg-muted rounded"
-                          >
-                            {isExpanded ? (
-                              <ChevronDown className="h-4 w-4 text-muted-foreground" />
-                            ) : (
-                              <ChevronRight className="h-4 w-4 text-muted-foreground" />
-                            )}
-                          </button>
-                        )}
-                        <button
-                          onClick={() => toggleGroupSelection(group)}
-                          className={`flex-1 flex items-center gap-2 text-left ${
-                            allSelected ? 'text-primary font-medium' : 'text-foreground'
-                          }`}
-                        >
-                          <div 
-                            className="w-3 h-3 rounded-full flex-shrink-0"
-                            style={{ backgroundColor: group.parent.color || '#6b7280' }}
-                          />
-                          <span className="text-sm">{group.parent.title}</span>
-                          <Badge variant="secondary" className="ml-auto text-[10px] px-1.5">
-                            {group.totalQuestions}
-                          </Badge>
-                        </button>
-                      </div>
-                      
-                      {/* Subtopics */}
-                      {isExpanded && group.subtopics.length > 0 && (
-                        <div className="border-t border-border bg-muted/30">
-                          {group.subtopics.map((subtopic) => {
-                            const isSelected = selectedTopics.includes(subtopic.id);
-                            const questionCount = questions.filter(q => q.topicId === subtopic.id).length;
-                            const inConvocatoria = convocatoriaFilter && convocatoriaTopicSet.has(subtopic.id);
-                            const notInConvocatoria = convocatoriaFilter && !convocatoriaTopicSet.has(subtopic.id);
-                            
-                            return (
-                              <button
-                                key={subtopic.id}
-                                onClick={() => toggleTopic(subtopic.id)}
-                                className={`w-full flex items-center gap-2 px-3 py-2 pl-10 text-left hover:bg-muted/50 transition-colors ${
-                                  isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
-                                } ${notInConvocatoria ? 'opacity-40' : ''}`}
-                              >
-                                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${
-                                  isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
-                                }`} />
-                                <span className="text-xs flex-1 truncate">{subtopic.title}</span>
-                                {inConvocatoria && (
-                                  <Badge 
-                                    variant="outline" 
-                                    className="text-[9px] px-1 py-0 h-4 border-green-400 text-green-600 dark:border-green-600 dark:text-green-400"
-                                  >
-                                    ✓ Entra
-                                  </Badge>
-                                )}
-                                <span className="text-[10px] text-muted-foreground">{questionCount}</span>
-                              </button>
-                            );
-                          })}
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Filtro por origen (dinámico) */}
-          <TooltipProvider>
-            <div className="flex items-center gap-3">
-              <span className="text-sm font-medium text-muted-foreground">Origen:</span>
-              <div className="flex gap-1 flex-wrap">
-                <Button
-                  variant={originFilter === 'all' ? 'default' : 'outline'}
-                  size="sm"
-                  className="h-8 px-3 text-xs"
-                  onClick={() => setOriginFilter('all')}
-                >
-                  Todas
-                </Button>
-
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      variant={originFilter === 'generated' ? 'default' : 'outline'}
-                      size="sm"
-                      className="h-8 px-3 text-xs gap-1.5"
-                      onClick={() => setOriginFilter('generated')}
-                    >
-                      <Sparkles className="h-3.5 w-3.5" />
-                      Generadas
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent side="bottom">
-                    <p>Preguntas generadas (incluye IA)</p>
-                  </TooltipContent>
-                </Tooltip>
-
-                {/* dynamic origins from questions */}
-                {Array.from(new Set(questions.map(q => (q.origin || 'generated')))).map(origin => {
-                  if (origin === 'generated') return null; // already have 'Generadas'
-                  // represent 'ia' specifically
-                  const label = origin === 'ia' ? 'IA' : origin === 'oficial' ? 'Oficial' : origin;
-                  return (
-                    <Tooltip key={origin}>
-                      <TooltipTrigger asChild>
-                        <Button
-                          variant={originFilter === origin ? 'default' : 'outline'}
-                          size="sm"
-                          className="h-8 px-3 text-xs gap-1.5"
-                          onClick={() => setOriginFilter(origin)}
-                        >
-                          {label}
-                        </Button>
-                      </TooltipTrigger>
-                      <TooltipContent side="bottom">
-                        <p>Origen: {origin}</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  );
-                })}
-              </div>
-            </div>
-          </TooltipProvider>
-
           {filteredQuestions.length === 0 ? (
             <Card className="border-border border-dashed">
               <CardContent className="py-12 text-center">

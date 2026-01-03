@@ -186,8 +186,8 @@ export const hydrateFromApi = async () => {
 };
 
 // User preferences for study type
-import { type StudyType, type UserPreferences, type StudyFilters, STUDY_TYPES } from './data-types';
-export { type StudyType, type UserPreferences, type StudyFilters, STUDY_TYPES } from './data-types';
+import { type StudyType, type UserPreferences, type StudyFilters, type FilterMode, STUDY_TYPES } from './data-types';
+export { type StudyType, type UserPreferences, type StudyFilters, type FilterMode, STUDY_TYPES } from './data-types';
 
 const PREFERENCES_KEY = 'folio_preferences';
 
@@ -235,9 +235,11 @@ export const completeOnboarding = (studyType: StudyType, customLabel?: string) =
 
 // Study filters (persisted per user)
 const DEFAULT_FILTERS: StudyFilters = {
-  convocatoriaFilter: false,
+  convocatoriaFilter: false, // deprecated
+  filterMode: 'none',
   selectedTopicIds: [],
   originFilter: 'all',
+  questionLimit: 0, // 0 = all
 };
 
 export const getStudyFilters = (): StudyFilters => {

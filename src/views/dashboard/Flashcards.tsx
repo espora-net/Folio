@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { RotateCcw, Check, Bookmark, Filter, Trophy, X, ChevronDown, ChevronRight, LayoutGrid, List, Sparkles, ExternalLink, FileCheck } from 'lucide-react';
+import { RotateCcw, Check, Bookmark, Trophy, X, LayoutGrid, List, Sparkles, ExternalLink, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -12,18 +12,13 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters } from '@/lib/storage';
+import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
 import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
-
-type TopicGroup = {
-  parent: Topic;
-  subtopics: Topic[];
-  totalCards: number;
-};
+import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
+import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
 
 type ViewMode = 'cards' | 'list';
-type OriginFilter = 'all' | 'generated' | 'oposito.es';
 
 const normalizeOrigin = (origin?: string) => {
   const o = (origin ?? 'generated').trim();
@@ -81,8 +76,9 @@ const Flashcards = () => {
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
-  const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
-  const [convocatoriaFilter, setConvocatoriaFilter] = useState<boolean>(false);
+  const [originFilter, setOriginFilter] = useState<string>('all');
+  const [filterMode, setFilterMode] = useState<FilterMode>('none');
+  const [questionLimit, setQuestionLimit] = useState<number>(0); // 0 = all
   const [activeConvocatoria, setActiveConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [studyDeck, setStudyDeck] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -109,9 +105,10 @@ const Flashcards = () => {
       // Cargar filtros guardados (solo la primera vez)
       if (!filtersLoaded) {
         const savedFilters = getStudyFilters();
-        setConvocatoriaFilter(savedFilters.convocatoriaFilter);
+        setFilterMode(savedFilters.filterMode ?? 'none');
         setSelectedTopics(savedFilters.selectedTopicIds);
-        setOriginFilter(savedFilters.originFilter as OriginFilter);
+        setOriginFilter(savedFilters.originFilter);
+        setQuestionLimit(savedFilters.questionLimit ?? 0);
         setFiltersLoaded(true);
       }
     };
@@ -127,49 +124,19 @@ const Flashcards = () => {
   useEffect(() => {
     if (!filtersLoaded) return; // No guardar hasta que se hayan cargado
     saveStudyFilters({
-      convocatoriaFilter,
+      filterMode,
+      convocatoriaFilter: filterMode === 'convocatoria',
       selectedTopicIds: selectedTopics,
       originFilter,
+      questionLimit,
     });
-  }, [convocatoriaFilter, selectedTopics, originFilter, filtersLoaded]);
-
-  // Agrupar topics por jerarquía (padres y subtopics)
-  const topicGroups = useMemo((): TopicGroup[] => {
-    const parentTopics = topics.filter(t => !t.parentId);
-    const groups: TopicGroup[] = [];
-
-    parentTopics.forEach(parent => {
-      const subtopics = topics.filter(t => t.parentId === parent.id);
-      const allTopicIds = [parent.id, ...subtopics.map(s => s.id)];
-      const totalCards = flashcards.filter(f => allTopicIds.includes(f.topicId)).length;
-      
-      groups.push({
-        parent,
-        subtopics,
-        totalCards,
-      });
-    });
-    
-    return groups;
-  }, [topics, flashcards]);
+  }, [filterMode, selectedTopics, originFilter, questionLimit, filtersLoaded]);
 
   // Calcular los topic IDs que entran en la convocatoria activa
   const convocatoriaTopicIds = useMemo(() => {
-    if (!activeConvocatoria || !convocatoriaFilter) return null;
+    if (!activeConvocatoria || filterMode !== 'convocatoria') return null;
     return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
-  }, [topics, activeConvocatoria, convocatoriaFilter]);
-
-  // Set para lookup rápido de temas en convocatoria
-  const convocatoriaTopicSet = useMemo(() => {
-    return new Set(convocatoriaTopicIds ?? []);
-  }, [convocatoriaTopicIds]);
-
-  // Función para seleccionar solo temas de la convocatoria
-  const selectConvocatoriaTopics = () => {
-    if (convocatoriaTopicIds) {
-      setSelectedTopics(convocatoriaTopicIds);
-    }
-  };
+  }, [topics, activeConvocatoria, filterMode]);
 
   const filteredFlashcards = useMemo(() => {
     let result = flashcards;
@@ -199,41 +166,6 @@ const Flashcards = () => {
   }, [flashcards, selectedTopics, originFilter, convocatoriaTopicIds]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
-
-  const toggleTopic = (topicId: string) => {
-    setSelectedTopics(prev =>
-      prev.includes(topicId)
-        ? prev.filter(id => id !== topicId)
-        : [...prev, topicId]
-    );
-  };
-
-  const toggleGroup = (groupId: string) => {
-    setExpandedGroups(prev =>
-      prev.includes(groupId)
-        ? prev.filter(id => id !== groupId)
-        : [...prev, groupId]
-    );
-  };
-
-  const toggleGroupSelection = (group: TopicGroup) => {
-    const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
-    const allSelected = allIds.every(id => selectedTopics.includes(id));
-    
-    if (allSelected) {
-      setSelectedTopics(prev => prev.filter(id => !allIds.includes(id)));
-    } else {
-      setSelectedTopics(prev => [...new Set([...prev, ...allIds])]);
-    }
-  };
-
-  const selectAllTopics = () => {
-    setSelectedTopics(topics.map(t => t.id));
-  };
-
-  const clearAllTopics = () => {
-    setSelectedTopics([]);
-  };
 
   const shuffleDeck = <T,>(items: T[]): T[] => {
     const deck = [...items];
@@ -302,7 +234,12 @@ const Flashcards = () => {
       return;
     }
 
-    const shuffled = shuffleDeck(filteredFlashcards);
+    // Aplicar límite de preguntas
+    const limit = questionLimit > 0 && questionLimit < filteredFlashcards.length 
+      ? questionLimit 
+      : filteredFlashcards.length;
+    
+    const shuffled = shuffleDeck(filteredFlashcards).slice(0, limit);
     setStudyDeck(shuffled);
     setStudying(true);
     setShowFinalResults(false);
@@ -314,6 +251,14 @@ const Flashcards = () => {
     setTotalReviewed(shuffled.length);
     setMarkedForReview([]);
   };
+
+  // Calcular el número efectivo de tarjetas a estudiar
+  const effectiveCardCount = useMemo(() => {
+    if (questionLimit <= 0 || questionLimit >= filteredFlashcards.length) {
+      return filteredFlashcards.length;
+    }
+    return questionLimit;
+  }, [questionLimit, filteredFlashcards.length]);
 
   const closeResults = () => {
     setShowFinalResults(false);
@@ -402,10 +347,29 @@ const Flashcards = () => {
           <h1 className="text-3xl font-bold text-foreground">Flashcards</h1>
           <p className="text-muted-foreground">Repasa con tarjetas de memoria</p>
         </div>
-        <div className="flex gap-2">
-          <Button variant="outline" onClick={startStudying}>
+        <div className="flex gap-2 items-center">
+          <StudyFiltersPopover
+            topics={topics}
+            items={flashcards}
+            activeConvocatoria={activeConvocatoria}
+            filterMode={filterMode}
+            selectedTopicIds={selectedTopics}
+            originFilter={originFilter}
+            expandedGroups={expandedGroups}
+            onFilterModeChange={setFilterMode}
+            onSelectedTopicsChange={setSelectedTopics}
+            onOriginFilterChange={setOriginFilter}
+            onExpandedGroupsChange={setExpandedGroups}
+            filteredCount={filteredFlashcards.length}
+          />
+          <QuestionCountSelector
+            totalAvailable={filteredFlashcards.length}
+            selectedCount={effectiveCardCount}
+            onCountChange={setQuestionLimit}
+          />
+          <Button onClick={startStudying}>
             <RotateCcw className="h-4 w-4 mr-2" />
-            Estudiar ({filteredFlashcards.length})
+            Estudiar ({effectiveCardCount})
           </Button>
         </div>
       </div>
@@ -538,208 +502,6 @@ const Flashcards = () => {
         </div>
       ) : (
         <>
-          {/* Filtro por convocatoria */}
-          {activeConvocatoria && (
-            <div className="flex items-center gap-3 p-3 rounded-lg border border-border bg-card">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                <Filter className="h-4 w-4" />
-                <span>Convocatoria:</span>
-              </div>
-              <Button
-                variant={convocatoriaFilter ? 'default' : 'outline'}
-                size="sm"
-                className="h-8 px-3 text-xs gap-1.5"
-                onClick={() => setConvocatoriaFilter(!convocatoriaFilter)}
-              >
-                <span 
-                  className="w-2 h-2 rounded-full" 
-                  style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
-                />
-                {activeConvocatoria.shortTitle}
-                {convocatoriaFilter && (
-                  <Badge variant="secondary" className="ml-1 text-[10px] px-1.5">
-                    Solo lo que entra
-                  </Badge>
-                )}
-              </Button>
-              {convocatoriaFilter && convocatoriaTopicIds && (
-                <>
-                  <span className="text-xs text-muted-foreground">
-                    {convocatoriaTopicIds.length} temas · {filteredFlashcards.length} tarjetas
-                  </span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 text-xs px-2"
-                    onClick={selectConvocatoriaTopics}
-                  >
-                    Seleccionar estos
-                  </Button>
-                </>
-              )}
-            </div>
-          )}
-
-          {/* Filtros jerárquicos por tema */}
-          {topicGroups.length > 0 && (
-            <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                  <Filter className="h-4 w-4" />
-                  <span>Filtrar por tema:</span>
-                </div>
-                <div className="flex gap-1">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 text-xs px-2"
-                    onClick={selectAllTopics}
-                  >
-                    Todos
-                  </Button>
-                  <span className="text-muted-foreground">·</span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 text-xs px-2"
-                    onClick={clearAllTopics}
-                  >
-                    Limpiar
-                  </Button>
-                </div>
-              </div>
-              
-              {/* Topics principales con subtopics desplegables */}
-              <div className="space-y-2">
-                {topicGroups.map((group) => {
-                  const isExpanded = expandedGroups.includes(group.parent.id);
-                  const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
-                  const selectedCount = allIds.filter(id => selectedTopics.includes(id)).length;
-                  const allSelected = selectedCount === allIds.length;
-                  const someSelected = selectedCount > 0 && !allSelected;
-                  
-                  return (
-                    <div key={group.parent.id} className="border border-border rounded-lg overflow-hidden">
-                      {/* Topic principal */}
-                      <div 
-                        className={`flex items-center gap-2 p-3 bg-card hover:bg-muted/50 transition-colors ${
-                          allSelected ? 'bg-primary/5' : someSelected ? 'bg-primary/3' : ''
-                        }`}
-                      >
-                        {group.subtopics.length > 0 && (
-                          <button
-                            onClick={() => toggleGroup(group.parent.id)}
-                            className="p-0.5 hover:bg-muted rounded"
-                          >
-                            {isExpanded ? (
-                              <ChevronDown className="h-4 w-4 text-muted-foreground" />
-                            ) : (
-                              <ChevronRight className="h-4 w-4 text-muted-foreground" />
-                            )}
-                          </button>
-                        )}
-                        <button
-                          onClick={() => toggleGroupSelection(group)}
-                          className={`flex-1 flex items-center gap-2 text-left ${
-                            allSelected ? 'text-primary font-medium' : 'text-foreground'
-                          }`}
-                        >
-                          <div 
-                            className="w-3 h-3 rounded-full flex-shrink-0"
-                            style={{ backgroundColor: group.parent.color || '#6b7280' }}
-                          />
-                          <span className="text-sm">{group.parent.title}</span>
-                          <Badge variant="secondary" className="ml-auto text-[10px] px-1.5">
-                            {group.totalCards}
-                          </Badge>
-                        </button>
-                      </div>
-                      
-                      {/* Subtopics */}
-                      {isExpanded && group.subtopics.length > 0 && (
-                        <div className="border-t border-border bg-muted/30">
-                          {group.subtopics.map((subtopic) => {
-                            const isSelected = selectedTopics.includes(subtopic.id);
-                            const cardCount = flashcards.filter(f => f.topicId === subtopic.id).length;
-                            const inConvocatoria = convocatoriaFilter && convocatoriaTopicSet.has(subtopic.id);
-                            const notInConvocatoria = convocatoriaFilter && !convocatoriaTopicSet.has(subtopic.id);
-                            
-                            return (
-                              <button
-                                key={subtopic.id}
-                                onClick={() => toggleTopic(subtopic.id)}
-                                className={`w-full flex items-center gap-2 px-3 py-2 pl-10 text-left hover:bg-muted/50 transition-colors ${
-                                  isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
-                                } ${notInConvocatoria ? 'opacity-40' : ''}`}
-                              >
-                                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${
-                                  isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
-                                }`} />
-                                <span className="text-xs flex-1 truncate">{subtopic.title}</span>
-                                {inConvocatoria && (
-                                  <Badge 
-                                    variant="outline" 
-                                    className="text-[9px] px-1 py-0 h-4 border-green-400 text-green-600 dark:border-green-600 dark:text-green-400"
-                                  >
-                                    ✓ Entra
-                                  </Badge>
-                                )}
-                                <span className="text-[10px] text-muted-foreground">{cardCount}</span>
-                              </button>
-                            );
-                          })}
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Filtro por origen (como en Tests) */}
-          <TooltipProvider>
-            <div className="flex items-center gap-3">
-              <span className="text-sm font-medium text-muted-foreground">Origen:</span>
-              <div className="flex gap-1 flex-wrap">
-                <Button
-                  variant={originFilter === 'all' ? 'default' : 'outline'}
-                  size="sm"
-                  className="h-8 px-3 text-xs"
-                  onClick={() => setOriginFilter('all')}
-                >
-                  Todas
-                </Button>
-
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      variant={originFilter === 'generated' ? 'default' : 'outline'}
-                      size="sm"
-                      className="h-8 px-3 text-xs gap-1.5"
-                      onClick={() => setOriginFilter('generated')}
-                    >
-                      <Sparkles className="h-3.5 w-3.5" />
-                      Generadas
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent side="bottom">
-                    <p>Incluye origin 'generated' e 'ia'</p>
-                  </TooltipContent>
-                </Tooltip>
-
-                <Button
-                  variant={originFilter === 'oposito.es' ? 'default' : 'outline'}
-                  size="sm"
-                  className="h-8 px-3 text-xs"
-                  onClick={() => setOriginFilter('oposito.es')}
-                >
-                  oposito.es
-                </Button>
-              </div>
-            </div>
-          </TooltipProvider>
-
           {filteredFlashcards.length === 0 ? (
             <Card className="border-border border-dashed">
               <CardContent className="py-12 text-center">

@@ -220,10 +220,14 @@ export const STUDY_TYPES: StudyTypeConfig[] = [
   },
 ];
 
+export type FilterMode = 'none' | 'convocatoria' | 'tema';
+
 export interface StudyFilters {
-  convocatoriaFilter: boolean;
+  convocatoriaFilter: boolean; // deprecated: use filterMode
+  filterMode: FilterMode;
   selectedTopicIds: string[];
   originFilter: string;
+  questionLimit: number; // 0 = all
 }
 
 export interface UserPreferences {
