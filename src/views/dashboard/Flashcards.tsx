@@ -81,6 +81,7 @@ const Flashcards = () => {
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [originFilter, setOriginFilter] = useState<OriginFilter>('all');
+  const [studyDeck, setStudyDeck] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [pendingNextIndex, setPendingNextIndex] = useState<number | null>(null);
@@ -184,6 +185,17 @@ const Flashcards = () => {
     setSelectedTopics([]);
   };
 
+  const shuffleDeck = <T,>(items: T[]): T[] => {
+    const deck = [...items];
+    for (let i = deck.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [deck[i], deck[j]] = [deck[j], deck[i]];
+    }
+    return deck;
+  };
+
+  const activeDeck = studying ? studyDeck : filteredFlashcards;
+
   const handleReview = (markForReview: boolean) => {
     // Evitar dobles clicks mientras se está avanzando de tarjeta
     if (pendingNextIndex !== null) return;
@@ -206,7 +218,7 @@ const Flashcards = () => {
     // puede enseñar la cara trasera de la siguiente antes de leer la pregunta.
     // Primero giramos la tarjeta a "pregunta" y, al finalizar la transición,
     // avanzamos el índice.
-    const hasNext = currentIndex < filteredFlashcards.length - 1;
+    const hasNext = currentIndex < activeDeck.length - 1;
     if (!hasNext) {
       setShowAnswer(false);
       setStudying(false);
@@ -239,6 +251,9 @@ const Flashcards = () => {
       toast({ title: 'Sin tarjetas', description: 'No hay tarjetas para estudiar con los filtros seleccionados.', variant: 'destructive' });
       return;
     }
+
+    const shuffled = shuffleDeck(filteredFlashcards);
+    setStudyDeck(shuffled);
     setStudying(true);
     setShowFinalResults(false);
     setCurrentIndex(0);
@@ -246,12 +261,13 @@ const Flashcards = () => {
     setPendingNextIndex(null);
     setCardTextVisible(true);
     setCorrectCount(0);
-    setTotalReviewed(filteredFlashcards.length);
+    setTotalReviewed(shuffled.length);
     setMarkedForReview([]);
   };
 
   const closeResults = () => {
     setShowFinalResults(false);
+    setStudyDeck([]);
   };
 
   const getResultIcon = () => {
@@ -261,7 +277,7 @@ const Flashcards = () => {
     return { color: 'text-orange-500', bg: 'bg-orange-500/10' };
   };
 
-  const currentCard = filteredFlashcards[currentIndex];
+  const currentCard = activeDeck[currentIndex];
 
   return (
     <div className="space-y-6">
@@ -348,7 +364,14 @@ const Flashcards = () => {
         <div className="max-w-2xl mx-auto">
           {/* Botón terminar sesión arriba */}
           <div className="flex justify-end mb-4">
-            <Button variant="ghost" size="sm" onClick={() => setStudying(false)}>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => {
+                setStudying(false);
+                setStudyDeck([]);
+              }}
+            >
               <X className="h-4 w-4 mr-2" />
               Terminar sesión
             </Button>

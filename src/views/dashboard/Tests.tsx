@@ -85,6 +85,7 @@ const Tests = () => {
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [originFilter, setOriginFilter] = useState<string>('all');
+  const [testQuestions, setTestQuestions] = useState<TestQuestion[]>([]);
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -182,31 +183,43 @@ const Tests = () => {
     }
   };
 
+  const shuffleDeck = <T,>(items: T[]): T[] => {
+    const deck = [...items];
+    for (let i = deck.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [deck[i], deck[j]] = [deck[j], deck[i]];
+    }
+    return deck;
+  };
+
   const startTest = () => {
     if (filteredQuestions.length === 0) {
       toast({ title: 'Sin preguntas', description: 'No hay preguntas para los temas seleccionados.', variant: 'destructive' });
       return;
     }
+
+    const shuffled = shuffleDeck(filteredQuestions);
+    setTestQuestions(shuffled);
     setTesting(true);
     setShowFinalResults(false);
     setCurrentIndex(0);
     setSelectedAnswer(null);
     setShowResult(false);
     setScore(0);
-    setTotalQuestions(filteredQuestions.length);
+    setTotalQuestions(shuffled.length);
   };
 
   const handleAnswer = () => {
     if (selectedAnswer === null) return;
 
-    const isCorrect = selectedAnswer === filteredQuestions[currentIndex].correctIndex;
+    const isCorrect = selectedAnswer === testQuestions[currentIndex].correctIndex;
     if (isCorrect) setScore(prev => prev + 1);
 
     setShowResult(true);
   };
 
   const nextQuestion = () => {
-    if (currentIndex < filteredQuestions.length - 1) {
+    if (currentIndex < testQuestions.length - 1) {
       setCurrentIndex(prev => prev + 1);
       setSelectedAnswer(null);
       setShowResult(false);
@@ -223,6 +236,7 @@ const Tests = () => {
 
   const closeResults = () => {
     setShowFinalResults(false);
+    setTestQuestions([]);
   };
 
   const getResultIcon = () => {
@@ -232,7 +246,7 @@ const Tests = () => {
     return { icon: XCircle, color: 'text-orange-500', bg: 'bg-orange-500/10' };
   };
 
-  const currentQuestion = filteredQuestions[currentIndex];
+  const currentQuestion = testQuestions[currentIndex];
 
   return (
     <div className="space-y-6">
