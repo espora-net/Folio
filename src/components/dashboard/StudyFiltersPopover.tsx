@@ -170,7 +170,7 @@ export default function StudyFiltersPopover({
           <Separator />
 
         <ScrollArea className="max-h-[400px]">
-          <div className="py-4 px-4 space-y-4">
+          <div className="p-4 space-y-4">
             {/* Filtro por convocatoria */}
             {activeConvocatoria && (
               <div className="space-y-2">
