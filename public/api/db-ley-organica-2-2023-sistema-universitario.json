@@ -15,8 +15,7 @@
           "content": "TBD",
           "order": 1,
           "syllabusCoverageIds": [
-            "titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades",
-            "articulo-2-funciones-del-sistema-universitario"
+            "#titulo-i"
           ]
         },
         {
@@ -26,8 +25,7 @@
           "content": "TBD",
           "order": 2,
           "syllabusCoverageIds": [
-            "titulo-i-funciones-del-sistema-universitario-y-autonomia-de-las-universidades",
-            "articulo-3-autonomia-de-las-universidades"
+            "#titulo-i"
           ]
         },
         {
@@ -35,264 +33,168 @@
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 4. Creación y reconocimiento de las universidades",
           "content": "TBD",
-          "order": 3,
-          "syllabusCoverageIds": [
-            "titulo-ii-creacion-y-reconocimiento-de-las-universidades-y-calidad-del-sistema-universitario",
-            "articulo-4-creacion-y-reconocimiento-de-las-universidades"
-          ]
+          "order": 3
         },
         {
           "id": "articulo-5-la-calidad-del-sistema-universitario",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 5. La calidad del sistema universitario",
           "content": "TBD",
-          "order": 4,
-          "syllabusCoverageIds": [
-            "titulo-ii-creacion-y-reconocimiento-de-las-universidades-y-calidad-del-sistema-universitario",
-            "articulo-5-la-calidad-del-sistema-universitario"
-          ]
+          "order": 4
         },
         {
           "id": "articulo-8-los-titulos-universitarios-oficiales",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 8. Los títulos universitarios oficiales.",
           "content": "TBD",
-          "order": 5,
-          "syllabusCoverageIds": [
-            "titulo-iii-organizacion-de-ensenanzas",
-            "articulo-8-los-titulos-universitarios-oficiales"
-          ]
+          "order": 5
         },
         {
           "id": "articulo-9-estructura-de-las-ensenanzas-oficiales",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 9. Estructura de las enseñanzas oficiales",
           "content": "TBD",
-          "order": 6,
-          "syllabusCoverageIds": [
-            "titulo-iii-organizacion-de-ensenanzas",
-            "articulo-9-estructura-de-las-ensenanzas-oficiales"
-          ]
+          "order": 6
         },
         {
           "id": "articulo-10-convalidacion-o-adaptacion-de-estudios-homologacion-y-declaracion-de-equivalencia-de-titulos-extranjeros-validacion-de-experiencia-y-reconocimiento-de-creditos",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 10. Convalidación o adaptación de estudios, homologación y declaración de equivalencia de títulos extranjeros, validación de experiencia y reconocimiento de créditos",
           "content": "TBD",
-          "order": 7,
-          "syllabusCoverageIds": [
-            "titulo-iii-organizacion-de-ensenanzas",
-            "articulo-10-convalidacion-o-adaptacion-de-estudios-homologacion-y-declaracion-de-equivalencia-de-titulos-extranjeros-validacion-de-experiencia-y-reconocimiento-de-creditos"
-          ]
+          "order": 7
         },
         {
           "id": "articulo-12-fomento-de-la-ciencia-abierta-y-ciencia-ciudadana",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 12. Fomento de la Ciencia Abierta y Ciencia Ciudadana.",
           "content": "TBD",
-          "order": 8,
-          "syllabusCoverageIds": [
-            "titulo-iv-investigacion-y-transferencia-e-intercambio-del-conocimiento-e-innovacion",
-            "articulo-12-fomento-de-la-ciencia-abierta-y-ciencia-ciudadana"
-          ]
+          "order": 8
         },
         {
           "id": "articulo-15-la-conferencia-general-de-politica-universitaria",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 15. La Conferencia General de Política Universitaria",
           "content": "TBD",
-          "order": 9,
-          "syllabusCoverageIds": [
-            "titulo-v-cooperacion-coordinacion-y-participacion-en-el-sistema-universitario",
-            "articulo-15-la-conferencia-general-de-politica-universitaria"
-          ]
+          "order": 9
         },
         {
           "id": "articulo-16-el-consejo-de-universidades",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 16. El Consejo de Universidades",
           "content": "TBD",
-          "order": 10,
-          "syllabusCoverageIds": [
-            "titulo-v-cooperacion-coordinacion-y-participacion-en-el-sistema-universitario",
-            "articulo-16-el-consejo-de-universidades"
-          ]
+          "order": 10
         },
         {
           "id": "articulo-17-el-consejo-de-estudiantes-universitario-del-estado",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 17. El Consejo de Estudiantes Universitario del Estado",
           "content": "TBD",
-          "order": 11,
-          "syllabusCoverageIds": [
-            "titulo-v-cooperacion-coordinacion-y-participacion-en-el-sistema-universitario",
-            "articulo-17-el-consejo-de-estudiantes-universitario-del-estado"
-          ]
+          "order": 11
         },
         {
           "id": "articulo-18-cohesion-social-y-territorial",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 18. Cohesión social y territorial.",
           "content": "TBD",
-          "order": 12,
-          "syllabusCoverageIds": [
-            "titulo-vi-universidad-sociedad-y-cultura",
-            "articulo-18-cohesion-social-y-territorial"
-          ]
+          "order": 12
         },
         {
           "id": "articulo-20-universidad-y-diversidad-linguistica",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 20. Universidad y diversidad lingüística",
           "content": "TBD",
-          "order": 13,
-          "syllabusCoverageIds": [
-            "titulo-vi-universidad-sociedad-y-cultura",
-            "articulo-20-universidad-y-diversidad-linguistica"
-          ]
+          "order": 13
         },
         {
           "id": "articulo-22-el-deporte-y-la-actividad-fisica-en-la-universidad",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 22. El deporte y la actividad física en la Universidad",
           "content": "TBD",
-          "order": 14,
-          "syllabusCoverageIds": [
-            "titulo-vi-universidad-sociedad-y-cultura",
-            "articulo-22-el-deporte-y-la-actividad-fisica-en-la-universidad"
-          ]
+          "order": 14
         },
         {
           "id": "articulo-23-fomento-de-la-internacionalizacion-del-sistema-universitario",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 23. Fomento de la internacionalización del sistema universitario.",
           "content": "TBD",
-          "order": 15,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-23-fomento-de-la-internacionalizacion-del-sistema-universitario"
-          ]
+          "order": 15
         },
         {
           "id": "articulo-24-estrategia-de-internacionalizacion-del-sistema-universitario",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 24. Estrategia de Internacionalización del Sistema Universitario",
           "content": "TBD",
-          "order": 16,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-24-estrategia-de-internacionalizacion-del-sistema-universitario"
-          ]
+          "order": 16
         },
         {
           "id": "articulo-25-alianzas-interuniversitarias",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 25. Alianzas interuniversitarias",
           "content": "TBD",
-          "order": 17,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-25-alianzas-interuniversitarias"
-          ]
+          "order": 17
         },
         {
           "id": "articulo-26-titulos-y-programas-conjuntos",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 26. Títulos y programas conjuntos.",
           "content": "TBD",
-          "order": 18,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-26-titulos-y-programas-conjuntos"
-          ]
+          "order": 18
         },
         {
           "id": "articulo-27-movilidad-internacional-de-la-comunidad-universitaria",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 27. Movilidad internacional de la comunidad universitaria",
           "content": "TBD",
-          "order": 19,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-27-movilidad-internacional-de-la-comunidad-universitaria"
-          ]
+          "order": 19
         },
         {
           "id": "articulo-29-centros-en-el-extranjero",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 29. Centros en el extranjero.",
           "content": "TBD",
-          "order": 20,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-29-centros-en-el-extranjero"
-          ]
+          "order": 20
         },
         {
           "id": "articulo-30-cooperacion-internacional-universitaria-para-la-solidaridad-y-el-desarrollo",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo",
           "content": "TBD",
-          "order": 21,
-          "syllabusCoverageIds": [
-            "titulo-vii-internacionalizacion-del-sistema-universitario",
-            "articulo-30-cooperacion-internacional-universitaria-para-la-solidaridad-y-el-desarrollo"
-          ]
+          "order": 21
         },
         {
           "id": "articulo-31-derecho-de-acceso",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 31. Derecho de acceso.",
           "content": "TBD",
-          "order": 22,
-          "syllabusCoverageIds": [
-            "titulo-viii-el-estudiantado-en-el-sistema-universitario",
-            "articulo-31-derecho-de-acceso"
-          ]
+          "order": 22
         },
         {
           "id": "articulo-32-becas-y-ayudas-al-estudio",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 32. Becas y ayudas al estudio",
           "content": "TBD",
-          "order": 23,
-          "syllabusCoverageIds": [
-            "titulo-viii-el-estudiantado-en-el-sistema-universitario",
-            "articulo-32-becas-y-ayudas-al-estudio"
-          ]
+          "order": 23
         },
         {
           "id": "articulo-34-derechos-de-participacion-y-representacion",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 34. Derechos de participación y representación",
           "content": "TBD",
-          "order": 24,
-          "syllabusCoverageIds": [
-            "titulo-viii-el-estudiantado-en-el-sistema-universitario",
-            "articulo-34-derechos-de-participacion-y-representacion"
-          ]
+          "order": 24
         },
         {
           "id": "articulo-35-eficacia-y-garantia-de-los-derechos",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 35. Eficacia y garantía de los derechos",
           "content": "TBD",
-          "order": 25,
-          "syllabusCoverageIds": [
-            "titulo-viii-el-estudiantado-en-el-sistema-universitario",
-            "articulo-35-eficacia-y-garantia-de-los-derechos"
-          ]
+          "order": 25
         },
         {
           "id": "articulo-36-deberes-del-estudiantado",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 36. Deberes del estudiantado.",
           "content": "TBD",
-          "order": 26,
-          "syllabusCoverageIds": [
-            "titulo-viii-el-estudiantado-en-el-sistema-universitario",
-            "articulo-36-deberes-del-estudiantado"
-          ]
+          "order": 26
         },
         {
           "id": "articulo-38-regimen-juridico",
@@ -301,9 +203,8 @@
           "content": "TBD",
           "order": 27,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas",
-            "articulo-38-regimen-juridico"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -313,9 +214,8 @@
           "content": "TBD",
           "order": 28,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas",
-            "articulo-39-rendicion-de-cuentas-transparencia-e-integridad"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -325,9 +225,8 @@
           "content": "TBD",
           "order": 29,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas",
-            "articulo-40-centros-y-estructuras"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -337,9 +236,8 @@
           "content": "TBD",
           "order": 30,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas",
-            "articulo-41-creacion-modificacion-y-supresion-de-centros-y-estructuras"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -349,9 +247,8 @@
           "content": "TBD",
           "order": 31,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas",
-            "articulo-42-adscripcion-de-centros"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -361,9 +258,8 @@
           "content": "TBD",
           "order": 32,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-i-regimen-juridico-y-estructura-de-las-universidades-publicas",
-            "articulo-43-unidades-basicas"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -373,9 +269,8 @@
           "content": "TBD",
           "order": 33,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-44-normas-generales-de-gobernanza-representacion-y-participacion-en-las-universidades-publicas"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -385,9 +280,8 @@
           "content": "TBD",
           "order": 34,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-45-el-claustro-universitario"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -397,9 +291,8 @@
           "content": "TBD",
           "order": 35,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-46-el-consejo-de-gobierno"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -409,9 +302,8 @@
           "content": "TBD",
           "order": 36,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-47-el-consejo-social"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -421,9 +313,8 @@
           "content": "TBD",
           "order": 37,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-50-el-rector-o-la-rectora-y-su-equipo-de-gobierno"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -433,9 +324,8 @@
           "content": "TBD",
           "order": 38,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-51-la-eleccion-del-rector-o-la-rectora"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -445,9 +335,8 @@
           "content": "TBD",
           "order": 39,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-ii-gobernanza-de-las-universidades-publicas",
-            "articulo-52-otros-organos-unipersonales"
+            "#titulo-ix",
+            "#capitulo-ii"
           ]
         },
         {
@@ -455,288 +344,168 @@
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 53. Marco normativo.",
           "content": "TBD",
-          "order": 40,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-53-marco-normativo"
-          ]
+          "order": 40
         },
         {
           "id": "articulo-56-programacion-y-sistema-de-financiacion",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 56. Programación y sistema de financiación.",
           "content": "TBD",
-          "order": 41,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-56-programacion-y-sistema-de-financiacion"
-          ]
+          "order": 41
         },
         {
           "id": "articulo-57-presupuesto",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 57. Presupuesto",
           "content": "TBD",
-          "order": 42,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-57-presupuesto"
-          ]
+          "order": 42
         },
         {
           "id": "articulo-59-transparencia-y-rendicion-de-cuentas-en-la-gestion-economico-financiera",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera",
           "content": "TBD",
-          "order": 43,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-59-transparencia-y-rendicion-de-cuentas-en-la-gestion-economico-financiera"
-          ]
+          "order": 43
         },
         {
           "id": "articulo-60-colaboracion-con-otras-entidades-o-personas-fisicas",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 60. Colaboración con otras entidades o personas físicas.",
           "content": "TBD",
-          "order": 44,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-60-colaboracion-con-otras-entidades-o-personas-fisicas"
-          ]
+          "order": 44
         },
         {
           "id": "articulo-61-entidades-o-empresas-basadas-en-el-conocimiento",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 61. Entidades o empresas basadas en el conocimiento",
           "content": "TBD",
-          "order": 45,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-61-entidades-o-empresas-basadas-en-el-conocimiento"
-          ]
+          "order": 45
         },
         {
           "id": "articulo-62-consideracion-de-los-proyectos-de-investigacion-desarrollo-e-innovacion-como-unidades-funcionales",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 62. Consideración de los proyectos de investigación, desarrollo e innovación como unidades funcionales",
           "content": "TBD",
-          "order": 46,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iii-regimen-economico-y-financiero-de-las-universidades-publicas",
-            "articulo-62-consideracion-de-los-proyectos-de-investigacion-desarrollo-e-innovacion-como-unidades-funcionales"
-          ]
+          "order": 46
         },
         {
           "id": "articulo-65-promocion-de-la-equidad-entre-el-personal-docente-e-investigador",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 65. Promoción de la equidad entre el personal docente e investigador",
           "content": "TBD",
-          "order": 47,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-65-promocion-de-la-equidad-entre-el-personal-docente-e-investigador"
-          ]
+          "order": 47
         },
         {
           "id": "articulo-66-movilidad-temporal-del-personal-docente-e-investigador",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 66. Movilidad temporal del personal docente e investigador",
           "content": "TBD",
-          "order": 48,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-66-movilidad-temporal-del-personal-docente-e-investigador"
-          ]
+          "order": 48
         },
         {
           "id": "articulo-69-acreditacion-de-los-cuerpos-docentes-universitarios",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 69. Acreditación de los cuerpos docentes universitarios.",
           "content": "TBD",
-          "order": 49,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-69-acreditacion-de-los-cuerpos-docentes-universitarios"
-          ]
+          "order": 49
         },
         {
           "id": "articulo-70-personal-de-los-cuerpos-docentes-universitarios-que-ocupe-plaza-vinculada-a-servicios-asistenciales-y-de-salud-publica-de-instituciones-sanitarias",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a servicios asistenciales y de salud pública de instituciones sanitarias",
           "content": "TBD",
-          "order": 50,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-70-personal-de-los-cuerpos-docentes-universitarios-que-ocupe-plaza-vinculada-a-servicios-asistenciales-y-de-salud-publica-de-instituciones-sanitarias"
-          ]
+          "order": 50
         },
         {
           "id": "articulo-71-concursos-para-el-acceso-a-plazas-de-los-cuerpos-docentes-universitarios",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 71. Concursos para el acceso a plazas de los cuerpos docentes universitarios",
           "content": "TBD",
-          "order": 51,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-71-concursos-para-el-acceso-a-plazas-de-los-cuerpos-docentes-universitarios"
-          ]
+          "order": 51
         },
         {
           "id": "articulo-72-concursos-de-movilidad-del-profesorado",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 72. Concursos de movilidad del profesorado",
           "content": "TBD",
-          "order": 52,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-72-concursos-de-movilidad-del-profesorado"
-          ]
+          "order": 52
         },
         {
           "id": "articulo-74-reingreso-de-excedentes-al-servicio-activo",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 74. Reingreso de excedentes al servicio activo",
           "content": "TBD",
-          "order": 53,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-74-reingreso-de-excedentes-al-servicio-activo"
-          ]
+          "order": 53
         },
         {
           "id": "articulo-75-regimen-de-dedicacion",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 75. Régimen de dedicación.",
           "content": "TBD",
-          "order": 54,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-75-regimen-de-dedicacion"
-          ]
+          "order": 54
         },
         {
           "id": "articulo-76-retribuciones-del-personal-docente-e-investigador-funcionario",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 76. Retribuciones del personal docente e investigador funcionario",
           "content": "TBD",
-          "order": 55,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-76-retribuciones-del-personal-docente-e-investigador-funcionario"
-          ]
+          "order": 55
         },
         {
           "id": "articulo-77-normas-generales",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 77. Normas generales",
           "content": "TBD",
-          "order": 56,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-77-normas-generales"
-          ]
+          "order": 56
         },
         {
           "id": "articulo-78-profesoras-y-profesores-ayudantes-doctoras-es",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 78. Profesoras y Profesores Ayudantes Doctoras/es",
           "content": "TBD",
-          "order": 57,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-78-profesoras-y-profesores-ayudantes-doctoras-es"
-          ]
+          "order": 57
         },
         {
           "id": "articulo-79-profesoras-y-profesores-asociadas-os",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 79. Profesoras y Profesores Asociadas/os",
           "content": "TBD",
-          "order": 58,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-79-profesoras-y-profesores-asociadas-os"
-          ]
+          "order": 58
         },
         {
           "id": "articulo-80-profesoras-y-profesores-sustitutas-os",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 80. Profesoras y Profesores Sustitutas/os",
           "content": "TBD",
-          "order": 59,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-80-profesoras-y-profesores-sustitutas-os"
-          ]
+          "order": 59
         },
         {
           "id": "articulo-82-profesoras-y-profesores-permanentes-laborales",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 82. Profesoras y Profesores Permanentes Laborales",
           "content": "TBD",
-          "order": 60,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-82-profesoras-y-profesores-permanentes-laborales"
-          ]
+          "order": 60
         },
         {
           "id": "articulo-85-acreditacion",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 85. Acreditación",
           "content": "TBD",
-          "order": 61,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-85-acreditacion"
-          ]
+          "order": 61
         },
         {
           "id": "articulo-86-concursos-para-el-acceso-a-plazas-de-personal-docente-e-investigador-laboral",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 86. Concursos para el acceso a plazas de personal docente e investigador laboral",
           "content": "TBD",
-          "order": 62,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-86-concursos-para-el-acceso-a-plazas-de-personal-docente-e-investigador-laboral"
-          ]
+          "order": 62
         },
         {
           "id": "articulo-88-profesorado-de-la-union-europea",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 88. Profesorado de la Unión Europea",
           "content": "TBD",
-          "order": 63,
-          "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-iv-personal-docente-e-investigador-de-las-universidades-publicas",
-            "articulo-88-profesorado-de-la-union-europea"
-          ]
+          "order": 63
         },
         {
           "id": "articulo-90-carrera-profesional",
@@ -745,9 +514,8 @@
           "content": "TBD",
           "order": 64,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas",
-            "articulo-90-carrera-profesional"
+            "#titulo-ix",
+            "#capitulo-v"
           ]
         },
         {
@@ -757,9 +525,8 @@
           "content": "TBD",
           "order": 65,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas",
-            "articulo-91-acceso-a-plazas-de-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas"
+            "#titulo-ix",
+            "#capitulo-v"
           ]
         },
         {
@@ -769,9 +536,8 @@
           "content": "TBD",
           "order": 66,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas",
-            "articulo-92-provision-de-puestos-de-trabajo"
+            "#titulo-ix",
+            "#capitulo-v"
           ]
         },
         {
@@ -781,9 +547,8 @@
           "content": "TBD",
           "order": 67,
           "syllabusCoverageIds": [
-            "titulo-ix-regimen-especifico-de-las-universidades-publicas",
-            "capitulo-v-personal-tecnico-de-gestion-y-de-administracion-y-servicios-de-las-universidades-publicas",
-            "articulo-93-retribuciones"
+            "#titulo-ix",
+            "#capitulo-v"
           ]
         },
         {
@@ -791,44 +556,28 @@
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 95. Régimen jurídico",
           "content": "TBD",
-          "order": 68,
-          "syllabusCoverageIds": [
-            "titulo-x-regimen-especifico-de-las-universidades-privadas",
-            "articulo-95-regimen-juridico"
-          ]
+          "order": 68
         },
         {
           "id": "articulo-96-creacion-de-universidades-y-centros-universitarios",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 96. Creación de universidades y centros universitarios.",
           "content": "TBD",
-          "order": 69,
-          "syllabusCoverageIds": [
-            "titulo-x-regimen-especifico-de-las-universidades-privadas",
-            "articulo-96-creacion-de-universidades-y-centros-universitarios"
-          ]
+          "order": 69
         },
         {
           "id": "articulo-99-personal-docente-e-investigador",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 99. Personal docente e investigador",
           "content": "TBD",
-          "order": 70,
-          "syllabusCoverageIds": [
-            "titulo-x-regimen-especifico-de-las-universidades-privadas",
-            "articulo-99-personal-docente-e-investigador"
-          ]
+          "order": 70
         },
         {
           "id": "articulo-100-regimen-economico-financiero",
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 100. Régimen económico-financiero",
           "content": "TBD",
-          "order": 71,
-          "syllabusCoverageIds": [
-            "titulo-x-regimen-especifico-de-las-universidades-privadas",
-            "articulo-100-regimen-economico-financiero"
-          ]
+          "order": 71
         },
         {
           "id": "articulo-42",
@@ -837,8 +586,8 @@
           "content": "TBD",
           "order": 72,
           "syllabusCoverageIds": [
-            "titulo-x",
-            "articulo-42"
+            "#titulo-ix",
+            "#capitulo-i"
           ]
         },
         {
@@ -846,11 +595,7 @@
           "topicId": "ley-organica-2-2023-sistema-universitario",
           "title": "Artículo 55. 2, se creará en el plazo máximo de un año a partir de la entrada en vigor de esta",
           "content": "TBD",
-          "order": 73,
-          "syllabusCoverageIds": [
-            "titulo-x",
-            "articulo-55-2-se-creara-en-el-plazo-maximo-de-un-ano-a-partir-de-la-entrada-en-vigor-de-esta"
-          ]
+          "order": 73
         }
       ]
     }
