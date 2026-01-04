@@ -220,8 +220,12 @@ export default function AudioPlayerWithTranscript({
   // Encontrar sección activa basada en tiempo
   const findActiveSection = (): string | null => {
     for (const group of sectionGroups) {
-      for (const line of group.lines) {
-        if (currentTime >= line.startSeconds && currentTime < line.startSeconds + 10) {
+      for (let i = 0; i < group.lines.length; i++) {
+        const line = group.lines[i];
+        const nextLine = group.lines[i + 1];
+        // Usar el siguiente segmento como límite, o añadir un margen de 5s si es el último
+        const endTime = nextLine ? nextLine.startSeconds : line.startSeconds + 5;
+        if (currentTime >= line.startSeconds && currentTime < endTime) {
           return group.section;
         }
       }
