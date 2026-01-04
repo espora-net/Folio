@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { type Topic, type Flashcard, type TestQuestion } from '@/lib/storage';
 import { type ConvocatoriaDescriptor, getTopicIdsInConvocatoria } from '@/lib/data-api';
 
@@ -147,25 +148,26 @@ export default function StudyFiltersPopover({
   const hasActiveFilters = filterMode !== 'none' || selectedTopicIds.length > 0 || originFilter !== 'all';
 
   return (
-    <Popover>
-      <PopoverTrigger asChild>
-        <Button variant="outline" size="sm" className="gap-2">
-          <Filter className="h-4 w-4" />
-          Filtros
-          {hasActiveFilters && (
-            <Badge variant="secondary" className="ml-1 text-[10px] px-1.5">
-              {filteredCount}
-            </Badge>
-          )}
-        </Button>
-      </PopoverTrigger>
-      <PopoverContent className="w-96 p-0" align="end">
-        <div className="p-4 pb-2">
-          <h4 className="font-medium text-sm">Filtrar contenido</h4>
-          <p className="text-xs text-muted-foreground">Selecciona convocatoria, temas u origen</p>
-        </div>
-        
-        <Separator />
+    <TooltipProvider>
+      <Popover>
+        <PopoverTrigger asChild>
+          <Button variant="outline" size="sm" className="gap-2">
+            <Filter className="h-4 w-4" />
+            Filtros
+            {hasActiveFilters && (
+              <Badge variant="secondary" className="ml-1 text-[10px] px-1.5">
+                {filteredCount}
+              </Badge>
+            )}
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent className="w-96 p-0" align="end">
+          <div className="p-4 pb-2">
+            <h4 className="font-medium text-sm">Filtrar contenido</h4>
+            <p className="text-xs text-muted-foreground">Selecciona convocatoria, temas u origen</p>
+          </div>
+          
+          <Separator />
 
         <ScrollArea className="max-h-[400px]">
           <div className="p-4 space-y-4">
@@ -258,34 +260,41 @@ export default function StudyFiltersPopover({
                             )}
                           </button>
                         )}
-                        <button
-                          onClick={() => {
-                            if (filterMode === 'convocatoria') {
-                              onFilterModeChange('tema');
-                            }
-                            toggleGroupSelection(group);
-                          }}
-                          className={`flex-1 flex items-center gap-2 text-left ${
-                            allSelected ? 'text-primary font-medium' : 'text-foreground'
-                          }`}
-                        >
-                          <div 
-                            className="w-2 h-2 rounded-full flex-shrink-0"
-                            style={{ backgroundColor: group.parent.color || '#6b7280' }}
-                          />
-                          <span className="text-xs truncate">{group.parent.title}</span>
-                          {inConvocatoria && (
-                            <Badge 
-                              variant="outline" 
-                              className="text-[8px] px-1 py-0 h-3 border-green-400 text-green-600"
+                        <Tooltip>
+                          <TooltipTrigger asChild>
+                            <button
+                              onClick={() => {
+                                if (filterMode === 'convocatoria') {
+                                  onFilterModeChange('tema');
+                                }
+                                toggleGroupSelection(group);
+                              }}
+                              className={`flex-1 flex items-center gap-2 text-left min-w-0 ${
+                                allSelected ? 'text-primary font-medium' : 'text-foreground'
+                              }`}
                             >
-                              ✓
-                            </Badge>
-                          )}
-                          <Badge variant="secondary" className="ml-auto text-[9px] px-1">
-                            {group.totalItems}
-                          </Badge>
-                        </button>
+                              <div 
+                                className="w-2 h-2 rounded-full flex-shrink-0"
+                                style={{ backgroundColor: group.parent.color || '#6b7280' }}
+                              />
+                              <span className="text-xs truncate">{group.parent.title}</span>
+                              {inConvocatoria && (
+                                <Badge 
+                                  variant="outline" 
+                                  className="text-[8px] px-1 py-0 h-3 border-green-400 text-green-600 flex-shrink-0"
+                                >
+                                  ✓
+                                </Badge>
+                              )}
+                              <Badge variant="secondary" className="ml-auto text-[9px] px-1 flex-shrink-0">
+                                {group.totalItems}
+                              </Badge>
+                            </button>
+                          </TooltipTrigger>
+                          <TooltipContent side="top">
+                            <p>{group.parent.title}</p>
+                          </TooltipContent>
+                        </Tooltip>
                       </div>
                       
                       {isExpanded && group.subtopics.length > 0 && (
@@ -297,32 +306,38 @@ export default function StudyFiltersPopover({
                             const subtopicInConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIds.includes(subtopic.id);
                             
                             return (
-                              <button
-                                key={subtopic.id}
-                                onClick={() => {
-                                  if (filterMode === 'convocatoria') {
-                                    onFilterModeChange('tema');
-                                  }
-                                  toggleTopic(subtopic.id);
-                                }}
-                                className={`w-full flex items-center gap-2 px-2 py-1.5 pl-8 text-left hover:bg-muted/50 transition-colors ${
-                                  isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
-                                }`}
-                              >
-                                <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
-                                  isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
-                                }`} />
-                                <span className="text-[11px] flex-1 truncate">{subtopic.title}</span>
-                                {subtopicInConvocatoria && (
-                                  <Badge 
-                                    variant="outline" 
-                                    className="text-[8px] px-1 py-0 h-3 border-green-400 text-green-600"
+                              <Tooltip key={subtopic.id}>
+                                <TooltipTrigger asChild>
+                                  <button
+                                    onClick={() => {
+                                      if (filterMode === 'convocatoria') {
+                                        onFilterModeChange('tema');
+                                      }
+                                      toggleTopic(subtopic.id);
+                                    }}
+                                    className={`w-full flex items-center gap-2 px-2 py-1.5 pl-8 text-left hover:bg-muted/50 transition-colors min-w-0 ${
+                                      isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
+                                    }`}
                                   >
-                                    ✓
-                                  </Badge>
-                                )}
-                                <span className="text-[9px] text-muted-foreground">{itemCount}</span>
-                              </button>
+                                    <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
+                                      isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
+                                    }`} />
+                                    <span className="text-[11px] flex-1 truncate">{subtopic.title}</span>
+                                    {subtopicInConvocatoria && (
+                                      <Badge 
+                                        variant="outline" 
+                                        className="text-[8px] px-1 py-0 h-3 border-green-400 text-green-600 flex-shrink-0"
+                                      >
+                                        ✓
+                                      </Badge>
+                                    )}
+                                    <span className="text-[9px] text-muted-foreground flex-shrink-0">{itemCount}</span>
+                                  </button>
+                                </TooltipTrigger>
+                                <TooltipContent side="top">
+                                  <p>{subtopic.title}</p>
+                                </TooltipContent>
+                              </Tooltip>
                             );
                           })}
                         </div>
@@ -412,5 +427,6 @@ export default function StudyFiltersPopover({
         </div>
       </PopoverContent>
     </Popover>
+    </TooltipProvider>
   );
 }
