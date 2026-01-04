@@ -31,6 +31,8 @@ interface TocItem {
 interface MarkdownViewerProps {
   content: string;
   className?: string;
+  /** Optional section ID to scroll to after content loads */
+  scrollToSection?: string;
 }
 
 /**
@@ -123,12 +125,13 @@ const extractToc = (content: string): TocItem[] => {
  * - Sticky table of contents sidebar (desktop) / dropdown (mobile)
  * - Full height layout
  */
-const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
+const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownViewerProps) => {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeHeading, setActiveHeading] = useState<string>('');
   const toc = useMemo(() => extractToc(content), [content]);
   const contentRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile();
+  const initialScrollDone = useRef(false);
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
@@ -140,6 +143,21 @@ const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
       setTocOpen(false);
     }
   };
+
+  // Scroll to initial section when content loads (via scrollToSection prop)
+  useEffect(() => {
+    if (!scrollToSection || initialScrollDone.current || !content) return;
+    // Wait for content to render
+    const timer = setTimeout(() => {
+      const element = document.getElementById(scrollToSection);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setActiveHeading(scrollToSection);
+        initialScrollDone.current = true;
+      }
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [scrollToSection, content]);
 
   // Track active heading based on scroll position
   useEffect(() => {
