@@ -11,7 +11,7 @@
       "label": "Oposiciones",
       "temarioTemplate": "oposiciones",
       "convocatoriaId": "uah-2025-c1",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep"]
+      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
     },
     {
       "id": "conducir",
@@ -56,7 +56,7 @@
       "color": "#7c3aed",
       "activa": true,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep"]
+      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
     }
   ],
   "datasets": [
@@ -74,6 +74,13 @@
       "description": "Preguntas y flashcards basadas en el Texto Refundido de la Ley del EBEP.",
       "file": "db-estatuto-basico-del-empleado-publico-EBEP.json",
       "tag": "EBEP"
+    },
+    {
+      "id": "ley-organica-2-2023-sistema-universitario",
+      "title": "Ley Orgánica 2/2023 del Sistema Universitario (LOSU)",
+      "description": "Preguntas y flashcards basadas en la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+      "file": "db-ley-organica-2-2023-sistema-universitario.json",
+      "tag": "LOSU"
     }
   ]
 }

@@ -2,6 +2,7 @@
 // Keep this lightweight: datasets are loaded at runtime from /public/api.
 import baseIndex from '../../public/api/db.json';
 import convocatoriaUah2025C1 from '../../public/api/convocatoria-uah-2025-c1.json';
+import datasetLosu from '../../public/api/db-ley-organica-2-2023-sistema-universitario.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData, type StudyTypeRegistryEntry } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -29,7 +30,9 @@ type RawDataset = Record<string, unknown>;
 type DatasetPayload = { descriptor: DatasetDescriptor; data: RawDataset };
 type DatabaseIndex = Database;
 
-const FALLBACK_DATASETS: Record<string, RawDataset> = {};
+const FALLBACK_DATASETS: Record<string, RawDataset> = {
+  'db-ley-organica-2-2023-sistema-universitario.json': datasetLosu as unknown as RawDataset,
+};
 
 const defaultStats = (): StudyStats => ({
   totalStudyTime: 0,
