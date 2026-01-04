@@ -37,6 +37,7 @@ Decisiones actuales (fuente de verdad):
 - 2025-12-14 — **Authgear + GitHub OAuth**: login client-side, callback en `/auth/callback/` y `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo/demos.
 - 2026-01-03 — **Temario por tipo de estudio**: `public/api/db.json` declara `studyTypes` (plantilla de Temario + datasets asociados) y `convocatorias` enlaza `questionDatasetIds` para relacionar temario con tests.
 - 2026-01-03 — **syllabusCoverageIds**: Los subtopics de los datasets (`db-*.json`) incluyen `syllabusCoverageIds` que enlazan con `cobertura_convocatoria` de la convocatoria. Validado por el agente `.github/agents/ValidateSyllabusCoverage.agent.md` antes de cualquier merge.
+- 2026-01-04 — **Schema consolidado para datasets**: Todos los archivos `db-*.json` siguen el mismo schema definido en `public/api/question-bank.schema.json`. Validación con `npm run validate-schemas`. Campos `correctAnswer` y `correctIndex` son intercambiables (normalizados a `correctIndex` en runtime).
 
 ## Estructura del proyecto (resumen)
 

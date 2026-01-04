@@ -1,163 +1,104 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "QuestionBank",
+  "description": "Schema consolidado para datasets db-*.json (preguntas, topics y subtopics).",
   "type": "object",
-  "additionalProperties": false,
-  "required": [
-    "topics",
-    "questions"
-  ],
+  "additionalProperties": true,
+  "required": ["topics", "questions"],
   "properties": {
     "topics": {
       "type": "array",
-      "items": {
-        "$ref": "#/definitions/topic"
-      }
+      "items": { "$ref": "#/definitions/topic" }
     },
     "questions": {
       "type": "array",
-      "items": {
-        "$ref": "#/definitions/question"
-      }
+      "items": { "$ref": "#/definitions/question" }
+    },
+    "comments": {
+      "description": "Campo legacy, no usado en la aplicación.",
+      "type": "array"
+    },
+    "statistics": {
+      "description": "Campo legacy, no usado en la aplicación.",
+      "type": "object"
+    },
+    "studySessions": {
+      "description": "Campo legacy, no usado en la aplicación.",
+      "type": "array"
     }
   },
   "definitions": {
     "topic": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "id",
-        "title",
-        "description",
-        "order",
-        "createdAt",
-        "updatedAt",
-        "subtopics"
-      ],
+      "required": ["id", "title", "order", "subtopics"],
       "properties": {
-        "id": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        },
-        "order": {
-          "type": "integer"
-        },
-        "createdAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "updatedAt": {
-          "type": "string",
-          "format": "date-time"
-        },
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "order": { "type": "integer" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
         "subtopics": {
           "type": "array",
-          "items": {
-            "$ref": "#/definitions/subtopic"
-          }
+          "items": { "$ref": "#/definitions/subtopic" }
         }
       }
     },
     "subtopic": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "id",
-        "topicId",
-        "title",
-        "content",
-        "order"
-      ],
+      "required": ["id", "topicId", "title", "order"],
       "properties": {
-        "id": {
-          "type": "string"
-        },
-        "topicId": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string"
-        },
-        "content": {
-          "type": "string"
-        },
-        "order": {
-          "type": "integer"
+        "id": { "type": "string" },
+        "topicId": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "order": { "type": "integer" },
+        "syllabusCoverageIds": {
+          "description": "IDs de cobertura de convocatoria (para filtrar qué entra en cada temario).",
+          "type": "array",
+          "items": { "type": "string" }
         }
       }
     },
     "question": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "id",
-        "topicId",
-        "question",
-        "options",
-        "correctAnswer",
-        "explanation",
-        "difficulty",
-        "tags",
-        "createdAt",
-        "updatedAt",
-        "source",
-        "origin"
-      ],
+      "required": ["id", "topicId", "question", "options", "correctAnswer"],
       "properties": {
-        "id": {
-          "type": "string"
-        },
-        "topicId": {
-          "type": "string"
-        },
-        "question": {
-          "type": "string"
-        },
+        "id": { "type": "string" },
+        "topicId": { "type": "string" },
+        "question": { "type": "string" },
         "options": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "minItems": 2
         },
         "correctAnswer": {
+          "description": "Índice (base 0) de la opción correcta.",
           "type": "integer",
           "minimum": 0
         },
-        "explanation": {
-          "type": "string"
+        "correctIndex": {
+          "description": "Alias de correctAnswer para compatibilidad.",
+          "type": "integer",
+          "minimum": 0
         },
+        "explanation": { "type": "string" },
         "difficulty": {
           "type": "string",
-          "enum": [
-            "basica",
-            "intermedia",
-            "avanzada"
-          ]
+          "enum": ["basica", "intermedia", "avanzada"]
         },
         "tags": {
           "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "items": { "type": "string" }
         },
-        "createdAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "updatedAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "source": {
-          "$ref": "#/definitions/source"
-        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "source": { "$ref": "#/definitions/source" },
         "origin": {
+          "description": "Origen del contenido (p. ej. 'official', 'oposito.es', 'generated').",
           "type": "string"
         }
       }
@@ -165,21 +106,11 @@
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "materialId",
-        "path",
-        "highlightText"
-      ],
+      "required": ["materialId", "path", "highlightText"],
       "properties": {
-        "materialId": {
-          "type": "string"
-        },
-        "path": {
-          "type": "string"
-        },
-        "highlightText": {
-          "type": "string"
-        }
+        "materialId": { "type": "string" },
+        "path": { "type": "string" },
+        "highlightText": { "type": "string" }
       }
     }
   }
