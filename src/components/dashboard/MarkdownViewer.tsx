@@ -396,7 +396,7 @@ const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
                   Tabla de contenidos
                 </p>
               </div>
-              <ScrollArea className="flex-1 min-h-0">
+              <div className="flex-1 min-h-0 overflow-y-auto">
                 <nav className="p-2">
                   {toc.map((item, index) => (
                     <button
@@ -412,7 +412,7 @@ const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
                     </button>
                   ))}
                 </nav>
-              </ScrollArea>
+              </div>
             </div>
           </div>
         </aside>
