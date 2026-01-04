@@ -56,7 +56,7 @@ El sistema de cobertura de temario permite filtrar qué preguntas deben mostrars
    - ✅ Correcto: `"#titulo-i"`, `"#capitulo-ii"`, `"#titulo-preliminar"`
    - ❌ Incorrecto: `"titulo-i"`, `"Título I"`, `"articulo-2-funciones..."`
 
-2. **Solo título, capítulo o artículo**: Usar identificadores compactos
+2. **Solo título, capítulo o artículo**: Usar identificadores compactos (sin tildes en los IDs)
    - ✅ Correcto: `"#titulo-ix"`, `"#capitulo-v"`, `"#articulo-38"`
    - ❌ Incorrecto: `"#titulo-ix-regimen-especifico-de-las-universidades-publicas"`
 
