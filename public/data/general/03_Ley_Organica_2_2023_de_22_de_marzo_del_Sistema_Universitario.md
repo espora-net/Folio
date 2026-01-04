@@ -9,12 +9,6 @@ Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.
 Jefatura del Estado «BOE» núm. 70, de 23 de marzo de 2023 Referencia: BOE-A-2023-7500
 <!-- page: 8 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-7"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-8"></a>
-
-## TEXTO CONSOLIDADO <a id="texto-consolidado"></a>
-
 Última modificación: 02 de agosto de 2024
 
 ## FELIPE VI <a id="felipe-vi"></a>
@@ -31,19 +25,11 @@ I La Universidad es una institución fundamental en la sociedad del conocimiento
 
 <!-- page: 9 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-8"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-9"></a>
-
 del saber, para entablar una relación de diálogo y colaboración, a través del conocimiento, el pensamiento crítico y la investigación, con el conjunto de la sociedad, con entidades, empresas y agentes sociales. Este diálogo y colaboración contribuyen a la construcción de una sociedad democrática avanzada en un marco normativo caracterizado por un Espacio Europeo de Educación Superior cada vez más presente y expansivo, y por la autonomía universitaria y el desarrollo competencial del Estado de las autonomías que ha ido enriqueciendo y diversificando nuestro sistema universitario. Las universidades son, hoy más que nunca, no sólo depositarias del conocimiento, sino productoras de dicho conocimiento. Docencia, investigación y capacidad de compartir y transferir ese conocimiento constituyen funciones centrales de su actividad. En efecto, la Universidad del siglo XXI no puede replegarse en una torre de marfil, sino que tiene que continuar la labor emprendida y seguir profundizando en su inserción, significación y capacidad de servicio con relación al tejido social, cultural y económico. Asimismo, la creciente gobernanza multinivel del sistema exige intensos esfuerzos de coordinación y cooperación entre los actores. El marco jurídico universitario ha ido desarrollándose en estas últimas cuatro décadas. Cabe destacar, principalmente, dos hitos: la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, y la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, incluida la modificación de ésta operada por la Ley Orgánica 4/2007, de 12 de abril. La primera de estas leyes sentó las bases de un sistema universitario propio de un Estado social y democrático de Derecho, garantizando la autonomía universitaria, mientras que la ley aprobada en 2001 desarrolló dicho sistema y reformó la organización de las enseñanzas universitarias en consonancia con el Espacio Europeo de Educación Superior. Han transcurrido ya dos décadas desde la promulgación de la Ley Orgánica 6/2001, de 21 de diciembre, habiéndose producido no sólo los cambios y transformaciones generales ya mencionados y que exigen una renovación de las bases del sistema, sino también evoluciones significativas en nuestro panorama universitario. En las últimas décadas se ha producido un incremento muy considerable del número de universidades, particularmente universidades privadas. Si bien ello ha permitido una ampliación de la oferta educativa, los requisitos para la creación y funcionamiento de dichas universidades han de poder asegurar los criterios de calidad exigibles en instituciones de este tipo. La crisis económica iniciada a finales de la primera década del siglo XXI planteó desafíos inéditos a todas las instituciones educativas, sometiendo, especialmente a las universidades públicas, a tensiones y limitaciones presupuestarias muy profundas cuyos efectos aún persisten. Si bien en estas últimas cuatro décadas se ha duplicado el estudiantado universitario, superando ampliamente el millón y medio de estudiantes, la insuficiente financiación pública, el aumento de las tasas universitarias, las disfunciones en la configuración de su profesorado debido a las bajas tasas de reposición, la precarización de parte del profesorado asociado, interino, sustituto o visitante y el envejecimiento de las plantillas universitarias, así como la profundización de las desigualdades sociales, han puesto en riesgo la sostenibilidad y la calidad del sistema. El gasto público en educación universitaria se redujo en la segunda década del presente siglo el doble que el gasto general educativo y tres veces más que el gasto en educación no universitaria. En efecto, la desinversión en educación universitaria ha sido más acentuada y prolongada en el tiempo que en la educación no universitaria. Además, en el ámbito universitario, se ha producido una reducción significativamente mayor de la financiación pública y, simultáneamente, un aumento de la financiación de origen privado de las universidades mediante el incremento notable de los precios públicos que soportan las familias. Así la financiación pública universitaria nos alejó de la media de la inversión de nuestro entorno europeo más cercano. Más financiación pública deberá implicar más capacidad de servicio y de alianzas con el conjunto de sectores sociales que puedan beneficiarse de esa fuente de formación y conocimiento que siempre ha sido y quiere seguir siendo la Universidad. Nuestro sistema universitario ha ido reforzando e intensificando su integración en el Espacio Europeo de Educación Superior. Ya no es posible imaginar que podamos articular y orientar el futuro de las universidades en España sin incorporar la perspectiva, las iniciativas y la regulación que procede de la Unión Europea. La europeización del sistema universitario español no debería impedirnos ampliar el proceso de internacionalización hacia otras áreas de cooperación, en especial con el Espacio Iberoamericano de Educación Superior y del
 
 ---
 
 <!-- page: 10 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-9"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-10"></a>
 
 Conocimiento que cuenta con una base idiomática común de cerca de 600 millones de personas. Todo ello ha conllevado y seguirá conllevando adaptaciones estructurales e institucionales en la oferta académica, la organización de las enseñanzas, el reconocimiento de las titulaciones, el aseguramiento de la calidad conforme a criterios compartidos o en el refuerzo de la cooperación interuniversitaria internacional. La Estrategia Europea más reciente al respecto, marca objetivos y ritmos muy concretos en esa línea. En este sentido conviene destacar que, si bien el Estado español es el primer destino del estudiantado del programa Erasmus en los últimos años y uno de los principales emisores de estudiantes de este programa, la cifra del estudiantado extranjero en España es, en términos relativos, inferior a la de muchos países de nuestro entorno europeo. Por otra parte, apenas el tres por ciento del personal docente e investigador universitario posee una nacionalidad distinta a la española cuando, en cambio, cerca del 15 por ciento de los residentes en España han nacido fuera del país. La significativa y creciente presencia de universidades españolas en las alianzas de universidades europeas nos indica el camino a seguir en ese proceso imparable de compartir conocimiento, docencia e investigación a escala europea, siendo las universidades la expresión más evidente de los valores de humanismo, defensa de los derechos y valores democráticos, de libertad de pensamiento y creación, que Europa quiere proyectar al mundo.
 
@@ -53,29 +39,17 @@ II En este contexto, se deben abordar reformas esenciales relacionadas con los d
 
 <!-- page: 11 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-10"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-11"></a>
-
 Ciencia Abierta, que asuma ese conocimiento como un bien común, accesible y no mercantilizado, una Ciencia Ciudadana en la que se construya conocimiento de manera compartida, asumiendo la complejidad de la investigación de manera colectiva. Por ello, esta ley orgánica promueve la labor conjunta con la sociedad de creación y difusión del conocimiento, fomentando la Ciencia Abierta y Ciudadana mediante el acceso a publicaciones, datos, códigos y metodologías que garanticen la comunicación de la investigación. Las universidades han venido siendo esencialmente espacios de formación para los jóvenes. Se debe ahora ir más allá, reforzando la capacidad de servicio al conjunto de la sociedad para lograr una Universidad para todas las edades; un lugar en el que la formación a lo largo de la vida para cualquier persona y colectivo sea un objetivo básico; una Universidad en la que la experiencia de una docencia presencial y compartida sea un valor central y diferencial; un lugar en el que converjan y se relacionen científicas y científicos, estudiantado, profesionales que buscan actualizar sus capacidades, especialistas y agentes sociales, buscando todas ellas y ellos reforzar conocimientos, construir competencias y plantear caminos de transformación e innovación de manera compartida. Por ello, esta ley orgánica incluye la formación permanente o a lo largo de toda la vida como dimensión esencial de la función docente de la Universidad. Igualmente, se establecen fórmulas de transferencia y conexión entre la formación profesional superior y la Universidad al servicio de los procesos de actualización laboral y personal del conjunto de la población. Además de la plena integración ya mencionada en el Espacio Europeo de Educación Superior, se entiende necesario incentivar las redes de conocimiento y de formación compartida con el Espacio Iberoamericano de Educación Superior y del Conocimiento, y reforzar las dinámicas de colaboración abiertas en la cuenca mediterránea o en la apertura de nuevos vínculos con los centros de educación superior de América del Norte, Asia y Oceanía. A tal fin, esta ley orgánica incorpora, por primera vez, un título dedicado a la internacionalización, y fomenta un sistema universitario de calidad, con mecanismos ágiles y fiables de evaluación de la misma, en línea con lo que la Unión Europea propone. Se prevé además la elaboración de estrategias de internacionalización por parte de las diferentes Administraciones Públicas y de las propias universidades, la creación de alianzas interuniversitarias y la participación en proyectos de carácter internacional, supranacional y eurorregional. Por otra parte, se impulsa la movilidad del conjunto de la comunidad universitaria, se incentivan los doctorados en cotutela internacional y se insta a las Administraciones Públicas a eliminar los obstáculos a la atracción de talento internacional, agilizando y facilitando los procedimientos de reconocimiento y homologación de títulos, de admisión en las universidades o de carácter migratorio. Esta ley orgánica no quiere imponer soluciones ni trazar caminos concretos en que todo ello deba resolverse. Busca abrir posibilidades, facilitar conexiones, desde un compromiso de los poderes públicos de financiar adecuadamente ese nuevo escenario de transformación y cambio. Las universidades públicas españolas han sufrido de manera persistente una insuficiente financiación pública en el último decenio, y una gran precarización y deterioro de las condiciones de trabajo, que han pasado socialmente inadvertidas sin que ello haya generado una reacción social a la altura del retroceso sufrido. Recuperar niveles de financiación adecuados deberá ir en consonancia con una mayor presencia de las universidades en los entornos sociales en los que se asientan y una mayor y más visible contribución a las necesidades que tiene planteadas el conjunto de personas y colectivos del país, más implicación en las dinámicas de desarrollo local, en la búsqueda de alternativas frente al reto demográfico o la emergencia climática. Alcanzar un mínimo de financiación pública del 1 % del PIB, como recoge esta ley orgánica, debería ser una exigencia de todos y todas. Pero también debería serlo reforzar la docencia, mejorar los procesos formativos de la ciudadanía sin distinción de edades, orígenes, género o capacidad económica, trabajar por la empleabilidad o generar más y mejor investigación desde una lógica de transferencia e intercambio. El estudiantado, sea cual sea su edad, ha de tener el papel de protagonista. Con este objetivo, esta ley orgánica refuerza la docencia, es decir, se preocupa por la formación y actualización de las capacidades del profesorado, por generar espacios para que se vele por la adecuación de contenidos y formatos de enseñanza, por facilitar que sea el propio estudiantado el que asuma labores de tutoría, mentoría y experiencias de prácticas
 
 ---
 
 <!-- page: 12 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-11"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-12"></a>
-
 efectivas, por la salud emocional del estudiantado, promoviendo asimismo su participación en el gobierno de la universidad en sus distintas unidades y en la propia gestión de servicios. Adicionalmente, y en defensa de los derechos del estudiantado, la ley permite avanzar hacia el horizonte de la gratuidad de la educación superior universitaria pública, mediante la reducción de precios públicos, así como la disminución de su disparidad entre Comunidades Autónomas y la concepción de la beca como un derecho subjetivo vinculado a la situación socioeconómica de las personas solicitantes. Asimismo, la ley incorpora modificaciones sustanciales en las disposiciones relativas al estudiantado. Por una parte, el estatuto del estudiantado se incorpora a esta norma, consolidando y ampliando un catálogo de derechos y deberes que hasta ahora venía recogido en una norma reglamentaria, y añadiendo el paro académico como derecho del estudiantado. Por otra, se otorga mayor publicidad a la oferta académica y se clarifica el régimen de acceso y admisión. Asimismo, se prevé que cada universidad fomente la participación estudiantil en todos los servicios y aspectos que les afecta en su trayectoria académica y vital, la calidad e intensidad de la experiencia universitaria y se propone el reconocimiento al estudiantado de créditos académicos por su implicación en actividades sociales y universitarias. La construcción de una Universidad equitativa impregna el contenido de toda la ley. Así, se establecen requisitos en materia de igualdad entre mujeres y hombres previos a la creación de una universidad como los planes de igualdad, o la eliminación de la brecha salarial y de toda forma de acoso. A su vez, la ley establece que los órganos colegiados y las comisiones de evaluación y selección en las universidades garantizarán una composición equilibrada entre mujeres y hombres, medidas de acción positiva en los concursos y a favor de la conciliación y el fomento de la corresponsabilidad de los cuidados, entre otras muchas actuaciones. En materia de accesibilidad las universidades deben garantizar a personas con discapacidad un acceso universal a los edificios y sus entornos físicos y virtuales, así como al proceso de enseñanza-aprendizaje y evaluación. Esta norma apuesta por una Universidad como espacio de libertad, de debate cultural y de desarrollo personal. A estos efectos, se fomenta la condición de las universidades como agentes de creación y reflexión cultural, así como de protección, conservación y difusión del patrimonio histórico y cultural del que son depositarias. Por otra parte, las universidades se configuran como actores clave en la promoción y fomento de la diversidad y riqueza lingüística del Estado, en el desarrollo local y en la cohesión territorial en un contexto de lucha contra el cambio climático. Esta norma parte del reconocimiento de los recursos humanos del sistema universitario como núcleo de su fortaleza. Respecto del personal docente e investigador, esta ley orgánica tiene como uno de sus objetivos prioritarios la eliminación de la precariedad en el empleo universitario y la implantación de una carrera académica estable y predecible. Se establecen tres niveles de progresión frente a los cuatro vigentes hasta ahora. Así, la carrera académica seguirá las etapas de incorporación, consolidación y promoción. Por otra parte, se reduce del 40 al 8 por ciento el máximo de contratos de carácter temporal del personal docente e investigador que pueden estar vigentes en las universidades públicas. Esta norma persigue poner fin a la precariedad asociada a determinadas figuras del profesorado laboral, ofreciendo a quienes se encuentran en dicha situación vías de entrada adecuadas para que continúen la carrera académica si cumplen determinados requisitos. Asimismo, se incentivan programas de estabilización y promoción de forma transitoria y se garantiza la equiparación de derechos y deberes académicos del profesorado funcionario y laboral permanente. Finalmente, en materia de personal investigador esta norma configura pasarelas entre la carrera investigadora y la Universidad. Entre otras cuestiones, se incentiva la atracción de personal investigador de programas de excelencia mediante la reserva de un porcentaje de determinadas plazas universitarias. Esta nueva ley revaloriza la figura del personal técnico, de gestión y de administración y servicios, como un actor clave para el funcionamiento eficiente y eficaz de la institución universitaria. En línea con este objetivo, se incorpora la carrera profesional horizontal de dicho personal, así como el marco para la evaluación de su desempeño. Igual que sucede con el personal docente e investigador, la norma persigue la reducción de la temporalidad y se fomenta la formación y la movilidad de dicho personal. Para asegurar una Universidad autónoma, democrática y participativa, en la que, simultáneamente, la toma de decisiones y su gestión pueda realizarse de forma eficaz y
 
 ---
 
 <!-- page: 13 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-12"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-13"></a>
 
 eficiente, la Ley consagra la transparencia y la rendición de cuentas de las universidades públicas, en correlación con el desarrollo y protección de su autonomía. Como parte del sector público institucional, el binomio autonomía-transparencia deberá regir toda su actividad, especialmente en lo relacionado con su régimen económico y financiero y la selección de su personal. Así, en este último caso, se refuerza la objetividad en el acceso a los cuerpos docentes y a las modalidades de contratación laboral estableciendo que la mayoría de los miembros de las comisiones de selección no pertenezca a la universidad convocante y que sean elegidos mayoritariamente mediante sorteo. En lo referente a las estructuras internas y la gobernanza de la Universidad, la ley refuerza la autonomía universitaria en el marco de las bases comunes del sistema universitario, la necesaria conexión y colaboración con el entorno en el que se inserta la universidad mediante el Consejo Social, al mismo tiempo que adopta novedades en relación con la elección de la Rectora o Rector, y en relación con los límites de los mandatos de las personas titulares de los órganos unipersonales electos. Finalmente, esta ley orgánica fomenta la multidisciplinariedad e interdisciplinariedad mediante una estructura interna que permita la cooperación entre sus diferentes elementos. Por otro lado, la participación de los diferentes sectores de la comunidad universitaria se erige como un componente definitorio de las universidades públicas. De esta forma, se apuesta por el desarrollo de procesos participativos, consultas y otros mecanismos de participación del conjunto de la comunidad universitaria asegurando la igualdad de oportunidades y la no discriminación. Además, entre otros aspectos, se aumenta la representación mínima del estudiantado en diversos órganos de gobierno de la universidad, y se mandata la creación de un Consejo de Estudiantes en cada universidad. El conjunto de reformas que se aprueba parte del pleno respeto al principio de autonomía universitaria, integrado en el derecho fundamental a la educación reconocido en el artículo 27 de la Constitución Española. Asimismo, estas reformas se fundamentan en el reconocimiento de la distribución competencial entre el Estado y las Comunidades Autónomas en materia de política y gestión universitarias. En esta línea, la ley establece un mínimo común denominador, habilitando un amplio margen al desarrollo de sus disposiciones mediante la labor normativa de las Comunidades Autónomas y las concreciones de los Estatutos y normas de organización y funcionamiento de las propias universidades.
 
@@ -85,10 +59,6 @@ III El expresado contenido de esta ley orgánica se divide en 100 artículos, qu
 
 <!-- page: 14 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-13"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-14"></a>
-
 Por su parte, la disposición derogatoria deja sin vigencia expresamente, para mayor seguridad jurídica, tres normas de rango legal: la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades; la Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, salvo sus disposiciones finales segunda y cuarta, y el Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo. Las disposiciones finales, además de las determinaciones típicas, incluyen la modificación de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, con la finalidad de autorizar la compatibilidad para el desempeño de un puesto de trabajo en la esfera docente como Profesor universitario asociado en régimen de dedicación no superior a la de tiempo parcial; la Ley 14/1986, de 25 de abril, General de Sanidad, en lo relativo a la vinculación asistencial del personal docente universitario laboral; la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, en lo relativo a la vigencia de las autorizaciones iniciales de estancia por estudios superiores cuya duración se extienda más allá de un curso académico y a las prórrogas de las autorizaciones de otras categorías, así como respecto de los lugares de presentación de las solicitudes y exigencia de comparecencia personal; la Ley 33/2011, de 4 de octubre, General de Salud Pública, para clarificar la regulación relativa a los requisitos para el ejercicio profesional de la psicología en el ámbito sanitario y la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización, para ampliar los períodos de eficacia de las autorizaciones de residencia del estudiantado para búsqueda de empleo y la autorización de residencia para prácticas.
 
 IV En la elaboración y tramitación de esta ley orgánica se han observado los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia, exigidos por el artículo 129 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Así, su necesidad resulta de los retos que debe afrontar el sistema universitario ya descritos. La ley cumple los principios de eficacia y proporcionalidad puesto que aborda tales retos a través de innovaciones normativas idóneas y necesarias para llevar a cabo las transformaciones que requiere el sistema universitario para adecuarse a lo que se le demanda en el siglo XXI. Igualmente cumple el principio de seguridad jurídica, pues su contenido es coherente con el resto del ordenamiento jurídico, nacional y de la Unión Europea, así como internacional, en particular con el Espacio Europeo de Educación Superior y, por otro, ofrece un marco normativo sistemático, ordenado y claro para facilitar la toma de decisiones por los particulares y la gestión de sus recursos por las Administraciones Públicas con competencias en la materia. Asimismo, en aplicación del principio de eficiencia, en esta ley orgánica se limitan las cargas administrativas a las imprescindibles para la consecución de los fines descritos previamente, siempre dentro del marco del ordenamiento jurídico nacional, de la Unión Europea e internacional. Por último, en aras del principio de transparencia, además de la realización de los trámites de consulta previa y audiencia e información públicas, y a fin de obtener la mayor participación posible de las partes interesadas, se ha posibilitado la participación de la sociedad y de las restantes Administraciones Públicas; participación que se ha visto reforzada con la información al Consejo de Universidades, la Conferencia General de Política Universitaria y el Consejo de Estudiantes Universitario del Estado. Esta ley orgánica se dicta al amparo de las reglas 30.ª y 1.ª del artículo 149.1 de la Constitución Española, que reservan al Estado la competencia para la aprobación de las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia y la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos, así como en el cumplimiento de los deberes constitucionales, respectivamente. De lo anterior se exceptúa el título IV, el artículo 56.4, el artículo 57.7 y los artículos 60, 61, 62 y 63 que se dictan al amparo del artículo 149.1.15.ª de la Constitución que atribuye al Estado el fomento y coordinación general de la investigación científica y técnica, así como la disposición final primera de modificación de la Ley 53/1984, de 26 de diciembre, de
@@ -96,10 +66,6 @@ IV En la elaboración y tramitación de esta ley orgánica se han observado los 
 ---
 
 <!-- page: 15 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-14"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-15"></a>
 
 Incompatibilidades del personal al servicio de las Administraciones Públicas; la disposición final segunda de modificación de la Ley 14/1986, de 25 de abril, General de Sanidad; la disposición final tercera de modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social; la disposición final cuarta de modificación de la Ley 33/2011, de 4 de octubre, General de Salud Pública, y la disposición final quinta de modificación de Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización, que se incardinan en las competencias expresadas en las leyes objeto de modificación.
 
@@ -131,10 +97,6 @@ Funciones del sistema universitario y autonomía de las universidades
 
 <!-- page: 16 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-15"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-16"></a>
-
 - h) La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos.
 - i) El fomento de la participación de la comunidad universitaria y de la ciudadanía en actividades promovidas por entidades de voluntariado y del tercer sector que se encuentren en línea con los principios y valores del sistema universitario.
 - j) Las demás funciones que se les atribuyan legalmente.
@@ -164,10 +126,6 @@ Funciones del sistema universitario y autonomía de las universidades
 
 <!-- page: 17 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-16"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-17"></a>
-
 - q) El establecimiento de relaciones con otras universidades, instituciones, organismos, Corporaciones de Derecho Público, Administraciones Públicas o empresas y entidades locales, nacionales e internacionales, con el objeto de desarrollar algunas de las funciones que le son propias a la Universidad.
 - r) El desarrollo de las normas de convivencia y de los mecanismos de mediación para la solución alternativa de los conflictos en el ámbito universitario.
 - s) Cualquier otra competencia o actuación necesaria para el adecuado cumplimiento de las funciones estipuladas en el artículo 2.
@@ -194,10 +152,6 @@ Creación y reconocimiento de las universidades y calidad del sistema universita
 
 <!-- page: 18 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-17"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-18"></a>
-
 2. La promoción y el aseguramiento de dicha calidad es responsabilidad compartida por las universidades, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia. El aseguramiento de la calidad se hará efectivo en las condiciones y mediante los procedimientos de evaluación, certificación y acreditación que establezca el Gobierno, mediante real decreto, previo informe de la Conferencia General de Política Universitaria.
 3. Las universidades garantizarán la calidad académica de las actividades de sus centros, a través de los sistemas internos de garantía de calidad.
 4. Las funciones de acreditación y evaluación del profesorado universitario, de acreditación institucional, de evaluación de titulaciones universitarias, de seguimiento de resultados e informe en el ámbito universitario, y de cualquier otra que les atribuyan las leyes estatales y autonómicas, corresponden a la Agencia Nacional de Evaluación de la Calidad y Acreditación (en adelante, ANECA) y a las agencias de evaluación de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Calidad (EQAR), en el ámbito de sus respectivas competencias, todo ello sin perjuicio de los acuerdos internacionales de colaboración en el ámbito del aseguramiento de la calidad, así como del papel que agencias de calidad de otros Estados miembros inscritas en EQAR puedan desarrollar en el marco del Espacio Europeo de Educación Superior. Las agencias de evaluación mencionadas deberán contar con medidas de igualdad relativas a sus procesos de evaluación y, en caso de contar con más de 50 personas trabajadoras, con un plan de igualdad relativo a su organización.
@@ -218,10 +172,6 @@ Organización de enseñanzas
 ---
 
 <!-- page: 19 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-18"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-19"></a>
 
 Los títulos propios también podrán establecerse conjuntamente entre universidades y la Administración Pública, con la finalidad de orientar su contenido a las características y necesidades específicas de determinados colectivos.
 
@@ -251,10 +201,6 @@ Los títulos propios también podrán establecerse conjuntamente entre universid
 
 <!-- page: 20 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-19"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-20"></a>
-
 a la especialización académica o profesional, o bien encaminada a la iniciación en tareas de investigación.
 
 4. Los estudios de Doctorado tienen como finalidad la adquisición de las competencias y las habilidades concernientes a la investigación dentro de un ámbito del conocimiento científico, técnico, humanístico, artístico o cultural.
@@ -275,10 +221,6 @@ equivalencia de títulos extranjeros, validación de experiencia y reconocimient
 ---
 
 <!-- page: 21 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-20"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-21"></a>
 
 ## TÍTULO IV <a id="titulo-iv-2"></a>
 
@@ -307,10 +249,6 @@ Investigación y transferencia e intercambio del conocimiento e innovación
 
 <!-- page: 22 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-21"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-22"></a>
-
 promover la difusión de la Ciencia Abierta en la comunidad universitaria y en el conjunto de la sociedad.
 
 8. Las agencias de calidad estatal y autonómicas incluirán entre sus criterios y requisitos de evaluación la accesibilidad en abierto de los resultados científicos del personal docente e investigador.
@@ -336,10 +274,6 @@ intercambio del conocimiento.
 ---
 
 <!-- page: 23 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-22"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-23"></a>
 
 - k) Promocionar políticas de creación de patentes y de generación de entidades o empresas basadas en el conocimiento, así como la incentivación de los procesos de transferencia e intercambio del conocimiento científico, tecnológico, humanístico, social y cultural universitario y su transformación en procesos de innovación en el sistema productivo tanto a escala local como internacional.
 - l) Potenciar y desarrollar estructuras, servicios y unidades que sirvan de apoyo técnico a las actividades de investigación, transferencia e intercambio del conocimiento e innovación.
@@ -367,10 +301,6 @@ Cooperación, coordinación y participación en el sistema universitario
 ---
 
 <!-- page: 24 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-23"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-24"></a>
 
 - h) Elaborar informes sobre la aplicación del principio de igualdad de género, y de las políticas antidiscriminación o de reconocimiento de la diversidad en todos los aspectos de la vida universitaria.
 - i) Establecer y valorar las líneas generales de política universitaria, su internacionalización y, en especial, su articulación en el Espacio Europeo de Educación Superior y su interrelación con las políticas de investigación científica y tecnológica.
@@ -403,10 +333,6 @@ Cooperación, coordinación y participación en el sistema universitario
 
 <!-- page: 25 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-24"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-25"></a>
-
 2. El Consejo de Estudiantes Universitario del Estado se adscribe al Ministerio de Universidades.
 3. Corresponden al Consejo de Estudiantes Universitario del Estado las siguientes funciones:
 - a) Ser interlocutor ante el Ministerio de Universidades, en los asuntos que conciernen al estudiantado.
@@ -435,10 +361,6 @@ Universidad, sociedad y cultura
 
 <!-- page: 26 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-25"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-26"></a>
-
 #### Artículo 19. La cultura en la Universidad. <a id="articulo-19-2"></a>
 
 1. La creación y transmisión de la cultura universitaria en toda su diversidad constituye una misión fundamental de la Universidad. A tal fin, las universidades velarán por mantener y reforzar la dimensión cultural de todas sus actividades, impulsando, asimismo, su apertura, transmisión y difusión al entorno social con una perspectiva intercultural, de formación a lo largo de la vida y de democratización del conocimiento.
@@ -465,10 +387,6 @@ Las universidades fomentarán y facilitarán el conocimiento y el uso como lengu
 
 <!-- page: 27 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-26"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-27"></a>
-
 ## TÍTULO VII <a id="titulo-vii-2"></a>
 
 Internacionalización del sistema universitario
@@ -493,10 +411,6 @@ Las Administraciones Públicas y las universidades, en el ámbito de sus respect
 ---
 
 <!-- page: 28 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-27"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-28"></a>
 
 #### Artículo 26. Títulos y programas conjuntos. <a id="articulo-26-2"></a>
 
@@ -524,10 +438,6 @@ Las Administraciones Públicas y las universidades, en el ámbito de sus respect
 
 <!-- page: 29 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-28"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-29"></a>
-
 #### Artículo 30. Cooperación internacional universitaria para la solidaridad y el desarrollo. <a id="articulo-30-2"></a>
 
 Las universidades fomentarán la realización de actividades orientadas al cumplimiento de los Objetivos de Desarrollo Sostenible, de conformidad con la normativa sobre la materia.
@@ -552,10 +462,6 @@ El estudiantado en el Sistema Universitario
 
 <!-- page: 30 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-29"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-30"></a>
-
 reconoce el derecho subjetivo del estudiantado universitario a acceder a becas y ayudas al estudio, siempre que cumpla con los requisitos recogidos en las normas reguladoras de las mismas, y de conformidad con los principios fundamentales de igualdad y no discriminación.
 
 2. El Estado establecerá, con cargo a sus presupuestos generales y sin perjuicio de las competencias de las Comunidades Autónomas, un sistema general de becas y ayudas al estudio. Las Comunidades Autónomas, en el ejercicio de sus competencias, podrán ofertar y regular un sistema propio de becas y ayudas al estudio con cargo a sus presupuestos. Asimismo, las universidades, en el ámbito de sus competencias, podrán establecer su propio sistema de becas y ayudas al estudio con cargo a sus presupuestos.
@@ -574,10 +480,6 @@ En relación con su formación académica, el estudiantado tendrá los siguiente
 ---
 
 <!-- page: 31 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-30"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-31"></a>
 
 - d) A ser informado previamente al periodo de matriculación de las modalidades, presencial, virtual o híbrida, de la docencia y la evaluación.
 - e) A las tutorías y al asesoramiento, a la orientación psicopedagógica y al cuidado de la salud mental y emocional, en los términos dispuestos por la normativa universitaria.
@@ -609,10 +511,6 @@ En relación con su formación académica, el estudiantado tendrá los siguiente
 
 <!-- page: 32 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-31"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-32"></a>
-
 procesos para su elección, en particular, en los consejos de estudiantes de su universidad y en el Consejo de Estudiantes Universitario del Estado, así como, de existir estos, en los consejos autonómicos de estudiantes.
 
 4. Las universidades garantizarán al estudiantado un acceso real a la información y a mecanismos adecuados para el ejercicio efectivo de los derechos de participación y representación, incluidos aquellos mecanismos destinados al seguimiento y la evaluación. Asimismo, adoptarán medidas para que estos derechos resulten compatibles con su actividad académica, como el reconocimiento de créditos por su implicación en las políticas, las actividades y la gestión universitarias, incluidas las actividades de asociacionismo y representación estudiantil, culturales, solidarias, de cooperación y de colaboración con el entorno.
@@ -640,10 +538,6 @@ El estudiantado universitario queda sujeto a los siguientes deberes:
 ---
 
 <!-- page: 33 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-32"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-33"></a>
 
 ## TÍTULO IX <a id="titulo-ix-2"></a>
 
@@ -675,10 +569,6 @@ Régimen jurídico y estructura de las universidades públicas
 
 <!-- page: 34 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-33"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-34"></a>
-
 procedimientos académicos, administrativos y de gestión conducentes a la obtención de los correspondientes títulos, para proponer y organizar las enseñanzas conducentes a la obtención de títulos propios y las estructuras encargadas de su gestión, así como, en su caso, las creadas específicamente para desarrollar, transferir, intercambiar y promover la investigación científica, tecnológica, humanística, social, cultural o la creación artística. Dichos centros y estructuras deberán fomentar la cooperación, la multidisciplinariedad y la interdisciplinariedad, así como una gestión administrativa integrada, y contar con los medios necesarios para desarrollar adecuadamente y con eficacia las funciones que tengan asignadas.
 
 #### Artículo 41. Creación, modificación y supresión de centros y estructuras. <a id="articulo-41-2"></a>
@@ -702,10 +592,6 @@ procedimientos académicos, administrativos y de gestión conducentes a la obten
 
 <!-- page: 35 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-34"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-35"></a>
-
 unipersonal o colegiado, así como el procedimiento para su elección por el Claustro Universitario.
 
 5. Las universidades, en colaboración con las Comunidades Autónomas en las que se encuentren ubicadas, ofrecerán servicios gratuitos dirigidos a la orientación psicopedagógica, de prevención y fomento del bienestar emocional de su comunidad universitaria y, en especial, del estudiantado, así como servicios de orientación profesional.
@@ -728,10 +614,6 @@ universidades públicas.
 ---
 
 <!-- page: 36 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-35"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-36"></a>
 
 #### Artículo 45. El Claustro Universitario. <a id="articulo-45-2"></a>
 
@@ -762,10 +644,6 @@ universidades públicas.
 
 <!-- page: 37 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-36"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-37"></a>
-
 - i) Definir y aprobar planes de captación, estabilización y promoción del personal docente e investigador.
 - j) Definir e impulsar, en coordinación con la unidad de igualdad, un plan de igualdad de género del conjunto de la comunidad universitaria.
 - k) Informar de la aprobación del Plan de Igualdad negociado con la representación de la universidad y la representación legal de los y las trabajadoras, que contendrá al menos las materias recogidas en el artículo 46.2 de la Ley Orgánica 3/2007, de 22 de marzo.
@@ -784,10 +662,6 @@ universidades públicas.
 ---
 
 <!-- page: 38 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-37"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-38"></a>
 
 - d) Promover la captación de recursos económicos destinados a la financiación de la universidad, procedentes de los diversos ámbitos sociales, empresariales e institucionales locales, nacionales e internacionales.
 - e) Analizar y valorar el rendimiento de las actividades académicas y proponer acciones de mejora.
@@ -812,10 +686,6 @@ universidades públicas.
 ---
 
 <!-- page: 39 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-38"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-39"></a>
 
 - c) Realizar propuestas a los órganos de gobierno en materias relacionadas con sus competencias para su inclusión en el orden del día.
 - d) Fomentar el asociacionismo estudiantil y la participación del estudiantado en la vida universitaria.
@@ -842,10 +712,6 @@ universidades públicas.
 
 <!-- page: 40 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-39"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-40"></a>
-
 4. El Rector o la Rectora podrá, igualmente, nombrar personal eventual para realizar las funciones previstas y con las condiciones establecidas en el artículo 12 del texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre. El número máximo de personal eventual se recogerá en los Estatutos de acuerdo con lo dispuesto en la normativa de la Comunidad Autónoma correspondiente. Este número y las condiciones retributivas serán públicas.
 5. El Rector o la Rectora podrá nombrar aquellos representantes de la universidad en diversos órganos, entidades e instituciones en los cuales tenga representación la universidad.
 6. Durante su mandato, el Rector o Rectora no podrá presentarse a ningún proceso de promoción académica ni formar parte de una comisión de promoción.
@@ -862,10 +728,6 @@ universidades públicas.
 ---
 
 <!-- page: 41 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-40"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-41"></a>
 
 2. Los Estatutos fijarán los mecanismos de sustitución temporal del cargo y el procedimiento para convocar, con carácter extraordinario, elecciones a los mismos, así como sus efectos sobre los Consejos de Facultad o Escuela.
 3. Las universidades deberán contar, además, con directores o directoras en todas las estructuras que definan en sus Estatutos y con un Secretario o Secretaria que ejercerá como fedatario o fedataria. Serán elegidos en la forma en que se recoja estatutariamente, prevaleciendo lo dispuesto en el convenio de adscripción para los Institutos universitarios de investigación adscritos a universidades públicas.
@@ -897,10 +759,6 @@ Régimen económico y financiero de las universidades públicas
 
 <!-- page: 42 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-41"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-42"></a>
-
 recursos financieros para ello y los mecanismos de evaluación del grado de consecución de dichos objetivos.
 
 3. Sin perjuicio de las competencias atribuidas a las Comunidades Autónomas, dicha programación plurianual deberá incluir los siguientes ejes de financiación, que se sustentarán en indicadores específicos de evaluación, acordados, medibles y contrastables:
@@ -919,10 +777,6 @@ recursos financieros para ello y los mecanismos de evaluación del grado de cons
 
 <!-- page: 43 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-42"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-43"></a>
-
 - a) Las transferencias para gastos corrientes y de capital fijadas, anualmente, por las Comunidades Autónomas dentro de un marco presupuestario a medio plazo.
 - b) Los ingresos por los precios públicos por servicios académicos y demás derechos que legalmente se establezcan. En el caso de estudios conducentes a la obtención de títulos universitarios de carácter oficial, los precios públicos y derechos serán fijados por la Comunidad Autónoma o Administración correspondiente, dentro de un marco general de contención o reducción progresiva de los precios públicos. Asimismo, se consignarán las compensaciones correspondientes a los importes derivados de las exenciones y reducciones que legalmente se dispongan en materia de precios públicos y demás derechos.
 - c) Los ingresos por los precios de las enseñanzas propias, la formación a lo largo de la vida y los referentes a las demás actividades autorizadas a las universidades, que deberán ser aprobados junto con los presupuestos anuales en los que se deban aplicar.
@@ -940,10 +794,6 @@ recursos financieros para ello y los mecanismos de evaluación del grado de cons
 
 <!-- page: 44 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-43"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-44"></a>
-
 En caso de liquidación del presupuesto con remanente de tesorería negativo, el Consejo Social deberá proceder a la reducción de gastos del nuevo presupuesto por cuantía igual al déficit producido. La expresada reducción sólo podrá revocarse por acuerdo de dicho órgano, a propuesta del Rector/a, previo informe del interventor/a y autorización del órgano correspondiente de la Comunidad Autónoma, cuando la disponibilidad presupuestaria y la situación de tesorería lo permitiesen. En todo caso, el Consejo de Gobierno deberá ser informado sobre los motivos de dicho déficit y las posibles alternativas para corregirlo. Las transferencias, con cargo a los presupuestos de la Comunidad Autónoma a favor, directa o indirectamente, de las universidades requerirán la aprobación y puesta en marcha de la reducción de gastos.
 
 9. Las universidades remitirán a la Comunidad Autónoma o Administración correspondiente la información económico-financiera que deban suministrar en aplicación de la normativa de estabilidad presupuestaria u otras disposiciones de carácter estatal o autonómico. La falta de remisión de la liquidación del presupuesto, o la falta de adopción de medidas en caso de liquidación con remanente negativo, facultará a la Comunidad Autónoma para adoptar, en el ámbito de sus competencias, las medidas necesarias para garantizar la estabilidad presupuestaria de la universidad.
@@ -960,10 +810,6 @@ En caso de liquidación del presupuesto con remanente de tesorería negativo, el
 ---
 
 <!-- page: 45 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-44"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-45"></a>
 
 #### Artículo 59. Transparencia y rendición de cuentas en la gestión económico-financiera. <a id="articulo-59-2"></a>
 
@@ -985,10 +831,6 @@ En caso de liquidación del presupuesto con remanente de tesorería negativo, el
 ---
 
 <!-- page: 46 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-45"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-46"></a>
 
 4. Las limitaciones establecidas en el artículo cuarto, en su caso, y en los artículos doce.1.b) y d) y dieciséis de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, no serán de aplicación a los profesores/as funcionarios/as de los cuerpos docentes universitarios, al profesorado laboral permanente y al personal técnico, de gestión y de administración y servicios funcionario y laboral cuando participen en las entidades o empresas basadas en el conocimiento previstas en este artículo, siempre que exista un acuerdo explícito del Consejo de Gobierno de la universidad y se autorice por la Administración Pública competente.
 
@@ -1013,10 +855,6 @@ Personal docente e investigador de las universidades públicas
 
 <!-- page: 47 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-46"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-47"></a>
-
 El profesorado con contrato laboral temporal no podrá superar el 8 por ciento en efectivos de la plantilla de personal docente e investigador. No se computará a tal efecto el profesorado asociado de Ciencias de la Salud y el profesorado ayudante doctor.
 
 4. Todos los puestos de trabajo de profesorado funcionario y laboral deberán adscribirse a los ámbitos de conocimiento que serán establecidos reglamentariamente por el Gobierno, previo informe del Consejo de Universidades. Dichos ámbitos serán suficientemente amplios para permitir y favorecer la movilidad del profesorado y facilitar su carrera profesional.
@@ -1036,10 +874,6 @@ El profesorado con contrato laboral temporal no podrá superar el 8 por ciento e
 ---
 
 <!-- page: 48 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-47"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-48"></a>
 
 #### Artículo 67. Formación. <a id="articulo-67-2"></a>
 
@@ -1070,10 +904,6 @@ Las universidades garantizarán la formación docente inicial y continuada de su
 
 <!-- page: 49 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-48"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-49"></a>
-
 #### Artículo 70. Personal de los cuerpos docentes universitarios que ocupe plaza vinculada a <a id="articulo-70-2"></a>
 
 servicios asistenciales y de salud pública de instituciones sanitarias.
@@ -1091,10 +921,6 @@ servicios asistenciales y de salud pública de instituciones sanitarias.
 ---
 
 <!-- page: 50 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-49"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-50"></a>
 
 #### Artículo 72. Concursos de movilidad del profesorado. <a id="articulo-72-2"></a>
 
@@ -1124,10 +950,6 @@ El reingreso al servicio activo del funcionariado de cuerpos docentes universita
 
 <!-- page: 51 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-50"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-51"></a>
-
 3. Los planes de dedicación individual anuales reflejarán las actividades académicas encomendadas y respetarán el desarrollo profesional y la igualdad de oportunidades y de resultados del profesorado funcionario.
 4. Las bases del régimen general de dedicación del personal docente e investigador funcionario se regularán en el Estatuto del personal docente e investigador universitario.
 
@@ -1150,10 +972,6 @@ El reingreso al servicio activo del funcionariado de cuerpos docentes universita
 
 <!-- page: 52 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-51"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-52"></a>
-
 4. El régimen de dedicación del personal laboral se ajustará, en todo caso, a los principios previstos en el artículo 75, salvo lo dispuesto en el artículo 79 respecto de la dedicación de las Profesoras y Profesores Asociados.
 5. El personal docente e investigador laboral tendrá derecho a negociar sus condiciones retributivas con la universidad, quedando fijadas en los convenios y acuerdos específicos que se alcancen. Igualmente, tendrá derecho a tomar parte en las convocatorias que las Comunidades Autónomas establezcan para fijar retribuciones adicionales ligadas a méritos individuales por el ejercicio de actividades docentes, investigadoras, de transferencia del conocimiento, innovación o gestión.
 
@@ -1175,10 +993,6 @@ La contratación de Profesoras y Profesores Asociados se ajustará a las siguien
 ---
 
 <!-- page: 53 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-52"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-53"></a>
 
 del ámbito académico universitario cuando existan necesidades docentes específicas relacionadas con su ámbito profesional.
 
@@ -1204,10 +1018,6 @@ El nombramiento de Profesoras y Profesores Eméritos se ajustará a las siguient
 ---
 
 <!-- page: 54 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-53"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-54"></a>
 
 - c) Los requisitos de desempeño y acceso a esta modalidad, así como las funciones que podrá desempeñar serán definidos por cada universidad.
 
@@ -1241,10 +1051,6 @@ La contratación de Profesoras y Profesores Distinguidos se ajustará a las sigu
 
 <!-- page: 55 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-54"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-55"></a>
-
 2. Las Comunidades Autónomas deberán regular el procedimiento de acreditación. Tal acreditación se realizará por parte de las agencias de calidad autonómicas o, en su caso, de la ANECA.
 3. Las agencias de calidad, en el marco de las competencias que éstas tienen atribuidas por la normativa estatal y por las respectivas Comunidades Autónomas, trabajarán en criterios mínimos comunes en materia de acreditación de la figura de Profesorado Permanente Laboral. Asimismo, desde su independencia institucional y técnica, dichas agencias de calidad establecerán acuerdos entre ellas para el pleno reconocimiento de las acreditaciones, para evitar cargas administrativas. La ANECA, en aplicación de dichos criterios mínimos comunes, reconocerá la evaluación positiva de los méritos realizada por las agencias de calidad autonómicas, a los efectos de la acreditación para el acceso a los cuerpos docentes universitarios. En todo caso, respecto a la acreditación del Profesorado Permanente Laboral será de aplicación lo dispuesto por el artículo 69.1. Asimismo, el procedimiento de acreditación se ajustará a lo dispuesto en los párrafos a) a e) del artículo 69.2. En estos procedimientos de acreditación el sentido del silencio administrativo será desestimatorio.
 
@@ -1261,10 +1067,6 @@ La contratación de Profesoras y Profesores Distinguidos se ajustará a las sigu
 ---
 
 <!-- page: 56 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-55"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-56"></a>
 
 Los incentivos a que se hace referencia en este apartado se asignarán, singular y personalmente, mediante un procedimiento transparente.
 
@@ -1291,10 +1093,6 @@ Personal técnico, de gestión y de administración y servicios de las universid
 
 <!-- page: 57 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-56"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-57"></a>
-
 la Ley Orgánica 13/1982, de 10 de agosto, de reintegración y amejoramiento del Régimen Foral de Navarra. El personal técnico, de gestión y de administración y servicios laboral se rige por lo establecido en esta ley orgánica, por el texto refundido de la Ley del Estatuto de los Trabajadores, así como por el texto refundido de la Ley del Estatuto Básico del Empleado Público, la demás legislación laboral y los convenios colectivos aplicables. Asimismo, este personal funcionario y laboral se regirá por lo dispuesto en los Estatutos de las universidades. En relación con este personal, corresponde a las Comunidades Autónomas la regulación de las materias expresamente remitidas por esta ley orgánica y aquellas otras que puedan corresponderle en el ámbito de sus competencias.
 
 4. Las universidades podrán contratar otro personal con cargo a financiación externa o financiación procedente de convocatorias de ayudas públicas en concurrencia competitiva en su totalidad para la gestión científico-técnica rigiéndose por lo previsto en el texto refundido de la Ley del Estatuto de los Trabajadores y en el artículo 23 bis de la Ley 14/2011, de 1 de junio.
@@ -1316,10 +1114,6 @@ de las universidades públicas.
 ---
 
 <!-- page: 58 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-57"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-58"></a>
 
 equilibrada entre mujeres y hombres en los mismos, la adecuación de los contenidos de las pruebas selectivas a las funciones y tareas a desarrollar, y la disponibilidad de mecanismos de revisión de los resultados de acuerdo con lo dispuesto por la normativa aplicable y la negociación colectiva.
 
@@ -1343,10 +1137,6 @@ equilibrada entre mujeres y hombres en los mismos, la adecuación de los conteni
 ---
 
 <!-- page: 59 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-58"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-59"></a>
 
 ## TÍTULO X <a id="titulo-x-2"></a>
 
@@ -1373,10 +1163,6 @@ exceptuando el artículo 13, V, VI, VII y VIII, así como las disposiciones adic
 ---
 
 <!-- page: 60 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-59"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-60"></a>
 
 adscripción y será causa de su revocación por parte de la Comunidad Autónoma competente, en los términos que reglamentariamente se establezcan.
 
@@ -1413,10 +1199,6 @@ adscripción y será causa de su revocación por parte de la Comunidad Autónoma
 
 <!-- page: 61 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-60"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-61"></a>
-
 finales que hayan sido aceptados para su publicación en revistas y otras publicaciones científicas, en el plazo previsto en el artículo 37 de la Ley 14/2011, de 1 de junio.
 
 #### Artículo 100. Régimen económico-financiero. <a id="articulo-100-2"></a>
@@ -1440,10 +1222,6 @@ Disposición adicional segunda. Universidad Internacional Menéndez Pelayo.
 
 <!-- page: 62 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-61"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-62"></a>
-
 2. De acuerdo con su objeto y dada su especificidad en el sistema universitario español, la Universidad Internacional Menéndez Pelayo tiene naturaleza de organismo autónomo adscrito al Ministerio de Universidades, con personalidad jurídica y patrimonio propios, con plena capacidad para organizar los medios humanos y materiales para realizar sus actividades, sin más limitaciones que las establecidas por las leyes y los criterios de calidad exigibles.
 3. La Universidad Internacional Menéndez Pelayo se regirá por el principio de autonomía universitaria en relación con la planificación, organización y desarrollo de sus actividades académicas. La colaboración de profesorado de universidades públicas para el desarrollo de las funciones de la Universidad Internacional Menéndez Pelayo en los términos que se determinen en sus Estatutos, será compatible con la dedicación de dicho profesorado.
 4. La actividad económica y financiera de la Universidad Internacional Menéndez Pelayo se acomodará a un presupuesto de carácter anual, que estará incluido en los Presupuestos Generales del Estado. La financiación de la universidad tendrá en consideración los objetivos académicos definidos y programados. El régimen económico-financiero será el establecido en la Ley 47/2003, de 26 de noviembre, General Presupuestaria, para los organismos autónomos. La Intervención Delegada de la Intervención General de la Administración del Estado realizará el control interno de la gestión económico-financiera de la Universidad Internacional Menéndez Pelayo.
@@ -1464,10 +1242,6 @@ Disposición adicional quinta. Centros Universitarios de la Defensa.
 
 <!-- page: 63 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-62"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-63"></a>
-
 Universitarios de la Defensa desarrollarán líneas de investigación consideradas de interés en el ámbito de la defensa.
 
 2. Los Centros Universitarios de la Defensa se regirán, además de por sus propias normas de organización y funcionamiento, por lo dispuesto en esta ley orgánica, en la normativa básica estatal y en las demás normas que les sean de aplicación, así como por los acuerdos contenidos en cada convenio de adscripción.
@@ -1486,10 +1260,6 @@ Disposición adicional séptima. Colegios mayores.
 ---
 
 <!-- page: 64 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-63"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-64"></a>
 
 de adscripción de los colegios mayores adscritos, que gozarán de los beneficios o exenciones fiscales de la universidad en la que estén integrados.
 
@@ -1511,10 +1281,6 @@ Disposición adicional décima primera. Catedráticos o Catedráticas y Profesor
 ---
 
 <!-- page: 65 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-64"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-65"></a>
 
 2. Los Profesores y Profesoras Titulares de Escuela Universitaria que, a la entrada en vigor de esta ley orgánica, posean el título de doctor o doctora o lo obtengan posteriormente, y se acrediten específicamente en el marco de lo previsto por el artículo 69, accederán directamente al Cuerpo de Profesores/as Titulares de Universidad, en sus propias plazas. Para la acreditación a Titulares de Universidad de los Profesores/as Titulares de Escuela Universitaria se valorará particularmente la docencia, así como la investigación y, en su caso, la gestión. Quienes no accedan a la condición de Profesor/a Titular de Universidad permanecerán en su situación actual, manteniendo todos sus derechos y conservando su plena capacidad docente y, en su caso, investigadora, de transferencia e intercambio del conocimiento e innovación.
 3. El requisito de movilidad, al que se hace referencia en el artículo 69.1, no será de aplicación al profesorado al que se refiere esta disposición adicional.
@@ -1541,10 +1307,6 @@ Disposición adicional décima sexta. Principio de «no causar un daño signific
 
 <!-- page: 66 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-65"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-66"></a>
-
 sobre la aplicación del principio de «no causar un perjuicio significativo», así como con lo requerido en la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del plan de recuperación y resiliencia de España, todas las actuaciones que deban llevarse a cabo en cumplimiento de esta ley orgánica deberán respetar el llamado principio de no causar un perjuicio significativo al medioambiente. Esta obligación incluye el cumplimiento de las condiciones específicas previstas en el Componente 21 «Modernización y digitalización del sistema educativo, incluida la educación temprana de 0 a 3 años», en particular en la medida R3 «Reforma integral del sistema universitario» del Plan de Recuperación, Transformación y Resiliencia, en el que se enmarcan dichas actuaciones.
 
 Disposición adicional décima séptima. Acceso a titulaciones de formación permanente y a lo largo de la vida. Las personas que no posean ninguna titulación universitaria habilitante para acceder a las titulaciones de formación permanente y que puedan acreditar experiencia laboral o profesional con nivel competencial equivalente a la formación académica universitaria, podrán acceder a las enseñanzas universitarias de formación permanente mediante un procedimiento de reconocimiento de la experiencia profesional.
@@ -1565,10 +1327,6 @@ Disposición transitoria tercera. Adaptación de las acreditaciones vigentes.
 
 <!-- page: 67 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-66"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-67"></a>
-
 Disposición transitoria cuarta. Adaptación de las nuevas acreditaciones.
 
 1. La ANECA y las agencias de calidad autonómicas dispondrán de un periodo de un año desde la entrada en vigor de esta ley orgánica para adaptar los criterios de la acreditación a Profesor/a Titular de Universidad y a la figura de Profesor/a Permanente Laboral, a la duración de la etapa inicial de la carrera académica que establece esta ley orgánica.
@@ -1588,10 +1346,6 @@ Disposición transitoria sexta. Adaptación de las plantillas de personal docent
 
 <!-- page: 68 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-67"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-68"></a>
-
 Disposición transitoria séptima. Proceso de estabilización de plazas de Profesoras y Profesores Asociadas/os de las universidades públicas.
 
 1. Antes del 31 de diciembre de 2024 y conforme a lo establecido por la Ley 20/2021, de 28 de diciembre, las universidades públicas deberán articular procesos de estabilización de las plazas de Profesoras y Profesores Asociadas/os, de acuerdo con las condiciones profesionales y de dedicación docente previstas en el artículo 79.b). El sistema de selección en estos procesos será el de concurso garantizando los principios de igualdad, mérito, capacidad, publicidad y concurrencia, con las particularidades del artículo 86.2. Estas plazas no computarán en la tasa de reposición de efectivos. De la resolución de estos procesos no podrá resultar, en ningún caso, incremento de efectivos.
@@ -1610,10 +1364,6 @@ Disposición transitoria novena. Proceso de estabilización de las plazas del pe
 ---
 
 <!-- page: 69 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-68"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-69"></a>
 
 plazas de su personal técnico, de gestión y de administración y servicios. El sistema de selección en estos procesos será el de concurso o concurso-oposición garantizando los principios de igualdad, mérito, capacidad, publicidad y concurrencia. Estas plazas no computarán en la tasa de reposición de efectivos. De la resolución de estos procesos no podrá resultar, en ningún caso, incremento de efectivos.
 
@@ -1640,10 +1390,6 @@ Disposición derogatoria única. Derogación normativa.
 
 <!-- page: 70 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-69"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-70"></a>
-
 - b) La Ley Orgánica 4/2007, de 12 de abril, por la que se modifica la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, salvo sus disposiciones finales segunda y cuarta.
 - c) El Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo.
 2. Quedan igualmente derogadas todas las disposiciones de igual o inferior rango en cuanto se opongan a lo establecido en esta ley orgánica.
@@ -1663,10 +1409,6 @@ Disposición final segunda. Modificación de la Ley 14/1986, de 25 de abril, Gen
 
 <!-- page: 71 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-70"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-71"></a>
-
 Disposición final tercera. Modificación de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social. La Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, se modifica como sigue: Uno. El título del capítulo IV del título II queda redactado del siguiente modo:
 
 ## «CAPÍTULO IV <a id="capitulo-iv-3"></a>
@@ -1684,10 +1426,6 @@ De las tasas por autorizaciones administrativas y por tramitación de las solici
 
 <!-- page: 72 -->
 
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-71"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-72"></a>
-
 Disposición final cuarta. Modificación de la Ley 33/2011, de 4 de octubre, General de Salud Pública. La Ley 33/2011, de 4 de octubre, General de Salud Pública, se modifica en los siguientes términos: Uno. El párrafo a) del apartado 2 de la disposición adicional séptima queda redactado como sigue: «a) Los planes de estudios correspondientes al título oficial de Máster en Psicología General Sanitaria garantizarán la adquisición de las competencias necesarias para desempeñar las actividades de la profesión sanitaria de Psicólogo General Sanitario que se especifican en el apartado 1. A tal efecto, el título habilitante para la profesión de Psicólogo General Sanitario deberá acreditar la superación de, al menos, 180 créditos ECTS de contenido específicamente sanitario en el conjunto de las enseñanzas universitarias cursadas, de acuerdo con la concreción que reglamentariamente se determine.» Dos. El párrafo a) del apartado 3 de la disposición adicional séptima queda redactado como sigue: «a) El título de Grado en Psicología, que no habilitará, por sí mismo, para el ejercicio de la psicología en el sector sanitario, constituirá un requisito necesario para el acceso al Máster de Psicología General Sanitaria, así como cualquier otro título universitario oficial extranjero de Psicología que cumpla con los requisitos establecidos en la Orden CNU/1309/2018, de 5 de diciembre, por la que se regulan las condiciones generales a las que se ajustarán los planes de estudio del Grado en Psicología, en particular en lo que se refiere a las materias obligatorias vinculadas a la Psicología de la Salud.»
 
 Disposición final quinta. Modificación de la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización. La Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización, se modifica como sigue: Uno. El apartado 1 de la disposición adicional decimoséptima pasa a tener la siguiente redacción: «1. Una vez finalizados los estudios en una institución de educación superior, los extranjeros que hayan alcanzado como mínimo el Nivel 6 de acuerdo con el Marco Europeo de Cualificaciones, correspondiente a la acreditación de grado, podrán permanecer en España durante un período máximo improrrogable de veinticuatro meses con el fin de buscar un empleo adecuado en relación con el nivel de los estudios finalizados o para emprender un proyecto empresarial.» Dos. El apartado 6 de la disposición adicional decimoctava queda redactado del modo siguiente: «6. El período de validez de esta autorización de residencia para prácticas será de doce meses o igual a la duración del convenio de prácticas, de ser inferior. Esta autorización podrá ser renovada, por una sola vez, no pudiendo exceder de dos años el período total de la autorización inicial y de su prórroga. En el caso de que se trate de un contrato de trabajo en prácticas, la duración será la prevista en el mismo regida por la legislación laboral aplicable en cada momento.»
@@ -1698,10 +1436,6 @@ Disposición final sexta. Título competencial.
 ---
 
 <!-- page: 73 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-72"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-73"></a>
 
 de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia, respectivamente.
 
@@ -1726,10 +1460,6 @@ Disposición final décima primera. Reconocimiento de efectos civiles de determi
 ---
 
 <!-- page: 74 -->
-
-## BOLETÍN OFICIAL DEL ESTADO <a id="boletin-oficial-del-estado-73"></a>
-
-## LEGISLACIÓN CONSOLIDADA <a id="legislacion-consolidada-74"></a>
 
 2. Del mismo modo se podrán reconocer otros acuerdos siempre que en ellos se recoja esta posibilidad.
 Disposición final décima segunda. Entrada en vigor. La presente ley orgánica entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado». Por tanto, Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley orgánica. Madrid, 22 de marzo de 2023.
