@@ -112,6 +112,11 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
         }
       ]
     },
