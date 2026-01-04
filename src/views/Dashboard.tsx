@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Sidebar from '@/components/dashboard/Sidebar';
 import StudyTypeSelector from '@/components/dashboard/StudyTypeSelector';
 import { useAuth } from '@/hooks/useAuth';
+import { useIsMobile } from '@/hooks/use-mobile';
 import { Loader2 } from 'lucide-react';
 import { hydrateFromApi, isOnboardingCompleted } from '@/lib/storage';
 import { isAuthenticated } from '@/lib/authgear';
@@ -15,7 +16,8 @@ const AUTO_LOGIN_ERROR_KEY = 'folio-auto-login-error';
 const Dashboard = ({ children }: { children: ReactNode }) => {
   const { user, loading, signIn } = useAuth();
   const router = useRouter();
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const isMobile = useIsMobile();
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(true); // Default collapsed
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [checkingOnboarding, setCheckingOnboarding] = useState(true);
   const hasStartedLogin = useRef(false);
@@ -128,7 +130,15 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   return (
     <div className="min-h-screen bg-background">
       <Sidebar />
-      <main className={`p-8 transition-all duration-300 ${sidebarCollapsed ? 'ml-16' : 'ml-64'}`}>{children}</main>
+      <main 
+        className={`transition-all duration-300 ${
+          isMobile 
+            ? 'pt-14 px-4 pb-4' // Mobile: top padding for header, smaller horizontal padding
+            : `p-8 ${sidebarCollapsed ? 'ml-16' : 'ml-64'}` // Desktop: sidebar margin
+        }`}
+      >
+        {children}
+      </main>
     </div>
   );
 };
