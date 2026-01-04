@@ -388,15 +388,15 @@ const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
       {/* Sticky TOC Sidebar */}
       {toc.length > 0 && (
         <aside className="w-64 flex-shrink-0 hidden lg:block">
-          <div className="sticky top-0 max-h-[calc(100vh-8rem)] overflow-hidden">
-            <div className="bg-background border border-border rounded-lg shadow-sm">
+          <div className="sticky top-0">
+            <div className="bg-background border border-border rounded-lg shadow-sm flex flex-col max-h-[calc(100vh-8rem)] overflow-hidden">
               <div className="p-3 border-b border-border">
                 <p className="text-xs font-semibold text-muted-foreground uppercase flex items-center gap-2">
                   <List className="h-3 w-3" />
                   Tabla de contenidos
                 </p>
               </div>
-              <ScrollArea className="max-h-[calc(100vh-12rem)]">
+              <ScrollArea className="flex-1 min-h-0">
                 <nav className="p-2">
                   {toc.map((item, index) => (
                     <button
