@@ -97,6 +97,8 @@ const Tests = () => {
   const [filtersLoaded, setFiltersLoaded] = useState(false);
   const { toast } = useToast();
   const isMobile = useIsMobile();
+  
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   // Cargar datos y filtros guardados
   useEffect(() => {
@@ -532,7 +534,12 @@ const Tests = () => {
                               // Extraer solo el nombre del archivo del path
                               const path = currentQuestion.source?.path || '';
                               const filename = path.split('/').pop()?.split('#')[0] || path;
-                              window.open(`/dashboard/temario?file=${encodeURIComponent(filename)}`, '_blank');
+                              // Include materialId as section param for deep-linking to TOC element
+                              const materialId = currentQuestion.source?.materialId;
+                              const sectionParam = materialId ? `&section=${encodeURIComponent(materialId)}` : '';
+                              const trimmedBase = String(basePath).replace(/\/+$/, '');
+                              const url = `${trimmedBase}/dashboard/temario?file=${encodeURIComponent(filename)}${sectionParam}`.replace(/\/{2,}/g, '/');
+                              window.open(url, '_blank');
                             }}
                           >
                             <ExternalLink className="h-4 w-4" />

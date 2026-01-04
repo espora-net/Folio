@@ -30,6 +30,8 @@ type ViewerState = {
   url: string;
   nombre: string;
   content?: string;
+  /** Section ID to scroll to (from URL param) */
+  scrollToSection?: string;
 };
 
 type TranscriptState = {
@@ -49,6 +51,8 @@ const Temario = () => {
   const [mdContent, setMdContent] = useState<string>('');
   const [loadingContent, setLoadingContent] = useState(false);
   const [transcript, setTranscript] = useState<TranscriptState>({ data: null, markdown: null });
+  // Pending deep-link params to process after convocatoria data loads
+  const [pendingDeepLink, setPendingDeepLink] = useState<{ file: string; section?: string } | null>(null);
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const DUPLICATE_SLASHES = /\/{2,}/g;
@@ -87,10 +91,54 @@ const Temario = () => {
       }
       
       setLoading(false);
+      
+      // Read URL parameters for deep-linking: ?file=<filename>&section=<sectionId>
+      if (typeof window !== 'undefined') {
+        const params = new URLSearchParams(window.location.search);
+        const file = params.get('file');
+        const section = params.get('section') || undefined;
+        if (file) {
+          setPendingDeepLink({ file, section });
+        }
+      }
     };
     
     loadConvocatorias();
   }, []);
+
+  // Process pending deep-link when convocatoria data is loaded
+  useEffect(() => {
+    if (!pendingDeepLink || !convocatoriaData) return;
+    
+    const { file, section } = pendingDeepLink;
+    setPendingDeepLink(null); // Clear pending to avoid re-processing
+    
+    // Find the tema and recurso that matches the file
+    for (const tema of convocatoriaData.temas) {
+      for (const recurso of tema.recursos) {
+        // Match by filename (last segment of archivo path)
+        const recursoFilename = recurso.archivo.split('/').pop()?.split('#')[0] || recurso.archivo;
+        if (recursoFilename === file || recurso.archivo.includes(file)) {
+          // Found matching recurso - select tema and open the recurso
+          setSelectedTema(tema);
+          handleOpenRecurso(recurso, section);
+          return;
+        }
+      }
+    }
+    
+    // If no matching recurso found in temas, try to open directly as a file path
+    // This handles cases where the file might not be registered in any tema
+    const tipo = file.endsWith('.md') ? 'md' : file.endsWith('.pdf') ? 'pdf' : file.endsWith('.mp3') ? 'mp3' : null;
+    if (tipo === 'md') {
+      const syntheticRecurso: TemaRecurso = {
+        tipo: 'md',
+        nombre: file,
+        archivo: `data/general/${file}`
+      };
+      handleOpenRecurso(syntheticRecurso, section);
+    }
+  }, [pendingDeepLink, convocatoriaData]);
 
   const handleSelectConvocatoria = async (conv: ConvocatoriaDescriptor) => {
     setSelectedConvocatoria(conv);
@@ -126,7 +174,7 @@ const Temario = () => {
     return `${trimmedBase}/api/${cleanArchivo}`.replace(DUPLICATE_SLASHES, '/');
   };
 
-  const handleOpenRecurso = async (recurso: TemaRecurso) => {
+  const handleOpenRecurso = async (recurso: TemaRecurso, scrollToSection?: string) => {
     const url = getRecursoUrl(recurso.archivo);
     
     if (recurso.tipo === 'db') {
@@ -138,7 +186,7 @@ const Temario = () => {
 
     if (recurso.tipo === 'md') {
       setLoadingContent(true);
-      setViewer({ type: 'md', url, nombre: recurso.nombre });
+      setViewer({ type: 'md', url, nombre: recurso.nombre, scrollToSection });
       try {
         // Añadir cache busting para evitar caché del navegador
         const cacheBuster = Math.floor(Date.now() / 60000);
@@ -303,7 +351,7 @@ const Temario = () => {
                 <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
               </div>
             ) : (
-              <MarkdownViewer content={mdContent} className="h-full" />
+              <MarkdownViewer content={mdContent} className="h-full" scrollToSection={viewer.scrollToSection} />
             )}
           </div>
         )}
