@@ -15,6 +15,7 @@ import {
 import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
 import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
+import { useIsMobile } from '@/hooks/use-mobile';
 import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
 import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
 
@@ -92,6 +93,7 @@ const Flashcards = () => {
   const [markedForReview, setMarkedForReview] = useState<Flashcard[]>([]);
   const [filtersLoaded, setFiltersLoaded] = useState(false);
   const { toast } = useToast();
+  const isMobile = useIsMobile();
 
   // Cargar datos y filtros guardados
   useEffect(() => {
@@ -342,12 +344,12 @@ const Flashcards = () => {
         </div>
       )}
 
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Flashcards</h1>
-          <p className="text-muted-foreground">Repasa con tarjetas de memoria</p>
+          <h1 className="text-2xl sm:text-3xl font-bold text-foreground">Flashcards</h1>
+          <p className="text-sm sm:text-base text-muted-foreground">Repasa con tarjetas de memoria</p>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center flex-wrap">
           <StudyFiltersPopover
             topics={topics}
             items={flashcards}
@@ -367,10 +369,24 @@ const Flashcards = () => {
             selectedCount={effectiveCardCount}
             onCountChange={setQuestionLimit}
           />
-          <Button onClick={startStudying}>
-            <RotateCcw className="h-4 w-4 mr-2" />
-            Estudiar ({effectiveCardCount})
-          </Button>
+          {isMobile ? (
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button onClick={startStudying} size="icon" className="shrink-0">
+                  <RotateCcw className="h-4 w-4" />
+                  <span className="sr-only">Estudiar ({effectiveCardCount})</span>
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Estudiar ({effectiveCardCount})</p>
+              </TooltipContent>
+            </Tooltip>
+          ) : (
+            <Button onClick={startStudying}>
+              <RotateCcw className="h-4 w-4 mr-2" />
+              Estudiar ({effectiveCardCount})
+            </Button>
+          )}
         </div>
       </div>
 
@@ -414,7 +430,7 @@ const Flashcards = () => {
           
           {/* Contenedor con perspectiva 3D */}
           <div 
-            className="relative min-h-[300px] cursor-pointer"
+            className="relative min-h-[220px] sm:min-h-[300px] cursor-pointer"
             style={{ perspective: '1000px' }}
             onClick={() => {
               if (pendingNextIndex !== null) return;
@@ -431,16 +447,16 @@ const Flashcards = () => {
             >
               {/* Cara frontal - Pregunta */}
               <Card
-                className="absolute inset-0 min-h-[300px] border-border shadow-lg"
+                className="absolute inset-0 min-h-[220px] sm:min-h-[300px] border-border shadow-lg"
                 style={{ backfaceVisibility: 'hidden' }}
               >
-                <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
+                <CardContent className="p-4 sm:p-8 flex flex-col items-center justify-center min-h-[220px] sm:min-h-[300px]">
                   <div
                     className={`transition-all duration-300 ease-out ${
                       cardTextVisible ? 'opacity-100 blur-none' : 'opacity-0 blur-sm'
                     }`}
                   >
-                    <p className="text-xl text-center text-foreground">
+                    <p className="text-base sm:text-xl text-center text-foreground">
                       {currentCard.question}
                     </p>
                   </div>
@@ -454,20 +470,20 @@ const Flashcards = () => {
               
               {/* Cara trasera - Respuesta */}
               <Card
-                className="absolute inset-0 min-h-[300px] border-border shadow-lg"
+                className="absolute inset-0 min-h-[220px] sm:min-h-[300px] border-border shadow-lg"
                 style={{ 
                   backfaceVisibility: 'hidden',
                   transform: 'rotateY(180deg)',
                   background: 'linear-gradient(135deg, white 0%, hsl(var(--primary) / 0.15) 100%)',
                 }}
               >
-                <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
+                <CardContent className="p-4 sm:p-8 flex flex-col items-center justify-center min-h-[220px] sm:min-h-[300px]">
                   <div
                     className={`transition-all duration-300 ease-out ${
                       cardTextVisible ? 'opacity-100 blur-none' : 'opacity-0 blur-sm'
                     }`}
                   >
-                    <p className="text-xl text-center text-foreground">
+                    <p className="text-base sm:text-xl text-center text-foreground">
                       {currentCard.answer}
                     </p>
                   </div>
@@ -477,26 +493,66 @@ const Flashcards = () => {
           </div>
           
           {showAnswer && (
-            <div className="flex justify-center gap-4 mt-6">
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex-1 max-w-[200px]"
-                disabled={pendingNextIndex !== null}
-                onClick={() => handleReview(true)}
-              >
-                <Bookmark className="h-5 w-5 mr-2 text-orange-500" />
-                Marcar para repasar
-              </Button>
-              <Button
-                size="lg"
-                className="flex-1 max-w-[150px]"
-                disabled={pendingNextIndex !== null}
-                onClick={() => handleReview(false)}
-              >
-                <Check className="h-5 w-5 mr-2" />
-                Siguiente
-              </Button>
+            <div className="flex justify-center gap-2 sm:gap-4 mt-6">
+              {isMobile ? (
+                <>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Button
+                        variant="outline"
+                        size="lg"
+                        className="flex-1"
+                        disabled={pendingNextIndex !== null}
+                        onClick={() => handleReview(true)}
+                      >
+                        <Bookmark className="h-5 w-5 text-orange-500" />
+                        <span className="sr-only">Marcar para repasar</span>
+                      </Button>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>Marcar para repasar</p>
+                    </TooltipContent>
+                  </Tooltip>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Button
+                        size="lg"
+                        className="flex-1"
+                        disabled={pendingNextIndex !== null}
+                        onClick={() => handleReview(false)}
+                      >
+                        <Check className="h-5 w-5" />
+                        <span className="sr-only">Siguiente</span>
+                      </Button>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>Siguiente</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </>
+              ) : (
+                <>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="flex-1 max-w-[200px]"
+                    disabled={pendingNextIndex !== null}
+                    onClick={() => handleReview(true)}
+                  >
+                    <Bookmark className="h-5 w-5 mr-2 text-orange-500" />
+                    Marcar para repasar
+                  </Button>
+                  <Button
+                    size="lg"
+                    className="flex-1 max-w-[150px]"
+                    disabled={pendingNextIndex !== null}
+                    onClick={() => handleReview(false)}
+                  >
+                    <Check className="h-5 w-5 mr-2" />
+                    Siguiente
+                  </Button>
+                </>
+              )}
             </div>
           )}
         </div>
@@ -527,22 +583,22 @@ const Flashcards = () => {
               </div>
 
               {viewMode === 'cards' ? (
-                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                   {filteredFlashcards.map((card) => {
                     const topic = getTopicById(card.topicId);
                     const tag = getOriginTag(card.origin);
                     const TagIcon = tag.icon;
                     return (
                       <Card key={card.id} className="border-border">
-                        <CardContent className="p-4 flex flex-col h-full">
+                        <CardContent className="p-3 sm:p-4 flex flex-col h-full">
                           <div className="flex justify-between items-start mb-2">
                             <p className="text-xs text-muted-foreground">Pregunta</p>
                           </div>
-                          <p className="font-medium text-foreground mb-3 line-clamp-3">
+                          <p className="font-medium text-foreground mb-3 line-clamp-3 text-sm sm:text-base">
                             {card.question}
                           </p>
                           <p className="text-xs text-muted-foreground">Respuesta</p>
-                          <p className="text-sm text-primary line-clamp-2 flex-1">
+                          <p className="text-xs sm:text-sm text-primary line-clamp-2 flex-1">
                             {card.answer}
                           </p>
                           <div className="mt-3 pt-3 border-t border-border flex flex-wrap gap-2">
