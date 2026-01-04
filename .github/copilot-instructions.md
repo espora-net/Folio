@@ -106,6 +106,54 @@ Las convocatorias se gestionan con funciones específicas en `src/lib/data-api.t
 - Descriptores: `convocatorias` en `public/api/db.json`
 - Carga: `fetchConvocatoria(id)` desde `public/api/<descriptor.file>` con fallback bundled
 
+### Modelo de Cobertura de Convocatoria (syllabusCoverageIds)
+
+Este sistema permite filtrar las preguntas de un dataset para mostrar **solo las que entran en una convocatoria específica**. El flujo es:
+
+1. **Convocatoria** (`convocatoria-*.json`): Define en cada tema un array `cobertura_convocatoria` con los IDs de las secciones exigidas. Ejemplo para el Tema 3 (LOSU):
+   ```json
+   {
+     "id": "uah-tema-003",
+     "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
+     "cobertura_convocatoria": ["#titulo-i", "#titulo-ix", "#capitulo-i", "#capitulo-ii", "#capitulo-v"]
+   }
+   ```
+
+2. **Dataset** (`db-*.json`): Cada `subtopic` puede incluir un array `syllabusCoverageIds` que indica a qué secciones de la convocatoria pertenece. Ejemplo:
+   ```json
+   {
+     "id": "constitucion-espanola-1978-preambulo-y-titulo-preliminar",
+     "title": "Preámbulo y Título Preliminar de la Constitución de 1978",
+     "syllabusCoverageIds": ["#titulo-preliminar"]
+   }
+   ```
+
+3. **Preguntas**: Cada pregunta tiene un `topicId` que apunta al ID de un subtopic. Si ese subtopic tiene `syllabusCoverageIds`, la pregunta entra en la convocatoria.
+
+**Diagrama de relación**:
+```
+convocatoria-*.json                  db-*.json
+    │                                    │
+    └─ temas[].cobertura_convocatoria    └─ topics[].subtopics[].syllabusCoverageIds
+           │                                          │
+           │    ┌────────────────────────────────────┘
+           ▼    ▼
+       IDs deben coincidir (ej: "#titulo-i")
+                                    │
+                                    ▼
+                       questions[].topicId → subtopic.id
+```
+
+**Formato de los IDs de cobertura**:
+- SIEMPRE con prefijo `#` (ej: `#titulo-i`, `#capitulo-ii`)
+- Usar solo títulos, capítulos o artículos de forma compacta
+- Evitar texto descriptivo adicional
+- Seguir el patrón de `db-constitucion.json` como referencia
+
+**Archivo de referencia**: `db-constitucion.json` es el modelo canónico para el formato de `syllabusCoverageIds`.
+
+**Validación**: El agente `.github/agents/ValidateSyllabusCoverage.agent.md` valida la coherencia entre convocatorias y datasets antes de cualquier merge.
+
 ## Persistencia: `localStorage` por usuario
 
 La persistencia está implementada en `src/lib/storage.ts` con aislamiento por usuario:
