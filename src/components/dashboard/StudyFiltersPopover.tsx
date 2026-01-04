@@ -161,7 +161,7 @@ export default function StudyFiltersPopover({
             )}
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-96 max-w-[calc(100vw-2rem)] p-0" align="end">
+        <PopoverContent className="w-[calc(100vw-2rem)] sm:w-96 max-w-96 p-0" align="end" collisionPadding={16}>
           <div className="p-4 pb-2">
             <h4 className="font-medium text-sm">Filtrar contenido</h4>
             <p className="text-xs text-muted-foreground">Selecciona convocatoria, temas u origen</p>
@@ -169,7 +169,7 @@ export default function StudyFiltersPopover({
           
           <Separator />
 
-        <ScrollArea className="max-h-[400px]">
+        <ScrollArea className="max-h-[min(60vh,500px)]">
           <div className="p-4 space-y-4">
             {/* Filtro por convocatoria */}
             {activeConvocatoria && (
