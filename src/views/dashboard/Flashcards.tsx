@@ -571,13 +571,13 @@ const Flashcards = () => {
               {/* Toggle de vista */}
               <div className="flex justify-end mb-4">
                 <ToggleGroup type="single" value={viewMode} onValueChange={(v) => v && setViewMode(v as ViewMode)}>
-                  <ToggleGroupItem value="cards" aria-label="Vista tarjetas" className="px-3">
-                    <LayoutGrid className="h-4 w-4 mr-2" />
-                    Tarjetas
+                  <ToggleGroupItem value="cards" aria-label="Vista tarjetas" className="px-2 sm:px-3">
+                    <LayoutGrid className="h-4 w-4 sm:mr-2" />
+                    <span className="hidden sm:inline">Tarjetas</span>
                   </ToggleGroupItem>
-                  <ToggleGroupItem value="list" aria-label="Vista lista" className="px-3">
-                    <List className="h-4 w-4 mr-2" />
-                    Lista
+                  <ToggleGroupItem value="list" aria-label="Vista lista" className="px-2 sm:px-3">
+                    <List className="h-4 w-4 sm:mr-2" />
+                    <span className="hidden sm:inline">Lista</span>
                   </ToggleGroupItem>
                 </ToggleGroup>
               </div>

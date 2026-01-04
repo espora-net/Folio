@@ -22,7 +22,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/hooks/useAuth';
 import { useTheme } from '@/hooks/useTheme';
-import { useIsMobile } from '@/hooks/use-mobile';
+import { useIsMobile, MOBILE_BREAKPOINT } from '@/hooks/use-mobile';
 import {
   Tooltip,
   TooltipContent,
@@ -53,7 +53,6 @@ const navItems = [
 ];
 
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';
-const MOBILE_BREAKPOINT = 768;
 
 const Sidebar = () => {
   const { signOut } = useAuth();
@@ -69,7 +68,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     // En móvil, siempre colapsar por defecto
-    if (window.innerWidth < MOBILE_BREAKPOINT) {
+    if (typeof window !== 'undefined' && window.innerWidth < MOBILE_BREAKPOINT) {
       setCollapsed(true);
       localStorage.setItem(SIDEBAR_COLLAPSED_KEY, 'true');
       window.dispatchEvent(new CustomEvent('folio-sidebar-toggle', { detail: { collapsed: true } }));
