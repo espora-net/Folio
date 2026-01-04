@@ -25,6 +25,7 @@ import {
 import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
 import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { useToast } from '@/hooks/use-toast';
+import { useIsMobile } from '@/hooks/use-mobile';
 import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
 import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
 
@@ -95,6 +96,7 @@ const Tests = () => {
   const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
   const [filtersLoaded, setFiltersLoaded] = useState(false);
   const { toast } = useToast();
+  const isMobile = useIsMobile();
 
   // Cargar datos y filtros guardados
   useEffect(() => {
@@ -341,12 +343,12 @@ const Tests = () => {
         </div>
       )}
 
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Tests</h1>
-          <p className="text-muted-foreground">Practica con preguntas tipo test</p>
+          <h1 className="text-2xl sm:text-3xl font-bold text-foreground">Tests</h1>
+          <p className="text-sm sm:text-base text-muted-foreground">Practica con preguntas tipo test</p>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center flex-wrap">
           <StudyFiltersPopover
             topics={topics}
             items={questions}
@@ -366,10 +368,24 @@ const Tests = () => {
             selectedCount={effectiveQuestionCount}
             onCountChange={setQuestionLimit}
           />
-          <Button onClick={startTest}>
-            <Play className="h-4 w-4 mr-2" />
-            Empezar test ({effectiveQuestionCount})
-          </Button>
+          {isMobile ? (
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button onClick={startTest} size="icon" className="shrink-0">
+                  <Play className="h-4 w-4" />
+                  <span className="sr-only">Empezar test ({effectiveQuestionCount})</span>
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Empezar test ({effectiveQuestionCount})</p>
+              </TooltipContent>
+            </Tooltip>
+          ) : (
+            <Button onClick={startTest}>
+              <Play className="h-4 w-4 mr-2" />
+              Empezar test ({effectiveQuestionCount})
+            </Button>
+          )}
         </div>
       </div>
 
@@ -414,8 +430,8 @@ const Tests = () => {
             </div>
           </div>
           <Card className="border-border">
-            <CardContent className="p-6">
-              <h3 className="text-lg font-medium text-foreground mb-6">
+            <CardContent className="p-4 sm:p-6">
+              <h3 className="text-base sm:text-lg font-medium text-foreground mb-4 sm:mb-6">
                 {currentQuestion.question}
               </h3>
               <RadioGroup
@@ -426,7 +442,7 @@ const Tests = () => {
                 {currentQuestion.options.map((option, i) => (
                   <div
                     key={i}
-                    className={`flex items-center space-x-3 p-3 rounded-lg border transition-colors ${
+                    className={`flex items-center space-x-3 p-2 sm:p-3 rounded-lg border transition-colors ${
                       showResult
                         ? i === currentQuestion.correctIndex
                           ? 'border-primary bg-primary/10'
@@ -439,7 +455,7 @@ const Tests = () => {
                     }`}
                   >
                     <RadioGroupItem value={i.toString()} id={`option-${i}`} disabled={showResult} />
-                    <Label htmlFor={`option-${i}`} className="flex-1 cursor-pointer">
+                    <Label htmlFor={`option-${i}`} className="flex-1 cursor-pointer text-sm sm:text-base">
                       {option}
                     </Label>
                     {showResult && i === currentQuestion.correctIndex && (
@@ -530,19 +546,61 @@ const Tests = () => {
               )}
 
               <div className="mt-6 flex justify-between gap-2">
-                <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
-                  <SkipForward className="h-4 w-4 mr-2" />
-                  Pasar
-                </Button>
+                {isMobile ? (
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Button variant="ghost" size="icon" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
+                        <SkipForward className="h-4 w-4" />
+                        <span className="sr-only">Pasar</span>
+                      </Button>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>Pasar</p>
+                    </TooltipContent>
+                  </Tooltip>
+                ) : (
+                  <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
+                    <SkipForward className="h-4 w-4 mr-2" />
+                    Pasar
+                  </Button>
+                )}
                 <div className="flex gap-2">
                   {!showResult ? (
-                    <Button onClick={handleAnswer} disabled={selectedAnswer === null}>
-                      Comprobar
-                    </Button>
+                    isMobile ? (
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button size="icon" onClick={handleAnswer} disabled={selectedAnswer === null}>
+                            <CheckCircle className="h-4 w-4" />
+                            <span className="sr-only">Comprobar</span>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Comprobar</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    ) : (
+                      <Button onClick={handleAnswer} disabled={selectedAnswer === null}>
+                        Comprobar
+                      </Button>
+                    )
                   ) : (
-                    <Button onClick={nextQuestion}>
-                      {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
-                    </Button>
+                    isMobile ? (
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button size="icon" onClick={nextQuestion}>
+                            <Play className="h-4 w-4" />
+                            <span className="sr-only">{currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}</span>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>{currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    ) : (
+                      <Button onClick={nextQuestion}>
+                        {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
+                      </Button>
+                    )
                   )}
                 </div>
               </div>
@@ -564,34 +622,34 @@ const Tests = () => {
               {/* Toggle de vista */}
               <div className="flex justify-end mb-4">
                 <ToggleGroup type="single" value={viewMode} onValueChange={(v) => v && setViewMode(v as ViewMode)}>
-                  <ToggleGroupItem value="cards" aria-label="Vista tarjetas" className="px-3">
-                    <LayoutGrid className="h-4 w-4 mr-2" />
-                    Tarjetas
+                  <ToggleGroupItem value="cards" aria-label="Vista tarjetas" className="px-2 sm:px-3">
+                    <LayoutGrid className="h-4 w-4 sm:mr-2" />
+                    <span className="hidden sm:inline">Tarjetas</span>
                   </ToggleGroupItem>
-                  <ToggleGroupItem value="list" aria-label="Vista lista" className="px-3">
-                    <List className="h-4 w-4 mr-2" />
-                    Lista
+                  <ToggleGroupItem value="list" aria-label="Vista lista" className="px-2 sm:px-3">
+                    <List className="h-4 w-4 sm:mr-2" />
+                    <span className="hidden sm:inline">Lista</span>
                   </ToggleGroupItem>
                 </ToggleGroup>
               </div>
 
               {viewMode === 'cards' ? (
-                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                   {filteredQuestions.map((q) => {
                     const topic = getTopicById(q.topicId);
                     const tag = getOriginTag(q.origin);
                     const TagIcon = tag.icon;
                     return (
                       <Card key={q.id} className="border-border">
-                        <CardContent className="p-4 flex flex-col h-full">
+                        <CardContent className="p-3 sm:p-4 flex flex-col h-full">
                           <div className="flex justify-between items-start mb-2">
                             <p className="text-xs text-muted-foreground">Pregunta</p>
                           </div>
-                          <p className="font-medium text-foreground mb-3 line-clamp-3">
+                          <p className="font-medium text-foreground mb-3 line-clamp-3 text-sm sm:text-base">
                             {q.question}
                           </p>
                           <p className="text-xs text-muted-foreground">Respuesta correcta</p>
-                          <p className="text-sm text-primary line-clamp-2 flex-1">
+                          <p className="text-xs sm:text-sm text-primary line-clamp-2 flex-1">
                             {q.options[q.correctIndex]}
                           </p>
                           {topic && (
