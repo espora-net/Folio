@@ -161,7 +161,7 @@ export default function StudyFiltersPopover({
             )}
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-96 p-0" align="end">
+        <PopoverContent className="w-96 max-w-[calc(100vw-2rem)] p-0" align="end">
           <div className="p-4 pb-2">
             <h4 className="font-medium text-sm">Filtrar contenido</h4>
             <p className="text-xs text-muted-foreground">Selecciona convocatoria, temas u origen</p>
