@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -9,6 +9,7 @@ import mermaid from 'mermaid';
 import { ChevronRight, ChevronDown, List } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 // Import highlight.js styles for syntax highlighting
 import 'highlight.js/styles/github-dark.css';
@@ -119,19 +120,59 @@ const extractToc = (content: string): TocItem[] => {
  * - Syntax highlighting for code blocks
  * - Mermaid diagram support
  * - HTML rendering support
- * - Table of contents navigation
+ * - Sticky table of contents sidebar (desktop) / dropdown (mobile)
+ * - Full height layout
  */
 const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
   const [tocOpen, setTocOpen] = useState(false);
+  const [activeHeading, setActiveHeading] = useState<string>('');
   const toc = useMemo(() => extractToc(content), [content]);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const isMobile = useIsMobile();
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    setTocOpen(false);
+    // Only close on mobile
+    if (isMobile) {
+      setTocOpen(false);
+    }
   };
+
+  // Track active heading based on scroll position
+  useEffect(() => {
+    if (toc.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Find the topmost intersecting entry
+        const intersectingEntries = entries.filter((entry) => entry.isIntersecting);
+        if (intersectingEntries.length > 0) {
+          // Sort by boundingClientRect.top to get the topmost visible heading
+          const topEntry = intersectingEntries.reduce((prev, curr) =>
+            prev.boundingClientRect.top < curr.boundingClientRect.top ? prev : curr
+          );
+          setActiveHeading(topEntry.target.id);
+        }
+      },
+      {
+        rootMargin: '-20% 0% -80% 0%',
+        threshold: 0,
+      }
+    );
+
+    // Observe all heading elements
+    toc.forEach((item) => {
+      const element = document.getElementById(item.id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    return () => observer.disconnect();
+  }, [toc]);
 
   // Custom components for ReactMarkdown
   const components = useMemo(() => ({
@@ -265,59 +306,117 @@ const MarkdownViewer = ({ content, className = '' }: MarkdownViewerProps) => {
     ),
   }), []);
 
+  // Mobile layout: dropdown TOC
+  if (isMobile) {
+    return (
+      <div className={`relative h-full flex flex-col ${className}`}>
+        {/* Mobile TOC Toggle Button */}
+        {toc.length > 0 && (
+          <div className="flex-shrink-0 mb-4">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setTocOpen(!tocOpen)}
+              className="gap-2"
+            >
+              <List className="h-4 w-4" />
+              Índice
+              {tocOpen ? <ChevronDown className="h-3 w-3" /> : <ChevronRight className="h-3 w-3" />}
+            </Button>
+            
+            {/* Mobile TOC Dropdown */}
+            {tocOpen && (
+              <div className="mt-2 w-full bg-background border border-border rounded-lg shadow-lg z-20">
+                <ScrollArea className="max-h-60">
+                  <div className="p-2">
+                    <p className="text-xs font-semibold text-muted-foreground uppercase px-2 py-1">
+                      Tabla de contenidos
+                    </p>
+                    <nav className="mt-1">
+                      {toc.map((item, index) => (
+                        <button
+                          key={index}
+                          onClick={() => scrollToHeading(item.id)}
+                          className={`block w-full text-left px-2 py-1.5 text-sm hover:bg-muted rounded transition-colors truncate ${
+                            activeHeading === item.id ? 'bg-muted text-primary font-medium' : ''
+                          }`}
+                          style={{ paddingLeft: `${(item.level - 1) * 12 + 8}px` }}
+                        >
+                          {item.text}
+                        </button>
+                      ))}
+                    </nav>
+                  </div>
+                </ScrollArea>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Markdown Content */}
+        <div className="flex-1 overflow-auto" ref={contentRef}>
+          <div className="prose prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-base prose-li:text-base prose-table:text-sm max-w-none">
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw, rehypeHighlight]}
+              components={components}
+            >
+              {content}
+            </ReactMarkdown>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Desktop layout: two-column with sticky TOC sidebar
   return (
-    <div className={`relative ${className}`}>
-      {/* Table of Contents Toggle Button */}
-      {toc.length > 0 && (
-        <div className="absolute top-0 right-0 z-10">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => setTocOpen(!tocOpen)}
-            className="gap-2"
+    <div className={`h-full flex gap-6 ${className}`}>
+      {/* Markdown Content - scrollable main area */}
+      <div className="flex-1 overflow-auto pr-4" ref={contentRef}>
+        <div className="prose prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-base prose-li:text-base prose-table:text-sm max-w-none">
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw, rehypeHighlight]}
+            components={components}
           >
-            <List className="h-4 w-4" />
-            Índice
-            {tocOpen ? <ChevronDown className="h-3 w-3" /> : <ChevronRight className="h-3 w-3" />}
-          </Button>
-          
-          {/* TOC Dropdown */}
-          {tocOpen && (
-            <div className="absolute top-full right-0 mt-2 w-72 bg-background border border-border rounded-lg shadow-lg z-20">
-              <ScrollArea className="max-h-80">
-                <div className="p-2">
-                  <p className="text-xs font-semibold text-muted-foreground uppercase px-2 py-1">
-                    Tabla de contenidos
-                  </p>
-                  <nav className="mt-1">
-                    {toc.map((item, index) => (
-                      <button
-                        key={index}
-                        onClick={() => scrollToHeading(item.id)}
-                        className="block w-full text-left px-2 py-1.5 text-sm hover:bg-muted rounded transition-colors truncate"
-                        style={{ paddingLeft: `${(item.level - 1) * 12 + 8}px` }}
-                      >
-                        {item.text}
-                      </button>
-                    ))}
-                  </nav>
-                </div>
+            {content}
+          </ReactMarkdown>
+        </div>
+      </div>
+
+      {/* Sticky TOC Sidebar */}
+      {toc.length > 0 && (
+        <aside className="w-64 flex-shrink-0 hidden lg:block">
+          <div className="sticky top-0 max-h-[calc(100vh-8rem)] overflow-hidden">
+            <div className="bg-background border border-border rounded-lg shadow-sm">
+              <div className="p-3 border-b border-border">
+                <p className="text-xs font-semibold text-muted-foreground uppercase flex items-center gap-2">
+                  <List className="h-3 w-3" />
+                  Tabla de contenidos
+                </p>
+              </div>
+              <ScrollArea className="max-h-[calc(100vh-12rem)]">
+                <nav className="p-2">
+                  {toc.map((item, index) => (
+                    <button
+                      key={index}
+                      onClick={() => scrollToHeading(item.id)}
+                      className={`block w-full text-left px-2 py-1.5 text-sm hover:bg-muted rounded transition-colors truncate ${
+                        activeHeading === item.id ? 'bg-muted text-primary font-medium' : 'text-muted-foreground'
+                      }`}
+                      style={{ paddingLeft: `${(item.level - 1) * 12 + 8}px` }}
+                      title={item.text}
+                    >
+                      {item.text}
+                    </button>
+                  ))}
+                </nav>
               </ScrollArea>
             </div>
-          )}
-        </div>
+          </div>
+        </aside>
       )}
-
-      {/* Markdown Content */}
-      <div className="prose prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-base prose-li:text-base prose-table:text-sm max-w-none">
-        <ReactMarkdown
-          remarkPlugins={[remarkGfm]}
-          rehypePlugins={[rehypeRaw, rehypeHighlight]}
-          components={components}
-        >
-          {content}
-        </ReactMarkdown>
-      </div>
     </div>
   );
 };
