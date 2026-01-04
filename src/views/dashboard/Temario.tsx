@@ -276,8 +276,8 @@ const Temario = () => {
   // Vista del visor
   if (viewer.type) {
     return (
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
+      <div className="h-[calc(100vh-8rem)] flex flex-col">
+        <div className="flex items-center justify-between flex-shrink-0 mb-4">
           <Button variant="ghost" size="sm" onClick={closeViewer}>
             <ArrowLeft className="h-4 w-4 mr-2" />
             Volver a recursos
@@ -295,28 +295,26 @@ const Temario = () => {
           </div>
         </div>
 
-        {/* Visor de Markdown */}
+        {/* Visor de Markdown - full height */}
         {viewer.type === 'md' && (
-          <Card className="border-border">
-            <CardContent className="p-6 overflow-auto max-h-[calc(100vh-200px)]">
-              {loadingContent ? (
-                <div className="flex items-center justify-center py-12">
-                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
-                </div>
-              ) : (
-                <MarkdownViewer content={mdContent} />
-              )}
-            </CardContent>
-          </Card>
+          <div className="flex-1 min-h-0 overflow-hidden">
+            {loadingContent ? (
+              <div className="flex items-center justify-center py-12">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+              </div>
+            ) : (
+              <MarkdownViewer content={mdContent} className="h-full" />
+            )}
+          </div>
         )}
 
         {/* Visor de PDF */}
         {viewer.type === 'pdf' && (
-          <Card className="border-border overflow-hidden">
-            <CardContent className="p-0">
+          <Card className="flex-1 min-h-0 border-border overflow-hidden">
+            <CardContent className="p-0 h-full">
               <iframe
                 src={viewer.url}
-                className="w-full h-[calc(100vh-200px)] border-0"
+                className="w-full h-full border-0"
                 title={viewer.nombre}
               />
             </CardContent>
