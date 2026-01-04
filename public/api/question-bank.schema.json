@@ -65,7 +65,11 @@
     "question": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "topicId", "question", "options", "correctAnswer"],
+      "required": ["id", "topicId", "question", "options"],
+      "anyOf": [
+        { "required": ["correctAnswer"] },
+        { "required": ["correctIndex"] }
+      ],
       "properties": {
         "id": { "type": "string" },
         "topicId": { "type": "string" },

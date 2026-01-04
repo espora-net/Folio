@@ -5,7 +5,7 @@
  * Valida que todos los archivos db-*.json (excepto db.json) cumplan con
  * el schema consolidado question-bank.schema.json.
  * 
- * Uso: node scripts/validate-schemas.js
+ * Uso: node scripts/validate-schemas.cjs
  */
 
 const Ajv = require('ajv').default;
