@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ChevronRight, ChevronDown, FileText, FileAudio, Database, BookOpen, Filter, ArrowLeft, X, ExternalLink, Play, Pause, Volume2 } from 'lucide-react';
+import { ChevronRight, ChevronDown, FileText, FileAudio, Database, BookOpen, Filter, ArrowLeft, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -21,14 +21,21 @@ import {
   type ConvocatoriaData, 
   type TemaConvocatoria,
   type TemaRecurso,
-  type StudyTypeRegistryEntry
+  type StudyTypeRegistryEntry,
+  type TranscriptData
 } from '@/lib/data-types';
+import AudioPlayerWithTranscript from '@/components/dashboard/AudioPlayerWithTranscript';
 
 type ViewerState = {
   type: 'md' | 'pdf' | 'mp3' | null;
   url: string;
   nombre: string;
   content?: string;
+};
+
+type TranscriptState = {
+  data: TranscriptData | null;
+  markdown: string | null;
 };
 
 const Temario = () => {
@@ -42,6 +49,7 @@ const Temario = () => {
   const [viewer, setViewer] = useState<ViewerState>({ type: null, url: '', nombre: '' });
   const [mdContent, setMdContent] = useState<string>('');
   const [loadingContent, setLoadingContent] = useState(false);
+  const [transcript, setTranscript] = useState<TranscriptState>({ data: null, markdown: null });
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const DUPLICATE_SLASHES = /\/{2,}/g;
@@ -147,14 +155,56 @@ const Temario = () => {
         setMdContent('Error al cargar el contenido');
       }
       setLoadingContent(false);
+    } else if (recurso.tipo === 'mp3') {
+      // Para mp3, intentar cargar transcripciones si existen
+      setViewer({ type: 'mp3', url, nombre: recurso.nombre });
+      setLoadingContent(true);
+      
+      // Derivar las URLs de transcripción del archivo de audio
+      // Ejemplo: data/general/01_constitucion_espanola_1978.mp3 -> .transcript.json y .transcript.md
+      const transcriptBaseUrl = url.replace(/\.mp3$/, '.transcript');
+      const jsonUrl = `${transcriptBaseUrl}.json`;
+      const mdUrl = `${transcriptBaseUrl}.md`;
+      
+      try {
+        const cacheBuster = Math.floor(Date.now() / 60000);
+        
+        // Cargar ambos archivos en paralelo
+        const [jsonResponse, mdResponse] = await Promise.allSettled([
+          fetch(`${jsonUrl}?_v=${cacheBuster}`, { cache: 'no-store' }),
+          fetch(`${mdUrl}?_v=${cacheBuster}`, { cache: 'no-store' })
+        ]);
+        
+        let transcriptData: TranscriptData | null = null;
+        let transcriptMarkdown: string | null = null;
+        
+        if (jsonResponse.status === 'fulfilled' && jsonResponse.value.ok) {
+          try {
+            transcriptData = await jsonResponse.value.json();
+          } catch {
+            // Ignorar error de parsing
+          }
+        }
+        
+        if (mdResponse.status === 'fulfilled' && mdResponse.value.ok) {
+          transcriptMarkdown = await mdResponse.value.text();
+        }
+        
+        setTranscript({ data: transcriptData, markdown: transcriptMarkdown });
+      } catch {
+        setTranscript({ data: null, markdown: null });
+      }
+      
+      setLoadingContent(false);
     } else {
-      setViewer({ type: recurso.tipo as 'pdf' | 'mp3', url, nombre: recurso.nombre });
+      setViewer({ type: recurso.tipo as 'pdf', url, nombre: recurso.nombre });
     }
   };
 
   const closeViewer = () => {
     setViewer({ type: null, url: '', nombre: '' });
     setMdContent('');
+    setTranscript({ data: null, markdown: null });
   };
 
   // Agrupar temas por bloque
@@ -274,28 +324,24 @@ const Temario = () => {
           </Card>
         )}
 
-        {/* Reproductor de Audio */}
+        {/* Reproductor de Audio con Transcripción */}
         {viewer.type === 'mp3' && (
-          <Card className="border-border">
-            <CardContent className="p-6">
-              <div className="flex flex-col items-center gap-6">
-                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Volume2 className="h-12 w-12 text-primary" />
+          loadingContent ? (
+            <Card className="border-border">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-center py-12">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
                 </div>
-                <h3 className="text-lg font-semibold text-center">{viewer.nombre}</h3>
-                <audio
-                  controls
-                  className="w-full max-w-md"
-                  src={viewer.url}
-                >
-                  Tu navegador no soporta el elemento de audio.
-                </audio>
-                <p className="text-sm text-muted-foreground text-center">
-                  Escucha el contenido del tema mientras realizas otras actividades
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          ) : (
+            <AudioPlayerWithTranscript
+              audioUrl={viewer.url}
+              audioName={viewer.nombre}
+              transcriptData={transcript.data}
+              transcriptMarkdown={transcript.markdown}
+            />
+          )
         )}
       </div>
     );

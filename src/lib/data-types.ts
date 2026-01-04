@@ -237,3 +237,16 @@ export interface UserPreferences {
   // Filtros persistidos para Tests y Flashcards
   filters?: StudyFilters;
 }
+
+// Tipos para transcripciones de audio
+export interface TranscriptSegment {
+  start: number; // segundos
+  end: number;   // segundos
+  text: string;
+}
+
+export interface TranscriptData {
+  language: string;
+  duration: number; // segundos
+  segments: TranscriptSegment[];
+}
