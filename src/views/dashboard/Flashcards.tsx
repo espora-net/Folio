@@ -14,6 +14,7 @@ import {
 } from '@/components/ui/tooltip';
 import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
 import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
+import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
 import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
@@ -162,15 +163,6 @@ const Flashcards = () => {
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 
-  const shuffleDeck = <T,>(items: T[]): T[] => {
-    const deck = [...items];
-    for (let i = deck.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [deck[i], deck[j]] = [deck[j], deck[i]];
-    }
-    return deck;
-  };
-
   const activeDeck = studying ? studyDeck : filteredFlashcards;
 
   const handleReview = (markForReview: boolean) => {
@@ -229,13 +221,14 @@ const Flashcards = () => {
       return;
     }
 
-    // Aplicar límite de preguntas
+    // Aplicar límite de preguntas con selección proporcional
     const limit = questionLimit > 0 && questionLimit < filteredFlashcards.length 
       ? questionLimit 
       : filteredFlashcards.length;
     
-    const shuffled = shuffleDeck(filteredFlashcards).slice(0, limit);
-    setStudyDeck(shuffled);
+    // Seleccionar tarjetas de forma proporcional a los temas disponibles
+    const selected = selectProportionalQuestions(filteredFlashcards, limit);
+    setStudyDeck(selected);
     setStudying(true);
     setShowFinalResults(false);
     setCurrentIndex(0);
@@ -243,7 +236,7 @@ const Flashcards = () => {
     setPendingNextIndex(null);
     setCardTextVisible(true);
     setCorrectCount(0);
-    setTotalReviewed(shuffled.length);
+    setTotalReviewed(selected.length);
     setMarkedForReview([]);
   };
 
