@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "version": "2026.01",
+    "updatedAt": "2026-01-08T00:00:00.000Z"
+  },
+  "descripcion": "Materiales del temario oficial para Escala Auxiliar Administrativa URJC - Convocatoria 2026",
+  "convocatoria": {
+    "id": "urjc-2026-c2",
+    "institucion": "Universidad Rey Juan Carlos",
+    "cuerpo": "Escala Auxiliar Administrativa, grupo C, subgrupo C2",
+    "año": 2026,
+    "fuente_oficial": "Convocatoria de la Universidad Rey Juan Carlos",
+    "enlace_publicacion": "https://www.urjc.es/empleo-publico#personal-tecnico-de-gestion-y-de-administracion-y-servicios-ptgas",
+    "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
+  },
+  "total_temas": 30,
+  "temas": [
+    {
+      "id": "urjc-tema-001",
+      "numero": 1,
+      "titulo": "La Constitución española de 1978",
+      "bloque": "Bloque I: Constitución y Legislación Universitaria (Temas 1-6)",
+      "descripcion": "La Constitución española de 1978. Estructura y contenido. Título preliminar y Título I. Derechos fundamentales y libertades públicas. Su garantía y suspensión.",
+      "contenido_especifico": "Texto constitucional completo con énfasis en estructura, Título Preliminar y Título I sobre derechos fundamentales y libertades públicas",
+      "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/01_constitucion_espanola_1978.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/01_constitucion_espanola_1978.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-constitucion.json"
+        }
+      ]
+    },
+    {
+      "id": "urjc-tema-002",
+      "numero": 2,
+      "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
+      "bloque": "Bloque I: Constitución y Legislación Universitaria (Temas 1-6)",
+      "descripcion": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Especial referencia al personal de administración y servicios.",
+      "contenido_especifico": "Nueva ley universitaria que sustituye a la anterior LOU, con énfasis especial en el Personal de Administración y Servicios",
+      "temas_relacionados": ["Sistema Universitario", "PAS", "Legislación Universitaria"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#titulo-i", "#titulo-ix", "#capitulo-i", "#capitulo-ii", "#capitulo-v"],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
+        }
+      ]
+    },
+    {
+      "id": "urjc-tema-003",
+      "numero": 3,
+      "titulo": "Estatuto Básico del Empleado Público",
+      "bloque": "Bloque I: Constitución y Legislación Universitaria (Temas 1-6)",
+      "descripcion": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Derechos y deberes.",
+      "contenido_especifico": "Texto Refundido de la Ley del EBEP, con especial atención a derechos y deberes del empleado público",
+      "temas_relacionados": ["Función Pública", "EBEP", "Derechos y Deberes del Empleado Público"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-i-objeto-y-ambito-de-aplicacion",
+        "#capitulo-i-clases-de-personal",
+        "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos",
+        "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio",
+        "#capitulo-iii-provision-de-puestos-de-trabajo",
+        "#titulo-vii-regimen-disciplinario"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
+        }
+      ]
+    },
+    {
+      "id": "urjc-tema-004",
+      "numero": 4,
+      "titulo": "Los Estatutos de la Universidad Rey Juan Carlos",
+      "bloque": "Bloque I: Constitución y Legislación Universitaria (Temas 1-6)",
+      "descripcion": "Los Estatutos de la Universidad Rey Juan Carlos. Especial referencia al personal de administración y servicios.",
+      "contenido_especifico": "Estatutos propios de la URJC con especial atención a la regulación del PAS",
+      "temas_relacionados": ["Estatutos URJC", "PAS", "Normativa Universitaria"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#estatutos-urjc-completo"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-005",
+      "numero": 5,
+      "titulo": "Políticas de igualdad de género",
+      "bloque": "Bloque I: Constitución y Legislación Universitaria (Temas 1-6)",
+      "descripcion": "Políticas de igualdad de género: II Plan de Igualdad en la Universidad Rey Juan Carlos.",
+      "contenido_especifico": "Marco de igualdad de género aplicado en la URJC",
+      "temas_relacionados": ["Igualdad de Género", "Plan de Igualdad URJC"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#plan-igualdad-urjc"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-006",
+      "numero": 6,
+      "titulo": "Normativa sobre administración electrónica",
+      "bloque": "Bloque I: Constitución y Legislación Universitaria (Temas 1-6)",
+      "descripcion": "Normativa sobre administración electrónica y sede electrónica en la Universidad Rey Juan Carlos.",
+      "contenido_especifico": "Regulación de la administración electrónica y sede electrónica específica de la URJC",
+      "temas_relacionados": ["Administración Electrónica", "Sede Electrónica", "URJC"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#administracion-electronica-urjc"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-007",
+      "numero": 7,
+      "titulo": "Las fuentes del derecho administrativo",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "Las fuentes del derecho administrativo. La jerarquía de fuentes. La ley. Las disposiciones del Ejecutivo con fuerza de ley: decreto-ley y decreto-legislativo.",
+      "contenido_especifico": "Sistema de fuentes del derecho administrativo español",
+      "temas_relacionados": ["Derecho Administrativo", "Fuentes del Derecho", "Jerarquía Normativa"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#fuentes-derecho-administrativo"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-008",
+      "numero": 8,
+      "titulo": "El Reglamento",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "El Reglamento: Concepto, naturaleza y clases. Límites de la potestad reglamentaria: Formales y sustanciales. La inderogabilidad singular de los Reglamentos.",
+      "contenido_especifico": "Estudio del reglamento como fuente del derecho administrativo",
+      "temas_relacionados": ["Derecho Administrativo", "Reglamento", "Potestad Reglamentaria"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#reglamento"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-009",
+      "numero": 9,
+      "titulo": "Ley 39/2015 - Procedimiento Administrativo Común",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "La Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común de las Administraciones Públicas. Especial referencia al acto administrativo: Concepto, clases y elementos. Notificación, eficacia y validez de los actos administrativos.",
+      "contenido_especifico": "Ley de Procedimiento Administrativo con énfasis en el acto administrativo",
+      "temas_relacionados": ["Procedimiento Administrativo", "Acto Administrativo", "Ley 39/2015"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#ley-39-2015-acto-administrativo"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-010",
+      "numero": 10,
+      "titulo": "El procedimiento administrativo",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "El procedimiento administrativo: Iniciación. Ordenación. Instrucción. Finalización.",
+      "contenido_especifico": "Fases del procedimiento administrativo común",
+      "temas_relacionados": ["Procedimiento Administrativo", "Tramitación"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#procedimiento-administrativo-fases"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-011",
+      "numero": 11,
+      "titulo": "El acto administrativo: Efectos",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "El acto administrativo: Efectos: Eficacia demorada y eficacia retroactiva. Procedimientos de ejecución. Nulidad de pleno derecho. Anulabilidad. Conversión de actos viciados. Conservación de actos y trámites. Convalidación. Revisión de actos nulos. Revisión de actos anulables. Revocación de actos. Rectificación de errores.",
+      "contenido_especifico": "Estudio de los efectos del acto administrativo y su revisión",
+      "temas_relacionados": ["Acto Administrativo", "Nulidad", "Revisión de Actos"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#acto-administrativo-efectos"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-012",
+      "numero": 12,
+      "titulo": "Los interesados en el procedimiento administrativo",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "Los interesados, sus derechos y las garantías en el procedimiento administrativo. Los derechos de las personas en sus relaciones con las Administraciones públicas. Términos y plazos: Cómputo, ampliación y tramitación de urgencia.",
+      "contenido_especifico": "Derechos de los interesados y régimen de plazos",
+      "temas_relacionados": ["Procedimiento Administrativo", "Derechos de los Interesados", "Plazos"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#interesados-procedimiento"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-013",
+      "numero": 13,
+      "titulo": "Los recursos administrativos",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "Los recursos administrativos: Concepto y clases. Recursos de alzada, reposición y extraordinario de revisión. Revisión de oficio.",
+      "contenido_especifico": "Sistema de recursos en vía administrativa",
+      "temas_relacionados": ["Recursos Administrativos", "Alzada", "Reposición"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#recursos-administrativos"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-014",
+      "numero": 14,
+      "titulo": "Ley 40/2015 de Régimen Jurídico del Sector Público",
+      "bloque": "Bloque II: Derecho Administrativo (Temas 7-14)",
+      "descripcion": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: ámbito de aplicación, principios de actuación, funcionamiento del sector público. Relaciones interadministrativas. Potestad reglamentaria.",
+      "contenido_especifico": "Régimen jurídico del sector público español",
+      "temas_relacionados": ["Régimen Jurídico", "Sector Público", "Ley 40/2015"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#ley-40-2015"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-015",
+      "numero": 15,
+      "titulo": "El personal funcionario",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "El personal funcionario al servicio de las Administraciones Públicas. Selección. Provisión de puestos de trabajo. Promoción profesional de los funcionarios. Adquisición y pérdida de la condición de funcionario. Situaciones administrativas de los funcionarios: Requisitos y efectos de cada una de ellas.",
+      "contenido_especifico": "Régimen jurídico del personal funcionario",
+      "temas_relacionados": ["Personal Funcionario", "Función Pública", "Situaciones Administrativas"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#personal-funcionario"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-016",
+      "numero": 16,
+      "titulo": "El personal laboral",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "El personal laboral al servicio de las Administraciones Públicas. Selección. Derechos, deberes e incompatibilidades. El contrato laboral: Contenido. Suspensión y extinción. Contratación laboral temporal. Los convenios colectivos aplicables al personal laboral de la Universidad Rey Juan Carlos.",
+      "contenido_especifico": "Régimen jurídico del personal laboral en administraciones públicas y en la URJC",
+      "temas_relacionados": ["Personal Laboral", "Contrato Laboral", "Convenios Colectivos"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#personal-laboral"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-017",
+      "numero": 17,
+      "titulo": "El Profesorado Universitario",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "El Profesorado Universitario: Clases y régimen jurídico. Acreditación y evaluación de la actividad docente e investigadora.",
+      "contenido_especifico": "Régimen del profesorado universitario",
+      "temas_relacionados": ["Profesorado Universitario", "Acreditación", "Evaluación Docente"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#profesorado-universitario"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-018",
+      "numero": 18,
+      "titulo": "Retribuciones del personal PTGAS",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "Sistema de retribuciones del personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad Rey Juan Carlos: conceptos retributivos y determinación de su cuantía.",
+      "contenido_especifico": "Sistema retributivo del PTGAS en la URJC",
+      "temas_relacionados": ["Retribuciones", "PTGAS", "URJC"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#retribuciones-ptgas"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-019",
+      "numero": 19,
+      "titulo": "Retribuciones del profesorado",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "El régimen retributivo del profesorado universitario de la Universidad Rey Juan Carlos: conceptos retributivos y determinación de su cuantía.",
+      "contenido_especifico": "Sistema retributivo del profesorado universitario en la URJC",
+      "temas_relacionados": ["Retribuciones", "Profesorado Universitario", "URJC"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#retribuciones-profesorado"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-020",
+      "numero": 20,
+      "titulo": "Régimen disciplinario del PAS",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "El régimen disciplinario del personal funcionario de administración y servicios de la Universidad Rey Juan Carlos.",
+      "contenido_especifico": "Sistema disciplinario aplicable al PAS funcionario de la URJC",
+      "temas_relacionados": ["Régimen Disciplinario", "PAS", "URJC"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#regimen-disciplinario-pas"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-021",
+      "numero": 21,
+      "titulo": "Incompatibilidades del personal público",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "Incompatibilidades del personal al servicio de las Administraciones Públicas. La Ley 53/1984, de 26 de noviembre.",
+      "contenido_especifico": "Régimen de incompatibilidades del personal público",
+      "temas_relacionados": ["Incompatibilidades", "Ley 53/1984", "Personal Público"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#ley-53-1984-incompatibilidades"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-022",
+      "numero": 22,
+      "titulo": "La sindicación de los funcionarios públicos",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "La sindicación de los funcionarios públicos. Las peculiaridades del ejercicio de la libertad sindical. Órganos de representación de los funcionarios públicos. Negociación colectiva y participación en la determinación de las condiciones de trabajo. Derechos de sindicación.",
+      "contenido_especifico": "Libertad sindical y representación de funcionarios públicos",
+      "temas_relacionados": ["Sindicación", "Libertad Sindical", "Negociación Colectiva"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#sindicacion-funcionarios"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-023",
+      "numero": 23,
+      "titulo": "Carrera profesional",
+      "bloque": "Bloque III: Personal y Régimen Laboral (Temas 15-23)",
+      "descripcion": "Carrera profesional: Grado personal. Intervalo de niveles y garantía del puesto de trabajo. La promoción interna.",
+      "contenido_especifico": "Sistema de carrera profesional en la función pública",
+      "temas_relacionados": ["Carrera Profesional", "Grado Personal", "Promoción Interna"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#carrera-profesional"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-024",
+      "numero": 24,
+      "titulo": "Organización académica universitaria",
+      "bloque": "Bloque IV: Organización y Funcionamiento Universitario (Temas 24-29)",
+      "descripcion": "La organización académica en la Ley Orgánica del Sistema Universitario y en los Estatutos de la Universidad Rey Juan Carlos: Departamentos, Facultades, Escuelas Técnicas Superiores, Escuelas Universitarias, Institutos Universitarios, Centros adscritos.",
+      "contenido_especifico": "Estructura organizativa de las universidades",
+      "temas_relacionados": ["Organización Universitaria", "LOSU", "Estatutos URJC"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#organizacion-academica"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-025",
+      "numero": 25,
+      "titulo": "Estructura de las enseñanzas universitarias",
+      "bloque": "Bloque IV: Organización y Funcionamiento Universitario (Temas 24-29)",
+      "descripcion": "Estructura de las enseñanzas universitarias. Regulación de los estudios universitarios de grado y de los estudios universitarios de posgrado. Títulos propios. Referencia a la Universidad Rey Juan Carlos.",
+      "contenido_especifico": "Sistema de enseñanzas universitarias y títulos",
+      "temas_relacionados": ["Enseñanzas Universitarias", "Grado", "Posgrado", "Títulos Propios"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#estructura-ensenanzas"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-026",
+      "numero": 26,
+      "titulo": "Régimen del alumnado",
+      "bloque": "Bloque IV: Organización y Funcionamiento Universitario (Temas 24-29)",
+      "descripcion": "Régimen del alumnado. Matriculación. Acceso y permanencia. Convalidaciones y reconocimiento de créditos.",
+      "contenido_especifico": "Normativa de acceso, permanencia y reconocimiento para estudiantes universitarios",
+      "temas_relacionados": ["Alumnado", "Matriculación", "Acceso Universidad"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#regimen-alumnado"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-027",
+      "numero": 27,
+      "titulo": "Los estudiantes universitarios",
+      "bloque": "Bloque IV: Organización y Funcionamiento Universitario (Temas 24-29)",
+      "descripcion": "Los estudiantes universitarios: derechos y deberes. Becas y ayudas al estudio. Seguro escolar. Participación en los órganos de gobierno y representación universitarios.",
+      "contenido_especifico": "Derechos, deberes y participación de los estudiantes universitarios",
+      "temas_relacionados": ["Estudiantes", "Derechos y Deberes", "Becas", "Representación Estudiantil"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#estudiantes-universitarios"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-028",
+      "numero": 28,
+      "titulo": "Organización de la investigación",
+      "bloque": "Bloque IV: Organización y Funcionamiento Universitario (Temas 24-29)",
+      "descripcion": "Organización de la investigación en la Universidad Rey Juan Carlos. Los contratos celebrados al amparo del artículo 60 de la Ley Orgánica del Sistema Universitario. Criterios de evaluación y fomento de la investigación en la Universidad Rey Juan Carlos.",
+      "contenido_especifico": "Sistema de investigación en la URJC",
+      "temas_relacionados": ["Investigación", "Contratos Art. 60", "URJC"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#organizacion-investigacion"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-029",
+      "numero": 29,
+      "titulo": "Gestión de la investigación",
+      "bloque": "Bloque IV: Organización y Funcionamiento Universitario (Temas 24-29)",
+      "descripcion": "Gestión de la investigación. Contratos, convenios y proyectos. Tratamiento de los ingresos. Peculiaridades de la tramitación de gastos. El personal de Investigación.",
+      "contenido_especifico": "Aspectos administrativos y de gestión de la investigación universitaria",
+      "temas_relacionados": ["Gestión de Investigación", "Contratos", "Proyectos", "Personal Investigador"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#gestion-investigacion"],
+      "recursos": []
+    },
+    {
+      "id": "urjc-tema-030",
+      "numero": 30,
+      "titulo": "Prevención de Riesgos Laborales",
+      "bloque": "Bloque V: Prevención de Riesgos Laborales (Tema 30)",
+      "descripcion": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. Derechos y obligaciones.",
+      "contenido_especifico": "Marco legal de prevención de riesgos laborales",
+      "temas_relacionados": ["Prevención de Riesgos Laborales", "Ley 31/1995", "Seguridad y Salud"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#ley-31-1995-prl"],
+      "recursos": []
+    }
+  ],
+  "guias_apoyo": []
+}

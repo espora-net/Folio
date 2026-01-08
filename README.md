@@ -118,6 +118,18 @@ Si solo quieres un demo sin login, define `NEXT_PUBLIC_SKIP_AUTH=true` durante e
 - `src/lib/storage.ts`: persistencia + hidratación desde la API
 - `public/api/`: datasets JSON servidos como “API estática”
 
+- `docs/DATA_SCHEMAS.md`: documentación de schemas JSON y validación
+
+## Validación de datos
+
+Para validar que los archivos JSON cumplen con los schemas definidos:
+
+```bash
+npm run validate-schemas
+```
+
+Este comando valida `db.json` y todos los archivos `db-*.json` contra sus respectivos schemas. Ver `docs/DATA_SCHEMAS.md` para más detalles sobre la estructura de datos y el significado de cada campo.
+
 ## Notas de diseño
 
 - `public/api/` es la única fuente de verdad de datos (runtime y fallback bundled).
