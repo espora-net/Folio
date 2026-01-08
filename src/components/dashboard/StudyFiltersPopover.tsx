@@ -190,7 +190,7 @@ export default function StudyFiltersPopover({
                         className="w-2 h-2 rounded-full flex-shrink-0" 
                         style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
                       />
-                      <span className="truncate flex-1 text-left min-w-0">
+                      <span className="flex-1 truncate text-left min-w-0">
                         {activeConvocatoria.shortTitle}
                       </span>
                       <Badge variant="secondary" className="text-[10px] flex-shrink-0">
@@ -286,7 +286,7 @@ export default function StudyFiltersPopover({
                                 className="w-2 h-2 rounded-full flex-shrink-0"
                                 style={{ backgroundColor: group.parent.color || '#6b7280' }}
                               />
-                              <span className="text-xs truncate flex-1 min-w-0">{group.parent.title}</span>
+                              <span className="text-xs flex-1 truncate min-w-0">{group.parent.title}</span>
                               {inConvocatoria && (
                                 <Badge 
                                   variant="outline" 
