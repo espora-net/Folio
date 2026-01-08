@@ -3,6 +3,7 @@
 import baseIndex from '../../public/api/db.json';
 import convocatoriaUah2025C1 from '../../public/api/convocatoria-uah-2025-c1.json';
 import convocatoriaUrjc2026C2 from '../../public/api/convocatoria-urjc-2026-c2.json';
+import convocatoriaUah2025C2 from '../../public/api/convocatoria-uah-2025-c2.json';
 import datasetLosu from '../../public/api/db-ley-organica-2-2023-sistema-universitario.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData, type StudyTypeRegistryEntry } from './data-types';
 
@@ -387,6 +388,7 @@ type RawConvocatoria = Record<string, unknown>;
 const FALLBACK_CONVOCATORIAS: Record<string, RawConvocatoria> = {
   'convocatoria-uah-2025-c1.json': convocatoriaUah2025C1 as unknown as RawConvocatoria,
   'convocatoria-urjc-2026-c2.json': convocatoriaUrjc2026C2 as unknown as RawConvocatoria,
+  'convocatoria-uah-2025-c2.json': convocatoriaUah2025C2 as unknown as RawConvocatoria,
 };
 
 const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();

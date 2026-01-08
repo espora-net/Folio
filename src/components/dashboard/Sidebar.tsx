@@ -393,7 +393,7 @@ const Sidebar = () => {
                 <span className="sr-only">Abrir menú</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="p-0 w-72 bg-card">
+            <SheetContent side="left" className="p-0 w-72 bg-card [&>button]:hidden">
               <div className="flex flex-col h-full">
                 {sidebarContent(true)}
               </div>
