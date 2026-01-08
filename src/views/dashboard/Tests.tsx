@@ -23,7 +23,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
-import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
+import { getActiveConvocatoria, getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
@@ -84,7 +84,8 @@ const Tests = () => {
   const [originFilter, setOriginFilter] = useState<string>('all');
   const [filterMode, setFilterMode] = useState<FilterMode>('none');
   const [questionLimit, setQuestionLimit] = useState<number>(0); // 0 = all
-  const [activeConvocatoria, setActiveConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
+  const [allConvocatorias, setAllConvocatorias] = useState<ConvocatoriaDescriptor[]>([]);
+  const [selectedConvocatoria, setSelectedConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [testQuestions, setTestQuestions] = useState<TestQuestion[]>([]);
   const [testing, setTesting] = useState(false);
   const [showFinalResults, setShowFinalResults] = useState(false);
@@ -106,9 +107,9 @@ const Tests = () => {
     const loadData = () => {
       setQuestions(getQuestions());
       setTopics(getTopics());
-      // Cargar convocatoria activa
-      const convocatoria = getActiveConvocatoria();
-      setActiveConvocatoria(convocatoria ?? null);
+      // Cargar todas las convocatorias disponibles
+      const convocatorias = getConvocatoriaDescriptors();
+      setAllConvocatorias(convocatorias);
       
       // Cargar filtros guardados (solo la primera vez)
       if (!filtersLoaded) {
@@ -117,6 +118,11 @@ const Tests = () => {
         setSelectedTopics(savedFilters.selectedTopicIds);
         setOriginFilter(savedFilters.originFilter);
         setQuestionLimit(savedFilters.questionLimit ?? 0);
+        // Restaurar la convocatoria seleccionada si había una guardada
+        if (savedFilters.selectedConvocatoriaId) {
+          const savedConvocatoria = convocatorias.find(c => c.id === savedFilters.selectedConvocatoriaId);
+          setSelectedConvocatoria(savedConvocatoria ?? null);
+        }
         setFiltersLoaded(true);
       }
     };
@@ -137,14 +143,15 @@ const Tests = () => {
       selectedTopicIds: selectedTopics,
       originFilter,
       questionLimit,
+      selectedConvocatoriaId: selectedConvocatoria?.id,
     });
-  }, [filterMode, selectedTopics, originFilter, questionLimit, filtersLoaded]);
+  }, [filterMode, selectedTopics, originFilter, questionLimit, selectedConvocatoria, filtersLoaded]);
 
-  // Calcular los topic IDs que entran en la convocatoria activa
+  // Calcular los topic IDs que entran en la convocatoria seleccionada
   const convocatoriaTopicIds = useMemo(() => {
-    if (!activeConvocatoria || filterMode !== 'convocatoria') return null;
-    return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
-  }, [topics, activeConvocatoria, filterMode]);
+    if (!selectedConvocatoria || filterMode !== 'convocatoria') return null;
+    return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
+  }, [topics, selectedConvocatoria, filterMode]);
 
   // Set para lookup rápido de temas en convocatoria (ya no se usa directamente)
   // const convocatoriaTopicSet = useMemo(() => {
@@ -347,7 +354,8 @@ const Tests = () => {
           <StudyFiltersPopover
             topics={topics}
             items={questions}
-            activeConvocatoria={activeConvocatoria}
+            allConvocatorias={allConvocatorias}
+            selectedConvocatoria={selectedConvocatoria}
             filterMode={filterMode}
             selectedTopicIds={selectedTopics}
             originFilter={originFilter}
@@ -356,6 +364,7 @@ const Tests = () => {
             onSelectedTopicsChange={setSelectedTopics}
             onOriginFilterChange={setOriginFilter}
             onExpandedGroupsChange={setExpandedGroups}
+            onConvocatoriaChange={setSelectedConvocatoria}
             filteredCount={filteredQuestions.length}
           />
           <QuestionCountSelector

@@ -22,7 +22,10 @@ interface TopicGroup {
 interface StudyFiltersPopoverProps {
   topics: Topic[];
   items: Flashcard[] | TestQuestion[];
-  activeConvocatoria: ConvocatoriaDescriptor | null;
+  /** Lista de todas las convocatorias disponibles */
+  allConvocatorias: ConvocatoriaDescriptor[];
+  /** Convocatoria actualmente seleccionada para filtrar */
+  selectedConvocatoria: ConvocatoriaDescriptor | null;
   // Filter state
   filterMode: FilterMode;
   selectedTopicIds: string[];
@@ -33,6 +36,8 @@ interface StudyFiltersPopoverProps {
   onSelectedTopicsChange: (topicIds: string[]) => void;
   onOriginFilterChange: (origin: string) => void;
   onExpandedGroupsChange: (groups: string[]) => void;
+  /** Callback para cambiar la convocatoria seleccionada */
+  onConvocatoriaChange: (convocatoria: ConvocatoriaDescriptor | null) => void;
   // Derived count
   filteredCount: number;
 }
@@ -66,7 +71,8 @@ const getOriginTag = (origin?: string) => {
 export default function StudyFiltersPopover({
   topics,
   items,
-  activeConvocatoria,
+  allConvocatorias,
+  selectedConvocatoria,
   filterMode,
   selectedTopicIds,
   originFilter,
@@ -75,13 +81,14 @@ export default function StudyFiltersPopover({
   onSelectedTopicsChange,
   onOriginFilterChange,
   onExpandedGroupsChange,
+  onConvocatoriaChange,
   filteredCount,
 }: StudyFiltersPopoverProps) {
-  // Calcular topic IDs de la convocatoria activa
+  // Calcular topic IDs de la convocatoria seleccionada
   const convocatoriaTopicIds = useMemo(() => {
-    if (!activeConvocatoria) return [];
-    return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
-  }, [topics, activeConvocatoria]);
+    if (!selectedConvocatoria) return [];
+    return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
+  }, [topics, selectedConvocatoria]);
 
   // Agrupar topics por padre
   const topicGroups = useMemo((): TopicGroup[] => {
@@ -131,9 +138,17 @@ export default function StudyFiltersPopover({
     }
   };
 
-  const selectConvocatoriaTopics = () => {
+  const selectConvocatoriaTopics = (convocatoria: ConvocatoriaDescriptor) => {
+    onConvocatoriaChange(convocatoria);
     onFilterModeChange('convocatoria');
-    onSelectedTopicsChange(convocatoriaTopicIds);
+    const topicIds = getTopicIdsInConvocatoria(topics, convocatoria.id);
+    onSelectedTopicsChange(topicIds);
+  };
+
+  const clearConvocatoriaFilter = () => {
+    onConvocatoriaChange(null);
+    onFilterModeChange('none');
+    onSelectedTopicsChange([]);
   };
 
   const selectAllTopics = () => {
@@ -171,41 +186,61 @@ export default function StudyFiltersPopover({
 
         <ScrollArea className="max-h-[min(70vh,600px)]">
           <div className="p-4 space-y-4">
-            {/* Filtro por convocatoria */}
-            {activeConvocatoria && (
+            {/* Filtro por convocatoria - mostrar todas las disponibles */}
+            {allConvocatorias.length > 0 && (
               <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <Building2 className="h-4 w-4 text-muted-foreground" />
-                  <span className="text-sm font-medium">Convocatoria</span>
-                </div>
-                <Tooltip>
-                  <TooltipTrigger asChild>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <Building2 className="h-4 w-4 text-muted-foreground" />
+                    <span className="text-sm font-medium">Convocatoria</span>
+                  </div>
+                  {selectedConvocatoria && (
                     <Button
-                      variant={filterMode === 'convocatoria' ? 'default' : 'outline'}
+                      variant="ghost"
                       size="sm"
-                      className="w-full justify-start gap-2 overflow-hidden"
-                      onClick={selectConvocatoriaTopics}
+                      className="h-6 text-xs px-2"
+                      onClick={clearConvocatoriaFilter}
                     >
-                      <span 
-                        className="w-2 h-2 rounded-full flex-shrink-0" 
-                        style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
-                      />
-                      <span className="flex-1 truncate text-left min-w-0">
-                        {activeConvocatoria.shortTitle}
-                      </span>
-                      <Badge variant="secondary" className="text-[10px] flex-shrink-0">
-                        {convocatoriaTopicIds.length} temas
-                      </Badge>
+                      Limpiar
                     </Button>
-                  </TooltipTrigger>
-                  <TooltipContent side="top">
-                    <p>{activeConvocatoria.shortTitle}</p>
-                  </TooltipContent>
-                </Tooltip>
+                  )}
+                </div>
+                <div className="space-y-1">
+                  {allConvocatorias.map((convocatoria) => {
+                    const isSelected = selectedConvocatoria?.id === convocatoria.id && filterMode === 'convocatoria';
+                    const topicCount = getTopicIdsInConvocatoria(topics, convocatoria.id).length;
+                    return (
+                      <Tooltip key={convocatoria.id}>
+                        <TooltipTrigger asChild>
+                          <Button
+                            variant={isSelected ? 'default' : 'outline'}
+                            size="sm"
+                            className="w-full justify-start gap-2 overflow-hidden"
+                            onClick={() => selectConvocatoriaTopics(convocatoria)}
+                          >
+                            <span 
+                              className="w-2 h-2 rounded-full flex-shrink-0" 
+                              style={{ backgroundColor: convocatoria.color || '#6b7280' }}
+                            />
+                            <span className="flex-1 truncate text-left min-w-0">
+                              {convocatoria.shortTitle}
+                            </span>
+                            <Badge variant="secondary" className="text-[10px] flex-shrink-0">
+                              {topicCount} temas
+                            </Badge>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent side="top">
+                          <p>{convocatoria.title}</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    );
+                  })}
+                </div>
               </div>
             )}
 
-            {activeConvocatoria && <Separator />}
+            {allConvocatorias.length > 0 && <Separator />}
 
             {/* Filtro por tema */}
             <div className="space-y-2">
@@ -427,6 +462,7 @@ export default function StudyFiltersPopover({
                   onFilterModeChange('none');
                   onSelectedTopicsChange([]);
                   onOriginFilterChange('all');
+                  onConvocatoriaChange(null);
                 }}
               >
                 Resetear filtros
