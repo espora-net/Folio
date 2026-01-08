@@ -393,9 +393,20 @@ const Tests = () => {
 
       {testing && currentQuestion ? (
         <div className="max-w-2xl mx-auto">
-          <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
-              <span>Pregunta {currentIndex + 1} de {testQuestions.length}</span>
+          <div className="mb-4 text-sm text-muted-foreground space-y-2">
+            {/* Primera línea: Estado del test */}
+            <div className="flex items-center justify-between gap-2 flex-wrap">
+              <div className="flex items-center gap-1.5 sm:gap-3">
+                <span className="whitespace-nowrap">Pregunta {currentIndex + 1} de {testQuestions.length}</span>
+                <span className="whitespace-nowrap">Aciertos: {score}</span>
+              </div>
+              <Button variant="ghost" size="sm" onClick={() => setTesting(false)} className="shrink-0">
+                Terminar test
+              </Button>
+            </div>
+            
+            {/* Segunda línea: Atributos de la pregunta */}
+            <div className="flex items-center gap-2 flex-wrap">
               {currentQuestion.topicId && getTopicById(currentQuestion.topicId) && (
                 <Badge
                   style={{ backgroundColor: getTopicById(currentQuestion.topicId)?.color || '#6b7280' }}
@@ -423,12 +434,6 @@ const Tests = () => {
                   {getOriginTag(currentQuestion.origin).tooltip}
                 </TooltipContent>
               </Tooltip>
-            </div>
-            <div className="flex items-center gap-4">
-              <span>Aciertos: {score}</span>
-              <Button variant="ghost" size="sm" onClick={() => setTesting(false)}>
-                Terminar test
-              </Button>
             </div>
           </div>
           <Card className="border-border">

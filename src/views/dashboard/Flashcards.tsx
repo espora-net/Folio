@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { RotateCcw, Check, Bookmark, Trophy, X, LayoutGrid, List, Sparkles, ExternalLink, FileCheck } from 'lucide-react';
+import { RotateCcw, Check, Bookmark, Trophy, LayoutGrid, List, Sparkles, ExternalLink, FileCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -62,13 +62,6 @@ const getOriginTag = (origin?: string) => {
     className: 'border-sky-300 text-sky-700 dark:border-sky-700 dark:text-sky-400',
     tooltip: `Origen: ${o}`,
   };
-};
-
-const getOriginLabel = (origin?: string) => {
-  const normalized = (origin || 'generated').trim();
-  if (normalized === 'generated') return 'Generadas';
-  if (normalized === 'ia') return 'IA';
-  return normalized;
 };
 
 const Flashcards = () => {
@@ -392,40 +385,60 @@ const Flashcards = () => {
 
       {studying && currentCard ? (
         <div className="max-w-2xl mx-auto">
-          {/* Botón terminar sesión arriba */}
-          <div className="flex justify-end mb-4">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => {
-                setStudying(false);
-                setStudyDeck([]);
-              }}
-            >
-              <X className="h-4 w-4 mr-2" />
-              Terminar sesión
-            </Button>
-          </div>
-          
-          <div className="mb-4 text-center text-sm text-muted-foreground">
-            Tarjeta {currentIndex + 1} de {activeDeck.length}
-            {markedForReview.length > 0 && (
-              <span className="ml-2 text-orange-500">
-                ({markedForReview.length} marcadas)
-              </span>
-            )}
-            {currentCard.topicId && getTopicById(currentCard.topicId) && (
-              <Badge
-                className="ml-2"
-                style={{ backgroundColor: getTopicById(currentCard.topicId)?.color || '#6b7280' }}
+          <div className="mb-4 text-sm text-muted-foreground space-y-2">
+            {/* Primera línea: Estado de la sesión */}
+            <div className="flex items-center justify-between gap-2 flex-wrap">
+              <div className="flex items-center gap-1.5 sm:gap-3">
+                <span className="whitespace-nowrap">Tarjeta {currentIndex + 1} de {activeDeck.length}</span>
+                {markedForReview.length > 0 && (
+                  <span className="text-orange-500 whitespace-nowrap">
+                    ({markedForReview.length} {markedForReview.length === 1 ? 'marcada' : 'marcadas'})
+                  </span>
+                )}
+              </div>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => {
+                  setStudying(false);
+                  setStudyDeck([]);
+                }}
+                className="shrink-0"
               >
-                {getTopicById(currentCard.topicId)?.tag || getTopicById(currentCard.topicId)?.title}
-              </Badge>
-            )}
+                Terminar sesión
+              </Button>
+            </div>
+            
+            {/* Segunda línea: Atributos de la tarjeta */}
+            <div className="flex items-center gap-2 flex-wrap">
+              {currentCard.topicId && getTopicById(currentCard.topicId) && (
+                <Badge
+                  style={{ backgroundColor: getTopicById(currentCard.topicId)?.color || '#6b7280' }}
+                >
+                  {getTopicById(currentCard.topicId)?.tag || getTopicById(currentCard.topicId)?.title}
+                </Badge>
+              )}
 
-            <Badge variant="secondary" className="ml-2">
-              {getOriginLabel(currentCard.origin)}
-            </Badge>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  {(() => {
+                    const tag = getOriginTag(currentCard.origin);
+                    const Icon = tag.icon;
+                    return (
+                      <Badge
+                        variant="outline"
+                        className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                      >
+                        <Icon className="h-3 w-3" /> {tag.label}
+                      </Badge>
+                    );
+                  })()}
+                </TooltipTrigger>
+                <TooltipContent side="top">
+                  {getOriginTag(currentCard.origin).tooltip}
+                </TooltipContent>
+              </Tooltip>
+            </div>
           </div>
           
           {/* Contenedor con perspectiva 3D */}
