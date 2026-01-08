@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DatabaseIndex",
+  "description": "Schema para el archivo db.json - Índice principal de datos de Folio con tipos de estudio, convocatorias y datasets temáticos.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["meta", "studyTypes", "convocatorias", "datasets"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title", "description", "version", "updatedAt"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Título del índice de datos."
+        },
+        "description": {
+          "type": "string",
+          "description": "Descripción del contenido del índice."
+        },
+        "version": {
+          "type": "string",
+          "description": "Versión del índice de datos."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Fecha de última actualización en formato ISO 8601."
+        }
+      }
+    },
+    "studyTypes": {
+      "type": "array",
+      "description": "Tipos de estudio disponibles en la aplicación.",
+      "items": {
+        "$ref": "#/definitions/studyType"
+      }
+    },
+    "convocatorias": {
+      "type": "array",
+      "description": "Convocatorias de oposiciones disponibles.",
+      "items": {
+        "$ref": "#/definitions/convocatoria"
+      }
+    },
+    "datasets": {
+      "type": "array",
+      "description": "Datasets temáticos de preguntas y flashcards.",
+      "items": {
+        "$ref": "#/definitions/dataset"
+      }
+    }
+  },
+  "definitions": {
+    "studyType": {
+      "type": "object",
+      "description": "Define un tipo de estudio (oposiciones, carnet de conducir, etc.).",
+      "additionalProperties": false,
+      "required": ["id", "label", "temarioTemplate", "questionDatasetIds"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Identificador único del tipo de estudio."
+        },
+        "label": {
+          "type": "string",
+          "description": "Etiqueta visible para el usuario."
+        },
+        "temarioTemplate": {
+          "type": "string",
+          "description": "Plantilla de temario a usar (ej: 'oposiciones', 'placeholder')."
+        },
+        "convocatoriaId": {
+          "type": "string",
+          "description": "ID de la convocatoria asociada (opcional para tipos sin convocatoria específica)."
+        },
+        "questionDatasetIds": {
+          "type": "array",
+          "description": "IDs de los datasets de preguntas asociados a este tipo de estudio.",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "convocatoria": {
+      "type": "object",
+      "description": "Define una convocatoria de oposiciones.",
+      "additionalProperties": false,
+      "required": ["id", "title", "shortTitle", "institucion", "cuerpo", "año", "file", "color", "studyType", "questionDatasetIds"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Identificador único de la convocatoria."
+        },
+        "title": {
+          "type": "string",
+          "description": "Título completo de la convocatoria."
+        },
+        "shortTitle": {
+          "type": "string",
+          "description": "Título corto de la convocatoria para mostrar en la UI."
+        },
+        "institucion": {
+          "type": "string",
+          "description": "Nombre de la institución convocante."
+        },
+        "cuerpo": {
+          "type": "string",
+          "description": "Cuerpo, escala o puesto al que se opone."
+        },
+        "año": {
+          "type": "integer",
+          "description": "Año de la convocatoria."
+        },
+        "file": {
+          "type": "string",
+          "description": "Nombre del archivo JSON con el detalle de la convocatoria."
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Color en formato hexadecimal (#RRGGBB) para identificar visualmente la convocatoria."
+        },
+        "activa": {
+          "type": "boolean",
+          "default": true,
+          "description": "Indica si la convocatoria está activa. Por defecto es true si no se especifica."
+        },
+        "studyType": {
+          "type": "string",
+          "description": "Tipo de estudio asociado (debe coincidir con un studyType.id)."
+        },
+        "questionDatasetIds": {
+          "type": "array",
+          "description": "IDs de los datasets de preguntas vinculados a esta convocatoria.",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dataset": {
+      "type": "object",
+      "description": "Define un dataset temático de preguntas y flashcards.",
+      "additionalProperties": false,
+      "required": ["id", "title", "description", "file", "tag"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Identificador único del dataset."
+        },
+        "title": {
+          "type": "string",
+          "description": "Título del dataset."
+        },
+        "description": {
+          "type": "string",
+          "description": "Descripción del contenido del dataset."
+        },
+        "file": {
+          "type": "string",
+          "description": "Nombre del archivo JSON del dataset (debe ser db-*.json)."
+        },
+        "tag": {
+          "type": "string",
+          "description": "Etiqueta corta para identificar el dataset en la UI."
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Color en formato hexadecimal (#RRGGBB) para identificar visualmente el dataset."
+        }
+      }
+    }
+  }
+}
