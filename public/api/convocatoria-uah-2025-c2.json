@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "version": "2026.01",
+    "updatedAt": "2026-01-08T19:00:00.000Z"
+  },
+  "descripcion": "Materiales del temario oficial para Técnico Auxiliar Administrativa UAH - Convocatoria 2025",
+  "convocatoria": {
+    "id": "uah-2025-c2",
+    "institucion": "Universidad de Alcalá de Henares",
+    "cuerpo": "Técnico Auxiliar Administrativa (C2)",
+    "año": 2025,
+    "fuente_oficial": "CONVOCATORIA PRUEBAS SELECTIVAS PARA EL INGRESO EN LA ESCALA AUXILIAR ADMINISTRATIVA, GRUPO C, SUBGRUPO C2 DE LA UNIVERSIDAD DE ALCALÁ",
+    "enlace_publicacion": "https://uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-AUXILIAR-ADMINISTRATIVA-GRUPO-C-SUBGRUPO-C2-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+    "proposito": "Detalle de los apartados mínimos exigidos en la convocatoria. El temario completo permanece disponible en docs/comun, pero aquí se restringe la cobertura obligatoria para cada tema."
+  },
+  "total_temas": 18,
+  "temas": [
+    {
+      "id": "uah-tema-001",
+      "numero": 1,
+      "titulo": "Constitución Española de 1978",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "La Constitución Española de 1978: Título Preliminar. Título I (De los derechos y deberes fundamentales).",
+      "contenido_especifico": "Título Preliminar y Título I sobre derechos y deberes fundamentales.",
+      "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/01_constitucion_espanola_1978.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/01_constitucion_espanola_1978.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-constitucion.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-002",
+      "numero": 2,
+      "titulo": "Ley 39/2015 del Procedimiento Administrativo Común",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Título Preliminar, Título I, II, III, IV y V.",
+      "contenido_especifico": "Disposiciones generales, interesados en el procedimiento, actividad de las Administraciones, actos administrativos, procedimiento administrativo común y revisión de actos.",
+      "temas_relacionados": ["Procedimiento Administrativo", "Administración Pública"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-preliminar",
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-iii",
+        "#titulo-iv",
+        "#titulo-v"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-003",
+      "numero": 3,
+      "titulo": "Ley 40/2015 de Régimen del Sector Público",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "La Ley 40/2015, de 1 de octubre, de Régimen del Sector Público: Título Preliminar Capítulo I, II y V.",
+      "contenido_especifico": "Disposiciones generales, órganos de las Administraciones Públicas, funcionamiento electrónico del sector público, abstención y recusación.",
+      "temas_relacionados": ["Régimen Jurídico", "Sector Público"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-preliminar-capitulo-i",
+        "#titulo-preliminar-capitulo-ii-seccion-1",
+        "#titulo-preliminar-capitulo-ii-seccion-3-subseccion-1",
+        "#titulo-preliminar-capitulo-ii-seccion-3-subseccion-2",
+        "#titulo-preliminar-capitulo-ii-seccion-4",
+        "#titulo-preliminar-capitulo-v"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-004",
+      "numero": 4,
+      "titulo": "Ley Orgánica 3/2018 de Protección de Datos Personales",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Título I, II y III.",
+      "contenido_especifico": "Disposiciones generales, principios de protección de datos y derechos de las personas.",
+      "temas_relacionados": ["LOPD-GDD", "Protección de Datos", "RGPD"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-iii"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.pdf"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-005",
+      "numero": 5,
+      "titulo": "Ley 19/2013 de Transparencia",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "La Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno: Título preliminar, Título I y III.",
+      "contenido_especifico": "Transparencia de la actividad pública y Consejo de Transparencia y Buen Gobierno.",
+      "temas_relacionados": ["Transparencia", "Acceso a la Información"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-preliminar",
+        "#titulo-i",
+        "#titulo-iii"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-006",
+      "numero": 6,
+      "titulo": "Ley Orgánica 3/2007 para la Igualdad Efectiva",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título Preliminar, Título I, II y V.",
+      "contenido_especifico": "Objeto y ámbito, el principio de igualdad y la tutela contra la discriminación, políticas públicas para la igualdad y principio de igualdad en el empleo público.",
+      "temas_relacionados": ["Igualdad de Género", "Políticas Públicas"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-preliminar",
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-v"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.pdf"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-007",
+      "numero": 7,
+      "titulo": "Real Decreto Legislativo 5/2015 - Estatuto Básico del Empleado Público",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "Real Decreto Legislativo 5/2015, de 30 de octubre, Estatuto Básico del Empleado Público: Título I, Capítulo I del Título II, Título III y VII.",
+      "contenido_especifico": "Objeto y ámbito de aplicación, clases de personal, derechos y deberes, código de conducta y régimen disciplinario.",
+      "temas_relacionados": ["EBEP", "Función Pública", "Empleados Públicos"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-i-objeto-y-ambito-de-aplicacion",
+        "#capitulo-i-clases-de-personal",
+        "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos",
+        "#titulo-vii-regimen-disciplinario"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-008",
+      "numero": 8,
+      "titulo": "Ley 53/1984 de Incompatibilidades del personal",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas: Capítulo I, II, III y IV.",
+      "contenido_especifico": "Principios generales, ámbito de aplicación, actividades públicas y actividades privadas.",
+      "temas_relacionados": ["Incompatibilidades", "Función Pública"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#capitulo-i",
+        "#capitulo-ii",
+        "#capitulo-iii",
+        "#capitulo-iv"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-009",
+      "numero": 9,
+      "titulo": "Ley 31/1995 de Prevención de Riesgos Laborales",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: Capítulo I, III, IV y V.",
+      "contenido_especifico": "Objeto, ámbito y definiciones, derechos y obligaciones, servicios de prevención, consulta y participación de los trabajadores.",
+      "temas_relacionados": ["Prevención de Riesgos Laborales", "Seguridad Laboral"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#capitulo-i",
+        "#capitulo-iii",
+        "#capitulo-iv",
+        "#capitulo-v"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Política de Prevención",
+          "archivo": "data/general/07_Politica-de-prevencion-con-fecha-aprobacion.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Política de Prevención (PDF)",
+          "archivo": "data/general/07_Politica-de-prevencion-con-fecha-aprobacion.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Plan de Prevención",
+          "archivo": "data/general/07_Plan-de-Prevencion_UAH.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Plan de Prevención (PDF)",
+          "archivo": "data/general/07_Plan-de-Prevencion_UAH.pdf"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-010",
+      "numero": 10,
+      "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
+      "bloque": "Legislación General (Temas 1-10)",
+      "descripcion": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Título I, II, III y IX.",
+      "contenido_especifico": "Funciones del sistema universitario y autonomía de las universidades, creación y reconocimiento de universidades, organización de enseñanzas y régimen específico de las universidades públicas.",
+      "temas_relacionados": ["Sistema Universitario", "LOSU", "Universidades Públicas"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-i",
+        "#titulo-ii",
+        "#titulo-iii",
+        "#titulo-ix"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-011",
+      "numero": 11,
+      "titulo": "Normativa de Gestión Económica y Presupuestaria UAH",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Normativa de Gestión Económica y Presupuestaria (Aprobada por Consejo de Gobierno de 26 de noviembre de 2009. Ratificada por Consejo Social de 18 de diciembre de 2009): Capítulo IV.",
+      "contenido_especifico": "El presupuesto: concepto, contenido y estructura.",
+      "temas_relacionados": ["Gestión Económica", "Presupuestos", "UAH"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#capitulo-iv"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-012",
+      "numero": 12,
+      "titulo": "Ley 9/2017 de contratos del sector público",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Ley 9/2017, de 8 de noviembre, de contratos del sector público: Título I.",
+      "contenido_especifico": "Disposiciones generales sobre la contratación del sector público.",
+      "temas_relacionados": ["Contratos Públicos", "Sector Público"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-i"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-013",
+      "numero": 13,
+      "titulo": "Word 365",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Word 365: Creación y estructuración del documento. Gestión, grabación, recuperación, impresión y control de versiones. Tablas. Objetos. Columnas. Encabezado y pie de página. Viñetas, numeración y esquema. Formato de fuente, párrafo y página. Tabulaciones. Diseño de impresión.",
+      "contenido_especifico": "Procesador de textos Word 365: funciones básicas y avanzadas.",
+      "temas_relacionados": ["Ofimática", "Word", "Microsoft 365"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#word-365"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-014",
+      "numero": 14,
+      "titulo": "Excel 365",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Excel 365: Libros, hojas y celdas. Configuración. Introducción y edición de datos. Fórmulas, funciones y referencias. Gráficos. Gestión de datos. Formato de celdas. Formatos condicionales. Diseño de impresión.",
+      "contenido_especifico": "Hoja de cálculo Excel 365: funciones básicas y avanzadas.",
+      "temas_relacionados": ["Ofimática", "Excel", "Microsoft 365"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#excel-365"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-015",
+      "numero": 15,
+      "titulo": "Outlook 365",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Outlook 365: conceptos elementales y funcionamiento. El entorno de trabajo. Enviar, recibir, responder y reenviar mensajes. Creación de mensajes. Reglas de mensaje. Libreta de direcciones.",
+      "contenido_especifico": "Cliente de correo Outlook 365: funciones básicas.",
+      "temas_relacionados": ["Ofimática", "Outlook", "Microsoft 365"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#outlook-365"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-016",
+      "numero": 16,
+      "titulo": "Código Ético General de la Universidad de Alcalá",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Código ético general de la Universidad de Alcalá (aprobado en Consejo de Gobierno de 22 de junio de 2017).",
+      "contenido_especifico": "Valores institucionales, principios de buena conducta y compromisos de integridad.",
+      "temas_relacionados": ["Código Ético", "UAH", "Integridad"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#codigo-etico-general-uah"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/08_codigo-etico-general-UAH.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/08_codigo-etico-general-UAH.pdf"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-017",
+      "numero": 17,
+      "titulo": "Reglamento de Normas de Convivencia de la UAH",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Reglamento por el que se establecen las Normas de Convivencia de la Universidad de Alcalá (Aprobado en Consejo de Gobierno de 16 de febrero de 2023 y modificado en Consejo de Gobierno de 21 de marzo de 2024).",
+      "contenido_especifico": "Principios y garantías, procedimiento sancionador y Comisión de Convivencia.",
+      "temas_relacionados": ["Convivencia Universitaria", "UAH"],
+      "relevancia": "media",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#normas-de-convivencia-uah",
+        "#modificacion-2024"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
+        }
+      ]
+    },
+    {
+      "id": "uah-tema-018",
+      "numero": 18,
+      "titulo": "Real Decreto Legislativo 1/2013 - Ley de Derechos de las Personas con Discapacidad",
+      "bloque": "Normativa UAH (Temas 11-18)",
+      "descripcion": "Real Decreto Legislativo 1/2013, de 29 de noviembre, Texto Refundido de la Ley General de Derechos de las Personas con Discapacidad y su inclusión social: Título I Capítulo IV y VI.",
+      "contenido_especifico": "Derecho a la educación y derecho al trabajo.",
+      "temas_relacionados": ["Discapacidad", "Inclusión Social", "Accesibilidad"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#titulo-i-capitulo-iv",
+        "#titulo-i-capitulo-vi"
+      ],
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/05_ley_discapacidad.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/05_ley_discapacidad.pdf"
+        }
+      ]
+    }
+  ],
+  "guias_apoyo": [
+    {
+      "id": "guia-respuestas-001",
+      "titulo": "Guía rápida de respuestas Folio",
+      "descripcion": "Frases clave con la localización exacta de las respuestas usadas en ejercicios y preguntas.",
+      "archivo": "guia-respuestas.pdf",
+      "relevancia": "alta"
+    }
+  ]
+}

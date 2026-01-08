@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { RotateCcw, Check, Bookmark, Trophy, LayoutGrid, List, Sparkles, ExternalLink, FileCheck } from 'lucide-react';
+import { RotateCcw, Check, Bookmark, Trophy, X, LayoutGrid, List, Sparkles, ExternalLink, FileCheck, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -366,7 +366,7 @@ const Flashcards = () => {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button onClick={startStudying} size="icon" className="shrink-0">
-                  <RotateCcw className="h-4 w-4" />
+                  <Play className="h-4 w-4" />
                   <span className="sr-only">Estudiar ({effectiveCardCount})</span>
                 </Button>
               </TooltipTrigger>
@@ -376,7 +376,7 @@ const Flashcards = () => {
             </Tooltip>
           ) : (
             <Button onClick={startStudying}>
-              <RotateCcw className="h-4 w-4 mr-2" />
+              <Play className="h-4 w-4 mr-2" />
               Estudiar ({effectiveCardCount})
             </Button>
           )}
