@@ -57,6 +57,19 @@
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+    },
+    {
+      "id": "uah-2025-c2",
+      "title": "Técnico Auxiliar Administrativa UAH 2025",
+      "shortTitle": "UAH 2025 C2",
+      "institucion": "Universidad de Alcalá de Henares",
+      "cuerpo": "Técnico Auxiliar Administrativa (C2)",
+      "año": 2025,
+      "file": "convocatoria-uah-2025-c2.json",
+      "color": "#059669",
+      "activa": true,
+      "studyType": "oposiciones",
+      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
     }
   ],
   "datasets": [
