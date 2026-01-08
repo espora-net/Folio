@@ -178,21 +178,30 @@ export default function StudyFiltersPopover({
                   <Building2 className="h-4 w-4 text-muted-foreground" />
                   <span className="text-sm font-medium">Convocatoria</span>
                 </div>
-                <Button
-                  variant={filterMode === 'convocatoria' ? 'default' : 'outline'}
-                  size="sm"
-                  className="w-full justify-start gap-2"
-                  onClick={selectConvocatoriaTopics}
-                >
-                  <span 
-                    className="w-2 h-2 rounded-full flex-shrink-0" 
-                    style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
-                  />
-                  {activeConvocatoria.shortTitle}
-                  <Badge variant="secondary" className="ml-auto text-[10px]">
-                    {convocatoriaTopicIds.length} temas
-                  </Badge>
-                </Button>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
+                      variant={filterMode === 'convocatoria' ? 'default' : 'outline'}
+                      size="sm"
+                      className="w-full justify-start gap-2 overflow-hidden"
+                      onClick={selectConvocatoriaTopics}
+                    >
+                      <span 
+                        className="w-2 h-2 rounded-full flex-shrink-0" 
+                        style={{ backgroundColor: activeConvocatoria.color || '#6b7280' }}
+                      />
+                      <span className="truncate flex-1 text-left min-w-0">
+                        {activeConvocatoria.shortTitle}
+                      </span>
+                      <Badge variant="secondary" className="text-[10px] flex-shrink-0">
+                        {convocatoriaTopicIds.length} temas
+                      </Badge>
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent side="top">
+                    <p>{activeConvocatoria.shortTitle}</p>
+                  </TooltipContent>
+                </Tooltip>
               </div>
             )}
 
@@ -269,7 +278,7 @@ export default function StudyFiltersPopover({
                                 }
                                 toggleGroupSelection(group);
                               }}
-                              className={`flex-1 flex items-center gap-2 text-left min-w-0 ${
+                              className={`flex-1 flex items-center gap-2 text-left overflow-hidden ${
                                 allSelected ? 'text-primary font-medium' : 'text-foreground'
                               }`}
                             >
@@ -277,7 +286,7 @@ export default function StudyFiltersPopover({
                                 className="w-2 h-2 rounded-full flex-shrink-0"
                                 style={{ backgroundColor: group.parent.color || '#6b7280' }}
                               />
-                              <span className="text-xs truncate">{group.parent.title}</span>
+                              <span className="text-xs truncate flex-1 min-w-0">{group.parent.title}</span>
                               {inConvocatoria && (
                                 <Badge 
                                   variant="outline" 
@@ -286,7 +295,7 @@ export default function StudyFiltersPopover({
                                   ✓
                                 </Badge>
                               )}
-                              <Badge variant="secondary" className="ml-auto text-[9px] px-1 flex-shrink-0">
+                              <Badge variant="secondary" className="text-[9px] px-1 flex-shrink-0">
                                 {group.totalItems}
                               </Badge>
                             </button>
@@ -315,14 +324,14 @@ export default function StudyFiltersPopover({
                                       }
                                       toggleTopic(subtopic.id);
                                     }}
-                                    className={`w-full flex items-center gap-2 px-2 py-1.5 pl-8 text-left hover:bg-muted/50 transition-colors min-w-0 ${
+                                    className={`w-full flex items-center gap-2 px-2 py-1.5 pl-8 text-left hover:bg-muted/50 transition-colors overflow-hidden ${
                                       isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
                                     }`}
                                   >
                                     <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
                                       isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
                                     }`} />
-                                    <span className="text-[11px] flex-1 truncate">{subtopic.title}</span>
+                                    <span className="text-[11px] flex-1 truncate min-w-0">{subtopic.title}</span>
                                     {subtopicInConvocatoria && (
                                       <Badge 
                                         variant="outline" 
