@@ -10,7 +10,7 @@
       "id": "oposiciones",
       "label": "Oposiciones",
       "temarioTemplate": "oposiciones",
-      "convocatoriaId": "uah-2025-c1",
+      "convocatoriaId": "urjc-2026-c2",
       "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
     },
     {
@@ -54,6 +54,19 @@
       "año": 2025,
       "file": "convocatoria-uah-2025-c1.json",
       "color": "#7c3aed",
+      "activa": false,
+      "studyType": "oposiciones",
+      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+    },
+    {
+      "id": "urjc-2026-c2",
+      "title": "Escala Auxiliar Administrativa URJC 2026",
+      "shortTitle": "URJC 2026 C2",
+      "institucion": "Universidad Rey Juan Carlos",
+      "cuerpo": "Escala Auxiliar Administrativa, grupo C, subgrupo C2",
+      "año": 2026,
+      "file": "convocatoria-urjc-2026-c2.json",
+      "color": "#059669",
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
