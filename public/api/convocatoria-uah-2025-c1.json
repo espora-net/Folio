@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "2025.02",
-    "updatedAt": "2025-12-14T00:00:00.000Z"
+    "version": "2026.01",
+    "updatedAt": "2026-01-08T20:00:00.000Z"
   },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
@@ -296,6 +296,243 @@
           "archivo": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
         }
       ]
+    },
+    {
+      "id": "uah-tema-010",
+      "numero": 10,
+      "titulo": "El Servicio de Biblioteca de la Universidad de Alcalá",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "El Servicio de Biblioteca de la UAH: misión, visión, estructura, guía de cultura y valores. Reglamento de la Biblioteca de la Universidad de Alcalá (Aprobado en Consejo de Gobierno de 22 de diciembre de 2005).",
+      "contenido_especifico": "Organización del servicio, objetivos estratégicos y normativa reguladora de la Biblioteca UAH",
+      "temas_relacionados": ["Biblioteca UAH", "Reglamento Biblioteca", "Servicio de Biblioteca"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#mision-vision-estructura",
+        "#guia-cultura-y-valores",
+        "#reglamento-biblioteca-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-011",
+      "numero": 11,
+      "titulo": "Organización espacial y equipamiento de las bibliotecas universitarias",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Organización espacial y equipamiento de las bibliotecas universitarias: Instalaciones y equipamientos de la Biblioteca de la Universidad de Alcalá: salas de estudio y trabajo en grupo, colección de libre acceso y depósitos. Equipamiento informático y sistemas de autoservicio.",
+      "contenido_especifico": "Espacios físicos, equipamiento tecnológico, zonas de estudio y almacenamiento de fondos en bibliotecas universitarias",
+      "temas_relacionados": ["Instalaciones Bibliotecarias", "Equipamiento", "Espacios de Estudio"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#salas-de-estudio",
+        "#trabajo-en-grupo",
+        "#coleccion-libre-acceso",
+        "#depositos",
+        "#equipamiento-informatico",
+        "#sistemas-autoservicio"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-012",
+      "numero": 12,
+      "titulo": "La gestión de la colección en las bibliotecas universitarias",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "La gestión de la colección en las bibliotecas universitarias. Selección y adquisición, conservación, preservación, ordenación, difusión, evaluación y expurgo. Colecciones especiales y fondo antiguo en la Biblioteca de la Universidad de Alcalá.",
+      "contenido_especifico": "Ciclo completo de gestión de la colección, desde la selección hasta el expurgo, incluyendo colecciones especiales",
+      "temas_relacionados": ["Gestión de Colecciones", "Desarrollo de Colecciones", "Fondo Antiguo"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#seleccion-adquisicion",
+        "#conservacion-preservacion",
+        "#ordenacion-difusion",
+        "#evaluacion-expurgo",
+        "#colecciones-especiales",
+        "#fondo-antiguo-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-013",
+      "numero": 13,
+      "titulo": "Proceso técnico de fondos documentales",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Proceso técnico de fondos documentales. Formatos de intercambio bibliográfico MARC 21, FRBR y RDA.",
+      "contenido_especifico": "Catalogación y tratamiento técnico de documentos, estándares internacionales de descripción bibliográfica",
+      "temas_relacionados": ["Catalogación", "MARC 21", "FRBR", "RDA", "Proceso Técnico"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#proceso-tecnico",
+        "#marc-21",
+        "#frbr",
+        "#rda"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-014",
+      "numero": 14,
+      "titulo": "Estándares de normalización: Identificación de documentos",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Estándares de normalización: Identificación de documentos (ISBN, ISSN, DOI, D.L. NIPO).",
+      "contenido_especifico": "Sistemas de identificación única de publicaciones y documentos digitales",
+      "temas_relacionados": ["ISBN", "ISSN", "DOI", "Depósito Legal", "NIPO", "Normalización"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#isbn",
+        "#issn",
+        "#doi",
+        "#deposito-legal",
+        "#nipo"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-015",
+      "numero": 15,
+      "titulo": "Análisis documental y clasificaciones bibliográficas",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Análisis documental. Las principales clasificaciones bibliográficas. La clasificación bibliográfica en la Biblioteca de la Universidad de Alcalá.",
+      "contenido_especifico": "Técnicas de análisis documental, sistemas de clasificación (CDU, Dewey, etc.) y su aplicación en la UAH",
+      "temas_relacionados": ["Análisis Documental", "Clasificación Bibliográfica", "CDU", "Dewey"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#analisis-documental",
+        "#clasificaciones-bibliograficas",
+        "#clasificacion-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-016",
+      "numero": 16,
+      "titulo": "El movimiento de acceso abierto y los repositorios institucionales",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "El movimiento de acceso abierto y los repositorios institucionales. El Repositorio Institucional eBUAH. El Repositorio eCienciaDatos. Política institucional de Ciencia Abierta de la Universidad de Alcalá (Aprobada en Consejo de Gobierno de 20 de junio de 2024).",
+      "contenido_especifico": "Acceso abierto, repositorios institucionales de la UAH y políticas de ciencia abierta",
+      "temas_relacionados": ["Acceso Abierto", "Repositorios", "eBUAH", "eCienciaDatos", "Ciencia Abierta"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#acceso-abierto",
+        "#repositorio-ebuah",
+        "#repositorio-ecienciadatos",
+        "#politica-ciencia-abierta-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-017",
+      "numero": 17,
+      "titulo": "Los servicios al usuario en las bibliotecas universitarias",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Los servicios al usuario en las bibliotecas universitarias. La Carta de Servicios de la Biblioteca de la Universidad de Alcalá.",
+      "contenido_especifico": "Servicios bibliotecarios y compromisos de calidad establecidos en la Carta de Servicios",
+      "temas_relacionados": ["Servicios Bibliotecarios", "Carta de Servicios", "Atención al Usuario"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#servicios-al-usuario",
+        "#carta-servicios-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-018",
+      "numero": 18,
+      "titulo": "Gestión del préstamo en la Biblioteca de la Universidad de Alcalá",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Gestión del préstamo en la Biblioteca de la Universidad de Alcalá. Normativa de préstamo. Normas de uso de las salas de trabajo. Acceso al documento.",
+      "contenido_especifico": "Sistema de préstamo, normativa de uso y acceso a fondos documentales en la UAH",
+      "temas_relacionados": ["Préstamo Bibliotecario", "Normativa de Préstamo", "Acceso al Documento"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#gestion-prestamo",
+        "#normativa-prestamo",
+        "#normas-uso-salas",
+        "#acceso-documento"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-019",
+      "numero": 19,
+      "titulo": "Las Plataformas de Servicios Bibliotecarios (LSP)",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Las Plataformas de Servicios Bibliotecarios (LSP) y las herramientas de descubrimiento. La plataforma de Servicios Bibliotecarios y el Buscador de la Biblioteca de la Universidad de Alcalá.",
+      "contenido_especifico": "Sistemas integrados de gestión bibliotecaria y herramientas de búsqueda y descubrimiento utilizadas en la UAH",
+      "temas_relacionados": ["LSP", "Plataforma Bibliotecaria", "Herramientas de Descubrimiento", "Sistemas de Gestión"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#lsp",
+        "#herramientas-descubrimiento",
+        "#plataforma-uah",
+        "#buscador-biblioteca-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-020",
+      "numero": 20,
+      "titulo": "La cooperación bibliotecaria en las bibliotecas universitarias en España",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "La cooperación bibliotecaria en las bibliotecas universitarias en España. REBIUN: Reglamento y servicios. Consorcio de Universidades de la Comunidad de Madrid y de la UNED para la Cooperación Bibliotecaria (Madroño): Acuerdo del pasaporte Madroño y servicios del consorcio.",
+      "contenido_especifico": "Redes de cooperación bibliotecaria: REBIUN y Consorcio Madroño",
+      "temas_relacionados": ["REBIUN", "Madroño", "Cooperación Bibliotecaria", "Consorcios"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#rebiun",
+        "#reglamento-rebiun",
+        "#servicios-rebiun",
+        "#consorcio-madrono",
+        "#pasaporte-madrono",
+        "#servicios-madrono"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-021",
+      "numero": 21,
+      "titulo": "La calidad en las bibliotecas universitarias españolas según REBIUN",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripción": "La calidad en las bibliotecas universitarias españolas según REBIUN. El Modelo EFQM: su evaluación y certificación en la Biblioteca de la Universidad de Alcalá.",
+      "contenido_especifico": "Sistemas de gestión de calidad, modelo EFQM y certificaciones de calidad en bibliotecas universitarias",
+      "temas_relacionados": ["Calidad", "EFQM", "REBIUN", "Certificación", "Evaluación"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#calidad-bibliotecas-rebiun",
+        "#modelo-efqm",
+        "#evaluacion-efqm",
+        "#certificacion-uah"
+      ],
+      "recursos": []
+    },
+    {
+      "id": "uah-tema-022",
+      "numero": 22,
+      "titulo": "Propiedad Intelectual y Licencias Creative Commons",
+      "bloque": "Bibliotecas Universitarias (Temas 10-22)",
+      "descripcion": "Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia: Capítulo III del Título II del Libro Primero (Contenido). Las licencias Creative Commons: conceptos, funcionamiento y tipología.",
+      "contenido_especifico": "Legislación de propiedad intelectual y sistema de licencias Creative Commons",
+      "temas_relacionados": ["Propiedad Intelectual", "Creative Commons", "Derechos de Autor", "Licencias"],
+      "relevancia": "alta",
+      "fecha_actualizacion": "2026-01-08",
+      "cobertura_convocatoria": [
+        "#ley-propiedad-intelectual",
+        "#capitulo-iii-titulo-ii",
+        "#creative-commons",
+        "#tipologia-cc"
+      ],
+      "recursos": []
     }
   ],
   "guias_apoyo": [
