@@ -79,7 +79,7 @@
       "cuerpo": "Técnico Auxiliar Administrativa (C2)",
       "año": 2025,
       "file": "convocatoria-uah-2025-c2.json",
-      "color": "#059669",
+      "color": "#f97316",
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
