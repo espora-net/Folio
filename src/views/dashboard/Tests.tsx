@@ -24,6 +24,7 @@ import {
 } from '@/components/ui/tooltip';
 import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
 import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
+import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
 import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
@@ -183,28 +184,20 @@ const Tests = () => {
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 
-  const shuffleDeck = <T,>(items: T[]): T[] => {
-    const deck = [...items];
-    for (let i = deck.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [deck[i], deck[j]] = [deck[j], deck[i]];
-    }
-    return deck;
-  };
-
   const startTest = () => {
     if (filteredQuestions.length === 0) {
       toast({ title: 'Sin preguntas', description: 'No hay preguntas para los temas seleccionados.', variant: 'destructive' });
       return;
     }
 
-    // Aplicar límite de preguntas
+    // Aplicar límite de preguntas con selección proporcional
     const limit = questionLimit > 0 && questionLimit < filteredQuestions.length 
       ? questionLimit 
       : filteredQuestions.length;
 
-    const shuffled = shuffleDeck(filteredQuestions).slice(0, limit);
-    setTestQuestions(shuffled);
+    // Seleccionar preguntas de forma proporcional a los temas disponibles
+    const selected = selectProportionalQuestions(filteredQuestions, limit);
+    setTestQuestions(selected);
     setTesting(true);
     setShowFinalResults(false);
     setCurrentIndex(0);
@@ -212,7 +205,7 @@ const Tests = () => {
     setShowResult(false);
     setScore(0);
     setSkippedCount(0);
-    setTotalQuestions(shuffled.length);
+    setTotalQuestions(selected.length);
   };
 
   // Repetir el mismo test con las mismas preguntas
