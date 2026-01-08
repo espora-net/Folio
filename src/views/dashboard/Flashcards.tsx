@@ -387,7 +387,7 @@ const Flashcards = () => {
         <div className="max-w-2xl mx-auto">
           <div className="mb-4 text-sm text-muted-foreground space-y-2">
             {/* Primera línea: Estado de la sesión */}
-            <div className="flex items-center justify-between gap-2 flex-wrap">
+            <div className="flex items-center justify-between gap-1.5 sm:gap-2 flex-wrap">
               <div className="flex items-center gap-1.5 sm:gap-3">
                 <span className="whitespace-nowrap">Tarjeta {currentIndex + 1} de {activeDeck.length}</span>
                 {markedForReview.length > 0 && (

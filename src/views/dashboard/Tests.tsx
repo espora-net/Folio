@@ -395,7 +395,7 @@ const Tests = () => {
         <div className="max-w-2xl mx-auto">
           <div className="mb-4 text-sm text-muted-foreground space-y-2">
             {/* Primera línea: Estado del test */}
-            <div className="flex items-center justify-between gap-2 flex-wrap">
+            <div className="flex items-center justify-between gap-1.5 sm:gap-2 flex-wrap">
               <div className="flex items-center gap-1.5 sm:gap-3">
                 <span className="whitespace-nowrap">Pregunta {currentIndex + 1} de {testQuestions.length}</span>
                 <span className="whitespace-nowrap">Aciertos: {score}</span>
