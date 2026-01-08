@@ -161,7 +161,7 @@ export default function StudyFiltersPopover({
             )}
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[calc(100vw-2rem)] sm:w-96 max-w-96 p-0" align="end" collisionPadding={16}>
+        <PopoverContent className="w-[calc(100vw-2rem)] sm:w-[50vw] sm:max-w-[50vw] p-0" align="end" collisionPadding={16}>
           <div className="p-4 pb-2">
             <h4 className="font-medium text-sm">Filtrar contenido</h4>
             <p className="text-xs text-muted-foreground">Selecciona convocatoria, temas u origen</p>
@@ -169,7 +169,7 @@ export default function StudyFiltersPopover({
           
           <Separator />
 
-        <ScrollArea className="max-h-[min(60vh,500px)]">
+        <ScrollArea className="max-h-[min(70vh,600px)]">
           <div className="p-4 space-y-4">
             {/* Filtro por convocatoria */}
             {activeConvocatoria && (
@@ -286,7 +286,7 @@ export default function StudyFiltersPopover({
                                 className="w-2 h-2 rounded-full flex-shrink-0"
                                 style={{ backgroundColor: group.parent.color || '#6b7280' }}
                               />
-                              <span className="text-xs flex-1 truncate min-w-0">{group.parent.title}</span>
+                              <span className="text-xs flex-1 min-w-0 leading-tight">{group.parent.title}</span>
                               {inConvocatoria && (
                                 <Badge 
                                   variant="outline" 
@@ -331,7 +331,7 @@ export default function StudyFiltersPopover({
                                     <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
                                       isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
                                     }`} />
-                                    <span className="text-[11px] flex-1 truncate min-w-0">{subtopic.title}</span>
+                                    <span className="text-[11px] flex-1 min-w-0 leading-tight">{subtopic.title}</span>
                                     {subtopicInConvocatoria && (
                                       <Badge 
                                         variant="outline" 
