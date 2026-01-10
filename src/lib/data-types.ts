@@ -228,6 +228,8 @@ export interface StudyFilters {
   selectedTopicIds: string[];
   originFilter: string;
   questionLimit: number; // 0 = all
+  // ID de la convocatoria seleccionada para filtrar (puede diferir de la activa)
+  selectedConvocatoriaId?: string;
 }
 
 export interface UserPreferences {

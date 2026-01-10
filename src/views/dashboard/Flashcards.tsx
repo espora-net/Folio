@@ -13,7 +13,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
-import { getActiveConvocatoria, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
+import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
@@ -74,7 +74,8 @@ const Flashcards = () => {
   const [originFilter, setOriginFilter] = useState<string>('all');
   const [filterMode, setFilterMode] = useState<FilterMode>('none');
   const [questionLimit, setQuestionLimit] = useState<number>(0); // 0 = all
-  const [activeConvocatoria, setActiveConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
+  const [allConvocatorias, setAllConvocatorias] = useState<ConvocatoriaDescriptor[]>([]);
+  const [selectedConvocatoria, setSelectedConvocatoria] = useState<ConvocatoriaDescriptor | null>(null);
   const [studyDeck, setStudyDeck] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -94,9 +95,9 @@ const Flashcards = () => {
     const loadData = () => {
       setFlashcards(getFlashcards());
       setTopics(getTopics());
-      // Cargar convocatoria activa
-      const convocatoria = getActiveConvocatoria();
-      setActiveConvocatoria(convocatoria ?? null);
+      // Cargar todas las convocatorias disponibles
+      const convocatorias = getConvocatoriaDescriptors();
+      setAllConvocatorias(convocatorias);
       
       // Cargar filtros guardados (solo la primera vez)
       if (!filtersLoaded) {
@@ -105,6 +106,11 @@ const Flashcards = () => {
         setSelectedTopics(savedFilters.selectedTopicIds);
         setOriginFilter(savedFilters.originFilter);
         setQuestionLimit(savedFilters.questionLimit ?? 0);
+        // Restaurar la convocatoria seleccionada si había una guardada
+        if (savedFilters.selectedConvocatoriaId) {
+          const savedConvocatoria = convocatorias.find(c => c.id === savedFilters.selectedConvocatoriaId);
+          setSelectedConvocatoria(savedConvocatoria ?? null);
+        }
         setFiltersLoaded(true);
       }
     };
@@ -125,14 +131,15 @@ const Flashcards = () => {
       selectedTopicIds: selectedTopics,
       originFilter,
       questionLimit,
+      selectedConvocatoriaId: selectedConvocatoria?.id,
     });
-  }, [filterMode, selectedTopics, originFilter, questionLimit, filtersLoaded]);
+  }, [filterMode, selectedTopics, originFilter, questionLimit, selectedConvocatoria, filtersLoaded]);
 
-  // Calcular los topic IDs que entran en la convocatoria activa
+  // Calcular los topic IDs que entran en la convocatoria seleccionada
   const convocatoriaTopicIds = useMemo(() => {
-    if (!activeConvocatoria || filterMode !== 'convocatoria') return null;
-    return getTopicIdsInConvocatoria(topics, activeConvocatoria.id);
-  }, [topics, activeConvocatoria, filterMode]);
+    if (!selectedConvocatoria || filterMode !== 'convocatoria') return null;
+    return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
+  }, [topics, selectedConvocatoria, filterMode]);
 
   const filteredFlashcards = useMemo(() => {
     let result = flashcards;
@@ -339,7 +346,8 @@ const Flashcards = () => {
           <StudyFiltersPopover
             topics={topics}
             items={flashcards}
-            activeConvocatoria={activeConvocatoria}
+            allConvocatorias={allConvocatorias}
+            selectedConvocatoria={selectedConvocatoria}
             filterMode={filterMode}
             selectedTopicIds={selectedTopics}
             originFilter={originFilter}
@@ -348,6 +356,7 @@ const Flashcards = () => {
             onSelectedTopicsChange={setSelectedTopics}
             onOriginFilterChange={setOriginFilter}
             onExpandedGroupsChange={setExpandedGroups}
+            onConvocatoriaChange={setSelectedConvocatoria}
             filteredCount={filteredFlashcards.length}
           />
           <QuestionCountSelector

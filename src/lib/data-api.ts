@@ -406,7 +406,8 @@ const initConvocatorias = () => {
 initConvocatorias();
 
 export const getConvocatoriaDescriptors = (): ConvocatoriaDescriptor[] => {
-  return ((baseIndex as DatabaseIndex).convocatorias ?? []) as ConvocatoriaDescriptor[];
+  // Use cachedDatabase first (updated from API), with fallback to baseIndex
+  return ((cachedDatabase.convocatorias ?? (baseIndex as DatabaseIndex).convocatorias ?? []) as ConvocatoriaDescriptor[]);
 };
 
 export const getActiveConvocatoria = (): ConvocatoriaDescriptor | undefined => {
