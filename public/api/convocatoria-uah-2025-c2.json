@@ -314,7 +314,18 @@
       "cobertura_convocatoria": [
         "#capitulo-iv"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/15_Normativa_de_gestion_economica_y_presupuestaria_UAH.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-normativa-de-gestion-economica-y-presupuestaria-uah.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-012",
