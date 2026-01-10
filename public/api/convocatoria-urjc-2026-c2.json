@@ -505,7 +505,18 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#ley-31-1995-prl"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Ley 31/1995 (texto consolidado BOE)",
+          "archivo": "data/general/14_Ley_31_1995_de_8_de_noviembre_de_prevencion_de_riesgos_laborales.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-31-1995-prevencion-de-riesgos-laborales.json"
+        }
+      ]
     }
   ],
   "guias_apoyo": []

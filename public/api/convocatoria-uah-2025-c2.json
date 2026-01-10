@@ -275,6 +275,16 @@
           "tipo": "pdf",
           "nombre": "Plan de Prevención (PDF)",
           "archivo": "data/general/07_Plan-de-Prevencion_UAH.pdf"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "Ley 31/1995 (texto consolidado BOE)",
+          "archivo": "data/general/14_Ley_31_1995_de_8_de_noviembre_de_prevencion_de_riesgos_laborales.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-31-1995-prevencion-de-riesgos-laborales.json"
         }
       ]
     },
