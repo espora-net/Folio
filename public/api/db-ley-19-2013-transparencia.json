@@ -1,0 +1,16 @@
+{
+  "topics": [],
+  "questions": [],
+  "resources": [
+    {
+      "type": "md",
+      "name": "Texto completo en Markdown",
+      "file": "data/general/12_Ley_19_2013_de_9_de_diciembre_de_transparencia_acceso_a_la_informacion_publica_y_buen_gobierno.md"
+    },
+    {
+      "type": "pdf",
+      "name": "Documento PDF oficial",
+      "file": "data/general/12_Ley_19_2013_de_9_de_diciembre_de_transparencia_acceso_a_la_informacion_publica_y_buen_gobierno.pdf"
+    }
+  ]
+}

@@ -133,6 +133,14 @@
       "officialUrl": "https://www.boe.es/eli/es/lo/2023/03/22/2/con"
     },
     {
+      "id": "ley-19-2013-transparencia",
+      "title": "Ley 19/2013 de Transparencia",
+      "description": "Texto y recursos de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.",
+      "file": "db-ley-19-2013-transparencia.json",
+      "tag": "Transparencia",
+      "officialUrl": "https://www.boe.es/eli/es/l/2013/12/09/19"
+    },
+    {
       "id": "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
       "title": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)",
       "description": "Dataset placeholder para futuras preguntas sobre la LOPDGDD.",
