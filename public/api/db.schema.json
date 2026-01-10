@@ -175,6 +175,20 @@
           "type": "string",
           "format": "uri",
           "description": "Enlace oficial a la fuente normativa o documental del dataset."
+        },
+        "resources": {
+          "type": "array",
+          "description": "Recursos adicionales vinculados al dataset.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "title", "path"],
+            "properties": {
+              "type": { "type": "string" },
+              "title": { "type": "string" },
+              "path": { "type": "string" }
+            }
+          }
         }
       }
     }
