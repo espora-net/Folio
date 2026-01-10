@@ -185,7 +185,13 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#ley-39-2015-acto-administrativo"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/10_Ley_39_2015_de_1_de_octubre_del_procedimiento_administrativo_comun_de_las_administraciones_publicas.pdf"
+        }
+      ]
     },
     {
       "id": "urjc-tema-010",
@@ -198,7 +204,13 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#procedimiento-administrativo-fases"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/10_Ley_39_2015_de_1_de_octubre_del_procedimiento_administrativo_comun_de_las_administraciones_publicas.pdf"
+        }
+      ]
     },
     {
       "id": "urjc-tema-011",
@@ -211,7 +223,13 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#acto-administrativo-efectos"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/10_Ley_39_2015_de_1_de_octubre_del_procedimiento_administrativo_comun_de_las_administraciones_publicas.pdf"
+        }
+      ]
     },
     {
       "id": "urjc-tema-012",
@@ -224,7 +242,13 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#interesados-procedimiento"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/10_Ley_39_2015_de_1_de_octubre_del_procedimiento_administrativo_comun_de_las_administraciones_publicas.pdf"
+        }
+      ]
     },
     {
       "id": "urjc-tema-013",
@@ -237,7 +261,13 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#recursos-administrativos"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/10_Ley_39_2015_de_1_de_octubre_del_procedimiento_administrativo_comun_de_las_administraciones_publicas.pdf"
+        }
+      ]
     },
     {
       "id": "urjc-tema-014",

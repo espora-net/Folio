@@ -62,7 +62,13 @@
         "#titulo-iv",
         "#titulo-v"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/10_Ley_39_2015_de_1_de_octubre_del_procedimiento_administrativo_comun_de_las_administraciones_publicas.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-003",
