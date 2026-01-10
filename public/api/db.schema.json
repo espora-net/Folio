@@ -178,31 +178,17 @@
         },
         "resources": {
           "type": "array",
-          "description": "Recursos adicionales del dataset (PDFs, Markdown, etc.).",
+          "description": "Recursos adicionales vinculados al dataset.",
           "items": {
-            "$ref": "#/definitions/resource"
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "title", "path"],
+            "properties": {
+              "type": { "type": "string" },
+              "title": { "type": "string" },
+              "path": { "type": "string" }
+            }
           }
-        }
-      }
-    },
-    "resource": {
-      "type": "object",
-      "description": "Define un recurso adicional del dataset (PDF, Markdown, etc.).",
-      "additionalProperties": false,
-      "required": ["type", "title", "path"],
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": ["pdf", "md", "mp3", "json"],
-          "description": "Tipo de recurso."
-        },
-        "title": {
-          "type": "string",
-          "description": "Título del recurso."
-        },
-        "path": {
-          "type": "string",
-          "description": "Ruta relativa al archivo del recurso."
         }
       }
     }
