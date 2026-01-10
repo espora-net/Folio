@@ -16,7 +16,7 @@
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
-        "ley-31-1995-prevencion-de-riesgos-laborales"
+        "ley-31-1995-prevencion-de-riesgos-laborales",
         "ley-53-1984-incompatibilidades"
       ]
     },
@@ -68,7 +68,7 @@
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
-        "ley-31-1995-prevencion-de-riesgos-laborales"
+        "ley-31-1995-prevencion-de-riesgos-laborales",
         "ley-53-1984-incompatibilidades"
       ]
     },
@@ -107,9 +107,10 @@
         "ley-organica-2-2023-sistema-universitario",
         "ley-40-2015-regimen-juridico-sector-publico",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
-        "ley-31-1995-prevencion-de-riesgos-laborales"
-        "normativa-gestion-economica-y-presupuestaria-uah"
-        "ley-53-1984-incompatibilidades"
+        "ley-31-1995-prevencion-de-riesgos-laborales",
+        "normativa-gestion-economica-y-presupuestaria-uah",
+        "ley-53-1984-incompatibilidades",
+        "ley-9-2017-contratos-del-sector-publico"
       ]
     }
   ],
@@ -198,6 +199,14 @@
       "file": "db-ley-53-1984-incompatibilidades.json",
       "tag": "Ley 53/1984",
       "officialUrl": "https://www.boe.es/eli/es/l/1984/12/26/53/con"
+    },
+    {
+      "id": "ley-9-2017-contratos-del-sector-publico",
+      "title": "Ley 9/2017, de Contratos del Sector Público",
+      "description": "Fuente de datos para preguntas y recursos de la Ley 9/2017, de 8 de noviembre, de contratos del sector público.",
+      "file": "db-ley-9-2017-contratos-del-sector-publico.json",
+      "tag": "Ley 9/2017",
+      "officialUrl": "https://www.boe.es/eli/es/l/2017/11/08/9/con"
     }
   ]
 }
