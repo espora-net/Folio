@@ -507,10 +507,12 @@ const Temario = () => {
 
       {/* Selector de convocatoria */}
       {convocatorias.length > 1 && (
-        <div className="flex items-center gap-3">
-          <Filter className="h-4 w-4 text-muted-foreground" />
-          <span className="text-sm text-muted-foreground">Convocatoria:</span>
-          <div className="flex gap-2">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+          <div className="flex items-center gap-2">
+            <Filter className="h-4 w-4 text-muted-foreground" />
+            <span className="text-sm text-muted-foreground">Convocatoria:</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
             {convocatorias.map((conv) => (
               <Button
                 key={conv.id}
@@ -530,57 +532,60 @@ const Temario = () => {
       {selectedConvocatoria && convocatoriaData && (
         <Card className="border-l-4" style={{ borderLeftColor: selectedConvocatoria.color }}>
           <CardContent className="p-4">
-            <div className="flex items-start justify-between">
-              <div>
-                <h2 className="font-semibold">{selectedConvocatoria.title}</h2>
-                <p className="text-sm text-muted-foreground">
-                  {convocatoriaData.convocatoria.institucion} · {convocatoriaData.total_temas} temas
-                </p>
-
-                <div className="flex flex-wrap items-center gap-2 mt-2">
-                  <span className="text-sm text-muted-foreground">Datasets de preguntas:</span>
-                  {linkedQuestionDatasets.length > 0 ? (
-                    linkedQuestionDatasets.map(ds => (
-                      <Badge key={ds.id} variant="outline" className="gap-1">
-                        {ds.tag ?? ds.title}
-                      </Badge>
-                    ))
-                  ) : (
-                    <span className="text-sm text-muted-foreground">(sin datasets asociados)</span>
-                  )}
+            <div className="flex flex-col gap-3">
+              <div className="flex items-start justify-between gap-2">
+                <div className="flex-1 min-w-0">
+                  <h2 className="font-semibold">{selectedConvocatoria.title}</h2>
+                  <p className="text-sm text-muted-foreground">
+                    {convocatoriaData.convocatoria.institucion} · {convocatoriaData.total_temas} temas
+                  </p>
                 </div>
-
-                <div className="flex flex-wrap gap-2 mt-3">
-                  <Button
-                    size="sm"
-                    onClick={() => {
-                      window.location.href = `${trimmedBase}/dashboard/tests`.replace(DUPLICATE_SLASHES, '/');
-                    }}
+                {convocatoriaData.convocatoria.enlace_publicacion && (
+                  <a
+                    href={convocatoriaData.convocatoria.enlace_publicacion}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline flex-shrink-0 flex items-center gap-1"
+                    title="Ver convocatoria"
                   >
-                    Ir a Tests
-                  </Button>
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    onClick={() => {
-                      window.location.href = `${trimmedBase}/dashboard/flashcards`.replace(DUPLICATE_SLASHES, '/');
-                    }}
-                  >
-                    Ir a Flashcards
-                  </Button>
-                </div>
+                    <span className="text-sm hidden sm:inline">Ver convocatoria</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                )}
               </div>
-              {convocatoriaData.convocatoria.enlace_publicacion && (
-                <a
-                  href={convocatoriaData.convocatoria.enlace_publicacion}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline text-sm flex items-center gap-1"
+
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-sm text-muted-foreground">Datasets de preguntas:</span>
+                {linkedQuestionDatasets.length > 0 ? (
+                  linkedQuestionDatasets.map(ds => (
+                    <Badge key={ds.id} variant="outline" className="gap-1">
+                      {ds.tag ?? ds.title}
+                    </Badge>
+                  ))
+                ) : (
+                  <span className="text-sm text-muted-foreground">(sin datasets asociados)</span>
+                )}
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                <Button
+                  size="sm"
+                  onClick={() => {
+                    window.location.href = `${trimmedBase}/dashboard/tests`.replace(DUPLICATE_SLASHES, '/');
+                  }}
                 >
-                  Ver convocatoria
-                  <ExternalLink className="h-3 w-3" />
-                </a>
-              )}
+                  Ir a Tests
+                </Button>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => {
+                    window.location.href = `${trimmedBase}/dashboard/flashcards`.replace(DUPLICATE_SLASHES, '/');
+                  }}
+                >
+                  Ir a Flashcards
+                </Button>
+              </div>
             </div>
           </CardContent>
         </Card>
@@ -604,7 +609,7 @@ const Temario = () => {
                     )}
                     {bloque}
                   </CardTitle>
-                  <Badge variant="secondary">{temas.length} temas</Badge>
+                  <Badge variant="secondary">{temas.length}</Badge>
                 </div>
               </CardHeader>
               
