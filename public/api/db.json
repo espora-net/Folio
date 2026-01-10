@@ -101,7 +101,19 @@
       "description": "Preguntas y flashcards basadas en el Texto Refundido de la Ley del EBEP.",
       "file": "db-estatuto-basico-del-empleado-publico-EBEP.json",
       "tag": "EBEP",
-      "officialUrl": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
+      "officialUrl": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con",
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Texto refundido consolidado (BOE)",
+          "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
+        },
+        {
+          "type": "md",
+          "title": "Texto en Markdown (para lectura rápida)",
+          "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md"
+        }
+      ]
     },
     {
       "id": "ley-organica-2-2023-sistema-universitario",
