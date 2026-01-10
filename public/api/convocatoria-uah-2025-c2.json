@@ -189,7 +189,7 @@
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con/pdf"
+          "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
         },
         {
           "tipo": "db",
