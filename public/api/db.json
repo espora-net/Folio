@@ -17,6 +17,7 @@
         "ley-organica-2-2023-sistema-universitario",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales"
+        "ley-53-1984-incompatibilidades"
       ]
     },
     {
@@ -68,6 +69,7 @@
         "ley-organica-2-2023-sistema-universitario",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales"
+        "ley-53-1984-incompatibilidades"
       ]
     },
     {
@@ -106,6 +108,8 @@
         "ley-40-2015-regimen-juridico-sector-publico",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales"
+        "normativa-gestion-economica-y-presupuestaria-uah"
+        "ley-53-1984-incompatibilidades"
       ]
     }
   ],
@@ -125,7 +129,19 @@
       "description": "Preguntas y flashcards basadas en el Texto Refundido de la Ley del EBEP.",
       "file": "db-estatuto-basico-del-empleado-publico-EBEP.json",
       "tag": "EBEP",
-      "officialUrl": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
+      "officialUrl": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con",
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Texto refundido consolidado (BOE)",
+          "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
+        },
+        {
+          "type": "md",
+          "title": "Texto en Markdown (para lectura rápida)",
+          "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md"
+        }
+      ]
     },
     {
       "id": "ley-organica-2-2023-sistema-universitario",
@@ -166,6 +182,22 @@
       "file": "db-ley-31-1995-prevencion-de-riesgos-laborales.json",
       "tag": "Ley 31/1995",
       "officialUrl": "https://www.boe.es/eli/es/l/1995/11/08/31/con"
+    },
+    {
+      "id": "normativa-gestion-economica-y-presupuestaria-uah",
+      "title": "Normativa de Gestión Económica y Presupuestaria (UAH)",
+      "description": "Normativa de Gestión Económica y Presupuestaria de la Universidad de Alcalá (Capítulo IV).",
+      "file": "db-normativa-de-gestion-economica-y-presupuestaria-uah.json",
+      "tag": "UAH",
+      "officialUrl": "https://www.uah.es/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-contratacion/#normativa-de-la-uah"
+    },
+    {
+      "id": "ley-53-1984-incompatibilidades",
+      "title": "Ley 53/1984, de Incompatibilidades del personal al servicio de las Administraciones Públicas",
+      "description": "Dataset placeholder para la Ley 53/1984 sobre incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "file": "db-ley-53-1984-incompatibilidades.json",
+      "tag": "Ley 53/1984",
+      "officialUrl": "https://www.boe.es/eli/es/l/1984/12/26/53/con"
     }
   ]
 }
