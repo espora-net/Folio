@@ -92,21 +92,24 @@
       "description": "Preguntas y flashcards organizadas por títulos y capítulos de la Constitución.",
       "file": "db-constitucion.json",
       "tag": "Constitución",
-      "color": "#1d4ed8"
+      "color": "#1d4ed8",
+      "officialUrl": "https://www.boe.es/eli/es/c/1978/12/27/(1)/con"
     },
     {
       "id": "estatuto-basico-del-empleado-publico-ebep",
       "title": "Estatuto Básico del Empleado Público (EBEP)",
       "description": "Preguntas y flashcards basadas en el Texto Refundido de la Ley del EBEP.",
       "file": "db-estatuto-basico-del-empleado-publico-EBEP.json",
-      "tag": "EBEP"
+      "tag": "EBEP",
+      "officialUrl": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
     },
     {
       "id": "ley-organica-2-2023-sistema-universitario",
       "title": "Ley Orgánica 2/2023 del Sistema Universitario (LOSU)",
       "description": "Preguntas y flashcards basadas en la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
       "file": "db-ley-organica-2-2023-sistema-universitario.json",
-      "tag": "LOSU"
+      "tag": "LOSU",
+      "officialUrl": "https://www.boe.es/eli/es/lo/2023/03/22/2/con"
     }
   ]
 }

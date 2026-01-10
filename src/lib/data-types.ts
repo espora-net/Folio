@@ -66,6 +66,7 @@ export interface DatasetDescriptor {
   file: string;
   tag?: string;
   color?: string;
+  officialUrl?: string;
 }
 
 // Tipos para convocatorias y temas del temario
