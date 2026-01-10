@@ -280,7 +280,13 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#ley-40-2015"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/11_Ley_40_2015_de_1_de_octubre_de_regimen_juridico_del_sector_publico.pdf"
+        }
+      ]
     },
     {
       "id": "urjc-tema-015",
