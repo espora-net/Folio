@@ -377,7 +377,18 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": ["#ley-53-1984-incompatibilidades"],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/13_Ley_53_1984_de_26_de_diciembre_de_Incompatibilidades_del_personal_al_servicio_de_las_administraciones_publicas.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-53-1984-incompatibilidades.json"
+        }
+      ]
     },
     {
       "id": "urjc-tema-022",

@@ -15,7 +15,8 @@
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
       ]
     },
     {
@@ -65,7 +66,8 @@
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
       ]
     },
     {
@@ -102,7 +104,8 @@
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
         "ley-40-2015-regimen-juridico-sector-publico",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
       ]
     }
   ],
@@ -155,6 +158,14 @@
       "file": "db-ley-40-2015-regimen-juridico-sector-publico.json",
       "tag": "Ley 40/2015",
       "officialUrl": "https://www.boe.es/eli/es/l/2015/10/01/40/con"
+    },
+    {
+      "id": "ley-53-1984-incompatibilidades",
+      "title": "Ley 53/1984, de Incompatibilidades del personal al servicio de las Administraciones Públicas",
+      "description": "Dataset placeholder para la Ley 53/1984 sobre incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "file": "db-ley-53-1984-incompatibilidades.json",
+      "tag": "Ley 53/1984",
+      "officialUrl": "https://www.boe.es/eli/es/l/1984/12/26/53/con"
     }
   ]
 }
