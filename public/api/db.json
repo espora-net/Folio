@@ -11,7 +11,12 @@
       "label": "Oposiciones",
       "temarioTemplate": "oposiciones",
       "convocatoriaId": "urjc-2026-c2",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+      ]
     },
     {
       "id": "conducir",
@@ -56,7 +61,12 @@
       "color": "#7c3aed",
       "activa": false,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+      ]
     },
     {
       "id": "urjc-2026-c2",
@@ -69,7 +79,12 @@
       "color": "#059669",
       "activa": true,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+      ]
     },
     {
       "id": "uah-2025-c2",
@@ -82,7 +97,12 @@
       "color": "#f97316",
       "activa": true,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+      ]
     }
   ],
   "datasets": [
