@@ -88,7 +88,13 @@
         "#titulo-preliminar-capitulo-ii-seccion-4",
         "#titulo-preliminar-capitulo-v"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/11_Ley_40_2015_de_1_de_octubre_de_regimen_juridico_del_sector_publico.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-004",
