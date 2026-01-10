@@ -123,7 +123,7 @@
       "numero": 5,
       "titulo": "Ley 19/2013 de Transparencia",
       "bloque": "Legislación General (Temas 1-10)",
-      "descripcion": "La Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno: Título preliminar, Título I y III.",
+      "descripcion": "La Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno: Título preliminar, Título I y III. Fuente oficial: https://www.boe.es/eli/es/l/2013/12/09/19",
       "contenido_especifico": "Transparencia de la actividad pública y Consejo de Transparencia y Buen Gobierno.",
       "temas_relacionados": ["Transparencia", "Acceso a la Información"],
       "relevancia": "alta",
@@ -134,6 +134,11 @@
         "#titulo-iii"
       ],
       "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Texto completo en Markdown",
+          "archivo": "data/general/12_Ley_19_2013_de_9_de_diciembre_de_transparencia_acceso_a_la_informacion_publica_y_buen_gobierno.md"
+        },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
