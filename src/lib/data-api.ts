@@ -13,6 +13,9 @@ import datasetLey40 from '../../public/api/db-ley-40-2015-regimen-juridico-secto
 import datasetLeyPrl from '../../public/api/db-ley-31-1995-prevencion-de-riesgos-laborales.json';
 import datasetNormativaGestionUah from '../../public/api/db-normativa-de-gestion-economica-y-presupuestaria-uah.json';
 import datasetLey531984 from '../../public/api/db-ley-53-1984-incompatibilidades.json';
+import datasetExcel365 from '../../public/api/db-excel-365.json';
+import datasetOutlook365 from '../../public/api/db-outlook-365.json';
+import datasetWord365 from '../../public/api/db-word-365.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData, type StudyTypeRegistryEntry } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -51,6 +54,9 @@ const FALLBACK_DATASETS: Record<string, RawDataset> = {
   'db-normativa-de-gestion-economica-y-presupuestaria-uah.json':
     datasetNormativaGestionUah as unknown as RawDataset,
   'db-ley-53-1984-incompatibilidades.json': datasetLey531984 as unknown as RawDataset,
+  'db-excel-365.json': datasetExcel365 as unknown as RawDataset,
+  'db-outlook-365.json': datasetOutlook365 as unknown as RawDataset,
+  'db-word-365.json': datasetWord365 as unknown as RawDataset,
 };
 
 const defaultStats = (): StudyStats => ({

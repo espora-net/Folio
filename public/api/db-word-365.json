@@ -1,0 +1,16 @@
+{
+  "topics": [],
+  "questions": [],
+  "resources": [
+    {
+      "type": "pdf",
+      "name": "Guía de estudio Microsoft Word 365 (PDF)",
+      "file": "data/general/19_Word_365.pdf"
+    },
+    {
+      "type": "md",
+      "name": "Guía de estudio Microsoft Word 365 (Markdown)",
+      "file": "data/general/19_Word_365.md"
+    }
+  ]
+}

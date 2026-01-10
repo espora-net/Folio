@@ -175,6 +175,34 @@
           "type": "string",
           "format": "uri",
           "description": "Enlace oficial a la fuente normativa o documental del dataset."
+        },
+        "resources": {
+          "type": "array",
+          "description": "Recursos adicionales del dataset (PDFs, Markdown, etc.).",
+          "items": {
+            "$ref": "#/definitions/resource"
+          }
+        }
+      }
+    },
+    "resource": {
+      "type": "object",
+      "description": "Define un recurso adicional del dataset (PDF, Markdown, etc.).",
+      "additionalProperties": false,
+      "required": ["type", "title", "path"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["pdf", "md", "mp3", "json"],
+          "description": "Tipo de recurso."
+        },
+        "title": {
+          "type": "string",
+          "description": "Título del recurso."
+        },
+        "path": {
+          "type": "string",
+          "description": "Ruta relativa al archivo del recurso."
         }
       }
     }
