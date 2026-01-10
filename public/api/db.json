@@ -15,7 +15,8 @@
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
       ]
     },
     {
@@ -65,7 +66,8 @@
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
       ]
     },
     {
@@ -104,6 +106,7 @@
         "ley-40-2015-regimen-juridico-sector-publico",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "normativa-gestion-economica-y-presupuestaria-uah"
+        "ley-53-1984-incompatibilidades"
       ]
     }
   ],
@@ -163,7 +166,15 @@
       "description": "Normativa de Gestión Económica y Presupuestaria de la Universidad de Alcalá (Capítulo IV).",
       "file": "db-normativa-de-gestion-economica-y-presupuestaria-uah.json",
       "tag": "UAH",
-      "officialUrl": "https://www.uah.es/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-contratacion/?utm_source=chatgpt.com#normativa-de-la-uah"
+      "officialUrl": "https://www.uah.es/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-contratacion/#normativa-de-la-uah"
+    },
+    {
+      "id": "ley-53-1984-incompatibilidades",
+      "title": "Ley 53/1984, de Incompatibilidades del personal al servicio de las Administraciones Públicas",
+      "description": "Dataset placeholder para la Ley 53/1984 sobre incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "file": "db-ley-53-1984-incompatibilidades.json",
+      "tag": "Ley 53/1984",
+      "officialUrl": "https://www.boe.es/eli/es/l/1984/12/26/53/con"
     }
   ]
 }

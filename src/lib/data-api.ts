@@ -10,6 +10,7 @@ import datasetLey4015 from '../../public/api/db-ley-40-2015-regimen-juridico-sec
 import datasetLopdgdd from '../../public/api/db-ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales.json';
 import datasetLey40 from '../../public/api/db-ley-40-2015-regimen-juridico-sector-publico.json';
 import datasetNormativaGestionUah from '../../public/api/db-normativa-de-gestion-economica-y-presupuestaria-uah.json';
+import datasetLey531984 from '../../public/api/db-ley-53-1984-incompatibilidades.json';
 import { type Database, type DatasetDescriptor, type Flashcard, type StudyStats, type TestQuestion, type Topic, type ConvocatoriaDescriptor, type ConvocatoriaData, type StudyTypeRegistryEntry } from './data-types';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -45,6 +46,7 @@ const FALLBACK_DATASETS: Record<string, RawDataset> = {
   'db-ley-40-2015-regimen-juridico-sector-publico.json': datasetLey40 as unknown as RawDataset,
   'db-normativa-de-gestion-economica-y-presupuestaria-uah.json':
     datasetNormativaGestionUah as unknown as RawDataset,
+  'db-ley-53-1984-incompatibilidades.json': datasetLey531984 as unknown as RawDataset,
 };
 
 const defaultStats = (): StudyStats => ({
