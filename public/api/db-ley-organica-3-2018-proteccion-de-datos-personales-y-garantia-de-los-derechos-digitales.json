@@ -1,4 +1,16 @@
 {
   "topics": [],
-  "questions": []
+  "questions": [],
+  "resources": [
+    {
+      "type": "md",
+      "name": "Texto completo en Markdown",
+      "file": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md"
+    },
+    {
+      "type": "pdf",
+      "name": "Documento PDF oficial",
+      "file": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.pdf"
+    }
+  ]
 }

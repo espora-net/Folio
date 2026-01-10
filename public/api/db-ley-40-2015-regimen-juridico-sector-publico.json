@@ -85,5 +85,12 @@
     "questionsAnsweredToday": 0,
     "topicProgress": {}
   },
-  "studySessions": []
+  "studySessions": [],
+  "resources": [
+    {
+      "type": "pdf",
+      "name": "Documento PDF oficial",
+      "file": "data/general/11_Ley_40_2015_de_1_de_octubre_de_regimen_juridico_del_sector_publico.pdf"
+    }
+  ]
 }
