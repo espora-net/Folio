@@ -1,0 +1,16 @@
+{
+  "topics": [],
+  "questions": [],
+  "resources": [
+    {
+      "type": "pdf",
+      "name": "Guía de estudio Microsoft Excel 365 (PDF)",
+      "file": "data/general/17_Excel_365.pdf"
+    },
+    {
+      "type": "md",
+      "name": "Guía de estudio Microsoft Excel 365 (Markdown)",
+      "file": "data/general/17_Excel_365.md"
+    }
+  ]
+}

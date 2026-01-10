@@ -1,0 +1,16 @@
+{
+  "topics": [],
+  "questions": [],
+  "resources": [
+    {
+      "type": "pdf",
+      "name": "Guía de estudio Microsoft Outlook 365 (PDF)",
+      "file": "data/general/18_Outlook_365.pdf"
+    },
+    {
+      "type": "md",
+      "name": "Guía de estudio Microsoft Outlook 365 (Markdown)",
+      "file": "data/general/18_Outlook_365.md"
+    }
+  ]
+}

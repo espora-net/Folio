@@ -201,6 +201,69 @@
       "officialUrl": "https://www.boe.es/eli/es/l/1984/12/26/53/con"
     },
     {
+      "id": "excel-365",
+      "title": "Microsoft Excel 365",
+      "description": "Guía de estudio para Microsoft Excel 365: fórmulas, funciones, tablas dinámicas y gestión de datos.",
+      "file": "db-excel-365.json",
+      "tag": "Excel 365",
+      "color": "#217346",
+      "officialUrl": "https://support.microsoft.com/es-es/excel",
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Guía de estudio Microsoft Excel 365 (PDF)",
+          "path": "data/general/17_Excel_365.pdf"
+        },
+        {
+          "type": "md",
+          "title": "Guía de estudio Microsoft Excel 365 (Markdown)",
+          "path": "data/general/17_Excel_365.md"
+        }
+      ]
+    },
+    {
+      "id": "outlook-365",
+      "title": "Microsoft Outlook 365",
+      "description": "Guía de estudio para Microsoft Outlook 365: correo, calendario, organización y automatización.",
+      "file": "db-outlook-365.json",
+      "tag": "Outlook 365",
+      "color": "#0078D4",
+      "officialUrl": "https://support.microsoft.com/es-es/outlook",
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Guía de estudio Microsoft Outlook 365 (PDF)",
+          "path": "data/general/18_Outlook_365.pdf"
+        },
+        {
+          "type": "md",
+          "title": "Guía de estudio Microsoft Outlook 365 (Markdown)",
+          "path": "data/general/18_Outlook_365.md"
+        }
+      ]
+    },
+    {
+      "id": "word-365",
+      "title": "Microsoft Word 365",
+      "description": "Guía de estudio para Microsoft Word 365: edición de documentos, formato, tablas, combinación de correspondencia y revisión.",
+      "file": "db-word-365.json",
+      "tag": "Word 365",
+      "color": "#2B579A",
+      "officialUrl": "https://support.microsoft.com/es-es/word",
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Guía de estudio Microsoft Word 365 (PDF)",
+          "path": "data/general/19_Word_365.pdf"
+        },
+        {
+          "type": "md",
+          "title": "Guía de estudio Microsoft Word 365 (Markdown)",
+          "path": "data/general/19_Word_365.md"
+        }
+      ]
+    },
+    {
       "id": "ley-9-2017-contratos-del-sector-publico",
       "title": "Ley 9/2017, de Contratos del Sector Público",
       "description": "Fuente de datos para preguntas y recursos de la Ley 9/2017, de 8 de noviembre, de contratos del sector público.",
