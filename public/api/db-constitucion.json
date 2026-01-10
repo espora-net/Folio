@@ -27700,5 +27700,27 @@
       }
     }
   },
-  "studySessions": []
+  "studySessions": [],
+  "resources": [
+    {
+      "type": "md",
+      "name": "Texto completo en Markdown",
+      "file": "data/general/01_constitucion_espanola_1978.md"
+    },
+    {
+      "type": "pdf",
+      "name": "Documento PDF oficial",
+      "file": "data/general/01_constitucion_espanola_1978.pdf"
+    },
+    {
+      "type": "mp3",
+      "name": "Audio de la Constitución",
+      "file": "data/general/01_constitucion_espanola_1978.mp3"
+    },
+    {
+      "type": "md",
+      "name": "Transcripción del audio",
+      "file": "data/general/01_constitucion_espanola_1978.transcript.md"
+    }
+  ]
 }

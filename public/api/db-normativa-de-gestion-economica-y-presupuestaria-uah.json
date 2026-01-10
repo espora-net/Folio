@@ -1,4 +1,11 @@
 {
   "topics": [],
-  "questions": []
+  "questions": [],
+  "resources": [
+    {
+      "type": "pdf",
+      "name": "Documento PDF oficial",
+      "file": "data/general/15_Normativa_de_gestion_economica_y_presupuestaria_UAH.pdf"
+    }
+  ]
 }
