@@ -88,7 +88,13 @@
         "#titulo-preliminar-capitulo-ii-seccion-4",
         "#titulo-preliminar-capitulo-v"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/11_Ley_40_2015_de_1_de_octubre_de_regimen_juridico_del_sector_publico.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-004",
@@ -123,7 +129,7 @@
       "numero": 5,
       "titulo": "Ley 19/2013 de Transparencia",
       "bloque": "Legislación General (Temas 1-10)",
-      "descripcion": "La Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno: Título preliminar, Título I y III.",
+      "descripcion": "La Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno: Título preliminar, Título I y III. Fuente oficial: https://www.boe.es/eli/es/l/2013/12/09/19",
       "contenido_especifico": "Transparencia de la actividad pública y Consejo de Transparencia y Buen Gobierno.",
       "temas_relacionados": ["Transparencia", "Acceso a la Información"],
       "relevancia": "alta",
@@ -133,7 +139,13 @@
         "#titulo-i",
         "#titulo-iii"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/12_Ley_19_2013_de_9_de_diciembre_de_transparencia_acceso_a_la_informacion_publica_y_buen_gobierno.pdf"
+        }
+      ]
     },
     {
       "id": "uah-tema-006",
@@ -214,7 +226,18 @@
         "#capitulo-iii",
         "#capitulo-iv"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/13_Ley_53_1984_de_26_de_diciembre_de_Incompatibilidades_del_personal_al_servicio_de_las_administraciones_publicas.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-ley-53-1984-incompatibilidades.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-009",
@@ -302,7 +325,18 @@
       "cobertura_convocatoria": [
         "#capitulo-iv"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "pdf",
+          "nombre": "Documento PDF oficial",
+          "archivo": "data/general/15_Normativa_de_gestion_economica_y_presupuestaria_UAH.pdf"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Flashcards y preguntas",
+          "archivo": "db-normativa-de-gestion-economica-y-presupuestaria-uah.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-012",

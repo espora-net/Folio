@@ -11,7 +11,13 @@
       "label": "Oposiciones",
       "temarioTemplate": "oposiciones",
       "convocatoriaId": "urjc-2026-c2",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
+      ]
     },
     {
       "id": "conducir",
@@ -56,7 +62,13 @@
       "color": "#7c3aed",
       "activa": false,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "ley-53-1984-incompatibilidades"
+      ]
     },
     {
       "id": "urjc-2026-c2",
@@ -69,7 +81,12 @@
       "color": "#059669",
       "activa": true,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales"
+      ]
     },
     {
       "id": "uah-2025-c2",
@@ -82,7 +99,15 @@
       "color": "#f97316",
       "activa": true,
       "studyType": "oposiciones",
-      "questionDatasetIds": ["constitucion-1978", "estatuto-basico-del-empleado-publico-ebep", "ley-organica-2-2023-sistema-universitario"]
+      "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "ley-40-2015-regimen-juridico-sector-publico",
+        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+        "normativa-gestion-economica-y-presupuestaria-uah"
+        "ley-53-1984-incompatibilidades"
+      ]
     }
   ],
   "datasets": [
@@ -122,6 +147,46 @@
       "file": "db-ley-organica-2-2023-sistema-universitario.json",
       "tag": "LOSU",
       "officialUrl": "https://www.boe.es/eli/es/lo/2023/03/22/2/con"
+    },
+    {
+      "id": "ley-19-2013-transparencia",
+      "title": "Ley 19/2013 de Transparencia",
+      "description": "Texto y recursos de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.",
+      "file": "db-ley-19-2013-transparencia.json",
+      "tag": "Transparencia",
+      "officialUrl": "https://www.boe.es/eli/es/l/2013/12/09/19"
+    },
+    {
+      "id": "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
+      "title": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)",
+      "description": "Dataset placeholder para futuras preguntas sobre la LOPDGDD.",
+      "file": "db-ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales.json",
+      "tag": "LOPDGDD",
+      "officialUrl": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+    },
+    {
+      "id": "ley-40-2015-regimen-juridico-sector-publico",
+      "title": "Ley 40/2015, de Régimen Jurídico del Sector Público",
+      "description": "Preguntas y flashcards basadas en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "file": "db-ley-40-2015-regimen-juridico-sector-publico.json",
+      "tag": "Ley 40/2015",
+      "officialUrl": "https://www.boe.es/eli/es/l/2015/10/01/40/con"
+    },
+    {
+      "id": "normativa-gestion-economica-y-presupuestaria-uah",
+      "title": "Normativa de Gestión Económica y Presupuestaria (UAH)",
+      "description": "Normativa de Gestión Económica y Presupuestaria de la Universidad de Alcalá (Capítulo IV).",
+      "file": "db-normativa-de-gestion-economica-y-presupuestaria-uah.json",
+      "tag": "UAH",
+      "officialUrl": "https://www.uah.es/es/conoce-la-uah/organizacion-y-gobierno/servicios-universitarios/servicio-de-contratacion/#normativa-de-la-uah"
+    },
+    {
+      "id": "ley-53-1984-incompatibilidades",
+      "title": "Ley 53/1984, de Incompatibilidades del personal al servicio de las Administraciones Públicas",
+      "description": "Dataset placeholder para la Ley 53/1984 sobre incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "file": "db-ley-53-1984-incompatibilidades.json",
+      "tag": "Ley 53/1984",
+      "officialUrl": "https://www.boe.es/eli/es/l/1984/12/26/53/con"
     }
   ]
 }
