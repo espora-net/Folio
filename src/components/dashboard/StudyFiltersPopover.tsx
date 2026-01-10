@@ -184,7 +184,7 @@ export default function StudyFiltersPopover({
           
           <Separator />
 
-        <ScrollArea className="max-h-[min(70vh,600px)]">
+        <ScrollArea className="h-[min(70vh,600px)]">
           <div className="p-4 space-y-4">
             {/* Filtro por convocatoria - mostrar todas las disponibles */}
             {allConvocatorias.length > 0 && (
