@@ -136,6 +136,12 @@ Al añadir una nueva convocatoria al archivo `db.json`:
 3. Ejecutar `npm run validate-schemas` para verificar que el JSON es válido
 4. Asegurarse de que el archivo referenciado en `file` existe en `public/api/`
 
+## Fuentes de datos (leyes, materiales) sin preguntas aún
+
+- **Regla**: por cada fuente de datos incluida en el temario/convocatorias debe existir un archivo `db-*.json` que siga `question-bank.schema.json`.
+- Si todavía no hay preguntas/flashcards para esa fuente, los arrays `topics`, `subtopics` y `questions` deben incluirse como arrays vacíos y el resto de campos opcionales puede omitirse o dejarse vacío según el schema.
+- Esto garantiza que la validación (`npm run validate-schemas`) pase y que el dataset pueda poblarse más adelante sin romper el índice ni la carga de datos.
+
 ## Referencias
 
 - **JSON Schema Draft 07**: http://json-schema.org/draft-07/schema
