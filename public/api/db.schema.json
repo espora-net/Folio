@@ -170,6 +170,11 @@
           "type": "string",
           "pattern": "^#[0-9a-fA-F]{6}$",
           "description": "Color en formato hexadecimal (#RRGGBB) para identificar visualmente el dataset."
+        },
+        "officialUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Enlace oficial a la fuente normativa o documental del dataset."
         }
       }
     }
