@@ -110,12 +110,19 @@ Las convocatorias se gestionan con funciones específicas en `src/lib/data-api.t
 
 Este sistema permite filtrar las preguntas de un dataset para mostrar **solo las que entran en una convocatoria específica**. El flujo es:
 
-1. **Convocatoria** (`convocatoria-*.json`): Define en cada tema un array `cobertura_convocatoria` con los IDs de las secciones exigidas. Ejemplo para el Tema 3 (LOSU):
+1. **Convocatoria** (`convocatoria-*.json`): Define en cada tema un array `cobertura_convocatoria` con los IDs de las secciones exigidas. Ejemplo para el Tema 3 (Ley 40/2015):
    ```json
    {
      "id": "uah-tema-003",
-     "titulo": "Ley Orgánica 2/2023 del Sistema Universitario",
-     "cobertura_convocatoria": ["#titulo-i", "#titulo-ix", "#capitulo-i", "#capitulo-ii", "#capitulo-v"]
+     "titulo": "Ley 40/2015 de Régimen del Sector Público",
+     "cobertura_convocatoria": [
+       "#titulo-preliminar-capitulo-i",
+       "#titulo-preliminar-capitulo-ii-seccion-1",
+       "#titulo-preliminar-capitulo-ii-seccion-3-subseccion-1",
+       "#titulo-preliminar-capitulo-ii-seccion-3-subseccion-2",
+       "#titulo-preliminar-capitulo-ii-seccion-4",
+       "#titulo-preliminar-capitulo-v"
+     ]
    }
    ```
 
@@ -144,11 +151,44 @@ convocatoria-*.json                  db-*.json
                        questions[].topicId → subtopic.id
 ```
 
-**Formato de los IDs de cobertura**:
-- SIEMPRE con prefijo `#` (ej: `#titulo-i`, `#capitulo-ii`)
-- Usar solo títulos, capítulos o artículos de forma compacta
-- Evitar texto descriptivo adicional
-- Seguir el patrón de `db-constitucion.json` como referencia
+**Nomenclatura de los IDs de cobertura**:
+
+Los IDs deben reflejar la **jerarquía completa** de la estructura del documento legal para evitar ambigüedades. Formato:
+
+```
+#<nivel1>[-<nivel2>[-<nivel3>[-<nivel4>]]]
+```
+
+**Reglas de nomenclatura**:
+1. SIEMPRE con prefijo `#`
+2. Minúsculas y guiones (sin acentos, sin espacios)
+3. **Incluir la jerarquía completa desde el nivel más alto**: si un capítulo pertenece a un título específico, incluir ambos (ej: `#titulo-ix-capitulo-i`, no solo `#capitulo-i`)
+4. Separar niveles jerárquicos con guiones simples
+5. Evitar texto descriptivo adicional (no incluir nombres de artículos, solo su posición estructural)
+
+**Ejemplos de nomenclatura correcta**:
+| Referencia legal                                      | ID correcto                                     |
+|-------------------------------------------------------|------------------------------------------------|
+| Título Preliminar                                     | `#titulo-preliminar`                           |
+| Título I                                              | `#titulo-i`                                    |
+| Título IX, Capítulo I                                 | `#titulo-ix-capitulo-i`                        |
+| Título IX, Capítulo II                                | `#titulo-ix-capitulo-ii`                       |
+| Título Preliminar, Capítulo II, Sección 1             | `#titulo-preliminar-capitulo-ii-seccion-1`     |
+| Título Preliminar, Capítulo II, Sección 3, Subsección 1 | `#titulo-preliminar-capitulo-ii-seccion-3-subseccion-1` |
+| Título I, Capítulo IV                                 | `#titulo-i-capitulo-iv`                        |
+| Título I, Capítulo VI                                 | `#titulo-i-capitulo-vi`                        |
+
+**Ejemplos de nomenclatura incorrecta** (a evitar):
+| Incorrecto                        | Problema                                    | Correcto                           |
+|-----------------------------------|---------------------------------------------|------------------------------------|
+| `#capitulo-i`                     | Ambiguo: ¿de qué título?                    | `#titulo-ix-capitulo-i`            |
+| `#capitulo-v`                     | Ambiguo: ¿de qué título?                    | `#titulo-ix-capitulo-v`            |
+| `#titulo-i-objeto-y-ambito`       | Incluye texto descriptivo innecesario       | `#titulo-i`                        |
+| `#Titulo-I`                       | Usa mayúsculas                              | `#titulo-i`                        |
+
+**Casos especiales**:
+- Para normativas específicas de instituciones (ej: UAH, URJC), se pueden usar IDs descriptivos únicos: `#codigo-etico-general-uah`, `#normas-de-convivencia-uah`
+- Para aplicaciones ofimáticas u otros temas no legales: `#word-365`, `#excel-365`
 
 **Archivo de referencia**: `db-constitucion.json` es el modelo canónico para el formato de `syllabusCoverageIds`.
 

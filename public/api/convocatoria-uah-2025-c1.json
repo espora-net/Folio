@@ -97,10 +97,9 @@
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#titulo-i",
-        "#titulo-ix",
-        "#capitulo-i",
-        "#capitulo-ii",
-        "#capitulo-v"
+        "#titulo-ix-capitulo-i",
+        "#titulo-ix-capitulo-ii",
+        "#titulo-ix-capitulo-v"
       ],
       "recursos": [
         {

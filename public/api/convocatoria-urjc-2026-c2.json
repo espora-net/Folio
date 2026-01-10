@@ -54,7 +54,7 @@
       "temas_relacionados": ["Sistema Universitario", "PAS", "Legislación Universitaria"],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
-      "cobertura_convocatoria": ["#titulo-i", "#titulo-ix", "#capitulo-i", "#capitulo-ii", "#capitulo-v"],
+      "cobertura_convocatoria": ["#titulo-i", "#titulo-ix-capitulo-i", "#titulo-ix-capitulo-ii", "#titulo-ix-capitulo-v"],
       "recursos": [
         {
           "tipo": "md",
