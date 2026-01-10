@@ -73,6 +73,7 @@ Schema consolidado para archivos `db-*.json` que contienen datasets de preguntas
 - `public/api/db-constitucion.json`
 - `public/api/db-estatuto-basico-del-empleado-publico-EBEP.json`
 - `public/api/db-ley-organica-2-2023-sistema-universitario.json`
+- `public/api/db-ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales.json`
 - Cualquier otro archivo `db-*.json`
 
 #### Estructura principal
@@ -107,11 +108,12 @@ Validating database index file...
 
 Validating dataset files...
 
-Found 3 dataset file(s) to validate.
+Found 4 dataset file(s) to validate.
 
 ✅ db-constitucion.json
 ✅ db-estatuto-basico-del-empleado-publico-EBEP.json
 ✅ db-ley-organica-2-2023-sistema-universitario.json
+✅ db-ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales.json
 
 ✅ All files are valid!
 ```
