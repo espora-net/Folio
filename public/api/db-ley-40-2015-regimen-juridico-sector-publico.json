@@ -1,4 +1,89 @@
 {
-  "topics": [],
-  "questions": []
+  "topics": [
+    {
+      "id": "ley-40-2015-regimen-juridico-sector-publico",
+      "title": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+      "description": "Preguntas y tests sobre la Ley 40/2015 de Régimen Jurídico del Sector Público.",
+      "order": 1,
+      "createdAt": "2026-01-10T12:00:00.000Z",
+      "updatedAt": "2026-01-10T12:00:00.000Z",
+      "subtopics": [
+        {
+          "id": "ley-40-2015-titulo-preliminar-capitulo-i",
+          "topicId": "ley-40-2015-regimen-juridico-sector-publico",
+          "title": "Título Preliminar - Capítulo I: Disposiciones generales",
+          "content": "Disposiciones generales, principios de actuación y funcionamiento del sector público.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar-capitulo-i"
+          ]
+        },
+        {
+          "id": "ley-40-2015-titulo-preliminar-capitulo-ii-seccion-1",
+          "topicId": "ley-40-2015-regimen-juridico-sector-publico",
+          "title": "Título Preliminar - Capítulo II, Sección 1: De los órganos de las Administraciones Públicas",
+          "content": "De los órganos administrativos.",
+          "order": 2,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar-capitulo-ii-seccion-1"
+          ]
+        },
+        {
+          "id": "ley-40-2015-titulo-preliminar-capitulo-ii-seccion-3-subseccion-1",
+          "topicId": "ley-40-2015-regimen-juridico-sector-publico",
+          "title": "Título Preliminar - Capítulo II, Sección 3, Subsección 1: Funcionamiento de los órganos colegiados",
+          "content": "Funcionamiento de los órganos colegiados de las distintas Administraciones Públicas.",
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar-capitulo-ii-seccion-3-subseccion-1"
+          ]
+        },
+        {
+          "id": "ley-40-2015-titulo-preliminar-capitulo-ii-seccion-3-subseccion-2",
+          "topicId": "ley-40-2015-regimen-juridico-sector-publico",
+          "title": "Título Preliminar - Capítulo II, Sección 3, Subsección 2: De los órganos colegiados en la Administración General del Estado",
+          "content": "Régimen de los órganos colegiados de la Administración General del Estado.",
+          "order": 4,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar-capitulo-ii-seccion-3-subseccion-2"
+          ]
+        },
+        {
+          "id": "ley-40-2015-titulo-preliminar-capitulo-ii-seccion-4",
+          "topicId": "ley-40-2015-regimen-juridico-sector-publico",
+          "title": "Título Preliminar - Capítulo II, Sección 4: Abstención y recusación",
+          "content": "Abstención y recusación de las autoridades y personal al servicio de las Administraciones Públicas.",
+          "order": 5,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar-capitulo-ii-seccion-4"
+          ]
+        },
+        {
+          "id": "ley-40-2015-titulo-preliminar-capitulo-v",
+          "topicId": "ley-40-2015-regimen-juridico-sector-publico",
+          "title": "Título Preliminar - Capítulo V: Funcionamiento electrónico del sector público",
+          "content": "Funcionamiento electrónico del sector público, sede electrónica y portal de internet.",
+          "order": 6,
+          "syllabusCoverageIds": [
+            "#titulo-preliminar-capitulo-v"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "comments": [],
+  "statistics": {
+    "totalTopics": 1,
+    "totalFlashcards": 0,
+    "totalQuestions": 0,
+    "totalTestAttempts": 0,
+    "averageTestScore": 0,
+    "studyStreak": 0,
+    "lastStudyDate": "",
+    "flashcardsReviewedToday": 0,
+    "questionsAnsweredToday": 0,
+    "topicProgress": {}
+  },
+  "studySessions": []
 }
