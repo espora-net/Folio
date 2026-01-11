@@ -76,7 +76,7 @@ De los derechos y deberes fundamentales
 1. La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social.
 2. Las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce se interpretarán de conformidad con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España.
 
-### CAPÍTULO PRIMERO <a id="capitulo-primero"></a>
+### CAPÍTULO I <a id="titulo-i_capitulo-i"></a>
 
 De los españoles y los extranjeros
 
@@ -103,7 +103,7 @@ Los españoles son mayores de edad a los dieciocho años.
 4. La ley establecerá los términos en que los ciudadanos de otros países y los apátridas podrán gozar del derecho de asilo en España.
 (Este artículo incluye la primera reforma constitucional promulgada el 27 de agosto de 1992. B.O.E., núm. 207, de 28 de agosto de 1992)
 
-### CAPITULO SEGUNDO <a id="capitulo-segundo"></a>
+### CAPÍTULO II <a id="titulo-i_capitulo-ii"></a>
 
 Derechos y libertades
 
@@ -282,7 +282,7 @@ La ley garantizará el derecho a la negociación colectiva laboral entre los rep
 
 Se reconoce la libertad de empresa en el marco de la economía de mercado. Los poderes públicos garantizan y protegen su ejercicio y la defensa de la productividad, de acuerdo con las exigencias de la economía general y, en su caso, de la planificación.
 
-### CAPITULO TERCERO <a id="capitulo-tercero"></a>
+### CAPÍTULO III <a id="titulo-i_capitulo-iii"></a>
 
 De los principios rectores de la política social y económica
 
@@ -357,7 +357,7 @@ Los poderes públicos garantizarán, mediante pensiones adecuadas y periódicame
 
 La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios. Su estructura interna y funcionamiento deberán ser democráticos.
 
-### CAPÍTULO CUARTO <a id="capitulo-cuarto"></a>
+### CAPÍTULO IV <a id="titulo-i_capitulo-iv"></a>
 
 De las garantías de las libertades y derechos fundamentales
 
@@ -376,7 +376,7 @@ tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).
 
 Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
 
-### CAPITULO QUINTO <a id="capitulo-quinto"></a>
+### CAPÍTULO V <a id="titulo-i_capitulo-v"></a>
 
 De la suspensión de los derechos y libertades
 
@@ -471,7 +471,7 @@ Corresponde al Rey:
 
 De las Cortes Generales
 
-### CAPÍTULO PRIMERO <a id="capitulo-primero-2"></a>
+### CAPÍTULO I <a id="titulo-iii_capitulo-i"></a>
 
 De las Cámaras
 
@@ -586,7 +586,7 @@ casos, si no hubiera acuerdo entre Senado y Congreso, se intentará obtener por 
 
 Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento.
 
-### CAPÍTULO SEGUNDO <a id="capitulo-segundo-2"></a>
+### CAPÍTULO II <a id="titulo-iii_capitulo-ii"></a>
 
 De la elaboración de las leyes
 
@@ -665,7 +665,7 @@ El Rey sancionará en el plazo de quince días las leyes aprobadas por las Corte
 
 <!-- page: 23 -->
 
-### CAPITULO TERCERO <a id="capitulo-tercero-2"></a>
+### CAPÍTULO III <a id="titulo-iii_capitulo-iii"></a>
 
 De los Tratados Internacionales
 
@@ -986,7 +986,7 @@ El volumen de deuda pública del conjunto de las Administraciones Públicas en r
 
 De la Organización Territorial del Estado
 
-### CAPÍTULO PRIMERO <a id="capitulo-primero-3"></a>
+### CAPÍTULO I <a id="titulo-viii_capitulo-i"></a>
 
 Principios generales
 
@@ -1006,7 +1006,7 @@ El Estado se organiza territorialmente en municipios, en provincias y en las Com
 
 <!-- page: 35 -->
 
-### CAPÍTULO SEGUNDO <a id="capitulo-segundo-3"></a>
+### CAPÍTULO II <a id="titulo-viii_capitulo-ii"></a>
 
 De la Administración Local
 
@@ -1025,7 +1025,7 @@ La Constitución garantiza la autonomía de los municipios. Estos gozarán de pe
 
 La Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.
 
-### CAPÍTULO TERCERO <a id="capitulo-tercero-3"></a>
+### CAPÍTULO III <a id="titulo-viii_capitulo-iii"></a>
 
 De las Comunidades Autónomas
 
