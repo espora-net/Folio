@@ -547,9 +547,13 @@ const Tests = () => {
                               let sectionId = materialId;
                               if (materialId?.includes('#')) {
                                 // Extract only the hash part (e.g., "file.md#articulo-70" -> "articulo-70")
-                                const parts = materialId.split('#');
-                                // Use the last part after split to handle multiple # (though unlikely)
-                                sectionId = parts[parts.length - 1] || materialId;
+                                // Use lastIndexOf to handle potential multiple # characters
+                                const hashIndex = materialId.lastIndexOf('#');
+                                const extracted = materialId.substring(hashIndex + 1);
+                                // Only use extracted value if it's non-empty
+                                if (extracted) {
+                                  sectionId = extracted;
+                                }
                               }
                               const sectionParam = sectionId ? `&section=${encodeURIComponent(sectionId)}` : '';
                               const trimmedBase = String(basePath).replace(/\/+$/, '');
