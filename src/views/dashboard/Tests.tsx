@@ -541,9 +541,21 @@ const Tests = () => {
                               // Extraer solo el nombre del archivo del path
                               const path = currentQuestion.source?.path || '';
                               const filename = path.split('/').pop()?.split('#')[0] || path;
-                              // Include materialId as section param for deep-linking to TOC element
+                              // Extract section ID from materialId (remove filename prefix if present)
+                              // materialId can be like "file.md#section-id" or just "section-id"
                               const materialId = currentQuestion.source?.materialId;
-                              const sectionParam = materialId ? `&section=${encodeURIComponent(materialId)}` : '';
+                              let sectionId = materialId;
+                              if (materialId?.includes('#')) {
+                                // Extract only the hash part (e.g., "file.md#articulo-70" -> "articulo-70")
+                                // Use lastIndexOf to handle potential multiple # characters
+                                const hashIndex = materialId.lastIndexOf('#');
+                                const extracted = materialId.substring(hashIndex + 1);
+                                // Only use extracted value if it's non-empty
+                                if (extracted) {
+                                  sectionId = extracted;
+                                }
+                              }
+                              const sectionParam = sectionId ? `&section=${encodeURIComponent(sectionId)}` : '';
                               const trimmedBase = String(basePath).replace(/\/+$/, '');
                               const url = `${trimmedBase}/dashboard/temario?file=${encodeURIComponent(filename)}${sectionParam}`.replace(/\/{2,}/g, '/');
                               window.open(url, '_blank');
