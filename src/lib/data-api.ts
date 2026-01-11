@@ -352,8 +352,8 @@ const buildDatasetEndpoint = (file: string) =>
 const resolveDatasetUrl = (descriptor: DatasetDescriptor): string => {
   const candidate = descriptor.url || descriptor.file;
   if (isAbsoluteUrl(candidate)) return candidate;
-  const cleanFile = candidate.replace(/^\/+/, '');
-  return `${DATASET_BASE_ENDPOINT}${cleanFile}`.replace(DUPLICATE_SLASHES, '/');
+  const cleanPath = candidate.replace(/^\/+/, '');
+  return `${DATASET_BASE_ENDPOINT}${cleanPath}`.replace(DUPLICATE_SLASHES, '/');
 };
 
 export const getCachedDatabase = (): Database => cachedDatabase;
