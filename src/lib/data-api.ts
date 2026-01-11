@@ -511,8 +511,38 @@ export const getConvocatoriaCoverageIds = (convocatoriaId: string): string[] => 
 };
 
 /**
+ * Comprueba si un ID de cobertura de un topic coincide con algún ID de cobertura
+ * de la convocatoria, utilizando matching jerárquico.
+ * 
+ * Por ejemplo:
+ * - Si la convocatoria incluye `#titulo-i`, entonces `#titulo-i-capitulo-ii` también coincide
+ * - Si la convocatoria incluye `#titulo-i`, entonces `#titulo-i_capitulo-ii` también coincide
+ * - Pero `#titulo-ii` NO coincide con `#titulo-i`
+ */
+const matchesCoverage = (topicCoverageId: string, convocatoriaCoverageIds: string[]): boolean => {
+  for (const convocatoriaCoverageId of convocatoriaCoverageIds) {
+    // Coincidencia exacta
+    if (topicCoverageId === convocatoriaCoverageId) {
+      return true;
+    }
+    // Coincidencia jerárquica: el ID del topic empieza con el ID de la convocatoria
+    // seguido de un separador ('-' o '_')
+    if (
+      topicCoverageId.startsWith(convocatoriaCoverageId + '-') ||
+      topicCoverageId.startsWith(convocatoriaCoverageId + '_')
+    ) {
+      return true;
+    }
+  }
+  return false;
+};
+
+/**
  * Filtra los IDs de topics/subtopics que tienen syllabusCoverageIds 
  * que coinciden con la cobertura de una convocatoria.
+ * 
+ * Soporta matching jerárquico: si la convocatoria incluye `#titulo-i`,
+ * los subtopics con `#titulo-i-capitulo-ii` también se incluyen.
  */
 export const getTopicIdsInConvocatoria = (
   topics: Topic[],
@@ -521,12 +551,11 @@ export const getTopicIdsInConvocatoria = (
   const coverageIds = getConvocatoriaCoverageIds(convocatoriaId);
   if (coverageIds.length === 0) return [];
   
-  const coverageSet = new Set(coverageIds);
   const matchingTopicIds: string[] = [];
   
   for (const topic of topics) {
-    // Un topic entra si alguno de sus syllabusCoverageIds está en la cobertura
-    if (topic.syllabusCoverageIds?.some(id => coverageSet.has(id))) {
+    // Un topic entra si alguno de sus syllabusCoverageIds coincide jerárquicamente
+    if (topic.syllabusCoverageIds?.some(id => matchesCoverage(id, coverageIds))) {
       matchingTopicIds.push(topic.id);
     }
   }
