@@ -22,6 +22,15 @@ mermaid.initialize({
   fontFamily: 'inherit',
 });
 
+// Utility function to escape regex special characters
+const escapeRegex = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Regex to match code blocks (multi-line and inline)
+const CODE_BLOCK_REGEX = /```[\s\S]*?```|`[^`]+`/g;
+
+// Highlight markup template
+const HIGHLIGHT_MARKUP = '<mark class="folio-highlight">$1</mark>';
+
 interface TocItem {
   id: string;
   text: string;
@@ -142,9 +151,6 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   const processedContent = useMemo(() => {
     if (!highlightText || !content) return content;
     
-    // Escape special regex characters in the highlight text
-    const escapeRegex = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    
     // Create a case-insensitive regex to find all occurrences
     const highlightRegex = new RegExp(
       `(${escapeRegex(highlightText)})`,
@@ -154,23 +160,23 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
     // Split content into code blocks and text sections to avoid highlighting in code
     const parts: string[] = [];
     let lastIndex = 0;
-    // Matches code blocks (multi-line and inline)
-    const codeBlockRegex = /```[\s\S]*?```|`[^`]+`/g;
-    let match;
     
-    while ((match = codeBlockRegex.exec(content)) !== null) {
+    // Use matchAll for safer iteration
+    const codeBlocks = Array.from(content.matchAll(CODE_BLOCK_REGEX));
+    
+    for (const match of codeBlocks) {
       // Add text before code block (with highlighting)
-      const textBefore = content.substring(lastIndex, match.index);
-      parts.push(textBefore.replace(highlightRegex, '<mark class="folio-highlight">$1</mark>'));
+      const textBefore = content.substring(lastIndex, match.index!);
+      parts.push(textBefore.replace(highlightRegex, HIGHLIGHT_MARKUP));
       
       // Add code block as-is (no highlighting)
       parts.push(match[0]);
-      lastIndex = match.index + match[0].length;
+      lastIndex = match.index! + match[0].length;
     }
     
     // Add remaining text (with highlighting)
     const textAfter = content.substring(lastIndex);
-    parts.push(textAfter.replace(highlightRegex, '<mark class="folio-highlight">$1</mark>'));
+    parts.push(textAfter.replace(highlightRegex, HIGHLIGHT_MARKUP));
     
     return parts.join('');
   }, [content, highlightText]);
