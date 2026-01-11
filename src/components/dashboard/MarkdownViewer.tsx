@@ -14,15 +14,6 @@ import { useIsMobile } from '@/hooks/use-mobile';
 // Import highlight.js styles for syntax highlighting
 import 'highlight.js/styles/github-dark.css';
 
-// Add custom styles for text highlighting
-const highlightStyles = `
-  .folio-highlight {
-    background-color: rgba(250, 204, 21, 0.4);
-    padding: 2px 0;
-    border-radius: 2px;
-  }
-`;
-
 // Initialize Mermaid with configuration
 mermaid.initialize({
   startOnLoad: false,
@@ -144,6 +135,9 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   const isMobile = useIsMobile();
   const initialScrollDone = useRef(false);
   
+  // Scroll delay constant
+  const HIGHLIGHT_SCROLL_DELAY = 200;
+  
   // Pre-process content to add highlight markup
   const processedContent = useMemo(() => {
     if (!highlightText || !content) return content;
@@ -219,7 +213,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
       if (highlightedElement) {
         highlightedElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 200);
+    }, HIGHLIGHT_SCROLL_DELAY);
     
     return () => clearTimeout(timer);
   }, [highlightText, processedContent]);
@@ -393,9 +387,6 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   if (isMobile) {
     return (
       <div className={`relative h-full flex flex-col ${className}`}>
-        {/* Inject highlight styles */}
-        <style dangerouslySetInnerHTML={{ __html: highlightStyles }} />
-        
         {/* Mobile TOC Toggle Button */}
         {toc.length > 0 && (
           <div className="flex-shrink-0 mb-4">
@@ -458,9 +449,6 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   // Desktop layout: two-column with sticky TOC sidebar
   return (
     <div className={`h-full flex gap-6 ${className}`}>
-      {/* Inject highlight styles */}
-      <style dangerouslySetInnerHTML={{ __html: highlightStyles }} />
-      
       {/* Markdown Content - scrollable main area */}
       <div className="flex-1 overflow-auto pr-4" ref={contentRef}>
         <div className="prose prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-base prose-li:text-base prose-table:text-sm max-w-none">
