@@ -518,13 +518,23 @@ export const getConvocatoriaCoverageIds = (convocatoriaId: string): string[] => 
  * - Si la convocatoria incluye `#titulo-i`, entonces `#titulo-i-capitulo-ii` también coincide
  * - Si la convocatoria incluye `#titulo-i`, entonces `#titulo-i_capitulo-ii` también coincide
  * - Pero `#titulo-ii` NO coincide con `#titulo-i`
+ * 
+ * @param topicCoverageId - El ID de cobertura del topic
+ * @param exactSet - Set de IDs de convocatoria para búsqueda exacta O(1)
+ * @param convocatoriaCoverageIds - Array de IDs de convocatoria para matching jerárquico
  */
-const matchesCoverage = (topicCoverageId: string, convocatoriaCoverageIds: string[]): boolean => {
+const matchesCoverage = (
+  topicCoverageId: string,
+  exactSet: Set<string>,
+  convocatoriaCoverageIds: string[]
+): boolean => {
+  // Primero intentar coincidencia exacta O(1)
+  if (exactSet.has(topicCoverageId)) {
+    return true;
+  }
+  
+  // Luego verificar coincidencia jerárquica
   for (const convocatoriaCoverageId of convocatoriaCoverageIds) {
-    // Coincidencia exacta
-    if (topicCoverageId === convocatoriaCoverageId) {
-      return true;
-    }
     // Coincidencia jerárquica: el ID del topic empieza con el ID de la convocatoria
     // seguido de un separador ('-' o '_')
     if (
@@ -551,11 +561,13 @@ export const getTopicIdsInConvocatoria = (
   const coverageIds = getConvocatoriaCoverageIds(convocatoriaId);
   if (coverageIds.length === 0) return [];
   
+  // Set para coincidencias exactas O(1)
+  const exactSet = new Set(coverageIds);
   const matchingTopicIds: string[] = [];
   
   for (const topic of topics) {
     // Un topic entra si alguno de sus syllabusCoverageIds coincide jerárquicamente
-    if (topic.syllabusCoverageIds?.some(id => matchesCoverage(id, coverageIds))) {
+    if (topic.syllabusCoverageIds?.some(id => matchesCoverage(id, exactSet, coverageIds))) {
       matchingTopicIds.push(topic.id);
     }
   }
