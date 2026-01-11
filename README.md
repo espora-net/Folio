@@ -135,3 +135,4 @@ Este comando valida `db.json` y todos los archivos `db-*.json` contra sus respec
 - `public/api/` es la única fuente de verdad de datos (runtime y fallback bundled).
 - `NEXT_PUBLIC_BASE_PATH` controla rutas y assets cuando se despliega bajo subdirectorio (p. ej. GitHub Pages).
 - La app evita persistir preguntas: `questions` vienen del dataset y `flashcards` se derivan a partir de ellas.
+- Los datasets pueden declararse con una `url` absoluta externa en `db.json`; en runtime se prioriza y se añade cache-busting. Requiere que el origen permita CORS.

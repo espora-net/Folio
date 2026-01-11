@@ -64,6 +64,8 @@ export interface DatasetDescriptor {
   title: string;
   description?: string;
   file: string;
+  // URL absoluta opcional cuando el dataset está alojado fuera de /public/api.
+  url?: string;
   tag?: string;
   color?: string;
   officialUrl?: string;

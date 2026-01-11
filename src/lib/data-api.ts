@@ -344,8 +344,17 @@ const buildFallbackDatabase = (index: DatabaseIndex): Database => {
 
 cachedDatabase = buildFallbackDatabase(baseIndex as DatabaseIndex);
 
+const isAbsoluteUrl = (value: string): boolean => /^https?:\/\//i.test(value);
+
 const buildDatasetEndpoint = (file: string) =>
   `${DATASET_BASE_ENDPOINT}${file}`.replace(DUPLICATE_SLASHES, '/');
+
+const resolveDatasetUrl = (descriptor: DatasetDescriptor): string => {
+  const candidate = descriptor.url || descriptor.file;
+  if (isAbsoluteUrl(candidate)) return candidate;
+  const cleanFile = candidate.replace(/^\/+/, '');
+  return `${DATASET_BASE_ENDPOINT}${cleanFile}`.replace(DUPLICATE_SLASHES, '/');
+};
 
 export const getCachedDatabase = (): Database => cachedDatabase;
 
@@ -372,7 +381,7 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
     const datasetPayloads: DatasetPayload[] = [];
 
     for (const descriptor of datasetDescriptors) {
-      const datasetUrl = buildDatasetEndpoint(descriptor.file);
+      const datasetUrl = resolveDatasetUrl(descriptor);
       try {
         const datasetResponse = await fetch(noCacheUrl(datasetUrl), { cache: 'no-store' });
         if (!datasetResponse.ok) throw new Error(`Unexpected dataset response: ${datasetResponse.status}`);
