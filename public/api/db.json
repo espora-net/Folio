@@ -130,7 +130,7 @@
       "title": "Constitución Española (actualización 2026)",
       "description": "Dataset remoto alojado en repo externo con preguntas actualizadas para la Constitución.",
       "file": "constitucion-espanola-2026.json",
-      "url": "https://github.com/espora-net/folio-data/blob/f65a992ea5b55fcd8e26c92c702ee4f690364d28/data/constitucion-espanola-2026.json?raw=1",
+      "url": "https://cdn.jsdelivr.net/gh/espora-net/folio-data@f65a992ea5b55fcd8e26c92c702ee4f690364d28/data/constitucion-espanola-2026.json",
       "tag": "Constitución",
       "color": "#1d4ed8",
       "officialUrl": "https://www.boe.es/eli/es/c/1978/12/27/(1)/con"
