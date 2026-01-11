@@ -131,11 +131,48 @@ const extractToc = (content: string): TocItem[] => {
 const MarkdownViewer = ({ content, className = '', scrollToSection, highlightText }: MarkdownViewerProps) => {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeHeading, setActiveHeading] = useState<string>('');
-  const toc = useMemo(() => extractToc(content), [content]);
   const contentRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile();
   const initialScrollDone = useRef(false);
-  const highlightDone = useRef(false);
+  
+  // Pre-process content to add highlight markup
+  const processedContent = useMemo(() => {
+    if (!highlightText || !content) return content;
+    
+    // Escape special regex characters in the highlight text
+    const escapeRegex = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    
+    // Create a case-insensitive regex to find all occurrences
+    // Use word boundary checks to avoid partial matches in code blocks
+    const highlightRegex = new RegExp(
+      `(${escapeRegex(highlightText)})`,
+      'gi'
+    );
+    
+    // Split content into code blocks and text sections to avoid highlighting in code
+    const parts: string[] = [];
+    let lastIndex = 0;
+    const codeBlockRegex = /```[\s\S]*?```|`[^`]+`/g;
+    let match;
+    
+    while ((match = codeBlockRegex.exec(content)) !== null) {
+      // Add text before code block (with highlighting)
+      const textBefore = content.substring(lastIndex, match.index);
+      parts.push(textBefore.replace(highlightRegex, '<mark class="folio-highlight" style="background-color: rgba(250, 204, 21, 0.4); padding: 2px 0; border-radius: 2px;">$1</mark>'));
+      
+      // Add code block as-is (no highlighting)
+      parts.push(match[0]);
+      lastIndex = match.index + match[0].length;
+    }
+    
+    // Add remaining text (with highlighting)
+    const textAfter = content.substring(lastIndex);
+    parts.push(textAfter.replace(highlightRegex, '<mark class="folio-highlight" style="background-color: rgba(250, 204, 21, 0.4); padding: 2px 0; border-radius: 2px;">$1</mark>'));
+    
+    return parts.join('');
+  }, [content, highlightText]);
+  
+  const toc = useMemo(() => extractToc(processedContent), [processedContent]);
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
@@ -150,7 +187,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
 
   // Scroll to initial section when content loads (via scrollToSection prop)
   useEffect(() => {
-    if (!scrollToSection || initialScrollDone.current || !content) return;
+    if (!scrollToSection || initialScrollDone.current || !processedContent) return;
     // Wait for content to render
     const timer = setTimeout(() => {
       const element = document.getElementById(scrollToSection);
@@ -161,78 +198,22 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
       }
     }, 100);
     return () => clearTimeout(timer);
-  }, [scrollToSection, content]);
+  }, [scrollToSection, processedContent]);
 
-  // Highlight text in the rendered content
+  // Scroll to first highlighted element when highlightText is provided
   useEffect(() => {
-    if (!highlightText || !content || highlightDone.current || !contentRef.current) return;
-
-    const highlightInNode = (node: Node) => {
-      if (node.nodeType === Node.TEXT_NODE) {
-        const textContent = node.textContent || '';
-        const lowerText = textContent.toLowerCase();
-        const lowerHighlight = highlightText.toLowerCase();
-        const index = lowerText.indexOf(lowerHighlight);
-        
-        if (index !== -1) {
-          // Found a match - split and wrap with highlight span
-          const beforeText = textContent.substring(0, index);
-          const matchText = textContent.substring(index, index + highlightText.length);
-          const afterText = textContent.substring(index + highlightText.length);
-          
-          const fragment = document.createDocumentFragment();
-          if (beforeText) fragment.appendChild(document.createTextNode(beforeText));
-          
-          const mark = document.createElement('mark');
-          mark.className = 'folio-highlight';
-          mark.style.backgroundColor = 'rgba(250, 204, 21, 0.4)'; // yellow-400 with opacity
-          mark.style.padding = '2px 0';
-          mark.style.borderRadius = '2px';
-          mark.textContent = matchText;
-          fragment.appendChild(mark);
-          
-          if (afterText) fragment.appendChild(document.createTextNode(afterText));
-          
-          node.parentNode?.replaceChild(fragment, node);
-          return true; // Found a match
-        }
-      } else if (node.nodeType === Node.ELEMENT_NODE) {
-        const element = node as Element;
-        // Skip code blocks, pre elements, and already highlighted elements
-        if (
-          element.tagName === 'CODE' || 
-          element.tagName === 'PRE' || 
-          element.classList.contains('folio-highlight')
-        ) {
-          return false;
-        }
-        
-        // Process child nodes
-        const children = Array.from(node.childNodes);
-        for (const child of children) {
-          if (highlightInNode(child)) {
-            return true; // Stop after first match
-          }
-        }
-      }
-      return false;
-    };
-
+    if (!highlightText || !processedContent || !contentRef.current) return;
+    
     // Wait for content to render
     const timer = setTimeout(() => {
-      const firstMatch = highlightInNode(contentRef.current!);
-      if (firstMatch) {
-        // Scroll to the first highlighted element
-        const highlightedElement = contentRef.current!.querySelector('.folio-highlight');
-        if (highlightedElement) {
-          highlightedElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
+      const highlightedElement = contentRef.current?.querySelector('.folio-highlight');
+      if (highlightedElement) {
+        highlightedElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-      highlightDone.current = true;
-    }, 150);
+    }, 200);
     
     return () => clearTimeout(timer);
-  }, [highlightText, content]);
+  }, [highlightText, processedContent]);
 
   // Track active heading based on scroll position
   useEffect(() => {
@@ -454,7 +435,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
               rehypePlugins={[rehypeRaw, rehypeHighlight]}
               components={components}
             >
-              {content}
+              {processedContent}
             </ReactMarkdown>
           </div>
         </div>
@@ -473,7 +454,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
             rehypePlugins={[rehypeRaw, rehypeHighlight]}
             components={components}
           >
-            {content}
+            {processedContent}
           </ReactMarkdown>
         </div>
       </div>
