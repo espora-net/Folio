@@ -545,9 +545,11 @@ const Tests = () => {
                               // materialId can be like "file.md#section-id" or just "section-id"
                               const materialId = currentQuestion.source?.materialId;
                               let sectionId = materialId;
-                              if (materialId && materialId.includes('#')) {
+                              if (materialId?.includes('#')) {
                                 // Extract only the hash part (e.g., "file.md#articulo-70" -> "articulo-70")
-                                sectionId = materialId.split('#')[1];
+                                const parts = materialId.split('#');
+                                // Use the last part after split to handle multiple # (though unlikely)
+                                sectionId = parts[parts.length - 1] || materialId;
                               }
                               const sectionParam = sectionId ? `&section=${encodeURIComponent(sectionId)}` : '';
                               const trimmedBase = String(basePath).replace(/\/+$/, '');
