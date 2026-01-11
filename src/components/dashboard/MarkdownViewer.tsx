@@ -14,6 +14,15 @@ import { useIsMobile } from '@/hooks/use-mobile';
 // Import highlight.js styles for syntax highlighting
 import 'highlight.js/styles/github-dark.css';
 
+// Add custom styles for text highlighting
+const highlightStyles = `
+  .folio-highlight {
+    background-color: rgba(250, 204, 21, 0.4);
+    padding: 2px 0;
+    border-radius: 2px;
+  }
+`;
+
 // Initialize Mermaid with configuration
 mermaid.initialize({
   startOnLoad: false,
@@ -143,7 +152,6 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
     const escapeRegex = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     
     // Create a case-insensitive regex to find all occurrences
-    // Use word boundary checks to avoid partial matches in code blocks
     const highlightRegex = new RegExp(
       `(${escapeRegex(highlightText)})`,
       'gi'
@@ -152,13 +160,14 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
     // Split content into code blocks and text sections to avoid highlighting in code
     const parts: string[] = [];
     let lastIndex = 0;
+    // Matches code blocks (multi-line and inline)
     const codeBlockRegex = /```[\s\S]*?```|`[^`]+`/g;
     let match;
     
     while ((match = codeBlockRegex.exec(content)) !== null) {
       // Add text before code block (with highlighting)
       const textBefore = content.substring(lastIndex, match.index);
-      parts.push(textBefore.replace(highlightRegex, '<mark class="folio-highlight" style="background-color: rgba(250, 204, 21, 0.4); padding: 2px 0; border-radius: 2px;">$1</mark>'));
+      parts.push(textBefore.replace(highlightRegex, '<mark class="folio-highlight">$1</mark>'));
       
       // Add code block as-is (no highlighting)
       parts.push(match[0]);
@@ -167,7 +176,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
     
     // Add remaining text (with highlighting)
     const textAfter = content.substring(lastIndex);
-    parts.push(textAfter.replace(highlightRegex, '<mark class="folio-highlight" style="background-color: rgba(250, 204, 21, 0.4); padding: 2px 0; border-radius: 2px;">$1</mark>'));
+    parts.push(textAfter.replace(highlightRegex, '<mark class="folio-highlight">$1</mark>'));
     
     return parts.join('');
   }, [content, highlightText]);
@@ -384,6 +393,9 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   if (isMobile) {
     return (
       <div className={`relative h-full flex flex-col ${className}`}>
+        {/* Inject highlight styles */}
+        <style dangerouslySetInnerHTML={{ __html: highlightStyles }} />
+        
         {/* Mobile TOC Toggle Button */}
         {toc.length > 0 && (
           <div className="flex-shrink-0 mb-4">
@@ -446,6 +458,9 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   // Desktop layout: two-column with sticky TOC sidebar
   return (
     <div className={`h-full flex gap-6 ${className}`}>
+      {/* Inject highlight styles */}
+      <style dangerouslySetInnerHTML={{ __html: highlightStyles }} />
+      
       {/* Markdown Content - scrollable main area */}
       <div className="flex-1 overflow-auto pr-4" ref={contentRef}>
         <div className="prose prose-slate dark:prose-invert prose-headings:font-semibold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-base prose-li:text-base prose-table:text-sm max-w-none">
