@@ -65,6 +65,12 @@ Cada convocatoria en el array `convocatorias` debe incluir:
 
 En el ejemplo anterior, `conv-2025` está explícitamente inactiva, mientras que `conv-2026` está activa por defecto al no especificar el campo.
 
+### Datasets externos en `db.json`
+
+- Cada dataset mantiene el campo `file` (nombre lógico o archivo esperado bajo `/public/api`) y **puede** declarar una `url` absoluta cuando los datos se alojan en un repositorio externo.
+- En runtime, la aplicación prioriza `url` (si existe) y añade un cache-buster `_v` por minuto. `file` sigue siendo obligatorio para compatibilidad y como posible fallback local.
+- Asegúrate de que la URL externa permita CORS y sea accesible con los permisos del usuario autenticado.
+
 ### 2. `question-bank.schema.json`
 
 Schema consolidado para archivos `db-*.json` que contienen datasets de preguntas y flashcards.

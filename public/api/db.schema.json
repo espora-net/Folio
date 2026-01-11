@@ -160,7 +160,12 @@
         },
         "file": {
           "type": "string",
-          "description": "Nombre del archivo JSON del dataset (debe ser db-*.json)."
+          "description": "Nombre del archivo JSON del dataset (debe ser db-*.json) o ruta relativa dentro de /api."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL absoluta opcional para datasets alojados en repositorios externos (se usa en runtime)."
         },
         "tag": {
           "type": "string",

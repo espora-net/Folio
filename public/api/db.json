@@ -3,7 +3,7 @@
     "title": "Folio - Índice de datos",
     "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
     "version": "2026.01",
-    "updatedAt": "2026-01-10T00:00:00.000Z"
+    "updatedAt": "2026-01-11T00:00:00.000Z"
   },
   "studyTypes": [
     {
@@ -64,6 +64,7 @@
       "activa": false,
       "studyType": "oposiciones",
       "questionDatasetIds": [
+        "constitucion-espanola-2026",
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
@@ -120,6 +121,16 @@
       "title": "Constitución Española 1978",
       "description": "Preguntas y flashcards organizadas por títulos y capítulos de la Constitución.",
       "file": "db-constitucion.json",
+      "tag": "Constitución",
+      "color": "#1d4ed8",
+      "officialUrl": "https://www.boe.es/eli/es/c/1978/12/27/(1)/con"
+    },
+    {
+      "id": "constitucion-espanola-2026",
+      "title": "Constitución Española (actualización 2026)",
+      "description": "Dataset remoto alojado en repo externo con preguntas actualizadas para la Constitución.",
+      "file": "constitucion-espanola-2026.json",
+      "url": "https://raw.githubusercontent.com/espora-net/folio-data/refs/heads/main/data/constitucion-espanola-2026.json",
       "tag": "Constitución",
       "color": "#1d4ed8",
       "officialUrl": "https://www.boe.es/eli/es/c/1978/12/27/(1)/con"
