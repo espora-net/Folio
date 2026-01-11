@@ -556,8 +556,11 @@ const Tests = () => {
                                 }
                               }
                               const sectionParam = sectionId ? `&section=${encodeURIComponent(sectionId)}` : '';
+                              // Add highlight parameter if highlightText is available
+                              const highlightText = currentQuestion.source?.highlightText || '';
+                              const highlightParam = highlightText ? `&highlight=${encodeURIComponent(highlightText)}` : '';
                               const trimmedBase = String(basePath).replace(/\/+$/, '');
-                              const url = `${trimmedBase}/dashboard/temario?file=${encodeURIComponent(filename)}${sectionParam}`.replace(/\/{2,}/g, '/');
+                              const url = `${trimmedBase}/dashboard/temario?file=${encodeURIComponent(filename)}${sectionParam}${highlightParam}`.replace(/\/{2,}/g, '/');
                               window.open(url, '_blank');
                             }}
                           >

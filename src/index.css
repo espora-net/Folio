@@ -158,3 +158,10 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Text highlighting for temario */
+.folio-highlight {
+  background-color: rgba(250, 204, 21, 0.4);
+  padding: 2px 0;
+  border-radius: 2px;
+}

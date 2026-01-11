@@ -22,6 +22,15 @@ mermaid.initialize({
   fontFamily: 'inherit',
 });
 
+// Utility function to escape regex special characters
+const escapeRegex = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Regex to match code blocks (multi-line and inline)
+const CODE_BLOCK_REGEX = /```[\s\S]*?```|`[^`]+`/g;
+
+// Highlight markup template
+const HIGHLIGHT_MARKUP = '<mark class="folio-highlight">$1</mark>';
+
 interface TocItem {
   id: string;
   text: string;
@@ -33,6 +42,8 @@ interface MarkdownViewerProps {
   className?: string;
   /** Optional section ID to scroll to after content loads */
   scrollToSection?: string;
+  /** Optional text to highlight in yellow */
+  highlightText?: string;
 }
 
 /**
@@ -124,14 +135,53 @@ const extractToc = (content: string): TocItem[] => {
  * - HTML rendering support
  * - Sticky table of contents sidebar (desktop) / dropdown (mobile)
  * - Full height layout
+ * - Text highlighting support
  */
-const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownViewerProps) => {
+const MarkdownViewer = ({ content, className = '', scrollToSection, highlightText }: MarkdownViewerProps) => {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeHeading, setActiveHeading] = useState<string>('');
-  const toc = useMemo(() => extractToc(content), [content]);
   const contentRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile();
   const initialScrollDone = useRef(false);
+  
+  // Scroll delay constant
+  const HIGHLIGHT_SCROLL_DELAY = 200;
+  
+  // Pre-process content to add highlight markup
+  const processedContent = useMemo(() => {
+    if (!highlightText || !content) return content;
+    
+    // Create a case-insensitive regex to find all occurrences
+    const highlightRegex = new RegExp(
+      `(${escapeRegex(highlightText)})`,
+      'gi'
+    );
+    
+    // Split content into code blocks and text sections to avoid highlighting in code
+    const parts: string[] = [];
+    let lastIndex = 0;
+    
+    // Use matchAll for safer iteration
+    const codeBlocks = Array.from(content.matchAll(CODE_BLOCK_REGEX));
+    
+    for (const match of codeBlocks) {
+      // Add text before code block (with highlighting)
+      const textBefore = content.substring(lastIndex, match.index!);
+      parts.push(textBefore.replace(highlightRegex, HIGHLIGHT_MARKUP));
+      
+      // Add code block as-is (no highlighting)
+      parts.push(match[0]);
+      lastIndex = match.index! + match[0].length;
+    }
+    
+    // Add remaining text (with highlighting)
+    const textAfter = content.substring(lastIndex);
+    parts.push(textAfter.replace(highlightRegex, HIGHLIGHT_MARKUP));
+    
+    return parts.join('');
+  }, [content, highlightText]);
+  
+  const toc = useMemo(() => extractToc(processedContent), [processedContent]);
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
@@ -146,7 +196,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownVi
 
   // Scroll to initial section when content loads (via scrollToSection prop)
   useEffect(() => {
-    if (!scrollToSection || initialScrollDone.current || !content) return;
+    if (!scrollToSection || initialScrollDone.current || !processedContent) return;
     // Wait for content to render
     const timer = setTimeout(() => {
       const element = document.getElementById(scrollToSection);
@@ -157,7 +207,22 @@ const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownVi
       }
     }, 100);
     return () => clearTimeout(timer);
-  }, [scrollToSection, content]);
+  }, [scrollToSection, processedContent]);
+
+  // Scroll to first highlighted element when highlightText is provided
+  useEffect(() => {
+    if (!highlightText || !processedContent || !contentRef.current) return;
+    
+    // Wait for content to render
+    const timer = setTimeout(() => {
+      const highlightedElement = contentRef.current?.querySelector('.folio-highlight');
+      if (highlightedElement) {
+        highlightedElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, HIGHLIGHT_SCROLL_DELAY);
+    
+    return () => clearTimeout(timer);
+  }, [highlightText, processedContent]);
 
   // Track active heading based on scroll position
   useEffect(() => {
@@ -379,7 +444,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownVi
               rehypePlugins={[rehypeRaw, rehypeHighlight]}
               components={components}
             >
-              {content}
+              {processedContent}
             </ReactMarkdown>
           </div>
         </div>
@@ -398,7 +463,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownVi
             rehypePlugins={[rehypeRaw, rehypeHighlight]}
             components={components}
           >
-            {content}
+            {processedContent}
           </ReactMarkdown>
         </div>
       </div>
