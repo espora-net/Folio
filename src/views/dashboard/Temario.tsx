@@ -32,6 +32,8 @@ type ViewerState = {
   content?: string;
   /** Section ID to scroll to (from URL param) */
   scrollToSection?: string;
+  /** Text to highlight (from URL param) */
+  highlightText?: string;
 };
 
 type TranscriptState = {
@@ -52,7 +54,7 @@ const Temario = () => {
   const [loadingContent, setLoadingContent] = useState(false);
   const [transcript, setTranscript] = useState<TranscriptState>({ data: null, markdown: null });
   // Pending deep-link params to process after convocatoria data loads
-  const [pendingDeepLink, setPendingDeepLink] = useState<{ file: string; section?: string } | null>(null);
+  const [pendingDeepLink, setPendingDeepLink] = useState<{ file: string; section?: string; highlight?: string } | null>(null);
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const DUPLICATE_SLASHES = /\/{2,}/g;
@@ -92,13 +94,14 @@ const Temario = () => {
       
       setLoading(false);
       
-      // Read URL parameters for deep-linking: ?file=<filename>&section=<sectionId>
+      // Read URL parameters for deep-linking: ?file=<filename>&section=<sectionId>&highlight=<text>
       if (typeof window !== 'undefined') {
         const params = new URLSearchParams(window.location.search);
         const file = params.get('file');
         const section = params.get('section') || undefined;
+        const highlight = params.get('highlight') || undefined;
         if (file) {
-          setPendingDeepLink({ file, section });
+          setPendingDeepLink({ file, section, highlight });
         }
       }
     };
@@ -110,7 +113,7 @@ const Temario = () => {
   useEffect(() => {
     if (!pendingDeepLink || !convocatoriaData) return;
     
-    const { file, section } = pendingDeepLink;
+    const { file, section, highlight } = pendingDeepLink;
     setPendingDeepLink(null); // Clear pending to avoid re-processing
     
     // Find the tema and recurso that matches the file
@@ -121,7 +124,7 @@ const Temario = () => {
         if (recursoFilename === file || recurso.archivo.includes(file)) {
           // Found matching recurso - select tema and open the recurso
           setSelectedTema(tema);
-          handleOpenRecurso(recurso, section);
+          handleOpenRecurso(recurso, section, highlight);
           return;
         }
       }
@@ -136,7 +139,7 @@ const Temario = () => {
         nombre: file,
         archivo: `data/general/${file}`
       };
-      handleOpenRecurso(syntheticRecurso, section);
+      handleOpenRecurso(syntheticRecurso, section, highlight);
     }
   }, [pendingDeepLink, convocatoriaData]);
 
@@ -174,7 +177,7 @@ const Temario = () => {
     return `${trimmedBase}/api/${cleanArchivo}`.replace(DUPLICATE_SLASHES, '/');
   };
 
-  const handleOpenRecurso = async (recurso: TemaRecurso, scrollToSection?: string) => {
+  const handleOpenRecurso = async (recurso: TemaRecurso, scrollToSection?: string, highlightText?: string) => {
     const url = getRecursoUrl(recurso.archivo);
     
     if (recurso.tipo === 'db') {
@@ -186,7 +189,7 @@ const Temario = () => {
 
     if (recurso.tipo === 'md') {
       setLoadingContent(true);
-      setViewer({ type: 'md', url, nombre: recurso.nombre, scrollToSection });
+      setViewer({ type: 'md', url, nombre: recurso.nombre, scrollToSection, highlightText });
       try {
         // Añadir cache busting para evitar caché del navegador
         const cacheBuster = Math.floor(Date.now() / 60000);
@@ -351,7 +354,12 @@ const Temario = () => {
                 <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
               </div>
             ) : (
-              <MarkdownViewer content={mdContent} className="h-full" scrollToSection={viewer.scrollToSection} />
+              <MarkdownViewer 
+                content={mdContent} 
+                className="h-full" 
+                scrollToSection={viewer.scrollToSection} 
+                highlightText={viewer.highlightText}
+              />
             )}
           </div>
         )}

@@ -33,6 +33,8 @@ interface MarkdownViewerProps {
   className?: string;
   /** Optional section ID to scroll to after content loads */
   scrollToSection?: string;
+  /** Optional text to highlight in yellow */
+  highlightText?: string;
 }
 
 /**
@@ -124,14 +126,16 @@ const extractToc = (content: string): TocItem[] => {
  * - HTML rendering support
  * - Sticky table of contents sidebar (desktop) / dropdown (mobile)
  * - Full height layout
+ * - Text highlighting support
  */
-const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownViewerProps) => {
+const MarkdownViewer = ({ content, className = '', scrollToSection, highlightText }: MarkdownViewerProps) => {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeHeading, setActiveHeading] = useState<string>('');
   const toc = useMemo(() => extractToc(content), [content]);
   const contentRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile();
   const initialScrollDone = useRef(false);
+  const highlightDone = useRef(false);
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
@@ -158,6 +162,77 @@ const MarkdownViewer = ({ content, className = '', scrollToSection }: MarkdownVi
     }, 100);
     return () => clearTimeout(timer);
   }, [scrollToSection, content]);
+
+  // Highlight text in the rendered content
+  useEffect(() => {
+    if (!highlightText || !content || highlightDone.current || !contentRef.current) return;
+
+    const highlightInNode = (node: Node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const textContent = node.textContent || '';
+        const lowerText = textContent.toLowerCase();
+        const lowerHighlight = highlightText.toLowerCase();
+        const index = lowerText.indexOf(lowerHighlight);
+        
+        if (index !== -1) {
+          // Found a match - split and wrap with highlight span
+          const beforeText = textContent.substring(0, index);
+          const matchText = textContent.substring(index, index + highlightText.length);
+          const afterText = textContent.substring(index + highlightText.length);
+          
+          const fragment = document.createDocumentFragment();
+          if (beforeText) fragment.appendChild(document.createTextNode(beforeText));
+          
+          const mark = document.createElement('mark');
+          mark.className = 'folio-highlight';
+          mark.style.backgroundColor = 'rgba(250, 204, 21, 0.4)'; // yellow-400 with opacity
+          mark.style.padding = '2px 0';
+          mark.style.borderRadius = '2px';
+          mark.textContent = matchText;
+          fragment.appendChild(mark);
+          
+          if (afterText) fragment.appendChild(document.createTextNode(afterText));
+          
+          node.parentNode?.replaceChild(fragment, node);
+          return true; // Found a match
+        }
+      } else if (node.nodeType === Node.ELEMENT_NODE) {
+        const element = node as Element;
+        // Skip code blocks, pre elements, and already highlighted elements
+        if (
+          element.tagName === 'CODE' || 
+          element.tagName === 'PRE' || 
+          element.classList.contains('folio-highlight')
+        ) {
+          return false;
+        }
+        
+        // Process child nodes
+        const children = Array.from(node.childNodes);
+        for (const child of children) {
+          if (highlightInNode(child)) {
+            return true; // Stop after first match
+          }
+        }
+      }
+      return false;
+    };
+
+    // Wait for content to render
+    const timer = setTimeout(() => {
+      const firstMatch = highlightInNode(contentRef.current!);
+      if (firstMatch) {
+        // Scroll to the first highlighted element
+        const highlightedElement = contentRef.current!.querySelector('.folio-highlight');
+        if (highlightedElement) {
+          highlightedElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+      highlightDone.current = true;
+    }, 150);
+    
+    return () => clearTimeout(timer);
+  }, [highlightText, content]);
 
   // Track active heading based on scroll position
   useEffect(() => {
