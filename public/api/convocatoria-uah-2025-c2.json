@@ -187,10 +187,10 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
-        "#titulo-i-objeto-y-ambito-de-aplicacion",
-        "#capitulo-i-clases-de-personal",
-        "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos",
-        "#titulo-vii-regimen-disciplinario"
+        "#titulo-i",
+        "#titulo-ii-capitulo-i",
+        "#titulo-iii",
+        "#titulo-vii"
       ],
       "recursos": [
         {
@@ -221,10 +221,10 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
-        "#capitulo-i",
-        "#capitulo-ii",
-        "#capitulo-iii",
-        "#capitulo-iv"
+        "#ley-53-1984-capitulo-i",
+        "#ley-53-1984-capitulo-ii",
+        "#ley-53-1984-capitulo-iii",
+        "#ley-53-1984-capitulo-iv"
       ],
       "recursos": [
         {
@@ -250,10 +250,10 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
-        "#capitulo-i",
-        "#capitulo-iii",
-        "#capitulo-iv",
-        "#capitulo-v"
+        "#ley-31-1995-capitulo-i",
+        "#ley-31-1995-capitulo-iii",
+        "#ley-31-1995-capitulo-iv",
+        "#ley-31-1995-capitulo-v"
       ],
       "recursos": [
         {
@@ -333,7 +333,7 @@
       "relevancia": "media",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
-        "#capitulo-iv"
+        "#normativa-gestion-economica-uah-capitulo-iv"
       ],
       "recursos": [
         {

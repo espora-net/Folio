@@ -60,12 +60,12 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
-        "#titulo-i-objeto-y-ambito-de-aplicacion",
-        "#capitulo-i-clases-de-personal",
-        "#titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos",
-        "#titulo-iv-adquisicion-y-perdida-de-la-relacion-de-servicio",
-        "#capitulo-iii-provision-de-puestos-de-trabajo",
-        "#titulo-vii-regimen-disciplinario"
+        "#titulo-i",
+        "#titulo-ii-capitulo-i",
+        "#titulo-iii",
+        "#titulo-iv",
+        "#titulo-v-capitulo-iii",
+        "#titulo-vii"
       ],
       "recursos": [
         {
@@ -526,10 +526,8 @@
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
-        "#ley-propiedad-intelectual",
-        "#capitulo-iii-titulo-ii",
-        "#creative-commons",
-        "#tipologia-cc"
+        "#libro-primero-titulo-ii-capitulo-iii",
+        "#creative-commons"
       ],
       "recursos": []
     }
