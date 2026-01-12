@@ -181,6 +181,64 @@ const MarkdownViewer = dynamic(
 
 ## 2. Optimizaciones al Publicar (Sin Modificar Código)
 
+### 2.0. Cómo usar Cloudflare con GitHub Pages
+
+Cloudflare actúa como un **proxy/CDN** entre los usuarios y GitHub Pages. No reemplaza GitHub Pages, sino que se sitúa delante para añadir optimizaciones.
+
+**Requisitos:**
+- Un dominio propio (ej: `folio.tudominio.com`)
+- Cuenta gratuita en Cloudflare
+
+**Paso a paso:**
+
+1. **Registrar dominio en Cloudflare:**
+   - Crear cuenta en [cloudflare.com](https://cloudflare.com)
+   - Añadir el dominio y seguir el asistente
+   - Cloudflare te dará dos nameservers (ej: `ns1.cloudflare.com`)
+   - Actualizar los nameservers en tu registrador de dominios
+
+2. **Configurar DNS en Cloudflare:**
+   - Crear un registro CNAME:
+     - Nombre: `folio` (o `@` para dominio raíz)
+     - Destino: `<usuario>.github.io`
+     - Proxy status: **Proxied** (nube naranja activada)
+
+3. **Configurar GitHub Pages con dominio personalizado:**
+   - En el repositorio: Settings > Pages
+   - En "Custom domain", introducir `folio.tudominio.com`
+   - Marcar "Enforce HTTPS"
+
+4. **Configurar SSL en Cloudflare:**
+   - SSL/TLS > Overview: Seleccionar "Full (strict)"
+   - Edge Certificates: Habilitar "Always Use HTTPS"
+
+5. **Habilitar optimizaciones:**
+   - Speed > Optimization: Habilitar "Brotli"
+   - Speed > Optimization: Habilitar "Auto Minify" (JS, CSS, HTML)
+   - Caching > Configuration: Browser Cache TTL → 4 horas o más
+   - Network: Habilitar HTTP/3 (QUIC)
+
+**Diagrama de flujo:**
+```
+Usuario → Cloudflare (CDN + Brotli + Cache) → GitHub Pages (origen)
+```
+
+**Ventajas de esta configuración:**
+- ✅ Compresión Brotli (mejor que Gzip de GitHub Pages)
+- ✅ Cache en edge servers globales
+- ✅ HTTP/3 (QUIC) para menor latencia
+- ✅ Protección DDoS
+- ✅ Analytics de tráfico
+- ✅ Gratuito para uso personal/pequeño
+
+**Sin dominio propio:**
+Si no tienes dominio propio, puedes usar GitHub Pages directamente (`<usuario>.github.io/Folio`). Las optimizaciones de Cloudflare no estarán disponibles, pero GitHub Pages ofrece:
+- Gzip automático
+- HTTP/2
+- CDN básico de GitHub
+
+---
+
 ### 2.1. Compresión (Brotli/Gzip)
 
 **Estado actual:**
