@@ -26,7 +26,11 @@ let cachedDatabase: Database = {
 
 const cachedConvocatorias: Map<string, ConvocatoriaData> = new Map();
 
+let lastGeneratedAt: string | null = null;
+
 export const getCachedDatabase = (): Database => cachedDatabase;
+
+export const getLastGeneratedAt = (): string | null => lastGeneratedAt;
 
 // Re-export types needed by components
 export type { ConvocatoriaDescriptor, Topic } from './data-types';
@@ -38,8 +42,9 @@ export const fetchDatabaseFromApi = async (): Promise<Database> => {
     return cachedDatabase;
   }
 
-  const { database, convocatorias } = await fetchOptimizedData();
+  const { database, convocatorias, manifest } = await fetchOptimizedData();
   cachedDatabase = database;
+  lastGeneratedAt = manifest.generatedAt ?? null;
   cachedConvocatorias.clear();
   convocatorias.forEach((value, key) => cachedConvocatorias.set(key, value));
   return cachedDatabase;
