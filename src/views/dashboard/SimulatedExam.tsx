@@ -23,7 +23,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
-import { TestQuestion, Topic, getQuestions, getTopics } from '@/lib/storage';
+import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, recordTopicResults } from '@/lib/storage';
 import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
@@ -94,11 +94,56 @@ const SimulatedExam = () => {
 
   const finishExam = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
+
+    // Calculate results inline (same logic as calculateScore)
+    let correct = 0;
+    let incorrect = 0;
+    answers.forEach((answer, i) => {
+      if (answer.selectedAnswer === null) return;
+      if (answer.selectedAnswer === examQuestions[i]?.correctIndex) {
+        correct++;
+      } else {
+        incorrect++;
+      }
+    });
+
+    // Save stats for the simulacro
+    const stats = getStats();
+    stats.simulacrosCompleted = (stats.simulacrosCompleted ?? 0) + 1;
+    stats.testsCompleted += 1;
+    stats.correctAnswers += correct;
+    stats.questionsAnswered = (stats.questionsAnswered ?? 0) + correct + incorrect;
+    saveStats(stats);
+
+    // Track per-topic performance
+    const topicResults: Record<string, { correct: number; incorrect: number }> = {};
+    answers.forEach((answer, i) => {
+      if (answer.selectedAnswer === null) return;
+      const question = examQuestions[i];
+      if (!question?.topicId) return;
+      if (!topicResults[question.topicId]) {
+        topicResults[question.topicId] = { correct: 0, incorrect: 0 };
+      }
+      if (answer.selectedAnswer === question.correctIndex) {
+        topicResults[question.topicId].correct += 1;
+      } else {
+        topicResults[question.topicId].incorrect += 1;
+      }
+    });
+    const results = Object.entries(topicResults).map(([topicId, data]) => ({
+      topicId,
+      correct: data.correct,
+      incorrect: data.incorrect,
+    }));
+    if (results.length > 0) {
+      recordTopicResults(results);
+    }
+
     setExamPhase('results');
     if (document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
     }
-  }, []);
+  }, [answers, examQuestions]);
 
   const finishExamRef = useRef(finishExam);
   finishExamRef.current = finishExam;

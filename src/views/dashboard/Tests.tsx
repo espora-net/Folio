@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck, SkipForward } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -22,7 +22,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
+import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode, recordTopicResults } from '@/lib/storage';
 import { getActiveConvocatoria, getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
@@ -104,6 +104,7 @@ const Tests = () => {
   const [score, setScore] = useState(0);
   const [skippedCount, setSkippedCount] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
+  const topicResultsRef = useRef<Record<string, { correct: number; incorrect: number }>>({});
   const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
   const [filtersLoaded, setFiltersLoaded] = useState(false);
   const { toast } = useToast();
@@ -247,10 +248,49 @@ const Tests = () => {
   const handleAnswer = () => {
     if (selectedAnswer === null) return;
 
-    const isCorrect = selectedAnswer === testQuestions[currentIndex].correctIndex;
+    const question = testQuestions[currentIndex];
+    const isCorrect = selectedAnswer === question.correctIndex;
     if (isCorrect) setScore(prev => prev + 1);
 
+    // Track per-topic performance
+    const topicId = question.topicId;
+    if (topicId) {
+      if (!topicResultsRef.current[topicId]) {
+        topicResultsRef.current[topicId] = { correct: 0, incorrect: 0 };
+      }
+      if (isCorrect) {
+        topicResultsRef.current[topicId].correct += 1;
+      } else {
+        topicResultsRef.current[topicId].incorrect += 1;
+      }
+    }
+
     setShowResult(true);
+  };
+
+  const saveTestResults = () => {
+    const stats = getStats();
+    stats.testsCompleted += 1;
+    stats.correctAnswers += score;
+    stats.questionsAnswered = (stats.questionsAnswered ?? 0) + testQuestions.length - skippedCount;
+    saveStats(stats);
+
+    // Save per-topic performance
+    const results = Object.entries(topicResultsRef.current).map(([topicId, data]) => ({
+      topicId,
+      correct: data.correct,
+      incorrect: data.incorrect,
+    }));
+    if (results.length > 0) {
+      recordTopicResults(results);
+    }
+    topicResultsRef.current = {};
+  };
+
+  const finishTest = () => {
+    saveTestResults();
+    setTesting(false);
+    setShowFinalResults(true);
   };
 
   const nextQuestion = () => {
@@ -259,13 +299,7 @@ const Tests = () => {
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
-      const stats = getStats();
-      stats.testsCompleted += 1;
-      stats.correctAnswers += score;
-      saveStats(stats);
-
-      setTesting(false);
-      setShowFinalResults(true);
+      finishTest();
     }
   };
 
@@ -401,7 +435,7 @@ const Tests = () => {
                 <span className="whitespace-nowrap">Pregunta {currentIndex + 1} de {testQuestions.length}</span>
                 <span className="whitespace-nowrap">Aciertos: {score}</span>
               </div>
-              <Button variant="ghost" size="sm" onClick={() => setTesting(false)} className="shrink-0">
+              <Button variant="ghost" size="sm" onClick={finishTest} className="shrink-0">
                 Terminar test
               </Button>
             </div>

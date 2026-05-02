@@ -12,7 +12,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode } from '@/lib/storage';
+import { Flashcard, Topic, getFlashcards, getTopics, getStats, saveStats, getStudyFilters, saveStudyFilters, type FilterMode, recordTopicResult } from '@/lib/storage';
 import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
@@ -188,10 +188,18 @@ const Flashcards = () => {
     if (markForReview) {
       // Marcar para repasar
       setMarkedForReview(prev => [...prev, currentCard]);
+      // Track as incorrect for the topic
+      if (currentCard.topicId) {
+        recordTopicResult(currentCard.topicId, 0, 1);
+      }
     } else {
       // No marcada = correcta
       stats.correctAnswers += 1;
       setCorrectCount(prev => prev + 1);
+      // Track as correct for the topic
+      if (currentCard.topicId) {
+        recordTopicResult(currentCard.topicId, 1, 0);
+      }
     }
     saveStats(stats);
 
