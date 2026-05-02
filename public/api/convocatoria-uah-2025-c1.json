@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2026.05",
-    "updatedAt": "2026-05-02T20:22:58.854+02:00"
+    "updatedAt": "2026-05-02T21:09:16.389+02:00"
   },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
@@ -56,6 +56,11 @@
           "archivo": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_01_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 01",
           "archivo": "db-uah-c1-tema-01-constitucion.json"
@@ -100,6 +105,11 @@
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -147,6 +157,11 @@
           "archivo": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 03",
           "archivo": "db-uah-c1-tema-03-losu.json"
@@ -189,6 +204,11 @@
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -234,6 +254,11 @@
           "archivo": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_05_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 05",
           "archivo": "db-uah-c1-tema-05-discapacidad.json"
@@ -273,6 +298,11 @@
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_06_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -339,6 +369,11 @@
           "archivo": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 07",
           "archivo": "db-uah-c1-tema-07-prevencion-riesgos-laborales.json"
@@ -379,6 +414,11 @@
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_08_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -486,6 +526,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/10_02_guia_liderazgo_buah.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_10_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 10",
           "archivo": "db-uah-c1-tema-10-servicio-biblioteca-uah.json"
@@ -537,6 +582,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/11_fuentes_estudio_organizacion_espacial.md"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 11",
           "archivo": "db-uah-c1-tema-11-espacios-equipamiento.json"
@@ -583,6 +633,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_12_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 12",
           "archivo": "db-uah-c1-tema-12-gestion-coleccion.json"
@@ -627,6 +682,11 @@
           "tipo": "pdf",
           "nombre": "PDF de referencia: Proceso técnico, MARC 21, FRBR/LRM y RDA",
           "archivo": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -677,6 +737,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 14",
           "archivo": "db-uah-c1-tema-14-identificadores.json"
@@ -719,6 +784,11 @@
           "tipo": "pdf",
           "nombre": "PDF de referencia: Análisis documental y CDU UAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -787,6 +857,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 16",
           "archivo": "db-uah-c1-tema-16-acceso-abierto-repositorios.json"
@@ -837,6 +912,11 @@
           "tipo": "pdf",
           "nombre": "PDF de referencia: Servicios al usuario BUAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/17_02_servicios_usuarios_complemento.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -903,6 +983,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 18",
           "archivo": "db-uah-c1-tema-18-prestamo-acceso-documento.json"
@@ -946,6 +1031,11 @@
           "tipo": "pdf",
           "nombre": "PDF de referencia: LSP y Buscador UAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",
@@ -1015,6 +1105,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/20_02_cooperacion_rebiun_madrono.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 20",
           "archivo": "db-uah-c1-tema-20-cooperacion-bibliotecaria.json"
@@ -1061,6 +1156,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.pdf"
         },
         {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 21",
           "archivo": "db-uah-c1-tema-21-calidad-efqm.json"
@@ -1102,6 +1202,11 @@
           "tipo": "pdf",
           "nombre": "PDF de referencia: Ley de Propiedad Intelectual",
           "archivo": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Validación de preguntas oficiales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md"
         },
         {
           "tipo": "db",

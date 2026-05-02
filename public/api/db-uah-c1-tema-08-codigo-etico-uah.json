@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 08 - Código Ético General de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 8 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 10,
+    "questionCount": 11,
     "explicitFlashcardCount": 3,
     "originCounts": {
       "curada": 4,
       "refuerzo": 3,
-      "oficial": 1,
+      "oficial": 2,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 1
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 1,
+    "officialValidationQuestions": 2
   },
   "topics": [
     {
@@ -182,15 +184,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 29. Respuesta validada por la plantilla oficial: COPE. Clasificada como Tema 8 (Código ético) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q029",
-        "path": "data/general/08_codigo-etico-general-UAH.md",
-        "highlightText": "COPE"
+        "materialId": "tema_08_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q029-c4e188582988",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_08_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q029-c4e188582988"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-008",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q019-2ee3b72d2ff5",
+      "topicId": "uah-bib-t08-contenido",
+      "question": "Según el Código Peñalver, se entiende por código ético:",
+      "options": [
+        "El modelo que debiera inspirar la conducta de los miembros de la UCA.",
+        "El modelo que debiera inspirar la conducta de toda la ciudadanía",
+        "Un documento vivo y dinámico, abierto a una permanente respuesta a los posibles nuevos requerimientos sociales.",
+        "Un documento donde se tomen medidas adecuadas para solucionar de modo efectivo los conflictos de intereses."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 19. Respuesta validada por la plantilla oficial: El modelo que debiera inspirar la conducta de los miembros de la UCA.. Clasificada como Tema 8 (Código ético) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_08_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q019-2ee3b72d2ff5",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_08_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q019-2ee3b72d2ff5"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-008",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

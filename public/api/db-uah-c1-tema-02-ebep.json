@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 02 - Estatuto Básico del Empleado Público (EBEP)",
     "description": "Banco normalizado de preguntas del tema 2 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 27,
+    "questionCount": 28,
     "explicitFlashcardCount": 5,
     "originCounts": {
       "curada": 14,
       "refuerzo": 4,
-      "oficial": 7,
+      "oficial": 8,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 1
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 1,
+    "officialValidationQuestions": 6
   },
   "topics": [
     {
@@ -421,15 +423,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 4. Respuesta validada por la plantilla oficial: El ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q004",
-        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
-        "highlightText": "El ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad"
+        "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q004-be8e7c9c9070",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q004-be8e7c9c9070"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-002",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -446,15 +449,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 25. Respuesta validada por la plantilla oficial: Las leyes de la función pública que se dicten en desarrollo del Estatuto básico del empleado público.. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q025",
-        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
-        "highlightText": "Las leyes de la función pública que se dicten en desarrollo del Estatuto básico del empleado público."
+        "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q025-f268090dff2e",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q025-f268090dff2e"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-002",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q011-d6322075339a",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Quién tiene la competencia de organización del trabajo según el artículo 13 del IV Convenio Colectivo del Personal laboral de las Universidades Públicas de Andalucía?",
+      "options": [
+        "El Rector de cada Universidad",
+        "Los representantes de los trabajadores",
+        "Las Gerencias de las Universidades",
+        "Los Directores de los distintos Servicios"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 11. Respuesta validada por la plantilla oficial: Las Gerencias de las Universidades. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q011-d6322075339a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q011-d6322075339a"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-002",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -471,15 +501,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 12. Respuesta validada por la plantilla oficial: Una vez al año. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q012",
-        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
-        "highlightText": "Una vez al año"
+        "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q012-cf4e7ddc32dd",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q012-cf4e7ddc32dd"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-002",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -496,15 +527,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 12. Respuesta validada por la plantilla oficial: Personal de libre designación. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U niversidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 Fl, de Cantab a (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q012",
-        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
-        "highlightText": "Personal de libre designación. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U niversidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 Fl, de Cantab a (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+        "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q012-cd517013f7ec",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q012-cd517013f7ec"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-002",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -521,15 +553,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 24. Respuesta validada por la plantilla oficial: Al personal funcionario interino.. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q024",
-        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
-        "highlightText": "Al personal funcionario interino."
+        "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q024-a3f5f2056b30",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q024-a3f5f2056b30"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-002",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

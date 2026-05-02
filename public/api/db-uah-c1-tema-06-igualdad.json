@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 06 - Ley Orgánica 3/2007 para la Igualdad Efectiva",
     "description": "Banco normalizado de preguntas del tema 6 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 14,
+    "questionCount": 15,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 4,
       "refuerzo": 4,
-      "oficial": 4,
+      "oficial": 5,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 1
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 1,
+    "officialValidationQuestions": 2
   },
   "topics": [
     {
@@ -238,6 +240,32 @@
       ]
     },
     {
+      "id": "uah-exam-valencia-c1-2025-q006-77d3ad263d3b",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "La Ley orgánica 3/2007, de 22 de marzo para la igualdad efectiva de mujeres y hombres, señala en su artículo 51 que las administraciones públicas, en el ámbito de sus respectivas competencias y en aplicación del principio de igualdad entre mujeres y hombres, deberán fomentar la formación en igualdad:",
+      "options": [
+        "Principalmente como parte de planes internos de formación continua.",
+        "En elacceso al empleo público.",
+        "En función de las necesidades detectadas en cada organismo.",
+        "De manera progresiva y según la disponibilidad de recursos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 6. Respuesta validada por la plantilla oficial: En elacceso al empleo público.. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_06_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q006-77d3ad263d3b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_06_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q006-77d3ad263d3b"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-006",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
       "id": "uah-exam-cadiz-c1-2025-q016-51ff9b5f7d89",
       "topicId": "uah-bib-t06-contenido",
       "question": "De acuerdo con el artículo 51 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres sobre los Criterios de actuación de las Administraciones públicas en materia de igualdad, ¿cuál de las siguientes acciones deben llevar a cabo las Administraciones en el ámbito de sus competencias?",
@@ -276,15 +304,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 17. Respuesta validada por la plantilla oficial: Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular respecto al otro.. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q017",
-        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
-        "highlightText": "Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular respecto al otro."
+        "materialId": "tema_06_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q017-329d6abd65a1",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_06_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q017-329d6abd65a1"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-006",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 07 - Prevención de Riesgos Laborales en la UAH",
     "description": "Banco normalizado de preguntas del tema 7 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 12,
+    "questionCount": 14,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 4,
       "refuerzo": 4,
-      "oficial": 2,
+      "oficial": 4,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 2
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 2,
+    "officialValidationQuestions": 3
   },
   "topics": [
     {
@@ -204,15 +206,68 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 49. Respuesta validada por la plantilla oficial: Por y entre los representantes del personal. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q049",
-        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
-        "highlightText": "Por y entre los representantes del personal"
+        "materialId": "tema_07_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q049-f4e006df21e5",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q049-f4e006df21e5"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-007",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q071-fb2cb9a1a025",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "¿Según el artículo 30 de la Ley 31/1995, de 8 de noviembre, de prevención y riesgos laborales, qué posibilidades tiene el empresario para cumplir con el deber de prevención de riesgos laborales?",
+      "options": [
+        "Deberá designar, en todo caso, uno o varios trabajadores para ocuparse de dicha actividad.",
+        "Necesariamente deberá concertar dicho servicio con una entidad especializada ajena a la empresa.",
+        "El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa.",
+        "El empresario deberá constituir un servicio de prevención o concertar dicho servicio con una entidad especializada ajena a la empresa."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 71. Respuesta validada por la plantilla oficial: El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa.. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_07_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q071-fb2cb9a1a025",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q071-fb2cb9a1a025"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-007",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q097-b900cb4b525f",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "La Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales:",
+      "options": [
+        "No es de aplicación a los funcionarios, tan sólo al personal laboral al servicio de las administraciones públicas.",
+        "Constituye legislación laboral, y por tanto sólo se aplica al personal contratado, no así al funcionario.",
+        "Se aplica al personal funcionario de las Administraciones Públicas si la Junta de Personal no se opusiera de forma expresa.",
+        "No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 97. Respuesta validada por la plantilla oficial: No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos.. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_07_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q097-b900cb4b525f",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q097-b900cb4b525f"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-007",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

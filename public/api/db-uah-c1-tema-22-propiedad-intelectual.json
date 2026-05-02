@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 22 - Propiedad Intelectual y Licencias Creative Commons",
     "description": "Banco normalizado de preguntas del tema 22 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 21,
+    "questionCount": 24,
     "explicitFlashcardCount": 5,
     "originCounts": {
       "curada": 8,
       "refuerzo": 4,
-      "oficial": 7,
+      "oficial": 10,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 3
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 3,
+    "officialValidationQuestions": 9
   },
   "topics": [
     {
@@ -278,15 +280,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 19. Respuesta validada por la plantilla oficial: Derechos de los autores sobre sus obras. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q019",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Derechos de los autores sobre sus obras"
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q019-6ea8b7540171",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q019-6ea8b7540171"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-022",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q096-4e42162aef09",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Para licenciar datos bibliográficos abiertos se recomienda habitualmente:",
+      "options": [
+        "Licencia CC0 o Creative Commons Atribución",
+        "NDA (acuerdo de confidencialidad)",
+        "Copyright completo sin excepciones",
+        "Patente industrial"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 96. Respuesta validada por la plantilla oficial: Licencia CC0 o Creative Commons Atribución. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q096-4e42162aef09",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q096-4e42162aef09"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-022",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -303,15 +332,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 41. Respuesta validada por la plantilla oficial: CC0. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q041",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "CC0"
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q041-6ae6074feb4d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q041-6ae6074feb4d"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-022",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q052-a2ac96b64c08",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Señale cuál de las siguientes afirmaciones es FALSA. Entre las ventajas de usar licenzas Creative Commons está que:",
+      "options": [
+        "Son revocables",
+        "Enel ambito de la enseñanza, ofrecen multitud de contenidos libres para ser usados y compartidos",
+        "Permiten la divulgación de la obra sin perjuicio de que el autor o autora reserven algunos derechos",
+        "Aumentan la visibilidad de las autoras o autores en internet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 52. Respuesta validada por la plantilla oficial: Son revocables. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q052-a2ac96b64c08",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q052-a2ac96b64c08"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-022",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -328,15 +384,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 9. Respuesta validada por la plantilla oficial: Reconocimiento — No comercial 4. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q009",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Reconocimiento — No comercial 4"
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q009-ffef963dc59f",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q009-ffef963dc59f"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-022",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q031-32a8584cadfc",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué son las licencias Creative Commons y cómo se aplican en recursos académicos?",
+      "options": [
+        "Licencias que prohíben cualquier uso de obras con derechos de autor.",
+        "Son licencias equivalentes al obsoleto copyright tradicional.",
+        "Solo se aplican a películas y música comerciales.",
+        "Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas.."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 31. Respuesta validada por la plantilla oficial: Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas... Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q031-32a8584cadfc",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q031-32a8584cadfc"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-022",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -353,15 +436,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 53. Respuesta validada por la plantilla oficial: Reconocimiento — No comercial — Sin obra derivada. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q053",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Reconocimiento — No comercial — Sin obra derivada"
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q053-1d945f7cb66d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q053-1d945f7cb66d"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-022",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -403,15 +487,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 28. Respuesta validada por la plantilla oficial: Creación de contenidos.. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q028",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Creación de contenidos."
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q028-9d0e367ca728",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q028-9d0e367ca728"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-022",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -428,15 +513,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 39. Respuesta validada por la plantilla oficial: Con fines de investigación personal de carácter cultural o científico.. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q039",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Con fines de investigación personal de carácter cultural o científico."
+        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q039-294a77efe7bc",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q039-294a77efe7bc"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-022",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

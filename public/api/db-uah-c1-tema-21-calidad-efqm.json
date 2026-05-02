@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 21 - La calidad en las bibliotecas universitarias españolas según REBIUN",
     "description": "Banco normalizado de preguntas del tema 21 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 18,
+    "questionCount": 24,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 8,
       "refuerzo": 4,
-      "oficial": 4,
+      "oficial": 10,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 6
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 6,
+    "officialValidationQuestions": 10
   },
   "topics": [
     {
@@ -280,15 +282,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 27. Respuesta validada por la plantilla oficial: Evaluación científica. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q027",
-        "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
-        "highlightText": "Evaluación científica"
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q027-abe9e1f182e2",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q027-abe9e1f182e2"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-021",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q060-c3e57bddc0e9",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "¿Qué es un sexenio en el contexto universitario español?",
+      "options": [
+        "Una beca de investigación",
+        "Un cargo académico",
+        "Un periodo de seis años de evaluación de actividad investigadora",
+        "Una ayuda para el estudio"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 60. Respuesta validada por la plantilla oficial: Un periodo de seis años de evaluación de actividad investigadora. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q060-c3e57bddc0e9",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q060-c3e57bddc0e9"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-021",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -305,15 +334,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 91. Respuesta validada por la plantilla oficial: LibQUAL+. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q091",
-        "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
-        "highlightText": "LibQUAL+"
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q091-6547e64937fc",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q091-6547e64937fc"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-021",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -330,15 +360,68 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 23. Respuesta validada por la plantilla oficial: Calidad en la Gestión Bibliotecaria. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q023",
-        "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
-        "highlightText": "Calidad en la Gestión Bibliotecaria"
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q023-aedec6c050ba",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q023-aedec6c050ba"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-021",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q035-c73654b25dfd",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "Según consta en la página web del Servei de Biblioteques i Documentació, ¿qué órgano participa en la autoevaluación del servicio, se encarga de la supervisión de las mejoras y define e implementa los canales de comunicación para detectar las necesidades y expectativas de los diferentes grupos de interés?",
+      "options": [
+        "La Comisión del Servei de Biblioteques i Documentació",
+        "La Junta Técnica",
+        "El Comité de Calidad 3 ñ",
+        "La Unitat de Qualitat de la Universitat de Valencia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 35. Respuesta validada por la plantilla oficial: El Comité de Calidad 3 ñ. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q035-c73654b25dfd",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q035-c73654b25dfd"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-021",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q075-ac85d4bb4e6a",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "En relación con los procesos de autoevaluación realizados por el Servei de Biblioteques i Documentació de la Universitat de Valéncia, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "El Servei de Biblioteques i Documentació ha realizado tres procesos de autoevaluación, siendo el último en 2024.",
+        "El Servei de Biblioteques i Documentació ha realizado dos procesos de autoevaluación, siendo el último en 2017.",
+        "El Servei de Biblioteques i Documentació ha realizado tres procesos de autoevaluación, siendo el último en 2023.",
+        "El Servei de Biblioteques i Documentació ha realizado dos procesos de autoevaluación, siendo el último en 2020."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 75. Respuesta validada por la plantilla oficial: El Servei de Biblioteques i Documentació ha realizado tres procesos de autoevaluación, siendo el último en 2023.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q075-ac85d4bb4e6a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q075-ac85d4bb4e6a"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-021",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -355,15 +438,94 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 86. Respuesta validada por la plantilla oficial: RERA. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q086",
-        "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
-        "highlightText": "RERA"
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q086-23ccc119e779",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q086-23ccc119e779"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-021",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q021-4aca38849613",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "¿Cuál es el propósito fundamental de la Biblioteca de la Universidad de Cádiz según la misión establecida en el Sistema de Gestión de Calidad?",
+      "options": [
+        "Generar ingresos económicos a través de la venta de servicios bibliográficos.",
+        "Colaborar en la consecución de los objetivos de la Universidad mediante la difusión de la información, así como a través de la gestión de colecciones, servicios y espacios que apoyen el aprendizaje, la investigación y la transferencia de conocimiento.",
+        "Sustituir los servicios de otras bibliotecas públicas de Cádiz.",
+        "Establecer únicamente horarios de atención al público como sala de estudios para los alumnos.."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 21. Respuesta validada por la plantilla oficial: Colaborar en la consecución de los objetivos de la Universidad mediante la difusión de la información, así como a través de la gestión de colecciones, servicios y espacios que apoyen el aprendizaje, la investigación y la transferencia de conocimiento.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q021-4aca38849613",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q021-4aca38849613"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-021",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q060-53a773f9ae6c",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "Según el \"Manifiesto de la IFLA/UNESCO sobre Bibliotecas Digitales\" una Biblioteca Digital es:",
+      "options": [
+        "Una colección en línea de objetos digitales de buena calidad, creados o recopilados y administrados de conformidad con principios aceptados en el plano internacional para la creación de colecciones.",
+        "Una lista de enlaces organizados con infraestructura física que hace posible la creación y mantenimiento de bases de datos.",
+        "Es una colección estructurada y organizada de documentos digitales, desarrollada según una política y un esquema conceptual, que ofrece servicios transversales a sus usuarios, fundamentados en la colección y la preservación del patrimonio.",
+        "Una recopilación de documentos digitalizados, bases de datos y revistas electrónicas con interfaz web."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 60. Respuesta validada por la plantilla oficial: Una colección en línea de objetos digitales de buena calidad, creados o recopilados y administrados de conformidad con principios aceptados en el plano internacional para la creación de colecciones.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q060-53a773f9ae6c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q060-53a773f9ae6c"
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-021",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-pi-2024-q036-07569a4ac218",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "Cuando hablamos de \"revisión por pares\" ¿A qué nos referimos?",
+      "options": [
+        "La revisión por pares es un procedimiento usado en la edición académica y científica, que tiene como objetivo fundamental asegurar la calidad y validez de los trabajos, antes de su publicación y de su difusión al resto de la comunidad científica.",
+        "La revisión por pares hace referencia a la revisión y validez de la documentación aportada al Portal de Archivos Españoles.",
+        "La revisión por pares es un procedimiento usado en la edición académica y científica, que tiene como objetivo fundamental asegurar mediante tecnología blockchain la trazabilidad de los trabajos académicos.",
+        "Las respuestas a) y c) son correctas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 36. Respuesta validada por la plantilla oficial: La revisión por pares es un procedimiento usado en la edición académica y científica, que tiene como objetivo fundamental asegurar la calidad y validez de los trabajos, antes de su publicación y de su difusión al resto de la comunidad científica.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q036-07569a4ac218",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q036-07569a4ac218"
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-pi-2024",
+        "uah-tema-021",
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {

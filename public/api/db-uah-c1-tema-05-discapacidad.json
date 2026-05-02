@@ -1,16 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 05 - Ley de Derechos de las Personas con Discapacidad",
     "description": "Banco normalizado de preguntas del tema 5 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 10,
+    "questionCount": 11,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 4,
       "refuerzo": 4,
+      "oficial": 1,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 1
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 1,
+    "officialValidationQuestions": 1
   },
   "topics": [
     {
@@ -186,6 +189,32 @@
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
         "highlightText": "Derechos de las personas con discapacidad"
       }
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q046-c8362016eb8c",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "Según la 4? Carta de Servicios del Servei de Biblioteques i Documentació de la Universitat de Valéncia, ¿cómo se mide el compromiso 10 \"Mantener actualizada la información relativa a las personas con discapacidad en la sección de accesibilidad en la web del Servei de Biblioteques i documentació\"?",
+      "options": [
+        "Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació.",
+        "Con el indicador 15: grado de satisfacción de los estudiantes con la información que se proporciona en la sección de Accesibilidad en la web del SBD.",
+        "Con el indicador 10: índice de satisfacción de los estudiantes sobre los servicios que se relacionan en la web.",
+        "Con el indicador 10: índice de satisfacción del PDI sobre los servicios que se relacionan en la web. i"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 46. Respuesta validada por la plantilla oficial: Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació.. Clasificada como Tema 5 (Discapacidad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_05_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q046-c8362016eb8c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_05_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q046-c8362016eb8c"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-005",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
     },
     {
       "id": "uah-opo-ref-009",

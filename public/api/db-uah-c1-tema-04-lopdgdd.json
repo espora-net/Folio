@@ -1,17 +1,19 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 04 - Ley Orgánica 3/2018 de Protección de Datos Personales",
     "description": "Banco normalizado de preguntas del tema 4 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 17,
+    "questionCount": 20,
     "explicitFlashcardCount": 5,
     "originCounts": {
       "curada": 5,
       "refuerzo": 4,
-      "oficial": 6,
+      "oficial": 9,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 3
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 3,
+    "officialValidationQuestions": 7
   },
   "topics": [
     {
@@ -272,15 +274,42 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 66. Respuesta validada por la plantilla oficial: Cuatro: Política, normas generales, procedimientos y recomendaciones. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q066",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Cuatro: Política, normas generales, procedimientos y recomendaciones"
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q066-bb8b4f090076",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q066-bb8b4f090076"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-004",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q082-13be0894e5b0",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Qué se consideran datos personales según la Resolución reitoral del 22 de julio por la que se aprueba la política de seguridad de la información y protección de datos personales en la UDC?:",
+      "options": [
+        "Información creada, recibida o utilizada en las actividades de la UDC",
+        "Toda la información sobre una persona física identificada o identificable",
+        "— DNIENIE, n° de pasaporte, dirección postal o electrónica, imagen, voz, n° de la seguridad social o mutualidad, teléfono, fax, marcas físicas, nombre y dos apellidos, firma, firma electrónica, tarjeta sanitaria",
+        "Datos que tienen un contenido semántico (es decir, significado) en un contexto determinado"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Toda la información sobre una persona física identificada o identificable. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q082-13be0894e5b0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q082-13be0894e5b0"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-004",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -297,15 +326,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 4. Respuesta validada por la plantilla oficial: Será lícito el tratamiento por las administraciones públicas de datos con fines de archivo en interés público.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q004",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Será lícito el tratamiento por las administraciones públicas de datos con fines de archivo en interés público."
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q004-49e2bb53b107",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q004-49e2bb53b107"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-004",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -322,15 +352,68 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 58. Respuesta validada por la plantilla oficial: Una competencia digital del área de Seguridad. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q058",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Una competencia digital del área de Seguridad"
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q058-a13c40b44bc0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q058-a13c40b44bc0"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-004",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q088-54362a36918d",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Según la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho de los ciudadanos en relación con sus datos personales?",
+      "options": [
+        "Derecho de acceso",
+        "Derecho de rectificación",
+        "Derecho de oposición",
+        "Derecho de recopilación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 88. Respuesta validada por la plantilla oficial: Derecho de recopilación. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q088-54362a36918d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q088-54362a36918d"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-004",
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q014-0573af0ce59d",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Qué se entiende por <datos genéticos=, según el Reglamento General de Protección de Datos?",
+      "options": [
+        "Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona.",
+        "Datos personales obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas o conductuales de una persona física que permitan o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos.",
+        "Datos personales relativos a la salud física o mental de una persona física, incluida la prestación de servicios de atención sanitaria, que revelen información sobre su estado de salud.",
+        "Datos personales relativos a la genealogía y antecedentes familiares de una persona física que proporcionen información única sobre posibles características genéticas heredadas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 14. Respuesta validada por la plantilla oficial: Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q014-0573af0ce59d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q014-0573af0ce59d"
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-004",
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -347,15 +430,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 32. Respuesta validada por la plantilla oficial: Al menos, cada dos años.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q032",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Al menos, cada dos años."
+        "materialId": "tema_04_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q032-eb33b8ffbcb0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q032-eb33b8ffbcb0"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-004",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

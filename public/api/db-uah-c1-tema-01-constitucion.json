@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
     "title": "UAH C1 Tema 01 - Constitución Española de 1978",
     "description": "Banco normalizado de preguntas del tema 1 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 28,
@@ -11,7 +11,9 @@
       "oficial": 6,
       "opositatest-referencia": 2
     },
-    "removedUnverifiedOfficialQuestions": 0
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 0,
+    "officialValidationQuestions": 2
   },
   "topics": [
     {
@@ -455,15 +457,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 69. Respuesta validada por la plantilla oficial: Sus conclusiones no serán vinculantes.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q069",
-        "path": "data/general/01_constitucion_espanola_1978.md",
-        "highlightText": "Sus conclusiones no serán vinculantes."
+        "materialId": "tema_01_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q069-95b3c65f267b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_01_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q069-95b3c65f267b"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-001",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -480,15 +483,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 6. Respuesta validada por la plantilla oficial: Será declarado por la mayoría absoluta del Congreso de los Diputados.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q006",
-        "path": "data/general/01_constitucion_espanola_1978.md",
-        "highlightText": "Será declarado por la mayoría absoluta del Congreso de los Diputados."
+        "materialId": "tema_01_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q006-88ee92c9893b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_01_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q006-88ee92c9893b"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-001",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
