@@ -1,4 +1,4 @@
-import { fetchDatabaseFromApi, getCachedDatabase } from './data-api';
+import { fetchDatabaseFromApi, getCachedDatabase, getLastGeneratedAt } from './data-api';
 import { type Database, type Flashcard, type StudyStats, type TestQuestion, type Topic } from './data-types';
 
 export { type Database, type Flashcard, type StudyStats, type TestQuestion, type Topic } from './data-types';
@@ -10,6 +10,8 @@ const STORAGE_KEYS = {
   STATS: 'folio_stats',
 };
 const ACTIVE_USER_KEY = 'folio_active_user_id';
+const DATA_VERSION_KEY = 'folio_data_version';
+const TOPIC_PERFORMANCE_KEY = 'folio_topic_performance';
 
 const getActiveUserId = () => {
   if (typeof window === 'undefined') return 'guest';
@@ -18,6 +20,8 @@ const getActiveUserId = () => {
 };
 
 const scopedKey = (key: string) => `${key}::${getActiveUserId()}`;
+
+const getTopicPerformanceKey = () => `${TOPIC_PERFORMANCE_KEY}::${getActiveUserId()}`;
 
 const safeParse = <T>(value: string | null): T | null => {
   if (!value) return null;
@@ -208,6 +212,33 @@ export const hydrateFromApi = async () => {
 
   if (typeof window === 'undefined') return database;
 
+  // Detectar si los datos han cambiado comparando la versión (generatedAt del manifest)
+  const currentVersion = getLastGeneratedAt();
+  const versionKey = `${DATA_VERSION_KEY}::${getActiveUserId()}`;
+  const storedVersion = localStorage.getItem(versionKey);
+  const dataChanged = currentVersion && storedVersion && storedVersion !== currentVersion;
+
+  if (dataChanged) {
+    // Los datos del dataset han cambiado: resetear stats y rendimiento por tema
+    // para evitar mostrar progreso incoherente con los nuevos datos.
+    try {
+      localStorage.removeItem(scopedKey(STORAGE_KEYS.STATS));
+      localStorage.removeItem(STORAGE_KEYS.STATS);
+      localStorage.removeItem(getTopicPerformanceKey());
+    } catch {
+      // noop
+    }
+  }
+
+  // Guardar la versión actual para futuras comparaciones
+  if (currentVersion) {
+    try {
+      localStorage.setItem(versionKey, currentVersion);
+    } catch {
+      // noop
+    }
+  }
+
   const stored = {
     topics: hasStoredValue('TOPICS'),
     stats: hasStoredValue('STATS'),
@@ -319,10 +350,6 @@ export const saveStudyFilters = (filters: Partial<StudyFilters>) => {
 // Topic performance tracking (per-topic correct/incorrect)
 import { type TopicPerformance } from './data-types';
 export { type TopicPerformance } from './data-types';
-
-const TOPIC_PERFORMANCE_KEY = 'folio_topic_performance';
-
-const getTopicPerformanceKey = () => `${TOPIC_PERFORMANCE_KEY}::${getActiveUserId()}`;
 
 export const getTopicPerformance = (): TopicPerformance[] => {
   if (typeof window === 'undefined') return [];
