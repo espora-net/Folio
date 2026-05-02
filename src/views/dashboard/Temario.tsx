@@ -564,15 +564,18 @@ const Temario = () => {
 
               <div className="flex flex-wrap items-center gap-2">
                 <span className="text-sm text-muted-foreground">Datasets de preguntas:</span>
-                {linkedQuestionDatasets.length > 0 ? (
-                  linkedQuestionDatasets.map(ds => (
-                    <Badge key={ds.id} variant="outline" className="gap-1">
-                      {ds.tag ?? ds.title}
-                    </Badge>
-                  ))
-                ) : (
-                  <span className="text-sm text-muted-foreground">(sin datasets asociados)</span>
-                )}
+                {(() => {
+                  const uniqueDatasets = [...new Map(linkedQuestionDatasets.map(ds => [ds.tag ?? ds.title, ds])).values()];
+                  return uniqueDatasets.length > 0 ? (
+                    uniqueDatasets.map(ds => (
+                      <Badge key={ds.id} variant="outline" className="gap-1">
+                        {ds.tag ?? ds.title}
+                      </Badge>
+                    ))
+                  ) : (
+                    <span className="text-sm text-muted-foreground">(sin datasets asociados)</span>
+                  );
+                })()}
               </div>
 
               <div className="flex flex-wrap gap-2">
