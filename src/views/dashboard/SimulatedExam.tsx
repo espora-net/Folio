@@ -425,7 +425,6 @@ const SimulatedExam = () => {
               <RadioGroup
                 key={currentIndex}
                 value={currentAnswer?.selectedAnswer !== null ? currentAnswer.selectedAnswer.toString() : ''}
-                onValueChange={(val) => selectAnswer(parseInt(val))}
               >
                 {currentQuestion.options.map((option, i) => (
                   <div
@@ -437,8 +436,8 @@ const SimulatedExam = () => {
                     }`}
                     onClick={() => selectAnswer(i)}
                   >
-                    <RadioGroupItem value={i.toString()} id={`option-${i}`} />
-                    <Label htmlFor={`option-${i}`} className="flex-1 cursor-pointer text-sm sm:text-base">
+                    <RadioGroupItem value={i.toString()} id={`option-${i}`} className="pointer-events-none" />
+                    <Label htmlFor={`option-${i}`} className="flex-1 text-sm sm:text-base pointer-events-none">
                       {option}
                     </Label>
                   </div>
