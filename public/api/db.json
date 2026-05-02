@@ -10,7 +10,7 @@
       "id": "oposiciones",
       "label": "Oposiciones",
       "temarioTemplate": "oposiciones",
-      "convocatoriaId": "urjc-2026-c2",
+      "convocatoriaId": "uah-2025-c1",
       "questionDatasetIds": [
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
@@ -61,7 +61,7 @@
       "año": 2025,
       "file": "convocatoria-uah-2025-c1.json",
       "color": "#7c3aed",
-      "activa": false,
+      "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
         "constitucion-espanola-2026",
@@ -82,7 +82,8 @@
       "año": 2026,
       "file": "convocatoria-urjc-2026-c2.json",
       "color": "#059669",
-      "activa": true,
+      "activa": false,
+      "hidden": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
         "constitucion-1978",
@@ -100,7 +101,8 @@
       "año": 2025,
       "file": "convocatoria-uah-2025-c2.json",
       "color": "#f97316",
-      "activa": true,
+      "activa": false,
+      "hidden": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
         "constitucion-1978",

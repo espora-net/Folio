@@ -441,7 +441,9 @@ initConvocatorias();
 
 export const getConvocatoriaDescriptors = (): ConvocatoriaDescriptor[] => {
   // Use cachedDatabase first (updated from API), with fallback to baseIndex
-  return ((cachedDatabase.convocatorias ?? (baseIndex as DatabaseIndex).convocatorias ?? []) as ConvocatoriaDescriptor[]);
+  const all = (cachedDatabase.convocatorias ?? (baseIndex as DatabaseIndex).convocatorias ?? []) as ConvocatoriaDescriptor[];
+  // Filtrar convocatorias ocultas (hidden: true)
+  return all.filter(c => !c.hidden);
 };
 
 export const getActiveConvocatoria = (): ConvocatoriaDescriptor | undefined => {
