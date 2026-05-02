@@ -3,7 +3,7 @@
     "title": "Folio - Índice de datos",
     "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
     "version": "2026.05",
-    "updatedAt": "2026-05-02T21:09:16.389+02:00"
+    "updatedAt": "2026-05-02T21:13:04.000+02:00"
   },
   "studyTypes": [
     {
@@ -12,6 +12,9 @@
       "temarioTemplate": "oposiciones",
       "convocatoriaId": "uah-2025-c1",
       "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
         "uah-c1-tema-01-constitucion",
         "uah-c1-tema-02-ebep",
         "uah-c1-tema-03-losu",
@@ -80,6 +83,9 @@
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
         "uah-c1-tema-01-constitucion",
         "uah-c1-tema-02-ebep",
         "uah-c1-tema-03-losu",

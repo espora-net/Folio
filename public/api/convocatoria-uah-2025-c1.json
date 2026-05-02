@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2026.05",
-    "updatedAt": "2026-05-02T21:09:16.389+02:00"
+    "updatedAt": "2026-05-02T21:13:04.000+02:00"
   },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
@@ -62,6 +62,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común Constitución (filtrado por título/capítulo)",
+          "archivo": "db-constitucion.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 01",
           "archivo": "db-uah-c1-tema-01-constitucion.json"
         }
@@ -113,6 +118,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común EBEP (filtrado por título/capítulo)",
+          "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 02",
           "archivo": "db-uah-c1-tema-02-ebep.json"
         }
@@ -160,6 +170,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común LOSU (filtrado por título/capítulo)",
+          "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
         },
         {
           "tipo": "db",

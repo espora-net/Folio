@@ -21,7 +21,7 @@
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
-          "title": "TÍTULO II. Personal al servicio de las Administraciones Públicas.",
+          "title": "TÍTULO II. Capítulo I. Clases de personal al servicio de las Administraciones Públicas",
           "content": "TBD",
           "order": 2,
           "syllabusCoverageIds": [
@@ -29,11 +29,21 @@
           ]
         },
         {
+          "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-capitulo-ii-personal-directivo",
+          "topicId": "ley-del-estatuto-basico-del-empleado-publico",
+          "title": "TÍTULO II. Capítulo II. Personal directivo",
+          "content": "TBD",
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#titulo-ii-capitulo-ii"
+          ]
+        },
+        {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulos-1-y-2",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulos 1 y 2)",
           "content": "TBD",
-          "order": 3,
+          "order": 4,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -43,7 +53,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 3)",
           "content": "TBD",
-          "order": 4,
+          "order": 5,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -53,7 +63,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 4 - Test 1)",
           "content": "TBD",
-          "order": 5,
+          "order": 6,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -63,7 +73,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 4 - Test 2)",
           "content": "TBD",
-          "order": 6,
+          "order": 7,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -73,7 +83,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 4 - Test 3)",
           "content": "TBD",
-          "order": 7,
+          "order": 8,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -83,7 +93,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 5)",
           "content": "TBD",
-          "order": 8,
+          "order": 9,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -93,7 +103,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO III. Derechos y deberes. Código de conducta de los empleados públicos. (Capítulo 6)",
           "content": "TBD",
-          "order": 9,
+          "order": 10,
           "syllabusCoverageIds": [
             "#titulo-iii"
           ]
@@ -103,7 +113,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO IV. Adquisición y pérdida de la relación de servicio. (Capítulo 1)",
           "content": "TBD",
-          "order": 10,
+          "order": 11,
           "syllabusCoverageIds": [
             "#titulo-iv"
           ]
@@ -113,7 +123,7 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO IV. Adquisición y pérdida de la relación de servicio. (Capítulo 2)",
           "content": "TBD",
-          "order": 11,
+          "order": 12,
           "syllabusCoverageIds": [
             "#titulo-iv"
           ]
@@ -123,9 +133,9 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO V. Ordenación de la actividad profesional.",
           "content": "TBD",
-          "order": 12,
+          "order": 13,
           "syllabusCoverageIds": [
-            "#titulo-v-capitulo-iii"
+            "#titulo-v"
           ]
         },
         {
@@ -133,14 +143,14 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO VI. Situaciones administrativas.",
           "content": "TBD",
-          "order": 13
+          "order": 14
         },
         {
           "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-vii-regimen-disciplinario",
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO VII. Régimen disciplinario.",
           "content": "TBD",
-          "order": 14,
+          "order": 15,
           "syllabusCoverageIds": [
             "#titulo-vii"
           ]
@@ -150,7 +160,37 @@
           "topicId": "ley-del-estatuto-basico-del-empleado-publico",
           "title": "TÍTULO VIII. Cooperación entre las Administraciones Públicas.",
           "content": "TBD",
-          "order": 15
+          "order": 16
+        },
+        {
+          "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-i-planificacion-de-recursos-humanos",
+          "topicId": "ley-del-estatuto-basico-del-empleado-publico",
+          "title": "TÍTULO V. Capítulo I. Planificación de recursos humanos",
+          "content": "TBD",
+          "order": 17,
+          "syllabusCoverageIds": [
+            "#titulo-v-capitulo-i"
+          ]
+        },
+        {
+          "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
+          "topicId": "ley-del-estatuto-basico-del-empleado-publico",
+          "title": "TÍTULO V. Capítulo II. Estructuración del empleo público",
+          "content": "TBD",
+          "order": 18,
+          "syllabusCoverageIds": [
+            "#titulo-v-capitulo-ii"
+          ]
+        },
+        {
+          "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-iii-provision-de-puestos-y-movilidad",
+          "topicId": "ley-del-estatuto-basico-del-empleado-publico",
+          "title": "TÍTULO V. Capítulo III. Provisión de puestos de trabajo y movilidad",
+          "content": "TBD",
+          "order": 19,
+          "syllabusCoverageIds": [
+            "#titulo-v-capitulo-iii"
+          ]
         }
       ]
     }
@@ -1508,7 +1548,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas-q-35",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-capitulo-ii-personal-directivo",
       "question": "¿Quiénes podrán establecer, en desarrollo del TREBEP, el régimen jurídico específico del personal directivo, así como los criterios para determinar su condición?",
       "options": [
         "Las Cortes Generales y las Asambleas Legislativas de las Comunidades Autónomas.",
@@ -1533,7 +1573,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas-q-36",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-capitulo-ii-personal-directivo",
       "question": "Según el artículo 13 del TREBEP, el personal que desarrolla funciones directivas profesionales en las Administraciones Públicas, definidas como tales en las normas específicas de cada Administración, es:",
       "options": [
         "Funcionarios del Grupo A.",
@@ -1558,7 +1598,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas-q-37",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-capitulo-ii-personal-directivo",
       "question": "La designación del personal directivo profesional, según el artículo 13 del TREBEP:",
       "options": [
         "Atenderá a criterios de idoneidad.",
@@ -1583,7 +1623,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas-q-38",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-capitulo-ii-personal-directivo",
       "question": "Según el artículo 13 del TREBEP, el personal directivo estará sujeto a evaluación con arreglo a los criterios de:",
       "options": [
         "Control de resultados en relación con los objetivos que les hayan sido fijados.",
@@ -1608,7 +1648,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas-q-39",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-personal-al-servicio-de-las-administraciones-publicas",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-ii-capitulo-ii-personal-directivo",
       "question": "¿Cuándo estará sometido a la relación laboral de carácter especial de alta dirección el personal directivo, según el artículo 13 del TREBEP?",
       "options": [
         "Cuando reúna la condición de personal laboral.",
@@ -6907,7 +6947,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-2",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-i-planificacion-de-recursos-humanos",
       "question": "Según el artículo 69.2 del TREBEP, las Administraciones Públicas podrán aprobar Planes para la ordenación de sus recursos humanos, que incluyan, entre otras, algunas de las siguientes medidas:",
       "options": [
         "Previsiones sobre los sistemas de organización del trabajo y modificaciones de estructuras de puestos de trabajo.",
@@ -6932,7 +6972,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-3",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-i-planificacion-de-recursos-humanos",
       "question": "Conforme al artículo 70.1 del TREBEP, la ejecución de la oferta de empleo público o instrumento similar deberá desarrollarse dentro del plazo:",
       "options": [
         "Improrrogable de dos años.",
@@ -6957,7 +6997,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-4",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-i-planificacion-de-recursos-humanos",
       "question": "De acuerdo con el artículo 70.2 del TREBEP, la Oferta de empleo público o instrumento similar se aprobará:",
       "options": [
         "Anualmente por las Cortes Generales o las Asambleas Legislativas y deberá ser publicada en el Diario oficial correspondiente.",
@@ -7007,7 +7047,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-6",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
       "question": "De acuerdo con el artículo 72 del TREBEP, en el marco de sus competencias de autoorganización, las Administraciones Públicas estructuran sus recursos humanos de acuerdo con las normas que regulan:",
       "options": [
         "La selección y la promoción profesional.",
@@ -7032,7 +7072,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-7",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
       "question": "Conforme al artículo 72 del TREBEP, en el marco de sus competencias de autoorganización, las Administraciones Públicas estructuran sus recursos humanos de acuerdo con las normas que regulan la selección, la promoción profesional, la movilidad y la distribución de funciones y conforme a lo previsto en:",
       "options": [
         "El Capítulo III, del Título V, del TREBEP.",
@@ -7057,7 +7097,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-8",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
       "question": "Según el artículo 73.3 del TREBEP, los puestos de trabajo podrán agruparse en función de sus características para ordenar:",
       "options": [
         "La selección, la formación y la eficacia.",
@@ -7082,7 +7122,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-9",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
       "question": "Conforme al artículo 75.2 del TREBEP, los cuerpos y escalas de funcionarios se crean, modifican y suprimen:",
       "options": [
         "Por Real Decreto.",
@@ -7157,7 +7197,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-12",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
       "question": "Según el artículo 76 del TREBEP, el título universitario de Grado se exigirá para el acceso a los cuerpos o escalas:",
       "options": [
         "Únicamente para el Subgrupo A2.",
@@ -7182,7 +7222,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-13",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-ii-estructuracion-del-empleo-publico",
       "question": "Conforme al artículo 77 del TREBEP, el personal laboral se clasificará:",
       "options": [
         "De conformidad con la legislación laboral.",
@@ -7207,7 +7247,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-14",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-iii-provision-de-puestos-y-movilidad",
       "question": "Según el artículo 78 del TREBEP, las Administraciones Públicas proveerán los puestos de trabajo del personal funcionario de carrera mediante procedimientos basados en los principios de:",
       "options": [
         "Igualdad, capacidad y antigüedad.",
@@ -7232,7 +7272,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-15",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-iii-provision-de-puestos-y-movilidad",
       "question": "Conforme al artículo 78.2 del TREBEP, la provisión de puestos de trabajo en cada Administración Pública se llevará a cabo por los procedimientos:",
       "options": [
         "De oposición y concurso-oposición con convocatoria pública.",
@@ -7257,7 +7297,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-16",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-iii-provision-de-puestos-y-movilidad",
       "question": "De acuerdo con el artículo 79 del TREBEP, el concurso, como procedimiento normal de provisión de puestos de trabajo, consistirá en la valoración:",
       "options": [
         "De los méritos.",
@@ -7282,7 +7322,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-17",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-iii-provision-de-puestos-y-movilidad",
       "question": "¿Cuál de las siguientes consiste en la apreciación discrecional por el órgano competente de la idoneidad de los candidatos en relación con los requisitos exigidos para el desempeño del puesto, según el artículo 80 del TREBEP?",
       "options": [
         "La oposición con convocatoria pública.",
@@ -7357,7 +7397,7 @@
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional-q-20",
-      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-ordenacion-de-la-actividad-profesional",
+      "topicId": "ley-del-estatuto-basico-del-empleado-publico-titulo-v-capitulo-iii-provision-de-puestos-y-movilidad",
       "question": "A tenor del artículo 84 del TREBEP, los funcionarios de carrera que obtengan destino en otra Administración Pública a través de los procedimientos de movilidad quedarán respecto de su Administración de origen en la situación administrativa de:",
       "options": [
         "Servicios especiales.",
