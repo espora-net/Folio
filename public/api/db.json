@@ -3,7 +3,7 @@
     "title": "Folio - Índice de datos",
     "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
     "version": "2026.05",
-    "updatedAt": "2026-05-02T18:24:33.992+02:00"
+    "updatedAt": "2026-05-02T18:07:05.439Z"
   },
   "studyTypes": [
     {
@@ -18,7 +18,28 @@
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales",
         "ley-53-1984-incompatibilidades",
-        "uah-tec-aux-archivos-bibliotecas-2025"
+        "uah-c1-tema-01-constitucion",
+        "uah-c1-tema-02-ebep",
+        "uah-c1-tema-03-losu",
+        "uah-c1-tema-04-lopdgdd",
+        "uah-c1-tema-05-discapacidad",
+        "uah-c1-tema-06-igualdad",
+        "uah-c1-tema-07-prevencion-riesgos-laborales",
+        "uah-c1-tema-08-codigo-etico-uah",
+        "uah-c1-tema-09-convivencia-uah",
+        "uah-c1-tema-10-servicio-biblioteca-uah",
+        "uah-c1-tema-11-espacios-equipamiento",
+        "uah-c1-tema-12-gestion-coleccion",
+        "uah-c1-tema-13-proceso-tecnico",
+        "uah-c1-tema-14-identificadores",
+        "uah-c1-tema-15-analisis-documental-cdu",
+        "uah-c1-tema-16-acceso-abierto-repositorios",
+        "uah-c1-tema-17-servicios-usuario",
+        "uah-c1-tema-18-prestamo-acceso-documento",
+        "uah-c1-tema-19-lsp-descubrimiento",
+        "uah-c1-tema-20-cooperacion-bibliotecaria",
+        "uah-c1-tema-21-calidad-efqm",
+        "uah-c1-tema-22-propiedad-intelectual"
       ]
     },
     {
@@ -71,7 +92,28 @@
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales",
         "ley-53-1984-incompatibilidades",
-        "uah-tec-aux-archivos-bibliotecas-2025"
+        "uah-c1-tema-01-constitucion",
+        "uah-c1-tema-02-ebep",
+        "uah-c1-tema-03-losu",
+        "uah-c1-tema-04-lopdgdd",
+        "uah-c1-tema-05-discapacidad",
+        "uah-c1-tema-06-igualdad",
+        "uah-c1-tema-07-prevencion-riesgos-laborales",
+        "uah-c1-tema-08-codigo-etico-uah",
+        "uah-c1-tema-09-convivencia-uah",
+        "uah-c1-tema-10-servicio-biblioteca-uah",
+        "uah-c1-tema-11-espacios-equipamiento",
+        "uah-c1-tema-12-gestion-coleccion",
+        "uah-c1-tema-13-proceso-tecnico",
+        "uah-c1-tema-14-identificadores",
+        "uah-c1-tema-15-analisis-documental-cdu",
+        "uah-c1-tema-16-acceso-abierto-repositorios",
+        "uah-c1-tema-17-servicios-usuario",
+        "uah-c1-tema-18-prestamo-acceso-documento",
+        "uah-c1-tema-19-lsp-descubrimiento",
+        "uah-c1-tema-20-cooperacion-bibliotecaria",
+        "uah-c1-tema-21-calidad-efqm",
+        "uah-c1-tema-22-propiedad-intelectual"
       ],
       "examConfig": {
         "numQuestions": 100,
@@ -286,18 +328,354 @@
       "officialUrl": "https://www.boe.es/eli/es/l/2017/11/08/9/con"
     },
     {
-      "id": "uah-tec-aux-archivos-bibliotecas-2025",
-      "title": "Técnico Auxiliar de Archivos y Bibliotecas UAH 2025",
-      "description": "Banco de preguntas y flashcards específico para la convocatoria UAH C1 de Archivos y Bibliotecas 2025, con preguntas curadas y de refuerzo enlazadas a material oficial o institucional.",
-      "file": "db-uah-tec-aux-archivos-bibliotecas-2025.json",
-      "tag": "UAH Bibliotecas",
+      "id": "uah-c1-tema-01-constitucion",
+      "title": "UAH C1 Tema 01 - Constitucion Espanola de 1978",
+      "description": "Preguntas y flashcards específicas del tema 1 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (28 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-01-constitucion.json",
+      "tag": "UAH T01",
       "color": "#7c3aed",
       "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
       "resources": [
         {
-          "type": "md",
-          "title": "Guías limpias por tema",
-          "path": "data/uah-bibliotecas-2025"
+          "type": "db",
+          "title": "Banco de preguntas Constitución",
+          "path": "db-uah-c1-tema-01-constitucion.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-02-ebep",
+      "title": "UAH C1 Tema 02 - Estatuto Basico del Empleado Publico",
+      "description": "Preguntas y flashcards específicas del tema 2 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (28 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-02-ebep.json",
+      "tag": "UAH T02",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas EBEP",
+          "path": "db-uah-c1-tema-02-ebep.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-03-losu",
+      "title": "UAH C1 Tema 03 - Ley Organica 2/2023 del Sistema Universitario",
+      "description": "Preguntas y flashcards específicas del tema 3 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (41 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-03-losu.json",
+      "tag": "UAH T03",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas LOSU",
+          "path": "db-uah-c1-tema-03-losu.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-04-lopdgdd",
+      "title": "UAH C1 Tema 04 - LOPDGDD",
+      "description": "Preguntas y flashcards específicas del tema 4 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (20 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-04-lopdgdd.json",
+      "tag": "UAH T04",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas LOPDGDD",
+          "path": "db-uah-c1-tema-04-lopdgdd.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-05-discapacidad",
+      "title": "UAH C1 Tema 05 - Derechos de las personas con discapacidad",
+      "description": "Preguntas y flashcards específicas del tema 5 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (11 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-05-discapacidad.json",
+      "tag": "UAH T05",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Discapacidad",
+          "path": "db-uah-c1-tema-05-discapacidad.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-06-igualdad",
+      "title": "UAH C1 Tema 06 - Igualdad efectiva y Plan de Igualdad UAH",
+      "description": "Preguntas y flashcards específicas del tema 6 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (15 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-06-igualdad.json",
+      "tag": "UAH T06",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Igualdad",
+          "path": "db-uah-c1-tema-06-igualdad.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-07-prevencion-riesgos-laborales",
+      "title": "UAH C1 Tema 07 - Prevencion de riesgos laborales en la UAH",
+      "description": "Preguntas y flashcards específicas del tema 7 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (14 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-07-prevencion-riesgos-laborales.json",
+      "tag": "UAH T07",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas PRL",
+          "path": "db-uah-c1-tema-07-prevencion-riesgos-laborales.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-08-codigo-etico-uah",
+      "title": "UAH C1 Tema 08 - Codigo etico general UAH",
+      "description": "Preguntas y flashcards específicas del tema 8 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (11 preguntas, 3 flashcards).",
+      "file": "db-uah-c1-tema-08-codigo-etico-uah.json",
+      "tag": "UAH T08",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Código ético",
+          "path": "db-uah-c1-tema-08-codigo-etico-uah.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-09-convivencia-uah",
+      "title": "UAH C1 Tema 09 - Normas de Convivencia UAH",
+      "description": "Preguntas y flashcards específicas del tema 9 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (10 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-09-convivencia-uah.json",
+      "tag": "UAH T09",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Convivencia",
+          "path": "db-uah-c1-tema-09-convivencia-uah.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-10-servicio-biblioteca-uah",
+      "title": "UAH C1 Tema 10 - Servicio de Biblioteca UAH",
+      "description": "Preguntas y flashcards específicas del tema 10 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (24 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-10-servicio-biblioteca-uah.json",
+      "tag": "UAH T10",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Biblioteca UAH",
+          "path": "db-uah-c1-tema-10-servicio-biblioteca-uah.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-11-espacios-equipamiento",
+      "title": "UAH C1 Tema 11 - Espacios y equipamiento en bibliotecas universitarias",
+      "description": "Preguntas y flashcards específicas del tema 11 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (18 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-11-espacios-equipamiento.json",
+      "tag": "UAH T11",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Espacios",
+          "path": "db-uah-c1-tema-11-espacios-equipamiento.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-12-gestion-coleccion",
+      "title": "UAH C1 Tema 12 - Gestion de la coleccion",
+      "description": "Preguntas y flashcards específicas del tema 12 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (25 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-12-gestion-coleccion.json",
+      "tag": "UAH T12",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Colección",
+          "path": "db-uah-c1-tema-12-gestion-coleccion.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-13-proceso-tecnico",
+      "title": "UAH C1 Tema 13 - Proceso tecnico de fondos documentales",
+      "description": "Preguntas y flashcards específicas del tema 13 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (35 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-13-proceso-tecnico.json",
+      "tag": "UAH T13",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Proceso técnico",
+          "path": "db-uah-c1-tema-13-proceso-tecnico.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-14-identificadores",
+      "title": "UAH C1 Tema 14 - Identificacion normalizada de documentos",
+      "description": "Preguntas y flashcards específicas del tema 14 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (26 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-14-identificadores.json",
+      "tag": "UAH T14",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Identificadores",
+          "path": "db-uah-c1-tema-14-identificadores.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-15-analisis-documental-cdu",
+      "title": "UAH C1 Tema 15 - Analisis documental y clasificaciones bibliograficas",
+      "description": "Preguntas y flashcards específicas del tema 15 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (25 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-15-analisis-documental-cdu.json",
+      "tag": "UAH T15",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas CDU",
+          "path": "db-uah-c1-tema-15-analisis-documental-cdu.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-16-acceso-abierto-repositorios",
+      "title": "UAH C1 Tema 16 - Acceso abierto y repositorios",
+      "description": "Preguntas y flashcards específicas del tema 16 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (42 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-16-acceso-abierto-repositorios.json",
+      "tag": "UAH T16",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Acceso abierto",
+          "path": "db-uah-c1-tema-16-acceso-abierto-repositorios.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-17-servicios-usuario",
+      "title": "UAH C1 Tema 17 - Servicios al usuario",
+      "description": "Preguntas y flashcards específicas del tema 17 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (32 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-17-servicios-usuario.json",
+      "tag": "UAH T17",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Servicios",
+          "path": "db-uah-c1-tema-17-servicios-usuario.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-18-prestamo-acceso-documento",
+      "title": "UAH C1 Tema 18 - Prestamo, salas y acceso al documento",
+      "description": "Preguntas y flashcards específicas del tema 18 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (41 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-18-prestamo-acceso-documento.json",
+      "tag": "UAH T18",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Préstamo",
+          "path": "db-uah-c1-tema-18-prestamo-acceso-documento.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-19-lsp-descubrimiento",
+      "title": "UAH C1 Tema 19 - LSP y herramientas de descubrimiento",
+      "description": "Preguntas y flashcards específicas del tema 19 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (30 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-19-lsp-descubrimiento.json",
+      "tag": "UAH T19",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas LSP",
+          "path": "db-uah-c1-tema-19-lsp-descubrimiento.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-20-cooperacion-bibliotecaria",
+      "title": "UAH C1 Tema 20 - Cooperacion bibliotecaria: REBIUN y Madrono",
+      "description": "Preguntas y flashcards específicas del tema 20 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (30 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-20-cooperacion-bibliotecaria.json",
+      "tag": "UAH T20",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Cooperación",
+          "path": "db-uah-c1-tema-20-cooperacion-bibliotecaria.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-21-calidad-efqm",
+      "title": "UAH C1 Tema 21 - Calidad, REBIUN y EFQM",
+      "description": "Preguntas y flashcards específicas del tema 21 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (24 preguntas, 4 flashcards).",
+      "file": "db-uah-c1-tema-21-calidad-efqm.json",
+      "tag": "UAH T21",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Calidad",
+          "path": "db-uah-c1-tema-21-calidad-efqm.json"
+        }
+      ]
+    },
+    {
+      "id": "uah-c1-tema-22-propiedad-intelectual",
+      "title": "UAH C1 Tema 22 - Propiedad intelectual y Creative Commons",
+      "description": "Preguntas y flashcards específicas del tema 22 de Técnico Auxiliar de Archivos y Bibliotecas UAH 2025 (24 preguntas, 5 flashcards).",
+      "file": "db-uah-c1-tema-22-propiedad-intelectual.json",
+      "tag": "UAH T22",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "db",
+          "title": "Banco de preguntas Propiedad intelectual",
+          "path": "db-uah-c1-tema-22-propiedad-intelectual.json"
         }
       ]
     }

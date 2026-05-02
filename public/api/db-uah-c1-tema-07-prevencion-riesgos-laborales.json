@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 07 - Prevencion de riesgos laborales en la UAH",
+    "description": "Banco de preguntas y flashcards del tema 7 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t07",
+      "title": "Tema 7. Prevencion de riesgos laborales en la UAH",
+      "description": "Politica de prevencion, organizacion preventiva, responsabilidades y funciones, planificacion y seguimiento. Integracion de la prevencion en la gestion, responsabilidades por niveles, planificacion preventiva y seguimiento.",
+      "order": 7,
+      "subtopics": [
+        {
+          "id": "uah-bib-t07-contenido",
+          "topicId": "uah-bib-t07",
+          "title": "Politica de prevencion, organizacion preventiva, responsabilidades y funciones, planificacion y seguimiento.",
+          "content": "Enfoque de examen: Integracion de la prevencion en la gestion, responsabilidades por niveles, planificacion preventiva y seguimiento.\n\nAtención: La PRL no es solo responsabilidad del servicio de prevencion: debe integrarse en toda la estructura jerarquica.\n\nPuntos clave: La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua. | La actividad preventiva se planifica, ejecuta, evalua y revisa. | Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion. | La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-007"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-7-21",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "La politica de prevencion de la UAH exige que la prevencion se integre en:",
+      "options": [
+        "El sistema general de gestion de la Universidad",
+        "Solo una campana anual aislada",
+        "La actividad privada del trabajador",
+        "Un documento sin seguimiento"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prevencion debe estar integrada en la gestion universitaria.",
+      "origin": "curada",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Integracion de la prevencion en el sistema de gestion."
+      }
+    },
+    {
+      "id": "uah-m-7-22",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "La planificacion preventiva debe concretar normalmente:",
+      "options": [
+        "Medidas, responsables, plazos y seguimiento",
+        "Solo carteles informativos",
+        "Solo sanciones",
+        "Solo estadisticas sin actuacion"
+      ],
+      "correctIndex": 0,
+      "explanation": "La planificacion convierte la evaluacion de riesgos en medidas con responsables y seguimiento.",
+      "origin": "curada",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Planificacion y seguimiento de la actividad preventiva."
+      }
+    },
+    {
+      "id": "uah-m-7-65",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "La Politica de Prevencion de Riesgos Laborales de la UAH destaca que la cultura preventiva se alcanza mediante:",
+      "options": [
+        "Informacion, formacion y participacion",
+        "Solo sanciones disciplinarias",
+        "Unicamente prestamos interbibliotecarios",
+        "Canje de revistas"
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica preventiva de la UAH vincula la cultura de prevencion con informacion, formacion y participacion.",
+      "origin": "curada",
+      "source": {
+        "materialId": "politica-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Informacion, formacion y participacion."
+      }
+    },
+    {
+      "id": "uah-m-7-66",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "La planificacion preventiva en la UAH debe permitir comprobar:",
+      "options": [
+        "Medidas, responsables, plazos y seguimiento",
+        "Solo titulos de revistas indizadas",
+        "El numero DOI de cada recurso",
+        "El color de la senalizacion"
+      ],
+      "correctIndex": 0,
+      "explanation": "El plan de prevencion convierte la evaluacion de riesgos en actuaciones planificadas y trazables.",
+      "origin": "curada",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Medidas, responsables, plazos y seguimiento."
+      }
+    },
+    {
+      "id": "uah-c-7-0",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "options": [
+        "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Prevencion de riesgos laborales en la UAH"
+      }
+    },
+    {
+      "id": "uah-c-7-1",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "options": [
+        "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Prevencion de riesgos laborales en la UAH"
+      }
+    },
+    {
+      "id": "uah-c-7-2",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "options": [
+        "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Prevencion de riesgos laborales en la UAH"
+      }
+    },
+    {
+      "id": "uah-c-7-3",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "options": [
+        "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "plan-prevencion",
+        "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
+        "highlightText": "Prevencion de riesgos laborales en la UAH"
+      }
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q049-f4e006df21e5",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "Según el artículo 35 de la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, los delegados de prevención serán designados:",
+      "options": [
+        "Por el empresario",
+        "Por y entre los representantes del personal",
+        "Por el personal de la empresa",
+        "Por el Comité de Seguridad y Salud *"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 49. Respuesta validada por la plantilla oficial: Por y entre los representantes del personal. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q049",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "Por y entre los representantes del personal"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-007",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q071-fb2cb9a1a025",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "¿Según el artículo 30 de la Ley 31/1995, de 8 de noviembre, de prevención y riesgos laborales, qué posibilidades tiene el empresario para cumplir con el deber de prevención de riesgos laborales?",
+      "options": [
+        "Deberá designar, en todo caso, uno o varios trabajadores para ocuparse de dicha actividad.",
+        "Necesariamente deberá concertar dicho servicio con una entidad especializada ajena a la empresa.",
+        "El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa.",
+        "El empresario deberá constituir un servicio de prevención o concertar dicho servicio con una entidad especializada ajena a la empresa."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 71. Respuesta validada por la plantilla oficial: El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa.. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q071",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-007",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q097-b900cb4b525f",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "La Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales:",
+      "options": [
+        "No es de aplicación a los funcionarios, tan sólo al personal laboral al servicio de las administraciones públicas.",
+        "Constituye legislación laboral, y por tanto sólo se aplica al personal contratado, no así al funcionario.",
+        "Se aplica al personal funcionario de las Administraciones Públicas si la Junta de Personal no se opusiera de forma expresa.",
+        "No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 97. Respuesta validada por la plantilla oficial: No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos.. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q097",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-007",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q013-4431df2eb8e5",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "Según el artículo 43 del IV Convenio Colectivo del Personal Laboral de las Universidades Públicas de Andalucía, el órgano paritario y colegiado de representación y participación, destinado a la consulta periódica sobre las actuaciones de los centros de trabajo en materia de prevención de riesgos laborales es:",
+      "options": [
+        "El Comité de Seguridad y Salud",
+        "Los delegados de Prevención",
+        "El Servicio de Prevención",
+        "El Comité de Empresa."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 13. Respuesta validada por la plantilla oficial: El Comité de Seguridad y Salud. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q013",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "El Comité de Seguridad y Salud"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-007",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-013",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "En prevención de riesgos laborales, ¿cuál es la finalidad básica de la actividad preventiva?",
+      "options": [
+        "Evitar o disminuir los riesgos derivados del trabajo",
+        "Sustituir la evaluación por sanciones disciplinarias",
+        "Reservar la seguridad únicamente al personal de prevención",
+        "Eliminar la participación de los trabajadores"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prevención busca evitar riesgos laborales o reducirlos mediante evaluación, planificación y medidas preventivas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-007#opositatest-referencia-013",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "actividad preventiva"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-007"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-014",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "Según el enfoque preventivo, ¿qué debe hacerse antes de implantar medidas preventivas?",
+      "options": [
+        "Evaluar los riesgos",
+        "Cerrar el centro de trabajo",
+        "Publicar una memoria económica",
+        "Nombrar personal eventual"
+      ],
+      "correctIndex": 0,
+      "explanation": "La evaluación de riesgos es la base para planificar la actividad preventiva. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-007#opositatest-referencia-014",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "evaluación de riesgos"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-007"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t7-point-0",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Completa esta idea de contenido",
+      "answer": "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t7-point-1",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Completa esta idea de contenido",
+      "answer": "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t7-point-2",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Completa esta idea de contenido",
+      "answer": "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t7-point-3",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "T7. Completa esta idea de contenido",
+      "answer": "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
+      "origin": "refuerzo"
+    }
+  ]
+}

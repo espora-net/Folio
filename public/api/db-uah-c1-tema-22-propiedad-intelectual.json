@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 22 - Propiedad intelectual y Creative Commons",
+    "description": "Banco de preguntas y flashcards del tema 22 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t22",
+      "title": "Tema 22. Propiedad intelectual y Creative Commons",
+      "description": "RDL 1/1996, Libro Primero, Titulo II, capitulo III del Titulo II; licencias Creative Commons. Contenido de derechos de explotacion, limites utiles para bibliotecas y funcionamiento de licencias Creative Commons.",
+      "order": 22,
+      "subtopics": [
+        {
+          "id": "uah-bib-t22-contenido",
+          "topicId": "uah-bib-t22",
+          "title": "RDL 1/1996, Libro Primero, Titulo II, capitulo III del Titulo II; licencias Creative Commons.",
+          "content": "Enfoque de examen: Contenido de derechos de explotacion, limites utiles para bibliotecas y funcionamiento de licencias Creative Commons.\n\nAtención: Creative Commons no elimina derechos de autor: concede permisos estandarizados bajo condiciones.\n\nPuntos clave: La propiedad intelectual distingue derechos morales y derechos de explotacion. | El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion. | Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND. | En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-022"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-22-51",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Las licencias Creative Commons permiten:",
+      "options": [
+        "Conceder permisos estandarizados bajo condiciones",
+        "Eliminar todos los derechos morales",
+        "Convertir cualquier obra en dominio publico obligatorio",
+        "Evitar citar autoria siempre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Creative Commons concede permisos anticipados bajo condiciones.",
+      "origin": "curada",
+      "source": {
+        "materialId": "creativecommons",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Conceptos, funcionamiento y tipologia."
+      }
+    },
+    {
+      "id": "uah-m-22-52",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "BY, SA, NC y ND son:",
+      "options": [
+        "Condiciones de licencias Creative Commons",
+        "Tipos de personal del EBEP",
+        "Entidades FRBR",
+        "Partes del examen"
+      ],
+      "correctIndex": 0,
+      "explanation": "BY, SA, NC y ND son condiciones combinables en licencias Creative Commons.",
+      "origin": "curada",
+      "source": {
+        "materialId": "creativecommons",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "BY, SA, NC y ND."
+      }
+    },
+    {
+      "id": "uah-m-22-95",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Segun el articulo 17 de la Ley de Propiedad Intelectual, los derechos de explotacion incluyen especialmente:",
+      "options": [
+        "Reproduccion, distribucion, comunicacion publica y transformacion",
+        "ISBN, ISSN, DOI y NIPO",
+        "Prestamo, reserva, renovacion y sancion",
+        "ALMA, PRIMO, MARC y RDA"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 17 enumera las modalidades principales de explotacion de la obra.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Reproduccion, distribucion, comunicacion publica y transformacion."
+      }
+    },
+    {
+      "id": "uah-m-22-96",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "En Creative Commons, la condicion ND significa:",
+      "options": [
+        "No se permiten obras derivadas o adaptaciones",
+        "Uso no comercial",
+        "Compartir igual",
+        "Deposito legal obligatorio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Creative Commons define ND como prohibicion de derivados o adaptaciones.",
+      "origin": "curada",
+      "source": {
+        "materialId": "creativecommons",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "ND: No derivatives or adaptations are permitted."
+      }
+    },
+    {
+      "id": "uah-m-22-161",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Segun la LPI, la reproduccion es:",
+      "options": [
+        "Fijacion de toda la obra o parte de ella que permite comunicacion u obtencion de copias",
+        "Prestamo de una obra durante 15 dias",
+        "Reserva de una sala",
+        "Asignacion de CDU"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 18 define reproduccion como fijacion directa o indirecta que permite comunicar u obtener copias.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Fijacion que permite comunicacion u obtencion de copias."
+      }
+    },
+    {
+      "id": "uah-m-22-162",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Segun la LPI, distribucion es la puesta a disposicion del publico del original o copias en soporte tangible mediante:",
+      "options": [
+        "Venta, alquiler, prestamo o cualquier otra forma",
+        "Solo comunicacion por radio",
+        "Solo deposito de datos",
+        "Solo indizacion"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 19 define distribucion y menciona venta, alquiler, prestamo u otra forma.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Puesta a disposicion en soporte tangible."
+      }
+    },
+    {
+      "id": "uah-m-22-163",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "La transformacion de una obra comprende:",
+      "options": [
+        "Traduccion, adaptacion y cualquier modificacion de la que derive una obra diferente",
+        "Solo prestamo domiciliario",
+        "Solo reserva de sala",
+        "Solo asignacion de ISSN"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 21 incluye traduccion, adaptacion y cualquier modificacion que genere una obra diferente.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Traduccion, adaptacion y modificacion."
+      }
+    },
+    {
+      "id": "uah-m-22-164",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "La licencia CC BY-SA permite adaptaciones siempre que:",
+      "options": [
+        "Se de atribucion y las adaptaciones se compartan bajo la misma o compatible licencia",
+        "No se cite al autor",
+        "Solo se use en bibliotecas fisicas",
+        "Se prohíba toda distribucion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Creative Commons define BY como atribucion y SA como compartir adaptaciones bajo los mismos terminos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "creativecommons",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "BY attribution; SA same terms."
+      }
+    },
+    {
+      "id": "uah-c-22-0",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "options": [
+        "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Propiedad intelectual y Creative Commons"
+      }
+    },
+    {
+      "id": "uah-c-22-1",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "options": [
+        "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Propiedad intelectual y Creative Commons"
+      }
+    },
+    {
+      "id": "uah-c-22-2",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "options": [
+        "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Propiedad intelectual y Creative Commons"
+      }
+    },
+    {
+      "id": "uah-c-22-3",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "options": [
+        "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lpi",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Propiedad intelectual y Creative Commons"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q019-6ea8b7540171",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué protege la Ley de Propiedad Intelectual?",
+      "options": [
+        "Marcas comerciales",
+        "Derechos de los autores sobre sus obras",
+        "Patentes",
+        "Derechos de los editores"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 19. Respuesta validada por la plantilla oficial: Derechos de los autores sobre sus obras. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q019",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Derechos de los autores sobre sus obras"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q096-4e42162aef09",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Para licenciar datos bibliográficos abiertos se recomienda habitualmente:",
+      "options": [
+        "Licencia CC0 o Creative Commons Atribución",
+        "NDA (acuerdo de confidencialidad)",
+        "Copyright completo sin excepciones",
+        "Patente industrial"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 96. Respuesta validada por la plantilla oficial: Licencia CC0 o Creative Commons Atribución. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q096",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Licencia CC0 o Creative Commons Atribución"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q041-6ae6074feb4d",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Cuál de estas licencias Creative Commons permite usar la obra libremente para cualquier fin sin necesidad de solicitar permiso al autor de tal obra?",
+      "options": [
+        "CC BY-NC-ND",
+        "CC BY-NC-SA",
+        "CC BY-ND",
+        "CC0"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 41. Respuesta validada por la plantilla oficial: CC0. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q041",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "CC0"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q052-a2ac96b64c08",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Señale cuál de las siguientes afirmaciones es FALSA. Entre las ventajas de usar licenzas Creative Commons está que:",
+      "options": [
+        "Son revocables",
+        "Enel ambito de la enseñanza, ofrecen multitud de contenidos libres para ser usados y compartidos",
+        "Permiten la divulgación de la obra sin perjuicio de que el autor o autora reserven algunos derechos",
+        "Aumentan la visibilidad de las autoras o autores en internet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 52. Respuesta validada por la plantilla oficial: Son revocables. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q052",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Son revocables"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q009-ffef963dc59f",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "El nombre de la licencia Creative Commons correspondiente con las siguientes siglas CC BY NC es:",
+      "options": [
+        "Reconocimiento — No comercial 4",
+        "Reconocimiento — No derivadas",
+        "Reconocimiento — No comercial — No derivadas",
+        "Reconocimiento — Compartir igual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 9. Respuesta validada por la plantilla oficial: Reconocimiento — No comercial 4. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q009",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Reconocimiento — No comercial 4"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q031-32a8584cadfc",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué son las licencias Creative Commons y cómo se aplican en recursos académicos?",
+      "options": [
+        "Licencias que prohíben cualquier uso de obras con derechos de autor.",
+        "Son licencias equivalentes al obsoleto copyright tradicional.",
+        "Solo se aplican a películas y música comerciales.",
+        "Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas.."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 31. Respuesta validada por la plantilla oficial: Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas... Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q031",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas.."
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q053-1d945f7cb66d",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué modalidad de licencia Creative Commons se recomienda desde RODIN?",
+      "options": [
+        "Reconocimiento — No comercial — Sin obra derivada",
+        "Reconocimiento — No comercial — Compartir igual",
+        "Reconocimiento — Sin obra derivada",
+        "Reconocimiento — Compartir igual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 53. Respuesta validada por la plantilla oficial: Reconocimiento — No comercial — Sin obra derivada. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q053",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Reconocimiento — No comercial — Sin obra derivada"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q055-30a2aa6c3ed3",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué norma española regula la propiedad intelectual de las creaciones originales literarias, artísticas o científicas?",
+      "options": [
+        "Ley orgánica 15/1999",
+        "Real Decreto 111/1986",
+        "Real Decreto Legislativo 1/1996",
+        "Ley 30/1992"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 55. Respuesta validada por la plantilla oficial: Real Decreto Legislativo 1/1996. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q055",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Real Decreto Legislativo 1/1996"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q028-9d0e367ca728",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿En qué área del Marco DIGCOMP está incluida la competencia referida a los derechos de propiedad intelectual y las licencias de uso?",
+      "options": [
+        "Información y tratamiento de datos.",
+        "Comunicación y colaboración.",
+        "Creación de contenidos.",
+        "Seguridad."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 28. Respuesta validada por la plantilla oficial: Creación de contenidos.. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-libre-2024#q028",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Creación de contenidos."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q039-294a77efe7bc",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Según el artículo 37 de la Ley de Propiedad Intelectual, los documentos servidos entre bibliotecas se facilitan exclusivamente:",
+      "options": [
+        "Con fines de investigación personal de carácter cultural o científico.",
+        "Con fines de investigación personal de carácter académico.",
+        "Con fines de investigación personal de carácter científico o comercial.",
+        "Con fines de investigación personal de carácter universitario."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 39. Respuesta validada por la plantilla oficial: Con fines de investigación personal de carácter cultural o científico.. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-libre-2024#q039",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "Con fines de investigación personal de carácter cultural o científico."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-022",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-043",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué protegen los derechos de autor en la Ley de Propiedad Intelectual?",
+      "options": [
+        "Creaciones originales literarias, artísticas o científicas expresadas por cualquier medio o soporte",
+        "Números de clasificación topográfica",
+        "Registros de préstamo vencido",
+        "Solicitudes de acceso al documento"
+      ],
+      "correctIndex": 0,
+      "explanation": "La propiedad intelectual protege obras originales expresadas en cualquier soporte. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-022#opositatest-referencia-043",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "creaciones originales"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-022"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-044",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "En Creative Commons, ¿qué condición representa NC?",
+      "options": [
+        "No comercial",
+        "Número currens",
+        "Normalización catalográfica",
+        "Nueva colección"
+      ],
+      "correctIndex": 0,
+      "explanation": "NC indica que la licencia no permite usos comerciales bajo esa condición. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-022#opositatest-referencia-044",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "No comercial"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-022"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t22-point-0",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Completa esta idea de contenido",
+      "answer": "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t22-point-1",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Completa esta idea de contenido",
+      "answer": "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t22-point-2",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Completa esta idea de contenido",
+      "answer": "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t22-point-3",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "T22. Completa esta idea de contenido",
+      "answer": "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-x-22-creative-commons-n",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "Creative Commons no elimina...",
+      "answer": "No elimina derechos de autor; concede permisos estandarizados bajo condiciones como BY, SA, NC y ND.",
+      "origin": "refuerzo"
+    }
+  ]
+}

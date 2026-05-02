@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 06 - Igualdad efectiva y Plan de Igualdad UAH",
+    "description": "Banco de preguntas y flashcards del tema 6 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t06",
+      "title": "Tema 6. Igualdad efectiva y Plan de Igualdad UAH",
+      "description": "LO 3/2007, Titulo II, y Plan de Igualdad de la Universidad de Alcala. Politicas publicas de igualdad, transversalidad, acciones positivas y medidas propias del plan UAH.",
+      "order": 6,
+      "subtopics": [
+        {
+          "id": "uah-bib-t06-contenido",
+          "topicId": "uah-bib-t06",
+          "title": "LO 3/2007, Titulo II, y Plan de Igualdad de la Universidad de Alcala.",
+          "content": "Enfoque de examen: Politicas publicas de igualdad, transversalidad, acciones positivas y medidas propias del plan UAH.\n\nAtención: Diferenciar ley estatal y plan institucional: una fija marco juridico y el otro concreta medidas en la UAH.\n\nPuntos clave: La igualdad debe integrarse de forma transversal en politicas publicas. | La ley permite acciones positivas para corregir desigualdades de hecho. | El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento. | La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-006"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-6-19",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "La transversalidad del principio de igualdad implica:",
+      "options": [
+        "Integrar la igualdad en las politicas publicas",
+        "Aplicarla solo en expedientes sancionadores",
+        "Limitarla a elecciones sindicales",
+        "Excluirla de la actividad administrativa"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Titulo II de la LO 3/2007 exige integrar la igualdad en las politicas publicas.",
+      "origin": "curada",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Politicas publicas para la igualdad."
+      }
+    },
+    {
+      "id": "uah-m-6-20",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "Las acciones positivas en materia de igualdad buscan:",
+      "options": [
+        "Corregir situaciones patentes de desigualdad de hecho",
+        "Crear privilegios permanentes sin finalidad",
+        "Eliminar la igualdad formal",
+        "Sustituir toda evaluacion de merito"
+      ],
+      "correctIndex": 0,
+      "explanation": "La LO 3/2007 admite medidas especificas para corregir desigualdad de hecho.",
+      "origin": "curada",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Acciones positivas."
+      }
+    },
+    {
+      "id": "uah-m-6-63",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En la LO 3/2007, la transversalidad significa que la igualdad debe integrarse en:",
+      "options": [
+        "La actuacion de los poderes publicos y sus politicas",
+        "Solo los expedientes de prestamo",
+        "Unicamente el catalogo bibliografico",
+        "Solo las licencias Creative Commons"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Titulo II de la LO 3/2007 trata politicas publicas para la igualdad e integra el principio de igualdad de forma transversal.",
+      "origin": "curada",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Transversalidad del principio de igualdad."
+      }
+    },
+    {
+      "id": "uah-m-6-64",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En el estudio del tema 6, el Plan de Igualdad UAH sirve para:",
+      "options": [
+        "Concretar medidas institucionales de igualdad en la Universidad",
+        "Sustituir la LO 3/2007",
+        "Regular MARC 21",
+        "Asignar numeros de deposito legal"
+      ],
+      "correctIndex": 0,
+      "explanation": "El tema combina el marco estatal de la LO 3/2007 con el Plan de Igualdad de la UAH.",
+      "origin": "curada",
+      "source": {
+        "materialId": "plan-igualdad",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Medidas institucionales de igualdad."
+      }
+    },
+    {
+      "id": "uah-c-6-0",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "options": [
+        "La igualdad debe integrarse de forma transversal en politicas publicas.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La igualdad debe integrarse de forma transversal en politicas publicas.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
+      }
+    },
+    {
+      "id": "uah-c-6-1",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "options": [
+        "La ley permite acciones positivas para corregir desigualdades de hecho.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La ley permite acciones positivas para corregir desigualdades de hecho.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
+      }
+    },
+    {
+      "id": "uah-c-6-2",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "options": [
+        "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
+      }
+    },
+    {
+      "id": "uah-c-6-3",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "options": [
+        "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "igualdad-ley",
+        "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
+        "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q011-87c8598b103b",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "¿Qué tipo de acciones permite la Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad efectiva de mujeres y hombres, para corregir situaciones de desigualdad de hecho entre mujeres y hombres?",
+      "options": [
+        "Acciones represivas",
+        "Acciones judiciales exclusivamente",
+        "Acciones positivas",
+        "Acciones sancionadoras"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 11. Respuesta validada por la plantilla oficial: Acciones positivas. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q011",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "Acciones positivas"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-006",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q012-2c3c1ac6e8d2",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En virtud del artículo 12.3 de la Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres, ¿quién está legitimado en los litigios sobre acoso sexual y acoso por razón de sexo?",
+      "options": [
+        "La persona acosada",
+        "El empleador o la empresa implicada",
+        "Cualquier testigo directo del acoso",
+        "Solo el Ministerio fiscal cuando se trate de personas menores de edad y emancipados"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 12. Respuesta validada por la plantilla oficial: La persona acosada. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q012",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "La persona acosada"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-006",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q006-77d3ad263d3b",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "La Ley orgánica 3/2007, de 22 de marzo para la igualdad efectiva de mujeres y hombres, señala en su artículo 51 que las administraciones públicas, en el ámbito de sus respectivas competencias y en aplicación del principio de igualdad entre mujeres y hombres, deberán fomentar la formación en igualdad:",
+      "options": [
+        "Principalmente como parte de planes internos de formación continua.",
+        "En elacceso al empleo público.",
+        "En función de las necesidades detectadas en cada organismo.",
+        "De manera progresiva y según la disponibilidad de recursos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 6. Respuesta validada por la plantilla oficial: En elacceso al empleo público.. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q006",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "En elacceso al empleo público."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-006",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q016-51ff9b5f7d89",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "De acuerdo con el artículo 51 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres sobre los Criterios de actuación de las Administraciones públicas en materia de igualdad, ¿cuál de las siguientes acciones deben llevar a cabo las Administraciones en el ámbito de sus competencias?",
+      "options": [
+        "Garantizar que todas las ofertas de empleo público sean exclusivamente para mujeres subrepresentadas en el sector",
+        "Derogar toda normativa que mencione el género o el sexo en los procedimientos de acceso y promoción.",
+        "Promover la presencia equilibrada de mujeres y hombres en los órganos de selección y valoración.",
+        "Priorizar la contratación de mujeres en todas las categorías profesionales para alcanzar la paridad inmediata."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 16. Respuesta validada por la plantilla oficial: Promover la presencia equilibrada de mujeres y hombres en los órganos de selección y valoración.. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q016",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "Promover la presencia equilibrada de mujeres y hombres en los órganos de selección y valoración."
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-006",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q017-329d6abd65a1",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "De acuerdo con el artículo 6.2 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, la discriminación indirecta por razón de sexo se caracteriza tgóricamente por.",
+      "options": [
+        "Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular respecto al otro.",
+        "La orden de tratar a una persona de un sexo de manera menos favorable que a otra en situación comparable.",
+        "La situación en que una persona es tratada de manera menos favorable que otra en atención a su sexo, sin justificación",
+        "Una disposición, criterio o práctica que es intencionalmente desfavorable para un sexo específico."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 17. Respuesta validada por la plantilla oficial: Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular respecto al otro.. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q017",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular respecto al otro."
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-006",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-011",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En la Ley Orgánica 3/2007, ¿cómo se denominan las medidas específicas para corregir situaciones patentes de desigualdad de hecho?",
+      "options": [
+        "Acciones positivas",
+        "Actos reglados",
+        "Reservas ordinarias",
+        "Permisos retribuidos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La ley permite acciones positivas para hacer efectivo el derecho constitucional a la igualdad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-006#opositatest-referencia-011",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "Acciones positivas"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-006"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-012",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En materia de igualdad, ¿qué debe promover la Administración en los órganos de selección y valoración?",
+      "options": [
+        "La presencia equilibrada de mujeres y hombres",
+        "La designación exclusivamente por sorteo",
+        "La mayoría automática del personal eventual",
+        "La exclusión de representación sindical"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Ley Orgánica 3/2007 incluye criterios de actuación de las Administraciones públicas orientados a presencia equilibrada. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-006#opositatest-referencia-012",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "presencia equilibrada"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-006"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t6-point-0",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Completa esta idea de contenido",
+      "answer": "La igualdad debe integrarse de forma transversal en politicas publicas.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t6-point-1",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Completa esta idea de contenido",
+      "answer": "La ley permite acciones positivas para corregir desigualdades de hecho.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t6-point-2",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Completa esta idea de contenido",
+      "answer": "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t6-point-3",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "T6. Completa esta idea de contenido",
+      "answer": "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
+      "origin": "refuerzo"
+    }
+  ]
+}

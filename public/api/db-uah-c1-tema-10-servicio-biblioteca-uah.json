@@ -1,0 +1,589 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 10 - Servicio de Biblioteca UAH",
+    "description": "Banco de preguntas y flashcards del tema 10 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t10",
+      "title": "Tema 10. Servicio de Biblioteca UAH",
+      "description": "Mision, vision, estructura, guia de cultura y valores, y Reglamento de la Biblioteca UAH. Conocer que es la BUAH, como se organiza, que valores declara y que regula su reglamento.",
+      "order": 10,
+      "subtopics": [
+        {
+          "id": "uah-bib-t10-contenido",
+          "topicId": "uah-bib-t10",
+          "title": "Mision, vision, estructura, guia de cultura y valores, y Reglamento de la Biblioteca UAH.",
+          "content": "Enfoque de examen: Conocer que es la BUAH, como se organiza, que valores declara y que regula su reglamento.\n\nAtención: No estudiar una biblioteca universitaria generica: el examen pide la Biblioteca de la Universidad de Alcala.\n\nPuntos clave: La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria. | La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo. | La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua. | El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-010"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-10-27",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "El Reglamento de la Biblioteca UAH regula principalmente:",
+      "options": [
+        "Organizacion, usuarios, servicios, derechos y deberes",
+        "La soberania nacional",
+        "La designacion de personal interino",
+        "La expedicion del DOI"
+      ],
+      "correctIndex": 0,
+      "explanation": "El reglamento es la norma interna basica de organizacion y uso de la Biblioteca UAH.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Usuarios, servicios, derechos y deberes."
+      }
+    },
+    {
+      "id": "uah-m-10-28",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "La Biblioteca UAH presta apoyo principalmente a:",
+      "options": [
+        "Docencia, aprendizaje, investigacion y gestion universitaria",
+        "Solo actividades deportivas",
+        "Solo procesos electorales",
+        "Solo publicaciones oficiales con NIPO"
+      ],
+      "correctIndex": 0,
+      "explanation": "La mision bibliotecaria universitaria se orienta al apoyo a docencia, aprendizaje e investigacion.",
+      "origin": "curada",
+      "source": {
+        "materialId": "guia-cultura",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Mision y valores de la Biblioteca UAH."
+      }
+    },
+    {
+      "id": "uah-m-10-71",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Segun el Reglamento de Biblioteca UAH, la Biblioteca es una unidad funcional que gestiona recursos destinados a:",
+      "options": [
+        "Estudio, docencia, investigacion y formacion continua",
+        "Solo actividades deportivas",
+        "Solo sanciones disciplinarias",
+        "Exclusivamente publicaciones con NIPO"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 1 define la Biblioteca como unidad funcional para estudio, docencia, investigacion y formacion continua.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Descripcion y objetivos de la Biblioteca."
+      }
+    },
+    {
+      "id": "uah-m-10-72",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "La Comision Tecnica de la Biblioteca UAH se reune, segun el Reglamento, al menos:",
+      "options": [
+        "Una vez trimestralmente",
+        "Una vez cada diez anos",
+        "Solo cuando lo pida REBIUN",
+        "Cada dia lectivo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento fija una reunion al menos trimestral, convocada por su presidente.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "La Comision Tecnica se reunira al menos una vez trimestralmente."
+      }
+    },
+    {
+      "id": "uah-m-10-113",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Segun el Reglamento de Biblioteca UAH, corresponde a la Biblioteca garantizar:",
+      "options": [
+        "El acceso a la documentacion disponible gestionando los fondos propios",
+        "La expedicion de titulos oficiales",
+        "La sancion disciplinaria del PTGAS",
+        "La emision del DOI"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 1 del Reglamento atribuye a la Biblioteca garantizar acceso a documentacion disponible y facilitar acceso a informacion de otras bibliotecas.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Garantizar el acceso a la documentacion disponible."
+      }
+    },
+    {
+      "id": "uah-m-10-114",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "El organo de gobierno de la Biblioteca UAH tiene, entre sus funciones:",
+      "options": [
+        "Aprobar la Memoria anual de la Biblioteca",
+        "Nombrar al Rector",
+        "Asignar ISBN a libros",
+        "Resolver sanciones penales"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 3 atribuye al organo de gobierno aprobar la Memoria anual y directrices generales.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Aprobar la Memoria anual de la Biblioteca."
+      }
+    },
+    {
+      "id": "uah-m-10-115",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Segun el Reglamento, son usuarios de pleno derecho de la Biblioteca UAH:",
+      "options": [
+        "PDI, becarios de investigacion, alumnos, PAS y personal permanente acreditado de centros/departamentos/institutos",
+        "Solo estudiantes de grado",
+        "Solo usuarios con Pasaporte Madrono",
+        "Solo personal externo autorizado"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 8 diferencia usuarios de pleno derecho y autorizados.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Usuarios de pleno derecho."
+      }
+    },
+    {
+      "id": "uah-m-10-116",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "El area de atencion al usuario de la Biblioteca UAH incluye:",
+      "options": [
+        "Informacion bibliografica, formacion de usuarios y acceso al documento",
+        "Solo compra de monografias",
+        "Solo evaluacion del desempeno",
+        "Solo asignacion de NIPO"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 7.4 enumera informacion bibliografica, formacion y acceso al documento: prestamo en sala, domiciliario e interbibliotecario.",
+      "origin": "curada",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Informacion, formacion y acceso al documento."
+      }
+    },
+    {
+      "id": "uah-c-10-0",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "options": [
+        "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Servicio de Biblioteca UAH"
+      }
+    },
+    {
+      "id": "uah-c-10-1",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "options": [
+        "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Servicio de Biblioteca UAH"
+      }
+    },
+    {
+      "id": "uah-c-10-2",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "options": [
+        "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Servicio de Biblioteca UAH"
+      }
+    },
+    {
+      "id": "uah-c-10-3",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "options": [
+        "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "reglamento-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Servicio de Biblioteca UAH"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q058-215ccd6b0448",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "¿Qué papel desempeña la biblioteca universitaria en Moodle?",
+      "options": [
+        "Proporciona únicamente enlaces externos sin participación activa en la plataforma",
+        "Solo se utiliza como repositorio de documentos PDF sin intervención formativa",
+        "Integración de recursos, guías temáticas y apoyo en competencias informacionales",
+        "Solo ofrece acceso al catálogo de la biblioteca, sin conexión con los cursos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 58. Respuesta validada por la plantilla oficial: Integración de recursos, guías temáticas y apoyo en competencias informacionales. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q058",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Integración de recursos, guías temáticas y apoyo en competencias informacionales"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-010",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q075-4df76385a17a",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "La biblioteca universitaria se define, en términos generales, como:",
+      "options": [
+        "Un archivo histórico de documentos oficiales",
+        "Un servicio académico que gestiona recursos de información para apoyar la docencia, el estudio y la investigación",
+        "Una empresa privada de préstamo comercial",
+        "Un museo dedicado a libros antiguos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 75. Respuesta validada por la plantilla oficial: Un servicio académico que gestiona recursos de información para apoyar la docencia, el estudio y la investigación. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q075",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Un servicio académico que gestiona recursos de información para apoyar la docencia, el estudio y la investigación"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-010",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q081-9c30faff0755",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "El reglamento de la Biblioteca UPM establece que el carné de biblioteca es:",
+      "options": [
+        "Reemplazable por el DNI sin identificación electrónica",
+        "Obligatorio solo para profesorado",
+        "Personal e intransferible para cualquier usuario autorizado",
+        "Válido solo durante dos semanas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 81. Respuesta validada por la plantilla oficial: Personal e intransferible para cualquier usuario autorizado. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q081",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Personal e intransferible para cualquier usuario autorizado"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-010",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q048-0520c280b2d1",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según las Normas y directrices para bibliotecas universitarias y científicas de REBIUN, la colección básica de una biblioteca universitaria ha de disponer de:",
+      "options": [
+        "5.000 volúmenes",
+        "10.000 volúmenes",
+        "50.000 volúmenes",
+        "30.000 volúmenes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 48. Respuesta validada por la plantilla oficial: 50.000 volúmenes. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q048",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "50.000 volúmenes"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-010",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q080-4ff72b777612",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según las Normas y directrices para bibliotecas universitarias y científicas de REBIUN, la colección de una biblioteca universitaria ha de tener un incremento anual de:",
+      "options": [
+        "5 volúmenes por PDI y 10 volúmenes por alumno",
+        "10 volúmenes por PDI y 1 volumen por alumno",
+        "2 volúmenes por alumno y 5 volúmenes por PDI",
+        "5 volúmenes por alumno y 10 volúmenes por PDI"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 80. Respuesta validada por la plantilla oficial: 10 volúmenes por PDI y 1 volumen por alumno. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q080",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "10 volúmenes por PDI y 1 volumen por alumno"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-010",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-uned-aux-2024-q045-a7d4fe43003c",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según las \"Normas y directrices para bibliotecas universitarias y científicas\" elaboradas por REBIUN, el presupuesto ordinario asignado a la Biblioteca Universitaria debe suponer:",
+      "options": [
+        "Como mínimo el 10% del presupuesto total ordinario de la universidad.",
+        "El 20 % del presupuesto total ordinario de la universidad.",
+        "Como mínimo el 5 % del presupuesto total ordinario de la universidad.",
+        "El 15 % del presupuesto total ordinario de la universidad."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 45. Respuesta validada por la plantilla oficial: Como mínimo el 5 % del presupuesto total ordinario de la universidad.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uned-aux-2024#q045",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Como mínimo el 5 % del presupuesto total ordinario de la universidad."
+      },
+      "tags": [
+        "examen-oficial",
+        "uned-aux-2024",
+        "uah-tema-010",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q025-e795240ace82",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según el Reglamento de la Biblioteca de la Universidad de Cantabria ¿qué consecuencia puede tener para un usuario/a utilizar la identificación de otra persona para acceder a la Biblioteca electrónica Emilio Botín?",
+      "options": [
+        "Comunicación a las autoridades académicas de su Facultad o Escuela",
+        "Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses.",
+        "Expulsión y suspensión de la biblioteca del Paraninfo por una semana.",
+        "En este caso, impone la medida correctora el Director del Servicio de Informática."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 25. Respuesta validada por la plantilla oficial: Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q025",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-010",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q026-627321cb045d",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según el Reglamento de la Biblioteca de la Universidad de Cantabria, el grupo de dirección de la Biblioteca está formado por:",
+      "options": [
+        "Directora, Subdirectora, responsables de servicios técnicos y divisiones y la Administradora.",
+        "Directora, Subdirectora, responsables de servicios técnicos y un responsable de una división que actuara como secretario/a.",
+        "Directora, Subdirectora, Coordinadores y la Administradora, que actuará como secretaria.",
+        "Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 26. Respuesta validada por la plantilla oficial: Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q026",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-010",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q046-8ca6f6762157",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Indique cuál de las siguientes afirmaciones es correcta respecto a la Biblioteca de la Universidad de Cantabria:",
+      "options": [
+        "Elaccesoatodas las salas de lectura es libre.",
+        "Todas las salas de lectura están destinadas al estudio en silencio.",
+        "El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido.",
+        "En todas las Divisiones hay Salas de Grupo."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 46. Respuesta validada por la plantilla oficial: El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q046",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-010",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-pi-2024-q015-cf4291b99d9b",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "En la Biblioteca de la Universidad de Zaragoza, los contactos con los editores para poner en funcionamiento cada plataforma de libro electrónico la gestiona",
+      "options": [
+        "La Comisión de la Biblioteca.",
+        "El Servicio de Suscripciones.",
+        "Cada director de biblioteca.",
+        "El director de la Biblioteca Universitaria."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 15. Respuesta validada por la plantilla oficial: El director de la Biblioteca Universitaria.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-pi-2024#q015",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "El director de la Biblioteca Universitaria."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-pi-2024",
+        "uah-tema-010",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-019",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según el Reglamento de Biblioteca UAH, la Biblioteca es una unidad funcional que gestiona recursos documentales destinados a:",
+      "options": [
+        "Estudio, docencia, investigación y formación continua",
+        "Recaudación tributaria y contratación administrativa",
+        "Gestión de nóminas y régimen disciplinario",
+        "Exclusivamente ocio cultural no universitario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 1 describe la Biblioteca como unidad funcional al servicio del estudio, docencia, investigación y formación continua. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-010#opositatest-referencia-019",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "estudio, la docencia, la investigación y la formación continua"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-010"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-020",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "¿Quién es la autoridad responsable de la Biblioteca de la Universidad de Alcalá según su Reglamento?",
+      "options": [
+        "El Rector o Vicerrector en quien delegue",
+        "El Director de cada Departamento",
+        "El Consejo de Estudiantes exclusivamente",
+        "La Asamblea de usuarios autorizados"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento identifica al Rector o Vicerrector delegado como autoridad responsable de la Biblioteca. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-010#opositatest-referencia-020",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Rector o, en su caso, Vicerrector en quien delegue"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-010"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t10-point-0",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Completa esta idea de contenido",
+      "answer": "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t10-point-1",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Completa esta idea de contenido",
+      "answer": "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t10-point-2",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Completa esta idea de contenido",
+      "answer": "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t10-point-3",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "T10. Completa esta idea de contenido",
+      "answer": "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
+      "origin": "refuerzo"
+    }
+  ]
+}

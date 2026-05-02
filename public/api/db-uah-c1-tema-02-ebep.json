@@ -1,0 +1,660 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 02 - Estatuto Basico del Empleado Publico",
+    "description": "Banco de preguntas y flashcards del tema 2 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t02",
+      "title": "Tema 2. Estatuto Basico del Empleado Publico",
+      "description": "Titulo I, capitulo I del Titulo II, Titulo III, Titulo IV, capitulo III del Titulo V y Titulo VII. Clases de personal, derechos/deberes, codigo de conducta, acceso, perdida de servicio, provision y regimen disciplinario.",
+      "order": 2,
+      "subtopics": [
+        {
+          "id": "uah-bib-t02-contenido",
+          "topicId": "uah-bib-t02",
+          "title": "Titulo I, capitulo I del Titulo II, Titulo III, Titulo IV, capitulo III del Titulo V y Titulo VII.",
+          "content": "Enfoque de examen: Clases de personal, derechos/deberes, codigo de conducta, acceso, perdida de servicio, provision y regimen disciplinario.\n\nAtención: Distinguir funcionario de carrera, interino, laboral y eventual; y separar faltas, sanciones y prescripcion.\n\nPuntos clave: El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral. | Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual. | Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania. | La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-002"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-2-7",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Segun el EBEP, una de las clases de personal al servicio de las Administraciones Publicas es:",
+      "options": [
+        "Personal eventual",
+        "Personal mercantil",
+        "Personal patronal",
+        "Personal jurisdiccional"
+      ],
+      "correctIndex": 0,
+      "explanation": "El EBEP enumera personal funcionario de carrera, interino, laboral y eventual.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Clases de personal al servicio de las Administraciones Publicas."
+      }
+    },
+    {
+      "id": "uah-m-2-8",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "El personal funcionario interino se nombra por razones expresamente justificadas de:",
+      "options": [
+        "Necesidad y urgencia",
+        "Antiguedad y costumbre",
+        "Libre designacion politica",
+        "Promocion automatica"
+      ],
+      "correctIndex": 0,
+      "explanation": "El EBEP vincula el nombramiento de interinos a razones de necesidad y urgencia.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Razones expresamente justificadas de necesidad y urgencia."
+      }
+    },
+    {
+      "id": "uah-m-2-9",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "El codigo de conducta del EBEP se integra por:",
+      "options": [
+        "Principios eticos y principios de conducta",
+        "Usos sociales y reglamentos privados",
+        "Solo sanciones disciplinarias",
+        "Solo derechos retributivos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El codigo de conducta se formula mediante principios eticos y de conducta.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Codigo de conducta de los empleados publicos."
+      }
+    },
+    {
+      "id": "uah-m-2-10",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "La provision de puestos de trabajo segun el EBEP debe basarse en principios como:",
+      "options": [
+        "Igualdad, merito, capacidad y publicidad",
+        "Antiguedad absoluta sin convocatoria",
+        "Designacion verbal",
+        "Turno rotatorio informal"
+      ],
+      "correctIndex": 0,
+      "explanation": "El capitulo de provision de puestos exige igualdad, merito, capacidad y publicidad.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Provision de puestos de trabajo y movilidad."
+      }
+    },
+    {
+      "id": "uah-m-2-55",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Para adquirir la condicion de funcionario de carrera, el EBEP exige, entre otros requisitos:",
+      "options": [
+        "Superar el proceso selectivo, nombramiento, acatamiento y toma de posesion",
+        "Solo antiguedad y no tener sanciones de biblioteca",
+        "Alta en ALMA y registro en Buscador",
+        "Depositar datos FAIR en eCienciaDatos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Titulo IV del EBEP regula la adquisicion y perdida de la relacion de servicio.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Superacion del proceso selectivo, nombramiento, acatamiento y toma de posesion."
+      }
+    },
+    {
+      "id": "uah-m-2-56",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "En el EBEP, el personal eventual realiza principalmente:",
+      "options": [
+        "Funciones expresamente calificadas como de confianza o asesoramiento especial",
+        "Catalogacion RDA de monografias modernas",
+        "Prueba de prestamo interbibliotecario",
+        "Evaluacion EFQM de bibliotecas"
+      ],
+      "correctIndex": 0,
+      "explanation": "El capitulo I del Titulo II diferencia el personal eventual por sus funciones de confianza o asesoramiento especial.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Funciones de confianza o asesoramiento especial."
+      }
+    },
+    {
+      "id": "uah-m-2-105",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Cual de estos es un derecho individual del articulo 14 del EBEP?",
+      "options": [
+        "Formacion continua y actualizacion permanente de conocimientos",
+        "Asignacion de ISSN",
+        "Reserva de dos obras prestadas",
+        "Obtencion del Pasaporte Madrono"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 14 enumera derechos individuales, entre ellos la formacion continua y actualizacion permanente.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Formacion continua y actualizacion permanente."
+      }
+    },
+    {
+      "id": "uah-m-2-106",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Los derechos individuales ejercidos colectivamente del articulo 15 del EBEP incluyen:",
+      "options": [
+        "Libertad sindical, negociacion colectiva, huelga, conflictos colectivos y reunion",
+        "Solo vacaciones y permisos",
+        "Solo retribuciones basicas",
+        "Solo catalogacion RDA"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 15 enumera derechos individuales de ejercicio colectivo.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Derechos individuales ejercidos colectivamente."
+      }
+    },
+    {
+      "id": "uah-m-2-107",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "La carrera profesional del funcionario de carrera, segun el EBEP, se basa en principios de:",
+      "options": [
+        "Igualdad, merito y capacidad",
+        "Antiguedad automatica sin evaluacion",
+        "Acceso por orden de llegada",
+        "Reserva de salas"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 16 define carrera como oportunidades de ascenso y progreso conforme a igualdad, merito y capacidad.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Igualdad, merito y capacidad."
+      }
+    },
+    {
+      "id": "uah-m-2-108",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Para la promocion interna vertical, el EBEP exige como regla tener una antiguedad de al menos:",
+      "options": [
+        "Dos anos de servicio activo en el inferior subgrupo o grupo",
+        "Seis meses en prestamo",
+        "Cinco anos en excedencia",
+        "Tres dias habiles"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 18 exige dos anos de servicio activo en el inferior subgrupo o grupo, ademas de requisitos y pruebas.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Antiguedad de al menos dos anos de servicio activo."
+      }
+    },
+    {
+      "id": "uah-m-2-109",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "La evaluacion del desempeno en el EBEP mide y valora:",
+      "options": [
+        "Conducta profesional y rendimiento o logro de resultados",
+        "Solo antiguedad",
+        "Solo numero de prestamos",
+        "Solo publicaciones en e_Buah"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 20 define la evaluacion del desempeno y exige transparencia, objetividad, imparcialidad y no discriminacion.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Conducta profesional y rendimiento o logro de resultados."
+      }
+    },
+    {
+      "id": "uah-m-2-110",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Segun el EBEP, una causa de perdida de la condicion de funcionario de carrera es:",
+      "options": [
+        "Sancion disciplinaria firme de separacion del servicio",
+        "No renovar un prestamo",
+        "No tener ORCID",
+        "No usar PRIMO"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 63 incluye renuncia, perdida de nacionalidad, jubilacion total, separacion del servicio firme e inhabilitacion firme.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Causas de perdida de la condicion de funcionario de carrera."
+      }
+    },
+    {
+      "id": "uah-m-2-111",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Las faltas disciplinarias en el EBEP pueden ser:",
+      "options": [
+        "Muy graves, graves y leves",
+        "Solo leves y documentales",
+        "Solo bibliograficas",
+        "Solo economicas"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 95 clasifica las faltas disciplinarias como muy graves, graves y leves.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Muy graves, graves y leves."
+      }
+    },
+    {
+      "id": "uah-m-2-112",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Segun el articulo 97 del EBEP, las infracciones muy graves prescriben a los:",
+      "options": [
+        "Tres anos",
+        "Dos meses",
+        "Seis dias habiles",
+        "Quince minutos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El articulo 97 fija prescripcion de infracciones: muy graves tres anos, graves dos anos y leves seis meses.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Muy graves: tres anos; graves: dos anos; leves: seis meses."
+      }
+    },
+    {
+      "id": "uah-c-2-0",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Elige la afirmacion correcta sobre \"Estatuto Basico del Empleado Publico\".",
+      "options": [
+        "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Estatuto Basico del Empleado Publico"
+      }
+    },
+    {
+      "id": "uah-c-2-1",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Elige la afirmacion correcta sobre \"Estatuto Basico del Empleado Publico\".",
+      "options": [
+        "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Estatuto Basico del Empleado Publico"
+      }
+    },
+    {
+      "id": "uah-c-2-2",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Elige la afirmacion correcta sobre \"Estatuto Basico del Empleado Publico\".",
+      "options": [
+        "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Estatuto Basico del Empleado Publico"
+      }
+    },
+    {
+      "id": "uah-c-2-3",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Elige la afirmacion correcta sobre \"Estatuto Basico del Empleado Publico\".",
+      "options": [
+        "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ebep",
+        "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
+        "highlightText": "Estatuto Basico del Empleado Publico"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q003-2b0ea0d655ac",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Según el artículo 9 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto Refundido del Estatuto Básico del Empleado Público, ¿A quién corresponde el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas?",
+      "options": [
+        "A los funcionarios de carrera",
+        "Al personal directivo",
+        "A los funcionarios de carrera y al personal laboral fijo",
+        "A los funcionarios públicos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 3. Respuesta validada por la plantilla oficial: A los funcionarios públicos. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q003",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "A los funcionarios públicos"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q004-be8e7c9c9070",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Según el artículo 15 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, ¿cuál de las siguientes respuestas es un derecho individual ejercido colectivamente?",
+      "options": [
+        "La libre asociación profesional",
+        "Las vacaciones, descansos, permisos y licencias",
+        "El ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad",
+        "La inamovilidad en la condición de funcionario de carrera"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 4. Respuesta validada por la plantilla oficial: El ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q004",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "El ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q025-f268090dff2e",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Según el artículo 12 de la Ley del Estatuto básico del empleado público, los órganos de gobierno que pueden disponer de personal eventual se determinan mediante:",
+      "options": [
+        "Real decreto del Gobierno de la nación.",
+        "El propio Estatuto básico del empleado público.",
+        "Las leyes de la función pública que se dicten en desarrollo del Estatuto básico del empleado público.",
+        "El gobierno de la comunidad autónoma correspondiente."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 25. Respuesta validada por la plantilla oficial: Las leyes de la función pública que se dicten en desarrollo del Estatuto básico del empleado público.. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q025",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "Las leyes de la función pública que se dicten en desarrollo del Estatuto básico del empleado público."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q011-d6322075339a",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Quién tiene la competencia de organización del trabajo según el artículo 13 del IV Convenio Colectivo del Personal laboral de las Universidades Públicas de Andalucía?",
+      "options": [
+        "El Rector de cada Universidad",
+        "Los representantes de los trabajadores",
+        "Las Gerencias de las Universidades",
+        "Los Directores de los distintos Servicios"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 11. Respuesta validada por la plantilla oficial: Las Gerencias de las Universidades. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q011",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "Las Gerencias de las Universidades"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q012-cf4e7ddc32dd",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Según el artículo 19 del IV Convenio Colectivo del Personal Laboral de las - Universidades Públicas de Andalucía, ¿con qué periodicidad se debe convocar concurso de traslado?",
+      "options": [
+        "Cada seis meses",
+        "Una vez al año",
+        "Cuando lo solicite el Comité de Empresa",
+        "Una vez al trimestre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 12. Respuesta validada por la plantilla oficial: Una vez al año. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q012",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "Una vez al año"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q012-cd517013f7ec",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Según el Estatuto Básico del Empleado Público, cuál de las siguientes NO es una clase de empleado público:",
+      "options": [
+        "Funcionarios interinos.",
+        "Personal laboral.",
+        "Personal eventual.",
+        "Personal de libre designación. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U niversidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 Fl, de Cantab a (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 12. Respuesta validada por la plantilla oficial: Personal de libre designación. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U niversidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 Fl, de Cantab a (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q012",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "Personal de libre designación. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U niversidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 Fl, de Cantab a (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-002",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q024-a3f5f2056b30",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Señale a cuál de los siguientes colectivos es aplicable el Pacto del Personal funcionario de Administración y Servicios de la Universidad de Zaragoza:",
+      "options": [
+        "Al personal docente e investigador funcionario.",
+        "Al personal funcionario interino.",
+        "Al personal eventual a que se refiere el art. 20.2 de la Ley 30/84, de 2 de agosto.",
+        "Todas son correctas."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 24. Respuesta validada por la plantilla oficial: Al personal funcionario interino.. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-libre-2024#q024",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "Al personal funcionario interino."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q058-e5d777abdc49",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "Según el Texto Refundido de la la Ley del Estatuto Básico del Empleado Público en relación con el personal eventual ¿qué respuesta es la correcta?",
+      "options": [
+        "La condición de personal eventual podrá constituir mérito para el acceso a la Función Pública o para la promoción interna.",
+        "Al personal eventual no le será aplicable el régimen general de los funcionarios de carrera",
+        "El nombramiento y cese serán libres.",
+        "El personal eventual tiene carácter permanente."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 58. Respuesta validada por la plantilla oficial: El nombramiento y cese serán libres.. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-libre-2024#q058",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "El nombramiento y cese serán libres."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-002",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-003",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "En el EBEP, ¿qué clase de personal se nombra para funciones expresamente calificadas de confianza o asesoramiento especial?",
+      "options": [
+        "Personal eventual",
+        "Funcionario interino",
+        "Funcionario de carrera",
+        "Personal laboral indefinido no fijo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El EBEP diferencia el personal eventual por su nombramiento no permanente y funciones de confianza o asesoramiento especial. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-002#opositatest-referencia-003",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "personal eventual"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-002"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-004",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Qué principios deben regir el acceso al empleo público según el EBEP?",
+      "options": [
+        "Igualdad, mérito y capacidad",
+        "Antigüedad, confianza y libre designación",
+        "Jerarquía, movilidad y exclusividad",
+        "Eficiencia, economía y oportunidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "El acceso al empleo público se articula sobre igualdad, mérito, capacidad y publicidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-002#opositatest-referencia-004",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "igualdad, mérito y capacidad"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-002"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t2-point-0",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Completa esta idea de contenido",
+      "answer": "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t2-point-1",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Completa esta idea de contenido",
+      "answer": "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t2-point-2",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Completa esta idea de contenido",
+      "answer": "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t2-point-3",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "T2. Completa esta idea de contenido",
+      "answer": "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-x-2--que-cuatro-clases",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Que cuatro clases de personal enumera el EBEP?",
+      "answer": "Funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
+      "origin": "refuerzo"
+    }
+  ]
+}

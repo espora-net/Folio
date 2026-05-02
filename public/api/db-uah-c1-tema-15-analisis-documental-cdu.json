@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 15 - Analisis documental y clasificaciones bibliograficas",
+    "description": "Banco de preguntas y flashcards del tema 15 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t15",
+      "title": "Tema 15. Analisis documental y clasificaciones bibliograficas",
+      "description": "Principales clasificaciones y clasificacion bibliografica en la Biblioteca UAH. Clasificacion como representacion tematica y ordenacion; practicar CDU y diferencias con otras clasificaciones.",
+      "order": 15,
+      "subtopics": [
+        {
+          "id": "uah-bib-t15-contenido",
+          "topicId": "uah-bib-t15",
+          "title": "Principales clasificaciones y clasificacion bibliografica en la Biblioteca UAH.",
+          "content": "Enfoque de examen: Clasificacion como representacion tematica y ordenacion; practicar CDU y diferencias con otras clasificaciones.\n\nAtención: No confundir indizacion con clasificacion: ambas analizan contenido, pero cumplen funciones distintas.\n\nPuntos clave: El analisis documental representa contenido para recuperar documentos de forma eficaz. | La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado. | La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica. | La signatura combina clasificacion y elementos de localizacion fisica.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-015"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-15-37",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "La clasificacion bibliografica permite:",
+      "options": [
+        "Representar materias y ordenar documentos dentro de un sistema",
+        "Suprimir la catalogacion",
+        "Anular el prestamo",
+        "Reemplazar toda indizacion por titulos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La clasificacion representa el contenido y facilita ordenacion y recuperacion.",
+      "origin": "curada",
+      "source": {
+        "materialId": "boe-convocatoria",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Analisis documental y clasificaciones bibliograficas."
+      }
+    },
+    {
+      "id": "uah-m-15-38",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "La CDU es:",
+      "options": [
+        "Una clasificacion bibliografica",
+        "Una licencia abierta",
+        "Un repositorio institucional",
+        "Una modalidad de prestamo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Clasificacion Decimal Universal es un sistema de clasificacion bibliografica.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-clasificacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Clasificacion Decimal Universal (CDU)."
+      }
+    },
+    {
+      "id": "uah-m-15-81",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En el plano CDU de Ciencias UAH, la notacion 502 aparece asociada a:",
+      "options": [
+        "Naturaleza",
+        "Derecho administrativo",
+        "Personal eventual",
+        "Prestamo interbibliotecario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El listado numerico de materias del plano de Ciencias asocia 502 con Naturaleza.",
+      "origin": "curada",
+      "source": {
+        "materialId": "cdu-uah",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "502 Naturaleza."
+      }
+    },
+    {
+      "id": "uah-m-15-82",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "Si se asigna una notacion CDU para colocar una obra en libre acceso, se esta realizando principalmente:",
+      "options": [
+        "Clasificacion bibliografica",
+        "Comunicacion publica",
+        "Reserva de sala",
+        "Solicitud de ISBN"
+      ],
+      "correctIndex": 0,
+      "explanation": "La clasificacion representa materias y ordena documentos dentro de un sistema bibliografico.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-clasificacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Clasificacion Decimal Universal y ordenacion tematica."
+      }
+    },
+    {
+      "id": "uah-m-15-133",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En analisis documental, la indizacion se diferencia de la clasificacion porque:",
+      "options": [
+        "Puede asignar terminos o descriptores sin ordenar necesariamente en una secuencia topografica",
+        "Siempre sustituye al catalogo",
+        "Solo se aplica a prestamos",
+        "Impide recuperar documentos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El analisis documental puede representar materias por terminos de indizacion o por notaciones de clasificacion; cumplen funciones relacionadas pero distintas.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-proceso-tecnico",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Analisis de contenido, materias y clasificacion."
+      }
+    },
+    {
+      "id": "uah-m-15-134",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En el plano CDU de Ciencias UAH, 504 se asocia a:",
+      "options": [
+        "Medio ambiente",
+        "Derecho civil",
+        "RDA",
+        "Pasaporte Madrono"
+      ],
+      "correctIndex": 0,
+      "explanation": "El listado numerico de materias del plano de Ciencias asocia 504 con Medio ambiente.",
+      "origin": "curada",
+      "source": {
+        "materialId": "cdu-uah",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "504 Medio ambiente."
+      }
+    },
+    {
+      "id": "uah-m-15-135",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En el plano CDU de Ciencias UAH, 51 se asocia a:",
+      "options": [
+        "Matematicas",
+        "Botanica",
+        "Medicina",
+        "Derecho"
+      ],
+      "correctIndex": 0,
+      "explanation": "El listado numerico de materias del plano de Ciencias asocia 51 con Matematicas.",
+      "origin": "curada",
+      "source": {
+        "materialId": "cdu-uah",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "51 Matematicas."
+      }
+    },
+    {
+      "id": "uah-m-15-136",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En el plano CDU de Ciencias UAH, 61 aparece vinculado a:",
+      "options": [
+        "Medicina y materias relacionadas",
+        "Historia",
+        "Propiedad intelectual",
+        "Organos de gobierno"
+      ],
+      "correctIndex": 0,
+      "explanation": "El plano de Ciencias recoge notaciones del grupo 61 para materias medicas, como estadistica medica y anatomia/fisiologia.",
+      "origin": "curada",
+      "source": {
+        "materialId": "cdu-uah",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "61: materias medicas."
+      }
+    },
+    {
+      "id": "uah-c-15-0",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "options": [
+        "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-clasificacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Analisis documental y clasificaciones bibliograficas"
+      }
+    },
+    {
+      "id": "uah-c-15-1",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "options": [
+        "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-clasificacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Analisis documental y clasificaciones bibliograficas"
+      }
+    },
+    {
+      "id": "uah-c-15-2",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "options": [
+        "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-clasificacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Analisis documental y clasificaciones bibliograficas"
+      }
+    },
+    {
+      "id": "uah-c-15-3",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "options": [
+        "La signatura combina clasificacion y elementos de localizacion fisica.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La signatura combina clasificacion y elementos de localizacion fisica.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-clasificacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "Analisis documental y clasificaciones bibliograficas"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q095-6affeabf8f20",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "Un ejemplo de aplicación de LOD en bibliotecas universitarias es:",
+      "options": [
+        "Resolver préstamos en papel",
+        "Publicar datos de autores y materias del catálogo para reutilización externa",
+        "Codificar registros MARC en PDF",
+        "Cerrar el catálogo al público"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 95. Respuesta validada por la plantilla oficial: Publicar datos de autores y materias del catálogo para reutilización externa. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q095",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Publicar datos de autores y materias del catálogo para reutilización externa"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q036-855549cf75b3",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "Si se busca por materias las bases de datos de ciencias sociales en la página web de la BUDC, NO está?",
+      "options": [
+        "Derecho",
+        "Historia",
+        "Moda",
+        "Educación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 36. Respuesta validada por la plantilla oficial: Historia. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q036",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Historia"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q042-66a1b77fd051",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En la CDU (Clasificación Decimal Universal), ¿qué significado tiene el auxiliar con el signo igual entre paréntesis (=...)?",
+      "options": [
+        "Auxiliar de idioma",
+        "Auxiliar de lugar",
+        "Auxiliar de grupos étnicos",
+        "Auxiliar de forma"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 42. Respuesta validada por la plantilla oficial: Auxiliar de grupos étnicos. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q042",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Auxiliar de grupos étnicos"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q043-951fa1af2d05",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "La Universitat de Valéncia participa en el proyecto Dialnet realizando el vaciado de revistas y la indización de capítulos de obras colectivas y congresos editados por la Universidad. ¿Cuál de las siguientes afirmaciones NO es correcta?",
+      "options": [
+        "La Universitat de Valéncia participa en el proyecto Dialnet desde 2005.",
+        "El objetivo es dar visibilidad a la producción de la Universitat de Valencia, priorizando las publicaciones editadas por la Universitat y la calidad de la información de los autores de la Universitat.",
+        "Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet.",
+        "En 2013, se propone ampliar los criterios incluyendo también las obras en colaboración, en las que participe un profesor de la Universitat de Valencia, aunque no esté editado o coeditado por la Universitat."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 43. Respuesta validada por la plantilla oficial: Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q043",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q036-ee9a05ae5958",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "El sistema Bibliobook® permite: 5",
+      "options": [
+        "Consultar todo el catálogo de la Biblioteca de la UCA.",
+        "Acceder a la bibliografía recomendada de cada asignatura.",
+        "Obtener documentos de otras bibliotecas que no se encuentran en la biblioteca del usuario.",
+        "Citar correctamente la bibliografía utilizada en un trabajo académico."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 36. Respuesta validada por la plantilla oficial: Acceder a la bibliografía recomendada de cada asignatura.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q036",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Acceder a la bibliografía recomendada de cada asignatura."
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q049-17db94d416d5",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En la CDU, el auxiliar correspondiente a \"diccionarios\" es:",
+      "options": [
+        "(091)",
+        "(03)",
+        "(038)",
+        "(041)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 49. Respuesta validada por la plantilla oficial: (038). Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q049",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "(038)"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q058-4a416db44e75",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "¿Cómo se denomina el número auxiliar común de lugar en la CDU?",
+      "options": [
+        ": (dos puntos)",
+        "= (igual)",
+        "(1/9) (paréntesis)",
+        "+ (signo más)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 58. Respuesta validada por la plantilla oficial: (1/9) (paréntesis). Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q058",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "(1/9) (paréntesis)"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q066-1123e4180f00",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "¿Cuál sería la CDU correcta para un libro de Historia Moderna de España?",
+      "options": [
+        "946.0\"14/18\"",
+        "946.0\"16/18\"",
+        "946.0\"15/18\"",
+        "946.0°14/16\""
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 66. Respuesta validada por la plantilla oficial: 946.0\"14/18\". Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q066",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "946.0\"14/18\""
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-015",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q038-7d06833cfc64",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "Esta en el mostrador de préstamo de una biblioteca y tiene que colocar las obras cuyas signaturas se enumeran en las respuestas ¿Cuál sería la ordenación correcta?",
+      "options": [
+        "155 AVE, S. - 069 CON - 796.8 BAR, S -155 COR, P - 91 GOM, A. - 902 MON, R.",
+        "069 CON - 155 AVE, S. - 155 AWE, P - 796.8 BAR, S - 902 MON, R. - 91 GOM, A.",
+        "069 CON - 155 AWE, P - 155 AVE, S. - 796.8 BAR, S - 902 MON, R. - 91 GOM, A.",
+        "069 CON - 155 AWE, S. - 155 AVE, P - 796.8 BAR, S - 91 GOM, A. - 902 MON, R."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 38. Respuesta validada por la plantilla oficial: 069 CON - 155 AVE, S. - 155 AWE, P - 796.8 BAR, S - 902 MON, R. - 91 GOM, A.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q038",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "069 CON - 155 AVE, S. - 155 AWE, P - 796.8 BAR, S - 902 MON, R. - 91 GOM, A."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-015",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q039-81df0a438019",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "La ordenación por currens en las bibliotecas tiene una serie de características entre las que NO se encuentra:",
+      "options": [
+        "Facilitar el recuento de fondos.",
+        "Identificar a golpe de vista la última adquisición.",
+        "Localizar rápidamente una obra.",
+        "Ordenar el fondo por materias."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 39. Respuesta validada por la plantilla oficial: Ordenar el fondo por materias.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q039",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Ordenar el fondo por materias."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-015",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-pi-2024-q017-67dba3b4b268",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En la CDU el signo (…) denominado \"paréntesis\" tiene el uso de:",
+      "options": [
+        "Auxiliar común de razas y pueblos.",
+        "Auxiliar común de lengua.",
+        "Auxiliar común de lugar.",
+        "Auxiliar común de tiempo."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 17. Respuesta validada por la plantilla oficial: Auxiliar común de lugar.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-pi-2024#q017",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Auxiliar común de lugar."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-pi-2024",
+        "uah-tema-015",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-029",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "¿Qué finalidad tiene la CDU en una biblioteca?",
+      "options": [
+        "Clasificar materias y facilitar la ordenación/recuperación de documentos",
+        "Asignar números de expediente administrativo",
+        "Gestionar derechos de autor",
+        "Determinar sanciones de préstamo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Clasificación Decimal Universal organiza el conocimiento por materias y apoya la ordenación documental. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-015#opositatest-referencia-029",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Clasificación Decimal Universal"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-015"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-030",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En análisis documental, ¿qué operación representa el contenido temático mediante términos controlados?",
+      "options": [
+        "Indización",
+        "Encuadernación",
+        "Recusación",
+        "Compulsa"
+      ],
+      "correctIndex": 0,
+      "explanation": "La indización asigna términos o encabezamientos para representar y recuperar el contenido. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-015#opositatest-referencia-030",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "indización"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-015"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t15-point-0",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Completa esta idea de contenido",
+      "answer": "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t15-point-1",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Completa esta idea de contenido",
+      "answer": "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t15-point-2",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Completa esta idea de contenido",
+      "answer": "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t15-point-3",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "T15. Completa esta idea de contenido",
+      "answer": "La signatura combina clasificacion y elementos de localizacion fisica.",
+      "origin": "refuerzo"
+    }
+  ]
+}

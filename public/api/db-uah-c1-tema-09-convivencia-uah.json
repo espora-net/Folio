@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 09 - Normas de Convivencia UAH",
+    "description": "Banco de preguntas y flashcards del tema 9 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t09",
+      "title": "Tema 9. Normas de Convivencia UAH",
+      "description": "Reglamento aprobado el 16/02/2023 y modificado el 21/03/2024. Ambito de aplicacion, principios, medidas de convivencia, resolucion de conflictos y faltas.",
+      "order": 9,
+      "subtopics": [
+        {
+          "id": "uah-bib-t09-contenido",
+          "topicId": "uah-bib-t09",
+          "title": "Reglamento aprobado el 16/02/2023 y modificado el 21/03/2024.",
+          "content": "Enfoque de examen: Ambito de aplicacion, principios, medidas de convivencia, resolucion de conflictos y faltas.\n\nAtención: Distinguir convivencia universitaria de codigo etico y de disciplina funcionarial.\n\nPuntos clave: El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH. | Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion. | Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia. | Conviene estudiar definiciones y organos/procedimientos con literalidad.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-009"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-9-25",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "Las Normas de Convivencia UAH tienen por objeto proteger:",
+      "options": [
+        "La convivencia en la comunidad universitaria",
+        "La catalogacion descriptiva",
+        "El deposito legal",
+        "La adquisicion de revistas"
+      ],
+      "correctIndex": 0,
+      "explanation": "El reglamento regula la convivencia en el ambito universitario.",
+      "origin": "curada",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Objeto y ambito de aplicacion."
+      }
+    },
+    {
+      "id": "uah-m-9-26",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "Las medidas de convivencia universitaria se relacionan con:",
+      "options": [
+        "Respeto, inclusion y resolucion de conflictos",
+        "Asignacion de ISBN",
+        "Proceso tecnico MARC",
+        "Signatura topografica"
+      ],
+      "correctIndex": 0,
+      "explanation": "El reglamento se centra en respeto, inclusion, prevencion y resolucion de conflictos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Principios y medidas de convivencia."
+      }
+    },
+    {
+      "id": "uah-m-9-69",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "El Reglamento de Normas de Convivencia UAH se conecta especialmente con:",
+      "options": [
+        "Prevencion y resolucion de conflictos en la comunidad universitaria",
+        "Normalizacion del ISBN",
+        "Catalogacion MARC 21",
+        "Indicadores de PRIMO"
+      ],
+      "correctIndex": 0,
+      "explanation": "El reglamento establece bases de convivencia y fomenta modalidades alternativas de resolucion de conflictos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Convivencia universitaria y resolucion de conflictos."
+      }
+    },
+    {
+      "id": "uah-m-9-70",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "Al estudiar convivencia UAH conviene no confundirla con:",
+      "options": [
+        "El regimen disciplinario del EBEP o el Codigo etico",
+        "La formacion de usuarios",
+        "La adquisicion de libros",
+        "La clasificacion CDU"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convivencia, etica y disciplina son bloques distintos aunque puedan relacionarse en supuestos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Objeto, principios y procedimientos."
+      }
+    },
+    {
+      "id": "uah-c-9-0",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "options": [
+        "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Normas de Convivencia UAH"
+      }
+    },
+    {
+      "id": "uah-c-9-1",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "options": [
+        "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Normas de Convivencia UAH"
+      }
+    },
+    {
+      "id": "uah-c-9-2",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "options": [
+        "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Normas de Convivencia UAH"
+      }
+    },
+    {
+      "id": "uah-c-9-3",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "options": [
+        "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "convivencia",
+        "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
+        "highlightText": "Normas de Convivencia UAH"
+      }
+    },
+    {
+      "id": "uah-opo-ref-017",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "¿Cuál es el objeto de las Normas de Convivencia de la UAH?",
+      "options": [
+        "Establecer las bases de convivencia de la comunidad universitaria y fomentar medios alternativos de resolución de conflictos",
+        "Regular la clasificación bibliográfica CDU",
+        "Fijar las tarifas de préstamo interbibliotecario",
+        "Crear un catálogo colectivo estatal"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento UAH aprueba normas de convivencia y regula la mediación y la Comisión de Convivencia. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-009#opositatest-referencia-017",
+        "path": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md",
+        "highlightText": "estableciendo así las bases de la convivencia"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-009"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-018",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "¿Qué órgano de la UAH vela por la convivencia pacífica y el mecanismo de mediación?",
+      "options": [
+        "La Comisión de Convivencia",
+        "La Comisión Técnica de Biblioteca",
+        "El Consejo Social exclusivamente",
+        "El Servicio de Publicaciones"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento atribuye esa finalidad a la Comisión de Convivencia de la Universidad de Alcalá. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-009#opositatest-referencia-018",
+        "path": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md",
+        "highlightText": "Comisión de Convivencia"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-009"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t9-point-0",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Completa esta idea de contenido",
+      "answer": "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t9-point-1",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Completa esta idea de contenido",
+      "answer": "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t9-point-2",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Completa esta idea de contenido",
+      "answer": "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t9-point-3",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "T9. Completa esta idea de contenido",
+      "answer": "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
+      "origin": "refuerzo"
+    }
+  ]
+}

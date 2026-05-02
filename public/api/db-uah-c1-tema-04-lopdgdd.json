@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 04 - LOPDGDD",
+    "description": "Banco de preguntas y flashcards del tema 4 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t04",
+      "title": "Tema 4. LOPDGDD",
+      "description": "Titulo I, Titulo II y Titulo III. Disposiciones generales, principios de proteccion de datos y derechos de las personas.",
+      "order": 4,
+      "subtopics": [
+        {
+          "id": "uah-bib-t04-contenido",
+          "topicId": "uah-bib-t04",
+          "title": "Titulo I, Titulo II y Titulo III.",
+          "content": "Enfoque de examen: Disposiciones generales, principios de proteccion de datos y derechos de las personas.\n\nAtención: Separar principios de tratamiento de derechos ejercitables por la persona interesada.\n\nPuntos clave: Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion. | Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad. | La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones. | Los datos deben tratarse con minimizacion y finalidad concreta.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-004"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-4-14",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Cual de estos es un derecho de proteccion de datos regulado en el Titulo III de la LOPDGDD?",
+      "options": [
+        "Derecho de acceso",
+        "Derecho de tanteo",
+        "Derecho de retracto bibliotecario",
+        "Derecho de deposito"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Titulo III regula derechos como acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "Derechos de las personas."
+      }
+    },
+    {
+      "id": "uah-m-4-15",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "La exactitud de los datos personales es:",
+      "options": [
+        "Un principio de proteccion de datos",
+        "Un tipo de prestamo bibliotecario",
+        "Una licencia abierta",
+        "Una sancion disciplinaria"
+      ],
+      "correctIndex": 0,
+      "explanation": "La exactitud forma parte de los principios de proteccion de datos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "Principios de proteccion de datos."
+      }
+    },
+    {
+      "id": "uah-m-4-16",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "El deber de confidencialidad en proteccion de datos afecta a:",
+      "options": [
+        "Quienes intervengan en cualquier fase del tratamiento",
+        "Solo a usuarios externos",
+        "Solo a proveedores comerciales",
+        "Exclusivamente al delegado sindical"
+      ],
+      "correctIndex": 0,
+      "explanation": "La LOPDGDD recoge el deber de confidencialidad en el Titulo II.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "Deber de confidencialidad."
+      }
+    },
+    {
+      "id": "uah-m-4-59",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "El deber de confidencialidad de la LOPDGDD obliga a:",
+      "options": [
+        "Quienes intervengan en cualquier fase del tratamiento, incluso tras terminar la relacion",
+        "Solo a estudiantes con prestamos vencidos",
+        "Exclusivamente a proveedores de libros electronicos",
+        "Unicamente al personal investigador con ORCID"
+      ],
+      "correctIndex": 0,
+      "explanation": "El deber de confidencialidad es un principio exigible a quienes participan en el tratamiento de datos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "Quienes intervengan en cualquier fase del tratamiento."
+      }
+    },
+    {
+      "id": "uah-m-4-60",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Si una persona usuaria pide conocer que datos personales trata la biblioteca sobre ella, esta ejerce el derecho de:",
+      "options": [
+        "Acceso",
+        "Canje",
+        "Expurgo",
+        "NIPO"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Titulo III de la LOPDGDD regula derechos como acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
+      "origin": "curada",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "Derechos de las personas."
+      }
+    },
+    {
+      "id": "uah-c-4-0",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Elige la afirmacion correcta sobre \"LOPDGDD\".",
+      "options": [
+        "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "LOPDGDD"
+      }
+    },
+    {
+      "id": "uah-c-4-1",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Elige la afirmacion correcta sobre \"LOPDGDD\".",
+      "options": [
+        "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "LOPDGDD"
+      }
+    },
+    {
+      "id": "uah-c-4-2",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Elige la afirmacion correcta sobre \"LOPDGDD\".",
+      "options": [
+        "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "LOPDGDD"
+      }
+    },
+    {
+      "id": "uah-c-4-3",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Elige la afirmacion correcta sobre \"LOPDGDD\".",
+      "options": [
+        "Los datos deben tratarse con minimizacion y finalidad concreta.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Los datos deben tratarse con minimizacion y finalidad concreta.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "lopdgdd",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "LOPDGDD"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q009-6a27351b5a8a",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "La Ley Organica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales, tiene por objeto:",
+      "options": [
+        "Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.1 de la Constitución",
+        "Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.2 de la Constitución",
+        "Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.3 de la Constitución",
+        "Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.4 de la Constitución"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 9. Respuesta validada por la plantilla oficial: Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.4 de la Constitución. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q009",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.4 de la Constitución"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q045-03bd8232dec2",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Según el punto 5 de la Normativa xeral relativa 4 protección de datos persoais na UDC, el encargado de evaluar las solicitudes presentadas sobre el ejercicio de los derechos reconocidos en la LOPD y en el RGPD será:",
+      "options": [
+        "El Delegado de Protección de Datos",
+        "La Secretaria Xeral",
+        "La Asesoría Xuridica",
+        "La Xerencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 45. Respuesta validada por la plantilla oficial: El Delegado de Protección de Datos. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q045",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "El Delegado de Protección de Datos"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q066-bb8b4f090076",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "El marco normativo de política de seguridad de información y protección de datos personales de la UDC tiene los siguientes niveles:",
+      "options": [
+        "Dos: Política y normas generales",
+        "Tres: Política, normas generales y reglamentos específicos",
+        "Cuatro: Política, normas generales, procedimientos y recomendaciones",
+        "Cinco: Política, normas generales, reglamentos, procedimientos y recomendaciones '"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 66. Respuesta validada por la plantilla oficial: Cuatro: Política, normas generales, procedimientos y recomendaciones. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q066",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Cuatro: Política, normas generales, procedimientos y recomendaciones"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q082-13be0894e5b0",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Qué se consideran datos personales según la Resolución reitoral del 22 de julio por la que se aprueba la política de seguridad de la información y protección de datos personales en la UDC?:",
+      "options": [
+        "Información creada, recibida o utilizada en las actividades de la UDC",
+        "Toda la información sobre una persona física identificada o identificable",
+        "— DNIENIE, n° de pasaporte, dirección postal o electrónica, imagen, voz, n° de la seguridad social o mutualidad, teléfono, fax, marcas físicas, nombre y dos apellidos, firma, firma electrónica, tarjeta sanitaria",
+        "Datos que tienen un contenido semántico (es decir, significado) en un contexto determinado"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Toda la información sobre una persona física identificada o identificable. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q082",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Toda la información sobre una persona física identificada o identificable"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q004-49e2bb53b107",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Según el artículo 26 de la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales:",
+      "options": [
+        "Será lícito el tratamiento por las administraciones públicas de datos con fines de archivo en interés público.",
+        "El tratamiento de datos relativos a infracciones y sanciones administrativas por parte de las bibliotecas, incluido el mantenimiento de registros relacionados con las mismas, deberá siempre contar con el consentimiento del interesado.",
+        "En ningún caso las administraciones públicas podrán tratar los datos personales.",
+        "El consentimiento del afectado bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 4. Respuesta validada por la plantilla oficial: Será lícito el tratamiento por las administraciones públicas de datos con fines de archivo en interés público.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q004",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Será lícito el tratamiento por las administraciones públicas de datos con fines de archivo en interés público."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q058-a13c40b44bc0",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Según el proyecto DIGCOMP, la protección de datos es:",
+      "options": [
+        "Una competencia digital del área de Información y tratamiento de datos",
+        "Una competencia digital del área de Seguridad",
+        "Una competencia digital del área de Comunicación y colaboración",
+        "Una competencia digital del área de Resolución de problemas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 58. Respuesta validada por la plantilla oficial: Una competencia digital del área de Seguridad. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q058",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Una competencia digital del área de Seguridad"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q088-54362a36918d",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Según la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho de los ciudadanos en relación con sus datos personales?",
+      "options": [
+        "Derecho de acceso",
+        "Derecho de rectificación",
+        "Derecho de oposición",
+        "Derecho de recopilación"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 88. Respuesta validada por la plantilla oficial: Derecho de recopilación. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q088",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Derecho de recopilación"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q014-0573af0ce59d",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Qué se entiende por <datos genéticos=, según el Reglamento General de Protección de Datos?",
+      "options": [
+        "Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona.",
+        "Datos personales obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas o conductuales de una persona física que permitan o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos.",
+        "Datos personales relativos a la salud física o mental de una persona física, incluida la prestación de servicios de atención sanitaria, que revelen información sobre su estado de salud.",
+        "Datos personales relativos a la genealogía y antecedentes familiares de una persona física que proporcionen información única sobre posibles características genéticas heredadas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 14. Respuesta validada por la plantilla oficial: Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q014",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-004",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q032-eb33b8ffbcb0",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Según el Acuerdo de 29 de junio de 2022, del Consejo de Gobierno de la Universidad de Zaragoza, por el que se aprueba la política de seguridad de la información y protección de datos personales de la Universidad de Zaragoza, con carácter ordinario, los sistemas de información serán objeto de una auditoría regular ordinaria",
+      "options": [
+        "Todos los años, salvo que concurran impedimentos de fuerza mayor no imputables a la Universidad.",
+        "Al menos, cada dos años.",
+        "Al menos, cada tres años.",
+        "Al menos, cada tres años, o a los tres años de la última auditoría extraordinaria."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 32. Respuesta validada por la plantilla oficial: Al menos, cada dos años.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-libre-2024#q032",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "Al menos, cada dos años."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-004",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-007",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "En protección de datos, ¿qué principio exige tratar solo los datos adecuados, pertinentes y limitados a la finalidad?",
+      "options": [
+        "Minimización de datos",
+        "Portabilidad universal",
+        "Publicidad activa",
+        "Conservación ilimitada"
+      ],
+      "correctIndex": 0,
+      "explanation": "La minimización obliga a limitar los datos personales a los necesarios para la finalidad del tratamiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-004#opositatest-referencia-007",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "minimización"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-004"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-008",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Cuál de estos derechos permite a la persona interesada obtener confirmación sobre si se tratan sus datos personales?",
+      "options": [
+        "Derecho de acceso",
+        "Derecho de tanteo",
+        "Derecho de retracto",
+        "Derecho de inventario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El derecho de acceso permite conocer si se están tratando datos personales y recibir información sobre ese tratamiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-004#opositatest-referencia-008",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "derecho de acceso"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-004"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t4-point-0",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Completa esta idea de contenido",
+      "answer": "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t4-point-1",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Completa esta idea de contenido",
+      "answer": "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t4-point-2",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Completa esta idea de contenido",
+      "answer": "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t4-point-3",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "T4. Completa esta idea de contenido",
+      "answer": "Los datos deben tratarse con minimizacion y finalidad concreta.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-x-4-enumera-los-derech",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Enumera los derechos basicos de proteccion de datos que debes reconocer.",
+      "answer": "Acceso, rectificacion, supresion, oposicion, limitacion del tratamiento y portabilidad.",
+      "origin": "refuerzo"
+    }
+  ]
+}

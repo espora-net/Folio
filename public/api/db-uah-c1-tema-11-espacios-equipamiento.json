@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 11 - Espacios y equipamiento en bibliotecas universitarias",
+    "description": "Banco de preguntas y flashcards del tema 11 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t11",
+      "title": "Tema 11. Espacios y equipamiento en bibliotecas universitarias",
+      "description": "Instalaciones, salas de estudio y trabajo en grupo, libre acceso, depositos, equipamiento informatico y autoservicio. Relacionar tipos de espacios con usos, usuarios, colecciones, seguridad, accesibilidad y autoservicio.",
+      "order": 11,
+      "subtopics": [
+        {
+          "id": "uah-bib-t11-contenido",
+          "topicId": "uah-bib-t11",
+          "title": "Instalaciones, salas de estudio y trabajo en grupo, libre acceso, depositos, equipamiento informatico y autoservicio.",
+          "content": "Enfoque de examen: Relacionar tipos de espacios con usos, usuarios, colecciones, seguridad, accesibilidad y autoservicio.\n\nAtención: No confundir libre acceso con deposito: cambia la ordenacion, disponibilidad y mediacion del personal.\n\nPuntos clave: Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada. | La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion. | Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente. | Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-011"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-11-29",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "La coleccion de libre acceso se caracteriza por:",
+      "options": [
+        "Consulta directa por las personas usuarias",
+        "Acceso siempre secreto",
+        "Ausencia de ordenacion",
+        "Incompatibilidad con senalizacion"
+      ],
+      "correctIndex": 0,
+      "explanation": "El libre acceso permite consulta directa y exige ordenacion comprensible.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Coleccion de libre acceso y salas."
+      }
+    },
+    {
+      "id": "uah-m-11-30",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Los depositos bibliotecarios priorizan:",
+      "options": [
+        "Conservacion, seguridad y recuperacion controlada",
+        "Libre circulacion sin control",
+        "Eliminacion de metadatos",
+        "Uso exclusivo para reuniones"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los depositos protegen fondos y ordenan la recuperacion de documentos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "boe-convocatoria",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Coleccion de libre acceso y depositos."
+      }
+    },
+    {
+      "id": "uah-m-11-73",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Un estudiante reserva una sala de trabajo UAH y no acude. La reserva vence a los:",
+      "options": [
+        "15 minutos de la hora de inicio",
+        "3 dias habiles",
+        "30 dias",
+        "2 meses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las normas de salas indican que la reserva vence a los 15 minutos si no se hace efectiva.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La reserva vence a los 15 minutos de la hora de inicio."
+      }
+    },
+    {
+      "id": "uah-m-11-74",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Segun las normas UAH, el tiempo maximo de uso de una sala por reserva es:",
+      "options": [
+        "3 horas",
+        "15 minutos",
+        "6 dias habiles",
+        "2 meses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las salas de trabajo se destinan a fines academicos y tienen un maximo de 3 horas por reserva.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Tiempo maximo de uso: 3 horas por reserva."
+      }
+    },
+    {
+      "id": "uah-m-11-117",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Las salas de trabajo UAH se destinan unica y exclusivamente a:",
+      "options": [
+        "Fines academicos ligados a estudio, investigacion y docencia",
+        "Reuniones comerciales ajenas a la Universidad",
+        "Almacenamiento de fondo antiguo",
+        "Emision de certificados"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las normas de salas limitan su uso a finalidades academicas de estudio, investigacion y docencia.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Usos y finalidades academicas."
+      }
+    },
+    {
+      "id": "uah-m-11-118",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Para hacer efectiva una reserva de sala, el estudiante debe presentar:",
+      "options": [
+        "TUI, DNI o documento acreditativo de la UAH",
+        "Un DOI",
+        "Un NIPO",
+        "Una licencia CC BY"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las normas exigen identificacion en mostrador para recoger la llave cuando proceda.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Presentar TUI, DNI o documento acreditativo UAH."
+      }
+    },
+    {
+      "id": "uah-m-11-119",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Si finaliza el uso de una sala UAH, el estudiante debe:",
+      "options": [
+        "Formalizar la devolucion en mostrador y entregar la llave si procede",
+        "Conservar la llave para otra reserva",
+        "Solicitar ISBN",
+        "Depositar los datos en eCienciaDatos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las normas indican que al terminar debe formalizar la devolucion y entregar la llave cuando proceda.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Formalizar la devolucion de la sala."
+      }
+    },
+    {
+      "id": "uah-m-11-120",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "En las salas de trabajo UAH se ruega expresamente:",
+      "options": [
+        "Respetar el ambiente de estudio y no comer",
+        "Anadir sillas si faltan",
+        "Usarlas para fines no academicos",
+        "Dejar objetos personales"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las normas piden respetar el ambiente de estudio, no comer, cuidar mobiliario y no anadir sillas.",
+      "origin": "curada",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "No comer y respetar el ambiente de estudio."
+      }
+    },
+    {
+      "id": "uah-c-11-0",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "options": [
+        "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
+      }
+    },
+    {
+      "id": "uah-c-11-1",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "options": [
+        "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
+      }
+    },
+    {
+      "id": "uah-c-11-2",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "options": [
+        "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
+      }
+    },
+    {
+      "id": "uah-c-11-3",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "options": [
+        "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "salas",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
+      }
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q042-c50179bc05c1",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Según las \"Normas y directrices para bibliotecas universitarias y científicas\" de REBIUN (2* ed, aum., 1999), las condiciones ambientales en los depósitos de bibliotecas estarán permanentemente controladas mediante:",
+      "options": [
+        "Termómetros y controladores de humedad",
+        "Dispositivos de control ambiental",
+        "Medidores de humedad relativa y temperatura ambiental",
+        "Termohigrógrafos y psicrómetros"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 42. Respuesta validada por la plantilla oficial: Termohigrógrafos y psicrómetros. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q042",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Termohigrógrafos y psicrómetros"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-011",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "¿Cuál de estos sistemas NO se usaría para la clasificación y ordenación topográfica de una biblioteca con libre acceso?",
+      "options": [
+        "Clasificación Decimal Universal (CDU)",
+        "Clasificación Decimal de Dewey (DDC)",
+        "Clasificación de la Library of Congress (LC)",
+        "Numerus currens"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 60. Respuesta validada por la plantilla oficial: Numerus currens. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q060",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Numerus currens"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-011",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q062-c86e5f3229e2",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "La Biblioteca de la Universidad de Cádiz dispone de un sistema de monitorización de puestos de lectura, ¿en qué campus se puede consultar en línea la ocupación de puestos en tiempo real?",
+      "options": [
+        "En el Campus de Cádiz, de Puerto Real y Bahía de Algeciras",
+        "En los Campus de Puerto Real, de Jerez y Bahía de Algeciras",
+        "En el Campus de Cádiz, de Jerez y Bahia de Algeciras",
+        "En todos los Campus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 62. Respuesta validada por la plantilla oficial: En los Campus de Puerto Real, de Jerez y Bahía de Algeciras. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q062",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "En los Campus de Puerto Real, de Jerez y Bahía de Algeciras"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-011",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q033-964c7e5a11e0",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Algunas de las colecciones impresas de la Biblioteca de la Universidad de Cantabria se conservan en almacenes y depósitos. ¿Pueden los usuarios acceder a estos fondos?",
+      "options": [
+        "No pueden acceder directamente ni tampoco consultarlos porque son materiales muy frágiles.",
+        "No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca.",
+        "Pueden acceder directamente siempre que pidan permiso en la división de la BUC correspondiente.",
+        "Pueden acceder directamente a estos fondos siguiendo la señalización."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 33. Respuesta validada por la plantilla oficial: No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca.. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q033",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-011",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-021",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "En bibliotecas universitarias, ¿qué caracteriza a una zona de libre acceso?",
+      "options": [
+        "El usuario puede consultar directamente los fondos ordenados en estanterías abiertas",
+        "Solo el personal puede acceder a todos los fondos",
+        "Se utiliza únicamente para material excluido de préstamo",
+        "Implica ausencia de clasificación o signatura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La organización espacial de bibliotecas combina libre acceso, depósitos, salas y equipamiento según tipo de fondo y uso. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-011#opositatest-referencia-021",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "libre acceso"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-011"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-022",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "¿Qué indicador físico resulta especialmente relevante al planificar salas de estudio bibliotecarias?",
+      "options": [
+        "Puestos de lectura disponibles",
+        "Número de expedientes disciplinarios",
+        "Total de decretos publicados",
+        "Porcentaje de personal eventual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los puestos de lectura y salas disponibles son variables básicas de capacidad y servicio en bibliotecas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-011#opositatest-referencia-022",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "puestos de lectura"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-011"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t11-point-0",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Completa esta idea de contenido",
+      "answer": "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t11-point-1",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Completa esta idea de contenido",
+      "answer": "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t11-point-2",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Completa esta idea de contenido",
+      "answer": "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t11-point-3",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "T11. Completa esta idea de contenido",
+      "answer": "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
+      "origin": "refuerzo"
+    }
+  ]
+}
