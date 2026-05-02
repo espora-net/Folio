@@ -476,14 +476,29 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Reglamento de la Biblioteca UAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Guía de Cultura BUAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/10_01_guia_cultura_buah.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Guía de Cultura BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/10_01_guia_cultura_buah.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Guía de liderazgo BUAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/10_02_guia_liderazgo_buah.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Guía de liderazgo BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/10_02_guia_liderazgo_buah.pdf"
         },
         {
           "tipo": "db",
@@ -525,6 +540,11 @@
           "tipo": "md",
           "nombre": "Referencia: Organización espacial y equipamiento BUAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Organización espacial y equipamiento BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.pdf"
         },
         {
           "tipo": "md",
@@ -573,6 +593,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Gestión de la colección UAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.pdf"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH Bibliotecas 2025",
           "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
@@ -612,6 +637,11 @@
           "tipo": "md",
           "nombre": "Referencia: Proceso técnico, MARC 21, FRBR/LRM y RDA",
           "archivo": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Proceso técnico, MARC 21, FRBR/LRM y RDA",
+          "archivo": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.pdf"
         },
         {
           "tipo": "db",
@@ -657,6 +687,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Identificadores documentales",
+          "archivo": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.pdf"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH Bibliotecas 2025",
           "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
@@ -694,6 +729,11 @@
           "tipo": "md",
           "nombre": "Referencia: Análisis documental y CDU UAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Análisis documental y CDU UAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.pdf"
         },
         {
           "tipo": "db",
@@ -737,14 +777,29 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/16_01_politica_repositorio_ebuah.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Política del repositorio e_Buah",
+          "archivo": "data/uah-bibliotecas-2025/referencias/16_01_politica_repositorio_ebuah.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Política institucional de Ciencia Abierta UAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/16_politica_ciencia_abierta_uah.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Política institucional de Ciencia Abierta UAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/16_politica_ciencia_abierta_uah.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Ciencia abierta y repositorios UAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Ciencia abierta y repositorios UAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.pdf"
         },
         {
           "tipo": "db",
@@ -784,9 +839,19 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Carta de Servicios BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Servicios al usuario BUAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/17_02_servicios_usuarios_complemento.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Servicios al usuario BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/17_02_servicios_usuarios_complemento.pdf"
         },
         {
           "tipo": "db",
@@ -828,14 +893,29 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/18_01_normativa_prestamo.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Normativa de préstamo BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/18_01_normativa_prestamo.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Recursos no bibliográficos BUAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/18_02_normativa_recursos_no_bibliograficos.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Recursos no bibliográficos BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/18_02_normativa_recursos_no_bibliograficos.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Préstamo, salas y acceso al documento",
           "archivo": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Préstamo, salas y acceso al documento",
+          "archivo": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.pdf"
         },
         {
           "tipo": "db",
@@ -876,6 +956,11 @@
           "tipo": "md",
           "nombre": "Referencia: LSP y Buscador UAH",
           "archivo": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: LSP y Buscador UAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.pdf"
         },
         {
           "tipo": "db",
@@ -920,14 +1005,29 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/20_reglamento_rebiun.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Reglamento REBIUN",
+          "archivo": "data/uah-bibliotecas-2025/referencias/20_reglamento_rebiun.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Pasaporte Madroño 2025",
           "archivo": "data/uah-bibliotecas-2025/referencias/20_acuerdo_pasaporte_madrono_2025.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Pasaporte Madroño 2025",
+          "archivo": "data/uah-bibliotecas-2025/referencias/20_acuerdo_pasaporte_madrono_2025.pdf"
+        },
+        {
           "tipo": "md",
           "nombre": "Referencia: Cooperación REBIUN y Madroño",
           "archivo": "data/uah-bibliotecas-2025/referencias/20_02_cooperacion_rebiun_madrono.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Cooperación REBIUN y Madroño",
+          "archivo": "data/uah-bibliotecas-2025/referencias/20_02_cooperacion_rebiun_madrono.pdf"
         },
         {
           "tipo": "db",
@@ -971,6 +1071,11 @@
           "archivo": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md"
         },
         {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Calidad REBIUN y EFQM BUAH",
+          "archivo": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.pdf"
+        },
+        {
           "tipo": "db",
           "nombre": "Banco específico UAH Bibliotecas 2025",
           "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
@@ -1007,6 +1112,11 @@
           "tipo": "md",
           "nombre": "Referencia: Ley de Propiedad Intelectual",
           "archivo": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md"
+        },
+        {
+          "tipo": "pdf",
+          "nombre": "PDF de referencia: Ley de Propiedad Intelectual",
+          "archivo": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.pdf"
         },
         {
           "tipo": "db",
