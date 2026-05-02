@@ -82,6 +82,8 @@ export interface ConvocatoriaDescriptor {
   file: string;
   color: string;
   activa: boolean;
+  // Si true, la convocatoria no se muestra en la UI (deshabilitada/oculta).
+  hidden?: boolean;
   // Para enlazar datasets (p. ej. preguntas) con el temario.
   // Opcional para compatibilidad con db.json antiguos.
   studyType?: StudyType;
