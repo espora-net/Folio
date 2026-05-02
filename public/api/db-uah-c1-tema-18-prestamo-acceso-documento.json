@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 18 - Prestamo, salas y acceso al documento",
-    "description": "Banco de preguntas y flashcards del tema 18 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 18 - Gestión del préstamo en la Biblioteca de la Universidad de Alcalá",
+    "description": "Banco normalizado de preguntas del tema 18 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 41,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 27,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 22,
+    "officialValidationQuestions": 27
   },
   "topics": [
     {
       "id": "uah-bib-t18",
-      "title": "Tema 18. Prestamo, salas y acceso al documento",
-      "description": "Gestion del prestamo en la Biblioteca UAH, normativa de prestamo, normas de salas y acceso al documento. Categorias de usuarios, tipos de prestamo, renovaciones, reservas, sanciones, salas y obtencion de documentos.",
+      "title": "Tema 18. Gestión del préstamo en la Biblioteca de la Universidad de Alcalá",
+      "description": "Gestión del préstamo en la Biblioteca de la Universidad de Alcalá. Normativa de préstamo. Normas de uso de las salas de trabajo. Acceso al documento.",
       "order": 18,
       "subtopics": [
         {
           "id": "uah-bib-t18-contenido",
           "topicId": "uah-bib-t18",
-          "title": "Gestion del prestamo en la Biblioteca UAH, normativa de prestamo, normas de salas y acceso al documento.",
-          "content": "Enfoque de examen: Categorias de usuarios, tipos de prestamo, renovaciones, reservas, sanciones, salas y obtencion de documentos.\n\nAtención: Acceso al documento no es entrada al edificio: alude a obtencion de documentos no disponibles directamente.\n\nPuntos clave: La gestion del prestamo regula quien puede llevarse que, por cuanto tiempo y con que condiciones. | Las reservas y renovaciones ordenan la disponibilidad y evitan conflictos entre usuarios. | Las salas de trabajo requieren normas de reserva, uso responsable y convivencia. | El acceso al documento cubre suministro u obtencion de materiales no disponibles en la coleccion propia o inmediata.",
+          "title": "Sistema de préstamo, normativa de uso y acceso a fondos documentales en la UAH",
+          "content": "Enfoque de examen: Gestión del préstamo en la Biblioteca de la Universidad de Alcalá. Normativa de préstamo. Normas de uso de las salas de trabajo. Acceso al documento.\n\nContenido acotado: Sistema de préstamo, normativa de uso y acceso a fondos documentales en la UAH\n\nCobertura oficial: #gestion-prestamo, #normativa-prestamo, #normas-uso-salas, #acceso-documento",
           "order": 1,
           "syllabusCoverageIds": [
+            "#gestion-prestamo",
+            "#normativa-prestamo",
+            "#normas-uso-salas",
+            "#acceso-documento",
             "uah-tema-018"
           ]
         }
@@ -269,15 +282,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 80. Respuesta validada por la plantilla oficial: Apoyo al aprendizaje y a la docencia. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q080",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Apoyo al aprendizaje y a la docencia"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q080-958843797cb0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q080-958843797cb0"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -294,15 +308,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 83. Respuesta validada por la plantilla oficial: Obtener documentos que no están disponibles en sus fondos propios. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q083",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Obtener documentos que no están disponibles en sus fondos propios"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q083-28e903db0fd7",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q083-28e903db0fd7"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -319,15 +334,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 85. Respuesta validada por la plantilla oficial: Garantizar el acceso y la legibilidad a largo plazo de los documentos. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q085",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Garantizar el acceso y la legibilidad a largo plazo de los documentos"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q085-841847e8fe07",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q085-841847e8fe07"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -344,15 +360,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 38. Respuesta validada por la plantilla oficial: Apoyo ala investigación, apoyo al aprendizaje, adquisiciones, formación de usuarios, información, préstamo, préstamo interbibliotecario y donación de publicaciones. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q038",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Apoyo ala investigación, apoyo al aprendizaje, adquisiciones, formación de usuarios, información, préstamo, préstamo interbibliotecario y donación de publicaciones"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q038-2a8e805f4a27",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q038-2a8e805f4a27"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -369,15 +386,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 67. Respuesta validada por la plantilla oficial: Desde el momento de la devolución, el usuario será sancionado sin poder llevar libros tantos días hábiles como documentos con préstamo vencido tenga y días de retraso acumule, hasta un máximo de 40 días.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q067",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Desde el momento de la devolución, el usuario será sancionado sin poder llevar libros tantos días hábiles como documentos con préstamo vencido tenga y días de retraso acumule, hasta un máximo de 40 días."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q067-70a4934055e8",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q067-70a4934055e8"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -394,15 +412,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 72. Respuesta validada por la plantilla oficial: El tipo de préstamo. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q072",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "El tipo de préstamo"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q072-6c9e53dd6d7d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q072-6c9e53dd6d7d"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -419,15 +438,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 36. Respuesta validada por la plantilla oficial: Manuscritos e impresos de especial valor patrimonial. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q036",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Manuscritos e impresos de especial valor patrimonial"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q036-ab911ba6c02a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q036-ab911ba6c02a"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -444,15 +464,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 64. Respuesta validada por la plantilla oficial: de 15 días y hasta 6 renovaciones. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q064",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "de 15 días y hasta 6 renovaciones"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q064-c432f6a8f42e",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q064-c432f6a8f42e"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -469,15 +490,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 82. Respuesta validada por la plantilla oficial: la sección de Préstamo Interbibliotecario (edificio de La Nau).. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q082",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "la sección de Préstamo Interbibliotecario (edificio de La Nau)."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q082-68850ce85c5b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q082-68850ce85c5b"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -494,15 +516,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 25. Respuesta validada por la plantilla oficial: Extender el período de préstamo del libro si éste no ha vencido y no hay reserva de otro usuario.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q025",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Extender el período de préstamo del libro si éste no ha vencido y no hay reserva de otro usuario."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q025-2de3da93bf41",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q025-2de3da93bf41"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -519,15 +542,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 26. Respuesta validada por la plantilla oficial: El primero posibilita para la circulación interna de documentos entre campus de la UCA y el segundo el acceso a documentos de otras instituciones... Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q026",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "El primero posibilita para la circulación interna de documentos entre campus de la UCA y el segundo el acceso a documentos de otras instituciones.."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q026-3a457bb24c94",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q026-3a457bb24c94"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -544,15 +568,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 30. Respuesta validada por la plantilla oficial: Preservar patrimonio bibliográfico, mejorar acceso remoto y garantizar la conservación a largo plazo de los documentos.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q030",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Preservar patrimonio bibliográfico, mejorar acceso remoto y garantizar la conservación a largo plazo de los documentos."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q030-4300aad635ae",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q030-4300aad635ae"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -569,15 +594,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 32. Respuesta validada por la plantilla oficial: Obtener los libros solicitados en préstamo a otro Campus cuando estén disponibles.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q032",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Obtener los libros solicitados en préstamo a otro Campus cuando estén disponibles."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q032-4318669bcfb0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q032-4318669bcfb0"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -594,15 +620,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 39. Respuesta validada por la plantilla oficial: 15 días. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q039",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "15 días"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q039-0ee1f6c036d8",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q039-0ee1f6c036d8"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -619,15 +646,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 41. Respuesta validada por la plantilla oficial: Alumnos de posgrado. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q041",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Alumnos de posgrado"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q041-9acdf6335198",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q041-9acdf6335198"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -644,15 +672,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 42. Respuesta validada por la plantilla oficial: Comunicaciones de Congresos. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q042",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Comunicaciones de Congresos"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q042-3ecd04f08f3c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q042-3ecd04f08f3c"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -669,15 +698,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 43. Respuesta validada por la plantilla oficial: La Biblioteca de Humanidades. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q043",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "La Biblioteca de Humanidades"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q043-051fc5682b70",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q043-051fc5682b70"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -694,15 +724,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 57. Respuesta validada por la plantilla oficial: 3 ejemplares. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q057",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "3 ejemplares"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q057-075b038e6773",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q057-075b038e6773"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -719,15 +750,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 60. Respuesta validada por la plantilla oficial: El personal de la biblioteca puede cancelar la reserva y liberar el espacio.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q060",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "El personal de la biblioteca puede cancelar la reserva y liberar el espacio."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q060-db16e15c6a17",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q060-db16e15c6a17"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -744,15 +776,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 70. Respuesta validada por la plantilla oficial: Una colección bibliográfica en una zona reservable de la Biblioteca del Campus de Jerez para celebración de actos sobre asuntos relacionados con la igualdad.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q070",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Una colección bibliográfica en una zona reservable de la Biblioteca del Campus de Jerez para celebración de actos sobre asuntos relacionados con la igualdad."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q070-503411c30ea8",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q070-503411c30ea8"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -769,15 +802,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 89. Respuesta validada por la plantilla oficial: El acceso al catálogo es público y no requiere identificación, pero no se realizará el préstamo de las tesis.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q089",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "El acceso al catálogo es público y no requiere identificación, pero no se realizará el préstamo de las tesis."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q089-fb3cd962f285",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q089-fb3cd962f285"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -794,15 +828,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 41. Respuesta validada por la plantilla oficial: Están destinadas a los miembros de la Comunidad Universitaria de la UNED y para reservarlas hay que consultar en la web de la biblioteca su disponibilidad en el calendario y cumplimentar el formulario de solicitud.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q041",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Están destinadas a los miembros de la Comunidad Universitaria de la UNED y para reservarlas hay que consultar en la web de la biblioteca su disponibilidad en el calendario y cumplimentar el formulario de solicitud."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q041-6f2b72abe016",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q041-6f2b72abe016"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-018",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -819,15 +854,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 41. Respuesta validada por la plantilla oficial: El usuario y la contraseña de la cuenta institucional de la UC.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q041",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "El usuario y la contraseña de la cuenta institucional de la UC."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q041-c203d9cff6e5",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q041-c203d9cff6e5"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-018",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -844,15 +880,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 42. Respuesta validada por la plantilla oficial: Puede acudir a la división de Derecho-Económicas o a la del Paraninfo para solicitar un portátil de préstamo largo durante un mes, pudiendo hacer una renovación automática por el mismo periodo, si no hay personas en espera.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q042",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "Puede acudir a la división de Derecho-Económicas o a la del Paraninfo para solicitar un portátil de préstamo largo durante un mes, pudiendo hacer una renovación automática por el mismo periodo, si no hay personas en espera."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q042-78c2bfba059d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q042-78c2bfba059d"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-018",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -869,15 +906,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 43. Respuesta validada por la plantilla oficial: 300 ppi. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q043",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "300 ppi"
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q043-3aff551b20d3",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q043-3aff551b20d3"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-018",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -894,15 +932,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 44. Respuesta validada por la plantilla oficial: 10 items todo el personal jubilado de la UC pudiendo renovarlos siempre y cuando no existan reservas sobre los mismos.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q044",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "10 items todo el personal jubilado de la UC pudiendo renovarlos siempre y cuando no existan reservas sobre los mismos."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q044-863755133e31",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q044-863755133e31"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-018",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -919,15 +958,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 51. Respuesta validada por la plantilla oficial: No se permiten reservas y hay que devolverlo en la biblioteca prestataria.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q051",
-        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
-        "highlightText": "No se permiten reservas y hay que devolverlo en la biblioteca prestataria."
+        "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q051-584f24346faf",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q051-584f24346faf"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-018",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

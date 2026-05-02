@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 07 - Prevencion de riesgos laborales en la UAH",
-    "description": "Banco de preguntas y flashcards del tema 7 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 07 - Prevención de Riesgos Laborales en la UAH",
+    "description": "Banco normalizado de preguntas del tema 7 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 14,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 4,
+      "refuerzo": 4,
+      "oficial": 4,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 2,
+    "officialValidationQuestions": 3
   },
   "topics": [
     {
       "id": "uah-bib-t07",
-      "title": "Tema 7. Prevencion de riesgos laborales en la UAH",
-      "description": "Politica de prevencion, organizacion preventiva, responsabilidades y funciones, planificacion y seguimiento. Integracion de la prevencion en la gestion, responsabilidades por niveles, planificacion preventiva y seguimiento.",
+      "title": "Tema 07. Prevención de Riesgos Laborales en la UAH",
+      "description": "La temática 7 se centra en la Política de Prevención de la UAH: la Universidad dispone de una Declaración de Política de Prevención de Riesgos Laborales (aprobada por Consejo de Gobierno en octubre de 2004).",
       "order": 7,
       "subtopics": [
         {
           "id": "uah-bib-t07-contenido",
           "topicId": "uah-bib-t07",
-          "title": "Politica de prevencion, organizacion preventiva, responsabilidades y funciones, planificacion y seguimiento.",
-          "content": "Enfoque de examen: Integracion de la prevencion en la gestion, responsabilidades por niveles, planificacion preventiva y seguimiento.\n\nAtención: La PRL no es solo responsabilidad del servicio de prevencion: debe integrarse en toda la estructura jerarquica.\n\nPuntos clave: La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua. | La actividad preventiva se planifica, ejecuta, evalua y revisa. | Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion. | La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
+          "title": "Incluye la organización de la prevención, las responsabilidades y funciones asignadas y la planificación y seguimiento de la actividad preventiva en la UAH",
+          "content": "Enfoque de examen: La temática 7 se centra en la Política de Prevención de la UAH: la Universidad dispone de una Declaración de Política de Prevención de Riesgos Laborales (aprobada por Consejo de Gobierno en octubre de 2004).\n\nContenido acotado: Incluye la organización de la prevención, las responsabilidades y funciones asignadas y la planificación y seguimiento de la actividad preventiva en la UAH\n\nCobertura oficial: #politica-de-prevencion, #organizacion-de-la-prevencion, #responsabilidades-y-funciones, #planificacion-y-seguimiento",
           "order": 1,
           "syllabusCoverageIds": [
+            "#politica-de-prevencion",
+            "#organizacion-de-la-prevencion",
+            "#responsabilidades-y-funciones",
+            "#planificacion-y-seguimiento",
             "uah-tema-007"
           ]
         }
@@ -193,15 +206,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 49. Respuesta validada por la plantilla oficial: Por y entre los representantes del personal. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q049",
-        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
-        "highlightText": "Por y entre los representantes del personal"
+        "materialId": "tema_07_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q049-f4e006df21e5",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q049-f4e006df21e5"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-007",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -218,15 +232,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 71. Respuesta validada por la plantilla oficial: El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa.. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q071",
-        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
-        "highlightText": "El empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención, o concertará dicho servicio con una entidad especializada ajena a la empresa."
+        "materialId": "tema_07_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q071-fb2cb9a1a025",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q071-fb2cb9a1a025"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-007",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -243,15 +258,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 97. Respuesta validada por la plantilla oficial: No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos.. Clasificada como Tema 7 (Prevención de riesgos laborales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q097",
-        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
-        "highlightText": "No solamente posee el carácter de legislación laboral, sino que constituye, en sus aspectos fundamentales, norma básica del régimen estatutario de los funcionarios públicos."
+        "materialId": "tema_07_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q097-b900cb4b525f",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_07_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q097-b900cb4b525f"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-007",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

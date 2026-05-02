@@ -61,8 +61,41 @@ export const setActiveUserId = (userId?: string | null) => {
   localStorage.setItem(ACTIVE_USER_KEY, safeId);
 };
 
+const getActiveQuestionDatasetIds = (database = getCachedDatabase()): Set<string> => {
+  const studyType = getStudyType();
+  const studyTypeEntry = database.studyTypes?.find(entry => entry.id === studyType);
+  const activeConvocatoria =
+    (studyTypeEntry?.convocatoriaId
+      ? database.convocatorias?.find(convocatoria => convocatoria.id === studyTypeEntry.convocatoriaId)
+      : undefined) ??
+    database.convocatorias?.find(convocatoria => convocatoria.activa && convocatoria.studyType === studyType);
+  const datasetIds = activeConvocatoria?.questionDatasetIds?.length
+    ? activeConvocatoria.questionDatasetIds
+    : studyTypeEntry?.questionDatasetIds ?? [];
+  return new Set(datasetIds);
+};
+
+const filterTopicsByActiveDatasets = (topics: Topic[], database = getCachedDatabase()): Topic[] => {
+  const datasetIds = getActiveQuestionDatasetIds(database);
+  if (datasetIds.size === 0) return topics;
+  return topics.filter(topic => topic.sourceDatasetId && datasetIds.has(topic.sourceDatasetId));
+};
+
+const filterQuestionsByActiveDatasets = (questions: TestQuestion[], database = getCachedDatabase()): TestQuestion[] => {
+  const datasetIds = getActiveQuestionDatasetIds(database);
+  if (datasetIds.size === 0) return questions;
+  return questions.filter(question => question.sourceDatasetId && datasetIds.has(question.sourceDatasetId));
+};
+
+const filterFlashcardsByActiveDatasets = (flashcards: Flashcard[], database = getCachedDatabase()): Flashcard[] => {
+  const datasetIds = getActiveQuestionDatasetIds(database);
+  if (datasetIds.size === 0) return flashcards;
+  return flashcards.filter(card => card.sourceDatasetId && datasetIds.has(card.sourceDatasetId));
+};
+
 export const getTopics = (): Topic[] => {
-  const apiTopics = getCachedDatabase().topics;
+  const database = getCachedDatabase();
+  const apiTopics = filterTopicsByActiveDatasets(database.topics, database);
   if (typeof window === 'undefined') return apiTopics;
   
   const stored = readFromStorage<Topic[]>('TOPICS', []);
@@ -95,7 +128,9 @@ export const getFlashcards = (): Flashcard[] => {
   });
 
   const database = getCachedDatabase();
-  const questions = typeof window === 'undefined' ? database.questions : getQuestions();
+  const questions = typeof window === 'undefined'
+    ? filterQuestionsByActiveDatasets(database.questions, database)
+    : getQuestions();
 
   const questionFlashcards = questions.map(q => {
     const answer = q.options[q.correctIndex] ?? '';
@@ -120,7 +155,7 @@ export const getFlashcards = (): Flashcard[] => {
       .filter((sourceDatasetId): sourceDatasetId is string => Boolean(sourceDatasetId))
   );
 
-  const explicitFlashcards = database.flashcards
+  const explicitFlashcards = filterFlashcardsByActiveDatasets(database.flashcards, database)
     .map(withReviewDefaults)
     .filter(card => {
       if (questionIds.has(card.id)) return false;
@@ -134,7 +169,8 @@ export const getFlashcards = (): Flashcard[] => {
 
 export const getQuestions = (): TestQuestion[] => {
   // Las preguntas vienen del runtime optimizado; no se duplican en localStorage.
-  return getCachedDatabase().questions;
+  const database = getCachedDatabase();
+  return filterQuestionsByActiveDatasets(database.questions, database);
 };
 
 export const getStats = (): StudyStats => {

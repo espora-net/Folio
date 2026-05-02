@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 13 - Proceso tecnico de fondos documentales",
-    "description": "Banco de preguntas y flashcards del tema 13 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 13 - Proceso técnico de fondos documentales",
+    "description": "Banco normalizado de preguntas del tema 13 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 35,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 21,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 12,
+    "officialValidationQuestions": 19
   },
   "topics": [
     {
       "id": "uah-bib-t13",
-      "title": "Tema 13. Proceso tecnico de fondos documentales",
-      "description": "Formatos de intercambio bibliografico MARC 21, FRBR y RDA. Distinguir formato MARC 21, modelo conceptual FRBR y norma de descripcion RDA.",
+      "title": "Tema 13. Proceso técnico de fondos documentales",
+      "description": "Proceso técnico de fondos documentales. Formatos de intercambio bibliográfico MARC 21, FRBR y RDA.",
       "order": 13,
       "subtopics": [
         {
           "id": "uah-bib-t13-contenido",
           "topicId": "uah-bib-t13",
-          "title": "Formatos de intercambio bibliografico MARC 21, FRBR y RDA.",
-          "content": "Enfoque de examen: Distinguir formato MARC 21, modelo conceptual FRBR y norma de descripcion RDA.\n\nAtención: MARC no es una regla de catalogacion; FRBR no es un formato; RDA no es un software.\n\nPuntos clave: MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina. | FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item. | RDA orienta la descripcion y acceso a recursos en entornos digitales. | El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
+          "title": "Catalogación y tratamiento técnico de documentos, estándares internacionales de descripción bibliográfica",
+          "content": "Enfoque de examen: Proceso técnico de fondos documentales. Formatos de intercambio bibliográfico MARC 21, FRBR y RDA.\n\nContenido acotado: Catalogación y tratamiento técnico de documentos, estándares internacionales de descripción bibliográfica\n\nCobertura oficial: #proceso-tecnico, #marc-21, #frbr, #rda",
           "order": 1,
           "syllabusCoverageIds": [
+            "#proceso-tecnico",
+            "#marc-21",
+            "#frbr",
+            "#rda",
             "uah-tema-013"
           ]
         }
@@ -269,15 +282,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 28. Respuesta validada por la plantilla oficial: DigComp. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q028",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "DigComp"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q028-69b7ae5dacb1",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q028-69b7ae5dacb1"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -294,15 +308,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 33. Respuesta validada por la plantilla oficial: Datos estructurados que describen recursos.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q033",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Datos estructurados que describen recursos."
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q033-79aade4987b0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q033-79aade4987b0"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -319,15 +334,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 37. Respuesta validada por la plantilla oficial: 020 y 022. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q037",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "020 y 022"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q037-6cb5e13aba97",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q037-6cb5e13aba97"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -344,15 +360,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 39. Respuesta validada por la plantilla oficial: La compatibilidad entre distintos sistemas y esquemas de metadatos. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q039",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "La compatibilidad entre distintos sistemas y esquemas de metadatos"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q039-9661fecaf80a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q039-9661fecaf80a"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -369,15 +386,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 40. Respuesta validada por la plantilla oficial: Estructura los datos para su interpretación por máquinas. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q040",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Estructura los datos para su interpretación por máquinas"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q040-d7e49271bbe1",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q040-d7e49271bbe1"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -394,15 +412,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 42. Respuesta validada por la plantilla oficial: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q042",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q042-aa3a258fca65",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q042-aa3a258fca65"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -419,15 +438,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 89. Respuesta validada por la plantilla oficial: Metadatos de preservación de objetos digitales. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q089",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Metadatos de preservación de objetos digitales"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q089-e86ebce8e4f8",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q089-e86ebce8e4f8"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -444,15 +464,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 94. Respuesta validada por la plantilla oficial: RDF (Resource Description Framework). Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q094",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "RDF (Resource Description Framework)"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q094-4c50ef0c6f62",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q094-4c50ef0c6f62"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -469,15 +490,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 16. Respuesta validada por la plantilla oficial: LCSH. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q016",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "LCSH"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q016-a93afa7f5f7d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q016-a93afa7f5f7d"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -519,15 +541,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 28. Respuesta validada por la plantilla oficial: 100 1% $$a Soriano, Ramón, $$e autor. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q028",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "100 1% $$a Soriano, Ramón, $$e autor"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q028-8dea6f4fc827",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q028-8dea6f4fc827"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -544,15 +567,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 52. Respuesta validada por la plantilla oficial: Área de forma del contenido, proceso de producción y de tipo de medio. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q052",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Área de forma del contenido, proceso de producción y de tipo de medio"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q052-1caba9dfd49a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q052-1caba9dfd49a"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -569,15 +593,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 93. Respuesta validada por la plantilla oficial: 300 l. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q093",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "300 l"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q093-0771459a0aca",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q093-0771459a0aca"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-013",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -594,15 +619,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 38. Respuesta validada por la plantilla oficial: Henriette Avram. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q038",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Henriette Avram"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q038-d2ba8b192187",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q038-d2ba8b192187"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -619,15 +645,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 57. Respuesta validada por la plantilla oficial: MARC 21 para registros de fondos y localizaciones. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q057",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "MARC 21 para registros de fondos y localizaciones"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q057-f856b554b196",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q057-f856b554b196"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -644,15 +671,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 58. Respuesta validada por la plantilla oficial: Las AACR2. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q058",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Las AACR2"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q058-f287949c0f4c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q058-f287949c0f4c"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -694,15 +722,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 52. Respuesta validada por la plantilla oficial: Privacidad.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q052",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Privacidad."
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q052-8de5c08d5f85",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q052-8de5c08d5f85"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -719,15 +748,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 64. Respuesta validada por la plantilla oficial: 264 1 SaBuenos Aires:SbEditorial Médica Panamericana, Sc 1987. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q064",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "264 1 SaBuenos Aires:SbEditorial Médica Panamericana, Sc 1987"
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q064-6b381e3de479",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q064-6b381e3de479"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -744,15 +774,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 28. Respuesta validada por la plantilla oficial: Para conocer la satisfacción del usuario con nuestros servicios y para poder atender a sus expectativas, en la biblioteca se realizan encuestas anuales de satisfacción.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-pi-2024#q028",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "Para conocer la satisfacción del usuario con nuestros servicios y para poder atender a sus expectativas, en la biblioteca se realizan encuestas anuales de satisfacción."
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q028-56855bb40c69",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q028-56855bb40c69"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-pi-2024",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -769,15 +800,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 31. Respuesta validada por la plantilla oficial: El campo 337 describe el tipo de medio y el 338 el tipo de soporte.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-pi-2024#q031",
-        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
-        "highlightText": "El campo 337 describe el tipo de medio y el 338 el tipo de soporte."
+        "materialId": "tema_13_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q031-856036f1f305",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q031-856036f1f305"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-pi-2024",
         "uah-tema-013",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {

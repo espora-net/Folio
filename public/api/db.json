@@ -3,7 +3,7 @@
     "title": "Folio - Índice de datos",
     "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
     "version": "2026.05",
-    "updatedAt": "2026-05-02T18:07:05.439Z"
+    "updatedAt": "2026-05-02T21:09:16.389+02:00"
   },
   "studyTypes": [
     {
@@ -12,12 +12,6 @@
       "temarioTemplate": "oposiciones",
       "convocatoriaId": "uah-2025-c1",
       "questionDatasetIds": [
-        "constitucion-1978",
-        "estatuto-basico-del-empleado-publico-ebep",
-        "ley-organica-2-2023-sistema-universitario",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
-        "ley-31-1995-prevencion-de-riesgos-laborales",
-        "ley-53-1984-incompatibilidades",
         "uah-c1-tema-01-constitucion",
         "uah-c1-tema-02-ebep",
         "uah-c1-tema-03-losu",
@@ -86,12 +80,6 @@
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
-        "constitucion-1978",
-        "estatuto-basico-del-empleado-publico-ebep",
-        "ley-organica-2-2023-sistema-universitario",
-        "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
-        "ley-31-1995-prevencion-de-riesgos-laborales",
-        "ley-53-1984-incompatibilidades",
         "uah-c1-tema-01-constitucion",
         "uah-c1-tema-02-ebep",
         "uah-c1-tema-03-losu",

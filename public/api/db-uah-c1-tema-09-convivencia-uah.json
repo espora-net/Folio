@@ -1,25 +1,35 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 09 - Normas de Convivencia UAH",
-    "description": "Banco de preguntas y flashcards del tema 9 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 09 - Reglamento de Normas de Convivencia de la UAH",
+    "description": "Banco normalizado de preguntas del tema 9 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 10,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 4,
+      "refuerzo": 4,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 0,
+    "officialValidationQuestions": 0
   },
   "topics": [
     {
       "id": "uah-bib-t09",
-      "title": "Tema 9. Normas de Convivencia UAH",
-      "description": "Reglamento aprobado el 16/02/2023 y modificado el 21/03/2024. Ambito de aplicacion, principios, medidas de convivencia, resolucion de conflictos y faltas.",
+      "title": "Tema 09. Reglamento de Normas de Convivencia de la UAH",
+      "description": "Reglamento interno que desarrolla la Ley 3/2022, de convivencia universitaria, en el ámbito de la UAH. Fue aprobado en Consejo de Gobierno el 16 de febrero de 2023 y posteriormente modificado el 21 de marzo de 2024.",
       "order": 9,
       "subtopics": [
         {
           "id": "uah-bib-t09-contenido",
           "topicId": "uah-bib-t09",
-          "title": "Reglamento aprobado el 16/02/2023 y modificado el 21/03/2024.",
-          "content": "Enfoque de examen: Ambito de aplicacion, principios, medidas de convivencia, resolucion de conflictos y faltas.\n\nAtención: Distinguir convivencia universitaria de codigo etico y de disciplina funcionarial.\n\nPuntos clave: El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH. | Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion. | Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia. | Conviene estudiar definiciones y organos/procedimientos con literalidad.",
+          "title": "Incluye principios y garantías (respeto a la dignidad, igualdad de trato, confidencialidad, etc.) y crea la Comisión de Convivencia de la UAH",
+          "content": "Enfoque de examen: Reglamento interno que desarrolla la Ley 3/2022, de convivencia universitaria, en el ámbito de la UAH. Fue aprobado en Consejo de Gobierno el 16 de febrero de 2023 y posteriormente modificado el 21 de marzo de 2024.\n\nContenido acotado: Incluye principios y garantías (respeto a la dignidad, igualdad de trato, confidencialidad, etc.) y crea la Comisión de Convivencia de la UAH\n\nCobertura oficial: #normas-de-convivencia-uah, #modificacion-2024",
           "order": 1,
           "syllabusCoverageIds": [
+            "#normas-de-convivencia-uah",
+            "#modificacion-2024",
             "uah-tema-009"
           ]
         }

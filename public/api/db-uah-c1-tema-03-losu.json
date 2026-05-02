@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 03 - Ley Organica 2/2023 del Sistema Universitario",
-    "description": "Banco de preguntas y flashcards del tema 3 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 03 - Ley Orgánica 2/2023 del Sistema Universitario",
+    "description": "Banco normalizado de preguntas del tema 3 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 41,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 5,
+      "refuerzo": 4,
+      "oficial": 30,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 9,
+    "officialValidationQuestions": 20
   },
   "topics": [
     {
       "id": "uah-bib-t03",
-      "title": "Tema 3. Ley Organica 2/2023 del Sistema Universitario",
-      "description": "Titulo I y capitulos I, II y V del Titulo IX. Funciones del sistema universitario, autonomia, estructura y gobernanza de universidades publicas, y PTGAS.",
+      "title": "Tema 03. Ley Orgánica 2/2023 del Sistema Universitario",
+      "description": "Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.",
       "order": 3,
       "subtopics": [
         {
           "id": "uah-bib-t03-contenido",
           "topicId": "uah-bib-t03",
-          "title": "Titulo I y capitulos I, II y V del Titulo IX.",
-          "content": "Enfoque de examen: Funciones del sistema universitario, autonomia, estructura y gobernanza de universidades publicas, y PTGAS.\n\nAtención: No estudiar toda la LOSU: el examen acota funciones, autonomia, gobernanza y personal tecnico, de gestion y de administracion y servicios.\n\nPuntos clave: La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento. | La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos. | La gobernanza publica se articula mediante organos colegiados y unipersonales. | El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
+          "title": "Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios",
+          "content": "Enfoque de examen: Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.\n\nContenido acotado: Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios\n\nCobertura oficial: #titulo-i, #titulo-ix-capitulo-i, #titulo-ix-capitulo-ii, #titulo-ix-capitulo-v",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-i",
+            "#titulo-ix-capitulo-i",
+            "#titulo-ix-capitulo-ii",
+            "#titulo-ix-capitulo-v",
             "uah-tema-003"
           ]
         }
@@ -237,15 +250,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 16. Respuesta validada por la plantilla oficial: Pueden desarrollar su carrera profesional sin cambiar de puesto, mediante progresión en grado, categoría o nivel. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q016",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Pueden desarrollar su carrera profesional sin cambiar de puesto, mediante progresión en grado, categoría o nivel"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q016-475487c1acca",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q016-475487c1acca"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -262,15 +276,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 18. Respuesta validada por la plantilla oficial: La mesa del claustro. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q018",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "La mesa del claustro"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q018-c1fc6ae4321e",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q018-c1fc6ae4321e"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -287,15 +302,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 79. Respuesta validada por la plantilla oficial: El Consejo de Gobierno:. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q079",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "El Consejo de Gobierno:"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q079-d201b153d502",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q079-d201b153d502"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -312,15 +328,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 4. Respuesta validada por la plantilla oficial: Convocar, con carácter extraordinario, elecciones al rector por iniciativa de un tercio de sus miembros y con la aprobación de dos tercios. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q004",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Convocar, con carácter extraordinario, elecciones al rector por iniciativa de un tercio de sus miembros y con la aprobación de dos tercios"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q004-6fb5be83468d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q004-6fb5be83468d"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -337,15 +354,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 79. Respuesta validada por la plantilla oficial: Director de trabajo de grado/máster. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q079",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Director de trabajo de grado/máster"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q079-50f7ae47262d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q079-50f7ae47262d"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -387,15 +405,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 17. Respuesta validada por la plantilla oficial: La discapacidad y sus necesidades de apoyo.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q017",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "La discapacidad y sus necesidades de apoyo."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q017-2fb2a7fdec44",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q017-2fb2a7fdec44"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -487,15 +506,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 4. Respuesta validada por la plantilla oficial: De defensoría universitaria y de inspección de servicios.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q004",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "De defensoría universitaria y de inspección de servicios."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q004-ad9e2c8d12b2",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q004-ad9e2c8d12b2"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -562,15 +582,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 61. Respuesta validada por la plantilla oficial: Vicerrectorado de Investigación y Transferencia. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q061",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Vicerrectorado de Investigación y Transferencia"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q061-3d066af99417",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q061-3d066af99417"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -587,15 +608,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 80. Respuesta validada por la plantilla oficial: Acuerdo de Consejo de Gobierno de 1 de diciembre de 2023. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q080",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Acuerdo de Consejo de Gobierno de 1 de diciembre de 2023"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q080-b6aaa02715fe",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q080-b6aaa02715fe"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -612,15 +634,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 20. Respuesta validada por la plantilla oficial: El Ministerio de Universidades, promoverá la presencia de universidades y las distintas instancias del sistema universitario español en los órganos y foros de representación nacional universitaria.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q020",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "El Ministerio de Universidades, promoverá la presencia de universidades y las distintas instancias del sistema universitario español en los órganos y foros de representación nacional universitaria."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q020-0dd47b618a2a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q020-0dd47b618a2a"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -637,15 +660,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 23. Respuesta validada por la plantilla oficial: Podrá constituir una comisión permanente, integrada por el vicerrector, que la presidirá y por un número de miembros que garantice la representación de todos los sectores.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q023",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Podrá constituir una comisión permanente, integrada por el vicerrector, que la presidirá y por un número de miembros que garantice la representación de todos los sectores."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q023-cd8d0b663dbb",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q023-cd8d0b663dbb"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -662,15 +686,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 40. Respuesta validada por la plantilla oficial: Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uned-aux-2024#q040",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q040-36402cdfaaea",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q040-36402cdfaaea"
       },
       "tags": [
         "examen-oficial",
         "uned-aux-2024",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -712,15 +737,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 7. Respuesta validada por la plantilla oficial: Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q007",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q007-b5024d0f6924",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q007-b5024d0f6924"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -737,15 +763,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 9. Respuesta validada por la plantilla oficial: La ANECA y, en su correspondiente ámbito territorial, las agencias de calidad de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Aseguramiento de la Calidad en la Educación Superior.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q009",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "La ANECA y, en su correspondiente ámbito territorial, las agencias de calidad de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Aseguramiento de la Calidad en la Educación Superior."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q009-e96dd618eb4c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q009-e96dd618eb4c"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -762,15 +789,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 24. Respuesta validada por la plantilla oficial: La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q024",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q024-38b6d423568e",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q024-38b6d423568e"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -787,15 +815,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 32. Respuesta validada por la plantilla oficial: Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q032",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q032-ba741a643003",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q032-ba741a643003"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -812,15 +841,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 55. Respuesta validada por la plantilla oficial: Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q055",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q055-eb40af96966d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q055-eb40af96966d"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -862,15 +892,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 15. Respuesta validada por la plantilla oficial: 1542. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q015",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "1542"
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q015-0533ba028b88",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q015-0533ba028b88"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -887,15 +918,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 17. Respuesta validada por la plantilla oficial: Todas las anteriores son correctas.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q017",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Todas las anteriores son correctas."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q017-37800da2cd6c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q017-37800da2cd6c"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-003",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -912,15 +944,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 41. Respuesta validada por la plantilla oficial: Todas las anteriores son correctas.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-pi-2024#q041",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Todas las anteriores son correctas."
+        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q041-50b4cabae88f",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q041-50b4cabae88f"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-pi-2024",
         "uah-tema-003",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {

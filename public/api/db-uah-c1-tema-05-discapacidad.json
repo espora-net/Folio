@@ -1,25 +1,36 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 05 - Derechos de las personas con discapacidad",
-    "description": "Banco de preguntas y flashcards del tema 5 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 05 - Ley de Derechos de las Personas con Discapacidad",
+    "description": "Banco normalizado de preguntas del tema 5 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 11,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 4,
+      "refuerzo": 4,
+      "oficial": 1,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 1,
+    "officialValidationQuestions": 1
   },
   "topics": [
     {
       "id": "uah-bib-t05",
-      "title": "Tema 5. Derechos de las personas con discapacidad",
-      "description": "RDL 1/2013, Titulo I: capitulo IV derecho a la educacion y capitulo VI derecho al trabajo. Educacion inclusiva, igualdad de oportunidades, accesibilidad y empleo de personas con discapacidad.",
+      "title": "Tema 05. Ley de Derechos de las Personas con Discapacidad",
+      "description": "Real Decreto Legislativo 1/2013, de 29 de noviembre - Texto Refundido de la Ley General de Derechos de las Personas con Discapacidad y su Inclusión Social. Para el tema 5 se requieren el Capítulo IV (derecho a la educación) y Capítulo VI (derecho al trabajo) del Título I. Referencia oficial: BOE-A-2013-12632 (BOE núm. 289, de 03/12/2013), texto consolidado completo.",
       "order": 5,
       "subtopics": [
         {
           "id": "uah-bib-t05-contenido",
           "topicId": "uah-bib-t05",
-          "title": "RDL 1/2013, Titulo I: capitulo IV derecho a la educacion y capitulo VI derecho al trabajo.",
-          "content": "Enfoque de examen: Educacion inclusiva, igualdad de oportunidades, accesibilidad y empleo de personas con discapacidad.\n\nAtención: No reducir el tema a adaptaciones de examen: incluye educacion, trabajo, accesibilidad y no discriminacion.\n\nPuntos clave: La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal. | La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables. | El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional. | La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
+          "title": "Reúne la legislación de discapacidad, garantizando la igualdad de oportunidades y no discriminación, incluyendo acceso a educación superior y empleo público",
+          "content": "Enfoque de examen: Real Decreto Legislativo 1/2013, de 29 de noviembre - Texto Refundido de la Ley General de Derechos de las Personas con Discapacidad y su Inclusión Social. Para el tema 5 se requieren el Capítulo IV (derecho a la educación) y Capítulo VI (derecho al trabajo) del Título I. Referencia oficial: BOE-A-2013-12632 (BOE núm. 289, de 03/12/2013), texto consolidado completo.\n\nContenido acotado: Reúne la legislación de discapacidad, garantizando la igualdad de oportunidades y no discriminación, incluyendo acceso a educación superior y empleo público\n\nCobertura oficial: #titulo-i-capitulo-iv, #titulo-i-capitulo-vi",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-i-capitulo-iv",
+            "#titulo-i-capitulo-vi",
             "uah-tema-005"
           ]
         }
@@ -193,15 +204,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 46. Respuesta validada por la plantilla oficial: Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació.. Clasificada como Tema 5 (Discapacidad) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q046",
-        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
-        "highlightText": "Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació."
+        "materialId": "tema_05_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q046-c8362016eb8c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_05_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q046-c8362016eb8c"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-005",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

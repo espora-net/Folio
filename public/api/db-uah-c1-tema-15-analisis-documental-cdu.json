@@ -1,25 +1,37 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 15 - Analisis documental y clasificaciones bibliograficas",
-    "description": "Banco de preguntas y flashcards del tema 15 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 15 - Análisis documental y clasificaciones bibliográficas",
+    "description": "Banco normalizado de preguntas del tema 15 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 25,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 11,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 6,
+    "officialValidationQuestions": 10
   },
   "topics": [
     {
       "id": "uah-bib-t15",
-      "title": "Tema 15. Analisis documental y clasificaciones bibliograficas",
-      "description": "Principales clasificaciones y clasificacion bibliografica en la Biblioteca UAH. Clasificacion como representacion tematica y ordenacion; practicar CDU y diferencias con otras clasificaciones.",
+      "title": "Tema 15. Análisis documental y clasificaciones bibliográficas",
+      "description": "Análisis documental. Las principales clasificaciones bibliográficas. La clasificación bibliográfica en la Biblioteca de la Universidad de Alcalá.",
       "order": 15,
       "subtopics": [
         {
           "id": "uah-bib-t15-contenido",
           "topicId": "uah-bib-t15",
-          "title": "Principales clasificaciones y clasificacion bibliografica en la Biblioteca UAH.",
-          "content": "Enfoque de examen: Clasificacion como representacion tematica y ordenacion; practicar CDU y diferencias con otras clasificaciones.\n\nAtención: No confundir indizacion con clasificacion: ambas analizan contenido, pero cumplen funciones distintas.\n\nPuntos clave: El analisis documental representa contenido para recuperar documentos de forma eficaz. | La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado. | La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica. | La signatura combina clasificacion y elementos de localizacion fisica.",
+          "title": "Técnicas de análisis documental, sistemas de clasificación (CDU, Dewey, etc.) y su aplicación en la UAH",
+          "content": "Enfoque de examen: Análisis documental. Las principales clasificaciones bibliográficas. La clasificación bibliográfica en la Biblioteca de la Universidad de Alcalá.\n\nContenido acotado: Técnicas de análisis documental, sistemas de clasificación (CDU, Dewey, etc.) y su aplicación en la UAH\n\nCobertura oficial: #analisis-documental, #clasificaciones-bibliograficas, #clasificacion-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#analisis-documental",
+            "#clasificaciones-bibliograficas",
+            "#clasificacion-uah",
             "uah-tema-015"
           ]
         }
@@ -269,15 +281,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 95. Respuesta validada por la plantilla oficial: Publicar datos de autores y materias del catálogo para reutilización externa. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q095",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Publicar datos de autores y materias del catálogo para reutilización externa"
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q095-6affeabf8f20",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q095-6affeabf8f20"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -319,15 +332,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 42. Respuesta validada por la plantilla oficial: Auxiliar de grupos étnicos. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q042",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Auxiliar de grupos étnicos"
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q042-66a1b77fd051",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q042-66a1b77fd051"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -344,15 +358,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 43. Respuesta validada por la plantilla oficial: Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q043",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet."
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q043-951fa1af2d05",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q043-951fa1af2d05"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -369,15 +384,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 36. Respuesta validada por la plantilla oficial: Acceder a la bibliografía recomendada de cada asignatura.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q036",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Acceder a la bibliografía recomendada de cada asignatura."
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q036-ee9a05ae5958",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q036-ee9a05ae5958"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -394,15 +410,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 49. Respuesta validada por la plantilla oficial: (038). Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q049",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "(038)"
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q049-17db94d416d5",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q049-17db94d416d5"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -419,15 +436,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 58. Respuesta validada por la plantilla oficial: (1/9) (paréntesis). Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q058",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "(1/9) (paréntesis)"
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q058-4a416db44e75",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q058-4a416db44e75"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -444,15 +462,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 66. Respuesta validada por la plantilla oficial: 946.0\"14/18\". Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q066",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "946.0\"14/18\""
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q066-1123e4180f00",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q066-1123e4180f00"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-015",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -469,15 +488,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 38. Respuesta validada por la plantilla oficial: 069 CON - 155 AVE, S. - 155 AWE, P - 796.8 BAR, S - 902 MON, R. - 91 GOM, A.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q038",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "069 CON - 155 AVE, S. - 155 AWE, P - 796.8 BAR, S - 902 MON, R. - 91 GOM, A."
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q038-7d06833cfc64",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q038-7d06833cfc64"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-015",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -494,15 +514,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 39. Respuesta validada por la plantilla oficial: Ordenar el fondo por materias.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q039",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Ordenar el fondo por materias."
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q039-81df0a438019",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q039-81df0a438019"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-015",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -519,15 +540,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 17. Respuesta validada por la plantilla oficial: Auxiliar común de lugar.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-pi-2024#q017",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Auxiliar común de lugar."
+        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q017-67dba3b4b268",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q017-67dba3b4b268"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-pi-2024",
         "uah-tema-015",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {

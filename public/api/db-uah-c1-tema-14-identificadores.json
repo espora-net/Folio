@@ -1,25 +1,39 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 14 - Identificacion normalizada de documentos",
-    "description": "Banco de preguntas y flashcards del tema 14 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 14 - Estándares de normalización: Identificación de documentos",
+    "description": "Banco normalizado de preguntas del tema 14 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 26,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 12,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 7,
+    "officialValidationQuestions": 9
   },
   "topics": [
     {
       "id": "uah-bib-t14",
-      "title": "Tema 14. Identificacion normalizada de documentos",
-      "description": "ISBN, ISSN, DOI, Deposito Legal y NIPO. Saber que identifica cada codigo y en que documentos aparece.",
+      "title": "Tema 14. Estándares de normalización: Identificación de documentos",
+      "description": "Estándares de normalización: Identificación de documentos (ISBN, ISSN, DOI, D.L. NIPO).",
       "order": 14,
       "subtopics": [
         {
           "id": "uah-bib-t14-contenido",
           "topicId": "uah-bib-t14",
-          "title": "ISBN, ISSN, DOI, Deposito Legal y NIPO.",
-          "content": "Enfoque de examen: Saber que identifica cada codigo y en que documentos aparece.\n\nAtención: ISBN identifica monografias; ISSN identifica publicaciones seriadas; DOI identifica objetos digitales persistentes.\n\nPuntos clave: ISBN: identificador internacional de libros y ciertas publicaciones monograficas. | ISSN: identificador internacional de publicaciones seriadas y recursos continuados. | DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos. | Deposito Legal y NIPO responden a obligaciones o identificacion de publicaciones, especialmente en ambito institucional.",
+          "title": "Sistemas de identificación única de publicaciones y documentos digitales",
+          "content": "Enfoque de examen: Estándares de normalización: Identificación de documentos (ISBN, ISSN, DOI, D.L. NIPO).\n\nContenido acotado: Sistemas de identificación única de publicaciones y documentos digitales\n\nCobertura oficial: #isbn, #issn, #doi, #deposito-legal, #nipo",
           "order": 1,
           "syllabusCoverageIds": [
+            "#isbn",
+            "#issn",
+            "#doi",
+            "#deposito-legal",
+            "#nipo",
             "uah-tema-014"
           ]
         }
@@ -269,15 +283,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 21. Respuesta validada por la plantilla oficial: El identificador ROR (Research Organization Registry) tiene forma de URL, y es un enlace que lleva a la ficha de registro de la institución. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q021",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "El identificador ROR (Research Organization Registry) tiene forma de URL, y es un enlace que lleva a la ficha de registro de la institución"
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q021-3027f62dc7ca",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q021-3027f62dc7ca"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -294,15 +309,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 25. Respuesta validada por la plantilla oficial: ORCID y ResearcherID. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q025",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "ORCID y ResearcherID"
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q025-5bf7b95b1abe",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q025-5bf7b95b1abe"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -344,15 +360,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 52. Respuesta validada por la plantilla oficial: Garantizar un enlace permanente al recurso digital. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q052",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "Garantizar un enlace permanente al recurso digital"
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q052-284723a76939",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q052-284723a76939"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -369,15 +386,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 63. Respuesta validada por la plantilla oficial: Un identificador único y persistente para autores del ámbito científico y académico que permite eliminar la ambigúedad entre su investigación y la de otro investigador. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q063",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "Un identificador único y persistente para autores del ámbito científico y académico que permite eliminar la ambigúedad entre su investigación y la de otro investigador"
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q063-c3085094ad92",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q063-c3085094ad92"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -394,15 +412,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 59. Respuesta validada por la plantilla oficial: Se compone de 9 números que se dividen en cuatro grupos separados por guiones.. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q059",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "Se compone de 9 números que se dividen en cuatro grupos separados por guiones."
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q059-9fd7027b4b0d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q059-9fd7027b4b0d"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -419,15 +438,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 85. Respuesta validada por la plantilla oficial: Es un ISSN específico que reúne los diferentes soportes en los que se edita una misma publicación seriada.. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q085",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "Es un ISSN específico que reúne los diferentes soportes en los que se edita una misma publicación seriada."
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q085-10cbdc426327",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q085-10cbdc426327"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -444,15 +464,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 92. Respuesta validada por la plantilla oficial: Handle. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q092",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "Handle"
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q092-a5820d07c728",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q092-a5820d07c728"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -469,15 +490,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 94. Respuesta validada por la plantilla oficial: No hay ninguna obligación de solicitar un ISBN para obtener el Depósito Legal.. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q094",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "No hay ninguna obligación de solicitar un ISBN para obtener el Depósito Legal."
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q094-43d7183dca8d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q094-43d7183dca8d"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -519,15 +541,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 48. Respuesta validada por la plantilla oficial: 979-13-.. Clasificada como Tema 14 (Identificadores documentales) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q048",
-        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
-        "highlightText": "979-13-."
+        "materialId": "tema_14_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q048-010df29531c7",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_14_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q048-010df29531c7"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-014",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

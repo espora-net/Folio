@@ -1,25 +1,36 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 17 - Servicios al usuario",
-    "description": "Banco de preguntas y flashcards del tema 17 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 17 - Los servicios al usuario en las bibliotecas universitarias",
+    "description": "Banco normalizado de preguntas del tema 17 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 32,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 18,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 15,
+    "officialValidationQuestions": 18
   },
   "topics": [
     {
       "id": "uah-bib-t17",
-      "title": "Tema 17. Servicios al usuario",
-      "description": "Servicios en bibliotecas universitarias y Carta de Servicios de la Biblioteca UAH. Servicios, compromisos, indicadores, derechos, canales y calidad percibida.",
+      "title": "Tema 17. Los servicios al usuario en las bibliotecas universitarias",
+      "description": "Los servicios al usuario en las bibliotecas universitarias. La Carta de Servicios de la Biblioteca de la Universidad de Alcalá.",
       "order": 17,
       "subtopics": [
         {
           "id": "uah-bib-t17-contenido",
           "topicId": "uah-bib-t17",
-          "title": "Servicios en bibliotecas universitarias y Carta de Servicios de la Biblioteca UAH.",
-          "content": "Enfoque de examen: Servicios, compromisos, indicadores, derechos, canales y calidad percibida.\n\nAtención: Una carta de servicios no es publicidad: formula compromisos medibles y vias de participacion o reclamacion.\n\nPuntos clave: Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios. | La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias. | La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades. | Los canales digitales son parte central del servicio bibliotecario universitario.",
+          "title": "Servicios bibliotecarios y compromisos de calidad establecidos en la Carta de Servicios",
+          "content": "Enfoque de examen: Los servicios al usuario en las bibliotecas universitarias. La Carta de Servicios de la Biblioteca de la Universidad de Alcalá.\n\nContenido acotado: Servicios bibliotecarios y compromisos de calidad establecidos en la Carta de Servicios\n\nCobertura oficial: #servicios-al-usuario, #carta-servicios-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#servicios-al-usuario",
+            "#carta-servicios-uah",
             "uah-tema-017"
           ]
         }
@@ -269,15 +280,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 36. Respuesta validada por la plantilla oficial: Gestionar referencias y generar citas. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q036",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Gestionar referencias y generar citas"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q036-3de62aa14e8c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q036-3de62aa14e8c"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -294,15 +306,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 47. Respuesta validada por la plantilla oficial: Desarrollo de habilidades para localizar, evaluar y usar información de forma eficaz. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q047",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Desarrollo de habilidades para localizar, evaluar y usar información de forma eficaz"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q047-ccb65da430dd",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q047-ccb65da430dd"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -319,15 +332,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 48. Respuesta validada por la plantilla oficial: Capacidad para discriminar la fiabilidad de las fuentes de información y aplicar normas de citación adecuadas. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q048",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Capacidad para discriminar la fiabilidad de las fuentes de información y aplicar normas de citación adecuadas"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q048-6ff8a4359e78",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q048-6ff8a4359e78"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -344,15 +358,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 57. Respuesta validada por la plantilla oficial: La información como construcción social y contextual. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q057",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "La información como construcción social y contextual"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q057-d2a7ecdec16b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q057-d2a7ecdec16b"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -369,15 +384,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 87. Respuesta validada por la plantilla oficial: Sistemas de preservación digital a largo plazo. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q087",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Sistemas de preservación digital a largo plazo"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q087-a787f8eb5eb7",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q087-a787f8eb5eb7"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -394,15 +410,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 34. Respuesta validada por la plantilla oficial: Por cada ámbito temático, este indicador se basa en el análisis del número de citas que han recibido las revistas en los cinco años anteriores relativo al número de artículos.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q034",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Por cada ámbito temático, este indicador se basa en el análisis del número de citas que han recibido las revistas en los cinco años anteriores relativo al número de artículos."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q034-653f36512131",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q034-653f36512131"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -419,15 +436,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 51. Respuesta validada por la plantilla oficial: Mendeley permite no solo gestionar referencias bibliograficas, sino también colaborar en grupos y almacenar documentos en la nube.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q051",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Mendeley permite no solo gestionar referencias bibliograficas, sino también colaborar en grupos y almacenar documentos en la nube."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q051-fb4c002d907a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q051-fb4c002d907a"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -444,15 +462,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 65. Respuesta validada por la plantilla oficial: ORCID: se crea rellenando el formulario y permite la importación de referencias bibliográficas desde múltiples plataformas.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q065",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "ORCID: se crea rellenando el formulario y permite la importación de referencias bibliográficas desde múltiples plataformas."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q065-69f7c5ef7436",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q065-69f7c5ef7436"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -469,15 +488,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 83. Respuesta validada por la plantilla oficial: En un plazo máximo de un mes. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q083",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "En un plazo máximo de un mes"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q083-4ebfcc1ba08d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q083-4ebfcc1ba08d"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -494,15 +514,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 89. Respuesta validada por la plantilla oficial: Field-weighted Citation Impact (FWCI), Field Citation Ratio (FCR). Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q089",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Field-weighted Citation Impact (FWCI), Field Citation Ratio (FCR)"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q089-0029ff877e6c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q089-0029ff877e6c"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -519,15 +540,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 91. Respuesta validada por la plantilla oficial: Cuatro años a partir del día 01/01/2024. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q091",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Cuatro años a partir del día 01/01/2024"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q091-22284710b65d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q091-22284710b65d"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -544,15 +566,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 24. Respuesta validada por la plantilla oficial: Chat, Correo electrónico, Whatsapp, Teléfono y Atención presencial directa del personal bibliotecario.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q024",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Chat, Correo electrónico, Whatsapp, Teléfono y Atención presencial directa del personal bibliotecario."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q024-f9bc181a292a",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q024-f9bc181a292a"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -569,15 +592,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 37. Respuesta validada por la plantilla oficial: Chat. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q037",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Chat"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q037-ee4c78d085c6",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q037-ee4c78d085c6"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -594,15 +618,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 69. Respuesta validada por la plantilla oficial: Invertir al menos un 70 % del presupuesto de la Biblioteca en la adquisición de fondos bibliográficos.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q069",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Invertir al menos un 70 % del presupuesto de la Biblioteca en la adquisición de fondos bibliográficos."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q069-bc5c1b81617d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q069-bc5c1b81617d"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -619,15 +644,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 73. Respuesta validada por la plantilla oficial: Mendeley y Zotero. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q073",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Mendeley y Zotero"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q073-c332bc818435",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q073-c332bc818435"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -644,15 +670,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 78. Respuesta validada por la plantilla oficial: Presentar quejas, reclamaciones y sugerencias y recibir respuesta. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q078",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "Presentar quejas, reclamaciones y sugerencias y recibir respuesta"
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q078-edb8904bc19b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q078-edb8904bc19b"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -669,15 +696,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 56. Respuesta validada por la plantilla oficial: ISBN.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q056",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "ISBN."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q056-60098668d058",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q056-60098668d058"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -694,15 +722,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 64. Respuesta validada por la plantilla oficial: El impacto de una revista en función de las citas recibidas por sus artículos indexados en la Web of Science.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q064",
-        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
-        "highlightText": "El impacto de una revista en función de las citas recibidas por sus artículos indexados en la Web of Science."
+        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q064-ac21bf33a6c9",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q064-ac21bf33a6c9"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-017",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {

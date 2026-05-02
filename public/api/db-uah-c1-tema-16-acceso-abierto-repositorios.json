@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 16 - Acceso abierto y repositorios",
-    "description": "Banco de preguntas y flashcards del tema 16 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 16 - El movimiento de acceso abierto y los repositorios institucionales",
+    "description": "Banco normalizado de preguntas del tema 16 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 42,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 28,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 15,
+    "officialValidationQuestions": 25
   },
   "topics": [
     {
       "id": "uah-bib-t16",
-      "title": "Tema 16. Acceso abierto y repositorios",
-      "description": "Movimiento de acceso abierto, eBUAH, eCienciaDatos y Politica institucional de Ciencia Abierta UAH. Acceso abierto, repositorio institucional, repositorio de datos y obligaciones/recomendaciones de ciencia abierta.",
+      "title": "Tema 16. El movimiento de acceso abierto y los repositorios institucionales",
+      "description": "El movimiento de acceso abierto y los repositorios institucionales. El Repositorio Institucional eBUAH. El Repositorio eCienciaDatos. Política institucional de Ciencia Abierta de la Universidad de Alcalá (Aprobada en Consejo de Gobierno de 20 de junio de 2024).",
       "order": 16,
       "subtopics": [
         {
           "id": "uah-bib-t16-contenido",
           "topicId": "uah-bib-t16",
-          "title": "Movimiento de acceso abierto, eBUAH, eCienciaDatos y Politica institucional de Ciencia Abierta UAH.",
-          "content": "Enfoque de examen: Acceso abierto, repositorio institucional, repositorio de datos y obligaciones/recomendaciones de ciencia abierta.\n\nAtención: eBUAH no equivale a eCienciaDatos: uno se centra en produccion cientifica y otro en datos de investigacion.\n\nPuntos clave: El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas. | eBUAH es el repositorio institucional de la Universidad de Alcala. | eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion. | La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
+          "title": "Acceso abierto, repositorios institucionales de la UAH y políticas de ciencia abierta",
+          "content": "Enfoque de examen: El movimiento de acceso abierto y los repositorios institucionales. El Repositorio Institucional eBUAH. El Repositorio eCienciaDatos. Política institucional de Ciencia Abierta de la Universidad de Alcalá (Aprobada en Consejo de Gobierno de 20 de junio de 2024).\n\nContenido acotado: Acceso abierto, repositorios institucionales de la UAH y políticas de ciencia abierta\n\nCobertura oficial: #acceso-abierto, #repositorio-ebuah, #repositorio-ecienciadatos, #politica-ciencia-abierta-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#acceso-abierto",
+            "#repositorio-ebuah",
+            "#repositorio-ecienciadatos",
+            "#politica-ciencia-abierta-uah",
             "uah-tema-016"
           ]
         }
@@ -269,15 +282,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 22. Respuesta validada por la plantilla oficial: Acceso abierto diamante. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q022",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Acceso abierto diamante"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q022-8e8be77d8260",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q022-8e8be77d8260"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -294,15 +308,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 30. Respuesta validada por la plantilla oficial: Plan. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q030",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Plan"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q030-8058fb5024a0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q030-8058fb5024a0"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -319,15 +334,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 44. Respuesta validada por la plantilla oficial: RECOLECTA. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q044",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "RECOLECTA"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q044-83e29df2a819",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q044-83e29df2a819"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -369,15 +385,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 53. Respuesta validada por la plantilla oficial: Permite al autor depositar su obra en un repositorio institucional. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q053",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Permite al autor depositar su obra en un repositorio institucional"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q053-e9c859926602",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q053-e9c859926602"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -419,15 +436,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 66. Respuesta validada por la plantilla oficial: Dimensions. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q066",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Dimensions"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q066-4c7609c6852c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q066-4c7609c6852c"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -444,15 +462,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 71. Respuesta validada por la plantilla oficial: Revistas que ofrecen acceso abierto y también bajo suscripción. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q071",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Revistas que ofrecen acceso abierto y también bajo suscripción"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q071-46812b373b71",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q071-46812b373b71"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -469,15 +488,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 76. Respuesta validada por la plantilla oficial: Promueve la ciencia abierta y el acceso abierto a los resultados de investigación. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q076",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Promueve la ciencia abierta y el acceso abierto a los resultados de investigación"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q076-ecee466c755d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q076-ecee466c755d"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -494,15 +514,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Asesoramiento sobre licencias Creative Commons y financiación de APC en revistas seleccionadas. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "upm-c1-2025-1#q082",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Asesoramiento sobre licencias Creative Commons y financiación de APC en revistas seleccionadas"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q082-c90834b0d88d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q082-c90834b0d88d"
       },
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -519,15 +540,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 9. Respuesta validada por la plantilla oficial: de forma simultánea a la fecha de publicación. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q009",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "de forma simultánea a la fecha de publicación"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q009-c51f3ada7ec9",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q009-c51f3ada7ec9"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -544,15 +566,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 56. Respuesta validada por la plantilla oficial: Accesibilidad.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q056",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Accesibilidad."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q056-fad6ab6896a9",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q056-fad6ab6896a9"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -569,15 +592,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 59. Respuesta validada por la plantilla oficial: Tanto en depósito en autoarchivo como en archivo delegado. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q059",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Tanto en depósito en autoarchivo como en archivo delegado"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q059-39332ec55273",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q059-39332ec55273"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -594,15 +618,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 5. Respuesta validada por la plantilla oficial: E-prints, revistas y datos de investigación. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q005",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "E-prints, revistas y datos de investigación"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q005-883c906c7c7b",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q005-883c906c7c7b"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -619,15 +644,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 8. Respuesta validada por la plantilla oficial: S20. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q008",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "S20"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q008-f57ea4a0b6d4",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q008-f57ea4a0b6d4"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -644,15 +670,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 13. Respuesta validada por la plantilla oficial: CORA.RDR. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q013",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "CORA.RDR"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q013-19c55a3d1dd2",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q013-19c55a3d1dd2"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -669,15 +696,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 26. Respuesta validada por la plantilla oficial: Open Policy Finder. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q026",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Open Policy Finder"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q026-03bef34343e3",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q026-03bef34343e3"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -694,15 +722,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 54. Respuesta validada por la plantilla oficial: Túria. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "valencia-c1-2025#q054",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Túria"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q054-b05e6b8e1d2c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q054-b05e6b8e1d2c"
       },
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -744,15 +773,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 56. Respuesta validada por la plantilla oficial: Que ofrece resultados del catálogo tradicional, bases de datos suscritas por la Biblioteca y de acceso abierto, del repositorio institucional RODIN, de la plataforma de préstamo de libros electrónicos, etc.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q056",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Que ofrece resultados del catálogo tradicional, bases de datos suscritas por la Biblioteca y de acceso abierto, del repositorio institucional RODIN, de la plataforma de préstamo de libros electrónicos, etc."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q056-9bd183a9558c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q056-9bd183a9558c"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -769,15 +799,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 57. Respuesta validada por la plantilla oficial: Sí, por un periodo de tiempo establecido por el autor y un máximo de 5 años.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q057",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Sí, por un periodo de tiempo establecido por el autor y un máximo de 5 años."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q057-678e537533be",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q057-678e537533be"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -794,15 +825,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 65. Respuesta validada por la plantilla oficial: OAI-PMH. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q065",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "OAI-PMH"
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q065-9066430dc93c",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q065-9066430dc93c"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -819,15 +851,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 86. Respuesta validada por la plantilla oficial: Dorada.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q086",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Dorada."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q086-39e77999b31e",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q086-39e77999b31e"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -844,15 +877,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 87. Respuesta validada por la plantilla oficial: Evaluación de la docencia abierta.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q087",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Evaluación de la docencia abierta."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q087-b19376bafc48",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q087-b19376bafc48"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -869,15 +903,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 88. Respuesta validada por la plantilla oficial: Tienen que estar en acceso abierto en todo momento.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q088",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Tienen que estar en acceso abierto en todo momento."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q088-979a0ce8a2f0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q088-979a0ce8a2f0"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -894,15 +929,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 90. Respuesta validada por la plantilla oficial: Permitir el acceso libre a las publicaciones científicas.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q090",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Permitir el acceso libre a las publicaciones científicas."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q090-8e92a63e1bce",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q090-8e92a63e1bce"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -919,15 +955,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 69. Respuesta validada por la plantilla oficial: Boletín Oficial de Aragón.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-libre-2024#q069",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "Boletín Oficial de Aragón."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q069-e8e5736e9c31",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q069-e8e5736e9c31"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-libre-2024",
         "uah-tema-016",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -944,15 +981,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 21. Respuesta validada por la plantilla oficial: iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, AlcorZe es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "uz-c1-pi-2024#q021",
-        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
-        "highlightText": "iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, AlcorZe es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ."
+        "materialId": "tema_16_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q021-5df1210ed70d",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_16_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q021-5df1210ed70d"
       },
       "tags": [
         "examen-oficial",
         "uz-c1-pi-2024",
         "uah-tema-016",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {

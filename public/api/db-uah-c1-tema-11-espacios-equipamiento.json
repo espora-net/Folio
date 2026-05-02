@@ -1,25 +1,40 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 11 - Espacios y equipamiento en bibliotecas universitarias",
-    "description": "Banco de preguntas y flashcards del tema 11 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "title": "UAH C1 Tema 11 - Organización espacial y equipamiento de las bibliotecas universitarias",
+    "description": "Banco normalizado de preguntas del tema 11 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 18,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 4,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0,
+    "restoredOfficialQuestions": 4,
+    "officialValidationQuestions": 4
   },
   "topics": [
     {
       "id": "uah-bib-t11",
-      "title": "Tema 11. Espacios y equipamiento en bibliotecas universitarias",
-      "description": "Instalaciones, salas de estudio y trabajo en grupo, libre acceso, depositos, equipamiento informatico y autoservicio. Relacionar tipos de espacios con usos, usuarios, colecciones, seguridad, accesibilidad y autoservicio.",
+      "title": "Tema 11. Organización espacial y equipamiento de las bibliotecas universitarias",
+      "description": "Organización espacial y equipamiento de las bibliotecas universitarias: Instalaciones y equipamientos de la Biblioteca de la Universidad de Alcalá: salas de estudio y trabajo en grupo, colección de libre acceso y depósitos. Equipamiento informático y sistemas de autoservicio.",
       "order": 11,
       "subtopics": [
         {
           "id": "uah-bib-t11-contenido",
           "topicId": "uah-bib-t11",
-          "title": "Instalaciones, salas de estudio y trabajo en grupo, libre acceso, depositos, equipamiento informatico y autoservicio.",
-          "content": "Enfoque de examen: Relacionar tipos de espacios con usos, usuarios, colecciones, seguridad, accesibilidad y autoservicio.\n\nAtención: No confundir libre acceso con deposito: cambia la ordenacion, disponibilidad y mediacion del personal.\n\nPuntos clave: Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada. | La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion. | Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente. | Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
+          "title": "Espacios físicos, equipamiento tecnológico, zonas de estudio y almacenamiento de fondos en bibliotecas universitarias",
+          "content": "Enfoque de examen: Organización espacial y equipamiento de las bibliotecas universitarias: Instalaciones y equipamientos de la Biblioteca de la Universidad de Alcalá: salas de estudio y trabajo en grupo, colección de libre acceso y depósitos. Equipamiento informático y sistemas de autoservicio.\n\nContenido acotado: Espacios físicos, equipamiento tecnológico, zonas de estudio y almacenamiento de fondos en bibliotecas universitarias\n\nCobertura oficial: #salas-de-estudio, #trabajo-en-grupo, #coleccion-libre-acceso, #depositos, #equipamiento-informatico, #sistemas-autoservicio",
           "order": 1,
           "syllabusCoverageIds": [
+            "#salas-de-estudio",
+            "#trabajo-en-grupo",
+            "#coleccion-libre-acceso",
+            "#depositos",
+            "#equipamiento-informatico",
+            "#sistemas-autoservicio",
             "uah-tema-011"
           ]
         }
@@ -269,15 +284,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 42. Respuesta validada por la plantilla oficial: Termohigrógrafos y psicrómetros. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q042",
-        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
-        "highlightText": "Termohigrógrafos y psicrómetros"
+        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q042-c50179bc05c1",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q042-c50179bc05c1"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-011",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -294,15 +310,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 60. Respuesta validada por la plantilla oficial: Numerus currens. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "udc-c1-2025-2#q060",
-        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
-        "highlightText": "Numerus currens"
+        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec"
       },
       "tags": [
         "examen-oficial",
         "udc-c1-2025-2",
         "uah-tema-011",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -319,15 +336,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 62. Respuesta validada por la plantilla oficial: En los Campus de Puerto Real, de Jerez y Bahía de Algeciras. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cadiz-c1-2025#q062",
-        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
-        "highlightText": "En los Campus de Puerto Real, de Jerez y Bahía de Algeciras"
+        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q062-c86e5f3229e2",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q062-c86e5f3229e2"
       },
       "tags": [
         "examen-oficial",
         "cadiz-c1-2025",
         "uah-tema-011",
-        "prioridad-alta"
+        "prioridad-alta",
+        "validacion-plantilla-oficial"
       ]
     },
     {
@@ -344,15 +362,16 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 33. Respuesta validada por la plantilla oficial: No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca.. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "cantabria-c2-2025#q033",
-        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
-        "highlightText": "No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca."
+        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q033-964c7e5a11e0",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q033-964c7e5a11e0"
       },
       "tags": [
         "examen-oficial",
         "cantabria-c2-2025",
         "uah-tema-011",
-        "prioridad-media"
+        "prioridad-media",
+        "validacion-plantilla-oficial"
       ]
     },
     {
