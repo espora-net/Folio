@@ -27,6 +27,9 @@ __tests__/
 .next/
 out/
 
+# generated runtime data
+/public/api/optimized/
+
 # production
 /build
 dist/

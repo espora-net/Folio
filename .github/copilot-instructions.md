@@ -6,7 +6,7 @@ Folio es una aplicación de estudio para opositores/as (y otros perfiles) pensad
 
 - Framework: **Next.js (App Router)**
 - Despliegue: **export estático** (`output: 'export'`) para GitHub Pages u hosting estático.
-- Datos: JSON servidos desde `public/api/` (API estática) + fallback “bundled” durante build/runtime.
+- Datos: JSON fuente en `public/api/` transformado a FlatBuffers en `public/api/optimized/` para runtime publicado.
 
 ## Objetivo de estas instrucciones
 
@@ -31,13 +31,15 @@ Formato recomendado por entrada:
 Decisiones actuales (fuente de verdad):
 
 - 2025-12-14 — **Sitio estático**: Next.js App Router con `output: 'export'` y `trailingSlash: true` para GitHub Pages.
-- 2025-12-14 — **Datos sin backend**: `public/api/` es la “API estática” consumida vía `fetch`, con fallback bundled desde imports en `src/lib/data-api.ts`.
+- 2025-12-14 — **Datos sin backend**: `public/api/` nació como “API estática” JSON consumida vía `fetch`; desde 2026-05-02 el runtime publicado usa FlatBuffers derivados.
 - 2025-12-14 — **Persistencia por usuario**: progreso en `localStorage` con claves `clave::userId` y usuario activo en `folio_active_user_id`.
 - 2025-12-14 — **No persistir preguntas**: `questions` vienen del dataset y no se guardan; `flashcards` se derivan de `questions`.
 - 2025-12-14 — **Authgear + GitHub OAuth**: login client-side, callback en `/auth/callback/` y `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo/demos.
 - 2026-01-03 — **Temario por tipo de estudio**: `public/api/db.json` declara `studyTypes` (plantilla de Temario + datasets asociados) y `convocatorias` enlaza `questionDatasetIds` para relacionar temario con tests.
 - 2026-01-03 — **syllabusCoverageIds**: Los subtopics de los datasets (`db-*.json`) incluyen `syllabusCoverageIds` que enlazan con `cobertura_convocatoria` de la convocatoria. Validado por el agente `.github/agents/ValidateSyllabusCoverage.agent.md` antes de cualquier merge.
 - 2026-01-04 — **Schema consolidado para datasets**: Todos los archivos `db-*.json` siguen el mismo schema definido en `public/api/question-bank.schema.json`. Validación con `npm run validate-schemas`. Campos `correctAnswer` y `correctIndex` son intercambiables (normalizados a `correctIndex` en runtime).
+- 2026-05-02 — **Runtime FlatBuffers sin fallback JSON**: los JSON de `public/api/*.json` son fuente editorial; `npm run generate-flatbuffers` genera `public/api/optimized/manifest.json` y `.fb.bin`; el sitio publicado consume solo FlatBuffers y la Action elimina JSON fuente de `out/api`. Archivos: `schemas/folio-data.fbs`, `scripts/generate-flatbuffers-data.mjs`, `src/lib/optimized-data-api.ts`, `.github/workflows/nextjs.yml`.
+- 2026-05-02 — **Contenido específico UAH Bibliotecas 2025**: se añade el dataset `uah-tec-aux-archivos-bibliotecas-2025` con preguntas `curada`/`refuerzo`, fuentes enlazadas y guías Markdown limpias por tema en `public/data/uah-bibliotecas-2025/`.
 
 ## Estructura del proyecto (resumen)
 
@@ -53,16 +55,19 @@ Decisiones actuales (fuente de verdad):
   components/               Componentes React (incluye shadcn/ui en components/ui)
   hooks/                    Hooks (auth, theme, toast, etc.)
   lib/                      Núcleo de datos/auth/storage
-    data-api.ts             Carga/normalización desde public/api + fallback bundled
+    data-api.ts             Fachada de datos usada por la UI
+    optimized-data-api.ts   Carga/decodificación de FlatBuffers runtime
     storage.ts              Persistencia localStorage + hidratación (merge)
     data-types.ts           Tipos y contratos de datos
     authgear.ts             Integración Authgear
+    flatbuffers/generated/  Bindings TypeScript generados por flatc
   views/                    Vistas por sección (UI de dashboard)
 
-/public/api/                “API” estática (JSON + markdown de apoyo)
-  db.json                   Índice principal
-  db-*.json                 Datasets temáticos (si declarados en db.json)
-  convocatoria-*.json       Datos de convocatorias (si declarados en db.json)
+/public/api/                Fuente editorial JSON + runtime optimizado
+  db.json                   Índice fuente
+  db-*.json                 Datasets fuente
+  convocatoria-*.json       Convocatorias fuente
+  optimized/                manifest.json + artefactos .fb.bin generados
 
 /public/data/               Recursos estáticos (temario en documentos)
   general/*.{md,pdf,mp3}    Documentos/recursos del temario
@@ -83,28 +88,37 @@ Decisiones actuales (fuente de verdad):
   - "Material propio": Personal/customized study material
   - "Material común": Common/shared study material
 
-## Datos: API estática en `public/api/`
+## Datos: JSON fuente y runtime FlatBuffers
 
-La app carga un índice desde:
+Los JSON de `public/api/*.json` son fuente editorial. No son el contrato runtime del sitio publicado.
 
-- `GET <basePath>/api/db.json`
+Flujo obligatorio:
 
-Y, si `db.json` declara `datasets`, carga cada dataset desde:
+1. Editar JSON fuente en `public/api/`.
+2. Ejecutar `npm run validate-schemas`.
+3. Ejecutar `npm run generate-flatbuffers`.
+4. Build/publicación consumen `public/api/optimized/manifest.json` y `.fb.bin`.
 
-- `GET <basePath>/api/<descriptor.file>`
+La app carga:
+
+- `GET <basePath>/api/optimized/manifest.json`
+- `GET <basePath>/api/optimized/index.fb.bin`
+- `GET <basePath>/api/optimized/dataset-*.fb.bin`
+- `GET <basePath>/api/optimized/convocatoria-*.fb.bin`
 
 Notas importantes:
 
 - El `basePath` se controla con `NEXT_PUBLIC_BASE_PATH` y se aplica también a assets (`assetPrefix`).
-- Existe un **fallback bundled** importado desde `public/api/` en `src/lib/data-api.ts`, usado si falla la red o durante render en servidor.
-- `src/lib/data-api.ts` normaliza datasets heterogéneos y aplica defaults (p. ej. `origin`).
+- No reintroduzcas imports bundled de datasets JSON grandes en `src/lib/data-api.ts`.
+- Si un artefacto FlatBuffers falta o es inválido, debe fallar de forma explícita; no añadas fallback JSON silencioso.
+- `src/lib/optimized-data-api.ts` debe aislar los tipos generados y convertirlos a `data-types.ts`.
 
 ### Convocatorias
 
 Las convocatorias se gestionan con funciones específicas en `src/lib/data-api.ts` (no forman parte del `cachedDatabase` principal):
 
 - Descriptores: `convocatorias` en `public/api/db.json`
-- Carga: `fetchConvocatoria(id)` desde `public/api/<descriptor.file>` con fallback bundled
+- Carga: `fetchConvocatoria(id)` desde `api/optimized/convocatoria-<id>.fb.bin`
 
 ### Modelo de Cobertura de Convocatoria (syllabusCoverageIds)
 
@@ -205,7 +219,7 @@ Reglas de persistencia actuales:
 
 - **Topics**: se guardan en localStorage y se preserva `completed` durante la hidratación.
 - **Stats**: se guardan en localStorage (solo se inicializan si no existen).
-- **Questions**: son “fuente de verdad” desde la API estática/bundled y **no se persisten**.
+- **Questions**: vienen del runtime optimizado generado desde JSON fuente y **no se persisten**.
 - **Flashcards**: se **derivan** de `questions` (no se guardan como entidad propia).
 - **Preferencias** (onboarding / tipo de estudio): `folio_preferences::userId`.
 
@@ -222,15 +236,16 @@ Si añades un dataset nuevo o cambias uno existente:
 
 1. Coloca/actualiza el JSON en `public/api/`.
 2. Registra/actualiza el descriptor en `public/api/db.json` (campo `datasets`).
-3. Si quieres que funcione también como fallback bundled (recomendado):
-  - Añade el `import` en `src/lib/data-api.ts` y rellena el `FALLBACK_DATASETS[...]` correspondiente.
-4. Mantén compatibilidad con normalización existente (campos `correctIndex`/`correctAnswer`, `nextReview`/`nextReviewDate`, etc.).
+3. Ejecuta `npm run validate-schemas`.
+4. Ejecuta `npm run generate-flatbuffers`.
+5. Mantén compatibilidad con normalización existente (campos `correctIndex`/`correctAnswer`, `nextReview`/`nextReviewDate`, etc.).
 
 ### Añadir o actualizar convocatorias
 
 1. Coloca/actualiza el JSON de convocatoria en `public/api/`.
 2. Declara el descriptor en `public/api/db.json` (campo `convocatorias`).
-3. Añade el `import` y el mapping en `FALLBACK_CONVOCATORIAS` dentro de `src/lib/data-api.ts` para fallback bundled.
+3. Ejecuta `npm run validate-schemas`.
+4. Ejecuta `npm run generate-flatbuffers`.
 
 ### Al modificar JSON
 
@@ -279,11 +294,12 @@ Guías:
 ## Testing y validación
 
 - Valida JSON (sintaxis) y que los ficheros referenciados existan en `public/api`.
+- Ejecuta `npm run generate-flatbuffers` después de cambios de datos.
 - Verifica que `npm run dev` y `npm run build` sigan funcionando con export estático.
 
 ## Ejecución y build
 
 - Dev: `npm run dev`
-- Build export: `npm run build` (genera `out/`)
+- Build export: `npm run validate-schemas && npm run generate-flatbuffers && npm run build` (genera `out/`)
 
 Si necesitas detalles de despliegue/auth, ver `docs/AUTHENTICATION.md` y `README.md`.

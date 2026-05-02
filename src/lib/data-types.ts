@@ -22,6 +22,7 @@ export interface Flashcard {
   // Origen del contenido (p. ej. 'generated', 'ia', 'oposito.es').
   // Opcional para compatibilidad con localStorage antiguo.
   origin?: QuestionOrigin;
+  sourceDatasetId?: string;
 }
 
 export type QuestionOrigin = string;
@@ -41,6 +42,7 @@ export interface TestQuestion {
   explanation: string;
   origin?: QuestionOrigin;
   source?: QuestionSource;
+  sourceDatasetId?: string;
 }
 
 export interface StudyStats {
@@ -69,6 +71,11 @@ export interface DatasetDescriptor {
   tag?: string;
   color?: string;
   officialUrl?: string;
+  resources?: Array<{
+    type: string;
+    title: string;
+    path: string;
+  }>;
 }
 
 // Configuración del examen oficial de una convocatoria

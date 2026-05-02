@@ -3,7 +3,7 @@ import nextPlugin from '@next/eslint-plugin-next';
 import globals from 'globals';
 
 export default tseslint.config(
-  { ignores: ['.next', 'out', 'node_modules'] },
+  { ignores: ['.next', 'out', 'node_modules', 'src/lib/flatbuffers/generated'] },
   {
     extends: [...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],

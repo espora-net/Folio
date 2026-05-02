@@ -90,17 +90,48 @@ export default function StudyFiltersPopover({
     return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
   }, [topics, selectedConvocatoria]);
 
+  const convocatoriaTopicIdSet = useMemo(() => new Set(convocatoriaTopicIds), [convocatoriaTopicIds]);
+
+  const convocatoriaTopicCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const convocatoria of allConvocatorias) {
+      counts.set(convocatoria.id, getTopicIdsInConvocatoria(topics, convocatoria.id).length);
+    }
+    return counts;
+  }, [allConvocatorias, topics]);
+
+  const itemCountsByTopic = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const item of items) {
+      counts.set(item.topicId, (counts.get(item.topicId) ?? 0) + 1);
+    }
+    return counts;
+  }, [items]);
+
+  const subtopicsByParent = useMemo(() => {
+    const groups = new Map<string, Topic[]>();
+    for (const topic of topics) {
+      if (!topic.parentId) continue;
+      const current = groups.get(topic.parentId);
+      if (current) {
+        current.push(topic);
+      } else {
+        groups.set(topic.parentId, [topic]);
+      }
+    }
+    return groups;
+  }, [topics]);
+
   // Agrupar topics por padre
   const topicGroups = useMemo((): TopicGroup[] => {
     const parentTopics = topics.filter(t => !t.parentId);
     return parentTopics.map(parent => {
-      const subtopics = topics.filter(t => t.parentId === parent.id);
+      const subtopics = subtopicsByParent.get(parent.id) ?? [];
       const allIds = [parent.id, ...subtopics.map(s => s.id)];
-      const getTopicId = (item: Flashcard | TestQuestion) => item.topicId;
-      const totalItems = items.filter(item => allIds.includes(getTopicId(item))).length;
+      const totalItems = allIds.reduce((sum, topicId) => sum + (itemCountsByTopic.get(topicId) ?? 0), 0);
       return { parent, subtopics, totalItems };
     });
-  }, [topics, items]);
+  }, [topics, subtopicsByParent, itemCountsByTopic]);
 
   // Orígenes únicos disponibles
   const availableOrigins = useMemo(() => {
@@ -208,7 +239,7 @@ export default function StudyFiltersPopover({
                 <div className="space-y-1">
                   {allConvocatorias.map((convocatoria) => {
                     const isSelected = selectedConvocatoria?.id === convocatoria.id && filterMode === 'convocatoria';
-                    const topicCount = getTopicIdsInConvocatoria(topics, convocatoria.id).length;
+                    const topicCount = convocatoriaTopicCounts.get(convocatoria.id) ?? 0;
                     return (
                       <Tooltip key={convocatoria.id}>
                         <TooltipTrigger asChild>
@@ -283,7 +314,7 @@ export default function StudyFiltersPopover({
                   const selectedCount = allIds.filter(id => selectedTopicIds.includes(id)).length;
                   const allSelected = selectedCount === allIds.length;
                   const someSelected = selectedCount > 0 && !allSelected;
-                  const inConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIds.includes(group.parent.id);
+                  const inConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIdSet.has(group.parent.id);
                   
                   return (
                     <div key={group.parent.id} className="border border-border rounded-lg overflow-hidden">
@@ -345,9 +376,8 @@ export default function StudyFiltersPopover({
                         <div className="border-t border-border bg-muted/30">
                           {group.subtopics.map((subtopic) => {
                             const isSelected = selectedTopicIds.includes(subtopic.id);
-                            const getTopicId = (item: Flashcard | TestQuestion) => item.topicId;
-                            const itemCount = items.filter(item => getTopicId(item) === subtopic.id).length;
-                            const subtopicInConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIds.includes(subtopic.id);
+                            const itemCount = itemCountsByTopic.get(subtopic.id) ?? 0;
+                            const subtopicInConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIdSet.has(subtopic.id);
                             
                             return (
                               <Tooltip key={subtopic.id}>

@@ -153,41 +153,31 @@ const Tests = () => {
     return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
   }, [topics, selectedConvocatoria, filterMode]);
 
-  // Set para lookup rápido de temas en convocatoria (ya no se usa directamente)
-  // const convocatoriaTopicSet = useMemo(() => {
-  //   return new Set(convocatoriaTopicIds ?? []);
-  // }, [convocatoriaTopicIds]);
+  const convocatoriaTopicSet = useMemo(
+    () => (convocatoriaTopicIds && convocatoriaTopicIds.length > 0 ? new Set(convocatoriaTopicIds) : null),
+    [convocatoriaTopicIds]
+  );
+
+  const selectedTopicSet = useMemo(
+    () => (selectedTopics.length > 0 ? new Set(selectedTopics) : null),
+    [selectedTopics]
+  );
 
   // Filtrar por convocatoria, tema y origen
   const filteredQuestions = useMemo(() => {
-    let result = questions;
+    if (!convocatoriaTopicSet && !selectedTopicSet && originFilter === 'all') return questions;
 
-    // Primero filtrar por convocatoria si está activo
-    if (convocatoriaTopicIds && convocatoriaTopicIds.length > 0) {
-      result = result.filter(q => convocatoriaTopicIds.includes(q.topicId));
-    }
+    return questions.filter(q => {
+      if (convocatoriaTopicSet && !convocatoriaTopicSet.has(q.topicId)) return false;
+      if (selectedTopicSet && !selectedTopicSet.has(q.topicId)) return false;
+      if (originFilter === 'all') return true;
 
-    if (selectedTopics.length > 0) {
-      result = result.filter(q => selectedTopics.includes(q.topicId));
-    }
-
-    if (originFilter !== 'all') {
-      if (originFilter === 'generated') {
-        // 'generated' incluye preguntas con origin === 'generated' y origin === 'ia'
-        result = result.filter(q => {
-          const o = (q.origin || 'generated');
-          return o === 'generated' || o === 'ia';
-        });
-      } else if (originFilter === 'ia') {
-        result = result.filter(q => (q.origin || '') === 'ia');
-      } else {
-        // Filtrar por origen literal (p. ej. 'oposito.es')
-        result = result.filter(q => (q.origin || 'generated') === originFilter);
-      }
-    }
-
-    return result;
-  }, [questions, selectedTopics, originFilter, convocatoriaTopicIds]);
+      const origin = q.origin || 'generated';
+      if (originFilter === 'generated') return origin === 'generated' || origin === 'ia';
+      if (originFilter === 'ia') return origin === 'ia';
+      return origin === originFilter;
+    });
+  }, [questions, selectedTopicSet, originFilter, convocatoriaTopicSet]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 

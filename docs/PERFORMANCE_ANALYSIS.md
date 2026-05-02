@@ -9,47 +9,35 @@ Folio es una aplicación Next.js con export estático (`output: 'export'`) pensa
 1. **Optimizaciones en el código** (requieren cambios de desarrollo)
 2. **Optimizaciones al publicar** (configuración de hosting/CDN, sin tocar código)
 
+> Actualización: la carga de datos se ha migrado a artefactos FlatBuffers generados desde JSON fuente. Ver `docs/DATA_LOADING_OPTIMIZATION.md` para el flujo actual.
+
 ---
 
 ## 1. Optimizaciones en el Código
 
-### 1.1. Carga de Datos (datasets JSON)
+### 1.1. Carga de Datos (JSON fuente -> FlatBuffers runtime)
 
 **Estado actual:**
-- Los datasets JSON se importan como fallback bundled en `src/lib/data-api.ts`
+- Los datasets JSON se mantienen como fuente editorial en `public/api/`
+- `npm run generate-flatbuffers` genera `public/api/optimized/manifest.json` y `.fb.bin`
+- `src/lib/data-api.ts` consume FlatBuffers a través de `src/lib/optimized-data-api.ts`
 - Algunos datasets son muy grandes:
   - `db-constitucion.json`: 1.4 MB
   - `db-ley-organica-2-2023-sistema-universitario.json`: 1.5 MB
   - `db-estatuto-basico-del-empleado-publico-EBEP.json`: 484 KB
 
-**Problemas identificados:**
-- El bundle inicial incluye todos los datasets como fallback, aumentando el JavaScript inicial
-- Los 12+ datasets se cargan incluso si el usuario solo necesita uno
+**Mejoras aplicadas:**
+- Se elimina el fallback bundled de JSON grandes en runtime.
+- Los datasets se cargan como buffers independientes en paralelo.
+- La Action de Pages valida JSON fuente y genera FlatBuffers antes del build.
+- La publicación comprueba `out/api/optimized` y elimina JSON fuente de `out/api`.
 
-**Recomendaciones:**
+**Recomendaciones restantes:**
 | Acción | Impacto | Complejidad |
 |--------|---------|-------------|
-| **Lazy loading de datasets**: Usar `dynamic()` o cargar datasets bajo demanda solo cuando se necesiten | Alto | Media |
-| **Eliminar fallback bundled para datasets grandes**: Confiar solo en fetch desde `/api/` para datasets > 100KB | Alto | Baja |
-| **Comprimir datasets**: Usar JSON minificado y/o dividir en chunks más pequeños | Medio | Baja |
+| **Carga por convocatoria activa**: cargar solo buffers vinculados al study type/convocatoria seleccionada | Alto | Media |
+| **Chunks por dataset grande**: dividir bancos de preguntas muy grandes por tema o bloque | Medio | Media |
 | **Paginar preguntas**: Para datasets con >500 preguntas, cargar por lotes | Medio | Alta |
-
-**Código a modificar:**
-```typescript
-// src/lib/data-api.ts - Líneas 3-19
-// Considerar eliminar imports estáticos de datasets grandes:
-// import datasetLosu from '../../public/api/db-ley-organica-2-2023-sistema-universitario.json';
-// import datasetEbep from '../../public/api/db-estatuto-basico-del-empleado-publico-EBEP.json';
-
-// Alternativa: cargar dinámicamente
-const loadDataset = async (file: string): Promise<RawDataset | null> => {
-  try {
-    const response = await fetch(`${DATASET_BASE_ENDPOINT}${file}`);
-    if (response.ok) return response.json();
-  } catch { /* fallback */ }
-  return null;
-};
-```
 
 ### 1.2. Fuentes Web
 

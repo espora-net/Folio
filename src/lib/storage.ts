@@ -86,15 +86,32 @@ export const saveTopics = (topics: Topic[]) => {
 };
 
 export const getFlashcards = (): Flashcard[] => {
-  // Flashcards se derivan SIEMPRE de las preguntas.
-  // No se guardan ni se ocultan en localStorage.
+  const withReviewDefaults = (card: Flashcard): Flashcard => ({
+    ...card,
+    nextReview: card.nextReview ?? '',
+    interval: card.interval ?? 0,
+    easeFactor: card.easeFactor ?? 2.5,
+    origin: card.origin ?? 'generated',
+  });
+
+  const database = getCachedDatabase();
+  const explicitFlashcards = database.flashcards.map(withReviewDefaults);
+  const explicitIds = new Set(explicitFlashcards.map(card => card.id));
+  const explicitDatasetIds = new Set(
+    explicitFlashcards
+      .map(card => card.sourceDatasetId)
+      .filter((sourceDatasetId): sourceDatasetId is string => Boolean(sourceDatasetId))
+  );
+
   const deriveFromQuestions = (qs: TestQuestion[]) => {
-    return (qs || []).map(q => {
-      // compatibilidad: algunos datasets usan 'correctAnswer' en lugar de 'correctIndex'
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const anyQ: any = q as any;
-      const correct = typeof anyQ.correctIndex === 'number' ? anyQ.correctIndex : anyQ.correctAnswer;
-      const answer = Array.isArray(q.options) && typeof correct === 'number' ? q.options[correct] : '';
+    return (qs || []).flatMap(q => {
+      if (
+        explicitIds.has(q.id) ||
+        (q.sourceDatasetId && explicitDatasetIds.has(q.sourceDatasetId))
+      ) {
+        return [];
+      }
+      const answer = q.options[q.correctIndex] ?? '';
       return {
         id: q.id,
         topicId: q.topicId,
@@ -104,17 +121,20 @@ export const getFlashcards = (): Flashcard[] => {
         interval: 0,
         easeFactor: 2.5,
         origin: q.origin ?? 'generated',
+        sourceDatasetId: q.sourceDatasetId,
       } as Flashcard;
     });
   };
 
-  if (typeof window === 'undefined') return deriveFromQuestions(getCachedDatabase().questions);
-  return deriveFromQuestions(getQuestions());
+  const derivedFlashcards = typeof window === 'undefined'
+    ? deriveFromQuestions(database.questions)
+    : deriveFromQuestions(getQuestions());
+
+  return [...explicitFlashcards, ...derivedFlashcards];
 };
 
 export const getQuestions = (): TestQuestion[] => {
-  // Las preguntas se consideran “fuente de verdad” del dataset (API estática/bundled).
-  // Para evitar problemas de sincronización, no se persisten en localStorage.
+  // Las preguntas vienen del runtime optimizado; no se duplican en localStorage.
   return getCachedDatabase().questions;
 };
 

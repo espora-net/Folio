@@ -6,16 +6,17 @@ El proyecto está construido con Next.js (App Router) y se exporta a HTML estát
 
 ## Cómo funciona (según el código)
 
-### 1) Datos (JSON en `public/api`)
+### 1) Datos
 
-- La app carga el índice desde `GET <basePath>/api/db.json`.
-- Si `db.json` declara datasets, también carga cada dataset desde `GET <basePath>/api/<archivo>.json`.
-- Todo se normaliza en el cliente (topics/flashcards/questions/stats).
+- Los JSON de `public/api/*.json` son la fuente editorial: se editan, revisan y validan en el repositorio.
+- Antes de publicar, `npm run generate-flatbuffers` transforma esos JSON en artefactos runtime en `public/api/optimized/`.
+- La app publicada carga `GET <basePath>/api/optimized/manifest.json` y buffers `.fb.bin` FlatBuffers. No usa fallback JSON en runtime.
+- El loader convierte los buffers a los tipos internos existentes (`topics`, `flashcards`, `questions`, `convocatorias`, `stats`) para mantener estable la UI.
 
 Notas importantes:
 
 - El `basePath` se calcula con `NEXT_PUBLIC_BASE_PATH`.
-- Existe un fallback “bundled” para casos de fallo de red, que se alimenta desde la carpeta `public/api/` (import estático en `src/lib/data-api.ts`). Los datos en `public/api/` son la única fuente de verdad tanto para build-time como para runtime.
+- Si falta `flatc`, el generador falla con un mensaje explícito. En GitHub Actions se instala `flatbuffers-compiler` antes del build.
 
 Documentos del temario:
 
@@ -43,6 +44,7 @@ Requisitos:
 
 - Node.js 20+
 - npm
+- `flatc` para regenerar datos optimizados (macOS: `brew install flatbuffers`; Ubuntu: `sudo apt-get install flatbuffers-compiler`)
 
 Pasos:
 
@@ -67,6 +69,8 @@ Abrir `http://localhost:3000`.
 El repositorio está configurado para export estático. En Next.js con `output: 'export'`, el comando genera `out/`.
 
 ```bash
+npm run validate-schemas
+npm run generate-flatbuffers
 npm run build
 ```
 
@@ -109,14 +113,17 @@ Si solo quieres un demo sin login, define `NEXT_PUBLIC_SKIP_AUTH=true` durante e
 ### 4) Publicación
 
 - Push a `main` dispara el workflow.
-- El job construye `out/`, copia `public/api` a `out/api` y despliega el artifact.
+- El job valida JSON, genera FlatBuffers, construye `out/`, comprueba `out/api/optimized` y elimina los JSON fuente de `out/api` antes de desplegar.
 
 ## Estructura del proyecto
 
 - `app/`: rutas Next.js (landing, `/dashboard`, `/auth/callback`)
-- `src/lib/data-api.ts`: carga/normaliza datasets desde `public/api`
+- `schemas/folio-data.fbs`: contrato FlatBuffers runtime
+- `scripts/generate-flatbuffers-data.mjs`: transforma JSON fuente a `public/api/optimized`
+- `src/lib/data-api.ts`: fachada de datos usada por la UI
+- `src/lib/optimized-data-api.ts`: carga y decodifica FlatBuffers
 - `src/lib/storage.ts`: persistencia + hidratación desde la API
-- `public/api/`: datasets JSON servidos como “API estática”
+- `public/api/`: JSON fuente y artefactos optimizados
 
 - `docs/DATA_SCHEMAS.md`: documentación de schemas JSON y validación
 
@@ -130,9 +137,17 @@ npm run validate-schemas
 
 Este comando valida `db.json` y todos los archivos `db-*.json` contra sus respectivos schemas. Ver `docs/DATA_SCHEMAS.md` para más detalles sobre la estructura de datos y el significado de cada campo.
 
+Para regenerar el runtime optimizado:
+
+```bash
+npm run generate-flatbuffers
+```
+
+Este comando requiere `flatc` y emite `public/api/optimized/manifest.json`, `index.fb.bin`, un `.fb.bin` por dataset y un `.fb.bin` por convocatoria. La carpeta `public/api/optimized/` es derivada y se regenera localmente o en la Action antes del build.
+
 ## Notas de diseño
 
-- `public/api/` es la única fuente de verdad de datos (runtime y fallback bundled).
+- `public/api/*.json` es la fuente editorial; `public/api/optimized/*` es el contrato runtime publicado.
 - `NEXT_PUBLIC_BASE_PATH` controla rutas y assets cuando se despliega bajo subdirectorio (p. ej. GitHub Pages).
 - La app evita persistir preguntas: `questions` vienen del dataset y `flashcards` se derivan a partir de ellas.
-- Los datasets pueden declararse con una `url` absoluta externa en `db.json`; en runtime se prioriza y se añade cache-busting. Requiere que el origen permita CORS.
+- Los datasets remotos deben resolverse durante generación; si no están disponibles, la publicación debe fallar en vez de degradar silenciosamente.
