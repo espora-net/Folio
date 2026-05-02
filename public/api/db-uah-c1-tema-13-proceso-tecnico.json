@@ -1,0 +1,871 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 13 - Proceso tecnico de fondos documentales",
+    "description": "Banco de preguntas y flashcards del tema 13 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t13",
+      "title": "Tema 13. Proceso tecnico de fondos documentales",
+      "description": "Formatos de intercambio bibliografico MARC 21, FRBR y RDA. Distinguir formato MARC 21, modelo conceptual FRBR y norma de descripcion RDA.",
+      "order": 13,
+      "subtopics": [
+        {
+          "id": "uah-bib-t13-contenido",
+          "topicId": "uah-bib-t13",
+          "title": "Formatos de intercambio bibliografico MARC 21, FRBR y RDA.",
+          "content": "Enfoque de examen: Distinguir formato MARC 21, modelo conceptual FRBR y norma de descripcion RDA.\n\nAtención: MARC no es una regla de catalogacion; FRBR no es un formato; RDA no es un software.\n\nPuntos clave: MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina. | FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item. | RDA orienta la descripcion y acceso a recursos en entornos digitales. | El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-013"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-13-33",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "MARC 21 es principalmente:",
+      "options": [
+        "Un formato de codificacion e intercambio de registros bibliograficos",
+        "Una licencia de autor",
+        "Un repositorio de datos",
+        "Una sala de trabajo"
+      ],
+      "correctIndex": 0,
+      "explanation": "MARC 21 estructura datos bibliograficos para intercambio y lectura por maquina.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Normalizacion, compatibilidad y transferencia de informacion bibliografica."
+      }
+    },
+    {
+      "id": "uah-m-13-34",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En FRBR, obra, expresion, manifestacion e item son:",
+      "options": [
+        "Entidades bibliograficas",
+        "Tipos de sancion",
+        "Licencias Creative Commons",
+        "Clases de personal EBEP"
+      ],
+      "correctIndex": 0,
+      "explanation": "FRBR modela entidades bibliograficas y sus relaciones.",
+      "origin": "curada",
+      "source": {
+        "materialId": "boe-convocatoria",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "MARC 21, FRBR y RDA."
+      }
+    },
+    {
+      "id": "uah-m-13-77",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En RDA/BNE, el perfil de aplicacion para monografias modernas esta estructurado segun:",
+      "options": [
+        "Obra, Expresion y Manifestacion",
+        "Solo prestamo, reserva y sancion",
+        "ISBN, ISSN y NIPO",
+        "PDI, PAS y estudiantes"
+      ],
+      "correctIndex": 0,
+      "explanation": "La BNE explica que el perfil se estructura segun entidades OEM; el item no esta contemplado en ese perfil.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-rda",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Entidades Obra, Expresion y Manifestacion."
+      }
+    },
+    {
+      "id": "uah-m-13-78",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "MARC 21 facilita especialmente:",
+      "options": [
+        "Normalizacion, compatibilidad y transferencia de informacion bibliografica legible por computadora",
+        "Calculo de penalizacion de examen",
+        "Reserva de salas durante 3 horas",
+        "Emision de Pasaporte Madrono"
+      ],
+      "correctIndex": 0,
+      "explanation": "La BNE describe MARC como herramienta para normalizacion, compatibilidad y transferencia de informacion bibliografica.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Normalizacion, compatibilidad y transferencia."
+      }
+    },
+    {
+      "id": "uah-m-13-125",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En el perfil RDA de la BNE, el item no esta contemplado porque:",
+      "options": [
+        "Las politicas de descripcion de fondos no habian sido todavia adaptadas a RDA",
+        "RDA no trabaja con monografias",
+        "MARC 21 impide registrar items",
+        "FRBR excluye manifestaciones"
+      ],
+      "correctIndex": 0,
+      "explanation": "La BNE explica que el perfil se estructura por Obra, Expresion y Manifestacion; Item no esta contemplado en ese perfil.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-rda",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "La entidad Item no esta contemplada en el perfil."
+      }
+    },
+    {
+      "id": "uah-m-13-126",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "El perfil RDA BNE indica en cada elemento o subelemento:",
+      "options": [
+        "Si es elemento nucleo y su codificacion adecuada en MARC 21",
+        "El plazo de prestamo",
+        "El cupo Madrono",
+        "La puntuacion del examen"
+      ],
+      "correctIndex": 0,
+      "explanation": "La BNE senala que dentro de cada elemento aparece la mencion de elemento nucleo y codificacion MARC 21.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-rda",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Elemento nucleo y codificacion adecuada en MARC 21."
+      }
+    },
+    {
+      "id": "uah-m-13-127",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En los ejercicios practicos RDA de la BNE, una tarea opcional es:",
+      "options": [
+        "Asignar materias y numero de clasificacion apropiados",
+        "Reservar una sala de trabajo",
+        "Emitir NIPO",
+        "Sancionar faltas leves"
+      ],
+      "correctIndex": 0,
+      "explanation": "El metodo de trabajo BNE incluye opcionalmente asignar materias con autoridades BNE y numero de clasificacion con CDU.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-rda",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Asignar materias y numero de clasificacion."
+      }
+    },
+    {
+      "id": "uah-m-13-128",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "MARC 21 incluye formatos para registros:",
+      "options": [
+        "Bibliograficos, de autoridad y de fondos",
+        "Solo de prestamos",
+        "Solo de sanciones",
+        "Solo de datos FAIR"
+      ],
+      "correctIndex": 0,
+      "explanation": "La pagina BNE de MARC 21 enlaza registros bibliograficos, de autoridad y de fondos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Registros bibliograficos, autoridad y fondos."
+      }
+    },
+    {
+      "id": "uah-c-13-0",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Elige la afirmacion correcta sobre \"Proceso tecnico de fondos documentales\".",
+      "options": [
+        "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Proceso tecnico de fondos documentales"
+      }
+    },
+    {
+      "id": "uah-c-13-1",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Elige la afirmacion correcta sobre \"Proceso tecnico de fondos documentales\".",
+      "options": [
+        "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Proceso tecnico de fondos documentales"
+      }
+    },
+    {
+      "id": "uah-c-13-2",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Elige la afirmacion correcta sobre \"Proceso tecnico de fondos documentales\".",
+      "options": [
+        "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Proceso tecnico de fondos documentales"
+      }
+    },
+    {
+      "id": "uah-c-13-3",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Elige la afirmacion correcta sobre \"Proceso tecnico de fondos documentales\".",
+      "options": [
+        "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "bne-marc21",
+        "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
+        "highlightText": "Proceso tecnico de fondos documentales"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q028-69b7ae5dacb1",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Qué siglas identifican el Marco europeo de competencias digitales?",
+      "options": [
+        "Plan",
+        "SERVQUAL",
+        "LibQUAL",
+        "DigComp"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 28. Respuesta validada por la plantilla oficial: DigComp. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q028",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "DigComp"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q033-79aade4987b0",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Qué son los metadatos en el contexto bibliotecario?",
+      "options": [
+        "Términos equivalentes que se usan para facilitar la recuperación de la información",
+        "Palabras clave asignadas a cada recurso en los catálogos bibliográficos",
+        "Datos estructurados que describen recursos.",
+        "Etiquetas físicas utilizadas para el control de préstamos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 33. Respuesta validada por la plantilla oficial: Datos estructurados que describen recursos.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q033",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Datos estructurados que describen recursos."
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q037-6cb5e13aba97",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En el sistema MARC 21, los campos para el ISBN y el ISSN son respectivamente:",
+      "options": [
+        "020 y030",
+        "020 y 022",
+        "022 y 021",
+        "024 y 028"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 37. Respuesta validada por la plantilla oficial: 020 y 022. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q037",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "020 y 022"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q039-9661fecaf80a",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En el contexto de los metadatos, el término \"interoperabilidad\" se refiere a:",
+      "options": [
+        "La capacidad de traducir metadatos",
+        "La compatibilidad entre distintos sistemas y esquemas de metadatos",
+        "El uso de un solo estándar global",
+        "La conversión automática a MARC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 39. Respuesta validada por la plantilla oficial: La compatibilidad entre distintos sistemas y esquemas de metadatos. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q039",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "La compatibilidad entre distintos sistemas y esquemas de metadatos"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q040-d7e49271bbe1",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Qué rol cumple RDF en el ecosistema semántico de las bibliotecas digitales?",
+      "options": [
+        "Codifica imágenes",
+        "Encripta catálogos,",
+        "Estructura los datos para su interpretación por máquinas",
+        "Sustituye a los metadatos MARC"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 40. Respuesta validada por la plantilla oficial: Estructura los datos para su interpretación por máquinas. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q040",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Estructura los datos para su interpretación por máquinas"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q042-aa3a258fca65",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Qué protocolo utiliza el Archivo Digital UPM para que sean recolectados sus metadatos?",
+      "options": [
+        "HTTP Secure (HTTPS)",
+        "Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)",
+        "File Transfer Protocol (FTP)",
+        "Simple Object Access Protocol (SOAP)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 42. Respuesta validada por la plantilla oficial: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q042",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q089-e86ebce8e4f8",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "PREMIS es un estándar que describe:",
+      "options": [
+        "Metadatos de preservación de objetos digitales",
+        "Requisitos de accesibilidad web",
+        "Códigos de catalogación musical",
+        "Directrices de redes sociales"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 89. Respuesta validada por la plantilla oficial: Metadatos de preservación de objetos digitales. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q089",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Metadatos de preservación de objetos digitales"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q094-4c50ef0c6f62",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "Linked Open Data (LOD) se apoya técnicamente en el estándar:",
+      "options": [
+        "RDF (Resource Description Framework)",
+        "SQL",
+        "ASCII",
+        "XSLT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 94. Respuesta validada por la plantilla oficial: RDF (Resource Description Framework). Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q094",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "RDF (Resource Description Framework)"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q016-a93afa7f5f7d",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "La Lista de encabezamientos de materia en catalán (LEMAC) es un lenguaje controlado empleado para la catalogación temática o indexación de los documentos. Contiene los registros de autoridad de materia adaptados de:",
+      "options": [
+        "BNE",
+        "SUDOC",
+        "CCBIP",
+        "LCSH"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 16. Respuesta validada por la plantilla oficial: LCSH. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q016",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "LCSH"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q022-d22ac60f5a28",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "El Servei de Biblioteques i Documentació tiene entre sus fondos la primera edición de la obra La ciudad y la vida de Carmen Alborch. ¿En qué etiqueta del formato MARC 21 conciso para registros bibliográficos colocaremos la información sobre la primera edición?",
+      "options": [
+        "222",
+        "250",
+        "245",
+        "658"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 22. Respuesta validada por la plantilla oficial: 250. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q022",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "250"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q028-8dea6f4fc827",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "Según las RDA y el formato MARC 21, ¿cuál es la forma correcta de representar la función del autor en un campo 100 de una autoridad personal?",
+      "options": [
+        "100 1% $$a Soriano, Ramón, $$e autor",
+        "100 1# $$a Soriano, Ramón, $$a autor",
+        "100 1% $$a Soriano, Ramón, $$d autor",
+        "100 1% $$a Soriano, Ramón, $$y autor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 28. Respuesta validada por la plantilla oficial: 100 1% $$a Soriano, Ramón, $$e autor. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q028",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "100 1% $$a Soriano, Ramón, $$e autor"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q052-1caba9dfd49a",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Cómo se denomina el área 0 de las ISBD (descripción bibliográfica internacional normalizada) según su última actualización de 2021?",
+      "options": [
+        "Área de forma del contenido, proceso de producción y de tipo de medio",
+        "Área de forma de medio y tipo de contenido",
+        "Área de forma de medio",
+        "Área de tipo de contenido y de forma de medio ' Pagina 13"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 52. Respuesta validada por la plantilla oficial: Área de forma del contenido, proceso de producción y de tipo de medio. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q052",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Área de forma del contenido, proceso de producción y de tipo de medio"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q093-0771459a0aca",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿En qué etiqueta del formato MARC 21 conciso para registros bibliográficos colocaremos la información referente a la descripción física de una monografía?",
+      "options": [
+        "310",
+        "300 l",
+        "246",
+        "830"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 93. Respuesta validada por la plantilla oficial: 300 l. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q093",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "300 l"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-013",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-uned-aux-2024-q038-d2ba8b192187",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "El formato MARC fue desarrollado en la Biblioteca del Congreso por:",
+      "options": [
+        "Radia Perlman",
+        "Peter Mark",
+        "Henriette Avram",
+        "Paul Otlet."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 38. Respuesta validada por la plantilla oficial: Henriette Avram. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uned-aux-2024#q038",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Henriette Avram"
+      },
+      "tags": [
+        "examen-oficial",
+        "uned-aux-2024",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uned-aux-2024-q057-f856b554b196",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "El formato MARC 21 cuyo fin es proporcionar información sobre cada ítem e identificar cada uno de los documentos que constituyen el fondo con datos como la signatura, colección, número de copia, etc. es:",
+      "options": [
+        "MARC 21 para registros bibliográficos",
+        "MARC 21 para registros de clasificación",
+        "MARC 21 para registros de fondos y localizaciones",
+        "MARC 21 para información de la comunidad"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 57. Respuesta validada por la plantilla oficial: MARC 21 para registros de fondos y localizaciones. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uned-aux-2024#q057",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "MARC 21 para registros de fondos y localizaciones"
+      },
+      "tags": [
+        "examen-oficial",
+        "uned-aux-2024",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uned-aux-2024-q058-f287949c0f4c",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "Las Reglas de Catalogación Españolas vigentes se redactaron teniendo en cuenta:",
+      "options": [
+        "Las ISNM",
+        "Las AACR2",
+        "Las ISAD",
+        "Las GNU"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 58. Respuesta validada por la plantilla oficial: Las AACR2. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uned-aux-2024#q058",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Las AACR2"
+      },
+      "tags": [
+        "examen-oficial",
+        "uned-aux-2024",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uned-aux-2024-q059-e5a2fabbb99b",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "El área 5 de las ISBD corresponde a la de:",
+      "options": [
+        "Edición cans oa Ge",
+        "Publicacién. IP",
+        "Descripción física",
+        "Serie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 59. Respuesta validada por la plantilla oficial: Descripción física. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uned-aux-2024#q059",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Descripción física"
+      },
+      "tags": [
+        "examen-oficial",
+        "uned-aux-2024",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q052-8de5c08d5f85",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "Eltmarco DigComp define cinco grandes áreas de competencia ¿Cuál de las siguientes NO está incluida entre ellas?",
+      "options": [
+        "Información y tratamiento de datos.",
+        "Comunicación y colaboración.",
+        "Privacidad.",
+        "Creación de contenido digital."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 52. Respuesta validada por la plantilla oficial: Privacidad.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q052",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Privacidad."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q064-6b381e3de479",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "Se enumeran las descripciones en MARC21 del área de publicación de cuatro obras. Teniendo en cuenta que en tu biblioteca se utilizan ¢ en catalogación las RDA, ¿cuál de ellas es correcta?:",
+      "options": [
+        "260 5alS.I] Sb: Filmax Home Video $c 2006",
+        "260 Sa[Madrid] Sb: Laboratorio Educativo [etc] Sc 2001",
+        "264 1 SaBuenos Aires:SbEditorial Médica Panamericana, Sc 1987",
+        "264 1 SaBarcelona [etc]:SbGraó, $cé 2004?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 64. Respuesta validada por la plantilla oficial: 264 1 SaBuenos Aires:SbEditorial Médica Panamericana, Sc 1987. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q064",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "264 1 SaBuenos Aires:SbEditorial Médica Panamericana, Sc 1987"
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-pi-2024-q028-56855bb40c69",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En el marco de la Estrategia y Calidad de la BUZ, qué respuesta NO es correcta:",
+      "options": [
+        "Para conocer la satisfacción del usuario con nuestros servicios y para poder atender a sus expectativas, en la biblioteca se realizan encuestas anuales de satisfacción.",
+        "La BUZ presenta anualmente una Memoria que resume las actividades y resultados más relevantes de su actividad.",
+        "Es objetivo de la BUZ dejar constancia de la gestión de los recursos económicos asignados. Por ello, anualmente, se evalúa el gasto total de la Universidad en adquisiciones y su distribución.",
+        "La BUZ se alinea con los planes de la Universidad de Zaragoza y los servicios de la misma para la consecución de la Agenda 2030 y los ODS. Para ello se necesitan alianzas sólidas y eficaces a todos los niveles."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 28. Respuesta validada por la plantilla oficial: Para conocer la satisfacción del usuario con nuestros servicios y para poder atender a sus expectativas, en la biblioteca se realizan encuestas anuales de satisfacción.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-pi-2024#q028",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "Para conocer la satisfacción del usuario con nuestros servicios y para poder atender a sus expectativas, en la biblioteca se realizan encuestas anuales de satisfacción."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-pi-2024",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-pi-2024-q031-856036f1f305",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Cuál es la principal diferencia entre los campos RDA 337 y 338?",
+      "options": [
+        "El campo 337 describe el tipo de contenido y el 338 el tipo de soporte.",
+        "El campo 337 describe el tipo de medio y el 338 el tipo de soporte.",
+        "El campo 337 describe el tipo de contenido y el 338 describe el tipo de medio.",
+        "El campo 337 es opcional y el 338 es obligatorio."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 31. Respuesta validada por la plantilla oficial: El campo 337 describe el tipo de medio y el 338 el tipo de soporte.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-pi-2024#q031",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "El campo 337 describe el tipo de medio y el 338 el tipo de soporte."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-pi-2024",
+        "uah-tema-013",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-025",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En MARC 21 bibliográfico, ¿qué campo se asocia habitualmente con el ISBN?",
+      "options": [
+        "020",
+        "245",
+        "650",
+        "856"
+      ],
+      "correctIndex": 0,
+      "explanation": "En MARC 21 el campo 020 corresponde al ISBN; el 022 se utiliza para ISSN. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-013#opositatest-referencia-025",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "020"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-013"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-026",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Qué aportan las RDA al proceso técnico bibliotecario?",
+      "options": [
+        "Un estándar de descripción y acceso orientado a recursos y relaciones",
+        "Una tabla de sanciones por retraso",
+        "Un sistema de préstamo interbibliotecario",
+        "Un identificador fiscal de publicaciones oficiales"
+      ],
+      "correctIndex": 0,
+      "explanation": "RDA es un estándar de catalogación que organiza la descripción y el acceso a recursos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-013#opositatest-referencia-026",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "RDA"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-013"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t13-point-0",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Completa esta idea de contenido",
+      "answer": "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t13-point-1",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Completa esta idea de contenido",
+      "answer": "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t13-point-2",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Completa esta idea de contenido",
+      "answer": "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t13-point-3",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "T13. Completa esta idea de contenido",
+      "answer": "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-x-13-marc-21-frbr-y-rd",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "MARC 21, FRBR y RDA en una linea.",
+      "answer": "MARC 21 codifica datos; FRBR modela entidades y relaciones; RDA da instrucciones de descripcion y acceso.",
+      "origin": "refuerzo"
+    }
+  ]
+}

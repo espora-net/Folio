@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 05 - Derechos de las personas con discapacidad",
+    "description": "Banco de preguntas y flashcards del tema 5 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t05",
+      "title": "Tema 5. Derechos de las personas con discapacidad",
+      "description": "RDL 1/2013, Titulo I: capitulo IV derecho a la educacion y capitulo VI derecho al trabajo. Educacion inclusiva, igualdad de oportunidades, accesibilidad y empleo de personas con discapacidad.",
+      "order": 5,
+      "subtopics": [
+        {
+          "id": "uah-bib-t05-contenido",
+          "topicId": "uah-bib-t05",
+          "title": "RDL 1/2013, Titulo I: capitulo IV derecho a la educacion y capitulo VI derecho al trabajo.",
+          "content": "Enfoque de examen: Educacion inclusiva, igualdad de oportunidades, accesibilidad y empleo de personas con discapacidad.\n\nAtención: No reducir el tema a adaptaciones de examen: incluye educacion, trabajo, accesibilidad y no discriminacion.\n\nPuntos clave: La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal. | La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables. | El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional. | La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-005"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-5-17",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "El derecho a la educacion de las personas con discapacidad se encuadra en el RDL 1/2013 dentro de:",
+      "options": [
+        "Titulo I, capitulo IV",
+        "Titulo I, capitulo I exclusivamente",
+        "Titulo II, regimen sancionador",
+        "Disposiciones finales"
+      ],
+      "correctIndex": 0,
+      "explanation": "La convocatoria limita este tema al capitulo IV del Titulo I para educacion.",
+      "origin": "curada",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derecho a la educacion."
+      }
+    },
+    {
+      "id": "uah-m-5-18",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "El derecho al trabajo de las personas con discapacidad se encuadra en el RDL 1/2013 dentro de:",
+      "options": [
+        "Titulo I, capitulo VI",
+        "Titulo preliminar",
+        "Titulo III completo",
+        "Capitulo de regimen electoral"
+      ],
+      "correctIndex": 0,
+      "explanation": "La convocatoria limita este tema al capitulo VI del Titulo I para trabajo.",
+      "origin": "curada",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derecho al trabajo."
+      }
+    },
+    {
+      "id": "uah-m-5-61",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "En el RDL 1/2013, el derecho a la educacion de las personas con discapacidad se orienta a:",
+      "options": [
+        "Inclusion, igualdad de oportunidades, apoyos y ajustes razonables",
+        "Exclusion de apoyos en servicios universitarios",
+        "Solo sanciones por retraso en prestamos",
+        "Asignacion de codigos ISBN"
+      ],
+      "correctIndex": 0,
+      "explanation": "El alcance del tema incluye el derecho a la educacion dentro del Titulo I, capitulo IV.",
+      "origin": "curada",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derecho a la educacion."
+      }
+    },
+    {
+      "id": "uah-m-5-62",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "El derecho al trabajo de las personas con discapacidad incluye:",
+      "options": [
+        "Acceso al empleo en condiciones de igualdad y medidas de apoyo",
+        "Unicamente reserva de salas de grupo",
+        "Solo uso de repositorios institucionales",
+        "La eliminacion del codigo etico"
+      ],
+      "correctIndex": 0,
+      "explanation": "El capitulo VI del Titulo I regula el derecho al trabajo de las personas con discapacidad.",
+      "origin": "curada",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derecho al trabajo."
+      }
+    },
+    {
+      "id": "uah-c-5-0",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Elige la afirmacion correcta sobre \"Derechos de las personas con discapacidad\".",
+      "options": [
+        "La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derechos de las personas con discapacidad"
+      }
+    },
+    {
+      "id": "uah-c-5-1",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Elige la afirmacion correcta sobre \"Derechos de las personas con discapacidad\".",
+      "options": [
+        "La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derechos de las personas con discapacidad"
+      }
+    },
+    {
+      "id": "uah-c-5-2",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Elige la afirmacion correcta sobre \"Derechos de las personas con discapacidad\".",
+      "options": [
+        "El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derechos de las personas con discapacidad"
+      }
+    },
+    {
+      "id": "uah-c-5-3",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Elige la afirmacion correcta sobre \"Derechos de las personas con discapacidad\".",
+      "options": [
+        "La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "discapacidad",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Derechos de las personas con discapacidad"
+      }
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q046-c8362016eb8c",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "Según la 4? Carta de Servicios del Servei de Biblioteques i Documentació de la Universitat de Valéncia, ¿cómo se mide el compromiso 10 \"Mantener actualizada la información relativa a las personas con discapacidad en la sección de accesibilidad en la web del Servei de Biblioteques i documentació\"?",
+      "options": [
+        "Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació.",
+        "Con el indicador 15: grado de satisfacción de los estudiantes con la información que se proporciona en la sección de Accesibilidad en la web del SBD.",
+        "Con el indicador 10: índice de satisfacción de los estudiantes sobre los servicios que se relacionan en la web.",
+        "Con el indicador 10: índice de satisfacción del PDI sobre los servicios que se relacionan en la web. i"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 46. Respuesta validada por la plantilla oficial: Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació.. Clasificada como Tema 5 (Discapacidad) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q046",
+        "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
+        "highlightText": "Con el indicador 14: grado de cumplimiento de la revisión trimestral en la sección de Accesibilidad en la web del Servei de Biblioteques i Documentació."
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-005",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-009",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "En el Texto Refundido de derechos de las personas con discapacidad, ¿qué persigue la accesibilidad universal?",
+      "options": [
+        "Que entornos, procesos, bienes, productos y servicios sean comprensibles, utilizables y practicables por todas las personas",
+        "Reservar servicios únicamente a personas con discapacidad reconocida",
+        "Sustituir todos los ajustes razonables por sanciones",
+        "Limitar la educación inclusiva a etapas no universitarias"
+      ],
+      "correctIndex": 0,
+      "explanation": "La definición legal de accesibilidad universal abarca entornos, procesos, bienes, productos y servicios utilizables por todas las personas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-005#opositatest-referencia-009",
+        "path": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md",
+        "highlightText": "comprensibles, utilizables y practicables por todas las personas"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-005"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-010",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "¿Qué son los ajustes razonables en materia de discapacidad?",
+      "options": [
+        "Modificaciones y adaptaciones necesarias que no impongan una carga desproporcionada o indebida",
+        "Ayudas económicas automáticas sin valoración individual",
+        "Exenciones generales de toda norma universitaria",
+        "Medidas aplicables solo al acceso al transporte público"
+      ],
+      "correctIndex": 0,
+      "explanation": "La norma define los ajustes razonables como adaptaciones eficaces para garantizar igualdad cuando no supongan carga desproporcionada. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-005#opositatest-referencia-010",
+        "path": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md",
+        "highlightText": "Ajustes razonables"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-005"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t5-point-0",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Completa esta idea de contenido",
+      "answer": "La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t5-point-1",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Completa esta idea de contenido",
+      "answer": "La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t5-point-2",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Completa esta idea de contenido",
+      "answer": "El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t5-point-3",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "T5. Completa esta idea de contenido",
+      "answer": "La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
+      "origin": "refuerzo"
+    }
+  ]
+}

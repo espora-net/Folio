@@ -1,0 +1,1046 @@
+{
+  "meta": {
+    "updatedAt": "2026-05-02T18:07:05.439Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44,
+    "title": "UAH C1 Tema 16 - Acceso abierto y repositorios",
+    "description": "Banco de preguntas y flashcards del tema 16 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+  },
+  "topics": [
+    {
+      "id": "uah-bib-t16",
+      "title": "Tema 16. Acceso abierto y repositorios",
+      "description": "Movimiento de acceso abierto, eBUAH, eCienciaDatos y Politica institucional de Ciencia Abierta UAH. Acceso abierto, repositorio institucional, repositorio de datos y obligaciones/recomendaciones de ciencia abierta.",
+      "order": 16,
+      "subtopics": [
+        {
+          "id": "uah-bib-t16-contenido",
+          "topicId": "uah-bib-t16",
+          "title": "Movimiento de acceso abierto, eBUAH, eCienciaDatos y Politica institucional de Ciencia Abierta UAH.",
+          "content": "Enfoque de examen: Acceso abierto, repositorio institucional, repositorio de datos y obligaciones/recomendaciones de ciencia abierta.\n\nAtención: eBUAH no equivale a eCienciaDatos: uno se centra en produccion cientifica y otro en datos de investigacion.\n\nPuntos clave: El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas. | eBUAH es el repositorio institucional de la Universidad de Alcala. | eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion. | La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
+          "order": 1,
+          "syllabusCoverageIds": [
+            "uah-tema-016"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "uah-m-16-39",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "eBUAH es:",
+      "options": [
+        "El repositorio institucional de la Universidad de Alcala",
+        "Una licencia Creative Commons",
+        "Un formato MARC",
+        "Un organo disciplinario"
+      ],
+      "correctIndex": 0,
+      "explanation": "eBUAH es el repositorio institucional de la UAH.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Repositorio Institucional eBUAH."
+      }
+    },
+    {
+      "id": "uah-m-16-40",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "eCienciaDatos se orienta principalmente a:",
+      "options": [
+        "Datos de investigacion",
+        "Faltas disciplinarias",
+        "Deposito fisico de libros",
+        "Normas de convivencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "eCienciaDatos es el repositorio para datos de investigacion.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Repositorio eCienciaDatos."
+      }
+    },
+    {
+      "id": "uah-m-16-83",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "La Politica de Ciencia Abierta UAH indica que los datos abiertos deben seguir principios:",
+      "options": [
+        "FAIR: localizables, accesibles, interoperables y reutilizables",
+        "BY, SA, NC y ND",
+        "PDI, PAS y PTGAS",
+        "ALMA, PRIMO y MARC"
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica exige que los datos en acceso abierto sean FAIR.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Datos FAIR: localizables, accesibles, interoperables y reutilizables."
+      }
+    },
+    {
+      "id": "uah-m-16-84",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "El Plan de Gestion de Datos en la Politica de Ciencia Abierta UAH sirve para:",
+      "options": [
+        "Registrar decisiones sobre los datos y describir su ciclo de vida",
+        "Anular reservas de salas",
+        "Clasificar con CDU",
+        "Asignar sanciones por retraso"
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica pide redactar un PGD que registre decisiones sobre datos de investigacion y su ciclo de vida.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Redactar un Plan de Gestion de Datos."
+      }
+    },
+    {
+      "id": "uah-m-16-137",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "La UAH debe asegurar la calidad del repositorio institucional de publicaciones y del repositorio de datos:",
+      "options": [
+        "e-Buah y e-cienciaDatos",
+        "ALMA y PRIMO",
+        "ISBN e ISSN",
+        "Junta y Comite"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Politica de Ciencia Abierta UAH atribuye a la Universidad asegurar la calidad de e-Buah y e-cienciaDatos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "e-Buah y e-cienciaDatos."
+      }
+    },
+    {
+      "id": "uah-m-16-138",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Aunque una publicacion este embargada, la Politica de Ciencia Abierta UAH indica que deben estar en abierto:",
+      "options": [
+        "Los metadatos",
+        "Las sanciones",
+        "Las reservas de sala",
+        "Los carnets PM"
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica indica que, aunque la publicacion este embargada por requisitos del editor, los metadatos deben estar disponibles en acceso abierto.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Metadatos disponibles en acceso abierto."
+      }
+    },
+    {
+      "id": "uah-m-16-139",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "La Politica de Ciencia Abierta UAH recomienda disponer de:",
+      "options": [
+        "Identificador ORCID para identificar sin ambiguedades la obra",
+        "NIPO para cada articulo privado",
+        "Pasaporte Madrono para todos los datos",
+        "Carnet de prestamo para DOI"
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica pide disponer de ORCID y usarlo al publicar y depositar publicaciones y datos.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Identificador ORCID."
+      }
+    },
+    {
+      "id": "uah-m-16-140",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Entre las responsabilidades de la UAH en ciencia abierta esta poner a disposicion estadisticas sobre:",
+      "options": [
+        "Visitas y descargas en repositorios institucionales",
+        "Retrasos de prestamos de salas",
+        "Horas sindicales",
+        "Cupos de Madrono"
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica incluye ofrecer estadisticas de visitas y descargas de publicaciones y datos en abierto.",
+      "origin": "curada",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Estadisticas sobre visitas y descargas."
+      }
+    },
+    {
+      "id": "uah-c-16-0",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Elige la afirmacion correcta sobre \"Acceso abierto y repositorios\".",
+      "options": [
+        "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Acceso abierto y repositorios"
+      }
+    },
+    {
+      "id": "uah-c-16-1",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Elige la afirmacion correcta sobre \"Acceso abierto y repositorios\".",
+      "options": [
+        "eBUAH es el repositorio institucional de la Universidad de Alcala.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "eBUAH es el repositorio institucional de la Universidad de Alcala.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Acceso abierto y repositorios"
+      }
+    },
+    {
+      "id": "uah-c-16-2",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Elige la afirmacion correcta sobre \"Acceso abierto y repositorios\".",
+      "options": [
+        "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Acceso abierto y repositorios"
+      }
+    },
+    {
+      "id": "uah-c-16-3",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Elige la afirmacion correcta sobre \"Acceso abierto y repositorios\".",
+      "options": [
+        "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
+        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
+        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+      ],
+      "correctIndex": 0,
+      "explanation": "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
+      "origin": "refuerzo",
+      "source": {
+        "materialId": "ciencia-abierta",
+        "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
+        "highlightText": "Acceso abierto y repositorios"
+      }
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q022-8e8be77d8260",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué modelo de publicación en acceso abierto no cobra ni a los autores ni a los lectores?",
+      "options": [
+        "Acceso abierto dorado",
+        "Acceso abierto verde",
+        "Acceso abierto diamante",
+        "Acceso abierto híbrido"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 22. Respuesta validada por la plantilla oficial: Acceso abierto diamante. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q022",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Acceso abierto diamante"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q030-8058fb5024a0",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cómo se denomina la iniciativa que requiere que todas las publicaciones científicas que resulten de investigaciones financiadas con subvenciones públicas deben publicarse en revistas o plataformas de acceso abierto?",
+      "options": [
+        "EOSC",
+        "OpenAIRE",
+        "APCs",
+        "Plan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 30. Respuesta validada por la plantilla oficial: Plan. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q030",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Plan"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q044-83e29df2a819",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál es el agregador nacional de repositorios institucionales de acceso abierto?",
+      "options": [
+        "FECYT",
+        "ANECA",
+        "RECOLECTA",
+        "CNEAI"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 44. Respuesta validada por la plantilla oficial: RECOLECTA. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q044",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "RECOLECTA"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q050-6c1e2852c41e",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál de las siguientes vías de publicación en acceso abierto consiste en el autoarchivo en un repositorio?",
+      "options": [
+        "Vía dorada",
+        "Vía híbrida",
+        "Vía verde",
+        "Vía editorial"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 50. Respuesta validada por la plantilla oficial: Vía verde. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q050",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Vía verde"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q053-e9c859926602",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué papel cumple el autoarchivo en el modelo de acceso abierto verde?",
+      "options": [
+        "Remite al editor directamente",
+        "Publica solo tesis",
+        "Permite al autor depositar su obra en un repositorio institucional",
+        "Bloquea el acceso durante un embargo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 53. Respuesta validada por la plantilla oficial: Permite al autor depositar su obra en un repositorio institucional. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q053",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Permite al autor depositar su obra en un repositorio institucional"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q055-4021200d76c9",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué organismo español impulsa políticas de ciencia abierta y repositorios?",
+      "options": [
+        "ANECA",
+        "CNEAI",
+        "FECYT",
+        "UNED"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 55. Respuesta validada por la plantilla oficial: FECYT. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q055",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "FECYT"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q066-4c7609c6852c",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál de las siguientes herramientas bibliométricas es de acceso abierto?",
+      "options": [
+        "Web of Science",
+        "Dimensions",
+        "JCR",
+        "InCites"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 66. Respuesta validada por la plantilla oficial: Dimensions. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q066",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Dimensions"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q071-46812b373b71",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué son las publicaciones híbridas?",
+      "options": [
+        "Revistas solo en papel",
+        "Revistas que ofrecen acceso abierto y también bajo suscripción",
+        "Libros en otro idioma",
+        "Documentos sin derechos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 71. Respuesta validada por la plantilla oficial: Revistas que ofrecen acceso abierto y también bajo suscripción. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q071",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Revistas que ofrecen acceso abierto y también bajo suscripción"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q076-ecee466c755d",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Horizonte Europa (2021-2027) es un programa que incide en las bibliotecas ya que:",
+      "options": [
+        "Promueve la ciencia abierta y el acceso abierto a los resultados de investigación",
+        "Financia la construcción de edificios bibliotecarios",
+        "Obliga a destruir tesis anteriores a 2000",
+        "Restringe el uso de repositorios institucionales"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 76. Respuesta validada por la plantilla oficial: Promueve la ciencia abierta y el acceso abierto a los resultados de investigación. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q076",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Promueve la ciencia abierta y el acceso abierto a los resultados de investigación"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-upm-c1-2025-1-q082-c90834b0d88d",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Para publicar un artículo en acceso abierto, la Biblioteca UPM ofrece:",
+      "options": [
+        "Asesoramiento sobre licencias Creative Commons y financiación de APC en revistas seleccionadas",
+        "Eliminación de los derechos de autor",
+        "Solo copias impresas gratuitas",
+        "Prohibición de depositar en repositorios"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Asesoramiento sobre licencias Creative Commons y financiación de APC en revistas seleccionadas. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "upm-c1-2025-1#q082",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Asesoramiento sobre licencias Creative Commons y financiación de APC en revistas seleccionadas"
+      },
+      "tags": [
+        "examen-oficial",
+        "upm-c1-2025-1",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q009-c51f3ada7ec9",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "El artículo 12 de la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario establece que el personal docente e investigador deberá depositar una copia de la versión final aceptada para publicación y los datos asociados a la misma en repositorios institucionales o temáticos de acceso abierto...",
+      "options": [
+        "con carácter previo a la fecha de publicación — *",
+        "con carácter posterior a la fecha de publicación",
+        "de forma simultánea a la fecha de publicación",
+        "indistintamente de la fecha de publicación"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 9. Respuesta validada por la plantilla oficial: de forma simultánea a la fecha de publicación. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q009",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "de forma simultánea a la fecha de publicación"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q056-fad6ab6896a9",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Cual de los siguientes NO es un criterio RECOLECTA para la evaluación de repositorios institucionales de investigación citados en la \"Guía para la evaluación de Repositorios Institucionales de Investigación\" de Rebiun",
+      "options": [
+        "Accesibilidad.",
+        "Visibilidad",
+        "Políticas",
+        "Logs e estadísticas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 56. Respuesta validada por la plantilla oficial: Accesibilidad.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q056",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Accesibilidad."
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-udc-c1-2025-2-q059-39332ec55273",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Señala en que tipo de depósito es requisito que el/la autor/a del taba, conceda al Repositorio una licencia de distribución no exclusiva por la a autoriza al RUC a archivar, difundir en abierto y preservar dicho trabajo",
+      "options": [
+        "— En el depósito mediante archivo delegado y depósito por archivo directo se la BUDC",
+        "Tanto en depósito en autoarchivo como en archivo delegado",
+        "Enel depósito de archivo directo de la biblioteca",
+        "En cualquer tipo de depósito"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 59. Respuesta validada por la plantilla oficial: Tanto en depósito en autoarchivo como en archivo delegado. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "udc-c1-2025-2#q059",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Tanto en depósito en autoarchivo como en archivo delegado"
+      },
+      "tags": [
+        "examen-oficial",
+        "udc-c1-2025-2",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q005-883c906c7c7b",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué subcomunidades encontramos en la comunidad Investigación del repositorio institucional de la Universitat de Valencia RODERIC?",
+      "options": [
+        "Preprints, datos de investigación y capítulos de libro",
+        "E-prints, revistas y datos de investigación",
+        "Datos de investigación, tesis y eprints",
+        "Revistas, datos de investigación y postprints"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 5. Respuesta validada por la plantilla oficial: E-prints, revistas y datos de investigación. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q005",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "E-prints, revistas y datos de investigación"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q008-f57ea4a0b6d4",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Según la Recomendación de la UNESCO sobre ciencia abierta (2021), ¿cuál de los siguientes elementos NO forma parte de los principios o prácticas promovidos por esta recomendación?",
+      "options": [
+        "Open peer review.",
+        "OER",
+        "Citizen science",
+        "S20"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 8. Respuesta validada por la plantilla oficial: S20. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q008",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "S20"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q013-19c55a3d1dd2",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Aunque algunos de los siguientes repositorios permiten el depósito de diferentes tipos de materiales, ¿cuál de ellos está especializado en el depósito de datos de investigación?",
+      "options": [
+        "CORA.RDR",
+        "RODERIC",
+        "RUA",
+        "idUS Pagina 3 fp a —"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 13. Respuesta validada por la plantilla oficial: CORA.RDR. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q013",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "CORA.RDR"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q026-03bef34343e3",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál es el nombre actual del buscador de políticas de acceso abierto de la organización JISC?",
+      "options": [
+        "Open Policy Finder",
+        "Global Open Policy Director",
+        "Sherpa Romeo 2.0",
+        "JISC Policy Toolkit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 26. Respuesta validada por la plantilla oficial: Open Policy Finder. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q026",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Open Policy Finder"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-valencia-c1-2025-q054-b05e6b8e1d2c",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "El 30 de julio de 2024 se lanzó el nuevo portal de revistas en acceso abierto de la Universitat de Valencia. ¿Qué nombre se ha escogido para designar a este portal?",
+      "options": [
+        "Arxiu Obert",
+        "Túria",
+        "Xúquer",
+        "SapiensUV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 54. Respuesta validada por la plantilla oficial: Túria. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "valencia-c1-2025#q054",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Túria"
+      },
+      "tags": [
+        "examen-oficial",
+        "valencia-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q052-526748e7ad9b",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿En qué modelo de publicación en acceso abierto se enmarca RODIN?",
+      "options": [
+        "Vía dorada",
+        "Vía verde",
+        "Vía diamante",
+        "Vía híbrida"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 52. Respuesta validada por la plantilla oficial: Vía verde. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q052",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Vía verde"
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cadiz-c1-2025-q056-9bd183a9558c",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál es la característica principal del BUSCAdor Summon de la Biblioteca de la Universidad de Cádiz?",
+      "options": [
+        "Que únicamente permite localizar los libros y revistas impresas del catálogo tradicional.",
+        "Que realiza búsquedas sólo en bases de datos suscritas por la Biblioteca de la UCA.",
+        "Que ofrece resultados exclusivos del repositorio institucional RODIN sin incluir otros recursos.",
+        "Que ofrece resultados del catálogo tradicional, bases de datos suscritas por la Biblioteca y de acceso abierto, del repositorio institucional RODIN, de la plataforma de préstamo de libros electrónicos, etc."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 56. Respuesta validada por la plantilla oficial: Que ofrece resultados del catálogo tradicional, bases de datos suscritas por la Biblioteca y de acceso abierto, del repositorio institucional RODIN, de la plataforma de préstamo de libros electrónicos, etc.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cadiz-c1-2025#q056",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Que ofrece resultados del catálogo tradicional, bases de datos suscritas por la Biblioteca y de acceso abierto, del repositorio institucional RODIN, de la plataforma de préstamo de libros electrónicos, etc."
+      },
+      "tags": [
+        "examen-oficial",
+        "cadiz-c1-2025",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q057-678e537533be",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "éEl repositorio institucional de la Universidad de Cantabria, UCrea, contempla la posibilidad de embargo temporal de las tesis?",
+      "options": [
+        "No, todas las tesis estan en acceso abierto.",
+        "Sí, por un periodo de tiempo establecido por el autor y un máximo de 5 años.",
+        "No, el embargo es perpetuo si así lo decide el autor.",
+        "Si, pero sólo si lo autoriza el director/a de la tesis."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 57. Respuesta validada por la plantilla oficial: Sí, por un periodo de tiempo establecido por el autor y un máximo de 5 años.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q057",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Sí, por un periodo de tiempo establecido por el autor y un máximo de 5 años."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q065-9066430dc93c",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "El protocolo que permite el intercambio de metada tos entre repositorios es:",
+      "options": [
+        "OAI-PMH",
+        "HTTP",
+        "OpenURL",
+        "Open Data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 65. Respuesta validada por la plantilla oficial: OAI-PMH. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q065",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "OAI-PMH"
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q086-39e77999b31e",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Gon cuál de estas vías de acceso abierto relacionas los APC (Article Processing Charges)?:",
+      "options": [
+        "Bronce.",
+        "Diamante.",
+        "Dorada.",
+        "Preprint."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 86. Respuesta validada por la plantilla oficial: Dorada.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q086",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Dorada."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q087-b19376bafc48",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál de estos aspectos NO se contempla en la Ciencia Abierta?",
+      "options": [
+        "Ciencia ciudadana.",
+        "Datos abiertos.",
+        "Revisión por pares abierta.",
+        "Evaluación de la docencia abierta."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 87. Respuesta validada por la plantilla oficial: Evaluación de la docencia abierta.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q087",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Evaluación de la docencia abierta."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q088-979a0ce8a2f0",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál de las siguientes afirmaciones sobre los datos de investigación NO es correcta?",
+      "options": [
+        "Sustentan y justifican las aportaciones científicas.",
+        "Son el resultado de la aplicación de diferentes metodologías.",
+        "Tienen que estar en acceso abierto en todo momento.",
+        "Se utilizan en cualquier rama del conocimiento."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 88. Respuesta validada por la plantilla oficial: Tienen que estar en acceso abierto en todo momento.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q088",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Tienen que estar en acceso abierto en todo momento."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-cantabria-c2-2025-q090-8e92a63e1bce",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "El acceso abierto a la producción científica se caracteriza por:",
+      "options": [
+        "Ceder los derechos de autor a las editoriales.",
+        "Publicar en revistas sin revisión por pares.",
+        "Llevar una licencia de dominio público.",
+        "Permitir el acceso libre a las publicaciones científicas."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 90. Respuesta validada por la plantilla oficial: Permitir el acceso libre a las publicaciones científicas.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "cantabria-c2-2025#q090",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Permitir el acceso libre a las publicaciones científicas."
+      },
+      "tags": [
+        "examen-oficial",
+        "cantabria-c2-2025",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-libre-2024-q069-e8e5736e9c31",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "De estos tipos de documentos ¿Cuál NO está incluido en el Repositorio Institucional Zaguán?",
+      "options": [
+        "Preprints.",
+        "Datos abiertos.",
+        "Fondos personales.",
+        "Boletín Oficial de Aragón."
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 69. Respuesta validada por la plantilla oficial: Boletín Oficial de Aragón.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-libre-2024#q069",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "Boletín Oficial de Aragón."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-libre-2024",
+        "uah-tema-016",
+        "prioridad-alta"
+      ]
+    },
+    {
+      "id": "uah-exam-uz-c1-pi-2024-q021-5df1210ed70d",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Cuál es la respuesta correcta?:",
+      "options": [
+        "TiraBUZón es un boletín informativo de la BUZ, iBUZ es un blog de la BUZ, AlcorZe es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ.",
+        "iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, Zaguán es una herramienta de búsqueda unificada de la BUZ, AlcorZe es el repositorio de la UZ.",
+        "iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, AlcorZe es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ.",
+        "iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, Zarigüeya es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 21. Respuesta validada por la plantilla oficial: iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, AlcorZe es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
+      "origin": "oficial",
+      "source": {
+        "materialId": "uz-c1-pi-2024#q021",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "iBUZ es un boletín informativo de la BUZ, TiraBUZón es un blog de la BUZ, AlcorZe es una herramienta de búsqueda unificada de la BUZ, Zaguán es el repositorio de la UZ."
+      },
+      "tags": [
+        "examen-oficial",
+        "uz-c1-pi-2024",
+        "uah-tema-016",
+        "prioridad-media"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-031",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué caracteriza a la vía verde del acceso abierto?",
+      "options": [
+        "Depósito de trabajos en repositorios",
+        "Publicación exclusiva en papel",
+        "Pago obligatorio siempre por lectores",
+        "Prohibición de reutilización de datos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La vía verde se asocia al autoarchivo o depósito en repositorios institucionales o temáticos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-016#opositatest-referencia-031",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "repositorios"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-016"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-032",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué servicio UAH se relaciona con el depósito y difusión de producción académica en acceso abierto?",
+      "options": [
+        "e_Buah",
+        "Numerus currens",
+        "NIPO",
+        "LibQUAL+"
+      ],
+      "correctIndex": 0,
+      "explanation": "e_Buah es el repositorio institucional de la Universidad de Alcalá. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-016#opositatest-referencia-032",
+        "path": "data/uah-bibliotecas-2025/referencias/16_01_politica_repositorio_ebuah.md",
+        "highlightText": "e_Buah"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-016"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "uah-t16-point-0",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Completa esta idea de contenido",
+      "answer": "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t16-point-1",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Completa esta idea de contenido",
+      "answer": "eBUAH es el repositorio institucional de la Universidad de Alcala.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t16-point-2",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Completa esta idea de contenido",
+      "answer": "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-t16-point-3",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "T16. Completa esta idea de contenido",
+      "answer": "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
+      "origin": "refuerzo"
+    },
+    {
+      "id": "uah-x-16-ebuah-frente-a-eci",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "eBUAH frente a eCienciaDatos.",
+      "answer": "eBUAH es repositorio institucional de produccion UAH; eCienciaDatos se orienta a datos de investigacion.",
+      "origin": "refuerzo"
+    }
+  ]
+}

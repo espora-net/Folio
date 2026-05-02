@@ -95,42 +95,41 @@ export const getFlashcards = (): Flashcard[] => {
   });
 
   const database = getCachedDatabase();
-  const explicitFlashcards = database.flashcards.map(withReviewDefaults);
-  const explicitIds = new Set(explicitFlashcards.map(card => card.id));
-  const explicitDatasetIds = new Set(
-    explicitFlashcards
-      .map(card => card.sourceDatasetId)
+  const questions = typeof window === 'undefined' ? database.questions : getQuestions();
+
+  const questionFlashcards = questions.map(q => {
+    const answer = q.options[q.correctIndex] ?? '';
+    return {
+      id: q.id,
+      topicId: q.topicId,
+      question: q.question,
+      answer,
+      nextReview: '',
+      interval: 0,
+      easeFactor: 2.5,
+      origin: q.origin ?? 'generated',
+      sourceDatasetId: q.sourceDatasetId,
+    } as Flashcard;
+  });
+
+  const questionIds = new Set(questions.map(q => q.id));
+  const questionTopicIds = new Set(questions.map(q => q.topicId));
+  const questionDatasetIds = new Set(
+    questions
+      .map(q => q.sourceDatasetId)
       .filter((sourceDatasetId): sourceDatasetId is string => Boolean(sourceDatasetId))
   );
 
-  const deriveFromQuestions = (qs: TestQuestion[]) => {
-    return (qs || []).flatMap(q => {
-      if (
-        explicitIds.has(q.id) ||
-        (q.sourceDatasetId && explicitDatasetIds.has(q.sourceDatasetId))
-      ) {
-        return [];
-      }
-      const answer = q.options[q.correctIndex] ?? '';
-      return {
-        id: q.id,
-        topicId: q.topicId,
-        question: q.question,
-        answer,
-        nextReview: '',
-        interval: 0,
-        easeFactor: 2.5,
-        origin: q.origin ?? 'generated',
-        sourceDatasetId: q.sourceDatasetId,
-      } as Flashcard;
+  const explicitFlashcards = database.flashcards
+    .map(withReviewDefaults)
+    .filter(card => {
+      if (questionIds.has(card.id)) return false;
+      if (questionTopicIds.has(card.topicId)) return false;
+      if (card.sourceDatasetId && questionDatasetIds.has(card.sourceDatasetId)) return false;
+      return true;
     });
-  };
 
-  const derivedFlashcards = typeof window === 'undefined'
-    ? deriveFromQuestions(database.questions)
-    : deriveFromQuestions(getQuestions());
-
-  return [...explicitFlashcards, ...derivedFlashcards];
+  return [...questionFlashcards, ...explicitFlashcards];
 };
 
 export const getQuestions = (): TestQuestion[] => {
