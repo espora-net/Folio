@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { 
-  LayoutDashboard, 
   BookOpen, 
   Brain, 
   ClipboardCheck, 
@@ -46,12 +45,11 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { STUDY_TYPES, type StudyType, getUserPreferences, saveUserPreferences } from '@/lib/storage';
 
 const navItems = [
-  { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard', end: true },
+  { to: '/dashboard', icon: BarChart3, label: 'Progreso', end: true },
   { to: '/dashboard/temario', icon: BookOpen, label: 'Temario', end: false },
   { to: '/dashboard/flashcards', icon: Brain, label: 'Flashcards', end: false },
   { to: '/dashboard/tests', icon: ClipboardCheck, label: 'Tests', end: false },
   { to: '/dashboard/simulacro', icon: GraduationCap, label: 'Simulacro', end: false },
-  { to: '/dashboard/progreso', icon: BarChart3, label: 'Progreso', end: false },
 ];
 
 const SIDEBAR_COLLAPSED_KEY = 'folio-sidebar-collapsed';

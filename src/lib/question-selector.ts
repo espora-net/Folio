@@ -160,6 +160,90 @@ export const selectProportionalQuestions = <T extends ItemWithTopic>(
 };
 
 /**
+ * Selecciona preguntas distribuyendo equitativamente entre temas.
+ * Intenta asignar `questionsPerTopic` preguntas de cada tema.
+ * Si un tema tiene menos preguntas disponibles, el excedente se redistribuye
+ * entre los demás temas que aún tengan capacidad.
+ *
+ * @param items - Array de items con topicId
+ * @param questionsPerTopic - Número deseado de preguntas por tema
+ * @returns Array de items seleccionados y barajados
+ */
+export const selectEqualQuestions = <T extends ItemWithTopic>(
+  items: T[],
+  questionsPerTopic: number
+): T[] => {
+  if (items.length === 0 || questionsPerTopic <= 0) {
+    return [];
+  }
+
+  const topicGroups = groupByTopic(items);
+  const topicIds = Array.from(topicGroups.keys());
+
+  if (topicIds.length === 0) return [];
+
+  // Fase 1: Asignar el mínimo entre questionsPerTopic y lo disponible por tema
+  const allocation = new Map<string, number>();
+  let surplus = 0;
+
+  for (const topicId of topicIds) {
+    const available = topicGroups.get(topicId)!.length;
+    const assigned = Math.min(questionsPerTopic, available);
+    allocation.set(topicId, assigned);
+    if (available < questionsPerTopic) {
+      surplus += questionsPerTopic - available;
+    }
+  }
+
+  // Fase 2: Redistribuir el excedente entre temas con capacidad restante
+  if (surplus > 0) {
+    // Temas que pueden recibir más preguntas, ordenados por capacidad restante desc
+    const topicsWithCapacity = topicIds
+      .map(id => ({
+        topicId: id,
+        remaining: topicGroups.get(id)!.length - allocation.get(id)!,
+      }))
+      .filter(t => t.remaining > 0)
+      .sort((a, b) => b.remaining - a.remaining);
+
+    let toDistribute = surplus;
+    while (toDistribute > 0 && topicsWithCapacity.length > 0) {
+      // Distribuir equitativamente entre los temas con capacidad
+      const perTopic = Math.max(1, Math.floor(toDistribute / topicsWithCapacity.length));
+      let distributed = false;
+
+      for (let i = topicsWithCapacity.length - 1; i >= 0 && toDistribute > 0; i--) {
+        const topic = topicsWithCapacity[i];
+        const give = Math.min(perTopic, topic.remaining, toDistribute);
+        if (give > 0) {
+          allocation.set(topic.topicId, allocation.get(topic.topicId)! + give);
+          topic.remaining -= give;
+          toDistribute -= give;
+          distributed = true;
+        }
+        if (topic.remaining === 0) {
+          topicsWithCapacity.splice(i, 1);
+        }
+      }
+
+      if (!distributed) break;
+    }
+  }
+
+  // Fase 3: Seleccionar aleatoriamente de cada tema según la asignación
+  const selected: T[] = [];
+  for (const [topicId, count] of allocation.entries()) {
+    if (count > 0) {
+      const topicItems = topicGroups.get(topicId)!;
+      const shuffled = shuffleArray(topicItems);
+      selected.push(...shuffled.slice(0, count));
+    }
+  }
+
+  return shuffleArray(selected);
+};
+
+/**
  * Genera un reporte de la distribución de preguntas por tema
  * Útil para debugging y validación
  */

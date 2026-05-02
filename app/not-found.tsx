@@ -8,7 +8,7 @@ export default function NotFound() {
         <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">Folio</p>
         <h1 className="text-4xl font-bold text-foreground">Página no encontrada</h1>
         <p className="text-muted-foreground max-w-md">
-          No pudimos encontrar la ruta solicitada. Vuelve al inicio o accede al dashboard si ya has iniciado sesión.
+          No pudimos encontrar la ruta solicitada. Vuelve al inicio o accede a tu progreso si ya has iniciado sesión.
         </p>
       </div>
       <div className="flex gap-3">
@@ -16,7 +16,7 @@ export default function NotFound() {
           <Button>Ir al inicio</Button>
         </Link>
         <Link href="/dashboard">
-          <Button variant="outline">Dashboard</Button>
+          <Button variant="outline">Mi progreso</Button>
         </Link>
       </div>
     </div>

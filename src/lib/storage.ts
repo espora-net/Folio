@@ -1,4 +1,4 @@
-import { fetchDatabaseFromApi, getCachedDatabase, getTopicIdsInConvocatoria } from './data-api';
+import { fetchDatabaseFromApi, getCachedDatabase, getLastGeneratedAt, getTopicIdsInConvocatoria } from './data-api';
 import { type Database, type Flashcard, type StudyStats, type TestQuestion, type Topic } from './data-types';
 
 export { type Database, type Flashcard, type StudyStats, type TestQuestion, type Topic } from './data-types';
@@ -10,6 +10,8 @@ const STORAGE_KEYS = {
   STATS: 'folio_stats',
 };
 const ACTIVE_USER_KEY = 'folio_active_user_id';
+const DATA_VERSION_KEY = 'folio_data_version';
+const TOPIC_PERFORMANCE_KEY = 'folio_topic_performance';
 
 const getActiveUserId = () => {
   if (typeof window === 'undefined') return 'guest';
@@ -18,6 +20,8 @@ const getActiveUserId = () => {
 };
 
 const scopedKey = (key: string) => `${key}::${getActiveUserId()}`;
+
+const getTopicPerformanceKey = () => `${TOPIC_PERFORMANCE_KEY}::${getActiveUserId()}`;
 
 const safeParse = <T>(value: string | null): T | null => {
   if (!value) return null;
@@ -203,6 +207,7 @@ export const getStats = (): StudyStats => {
 export const saveStats = (stats: StudyStats) => {
   if (typeof window === 'undefined') return;
   writeToStorage('STATS', stats);
+  window.dispatchEvent(new Event('folio-stats-updated'));
 };
 
 export const updateStreak = () => {
@@ -228,6 +233,33 @@ export const hydrateFromApi = async () => {
   const database = await fetchDatabaseFromApi();
 
   if (typeof window === 'undefined') return database;
+
+  // Detectar si los datos han cambiado comparando la versión (generatedAt del manifest)
+  const currentVersion = getLastGeneratedAt();
+  const versionKey = `${DATA_VERSION_KEY}::${getActiveUserId()}`;
+  const storedVersion = localStorage.getItem(versionKey);
+  const dataChanged = currentVersion && storedVersion && storedVersion !== currentVersion;
+
+  if (dataChanged) {
+    // Los datos del dataset han cambiado: resetear stats y rendimiento por tema
+    // para evitar mostrar progreso incoherente con los nuevos datos.
+    try {
+      localStorage.removeItem(scopedKey(STORAGE_KEYS.STATS));
+      localStorage.removeItem(STORAGE_KEYS.STATS);
+      localStorage.removeItem(getTopicPerformanceKey());
+    } catch {
+      // noop
+    }
+  }
+
+  // Guardar la versión actual para futuras comparaciones
+  if (currentVersion) {
+    try {
+      localStorage.setItem(versionKey, currentVersion);
+    } catch {
+      // noop
+    }
+  }
 
   const stored = {
     topics: hasStoredValue('TOPICS'),
@@ -335,4 +367,55 @@ export const saveStudyFilters = (filters: Partial<StudyFilters>) => {
     ...(prefs ?? { studyType: 'oposiciones', onboardingCompleted: false }),
     filters: updatedFilters,
   });
+};
+
+// Topic performance tracking (per-topic correct/incorrect)
+import { type TopicPerformance } from './data-types';
+export { type TopicPerformance } from './data-types';
+
+export const getTopicPerformance = (): TopicPerformance[] => {
+  if (typeof window === 'undefined') return [];
+  const stored = localStorage.getItem(getTopicPerformanceKey());
+  if (!stored) return [];
+  try {
+    return JSON.parse(stored) as TopicPerformance[];
+  } catch {
+    return [];
+  }
+};
+
+export const saveTopicPerformance = (performance: TopicPerformance[]) => {
+  if (typeof window === 'undefined') return;
+  localStorage.setItem(getTopicPerformanceKey(), JSON.stringify(performance));
+  window.dispatchEvent(new Event('folio-stats-updated'));
+};
+
+export const recordTopicResult = (topicId: string, correct: number, incorrect: number) => {
+  const performance = getTopicPerformance();
+  const existing = performance.find(p => p.topicId === topicId);
+  const today = new Date().toISOString().split('T')[0];
+  if (existing) {
+    existing.correct += correct;
+    existing.incorrect += incorrect;
+    existing.lastPracticed = today;
+  } else {
+    performance.push({ topicId, correct, incorrect, lastPracticed: today });
+  }
+  saveTopicPerformance(performance);
+};
+
+export const recordTopicResults = (results: Array<{ topicId: string; correct: number; incorrect: number }>) => {
+  const performance = getTopicPerformance();
+  const today = new Date().toISOString().split('T')[0];
+  for (const { topicId, correct, incorrect } of results) {
+    const existing = performance.find(p => p.topicId === topicId);
+    if (existing) {
+      existing.correct += correct;
+      existing.incorrect += incorrect;
+      existing.lastPracticed = today;
+    } else {
+      performance.push({ topicId, correct, incorrect, lastPracticed: today });
+    }
+  }
+  saveTopicPerformance(performance);
 };

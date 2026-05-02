@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import {
   Select,
@@ -23,9 +24,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
-import { TestQuestion, Topic, getQuestions, getTopics } from '@/lib/storage';
+import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, recordTopicResults } from '@/lib/storage';
 import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
-import { selectProportionalQuestions } from '@/lib/question-selector';
+import { selectProportionalQuestions, selectEqualQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { type ExamConfig } from '@/lib/data-types';
@@ -55,6 +56,8 @@ const SimulatedExam = () => {
   const [timeRemaining, setTimeRemaining] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [displayMode, setDisplayMode] = useState<'fullscreen' | 'window'>('window');
+  const [distributionMode, setDistributionMode] = useState<'proportional' | 'equal'>('proportional');
+  const [questionsPerTopic, setQuestionsPerTopic] = useState<number>(5);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
@@ -94,11 +97,56 @@ const SimulatedExam = () => {
 
   const finishExam = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
+
+    // Calculate results inline (same logic as calculateScore)
+    let correct = 0;
+    let incorrect = 0;
+    answers.forEach((answer, i) => {
+      if (answer.selectedAnswer === null) return;
+      if (answer.selectedAnswer === examQuestions[i]?.correctIndex) {
+        correct++;
+      } else {
+        incorrect++;
+      }
+    });
+
+    // Save stats for the simulacro
+    const stats = getStats();
+    stats.simulacrosCompleted = (stats.simulacrosCompleted ?? 0) + 1;
+    stats.testsCompleted += 1;
+    stats.correctAnswers += correct;
+    stats.questionsAnswered = (stats.questionsAnswered ?? 0) + correct + incorrect;
+    saveStats(stats);
+
+    // Track per-topic performance
+    const topicResults: Record<string, { correct: number; incorrect: number }> = {};
+    answers.forEach((answer, i) => {
+      if (answer.selectedAnswer === null) return;
+      const question = examQuestions[i];
+      if (!question?.topicId) return;
+      if (!topicResults[question.topicId]) {
+        topicResults[question.topicId] = { correct: 0, incorrect: 0 };
+      }
+      if (answer.selectedAnswer === question.correctIndex) {
+        topicResults[question.topicId].correct += 1;
+      } else {
+        topicResults[question.topicId].incorrect += 1;
+      }
+    });
+    const results = Object.entries(topicResults).map(([topicId, data]) => ({
+      topicId,
+      correct: data.correct,
+      incorrect: data.incorrect,
+    }));
+    if (results.length > 0) {
+      recordTopicResults(results);
+    }
+
     setExamPhase('results');
     if (document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
     }
-  }, []);
+  }, [answers, examQuestions]);
 
   const finishExamRef = useRef(finishExam);
   finishExamRef.current = finishExam;
@@ -151,17 +199,27 @@ const SimulatedExam = () => {
       return;
     }
 
-    const numQuestions = examConfig.numQuestions + (examConfig.numReserve || 0);
+    let selected: TestQuestion[];
 
-    if (availableQuestions.length < numQuestions) {
-      toast({
-        title: 'Preguntas insuficientes',
-        description: `Se necesitan ${numQuestions} preguntas pero solo hay ${availableQuestions.length} disponibles. Se usarán todas las disponibles.`,
-      });
+    if (distributionMode === 'equal') {
+      selected = selectEqualQuestions(availableQuestions, questionsPerTopic);
+      if (selected.length === 0) {
+        toast({ title: 'Sin preguntas', description: 'No se pudieron seleccionar preguntas con la configuración actual.', variant: 'destructive' });
+        return;
+      }
+    } else {
+      const numQuestions = examConfig.numQuestions + (examConfig.numReserve || 0);
+
+      if (availableQuestions.length < numQuestions) {
+        toast({
+          title: 'Preguntas insuficientes',
+          description: `Se necesitan ${numQuestions} preguntas pero solo hay ${availableQuestions.length} disponibles. Se usarán todas las disponibles.`,
+        });
+      }
+
+      const count = Math.min(numQuestions, availableQuestions.length);
+      selected = selectProportionalQuestions(availableQuestions, count);
     }
-
-    const count = Math.min(numQuestions, availableQuestions.length);
-    const selected = selectProportionalQuestions(availableQuestions, count);
 
     setExamQuestions(selected);
     setAnswers(selected.map((_, i) => ({ questionIndex: i, selectedAnswer: null })));
@@ -346,6 +404,60 @@ const SimulatedExam = () => {
                   </div>
                 </div>
 
+                {/* Modo de distribución de preguntas */}
+                <div className="space-y-3">
+                  <Label className="text-sm font-medium">Distribución de preguntas</Label>
+                  <div className="flex gap-3">
+                    <Button
+                      variant={distributionMode === 'proportional' ? 'default' : 'outline'}
+                      size="sm"
+                      onClick={() => setDistributionMode('proportional')}
+                    >
+                      Proporcional
+                    </Button>
+                    <Button
+                      variant={distributionMode === 'equal' ? 'default' : 'outline'}
+                      size="sm"
+                      onClick={() => setDistributionMode('equal')}
+                    >
+                      Igual por tema
+                    </Button>
+                  </div>
+                  {distributionMode === 'equal' && (
+                    <div className="space-y-2 pl-1">
+                      <Label className="text-xs text-muted-foreground">
+                        Preguntas por tema (se redistribuyen si un tema tiene menos)
+                      </Label>
+                      <Input
+                        type="number"
+                        min={1}
+                        value={questionsPerTopic}
+                        onChange={(e) => setQuestionsPerTopic(Math.max(1, parseInt(e.target.value, 10) || 1))}
+                        className="w-24"
+                      />
+                      <p className="text-xs text-muted-foreground">
+                        {(() => {
+                          const topicGroups = new Map<string, number>();
+                          for (const q of availableQuestions) {
+                            topicGroups.set(q.topicId, (topicGroups.get(q.topicId) || 0) + 1);
+                          }
+                          const numTopics = topicGroups.size;
+                          const totalEstimated = Math.min(
+                            availableQuestions.length,
+                            numTopics * questionsPerTopic
+                          );
+                          return `${numTopics} temas disponibles · ~${totalEstimated} preguntas totales estimadas`;
+                        })()}
+                      </p>
+                    </div>
+                  )}
+                  {distributionMode === 'proportional' && (
+                    <p className="text-xs text-muted-foreground pl-1">
+                      Se seleccionan {examConfig.numQuestions}{examConfig.numReserve ? ` + ${examConfig.numReserve} reserva` : ''} preguntas proporcionalmente según disponibilidad por tema.
+                    </p>
+                  )}
+                </div>
+
                 {/* Botón empezar */}
                 <Button
                   onClick={startExam}
@@ -425,7 +537,6 @@ const SimulatedExam = () => {
               <RadioGroup
                 key={currentIndex}
                 value={currentAnswer?.selectedAnswer !== null ? currentAnswer.selectedAnswer.toString() : ''}
-                onValueChange={(val) => selectAnswer(parseInt(val))}
               >
                 {currentQuestion.options.map((option, i) => (
                   <div
@@ -437,8 +548,8 @@ const SimulatedExam = () => {
                     }`}
                     onClick={() => selectAnswer(i)}
                   >
-                    <RadioGroupItem value={i.toString()} id={`option-${i}`} />
-                    <Label htmlFor={`option-${i}`} className="flex-1 cursor-pointer text-sm sm:text-base">
+                    <RadioGroupItem value={i.toString()} id={`option-${i}`} className="pointer-events-none" />
+                    <Label htmlFor={`option-${i}`} className="flex-1 text-sm sm:text-base pointer-events-none">
                       {option}
                     </Label>
                   </div>

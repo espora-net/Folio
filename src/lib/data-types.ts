@@ -53,6 +53,16 @@ export interface StudyStats {
   correctAnswers: number;
   streak: number;
   lastStudyDate: string | null;
+  // Nuevos campos opcionales para compatibilidad con datos antiguos
+  questionsAnswered?: number;
+  simulacrosCompleted?: number;
+}
+
+export interface TopicPerformance {
+  topicId: string;
+  correct: number;
+  incorrect: number;
+  lastPracticed?: string;
 }
 
 export interface DatabaseMeta {

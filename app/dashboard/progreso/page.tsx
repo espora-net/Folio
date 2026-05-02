@@ -1,7 +1,12 @@
 'use client';
 
-import Progreso from '@/views/dashboard/Progreso';
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function ProgresoPage() {
-  return <Progreso />;
+  const router = useRouter();
+  useEffect(() => {
+    router.replace('/dashboard');
+  }, [router]);
+  return null;
 }
