@@ -45,7 +45,7 @@ const Navbar = () => {
           {user ? (
             <div className="flex items-center gap-4">
               <Link href="/dashboard">
-                <Button variant="ghost">Dashboard</Button>
+                <Button variant="ghost">Mi progreso</Button>
               </Link>
               <Button variant="outline" onClick={signOut}>
                 Cerrar sesión

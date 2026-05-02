@@ -4,23 +4,49 @@ import { useState, useEffect } from 'react';
 import { Flame, Brain, ClipboardCheck, Target, TrendingUp, Clock } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
+import { Badge } from '@/components/ui/badge';
 import StatsCard from '@/components/dashboard/StatsCard';
-import { getStats, getTopics, getFlashcards, getQuestions } from '@/lib/storage';
+import { getStats, getTopics, getFlashcards, getQuestions, updateStreak, getStudyTypeConfig, getUserPreferences } from '@/lib/storage';
+import { useAuth } from '@/hooks/useAuth';
 
 const Progreso = () => {
+  const { user } = useAuth();
   const [stats, setStats] = useState(getStats());
   const [topicsCount, setTopicsCount] = useState(0);
   const [completedTopics, setCompletedTopics] = useState(0);
   const [flashcardsCount, setFlashcardsCount] = useState(0);
   const [questionsCount, setQuestionsCount] = useState(0);
+  const [studyTypeLabel, setStudyTypeLabel] = useState<string>('');
+
+  const userInfo = (user as { name?: string; email?: string } | null) || null;
+  const username =
+    userInfo?.name ||
+    (userInfo?.email ? userInfo.email.split('@')[0] : 'estudiante');
 
   useEffect(() => {
-    setStats(getStats());
+    const currentStats = getStats();
+    setStats(currentStats);
     const topics = getTopics();
     setTopicsCount(topics.length);
     setCompletedTopics(topics.filter(t => t.completed).length);
     setFlashcardsCount(getFlashcards().length);
     setQuestionsCount(getQuestions().length);
+    updateStreak();
+
+    const prefs = getUserPreferences();
+    const config = getStudyTypeConfig();
+    setStudyTypeLabel(prefs?.studyTypeLabel || config.label);
+
+    const onPrefsUpdated = (e: Event) => {
+      const detail = (e as CustomEvent)?.detail;
+      const cfg = getStudyTypeConfig();
+      setStudyTypeLabel(detail?.studyTypeLabel || cfg.label);
+    };
+    window.addEventListener('folio-preferences-updated', onPrefsUpdated);
+
+    return () => {
+      window.removeEventListener('folio-preferences-updated', onPrefsUpdated);
+    };
   }, []);
 
   const topicsProgress = topicsCount > 0 ? Math.round((completedTopics / topicsCount) * 100) : 0;
@@ -30,9 +56,20 @@ const Progreso = () => {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-bold text-foreground">Progreso</h1>
-        <p className="text-muted-foreground">Estadísticas de tu aprendizaje</p>
+      <div className="flex items-start justify-between">
+        <div>
+          <h1 className="text-3xl font-bold text-foreground mb-2">
+            ¡Hola, {username}! 👋
+          </h1>
+          <p className="text-muted-foreground">
+            Aquí tienes un resumen de tu progreso de estudio.
+          </p>
+        </div>
+        {studyTypeLabel && (
+          <Badge variant="secondary" className="text-sm">
+            {studyTypeLabel}
+          </Badge>
+        )}
       </div>
 
       {/* Main Stats */}
