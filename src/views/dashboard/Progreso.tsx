@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { Flame, Brain, ClipboardCheck, Target, TrendingUp, Clock, ThumbsUp, ThumbsDown } from 'lucide-react';
+import { Flame, Brain, ClipboardCheck, TrendingUp, Clock, BarChart3 } from 'lucide-react';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
@@ -75,14 +75,6 @@ const Progreso = () => {
   }, [refreshData]);
 
   const topicsProgress = topicsCount > 0 ? Math.round((completedTopics / topicsCount) * 100) : 0;
-  const totalAnswered = (stats.questionsAnswered ?? 0) + stats.cardsReviewed;
-  const accuracy = totalAnswered > 0
-    ? Math.round((stats.correctAnswers / totalAnswered) * 100)
-    : 0;
-
-  // Best and worst topics (top 3 each)
-  const bestTopics = [...topicPerformance].sort((a, b) => b.accuracy - a.accuracy).slice(0, 3);
-  const worstTopics = [...topicPerformance].sort((a, b) => a.accuracy - b.accuracy).slice(0, 3);
 
   return (
     <div className="space-y-6">
@@ -111,9 +103,9 @@ const Progreso = () => {
           trend={stats.streak >= 7 ? '¡Increíble!' : stats.streak >= 3 ? '¡Sigue así!' : '¡Tú puedes!'}
         />
         <StatsCard
-          title="Precisión global"
-          value={`${accuracy}%`}
-          icon={Target}
+          title="Temas practicados"
+          value={`${topicPerformance.length}/${topicsCount}`}
+          icon={BarChart3}
         />
         <StatsCard
           title="Tarjetas repasadas"
@@ -172,12 +164,6 @@ const Progreso = () => {
             <div className="grid grid-cols-2 gap-4 text-center">
               <div className="p-4 rounded-lg bg-muted/50">
                 <p className="text-xl font-bold text-foreground">
-                  {stats.cardsReviewed}
-                </p>
-                <p className="text-xs text-muted-foreground">Repasos totales</p>
-              </div>
-              <div className="p-4 rounded-lg bg-muted/50">
-                <p className="text-xl font-bold text-foreground">
                   {stats.correctAnswers}
                 </p>
                 <p className="text-xs text-muted-foreground">Respuestas correctas</p>
@@ -188,79 +174,50 @@ const Progreso = () => {
                 </p>
                 <p className="text-xs text-muted-foreground">Simulacros</p>
               </div>
-              <div className="p-4 rounded-lg bg-muted/50">
-                <p className="text-xl font-bold text-foreground">
-                  {totalAnswered}
-                </p>
-                <p className="text-xs text-muted-foreground">Preguntas respondidas</p>
-              </div>
             </div>
           </CardContent>
         </Card>
       </div>
 
-      {/* Topic Performance Section */}
-      {topicPerformance.length > 0 && (
-        <div className="grid gap-6 md:grid-cols-2">
-          {/* Best Topics */}
-          <Card className="border-border">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <ThumbsUp className="h-5 w-5 text-green-500" />
-                Temas más acertados
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              {bestTopics.map(topic => (
+      {/* Acierto por tema */}
+      <Card className="border-border">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <BarChart3 className="h-5 w-5 text-primary" />
+            Acierto por tema
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          {topicPerformance.length > 0 ? (
+            <div className="space-y-3">
+              {topicPerformance.map(topic => (
                 <Link
                   key={topic.topicId}
                   href="/dashboard/tests"
-                  className="flex items-center justify-between p-3 rounded-lg bg-green-500/5 hover:bg-green-500/10 transition-colors"
+                  className="flex items-center justify-between p-3 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
                   <span className="text-sm font-medium text-foreground truncate mr-2">
                     {topic.title}
                   </span>
-                  <div className="flex items-center gap-2 shrink-0">
-                    <span className="text-sm font-bold text-green-600">{topic.accuracy}%</span>
+                  <div className="flex items-center gap-3 shrink-0">
+                    <Progress value={topic.accuracy} className="h-2 w-20" />
+                    <span className={`text-sm font-bold ${topic.accuracy >= 70 ? 'text-green-600' : topic.accuracy >= 40 ? 'text-yellow-600' : 'text-red-600'}`}>
+                      {topic.accuracy}%
+                    </span>
                     <span className="text-xs text-muted-foreground">
                       ({topic.correct}/{topic.correct + topic.incorrect})
                     </span>
                   </div>
                 </Link>
               ))}
-            </CardContent>
-          </Card>
-
-          {/* Worst Topics */}
-          <Card className="border-border">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <ThumbsDown className="h-5 w-5 text-red-500" />
-                Temas a reforzar
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              {worstTopics.map(topic => (
-                <Link
-                  key={topic.topicId}
-                  href="/dashboard/tests"
-                  className="flex items-center justify-between p-3 rounded-lg bg-red-500/5 hover:bg-red-500/10 transition-colors"
-                >
-                  <span className="text-sm font-medium text-foreground truncate mr-2">
-                    {topic.title}
-                  </span>
-                  <div className="flex items-center gap-2 shrink-0">
-                    <span className="text-sm font-bold text-red-600">{topic.accuracy}%</span>
-                    <span className="text-xs text-muted-foreground">
-                      ({topic.correct}/{topic.correct + topic.incorrect})
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </CardContent>
-          </Card>
-        </div>
-      )}
+            </div>
+          ) : (
+            <p className="text-sm text-muted-foreground text-center py-4">
+              Aún no has practicado ningún tema. ¡Empieza un test para ver tu rendimiento aquí!
+            </p>
+          )}
+        </CardContent>
+      </Card>
 
       {/* Motivation Card */}
       <Card className="border-border bg-primary/5">
