@@ -145,6 +145,7 @@ export const getStats = (): StudyStats => {
 export const saveStats = (stats: StudyStats) => {
   if (typeof window === 'undefined') return;
   writeToStorage('STATS', stats);
+  window.dispatchEvent(new Event('folio-stats-updated'));
 };
 
 export const updateStreak = () => {
@@ -277,4 +278,59 @@ export const saveStudyFilters = (filters: Partial<StudyFilters>) => {
     ...(prefs ?? { studyType: 'oposiciones', onboardingCompleted: false }),
     filters: updatedFilters,
   });
+};
+
+// Topic performance tracking (per-topic correct/incorrect)
+import { type TopicPerformance } from './data-types';
+export { type TopicPerformance } from './data-types';
+
+const TOPIC_PERFORMANCE_KEY = 'folio_topic_performance';
+
+const getTopicPerformanceKey = () => `${TOPIC_PERFORMANCE_KEY}::${getActiveUserId()}`;
+
+export const getTopicPerformance = (): TopicPerformance[] => {
+  if (typeof window === 'undefined') return [];
+  const stored = localStorage.getItem(getTopicPerformanceKey());
+  if (!stored) return [];
+  try {
+    return JSON.parse(stored) as TopicPerformance[];
+  } catch {
+    return [];
+  }
+};
+
+export const saveTopicPerformance = (performance: TopicPerformance[]) => {
+  if (typeof window === 'undefined') return;
+  localStorage.setItem(getTopicPerformanceKey(), JSON.stringify(performance));
+  window.dispatchEvent(new Event('folio-stats-updated'));
+};
+
+export const recordTopicResult = (topicId: string, correct: number, incorrect: number) => {
+  const performance = getTopicPerformance();
+  const existing = performance.find(p => p.topicId === topicId);
+  const today = new Date().toISOString().split('T')[0];
+  if (existing) {
+    existing.correct += correct;
+    existing.incorrect += incorrect;
+    existing.lastPracticed = today;
+  } else {
+    performance.push({ topicId, correct, incorrect, lastPracticed: today });
+  }
+  saveTopicPerformance(performance);
+};
+
+export const recordTopicResults = (results: Array<{ topicId: string; correct: number; incorrect: number }>) => {
+  const performance = getTopicPerformance();
+  const today = new Date().toISOString().split('T')[0];
+  for (const { topicId, correct, incorrect } of results) {
+    const existing = performance.find(p => p.topicId === topicId);
+    if (existing) {
+      existing.correct += correct;
+      existing.incorrect += incorrect;
+      existing.lastPracticed = today;
+    } else {
+      performance.push({ topicId, correct, incorrect, lastPracticed: today });
+    }
+  }
+  saveTopicPerformance(performance);
 };
