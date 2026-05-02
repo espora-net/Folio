@@ -1,25 +1,36 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 03 - Ley Organica 2/2023 del Sistema Universitario",
-    "description": "Banco de preguntas y flashcards del tema 3 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 03 - Ley Orgánica 2/2023 del Sistema Universitario",
+    "description": "Banco normalizado de preguntas del tema 3 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 32,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 5,
+      "refuerzo": 4,
+      "oficial": 21,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 9
   },
   "topics": [
     {
       "id": "uah-bib-t03",
-      "title": "Tema 3. Ley Organica 2/2023 del Sistema Universitario",
-      "description": "Titulo I y capitulos I, II y V del Titulo IX. Funciones del sistema universitario, autonomia, estructura y gobernanza de universidades publicas, y PTGAS.",
+      "title": "Tema 03. Ley Orgánica 2/2023 del Sistema Universitario",
+      "description": "Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.",
       "order": 3,
       "subtopics": [
         {
           "id": "uah-bib-t03-contenido",
           "topicId": "uah-bib-t03",
-          "title": "Titulo I y capitulos I, II y V del Titulo IX.",
-          "content": "Enfoque de examen: Funciones del sistema universitario, autonomia, estructura y gobernanza de universidades publicas, y PTGAS.\n\nAtención: No estudiar toda la LOSU: el examen acota funciones, autonomia, gobernanza y personal tecnico, de gestion y de administracion y servicios.\n\nPuntos clave: La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento. | La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos. | La gobernanza publica se articula mediante organos colegiados y unipersonales. | El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
+          "title": "Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios",
+          "content": "Enfoque de examen: Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.\n\nContenido acotado: Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios\n\nCobertura oficial: #titulo-i, #titulo-ix-capitulo-i, #titulo-ix-capitulo-ii, #titulo-ix-capitulo-v",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-i",
+            "#titulo-ix-capitulo-i",
+            "#titulo-ix-capitulo-ii",
+            "#titulo-ix-capitulo-v",
             "uah-tema-003"
           ]
         }
@@ -240,31 +251,6 @@
         "materialId": "upm-c1-2025-1#q016",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
         "highlightText": "Pueden desarrollar su carrera profesional sin cambiar de puesto, mediante progresión en grado, categoría o nivel"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-003",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-upm-c1-2025-1-q018-c1fc6ae4321e",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "Según los Estatutos de la UPM se convocará sesión extraordinaria del Claustro Universitario o se incluirán puntos en el orden del día de una sesión ordinaria a propuesta motivada de:",
-      "options": [
-        "La Comisión de Gobierno",
-        "Al menos la tercera parte de los componentes del claustro.",
-        "La mesa del claustro",
-        "El Rector"
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 18. Respuesta validada por la plantilla oficial: La mesa del claustro. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q018",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "La mesa del claustro"
       },
       "tags": [
         "examen-oficial",
@@ -549,31 +535,6 @@
       ]
     },
     {
-      "id": "uah-exam-cadiz-c1-2025-q061-3d066af99417",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "¿De qué Vicerrectorado depende actualmente la Biblioteca de la UCA?",
-      "options": [
-        "Vicerrectorado de Investigación y Transferencia",
-        "Vicerrectorado de Sostenibilidad y Cultura",
-        "Vicerrectorado de Estudiantes",
-        "Vicerrectorado de Transformación para la Universidad Digital"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 61. Respuesta validada por la plantilla oficial: Vicerrectorado de Investigación y Transferencia. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q061",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Vicerrectorado de Investigación y Transferencia"
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
-        "uah-tema-003",
-        "prioridad-alta"
-      ]
-    },
-    {
       "id": "uah-exam-cadiz-c1-2025-q080-b6aaa02715fe",
       "topicId": "uah-bib-t03-contenido",
       "question": "¿Qué órgano universitario aprobó el Reglamento del Archivo de la Universidad de Cádiz, y en qué fecha?",
@@ -649,31 +610,6 @@
       ]
     },
     {
-      "id": "uah-exam-uned-aux-2024-q040-36402cdfaaea",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "La Biblioteca del Campus Norte de la UNED:",
-      "options": [
-        "Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3.",
-        "Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Humanidades, Psicologia-IUED y del fondo de la Facultad de Educación.",
-        "Fue Inaugurada en 2014 y es resultado de la fusión de las Bibliotecas de Humanidades, de Ciencias, Biblioteca de Ciencias Sociales y Biblioteca de Ingeniería.",
-        "Fue Inaugurada en 2014 y es resultado de la fusión de las Bibliotecas de Ciencias Sociales, Biblioteca de Ingeniería y del fondo de la Facultad de Educación."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 40. Respuesta validada por la plantilla oficial: Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uned-aux-2024#q040",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3."
-      },
-      "tags": [
-        "examen-oficial",
-        "uned-aux-2024",
-        "uah-tema-003",
-        "prioridad-media"
-      ]
-    },
-    {
       "id": "uah-exam-cantabria-c2-2025-q006-6b0038f3cb60",
       "topicId": "uah-bib-t03-contenido",
       "question": "Según la LO 2/2023 del Sistema Universitario, el máximo órgano de gobierno de la universidad pública es:",
@@ -699,31 +635,6 @@
       ]
     },
     {
-      "id": "uah-exam-cantabria-c2-2025-q007-b5024d0f6924",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "Según establece la LOSU, el personal docente e investigador debe depositar una copia de la versión final aceptada para publicación y los datos asociados a la misma:",
-      "options": [
-        "Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.",
-        "Enrepositorios de acceso abierto con un plazo de embargo que no excederá de los seis meses.",
-        "Enrepositorios internacionales en un plazo no superior a un año desde la fecha de publicación.",
-        "Enrepositorios de las editoriales que hayan aceptado los trabajos."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 7. Respuesta validada por la plantilla oficial: Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q007",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media"
-      ]
-    },
-    {
       "id": "uah-exam-cantabria-c2-2025-q009-e96dd618eb4c",
       "topicId": "uah-bib-t03-contenido",
       "question": "Los órganos aseguramiento de la calidad del sistema universitario español son Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U nive rsidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de Ca ntabri a, de 7 de julio de 2025 (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)",
@@ -740,81 +651,6 @@
         "materialId": "cantabria-c2-2025#q009",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
         "highlightText": "La ANECA y, en su correspondiente ámbito territorial, las agencias de calidad de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Aseguramiento de la Calidad en la Educación Superior."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q024-38b6d423568e",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "Los Responsables de división de la Biblioteca de la Universidad de Cantabria dependen jerárquicamente de:",
-      "options": [
-        "La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)",
-        "La subdirección.",
-        "El coordinador de colecciones. 4",
-        "Elcoordinador de formación y promoción."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 24. Respuesta validada por la plantilla oficial: La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q024",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q032-ba741a643003",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "Estamos en el mostrador de préstamo de la división de Minas de la Biblioteca de la Universidad de Cantabria y nos devuelven unas obras con el tejuelo rojo. ¿En qué colección las tenemos que colocar?",
-      "options": [
-        "Monografías.",
-        "Básica.",
-        "ExtraBUC.",
-        "Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 32. Respuesta validada por la plantilla oficial: Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q032",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q055-eb40af96966d",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "¿Cuál de estos gestores bibliográficos es un software libre de código abierto?",
-      "options": [
-        "RefWorks.",
-        "Procite.",
-        "EndNote.",
-        "Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 55. Respuesta validada por la plantilla oficial: Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q055",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
       },
       "tags": [
         "examen-oficial",
@@ -871,56 +707,6 @@
         "uz-c1-libre-2024",
         "uah-tema-003",
         "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-uz-c1-libre-2024-q017-37800da2cd6c",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "Grupo 9 de Universidades es una asociación sin ánimo de lucro formada por las universidades públicas españolas que son únicas universidades públicas en sus respectivas Comunidades Autónomas: Universidad de Cantabria, Universidad de Castilla La Mancha, Universidad de Extremadura, Universitat de les Illes Balears, Universidad de La Rioja, Universidad de Oviedo, Universidad del País Vasco / Euskal Herriko Unibertsitatea, Universidad Pública de Navarra, Universidad de Zaragoza. Contesta cuál es la respuesta correcta sobre el G9:",
-      "options": [
-        "Además, desde 2023, la Universidad de Murcia forma parte del G-9 como universidad colaboradora.",
-        "Existe un Grupo de Trabajo de Bibliotecas incluido en la Sectorial de Investigación.",
-        "Consta de 9 Comisiones Sectoriales.",
-        "Todas las anteriores son correctas."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 17. Respuesta validada por la plantilla oficial: Todas las anteriores son correctas.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uz-c1-libre-2024#q017",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Todas las anteriores son correctas."
-      },
-      "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-003",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-uz-c1-pi-2024-q041-50b4cabae88f",
-      "topicId": "uah-bib-t03-contenido",
-      "question": "Grupo 9 de Universidades es una asociación sin ánimo de lucro formada por las universidades públicas españolas que son únicas universidades públicas en sus respectivas Comunidades Autónomas: Universidad de Cantabria, Universidad de Castilla La Mancha, Universidad de Extremadura, Universitat de les Illes Balears, Universidad de La Rioja, Universidad de Oviedo, Universidad del País Vasco / Euskal Herriko Unibertsitatea, Universidad Pública de Navarra, Universidad de Zaragoza. Conteste cuál es la respuesta correcta sobre el G9:",
-      "options": [
-        "Además, desde 2023, la Universidad de Murcia forma parte del G-9 como universidad colaboradora.",
-        "Existe un Grupo de Trabajo de Bibliotecas incluido en la Sectorial de Investigación.",
-        "Consta de 9 Comisiones Sectoriales.",
-        "Todas las anteriores son correctas."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 41. Respuesta validada por la plantilla oficial: Todas las anteriores son correctas.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uz-c1-pi-2024#q041",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Todas las anteriores son correctas."
-      },
-      "tags": [
-        "examen-oficial",
-        "uz-c1-pi-2024",
-        "uah-tema-003",
-        "prioridad-media"
       ]
     },
     {

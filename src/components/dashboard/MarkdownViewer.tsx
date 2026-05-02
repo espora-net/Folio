@@ -30,6 +30,24 @@ const CODE_BLOCK_REGEX = /```[\s\S]*?```|`[^`]+`/g;
 
 // Highlight markup template
 const HIGHLIGHT_MARKUP = '<mark class="folio-highlight">$1</mark>';
+const ACCENT_GROUPS: Record<string, string> = {
+  a: '[aáàäâAÁÀÄÂ]',
+  e: '[eéèëêEÉÈËÊ]',
+  i: '[iíìïîIÍÌÏÎ]',
+  o: '[oóòöôOÓÒÖÔ]',
+  u: '[uúùüûUÚÙÜÛ]',
+  n: '[nñNÑ]',
+};
+
+const createHighlightRegex = (text: string) => {
+  const pattern = Array.from(text.trim())
+    .map((char) => {
+      if (/\s/.test(char)) return '\\s+';
+      return ACCENT_GROUPS[char.toLowerCase()] ?? escapeRegex(char);
+    })
+    .join('');
+  return new RegExp(`(${pattern})`, 'gi');
+};
 
 interface TocItem {
   id: string;
@@ -151,11 +169,7 @@ const MarkdownViewer = ({ content, className = '', scrollToSection, highlightTex
   const processedContent = useMemo(() => {
     if (!highlightText || !content) return content;
     
-    // Create a case-insensitive regex to find all occurrences
-    const highlightRegex = new RegExp(
-      `(${escapeRegex(highlightText)})`,
-      'gi'
-    );
+    const highlightRegex = createHighlightRegex(highlightText);
     
     // Split content into code blocks and text sections to avoid highlighting in code
     const parts: string[] = [];

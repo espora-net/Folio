@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 02 - Estatuto Basico del Empleado Publico",
-    "description": "Banco de preguntas y flashcards del tema 2 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 02 - Estatuto Básico del Empleado Público (EBEP)",
+    "description": "Banco normalizado de preguntas del tema 2 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 27,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 14,
+      "refuerzo": 4,
+      "oficial": 7,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 1
   },
   "topics": [
     {
       "id": "uah-bib-t02",
-      "title": "Tema 2. Estatuto Basico del Empleado Publico",
-      "description": "Titulo I, capitulo I del Titulo II, Titulo III, Titulo IV, capitulo III del Titulo V y Titulo VII. Clases de personal, derechos/deberes, codigo de conducta, acceso, perdida de servicio, provision y regimen disciplinario.",
+      "title": "Tema 02. Estatuto Básico del Empleado Público (EBEP)",
+      "description": "Texto Refundido de la Ley del EBEP, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre. Incluye: Título I, Título II Cap. I, Título III, Título IV, Título V Cap. III y Título VII. Referencia oficial: BOE-A-2015-11719, texto consolidado actualizado a 2025.",
       "order": 2,
       "subtopics": [
         {
           "id": "uah-bib-t02-contenido",
           "topicId": "uah-bib-t02",
-          "title": "Titulo I, capitulo I del Titulo II, Titulo III, Titulo IV, capitulo III del Titulo V y Titulo VII.",
-          "content": "Enfoque de examen: Clases de personal, derechos/deberes, codigo de conducta, acceso, perdida de servicio, provision y regimen disciplinario.\n\nAtención: Distinguir funcionario de carrera, interino, laboral y eventual; y separar faltas, sanciones y prescripcion.\n\nPuntos clave: El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral. | Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual. | Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania. | La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
+          "title": "Clases de personal, derechos, deberes, código de conducta, adquisición y pérdida de la condición de funcionario, provisión de puestos y régimen disciplinario",
+          "content": "Enfoque de examen: Texto Refundido de la Ley del EBEP, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre. Incluye: Título I, Título II Cap. I, Título III, Título IV, Título V Cap. III y Título VII. Referencia oficial: BOE-A-2015-11719, texto consolidado actualizado a 2025.\n\nContenido acotado: Clases de personal, derechos, deberes, código de conducta, adquisición y pérdida de la condición de funcionario, provisión de puestos y régimen disciplinario\n\nCobertura oficial: #titulo-i, #titulo-ii-capitulo-i, #titulo-iii, #titulo-iv, #titulo-v-capitulo-iii, #titulo-vii",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-i",
+            "#titulo-ii-capitulo-i",
+            "#titulo-iii",
+            "#titulo-iv",
+            "#titulo-v-capitulo-iii",
+            "#titulo-vii",
             "uah-tema-002"
           ]
         }
@@ -440,31 +453,6 @@
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
-        "uah-tema-002",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q011-d6322075339a",
-      "topicId": "uah-bib-t02-contenido",
-      "question": "¿Quién tiene la competencia de organización del trabajo según el artículo 13 del IV Convenio Colectivo del Personal laboral de las Universidades Públicas de Andalucía?",
-      "options": [
-        "El Rector de cada Universidad",
-        "Los representantes de los trabajadores",
-        "Las Gerencias de las Universidades",
-        "Los Directores de los distintos Servicios"
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 11. Respuesta validada por la plantilla oficial: Las Gerencias de las Universidades. Clasificada como Tema 2 (EBEP) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q011",
-        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
-        "highlightText": "Las Gerencias de las Universidades"
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
         "uah-tema-002",
         "prioridad-alta"
       ]

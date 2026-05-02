@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2026.05",
-    "updatedAt": "2026-05-02T18:07:05.439Z"
+    "updatedAt": "2026-05-02T20:22:58.854+02:00"
   },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
@@ -51,11 +51,6 @@
           "archivo": "data/general/01_constitucion_espanola_1978.mp3"
         },
         {
-          "tipo": "db",
-          "nombre": "Flashcards y preguntas",
-          "archivo": "db-constitucion.json"
-        },
-        {
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md"
@@ -102,11 +97,6 @@
           "archivo": "data/general/02_Estatuto_Basico_del_Empleado_Publico.pdf"
         },
         {
-          "tipo": "db",
-          "nombre": "Flashcards y preguntas",
-          "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
-        },
-        {
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md"
@@ -150,11 +140,6 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.pdf"
-        },
-        {
-          "tipo": "db",
-          "nombre": "Flashcards y preguntas",
-          "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
         },
         {
           "tipo": "md",
@@ -236,12 +221,12 @@
         {
           "tipo": "md",
           "nombre": "Texto completo en Markdown",
-          "archivo": "data/general/05_ley_discapacidad.md"
+          "archivo": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md"
         },
         {
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
-          "archivo": "data/general/05_ley_discapacidad.pdf"
+          "archivo": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.pdf"
         },
         {
           "tipo": "md",

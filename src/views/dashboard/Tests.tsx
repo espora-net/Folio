@@ -515,10 +515,10 @@ const Tests = () => {
                           )}
 
                           {/* Texto resaltado */}
-                          <div className="p-4 rounded-lg bg-yellow-50 dark:bg-yellow-950/30 border border-yellow-200 dark:border-yellow-800">
-                            <p className="text-sm font-medium text-yellow-800 dark:text-yellow-200 mb-2">
-                              Texto literal:
-                            </p>
+                           <div className="p-4 rounded-lg bg-yellow-50 dark:bg-yellow-950/30 border border-yellow-200 dark:border-yellow-800">
+                             <p className="text-sm font-medium text-yellow-800 dark:text-yellow-200 mb-2">
+                               Fragmento de referencia:
+                             </p>
                             <blockquote className="text-sm text-yellow-900 dark:text-yellow-100 italic border-l-4 border-yellow-400 pl-3">
                               "{currentQuestion.source.highlightText}"
                             </blockquote>
@@ -533,15 +533,14 @@ const Tests = () => {
                           </div>
 
                           {/* Enlace para abrir */}
-                          <Button
-                            variant="outline"
-                            className="w-full gap-2"
-                            onClick={() => {
-                              // Extraer solo el nombre del archivo del path
-                              const path = currentQuestion.source?.path || '';
-                              const filename = path.split('/').pop()?.split('#')[0] || path;
-                              // Extract section ID from materialId (remove filename prefix if present)
-                              // materialId can be like "file.md#section-id" or just "section-id"
+                           <Button
+                             variant="outline"
+                             className="w-full gap-2"
+                             onClick={() => {
+                               const sourcePath = (currentQuestion.source?.path || '').replace(/^\/+/, '');
+                               const fileParam = sourcePath.split('#')[0] || sourcePath;
+                               // Extract section ID from materialId (remove filename prefix if present)
+                               // materialId can be like "file.md#section-id" or just "section-id"
                               const materialId = currentQuestion.source?.materialId;
                               let sectionId = materialId;
                               if (materialId?.includes('#')) {
@@ -555,14 +554,14 @@ const Tests = () => {
                                 }
                               }
                               const sectionParam = sectionId ? `&section=${encodeURIComponent(sectionId)}` : '';
-                              // Add highlight parameter if highlightText is available
-                              const highlightText = currentQuestion.source?.highlightText || '';
-                              const highlightParam = highlightText ? `&highlight=${encodeURIComponent(highlightText)}` : '';
-                              const trimmedBase = String(basePath).replace(/\/+$/, '');
-                              const url = `${trimmedBase}/dashboard/temario?file=${encodeURIComponent(filename)}${sectionParam}${highlightParam}`.replace(/\/{2,}/g, '/');
-                              window.open(url, '_blank');
-                            }}
-                          >
+                               // Add highlight parameter if highlightText is available
+                               const highlightText = currentQuestion.source?.highlightText || '';
+                               const highlightParam = highlightText ? `&highlight=${encodeURIComponent(highlightText)}` : '';
+                               const trimmedBase = String(basePath).replace(/\/+$/, '');
+                               const url = `${trimmedBase}/dashboard/temario?file=${encodeURIComponent(fileParam)}${sectionParam}${highlightParam}`.replace(/\/{2,}/g, '/');
+                               window.open(url, '_blank');
+                             }}
+                           >
                             <ExternalLink className="h-4 w-4" />
                             Abrir en el temario
                           </Button>

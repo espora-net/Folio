@@ -1,25 +1,34 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 22 - Propiedad intelectual y Creative Commons",
-    "description": "Banco de preguntas y flashcards del tema 22 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 22 - Propiedad Intelectual y Licencias Creative Commons",
+    "description": "Banco normalizado de preguntas del tema 22 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 21,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 7,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 3
   },
   "topics": [
     {
       "id": "uah-bib-t22",
-      "title": "Tema 22. Propiedad intelectual y Creative Commons",
-      "description": "RDL 1/1996, Libro Primero, Titulo II, capitulo III del Titulo II; licencias Creative Commons. Contenido de derechos de explotacion, limites utiles para bibliotecas y funcionamiento de licencias Creative Commons.",
+      "title": "Tema 22. Propiedad Intelectual y Licencias Creative Commons",
+      "description": "Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia: Capítulo III del Título II del Libro Primero (Contenido). Las licencias Creative Commons: conceptos, funcionamiento y tipología.",
       "order": 22,
       "subtopics": [
         {
           "id": "uah-bib-t22-contenido",
           "topicId": "uah-bib-t22",
-          "title": "RDL 1/1996, Libro Primero, Titulo II, capitulo III del Titulo II; licencias Creative Commons.",
-          "content": "Enfoque de examen: Contenido de derechos de explotacion, limites utiles para bibliotecas y funcionamiento de licencias Creative Commons.\n\nAtención: Creative Commons no elimina derechos de autor: concede permisos estandarizados bajo condiciones.\n\nPuntos clave: La propiedad intelectual distingue derechos morales y derechos de explotacion. | El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion. | Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND. | En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
+          "title": "Legislación de propiedad intelectual y sistema de licencias Creative Commons",
+          "content": "Enfoque de examen: Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia: Capítulo III del Título II del Libro Primero (Contenido). Las licencias Creative Commons: conceptos, funcionamiento y tipología.\n\nContenido acotado: Legislación de propiedad intelectual y sistema de licencias Creative Commons\n\nCobertura oficial: #libro-primero-titulo-ii-capitulo-iii, #creative-commons",
           "order": 1,
           "syllabusCoverageIds": [
+            "#libro-primero-titulo-ii-capitulo-iii",
+            "#creative-commons",
             "uah-tema-022"
           ]
         }
@@ -281,31 +290,6 @@
       ]
     },
     {
-      "id": "uah-exam-upm-c1-2025-1-q096-4e42162aef09",
-      "topicId": "uah-bib-t22-contenido",
-      "question": "Para licenciar datos bibliográficos abiertos se recomienda habitualmente:",
-      "options": [
-        "Licencia CC0 o Creative Commons Atribución",
-        "NDA (acuerdo de confidencialidad)",
-        "Copyright completo sin excepciones",
-        "Patente industrial"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 96. Respuesta validada por la plantilla oficial: Licencia CC0 o Creative Commons Atribución. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q096",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Licencia CC0 o Creative Commons Atribución"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-022",
-        "prioridad-alta"
-      ]
-    },
-    {
       "id": "uah-exam-udc-c1-2025-2-q041-6ae6074feb4d",
       "topicId": "uah-bib-t22-contenido",
       "question": "¿Cuál de estas licencias Creative Commons permite usar la obra libremente para cualquier fin sin necesidad de solicitar permiso al autor de tal obra?",
@@ -322,31 +306,6 @@
         "materialId": "udc-c1-2025-2#q041",
         "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
         "highlightText": "CC0"
-      },
-      "tags": [
-        "examen-oficial",
-        "udc-c1-2025-2",
-        "uah-tema-022",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-udc-c1-2025-2-q052-a2ac96b64c08",
-      "topicId": "uah-bib-t22-contenido",
-      "question": "Señale cuál de las siguientes afirmaciones es FALSA. Entre las ventajas de usar licenzas Creative Commons está que:",
-      "options": [
-        "Son revocables",
-        "Enel ambito de la enseñanza, ofrecen multitud de contenidos libres para ser usados y compartidos",
-        "Permiten la divulgación de la obra sin perjuicio de que el autor o autora reserven algunos derechos",
-        "Aumentan la visibilidad de las autoras o autores en internet"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 52. Respuesta validada por la plantilla oficial: Son revocables. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "udc-c1-2025-2#q052",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Son revocables"
       },
       "tags": [
         "examen-oficial",
@@ -376,31 +335,6 @@
       "tags": [
         "examen-oficial",
         "valencia-c1-2025",
-        "uah-tema-022",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q031-32a8584cadfc",
-      "topicId": "uah-bib-t22-contenido",
-      "question": "¿Qué son las licencias Creative Commons y cómo se aplican en recursos académicos?",
-      "options": [
-        "Licencias que prohíben cualquier uso de obras con derechos de autor.",
-        "Son licencias equivalentes al obsoleto copyright tradicional.",
-        "Solo se aplican a películas y música comerciales.",
-        "Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas.."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 31. Respuesta validada por la plantilla oficial: Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas... Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q031",
-        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
-        "highlightText": "Licencias flexibles que permiten compartir y utilizar obras bajo condiciones específicas.."
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
         "uah-tema-022",
         "prioridad-alta"
       ]

@@ -1,25 +1,33 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 06 - Igualdad efectiva y Plan de Igualdad UAH",
-    "description": "Banco de preguntas y flashcards del tema 6 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 06 - Ley Orgánica 3/2007 para la Igualdad Efectiva",
+    "description": "Banco normalizado de preguntas del tema 6 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 14,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 4,
+      "refuerzo": 4,
+      "oficial": 4,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 1
   },
   "topics": [
     {
       "id": "uah-bib-t06",
-      "title": "Tema 6. Igualdad efectiva y Plan de Igualdad UAH",
-      "description": "LO 3/2007, Titulo II, y Plan de Igualdad de la Universidad de Alcala. Politicas publicas de igualdad, transversalidad, acciones positivas y medidas propias del plan UAH.",
+      "title": "Tema 06. Ley Orgánica 3/2007 para la Igualdad Efectiva",
+      "description": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Marco legal en materia de igualdad de género. El tema 6 abarca su Título II (Políticas públicas para la igualdad).",
       "order": 6,
       "subtopics": [
         {
           "id": "uah-bib-t06-contenido",
           "topicId": "uah-bib-t06",
-          "title": "LO 3/2007, Titulo II, y Plan de Igualdad de la Universidad de Alcala.",
-          "content": "Enfoque de examen: Politicas publicas de igualdad, transversalidad, acciones positivas y medidas propias del plan UAH.\n\nAtención: Diferenciar ley estatal y plan institucional: una fija marco juridico y el otro concreta medidas en la UAH.\n\nPuntos clave: La igualdad debe integrarse de forma transversal en politicas publicas. | La ley permite acciones positivas para corregir desigualdades de hecho. | El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento. | La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
+          "title": "Complementariamente, la UAH cuenta con el II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)",
+          "content": "Enfoque de examen: Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Marco legal en materia de igualdad de género. El tema 6 abarca su Título II (Políticas públicas para la igualdad).\n\nContenido acotado: Complementariamente, la UAH cuenta con el II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)\n\nCobertura oficial: #titulo-ii",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-ii",
             "uah-tema-006"
           ]
         }
@@ -225,31 +233,6 @@
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
-        "uah-tema-006",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-valencia-c1-2025-q006-77d3ad263d3b",
-      "topicId": "uah-bib-t06-contenido",
-      "question": "La Ley orgánica 3/2007, de 22 de marzo para la igualdad efectiva de mujeres y hombres, señala en su artículo 51 que las administraciones públicas, en el ámbito de sus respectivas competencias y en aplicación del principio de igualdad entre mujeres y hombres, deberán fomentar la formación en igualdad:",
-      "options": [
-        "Principalmente como parte de planes internos de formación continua.",
-        "En elacceso al empleo público.",
-        "En función de las necesidades detectadas en cada organismo.",
-        "De manera progresiva y según la disponibilidad de recursos."
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 6. Respuesta validada por la plantilla oficial: En elacceso al empleo público.. Clasificada como Tema 6 (Igualdad) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q006",
-        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
-        "highlightText": "En elacceso al empleo público."
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
         "uah-tema-006",
         "prioridad-alta"
       ]

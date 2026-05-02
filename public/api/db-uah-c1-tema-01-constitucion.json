@@ -1,25 +1,34 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 01 - Constitucion Espanola de 1978",
-    "description": "Banco de preguntas y flashcards del tema 1 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 01 - Constitución Española de 1978",
+    "description": "Banco normalizado de preguntas del tema 1 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 28,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 16,
+      "refuerzo": 4,
+      "oficial": 6,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 0
   },
   "topics": [
     {
       "id": "uah-bib-t01",
-      "title": "Tema 1. Constitucion Espanola de 1978",
-      "description": "Titulo Preliminar y Titulo I: derechos y deberes fundamentales. Memorizar estructura, valores superiores, soberania nacional, forma politica y mapa de derechos del Titulo I.",
+      "title": "Tema 01. Constitución Española de 1978",
+      "description": "Texto constitucional completo (Título Preliminar y Título I sobre derechos fundamentales). Referencia oficial: BOE-A-1978-31229, texto completo consolidado en BOE.",
       "order": 1,
       "subtopics": [
         {
           "id": "uah-bib-t01-contenido",
           "topicId": "uah-bib-t01",
-          "title": "Titulo Preliminar y Titulo I: derechos y deberes fundamentales.",
-          "content": "Enfoque de examen: Memorizar estructura, valores superiores, soberania nacional, forma politica y mapa de derechos del Titulo I.\n\nAtención: No mezclar derechos fundamentales de la Seccion 1 con principios rectores ni garantias.\n\nPuntos clave: Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico. | Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones. | Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias. | El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
+          "title": "Establece el marco fundamental de derechos y deberes de los ciudadanos, relevante para el tema 1",
+          "content": "Enfoque de examen: Texto constitucional completo (Título Preliminar y Título I sobre derechos fundamentales). Referencia oficial: BOE-A-1978-31229, texto completo consolidado en BOE.\n\nContenido acotado: Establece el marco fundamental de derechos y deberes de los ciudadanos, relevante para el tema 1\n\nCobertura oficial: #titulo-preliminar, #titulo-i",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-preliminar",
+            "#titulo-i",
             "uah-tema-001"
           ]
         }

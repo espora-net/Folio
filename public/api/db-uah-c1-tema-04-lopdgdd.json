@@ -1,25 +1,35 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 04 - LOPDGDD",
-    "description": "Banco de preguntas y flashcards del tema 4 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 04 - Ley Orgánica 3/2018 de Protección de Datos Personales",
+    "description": "Banco normalizado de preguntas del tema 4 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 17,
+    "explicitFlashcardCount": 5,
+    "originCounts": {
+      "curada": 5,
+      "refuerzo": 4,
+      "oficial": 6,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 3
   },
   "topics": [
     {
       "id": "uah-bib-t04",
-      "title": "Tema 4. LOPDGDD",
-      "description": "Titulo I, Titulo II y Titulo III. Disposiciones generales, principios de proteccion de datos y derechos de las personas.",
+      "title": "Tema 04. Ley Orgánica 3/2018 de Protección de Datos Personales",
+      "description": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Regulación vigente en materia de protección de datos. El tema 4 abarca Título I (disposiciones generales), Título II (principios de protección de datos) y Título III (derechos de las personas). Referencia oficial: BOE-A-2018-16673 (BOE núm. 294, de 06/12/2018), texto legal completo consolidado.",
       "order": 4,
       "subtopics": [
         {
           "id": "uah-bib-t04-contenido",
           "topicId": "uah-bib-t04",
-          "title": "Titulo I, Titulo II y Titulo III.",
-          "content": "Enfoque de examen: Disposiciones generales, principios de proteccion de datos y derechos de las personas.\n\nAtención: Separar principios de tratamiento de derechos ejercitables por la persona interesada.\n\nPuntos clave: Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion. | Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad. | La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones. | Los datos deben tratarse con minimizacion y finalidad concreta.",
+          "title": "Esta ley adapta el ordenamiento español al RGPD de la UE e incluye los derechos digitales",
+          "content": "Enfoque de examen: Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Regulación vigente en materia de protección de datos. El tema 4 abarca Título I (disposiciones generales), Título II (principios de protección de datos) y Título III (derechos de las personas). Referencia oficial: BOE-A-2018-16673 (BOE núm. 294, de 06/12/2018), texto legal completo consolidado.\n\nContenido acotado: Esta ley adapta el ordenamiento español al RGPD de la UE e incluye los derechos digitales\n\nCobertura oficial: #titulo-i, #titulo-ii, #titulo-iii",
           "order": 1,
           "syllabusCoverageIds": [
+            "#titulo-i",
+            "#titulo-ii",
+            "#titulo-iii",
             "uah-tema-004"
           ]
         }
@@ -274,31 +284,6 @@
       ]
     },
     {
-      "id": "uah-exam-udc-c1-2025-2-q082-13be0894e5b0",
-      "topicId": "uah-bib-t04-contenido",
-      "question": "¿Qué se consideran datos personales según la Resolución reitoral del 22 de julio por la que se aprueba la política de seguridad de la información y protección de datos personales en la UDC?:",
-      "options": [
-        "Información creada, recibida o utilizada en las actividades de la UDC",
-        "Toda la información sobre una persona física identificada o identificable",
-        "— DNIENIE, n° de pasaporte, dirección postal o electrónica, imagen, voz, n° de la seguridad social o mutualidad, teléfono, fax, marcas físicas, nombre y dos apellidos, firma, firma electrónica, tarjeta sanitaria",
-        "Datos que tienen un contenido semántico (es decir, significado) en un contexto determinado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Toda la información sobre una persona física identificada o identificable. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "udc-c1-2025-2#q082",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Toda la información sobre una persona física identificada o identificable"
-      },
-      "tags": [
-        "examen-oficial",
-        "udc-c1-2025-2",
-        "uah-tema-004",
-        "prioridad-alta"
-      ]
-    },
-    {
       "id": "uah-exam-valencia-c1-2025-q004-49e2bb53b107",
       "topicId": "uah-bib-t04-contenido",
       "question": "Según el artículo 26 de la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales:",
@@ -346,56 +331,6 @@
         "valencia-c1-2025",
         "uah-tema-004",
         "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-valencia-c1-2025-q088-54362a36918d",
-      "topicId": "uah-bib-t04-contenido",
-      "question": "Según la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho de los ciudadanos en relación con sus datos personales?",
-      "options": [
-        "Derecho de acceso",
-        "Derecho de rectificación",
-        "Derecho de oposición",
-        "Derecho de recopilación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 88. Respuesta validada por la plantilla oficial: Derecho de recopilación. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q088",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Derecho de recopilación"
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-004",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q014-0573af0ce59d",
-      "topicId": "uah-bib-t04-contenido",
-      "question": "¿Qué se entiende por <datos genéticos=, según el Reglamento General de Protección de Datos?",
-      "options": [
-        "Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona.",
-        "Datos personales obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas o conductuales de una persona física que permitan o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos.",
-        "Datos personales relativos a la salud física o mental de una persona física, incluida la prestación de servicios de atención sanitaria, que revelen información sobre su estado de salud.",
-        "Datos personales relativos a la genealogía y antecedentes familiares de una persona física que proporcionen información única sobre posibles características genéticas heredadas."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 14. Respuesta validada por la plantilla oficial: Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona.. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q014",
-        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
-        "highlightText": "Datos personales relativos a las características genéticas heredadas o adquiridas de una persona física que proporcionen una información única sobre la fisiología o la salud de esa persona, obtenidos en particular del análisis de una muestra biológica de tal persona."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-004",
-        "prioridad-media"
       ]
     },
     {

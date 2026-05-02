@@ -1,25 +1,33 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 08 - Codigo etico general UAH",
-    "description": "Banco de preguntas y flashcards del tema 8 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 08 - Código Ético General de la Universidad de Alcalá",
+    "description": "Banco normalizado de preguntas del tema 8 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 10,
+    "explicitFlashcardCount": 3,
+    "originCounts": {
+      "curada": 4,
+      "refuerzo": 3,
+      "oficial": 1,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 1
   },
   "topics": [
     {
       "id": "uah-bib-t08",
-      "title": "Tema 8. Codigo etico general UAH",
-      "description": "Codigo aprobado por Consejo de Gobierno de 22 de junio de 2017. Valores, principios de actuacion, integridad academica e institucional y conducta esperada.",
+      "title": "Tema 08. Código Ético General de la Universidad de Alcalá",
+      "description": "Documento marco aprobado en Consejo de Gobierno de 22 de junio de 2017 (publicado en el Boletín Oficial de la UAH). Este código ético recoge los valores institucionales, principios de buena conducta y compromisos de integridad.",
       "order": 8,
       "subtopics": [
         {
           "id": "uah-bib-t08-contenido",
           "topicId": "uah-bib-t08",
-          "title": "Codigo aprobado por Consejo de Gobierno de 22 de junio de 2017.",
-          "content": "Enfoque de examen: Valores, principios de actuacion, integridad academica e institucional y conducta esperada.\n\nAtención: No tratarlo como regimen disciplinario: orienta conductas y cultura etica, sin sustituir normas sancionadoras.\n\nPuntos clave: El codigo promueve integridad, responsabilidad, respeto, transparencia, imparcialidad y servicio publico. | Afecta a relaciones internas, uso de recursos, conflicto de intereses y compromiso institucional. | Es material de lectura directa: suelen preguntar finalidad, ambito y principios. | Relaciona etica publica con calidad del servicio universitario.",
+          "title": "Incluye referencias a normativa de buen gobierno y códigos de conducta sectoriales. Fuente: Boletín Oficial UAH, año XII, nº 6, 4/7/2017",
+          "content": "Enfoque de examen: Documento marco aprobado en Consejo de Gobierno de 22 de junio de 2017 (publicado en el Boletín Oficial de la UAH). Este código ético recoge los valores institucionales, principios de buena conducta y compromisos de integridad.\n\nContenido acotado: Incluye referencias a normativa de buen gobierno y códigos de conducta sectoriales. Fuente: Boletín Oficial UAH, año XII, nº 6, 4/7/2017\n\nCobertura oficial: #codigo-etico-general-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
             "uah-tema-008"
           ]
         }
@@ -181,31 +189,6 @@
       "tags": [
         "examen-oficial",
         "upm-c1-2025-1",
-        "uah-tema-008",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q019-2ee3b72d2ff5",
-      "topicId": "uah-bib-t08-contenido",
-      "question": "Según el Código Peñalver, se entiende por código ético:",
-      "options": [
-        "El modelo que debiera inspirar la conducta de los miembros de la UCA.",
-        "El modelo que debiera inspirar la conducta de toda la ciudadanía",
-        "Un documento vivo y dinámico, abierto a una permanente respuesta a los posibles nuevos requerimientos sociales.",
-        "Un documento donde se tomen medidas adecuadas para solucionar de modo efectivo los conflictos de intereses."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 19. Respuesta validada por la plantilla oficial: El modelo que debiera inspirar la conducta de los miembros de la UCA.. Clasificada como Tema 8 (Código ético) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q019",
-        "path": "data/general/08_codigo-etico-general-UAH.md",
-        "highlightText": "El modelo que debiera inspirar la conducta de los miembros de la UCA."
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
         "uah-tema-008",
         "prioridad-alta"
       ]

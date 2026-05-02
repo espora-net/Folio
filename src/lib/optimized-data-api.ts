@@ -223,7 +223,7 @@ const decodeIndex = (index: FlatOptimizedIndex): Pick<Database, 'meta' | 'studyT
   datasets: collect(index.datasetsLength(), (itemIndex) => decodeDatasetDescriptor(index.datasets(itemIndex))),
 });
 
-const decodeTopic = (topic: FlatOptimizedTopic | null): Topic | null => {
+const decodeTopic = (topic: FlatOptimizedTopic | null, sourceDatasetId: string): Topic | null => {
   if (!topic) return null;
   const parentId = text(topic.parentId());
   const tag = text(topic.tag());
@@ -239,6 +239,7 @@ const decodeTopic = (topic: FlatOptimizedTopic | null): Topic | null => {
     completed: topic.completed(),
     tag: tag || undefined,
     color: color || undefined,
+    sourceDatasetId,
     syllabusCoverageIds: syllabusCoverageIds.length ? syllabusCoverageIds : undefined,
   };
 };
@@ -290,7 +291,7 @@ const decodeQuestion = (question: FlatOptimizedQuestion | null, sourceDatasetId:
 const decodeDataset = (dataset: FlatOptimizedDataset): Pick<Database, 'topics' | 'flashcards' | 'questions'> => {
   const sourceDatasetId = text(dataset.id());
   return {
-    topics: collect(dataset.topicsLength(), (index) => decodeTopic(dataset.topics(index))),
+    topics: collect(dataset.topicsLength(), (index) => decodeTopic(dataset.topics(index), sourceDatasetId)),
     flashcards: collect(dataset.flashcardsLength(), (index) => decodeFlashcard(dataset.flashcards(index), sourceDatasetId)),
     questions: collect(dataset.questionsLength(), (index) => decodeQuestion(dataset.questions(index), sourceDatasetId)),
   };

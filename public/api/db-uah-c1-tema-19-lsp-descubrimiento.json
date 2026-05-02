@@ -1,25 +1,36 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 19 - LSP y herramientas de descubrimiento",
-    "description": "Banco de preguntas y flashcards del tema 19 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 19 - Las Plataformas de Servicios Bibliotecarios (LSP)",
+    "description": "Banco normalizado de preguntas del tema 19 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 19,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 5,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 11
   },
   "topics": [
     {
       "id": "uah-bib-t19",
-      "title": "Tema 19. LSP y herramientas de descubrimiento",
-      "description": "Plataformas de Servicios Bibliotecarios y buscador de la Biblioteca UAH. Funciones integradas de una LSP y diferencias entre gestion interna y descubrimiento para usuario.",
+      "title": "Tema 19. Las Plataformas de Servicios Bibliotecarios (LSP)",
+      "description": "Las Plataformas de Servicios Bibliotecarios (LSP) y las herramientas de descubrimiento. La plataforma de Servicios Bibliotecarios y el Buscador de la Biblioteca de la Universidad de Alcalá.",
       "order": 19,
       "subtopics": [
         {
           "id": "uah-bib-t19-contenido",
           "topicId": "uah-bib-t19",
-          "title": "Plataformas de Servicios Bibliotecarios y buscador de la Biblioteca UAH.",
-          "content": "Enfoque de examen: Funciones integradas de una LSP y diferencias entre gestion interna y descubrimiento para usuario.\n\nAtención: El buscador de descubrimiento no sustituye a toda la plataforma: es la capa visible de recuperacion.\n\nPuntos clave: Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios. | Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos. | La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo. | El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
+          "title": "Sistemas integrados de gestión bibliotecaria y herramientas de búsqueda y descubrimiento utilizadas en la UAH",
+          "content": "Enfoque de examen: Las Plataformas de Servicios Bibliotecarios (LSP) y las herramientas de descubrimiento. La plataforma de Servicios Bibliotecarios y el Buscador de la Biblioteca de la Universidad de Alcalá.\n\nContenido acotado: Sistemas integrados de gestión bibliotecaria y herramientas de búsqueda y descubrimiento utilizadas en la UAH\n\nCobertura oficial: #lsp, #herramientas-descubrimiento, #plataforma-uah, #buscador-biblioteca-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#lsp",
+            "#herramientas-descubrimiento",
+            "#plataforma-uah",
+            "#buscador-biblioteca-uah",
             "uah-tema-019"
           ]
         }
@@ -306,56 +317,6 @@
       ]
     },
     {
-      "id": "uah-exam-valencia-c1-2025-q024-a7596883ebf8",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "En la herramienta de descubrimiento Trobes existe una opción para realizar búsquedas por índices. ¿Cuáles son todos los índices disponibles por los que se puede realizar esta búsqueda?",
-      "options": [
-        "Autoría, signatura, materia y título",
-        "Autoría, editor, materia y título",
-        "Autoría, editor y título",
-        "Autoría, materia y título"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 24. Respuesta validada por la plantilla oficial: Autoría, signatura, materia y título. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q024",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Autoría, signatura, materia y título"
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-valencia-c1-2025-q053-f43d08c91498",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "En la herramienta de descubrimiento Trobes, ¿puede un usuario externo acceder a 'Mi cuenta'?",
-      "options": [
-        "No puede acceder.",
-        "Solamente pueden acceder los usuarios de convenio.",
-        "Solamente pueden acceder los usuarios avalados.",
-        "Pueden acceder tanto los usuarios de convenios como los avalados."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 53. Respuesta validada por la plantilla oficial: Pueden acceder tanto los usuarios de convenios como los avalados.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q053",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Pueden acceder tanto los usuarios de convenios como los avalados."
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
       "id": "uah-exam-valencia-c1-2025-q070-e4ababf7e1b8",
       "topicId": "uah-bib-t19-contenido",
       "question": "¿Los documentos depositados en el repositorio institucional RODERIC se pueden localizar desde la herramienta de descubrimiento Trobes?",
@@ -378,181 +339,6 @@
         "valencia-c1-2025",
         "uah-tema-019",
         "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q022-26467b1774e0",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué ventaja ofrece Koha al ser un software de código abierto?",
-      "options": [
-        "Es únicamente accesible para desarrolladores informáticos.",
-        "No puede ser modificado según las necesidades de cada biblioteca.",
-        "Permite la personalización según necesidades específicas y no implica costes de licencia propietaria.",
-        "Funciona solo sin conexión a internet."
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 22. Respuesta validada por la plantilla oficial: Permite la personalización según necesidades específicas y no implica costes de licencia propietaria.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q022",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Permite la personalización según necesidades específicas y no implica costes de licencia propietaria."
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q023-43c249504420",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "¿Cómo puede consultar un usuario del Campus de Jerez los libros ubicados en la Biblioteca del Campus de Cádiz?",
-      "options": [
-        "No puede acceder desde otros campus que no sea Cádiz.",
-        "Solo a través de una solicitud física al personal de biblioteca.",
-        "Mediante acceso en línea al catálogo de la Biblioteca de la UCA, Koha, desde cualquier ubicación.",
-        "Unicamente tras solicitarlo personalmente a un profesor de su campus."
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 23. Respuesta validada por la plantilla oficial: Mediante acceso en línea al catálogo de la Biblioteca de la UCA, Koha, desde cualquier ubicación.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q023",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Mediante acceso en línea al catálogo de la Biblioteca de la UCA, Koha, desde cualquier ubicación."
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q033-da582d7e954f",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "Koha es un sistema desarrollado por:",
-      "options": [
-        "Bibliotecas, voluntarios y empresas",
-        "La Federación Internacional de Asociaciones e Instituciones Bibliotecarias (IFLA)",
-        "El Online Computer Library Center (OCLC)",
-        "The Horowhenua Library Trust de Nueva Zelanda"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 33. Respuesta validada por la plantilla oficial: Bibliotecas, voluntarios y empresas. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q033",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Bibliotecas, voluntarios y empresas"
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cadiz-c1-2025-q046-514f6cf3b59b",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué ofrece el BUSCAdor Summon para conectar los resultados de la búsqueda con la docencia universitaria?",
-      "options": [
-        "Filtrar la bibliografía recomendada por asignatura y profesor",
-        "Filtrar la bibliografía recomendada por grado y asignatura",
-        "Filtrar material docente del campus virtual",
-        "Filtrar material docente del portal de producción científica ul"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 46. Respuesta validada por la plantilla oficial: Filtrar la bibliografía recomendada por asignatura y profesor. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cadiz-c1-2025#q046",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Filtrar la bibliografía recomendada por asignatura y profesor"
-      },
-      "tags": [
-        "examen-oficial",
-        "cadiz-c1-2025",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q058-103565672b61",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "¿A qué nos referimos cuando hablamos de la publicación postprint?",
-      "options": [
-        "Al manuscrito aceptado por la revista y remitido para su publicación después de la revisión por pares, con la redacción definitiva del texto.",
-        "Al manuscrito aceptado por la revista pero que aún no ha pasado la revisión por pares.",
-        "Al manuscrito aceptado por la revista, que ha pasado la revisión por pares y presenta la versión final, es decir, la versión publicada (formato, logo, numeración...).",
-        "Al manuscrito rechazado por la revista."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 58. Respuesta validada por la plantilla oficial: Al manuscrito aceptado por la revista y remitido para su publicación después de la revisión por pares, con la redacción definitiva del texto.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q058",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Al manuscrito aceptado por la revista y remitido para su publicación después de la revisión por pares, con la redacción definitiva del texto."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-019",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q072-3a2d9a9708ff",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "De estas afirmaciones, cuál expresa una diferencia notable entre los SIGB y las plataformas de servicios bibliotecarios:",
-      "options": [
-        "Las plataformas integran la gestión de recursos electrónicos.",
-        "Las plataformas no permiten hacer consultas retrospectivas.",
-        "Los SIGB incluyen una herramienta de descubrimiento.",
-        "Los SIGB no tienen control de autoridades."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 72. Respuesta validada por la plantilla oficial: Las plataformas integran la gestión de recursos electrónicos.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q072",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Las plataformas integran la gestión de recursos electrónicos."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-019",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q073-5e97b019e7db",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "El OPAC de Absysnet es de diseño <responsivo= lo que significa que:",
-      "options": [
-        "Darespuesta a todas las búsquedas bibliográficas.",
-        "Tiene un asistente de voz.",
-        "Se adapta a las pantallas de múltiples dispositivos.",
-        "Se puede usar en cualquier idioma."
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 73. Respuesta validada por la plantilla oficial: Se adapta a las pantallas de múltiples dispositivos.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q073",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Se adapta a las pantallas de múltiples dispositivos."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-019",
-        "prioridad-media"
       ]
     },
     {
@@ -581,31 +367,6 @@
       ]
     },
     {
-      "id": "uah-exam-uz-c1-libre-2024-q021-2a8ef67eb441",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "Las siglas OPAC significan:",
-      "options": [
-        "Online Processing Access Catalog.",
-        "Online Public Access Catalog.",
-        "Online Public Automated Catalog.",
-        "Online Processing Automated Catalog."
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 21. Respuesta validada por la plantilla oficial: Online Public Access Catalog.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uz-c1-libre-2024#q021",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "Online Public Access Catalog."
-      },
-      "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
       "id": "uah-exam-uz-c1-libre-2024-q034-6468150ee7d9",
       "topicId": "uah-bib-t19-contenido",
       "question": "¿Cuál de estas utilidades NO proporciona la plataforma de servicios bibliotecarios FOLIO a la Biblioteca de la Universidad de Zaragoza?",
@@ -622,31 +383,6 @@
         "materialId": "uz-c1-libre-2024#q034",
         "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
         "highlightText": "Adquisición."
-      },
-      "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-019",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-uz-c1-libre-2024-q037-af97bb9bc95a",
-      "topicId": "uah-bib-t19-contenido",
-      "question": "FOLIO es una plataforma de servicios bibliotecarios",
-      "options": [
-        "De código abierto.",
-        "De código cerrado.",
-        "De código secuencia.",
-        "De código ordinario."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 37. Respuesta validada por la plantilla oficial: De código abierto.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uz-c1-libre-2024#q037",
-        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
-        "highlightText": "De código abierto."
       },
       "tags": [
         "examen-oficial",

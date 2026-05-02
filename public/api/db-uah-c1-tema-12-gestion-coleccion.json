@@ -1,25 +1,38 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 12 - Gestion de la coleccion",
-    "description": "Banco de preguntas y flashcards del tema 12 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 12 - La gestión de la colección en las bibliotecas universitarias",
+    "description": "Banco normalizado de preguntas del tema 12 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 16,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 2,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 9
   },
   "topics": [
     {
       "id": "uah-bib-t12",
-      "title": "Tema 12. Gestion de la coleccion",
-      "description": "Seleccion, adquisicion, conservacion, preservacion, ordenacion, difusion, evaluacion, expurgo, colecciones especiales y fondo antiguo. Entender el ciclo completo de coleccion y aplicar criterios a supuestos practicos.",
+      "title": "Tema 12. La gestión de la colección en las bibliotecas universitarias",
+      "description": "La gestión de la colección en las bibliotecas universitarias. Selección y adquisición, conservación, preservación, ordenación, difusión, evaluación y expurgo. Colecciones especiales y fondo antiguo en la Biblioteca de la Universidad de Alcalá.",
       "order": 12,
       "subtopics": [
         {
           "id": "uah-bib-t12-contenido",
           "topicId": "uah-bib-t12",
-          "title": "Seleccion, adquisicion, conservacion, preservacion, ordenacion, difusion, evaluacion, expurgo, colecciones especiales y fondo antiguo.",
-          "content": "Enfoque de examen: Entender el ciclo completo de coleccion y aplicar criterios a supuestos practicos.\n\nAtención: Expurgo no significa destruccion arbitraria: requiere criterios, evaluacion y procedimiento.\n\nPuntos clave: La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional. | La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas. | La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital. | La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
+          "title": "Ciclo completo de gestión de la colección, desde la selección hasta el expurgo, incluyendo colecciones especiales",
+          "content": "Enfoque de examen: La gestión de la colección en las bibliotecas universitarias. Selección y adquisición, conservación, preservación, ordenación, difusión, evaluación y expurgo. Colecciones especiales y fondo antiguo en la Biblioteca de la Universidad de Alcalá.\n\nContenido acotado: Ciclo completo de gestión de la colección, desde la selección hasta el expurgo, incluyendo colecciones especiales\n\nCobertura oficial: #seleccion-adquisicion, #conservacion-preservacion, #ordenacion-difusion, #evaluacion-expurgo, #colecciones-especiales, #fondo-antiguo-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#seleccion-adquisicion",
+            "#conservacion-preservacion",
+            "#ordenacion-difusion",
+            "#evaluacion-expurgo",
+            "#colecciones-especiales",
+            "#fondo-antiguo-uah",
             "uah-tema-012"
           ]
         }
@@ -256,106 +269,6 @@
       }
     },
     {
-      "id": "uah-exam-upm-c1-2025-1-q035-6676005096fb",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "¿Cuál es el primer paso en la gestión de la colección bibliográfica?",
-      "options": [
-        "Selección de materiales",
-        "Expurgo",
-        "Encuadernación",
-        "Préstamo"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 35. Respuesta validada por la plantilla oficial: Selección de materiales. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q035",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Selección de materiales"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-012",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-upm-c1-2025-1-q088-688144f942ed",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "Entre los formatos recomendados para la preservación digital de imágenes se incluye:",
-      "options": [
-        "TIFF sin compresión o con compresión sin pérdida",
-        "JPEG con alta compresión",
-        "GIF animado",
-        "BMP sin comprimir"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 88. Respuesta validada por la plantilla oficial: TIFF sin compresión o con compresión sin pérdida. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q088",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "TIFF sin compresión o con compresión sin pérdida"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-012",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-udc-c1-2025-2-q048-a420389c823d",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "¿Qué criterio NO se considera válido en el expurgo de la colección?",
-      "options": [
-        "Elespacio disponible",
-        "La obsolescencia:",
-        "Laredundancia",
-        "El origen de los fondos"
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 48. Respuesta validada por la plantilla oficial: El origen de los fondos. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "udc-c1-2025-2#q048",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "El origen de los fondos"
-      },
-      "tags": [
-        "examen-oficial",
-        "udc-c1-2025-2",
-        "uah-tema-012",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-udc-c1-2025-2-q051-6ebb5ff4bac2",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "¿Por qué medio puede tramitarse la solicitud de documentos objeto de donación de la BUDC?",
-      "options": [
-        "Por teléfono",
-        "Personalmente",
-        "— Mediante una solicitud en línea en la página web de la BUDC",
-        "Todas son correctas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 51. Respuesta validada por la plantilla oficial: Personalmente. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "udc-c1-2025-2#q051",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Personalmente"
-      },
-      "tags": [
-        "examen-oficial",
-        "udc-c1-2025-2",
-        "uah-tema-012",
-        "prioridad-alta"
-      ]
-    },
-    {
       "id": "uah-exam-valencia-c1-2025-q001-73ff887fd020",
       "topicId": "uah-bib-t12-contenido",
       "question": "El Servei de Biblioteques i Documentació de la Universitat de Valencia pertenece a un grupo de compra para la adquisición conjunta de fondos bibliográficos que se denomina:",
@@ -372,31 +285,6 @@
         "materialId": "valencia-c1-2025#q001",
         "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
         "highlightText": "UNIRIS"
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-012",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-valencia-c1-2025-q039-150b981a3280",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "¿Cómo se entiende y qué función tiene un trial en el proceso de adquisición de recursos en una biblioteca?",
-      "options": [
-        "Son recursos de información que las diferentes empresas del sector bibliotecario ofrecen a sus clientes para que los testeen, con la obligación de adquirirlos o suscribirlos.*",
-        "Programas de difícil instalación. Xx 7",
-        "Recursos de información que las diferentes empresas del sector bibliotecario ofrecen a sus clientes para que los testeen antes de adquirirlos o suscribirlos.",
-        "Recursos de información adquiridos desde hace tiempo y que siempre dan un servicio adecuado. x"
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 39. Respuesta validada por la plantilla oficial: Recursos de información que las diferentes empresas del sector bibliotecario ofrecen a sus clientes para que los testeen antes de adquirirlos o suscribirlos.. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q039",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Recursos de información que las diferentes empresas del sector bibliotecario ofrecen a sus clientes para que los testeen antes de adquirirlos o suscribirlos."
       },
       "tags": [
         "examen-oficial",
@@ -428,106 +316,6 @@
         "cadiz-c1-2025",
         "uah-tema-012",
         "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-uned-aux-2024-q048-96908159b8a4",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "PREMIS es un esquema de:",
-      "options": [
-        "Metadatos técnico.",
-        "Metadatos descriptivo.",
-        "Metadatos de preservación.",
-        "Metadatos estructural."
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 48. Respuesta validada por la plantilla oficial: Metadatos de preservación.. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uned-aux-2024#q048",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Metadatos de preservación."
-      },
-      "tags": [
-        "examen-oficial",
-        "uned-aux-2024",
-        "uah-tema-012",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q028-32a3a2e028fb",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "¿Cuáles son los procesos de ingreso tradicionales de los fondos bibliográficos en las bibliotecas universitarias? 1 ¢",
-      "options": [
-        "Compra, donación e intercambio.",
-        "Compra, donación y alquiler.",
-        "Compra, canje y relego.",
-        "Compra, relego y depósito."
-      ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 28. Respuesta validada por la plantilla oficial: Compra, donación e intercambio.. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q028",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Compra, donación e intercambio."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-012",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q029-b4cd8087f3db",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "Respecto a la selección negativa, indique cuál de las siguientes respuestas es correcta:",
-      "options": [
-        "Implica siempre la destrucción de todos los documentos seleccionados.",
-        "Esla tarea primordial en las bibliotecas.",
-        "Supone exclusivamente el relego de documentos a los almacenes.",
-        "Los documentos expurgados pueden pasar a otras bibliotecas."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 29. Respuesta validada por la plantilla oficial: Los documentos expurgados pueden pasar a otras bibliotecas.. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q029",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Los documentos expurgados pueden pasar a otras bibliotecas."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-012",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q031-665e16057da9",
-      "topicId": "uah-bib-t12-contenido",
-      "question": "¿Cuál de los siguientes NO es un tipo de adquisición de libros electrónicos?",
-      "options": [
-        "Compras a perpetuidad.",
-        "Suscripción anual.",
-        "Patron Driven Acquisitions.",
-        "Acuerdo transformativo."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 31. Respuesta validada por la plantilla oficial: Acuerdo transformativo.. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q031",
-        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
-        "highlightText": "Acuerdo transformativo."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-012",
-        "prioridad-media"
       ]
     },
     {

@@ -7,6 +7,7 @@ export interface Topic {
   completed: boolean;
   tag?: string;
   color?: string;
+  sourceDatasetId?: string;
   // IDs de cobertura de convocatoria (para filtrar qué entra en cada convocatoria)
   syllabusCoverageIds?: string[];
 }

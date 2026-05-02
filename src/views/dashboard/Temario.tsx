@@ -114,14 +114,17 @@ const Temario = () => {
     if (!pendingDeepLink || !convocatoriaData) return;
     
     const { file, section, highlight } = pendingDeepLink;
+    const cleanFile = file.replace(/^\/+/, '').split('#')[0];
+    const cleanFilename = cleanFile.split('/').pop() || cleanFile;
     setPendingDeepLink(null); // Clear pending to avoid re-processing
     
     // Find the tema and recurso that matches the file
     for (const tema of convocatoriaData.temas) {
       for (const recurso of tema.recursos) {
         // Match by filename (last segment of archivo path)
-        const recursoFilename = recurso.archivo.split('/').pop()?.split('#')[0] || recurso.archivo;
-        if (recursoFilename === file || recurso.archivo.includes(file)) {
+        const cleanArchivo = recurso.archivo.replace(/^\/+/, '').split('#')[0];
+        const recursoFilename = cleanArchivo.split('/').pop() || cleanArchivo;
+        if (cleanArchivo === cleanFile || recursoFilename === cleanFilename || cleanArchivo.endsWith(`/${cleanFile}`)) {
           // Found matching recurso - select tema and open the recurso
           setSelectedTema(tema);
           handleOpenRecurso(recurso, section, highlight);
@@ -132,12 +135,12 @@ const Temario = () => {
     
     // If no matching recurso found in temas, try to open directly as a file path
     // This handles cases where the file might not be registered in any tema
-    const tipo = file.endsWith('.md') ? 'md' : file.endsWith('.pdf') ? 'pdf' : file.endsWith('.mp3') ? 'mp3' : null;
+    const tipo = cleanFile.endsWith('.md') ? 'md' : cleanFile.endsWith('.pdf') ? 'pdf' : cleanFile.endsWith('.mp3') ? 'mp3' : null;
     if (tipo === 'md') {
       const syntheticRecurso: TemaRecurso = {
         tipo: 'md',
-        nombre: file,
-        archivo: `data/general/${file}`
+        nombre: cleanFilename,
+        archivo: cleanFile.startsWith('data/') ? cleanFile : `data/general/${cleanFilename}`
       };
       handleOpenRecurso(syntheticRecurso, section, highlight);
     }

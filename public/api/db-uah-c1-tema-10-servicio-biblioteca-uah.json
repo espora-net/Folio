@@ -1,25 +1,35 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T18:07:05.439Z",
-    "officialExamQuestions": 259,
-    "opositatesReferenceQuestions": 44,
-    "title": "UAH C1 Tema 10 - Servicio de Biblioteca UAH",
-    "description": "Banco de preguntas y flashcards del tema 10 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025."
+    "updatedAt": "2026-05-02T20:22:58.854+02:00",
+    "title": "UAH C1 Tema 10 - El Servicio de Biblioteca de la Universidad de Alcalá",
+    "description": "Banco normalizado de preguntas del tema 10 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
+    "questionCount": 15,
+    "explicitFlashcardCount": 4,
+    "originCounts": {
+      "curada": 8,
+      "refuerzo": 4,
+      "oficial": 1,
+      "opositatest-referencia": 2
+    },
+    "removedUnverifiedOfficialQuestions": 9
   },
   "topics": [
     {
       "id": "uah-bib-t10",
-      "title": "Tema 10. Servicio de Biblioteca UAH",
-      "description": "Mision, vision, estructura, guia de cultura y valores, y Reglamento de la Biblioteca UAH. Conocer que es la BUAH, como se organiza, que valores declara y que regula su reglamento.",
+      "title": "Tema 10. El Servicio de Biblioteca de la Universidad de Alcalá",
+      "description": "El Servicio de Biblioteca de la UAH: misión, visión, estructura, guía de cultura y valores. Reglamento de la Biblioteca de la Universidad de Alcalá (Aprobado en Consejo de Gobierno de 22 de diciembre de 2005).",
       "order": 10,
       "subtopics": [
         {
           "id": "uah-bib-t10-contenido",
           "topicId": "uah-bib-t10",
-          "title": "Mision, vision, estructura, guia de cultura y valores, y Reglamento de la Biblioteca UAH.",
-          "content": "Enfoque de examen: Conocer que es la BUAH, como se organiza, que valores declara y que regula su reglamento.\n\nAtención: No estudiar una biblioteca universitaria generica: el examen pide la Biblioteca de la Universidad de Alcala.\n\nPuntos clave: La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria. | La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo. | La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua. | El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
+          "title": "Organización del servicio, objetivos estratégicos y normativa reguladora de la Biblioteca UAH",
+          "content": "Enfoque de examen: El Servicio de Biblioteca de la UAH: misión, visión, estructura, guía de cultura y valores. Reglamento de la Biblioteca de la Universidad de Alcalá (Aprobado en Consejo de Gobierno de 22 de diciembre de 2005).\n\nContenido acotado: Organización del servicio, objetivos estratégicos y normativa reguladora de la Biblioteca UAH\n\nCobertura oficial: #mision-vision-estructura, #guia-cultura-y-valores, #reglamento-biblioteca-uah",
           "order": 1,
           "syllabusCoverageIds": [
+            "#mision-vision-estructura",
+            "#guia-cultura-y-valores",
+            "#reglamento-biblioteca-uah",
             "uah-tema-010"
           ]
         }
@@ -254,231 +264,6 @@
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
         "highlightText": "Servicio de Biblioteca UAH"
       }
-    },
-    {
-      "id": "uah-exam-upm-c1-2025-1-q058-215ccd6b0448",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "¿Qué papel desempeña la biblioteca universitaria en Moodle?",
-      "options": [
-        "Proporciona únicamente enlaces externos sin participación activa en la plataforma",
-        "Solo se utiliza como repositorio de documentos PDF sin intervención formativa",
-        "Integración de recursos, guías temáticas y apoyo en competencias informacionales",
-        "Solo ofrece acceso al catálogo de la biblioteca, sin conexión con los cursos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 58. Respuesta validada por la plantilla oficial: Integración de recursos, guías temáticas y apoyo en competencias informacionales. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q058",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "Integración de recursos, guías temáticas y apoyo en competencias informacionales"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-010",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-upm-c1-2025-1-q075-4df76385a17a",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "La biblioteca universitaria se define, en términos generales, como:",
-      "options": [
-        "Un archivo histórico de documentos oficiales",
-        "Un servicio académico que gestiona recursos de información para apoyar la docencia, el estudio y la investigación",
-        "Una empresa privada de préstamo comercial",
-        "Un museo dedicado a libros antiguos"
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 75. Respuesta validada por la plantilla oficial: Un servicio académico que gestiona recursos de información para apoyar la docencia, el estudio y la investigación. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q075",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "Un servicio académico que gestiona recursos de información para apoyar la docencia, el estudio y la investigación"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-010",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-upm-c1-2025-1-q081-9c30faff0755",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "El reglamento de la Biblioteca UPM establece que el carné de biblioteca es:",
-      "options": [
-        "Reemplazable por el DNI sin identificación electrónica",
-        "Obligatorio solo para profesorado",
-        "Personal e intransferible para cualquier usuario autorizado",
-        "Válido solo durante dos semanas"
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 81. Respuesta validada por la plantilla oficial: Personal e intransferible para cualquier usuario autorizado. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "upm-c1-2025-1#q081",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "Personal e intransferible para cualquier usuario autorizado"
-      },
-      "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-010",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-valencia-c1-2025-q048-0520c280b2d1",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "Según las Normas y directrices para bibliotecas universitarias y científicas de REBIUN, la colección básica de una biblioteca universitaria ha de disponer de:",
-      "options": [
-        "5.000 volúmenes",
-        "10.000 volúmenes",
-        "50.000 volúmenes",
-        "30.000 volúmenes"
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 48. Respuesta validada por la plantilla oficial: 50.000 volúmenes. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q048",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "50.000 volúmenes"
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-010",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-valencia-c1-2025-q080-4ff72b777612",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "Según las Normas y directrices para bibliotecas universitarias y científicas de REBIUN, la colección de una biblioteca universitaria ha de tener un incremento anual de:",
-      "options": [
-        "5 volúmenes por PDI y 10 volúmenes por alumno",
-        "10 volúmenes por PDI y 1 volumen por alumno",
-        "2 volúmenes por alumno y 5 volúmenes por PDI",
-        "5 volúmenes por alumno y 10 volúmenes por PDI"
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 80. Respuesta validada por la plantilla oficial: 10 volúmenes por PDI y 1 volumen por alumno. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "valencia-c1-2025#q080",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "10 volúmenes por PDI y 1 volumen por alumno"
-      },
-      "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-010",
-        "prioridad-alta"
-      ]
-    },
-    {
-      "id": "uah-exam-uned-aux-2024-q045-a7d4fe43003c",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "Según las \"Normas y directrices para bibliotecas universitarias y científicas\" elaboradas por REBIUN, el presupuesto ordinario asignado a la Biblioteca Universitaria debe suponer:",
-      "options": [
-        "Como mínimo el 10% del presupuesto total ordinario de la universidad.",
-        "El 20 % del presupuesto total ordinario de la universidad.",
-        "Como mínimo el 5 % del presupuesto total ordinario de la universidad.",
-        "El 15 % del presupuesto total ordinario de la universidad."
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 45. Respuesta validada por la plantilla oficial: Como mínimo el 5 % del presupuesto total ordinario de la universidad.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "uned-aux-2024#q045",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "Como mínimo el 5 % del presupuesto total ordinario de la universidad."
-      },
-      "tags": [
-        "examen-oficial",
-        "uned-aux-2024",
-        "uah-tema-010",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q025-e795240ace82",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "Según el Reglamento de la Biblioteca de la Universidad de Cantabria ¿qué consecuencia puede tener para un usuario/a utilizar la identificación de otra persona para acceder a la Biblioteca electrónica Emilio Botín?",
-      "options": [
-        "Comunicación a las autoridades académicas de su Facultad o Escuela",
-        "Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses.",
-        "Expulsión y suspensión de la biblioteca del Paraninfo por una semana.",
-        "En este caso, impone la medida correctora el Director del Servicio de Informática."
-      ],
-      "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 25. Respuesta validada por la plantilla oficial: Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q025",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-010",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q026-627321cb045d",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "Según el Reglamento de la Biblioteca de la Universidad de Cantabria, el grupo de dirección de la Biblioteca está formado por:",
-      "options": [
-        "Directora, Subdirectora, responsables de servicios técnicos y divisiones y la Administradora.",
-        "Directora, Subdirectora, responsables de servicios técnicos y un responsable de una división que actuara como secretario/a.",
-        "Directora, Subdirectora, Coordinadores y la Administradora, que actuará como secretaria.",
-        "Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria."
-      ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 26. Respuesta validada por la plantilla oficial: Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q026",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-010",
-        "prioridad-media"
-      ]
-    },
-    {
-      "id": "uah-exam-cantabria-c2-2025-q046-8ca6f6762157",
-      "topicId": "uah-bib-t10-contenido",
-      "question": "Indique cuál de las siguientes afirmaciones es correcta respecto a la Biblioteca de la Universidad de Cantabria:",
-      "options": [
-        "Elaccesoatodas las salas de lectura es libre.",
-        "Todas las salas de lectura están destinadas al estudio en silencio.",
-        "El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido.",
-        "En todas las Divisiones hay Salas de Grupo."
-      ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 46. Respuesta validada por la plantilla oficial: El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
-      "source": {
-        "materialId": "cantabria-c2-2025#q046",
-        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
-        "highlightText": "El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido."
-      },
-      "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-010",
-        "prioridad-media"
-      ]
     },
     {
       "id": "uah-exam-uz-c1-pi-2024-q015-cf4291b99d9b",
