@@ -71,7 +71,17 @@
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales",
         "ley-53-1984-incompatibilidades"
-      ]
+      ],
+      "examConfig": {
+        "numQuestions": 80,
+        "numReserve": 5,
+        "durationMinutes": 90,
+        "pointsCorrect": 1,
+        "pointsIncorrect": -0.33,
+        "pointsBlank": 0,
+        "passingScore": 40,
+        "description": "Ejercicio tipo test de 80 preguntas con 4 alternativas de respuesta, de las cuales solo una es correcta. Se incluyen 5 preguntas de reserva. Duración máxima: 90 minutos."
+      }
     },
     {
       "id": "urjc-2026-c2",

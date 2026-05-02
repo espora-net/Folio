@@ -137,6 +137,49 @@
           "items": {
             "type": "string"
           }
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Si true, la convocatoria no se muestra en la UI."
+        },
+        "examConfig": {
+          "type": "object",
+          "description": "Configuración del examen oficial (nº preguntas, duración, puntuación).",
+          "properties": {
+            "numQuestions": {
+              "type": "integer",
+              "description": "Número de preguntas del examen."
+            },
+            "numReserve": {
+              "type": "integer",
+              "description": "Número de preguntas de reserva."
+            },
+            "durationMinutes": {
+              "type": "integer",
+              "description": "Duración del examen en minutos."
+            },
+            "pointsCorrect": {
+              "type": "number",
+              "description": "Puntos por respuesta correcta."
+            },
+            "pointsIncorrect": {
+              "type": "number",
+              "description": "Penalización por respuesta incorrecta (valor negativo)."
+            },
+            "pointsBlank": {
+              "type": "number",
+              "description": "Puntos por pregunta en blanco."
+            },
+            "passingScore": {
+              "type": "number",
+              "description": "Nota mínima para aprobar."
+            },
+            "description": {
+              "type": "string",
+              "description": "Descripción del formato del examen."
+            }
+          },
+          "required": ["numQuestions", "durationMinutes", "pointsCorrect", "pointsIncorrect", "pointsBlank"]
         }
       }
     },
