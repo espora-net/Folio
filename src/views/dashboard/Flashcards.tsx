@@ -141,32 +141,29 @@ const Flashcards = () => {
     return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
   }, [topics, selectedConvocatoria, filterMode]);
 
+  const convocatoriaTopicSet = useMemo(
+    () => (convocatoriaTopicIds && convocatoriaTopicIds.length > 0 ? new Set(convocatoriaTopicIds) : null),
+    [convocatoriaTopicIds]
+  );
+
+  const selectedTopicSet = useMemo(
+    () => (selectedTopics.length > 0 ? new Set(selectedTopics) : null),
+    [selectedTopics]
+  );
+
   const filteredFlashcards = useMemo(() => {
-    let result = flashcards;
+    if (!convocatoriaTopicSet && !selectedTopicSet && originFilter === 'all') return flashcards;
 
-    // Primero filtrar por convocatoria si está activo
-    if (convocatoriaTopicIds && convocatoriaTopicIds.length > 0) {
-      result = result.filter(f => convocatoriaTopicIds.includes(f.topicId));
-    }
+    return flashcards.filter(f => {
+      if (convocatoriaTopicSet && !convocatoriaTopicSet.has(f.topicId)) return false;
+      if (selectedTopicSet && !selectedTopicSet.has(f.topicId)) return false;
+      if (originFilter === 'all') return true;
 
-    if (selectedTopics.length > 0) {
-      result = result.filter(f => selectedTopics.includes(f.topicId));
-    }
-
-    if (originFilter !== 'all') {
-      if (originFilter === 'generated') {
-        // 'generated' incluye origin === 'generated' y origin === 'ia'
-        result = result.filter(f => {
-          const o = (f.origin || 'generated');
-          return o === 'generated' || o === 'ia';
-        });
-      } else {
-        result = result.filter(f => (f.origin || 'generated') === originFilter);
-      }
-    }
-
-    return result;
-  }, [flashcards, selectedTopics, originFilter, convocatoriaTopicIds]);
+      const origin = f.origin || 'generated';
+      if (originFilter === 'generated') return origin === 'generated' || origin === 'ia';
+      return origin === originFilter;
+    });
+  }, [flashcards, selectedTopicSet, originFilter, convocatoriaTopicSet]);
 
   const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
 

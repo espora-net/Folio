@@ -73,15 +73,23 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      - name: Install FlatBuffers compiler
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y flatbuffers-compiler
+      - name: Validate JSON source data
+        run: ${{ steps.detect-package-manager.outputs.manager }} run validate-schemas
+      - name: Generate optimized FlatBuffers data
+        run: ${{ steps.detect-package-manager.outputs.manager }} run generate-flatbuffers
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      # public/ is the source of truth, no dataset copy step needed
-      - name: Ensure out directory exists
+      - name: Ensure optimized data was exported
         run: |
-          mkdir -p out/api
-      - name: Copy public/api to out/api
+          test -f out/api/optimized/manifest.json
+          test -f out/api/optimized/index.fb.bin
+      - name: Remove JSON source files from runtime API
         run: |
-          cp -a public/api/* out/api/ || true
+          find out/api -maxdepth 1 -type f -name '*.json' -delete
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

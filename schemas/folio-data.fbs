@@ -1,0 +1,203 @@
+namespace Folio.FlatData;
+
+table DatabaseMeta {
+  title:string;
+  description:string;
+  version:string;
+  updatedAt:string;
+}
+
+table ResourceDescriptor {
+  type:string;
+  title:string;
+  path:string;
+}
+
+table DatasetDescriptor {
+  id:string;
+  title:string;
+  description:string;
+  file:string;
+  url:string;
+  tag:string;
+  color:string;
+  officialUrl:string;
+  resources:[ResourceDescriptor];
+}
+
+table StudyTypeRegistryEntry {
+  id:string;
+  label:string;
+  temarioTemplate:string;
+  questionDatasetIds:[string];
+  convocatoriaId:string;
+}
+
+table ExamConfig {
+  numQuestions:int;
+  numReserve:int;
+  durationMinutes:int;
+  pointsCorrect:double;
+  pointsIncorrect:double;
+  pointsBlank:double;
+  passingScore:double;
+  hasPassingScore:bool;
+  description:string;
+}
+
+table ConvocatoriaDescriptor {
+  id:string;
+  title:string;
+  shortTitle:string;
+  institucion:string;
+  cuerpo:string;
+  year:int;
+  file:string;
+  color:string;
+  activa:bool;
+  hidden:bool;
+  studyType:string;
+  questionDatasetIds:[string];
+  examConfig:ExamConfig;
+}
+
+table OptimizedIndex {
+  meta:DatabaseMeta;
+  studyTypes:[StudyTypeRegistryEntry];
+  convocatorias:[ConvocatoriaDescriptor];
+  datasets:[DatasetDescriptor];
+}
+
+table QuestionSource {
+  materialId:string;
+  path:string;
+  highlightText:string;
+}
+
+table OptimizedTopic {
+  id:string;
+  title:string;
+  description:string;
+  parentId:string;
+  order:int;
+  completed:bool;
+  tag:string;
+  color:string;
+  syllabusCoverageIds:[string];
+}
+
+table OptimizedFlashcard {
+  id:string;
+  topicId:string;
+  question:string;
+  answer:string;
+  origin:string;
+}
+
+table OptimizedQuestion {
+  id:string;
+  topicId:string;
+  question:string;
+  options:[string];
+  correctIndex:int;
+  explanation:string;
+  origin:string;
+  source:QuestionSource;
+}
+
+table OriginCount {
+  origin:string;
+  count:int;
+}
+
+table TopicCount {
+  topicId:string;
+  count:int;
+}
+
+table OptimizedCounts {
+  totalTopics:int;
+  totalFlashcards:int;
+  totalQuestions:int;
+  originCounts:[OriginCount];
+  topicCounts:[TopicCount];
+}
+
+table OptimizedDataset {
+  id:string;
+  title:string;
+  description:string;
+  tag:string;
+  color:string;
+  officialUrl:string;
+  topics:[OptimizedTopic];
+  flashcards:[OptimizedFlashcard];
+  questions:[OptimizedQuestion];
+  counts:OptimizedCounts;
+}
+
+table ConvocatoriaHeader {
+  id:string;
+  institucion:string;
+  cuerpo:string;
+  year:int;
+  fuenteOficial:string;
+  enlacePublicacion:string;
+  proposito:string;
+}
+
+table TemaRecurso {
+  tipo:string;
+  nombre:string;
+  archivo:string;
+}
+
+table TemaMaterialComplementario {
+  id:string;
+  titulo:string;
+  archivo:string;
+  coberturaConvocatoria:[string];
+}
+
+table GuiaApoyo {
+  id:string;
+  titulo:string;
+  descripcion:string;
+  archivo:string;
+  relevancia:string;
+}
+
+table TemaConvocatoria {
+  id:string;
+  numero:int;
+  titulo:string;
+  bloque:string;
+  descripcion:string;
+  contenidoEspecifico:string;
+  temasRelacionados:[string];
+  relevancia:string;
+  fechaActualizacion:string;
+  coberturaConvocatoria:[string];
+  recursos:[TemaRecurso];
+  materialesComplementarios:[TemaMaterialComplementario];
+}
+
+table OptimizedConvocatoria {
+  meta:DatabaseMeta;
+  descripcion:string;
+  convocatoria:ConvocatoriaHeader;
+  totalTemas:int;
+  temas:[TemaConvocatoria];
+  guiasApoyo:[GuiaApoyo];
+}
+
+table OptimizedBundle {
+  schemaVersion:string;
+  generatedAt:string;
+  index:OptimizedIndex;
+  dataset:OptimizedDataset;
+  convocatoria:OptimizedConvocatoria;
+}
+
+root_type OptimizedBundle;
+file_identifier "FOLI";

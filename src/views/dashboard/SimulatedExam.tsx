@@ -88,7 +88,8 @@ const SimulatedExam = () => {
     if (!selectedConvocatoria) return [];
     const topicIds = getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
     if (!topicIds || topicIds.length === 0) return questions;
-    return questions.filter(q => topicIds.includes(q.topicId));
+    const topicIdSet = new Set(topicIds);
+    return questions.filter(q => topicIdSet.has(q.topicId));
   }, [questions, topics, selectedConvocatoria]);
 
   const finishExam = useCallback(() => {
@@ -120,7 +121,6 @@ const SimulatedExam = () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
   // Only re-run when exam phase changes (not on every tick)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [examPhase]);
 
   // Fullscreen handling
@@ -214,8 +214,9 @@ const SimulatedExam = () => {
     let correct = 0;
     let incorrect = 0;
     let blank = 0;
+    const scoredQuestionCount = Math.min(examConfig.numQuestions, examQuestions.length);
 
-    answers.forEach((answer, i) => {
+    answers.slice(0, scoredQuestionCount).forEach((answer, i) => {
       if (answer.selectedAnswer === null) {
         blank++;
       } else if (answer.selectedAnswer === examQuestions[i].correctIndex) {
@@ -226,7 +227,7 @@ const SimulatedExam = () => {
     });
 
     const totalPoints = (correct * examConfig.pointsCorrect) + (incorrect * examConfig.pointsIncorrect) + (blank * examConfig.pointsBlank);
-    const maxPoints = examQuestions.length * examConfig.pointsCorrect;
+    const maxPoints = scoredQuestionCount * examConfig.pointsCorrect;
 
     return { correct, incorrect, blank, totalPoints: Math.round(totalPoints * 100) / 100, maxPoints };
   }, [answers, examQuestions, examConfig]);
@@ -235,6 +236,9 @@ const SimulatedExam = () => {
 
   const currentQuestion = examQuestions[currentIndex];
   const currentAnswer = answers[currentIndex];
+  const scoredQuestionCount = examConfig ? Math.min(examConfig.numQuestions, examQuestions.length) : examQuestions.length;
+  const reserveQuestionCount = Math.max(0, examQuestions.length - scoredQuestionCount);
+  const currentQuestionIsReserve = currentIndex >= scoredQuestionCount;
 
   // Timer warning color
   const timerColor = timeRemaining < 300 ? 'text-red-500' : timeRemaining < 600 ? 'text-orange-500' : 'text-foreground';
@@ -370,6 +374,11 @@ const SimulatedExam = () => {
             <span className="text-sm text-muted-foreground whitespace-nowrap">
               Pregunta {currentIndex + 1} de {examQuestions.length}
             </span>
+            {currentQuestionIsReserve && (
+              <Badge variant="outline" className="text-xs">
+                Reserva no puntuable
+              </Badge>
+            )}
             <div className={`flex items-center gap-1 font-mono text-lg font-bold ${timerColor}`}>
               <Clock className="h-4 w-4" />
               {formatTime(timeRemaining)}
@@ -463,23 +472,32 @@ const SimulatedExam = () => {
             <div className="space-y-2">
               <p className="text-xs text-muted-foreground font-medium">Navegación</p>
               <div className="grid grid-cols-5 gap-1">
-                {examQuestions.map((_, i) => (
-                  <button
-                    key={i}
-                    onClick={() => goToQuestion(i)}
-                    className={`w-8 h-8 text-xs rounded border transition-colors ${
-                      i === currentIndex
-                        ? 'bg-primary text-primary-foreground border-primary'
-                        : answers[i]?.selectedAnswer !== null
-                        ? 'bg-primary/20 border-primary/40 text-foreground'
-                        : 'bg-background border-border text-muted-foreground hover:bg-muted'
-                    }`}
-                  >
-                    {i + 1}
-                  </button>
-                ))}
+                {examQuestions.map((_, i) => {
+                  const isReserve = i >= scoredQuestionCount;
+                  return (
+                    <button
+                      key={i}
+                      onClick={() => goToQuestion(i)}
+                      className={`w-8 h-8 text-xs rounded border transition-colors ${
+                        i === currentIndex
+                          ? 'bg-primary text-primary-foreground border-primary'
+                          : answers[i]?.selectedAnswer !== null
+                          ? 'bg-primary/20 border-primary/40 text-foreground'
+                          : 'bg-background border-border text-muted-foreground hover:bg-muted'
+                      } ${isReserve ? 'border-dashed border-orange-400' : ''}`}
+                    >
+                      {i + 1}
+                    </button>
+                  );
+                })}
               </div>
               <div className="text-xs text-muted-foreground space-y-1 mt-3">
+                {reserveQuestionCount > 0 && (
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded border border-dashed border-orange-400" />
+                    Reserva
+                  </div>
+                )}
                 <div className="flex items-center gap-2">
                   <span className="w-3 h-3 rounded bg-primary/20 border border-primary/40" />
                   Respondida
@@ -496,21 +514,24 @@ const SimulatedExam = () => {
         {/* Mobile question navigator */}
         {isMobile && (
           <div className="flex gap-1 overflow-x-auto pb-2">
-            {examQuestions.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => goToQuestion(i)}
-                className={`min-w-[28px] h-7 text-xs rounded border transition-colors shrink-0 ${
-                  i === currentIndex
-                    ? 'bg-primary text-primary-foreground border-primary'
-                    : answers[i]?.selectedAnswer !== null
-                    ? 'bg-primary/20 border-primary/40 text-foreground'
-                    : 'bg-background border-border text-muted-foreground'
-                }`}
-              >
-                {i + 1}
-              </button>
-            ))}
+            {examQuestions.map((_, i) => {
+              const isReserve = i >= scoredQuestionCount;
+              return (
+                <button
+                  key={i}
+                  onClick={() => goToQuestion(i)}
+                  className={`min-w-[28px] h-7 text-xs rounded border transition-colors shrink-0 ${
+                    i === currentIndex
+                      ? 'bg-primary text-primary-foreground border-primary'
+                      : answers[i]?.selectedAnswer !== null
+                      ? 'bg-primary/20 border-primary/40 text-foreground'
+                      : 'bg-background border-border text-muted-foreground'
+                  } ${isReserve ? 'border-dashed border-orange-400' : ''}`}
+                >
+                  {i + 1}
+                </button>
+              );
+            })}
           </div>
         )}
       </div>
@@ -558,6 +579,11 @@ const SimulatedExam = () => {
               {examConfig?.passingScore && (
                 <p className="text-xs text-muted-foreground">
                   Nota de corte: {examConfig.passingScore} puntos
+                </p>
+              )}
+              {reserveQuestionCount > 0 && (
+                <p className="text-xs text-muted-foreground">
+                  {reserveQuestionCount} preguntas de reserva excluidas de la puntuación.
                 </p>
               )}
 
@@ -614,9 +640,10 @@ const SimulatedExam = () => {
             const isCorrect = answer.selectedAnswer === q.correctIndex;
             const isBlank = answer.selectedAnswer === null;
             const topic = getTopicById(q.topicId);
+            const isReserve = i >= scoredQuestionCount;
 
             return (
-              <Card key={q.id} className={`border-l-4 ${isBlank ? 'border-l-gray-400' : isCorrect ? 'border-l-green-500' : 'border-l-red-500'}`}>
+              <Card key={q.id} className={`border-l-4 ${isReserve ? 'border-l-orange-400' : isBlank ? 'border-l-gray-400' : isCorrect ? 'border-l-green-500' : 'border-l-red-500'}`}>
                 <CardContent className="p-4 space-y-3">
                   <div className="flex items-start justify-between gap-2">
                     <div className="flex items-center gap-2">
@@ -627,6 +654,11 @@ const SimulatedExam = () => {
                           style={{ backgroundColor: topic.color || '#6b7280' }}
                         >
                           {topic.tag || topic.title}
+                        </Badge>
+                      )}
+                      {isReserve && (
+                        <Badge variant="outline" className="text-orange-600 border-orange-300">
+                          Reserva
                         </Badge>
                       )}
                     </div>

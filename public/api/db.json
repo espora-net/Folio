@@ -2,8 +2,8 @@
   "meta": {
     "title": "Folio - Índice de datos",
     "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
-    "version": "2026.01",
-    "updatedAt": "2026-01-11T00:00:00.000Z"
+    "version": "2026.05",
+    "updatedAt": "2026-05-02T18:24:33.992+02:00"
   },
   "studyTypes": [
     {
@@ -17,7 +17,8 @@
         "ley-organica-2-2023-sistema-universitario",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales",
-        "ley-53-1984-incompatibilidades"
+        "ley-53-1984-incompatibilidades",
+        "uah-tec-aux-archivos-bibliotecas-2025"
       ]
     },
     {
@@ -64,23 +65,23 @@
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
-        "constitucion-espanola-2026",
         "constitucion-1978",
         "estatuto-basico-del-empleado-publico-ebep",
         "ley-organica-2-2023-sistema-universitario",
         "ley-organica-3-2018-proteccion-de-datos-personales-y-garantia-de-los-derechos-digitales",
         "ley-31-1995-prevencion-de-riesgos-laborales",
-        "ley-53-1984-incompatibilidades"
+        "ley-53-1984-incompatibilidades",
+        "uah-tec-aux-archivos-bibliotecas-2025"
       ],
       "examConfig": {
-        "numQuestions": 80,
-        "numReserve": 5,
-        "durationMinutes": 90,
-        "pointsCorrect": 1,
-        "pointsIncorrect": -0.33,
+        "numQuestions": 100,
+        "numReserve": 10,
+        "durationMinutes": 110,
+        "pointsCorrect": 0.6,
+        "pointsIncorrect": -0.15,
         "pointsBlank": 0,
-        "passingScore": 40,
-        "description": "Ejercicio tipo test de 80 preguntas con 4 alternativas de respuesta, de las cuales solo una es correcta. Se incluyen 5 preguntas de reserva. Duración máxima: 90 minutos."
+        "passingScore": 30,
+        "description": "Simulacro oficial: 100 preguntas evaluables más 10 de reserva, 110 minutos, 60 preguntas de primera parte y 40 de segunda parte específica; penalización equivalente a -0,25 respuestas correctas por error y puntuación sobre 60."
       }
     },
     {
@@ -133,16 +134,6 @@
       "title": "Constitución Española 1978",
       "description": "Preguntas y flashcards organizadas por títulos y capítulos de la Constitución.",
       "file": "db-constitucion.json",
-      "tag": "Constitución",
-      "color": "#1d4ed8",
-      "officialUrl": "https://www.boe.es/eli/es/c/1978/12/27/(1)/con"
-    },
-    {
-      "id": "constitucion-espanola-2026",
-      "title": "Constitución Española (actualización 2026)",
-      "description": "Dataset remoto alojado en repo externo con preguntas actualizadas para la Constitución.",
-      "file": "constitucion-espanola-2026.json",
-      "url": "https://cdn.jsdelivr.net/gh/espora-net/folio-data@f65a992ea5b55fcd8e26c92c702ee4f690364d28/data/constitucion-espanola-2026.json",
       "tag": "Constitución",
       "color": "#1d4ed8",
       "officialUrl": "https://www.boe.es/eli/es/c/1978/12/27/(1)/con"
@@ -293,6 +284,22 @@
       "file": "db-ley-9-2017-contratos-del-sector-publico.json",
       "tag": "Ley 9/2017",
       "officialUrl": "https://www.boe.es/eli/es/l/2017/11/08/9/con"
+    },
+    {
+      "id": "uah-tec-aux-archivos-bibliotecas-2025",
+      "title": "Técnico Auxiliar de Archivos y Bibliotecas UAH 2025",
+      "description": "Banco de preguntas y flashcards específico para la convocatoria UAH C1 de Archivos y Bibliotecas 2025, con preguntas curadas y de refuerzo enlazadas a material oficial o institucional.",
+      "file": "db-uah-tec-aux-archivos-bibliotecas-2025.json",
+      "tag": "UAH Bibliotecas",
+      "color": "#7c3aed",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/",
+      "resources": [
+        {
+          "type": "md",
+          "title": "Guías limpias por tema",
+          "path": "data/uah-bibliotecas-2025"
+        }
+      ]
     }
   ]
 }

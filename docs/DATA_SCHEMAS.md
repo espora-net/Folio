@@ -2,6 +2,8 @@
 
 Este documento describe los schemas JSON utilizados en Folio para validar la estructura de los archivos de datos.
 
+Los JSON son el formato editorial. El runtime publicado se genera con FlatBuffers mediante `npm run generate-flatbuffers`; ver `docs/DATA_LOADING_OPTIMIZATION.md`.
+
 ## Archivos de Schema
 
 ### 1. `db.schema.json`
@@ -68,8 +70,8 @@ En el ejemplo anterior, `conv-2025` está explícitamente inactiva, mientras que
 ### Datasets externos en `db.json`
 
 - Cada dataset mantiene el campo `file` (nombre lógico o archivo esperado bajo `/public/api`) y **puede** declarar una `url` absoluta cuando los datos se alojan en un repositorio externo.
-- En runtime, la aplicación prioriza `url` (si existe) y añade un cache-buster `_v` por minuto. `file` sigue siendo obligatorio para compatibilidad y como posible fallback local.
-- Asegúrate de que la URL externa permita CORS y sea accesible con los permisos del usuario autenticado.
+- La URL externa se resuelve durante `npm run generate-flatbuffers`. Si devuelve error o no es accesible, la generación debe fallar.
+- El runtime publicado no usa esa URL como fallback; consume el `.fb.bin` generado.
 
 ### 2. `question-bank.schema.json`
 
@@ -104,6 +106,12 @@ Este comando valida:
 
 1. **`db.json`** contra `db.schema.json`
 2. Todos los archivos **`db-*.json`** contra `question-bank.schema.json`
+
+Después de validar, genera los artefactos runtime:
+
+```bash
+npm run generate-flatbuffers
+```
 
 ### Salida esperada
 

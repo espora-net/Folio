@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "2026.01",
-    "updatedAt": "2026-01-08T20:00:00.000Z"
+    "version": "2026.05",
+    "updatedAt": "2026-05-02T18:24:33.992+02:00"
   },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
@@ -22,10 +22,18 @@
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Texto constitucional completo (Título Preliminar y Título I sobre derechos fundamentales). Referencia oficial: BOE-A-1978-31229, texto completo consolidado en BOE.",
       "contenido_especifico": "Establece el marco fundamental de derechos y deberes de los ciudadanos, relevante para el tema 1",
-      "temas_relacionados": ["Derecho Constitucional", "Derechos Fundamentales", "Organización del Estado"],
+      "temas_relacionados": [
+        "Derecho Constitucional",
+        "Derechos Fundamentales",
+        "Organización del Estado"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
-      "cobertura_convocatoria": ["#titulo-preliminar", "#titulo-i"],
+      "cobertura_convocatoria": [
+        "#titulo-preliminar",
+        "#titulo-i",
+        "uah-tema-001"
+      ],
       "recursos": [
         {
           "tipo": "md",
@@ -46,6 +54,16 @@
           "tipo": "db",
           "nombre": "Flashcards y preguntas",
           "archivo": "db-constitucion.json"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -56,7 +74,11 @@
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Texto Refundido de la Ley del EBEP, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre. Incluye: Título I, Título II Cap. I, Título III, Título IV, Título V Cap. III y Título VII. Referencia oficial: BOE-A-2015-11719, texto consolidado actualizado a 2025.",
       "contenido_especifico": "Clases de personal, derechos, deberes, código de conducta, adquisición y pérdida de la condición de funcionario, provisión de puestos y régimen disciplinario",
-      "temas_relacionados": ["Función Pública", "EBEP", "Derechos y Deberes del Empleado Público"],
+      "temas_relacionados": [
+        "Función Pública",
+        "EBEP",
+        "Derechos y Deberes del Empleado Público"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
@@ -65,7 +87,8 @@
         "#titulo-iii",
         "#titulo-iv",
         "#titulo-v-capitulo-iii",
-        "#titulo-vii"
+        "#titulo-vii",
+        "uah-tema-002"
       ],
       "recursos": [
         {
@@ -82,6 +105,16 @@
           "tipo": "db",
           "nombre": "Flashcards y preguntas",
           "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -92,14 +125,20 @@
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Nueva ley universitaria de 22 de marzo que sustituye a la anterior LOU. Para el tema 3 se estudian: Título I (funciones del sistema universitario y autonomía universitaria) y Capítulos I, II y V del Título IX (régimen jurídico, gobernanza y PAS de las universidades públicas). Referencia oficial: BOE-A-2023-7789 (BOE núm. 72, de 24/03/2023), texto legal completo consolidado en BOE.",
       "contenido_especifico": "Funciones del sistema universitario, autonomía universitaria, régimen jurídico, gobernanza y Personal de Administración y Servicios",
-      "temas_relacionados": ["Sistema Universitario", "Autonomía Universitaria", "PAS", "Gobernanza Universitaria"],
+      "temas_relacionados": [
+        "Sistema Universitario",
+        "Autonomía Universitaria",
+        "PAS",
+        "Gobernanza Universitaria"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#titulo-i",
         "#titulo-ix-capitulo-i",
         "#titulo-ix-capitulo-ii",
-        "#titulo-ix-capitulo-v"
+        "#titulo-ix-capitulo-v",
+        "uah-tema-003"
       ],
       "recursos": [
         {
@@ -116,6 +155,16 @@
           "tipo": "db",
           "nombre": "Flashcards y preguntas",
           "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -126,13 +175,19 @@
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Regulación vigente en materia de protección de datos. El tema 4 abarca Título I (disposiciones generales), Título II (principios de protección de datos) y Título III (derechos de las personas). Referencia oficial: BOE-A-2018-16673 (BOE núm. 294, de 06/12/2018), texto legal completo consolidado.",
       "contenido_especifico": "Esta ley adapta el ordenamiento español al RGPD de la UE e incluye los derechos digitales",
-      "temas_relacionados": ["LOPD-GDD", "Protección de Datos", "RGPD", "Derechos Digitales"],
+      "temas_relacionados": [
+        "LOPD-GDD",
+        "Protección de Datos",
+        "RGPD",
+        "Derechos Digitales"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#titulo-i",
         "#titulo-ii",
-        "#titulo-iii"
+        "#titulo-iii",
+        "uah-tema-004"
       ],
       "recursos": [
         {
@@ -144,6 +199,16 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -154,12 +219,18 @@
       "bloque": "Legislación General (Temas 1-5)",
       "descripcion": "Real Decreto Legislativo 1/2013, de 29 de noviembre - Texto Refundido de la Ley General de Derechos de las Personas con Discapacidad y su Inclusión Social. Para el tema 5 se requieren el Capítulo IV (derecho a la educación) y Capítulo VI (derecho al trabajo) del Título I. Referencia oficial: BOE-A-2013-12632 (BOE núm. 289, de 03/12/2013), texto consolidado completo.",
       "contenido_especifico": "Reúne la legislación de discapacidad, garantizando la igualdad de oportunidades y no discriminación, incluyendo acceso a educación superior y empleo público",
-      "temas_relacionados": ["Discapacidad", "Inclusión Social", "Igualdad de Oportunidades", "Accesibilidad"],
+      "temas_relacionados": [
+        "Discapacidad",
+        "Inclusión Social",
+        "Igualdad de Oportunidades",
+        "Accesibilidad"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#titulo-i-capitulo-iv",
-        "#titulo-i-capitulo-vi"
+        "#titulo-i-capitulo-vi",
+        "uah-tema-005"
       ],
       "recursos": [
         {
@@ -171,6 +242,16 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/05_ley_discapacidad.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -181,10 +262,17 @@
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
       "descripcion": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Marco legal en materia de igualdad de género. El tema 6 abarca su Título II (Políticas públicas para la igualdad).",
       "contenido_especifico": "Complementariamente, la UAH cuenta con el II Plan de Igualdad de Oportunidades para el Personal de la UAH (2023-2026)",
-      "temas_relacionados": ["Igualdad de Género", "Políticas Públicas", "Plan de Igualdad UAH"],
+      "temas_relacionados": [
+        "Igualdad de Género",
+        "Políticas Públicas",
+        "Plan de Igualdad UAH"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2025-12-14",
-      "cobertura_convocatoria": ["#titulo-ii"],
+      "cobertura_convocatoria": [
+        "#titulo-ii",
+        "uah-tema-006"
+      ],
       "recursos": [
         {
           "tipo": "md",
@@ -195,6 +283,16 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ],
       "materiales_complementarios": [
@@ -202,7 +300,9 @@
           "id": "uah-plan-igualdad-2023-2026",
           "titulo": "II Plan de Igualdad UAH (2023-2026)",
           "archivo": "data/general/plan-igualdad-uah-2023-2026.pdf",
-          "cobertura_convocatoria": ["#plan-igualdad-uah-2023-2026"]
+          "cobertura_convocatoria": [
+            "#plan-igualdad-uah-2023-2026"
+          ]
         }
       ]
     },
@@ -213,14 +313,19 @@
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
       "descripcion": "La temática 7 se centra en la Política de Prevención de la UAH: la Universidad dispone de una Declaración de Política de Prevención de Riesgos Laborales (aprobada por Consejo de Gobierno en octubre de 2004).",
       "contenido_especifico": "Incluye la organización de la prevención, las responsabilidades y funciones asignadas y la planificación y seguimiento de la actividad preventiva en la UAH",
-      "temas_relacionados": ["Prevención de Riesgos Laborales", "Seguridad y Salud", "PRL UAH"],
+      "temas_relacionados": [
+        "Prevención de Riesgos Laborales",
+        "Seguridad y Salud",
+        "PRL UAH"
+      ],
       "relevancia": "media",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#politica-de-prevencion",
         "#organizacion-de-la-prevencion",
         "#responsabilidades-y-funciones",
-        "#planificacion-y-seguimiento"
+        "#planificacion-y-seguimiento",
+        "uah-tema-007"
       ],
       "recursos": [
         {
@@ -242,6 +347,16 @@
           "tipo": "pdf",
           "nombre": "Plan de Prevención (PDF)",
           "archivo": "data/general/07_Plan-de-Prevencion_UAH.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -252,10 +367,18 @@
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
       "descripcion": "Documento marco aprobado en Consejo de Gobierno de 22 de junio de 2017 (publicado en el Boletín Oficial de la UAH). Este código ético recoge los valores institucionales, principios de buena conducta y compromisos de integridad.",
       "contenido_especifico": "Incluye referencias a normativa de buen gobierno y códigos de conducta sectoriales. Fuente: Boletín Oficial UAH, año XII, nº 6, 4/7/2017",
-      "temas_relacionados": ["Código Ético", "Integridad", "Valores Institucionales", "Conducta Profesional"],
+      "temas_relacionados": [
+        "Código Ético",
+        "Integridad",
+        "Valores Institucionales",
+        "Conducta Profesional"
+      ],
       "relevancia": "media",
       "fecha_actualizacion": "2025-12-14",
-      "cobertura_convocatoria": ["#codigo-etico-general-uah"],
+      "cobertura_convocatoria": [
+        "#codigo-etico-general-uah",
+        "uah-tema-008"
+      ],
       "recursos": [
         {
           "tipo": "md",
@@ -266,6 +389,16 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/08_codigo-etico-general-UAH.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -276,12 +409,17 @@
       "bloque": "Igualdad y Normativa de Personal (Temas 6-9)",
       "descripcion": "Reglamento interno que desarrolla la Ley 3/2022, de convivencia universitaria, en el ámbito de la UAH. Fue aprobado en Consejo de Gobierno el 16 de febrero de 2023 y posteriormente modificado el 21 de marzo de 2024.",
       "contenido_especifico": "Incluye principios y garantías (respeto a la dignidad, igualdad de trato, confidencialidad, etc.) y crea la Comisión de Convivencia de la UAH",
-      "temas_relacionados": ["Convivencia Universitaria", "Procedimiento Sancionador", "Resolución de Conflictos"],
+      "temas_relacionados": [
+        "Convivencia Universitaria",
+        "Procedimiento Sancionador",
+        "Resolución de Conflictos"
+      ],
       "relevancia": "media",
       "fecha_actualizacion": "2025-12-14",
       "cobertura_convocatoria": [
         "#normas-de-convivencia-uah",
-        "#modificacion-2024"
+        "#modificacion-2024",
+        "uah-tema-009"
       ],
       "recursos": [
         {
@@ -293,6 +431,16 @@
           "tipo": "pdf",
           "nombre": "Documento PDF oficial",
           "archivo": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.pdf"
+        },
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
         }
       ]
     },
@@ -303,15 +451,31 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "El Servicio de Biblioteca de la UAH: misión, visión, estructura, guía de cultura y valores. Reglamento de la Biblioteca de la Universidad de Alcalá (Aprobado en Consejo de Gobierno de 22 de diciembre de 2005).",
       "contenido_especifico": "Organización del servicio, objetivos estratégicos y normativa reguladora de la Biblioteca UAH",
-      "temas_relacionados": ["Biblioteca UAH", "Reglamento Biblioteca", "Servicio de Biblioteca"],
+      "temas_relacionados": [
+        "Biblioteca UAH",
+        "Reglamento Biblioteca",
+        "Servicio de Biblioteca"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#mision-vision-estructura",
         "#guia-cultura-y-valores",
-        "#reglamento-biblioteca-uah"
+        "#reglamento-biblioteca-uah",
+        "uah-tema-010"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-011",
@@ -320,7 +484,11 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Organización espacial y equipamiento de las bibliotecas universitarias: Instalaciones y equipamientos de la Biblioteca de la Universidad de Alcalá: salas de estudio y trabajo en grupo, colección de libre acceso y depósitos. Equipamiento informático y sistemas de autoservicio.",
       "contenido_especifico": "Espacios físicos, equipamiento tecnológico, zonas de estudio y almacenamiento de fondos en bibliotecas universitarias",
-      "temas_relacionados": ["Instalaciones Bibliotecarias", "Equipamiento", "Espacios de Estudio"],
+      "temas_relacionados": [
+        "Instalaciones Bibliotecarias",
+        "Equipamiento",
+        "Espacios de Estudio"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
@@ -329,9 +497,21 @@
         "#coleccion-libre-acceso",
         "#depositos",
         "#equipamiento-informatico",
-        "#sistemas-autoservicio"
+        "#sistemas-autoservicio",
+        "uah-tema-011"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-012",
@@ -340,7 +520,11 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "La gestión de la colección en las bibliotecas universitarias. Selección y adquisición, conservación, preservación, ordenación, difusión, evaluación y expurgo. Colecciones especiales y fondo antiguo en la Biblioteca de la Universidad de Alcalá.",
       "contenido_especifico": "Ciclo completo de gestión de la colección, desde la selección hasta el expurgo, incluyendo colecciones especiales",
-      "temas_relacionados": ["Gestión de Colecciones", "Desarrollo de Colecciones", "Fondo Antiguo"],
+      "temas_relacionados": [
+        "Gestión de Colecciones",
+        "Desarrollo de Colecciones",
+        "Fondo Antiguo"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
@@ -349,9 +533,21 @@
         "#ordenacion-difusion",
         "#evaluacion-expurgo",
         "#colecciones-especiales",
-        "#fondo-antiguo-uah"
+        "#fondo-antiguo-uah",
+        "uah-tema-012"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-013",
@@ -360,16 +556,34 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Proceso técnico de fondos documentales. Formatos de intercambio bibliográfico MARC 21, FRBR y RDA.",
       "contenido_especifico": "Catalogación y tratamiento técnico de documentos, estándares internacionales de descripción bibliográfica",
-      "temas_relacionados": ["Catalogación", "MARC 21", "FRBR", "RDA", "Proceso Técnico"],
+      "temas_relacionados": [
+        "Catalogación",
+        "MARC 21",
+        "FRBR",
+        "RDA",
+        "Proceso Técnico"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#proceso-tecnico",
         "#marc-21",
         "#frbr",
-        "#rda"
+        "#rda",
+        "uah-tema-013"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-014",
@@ -378,7 +592,14 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Estándares de normalización: Identificación de documentos (ISBN, ISSN, DOI, D.L. NIPO).",
       "contenido_especifico": "Sistemas de identificación única de publicaciones y documentos digitales",
-      "temas_relacionados": ["ISBN", "ISSN", "DOI", "Depósito Legal", "NIPO", "Normalización"],
+      "temas_relacionados": [
+        "ISBN",
+        "ISSN",
+        "DOI",
+        "Depósito Legal",
+        "NIPO",
+        "Normalización"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
@@ -386,9 +607,21 @@
         "#issn",
         "#doi",
         "#deposito-legal",
-        "#nipo"
+        "#nipo",
+        "uah-tema-014"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-015",
@@ -397,15 +630,32 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Análisis documental. Las principales clasificaciones bibliográficas. La clasificación bibliográfica en la Biblioteca de la Universidad de Alcalá.",
       "contenido_especifico": "Técnicas de análisis documental, sistemas de clasificación (CDU, Dewey, etc.) y su aplicación en la UAH",
-      "temas_relacionados": ["Análisis Documental", "Clasificación Bibliográfica", "CDU", "Dewey"],
+      "temas_relacionados": [
+        "Análisis Documental",
+        "Clasificación Bibliográfica",
+        "CDU",
+        "Dewey"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#analisis-documental",
         "#clasificaciones-bibliograficas",
-        "#clasificacion-uah"
+        "#clasificacion-uah",
+        "uah-tema-015"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-016",
@@ -414,16 +664,34 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "El movimiento de acceso abierto y los repositorios institucionales. El Repositorio Institucional eBUAH. El Repositorio eCienciaDatos. Política institucional de Ciencia Abierta de la Universidad de Alcalá (Aprobada en Consejo de Gobierno de 20 de junio de 2024).",
       "contenido_especifico": "Acceso abierto, repositorios institucionales de la UAH y políticas de ciencia abierta",
-      "temas_relacionados": ["Acceso Abierto", "Repositorios", "eBUAH", "eCienciaDatos", "Ciencia Abierta"],
+      "temas_relacionados": [
+        "Acceso Abierto",
+        "Repositorios",
+        "eBUAH",
+        "eCienciaDatos",
+        "Ciencia Abierta"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#acceso-abierto",
         "#repositorio-ebuah",
         "#repositorio-ecienciadatos",
-        "#politica-ciencia-abierta-uah"
+        "#politica-ciencia-abierta-uah",
+        "uah-tema-016"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-017",
@@ -432,14 +700,30 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Los servicios al usuario en las bibliotecas universitarias. La Carta de Servicios de la Biblioteca de la Universidad de Alcalá.",
       "contenido_especifico": "Servicios bibliotecarios y compromisos de calidad establecidos en la Carta de Servicios",
-      "temas_relacionados": ["Servicios Bibliotecarios", "Carta de Servicios", "Atención al Usuario"],
+      "temas_relacionados": [
+        "Servicios Bibliotecarios",
+        "Carta de Servicios",
+        "Atención al Usuario"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#servicios-al-usuario",
-        "#carta-servicios-uah"
+        "#carta-servicios-uah",
+        "uah-tema-017"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-018",
@@ -448,16 +732,32 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Gestión del préstamo en la Biblioteca de la Universidad de Alcalá. Normativa de préstamo. Normas de uso de las salas de trabajo. Acceso al documento.",
       "contenido_especifico": "Sistema de préstamo, normativa de uso y acceso a fondos documentales en la UAH",
-      "temas_relacionados": ["Préstamo Bibliotecario", "Normativa de Préstamo", "Acceso al Documento"],
+      "temas_relacionados": [
+        "Préstamo Bibliotecario",
+        "Normativa de Préstamo",
+        "Acceso al Documento"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#gestion-prestamo",
         "#normativa-prestamo",
         "#normas-uso-salas",
-        "#acceso-documento"
+        "#acceso-documento",
+        "uah-tema-018"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-019",
@@ -466,16 +766,33 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Las Plataformas de Servicios Bibliotecarios (LSP) y las herramientas de descubrimiento. La plataforma de Servicios Bibliotecarios y el Buscador de la Biblioteca de la Universidad de Alcalá.",
       "contenido_especifico": "Sistemas integrados de gestión bibliotecaria y herramientas de búsqueda y descubrimiento utilizadas en la UAH",
-      "temas_relacionados": ["LSP", "Plataforma Bibliotecaria", "Herramientas de Descubrimiento", "Sistemas de Gestión"],
+      "temas_relacionados": [
+        "LSP",
+        "Plataforma Bibliotecaria",
+        "Herramientas de Descubrimiento",
+        "Sistemas de Gestión"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#lsp",
         "#herramientas-descubrimiento",
         "#plataforma-uah",
-        "#buscador-biblioteca-uah"
+        "#buscador-biblioteca-uah",
+        "uah-tema-019"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-020",
@@ -484,7 +801,12 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "La cooperación bibliotecaria en las bibliotecas universitarias en España. REBIUN: Reglamento y servicios. Consorcio de Universidades de la Comunidad de Madrid y de la UNED para la Cooperación Bibliotecaria (Madroño): Acuerdo del pasaporte Madroño y servicios del consorcio.",
       "contenido_especifico": "Redes de cooperación bibliotecaria: REBIUN y Consorcio Madroño",
-      "temas_relacionados": ["REBIUN", "Madroño", "Cooperación Bibliotecaria", "Consorcios"],
+      "temas_relacionados": [
+        "REBIUN",
+        "Madroño",
+        "Cooperación Bibliotecaria",
+        "Consorcios"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
@@ -493,9 +815,21 @@
         "#servicios-rebiun",
         "#consorcio-madrono",
         "#pasaporte-madrono",
-        "#servicios-madrono"
+        "#servicios-madrono",
+        "uah-tema-020"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-021",
@@ -504,16 +838,34 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripción": "La calidad en las bibliotecas universitarias españolas según REBIUN. El Modelo EFQM: su evaluación y certificación en la Biblioteca de la Universidad de Alcalá.",
       "contenido_especifico": "Sistemas de gestión de calidad, modelo EFQM y certificaciones de calidad en bibliotecas universitarias",
-      "temas_relacionados": ["Calidad", "EFQM", "REBIUN", "Certificación", "Evaluación"],
+      "temas_relacionados": [
+        "Calidad",
+        "EFQM",
+        "REBIUN",
+        "Certificación",
+        "Evaluación"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#calidad-bibliotecas-rebiun",
         "#modelo-efqm",
         "#evaluacion-efqm",
-        "#certificacion-uah"
+        "#certificacion-uah",
+        "uah-tema-021"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     },
     {
       "id": "uah-tema-022",
@@ -522,14 +874,31 @@
       "bloque": "Bibliotecas Universitarias (Temas 10-22)",
       "descripcion": "Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia: Capítulo III del Título II del Libro Primero (Contenido). Las licencias Creative Commons: conceptos, funcionamiento y tipología.",
       "contenido_especifico": "Legislación de propiedad intelectual y sistema de licencias Creative Commons",
-      "temas_relacionados": ["Propiedad Intelectual", "Creative Commons", "Derechos de Autor", "Licencias"],
+      "temas_relacionados": [
+        "Propiedad Intelectual",
+        "Creative Commons",
+        "Derechos de Autor",
+        "Licencias"
+      ],
       "relevancia": "alta",
       "fecha_actualizacion": "2026-01-08",
       "cobertura_convocatoria": [
         "#libro-primero-titulo-ii-capitulo-iii",
-        "#creative-commons"
+        "#creative-commons",
+        "uah-tema-022"
       ],
-      "recursos": []
+      "recursos": [
+        {
+          "tipo": "md",
+          "nombre": "Guía limpia del tema",
+          "archivo": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco específico UAH Bibliotecas 2025",
+          "archivo": "db-uah-tec-aux-archivos-bibliotecas-2025.json"
+        }
+      ]
     }
   ],
   "guias_apoyo": [

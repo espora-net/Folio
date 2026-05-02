@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "validate-schemas": "node scripts/validate-schemas.cjs"
+    "validate-schemas": "node scripts/validate-schemas.cjs",
+    "generate-flatbuffers": "node scripts/generate-flatbuffers-data.mjs"
   },
   "dependencies": {
     "@authgear/web": "^5.0.1",
@@ -47,6 +48,7 @@
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
     "eslint-config-next": "^16.0.10",
+    "flatbuffers": "^25.9.23",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
     "mermaid": "^11.12.2",

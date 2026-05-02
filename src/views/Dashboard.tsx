@@ -20,6 +20,8 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(true); // Default collapsed
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [checkingOnboarding, setCheckingOnboarding] = useState(true);
+  const [dataReady, setDataReady] = useState(false);
+  const [dataError, setDataError] = useState<string | null>(null);
   const hasStartedLogin = useRef(false);
 
   // Verificar si el onboarding está completado
@@ -51,7 +53,21 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
-    hydrateFromApi().catch((error) => console.warn('Failed to hydrate study data from static API', error));
+    let active = true;
+    hydrateFromApi()
+      .then(() => {
+        if (!active) return;
+        setDataReady(true);
+        setDataError(null);
+      })
+      .catch((error: unknown) => {
+        if (!active) return;
+        setDataError(error instanceof Error ? error.message : 'No se pudieron cargar los datos optimizados.');
+        setDataReady(true);
+      });
+    return () => {
+      active = false;
+    };
   }, []);
 
   useEffect(() => {
@@ -125,6 +141,25 @@ const Dashboard = ({ children }: { children: ReactNode }) => {
 
   if (showOnboarding) {
     return <StudyTypeSelector onComplete={handleOnboardingComplete} />;
+  }
+
+  if (!dataReady) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin text-primary" />
+      </div>
+    );
+  }
+
+  if (dataError) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center px-6">
+        <div className="max-w-md rounded-lg border border-destructive/30 bg-card p-6 text-center">
+          <h1 className="text-lg font-semibold text-foreground">No se pudieron cargar los datos de estudio</h1>
+          <p className="mt-2 text-sm text-muted-foreground">{dataError}</p>
+        </div>
+      </div>
+    );
   }
 
   return (
