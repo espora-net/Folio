@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import { Play, CheckCircle, XCircle, Trophy, RotateCcw, Clock, Maximize, Minimize, AlertTriangle, FileCheck, Sparkles, ExternalLink, BookOpen } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, Clock, Maximize, Minimize, AlertTriangle, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
@@ -16,17 +16,13 @@ import {
 } from '@/components/ui/select';
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from '@/components/ui/tooltip';
 import { TestQuestion, Topic, getQuestions, getTopics } from '@/lib/storage';
 import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions } from '@/lib/question-selector';
@@ -95,15 +91,25 @@ const SimulatedExam = () => {
     return questions.filter(q => topicIds.includes(q.topicId));
   }, [questions, topics, selectedConvocatoria]);
 
+  const finishExam = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    setExamPhase('results');
+    if (document.fullscreenElement) {
+      document.exitFullscreen().catch(() => {});
+    }
+  }, []);
+
+  const finishExamRef = useRef(finishExam);
+  finishExamRef.current = finishExam;
+
   // Timer
   useEffect(() => {
     if (examPhase === 'running' && timeRemaining > 0) {
       timerRef.current = setInterval(() => {
         setTimeRemaining(prev => {
           if (prev <= 1) {
-            // Tiempo agotado
             if (timerRef.current) clearInterval(timerRef.current);
-            finishExam();
+            finishExamRef.current();
             return 0;
           }
           return prev - 1;
@@ -113,6 +119,7 @@ const SimulatedExam = () => {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
+  // Only re-run when exam phase changes (not on every tick)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [examPhase]);
 
@@ -166,14 +173,6 @@ const SimulatedExam = () => {
       setTimeout(() => toggleFullscreen(), 100);
     }
   };
-
-  const finishExam = useCallback(() => {
-    if (timerRef.current) clearInterval(timerRef.current);
-    setExamPhase('results');
-    if (document.fullscreenElement) {
-      document.exitFullscreen().catch(() => {});
-    }
-  }, []);
 
   const goToReview = () => {
     setExamPhase('review');
@@ -397,7 +396,9 @@ const SimulatedExam = () => {
                   </DialogDescription>
                 </DialogHeader>
                 <div className="flex gap-3 justify-end">
-                  <Button variant="outline" onClick={() => {}}>Cancelar</Button>
+                  <DialogClose asChild>
+                    <Button variant="outline">Cancelar</Button>
+                  </DialogClose>
                   <Button variant="destructive" onClick={finishExam}>Sí, finalizar</Button>
                 </div>
               </DialogContent>
