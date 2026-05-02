@@ -1,7 +1,7 @@
 'use client';
 
-import DashboardHome from '@/views/dashboard/DashboardHome';
+import Progreso from '@/views/dashboard/Progreso';
 
 export default function DashboardHomePage() {
-  return <DashboardHome />;
+  return <Progreso />;
 }
