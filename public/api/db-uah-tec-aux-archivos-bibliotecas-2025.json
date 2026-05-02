@@ -12315,10 +12315,1111 @@
         "uah-tema-003",
         "prioridad-media"
       ]
+    },
+    {
+      "id": "uah-opo-ref-001",
+      "topicId": "uah-bib-t01-contenido",
+      "question": "En el Título Preliminar de la Constitución, ¿qué valores superiores proclama el artículo 1.1?",
+      "options": [
+        "Libertad, justicia, igualdad y pluralismo político",
+        "Unidad, autonomía, solidaridad y jerarquía normativa",
+        "Legalidad, eficacia, coordinación y descentralización",
+        "Mérito, capacidad, publicidad y concurrencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 1.1 define España como Estado social y democrático de Derecho y enumera esos valores superiores. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-001#opositatest-referencia-001",
+        "path": "data/general/01_constitucion_espanola_1978.md",
+        "highlightText": "libertad, justicia, igualdad y pluralismo político"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-001"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-002",
+      "topicId": "uah-bib-t01-contenido",
+      "question": "Según la Constitución, ¿qué derecho conecta directamente con la libertad de creación de centros docentes?",
+      "options": [
+        "El derecho a la educación del artículo 27",
+        "El derecho de petición del artículo 29",
+        "La libertad sindical del artículo 28",
+        "El derecho de reunión del artículo 21"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 27 reconoce el derecho a la educación y la libertad de enseñanza, incluyendo la creación de centros docentes. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-001#opositatest-referencia-002",
+        "path": "data/general/01_constitucion_espanola_1978.md",
+        "highlightText": "libertad de creación de centros docentes"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-001"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-003",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "En el EBEP, ¿qué clase de personal se nombra para funciones expresamente calificadas de confianza o asesoramiento especial?",
+      "options": [
+        "Personal eventual",
+        "Funcionario interino",
+        "Funcionario de carrera",
+        "Personal laboral indefinido no fijo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El EBEP diferencia el personal eventual por su nombramiento no permanente y funciones de confianza o asesoramiento especial. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-002#opositatest-referencia-003",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "personal eventual"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-002"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-004",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Qué principios deben regir el acceso al empleo público según el EBEP?",
+      "options": [
+        "Igualdad, mérito y capacidad",
+        "Antigüedad, confianza y libre designación",
+        "Jerarquía, movilidad y exclusividad",
+        "Eficiencia, economía y oportunidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "El acceso al empleo público se articula sobre igualdad, mérito, capacidad y publicidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-002#opositatest-referencia-004",
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "igualdad, mérito y capacidad"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-002"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-005",
+      "topicId": "uah-bib-t03-contenido",
+      "question": "Según la LOSU, ¿mediante qué funciones presta el sistema universitario el servicio público de educación superior?",
+      "options": [
+        "Docencia, investigación y transferencia del conocimiento",
+        "Contratación, sanción y recaudación",
+        "Archivo, registro y contratación pública",
+        "Préstamo, catalogación y expurgo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La LOSU vincula el servicio público universitario con docencia, investigación y transferencia/difusión del conocimiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-003#opositatest-referencia-005",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "docencia, investigación y transferencia"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-003"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-006",
+      "topicId": "uah-bib-t03-contenido",
+      "question": "En la LOSU, el PTGAS se relaciona principalmente con:",
+      "options": [
+        "Funciones técnicas, de gestión, administración, apoyo, asesoramiento y asistencia",
+        "La evaluación exclusiva del profesorado funcionario",
+        "La aprobación del presupuesto autonómico",
+        "La expedición de títulos por centros privados extranjeros"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Personal Técnico, de Gestión y de Administración y Servicios sostiene funciones de apoyo técnico y administrativo en la universidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-003#opositatest-referencia-006",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-003"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-007",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "En protección de datos, ¿qué principio exige tratar solo los datos adecuados, pertinentes y limitados a la finalidad?",
+      "options": [
+        "Minimización de datos",
+        "Portabilidad universal",
+        "Publicidad activa",
+        "Conservación ilimitada"
+      ],
+      "correctIndex": 0,
+      "explanation": "La minimización obliga a limitar los datos personales a los necesarios para la finalidad del tratamiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-004#opositatest-referencia-007",
+        "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
+        "highlightText": "minimización"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-004"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-008",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "¿Cuál de estos derechos permite a la persona interesada obtener confirmación sobre si se tratan sus datos personales?",
+      "options": [
+        "Derecho de acceso",
+        "Derecho de tanteo",
+        "Derecho de retracto",
+        "Derecho de inventario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El derecho de acceso permite conocer si se están tratando datos personales y recibir información sobre ese tratamiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-004#opositatest-referencia-008",
+        "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
+        "highlightText": "derecho de acceso"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-004"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-009",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "En el Texto Refundido de derechos de las personas con discapacidad, ¿qué persigue la accesibilidad universal?",
+      "options": [
+        "Que entornos, procesos, bienes, productos y servicios sean comprensibles, utilizables y practicables por todas las personas",
+        "Reservar servicios únicamente a personas con discapacidad reconocida",
+        "Sustituir todos los ajustes razonables por sanciones",
+        "Limitar la educación inclusiva a etapas no universitarias"
+      ],
+      "correctIndex": 0,
+      "explanation": "La definición legal de accesibilidad universal abarca entornos, procesos, bienes, productos y servicios utilizables por todas las personas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-005#opositatest-referencia-009",
+        "path": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md",
+        "highlightText": "comprensibles, utilizables y practicables por todas las personas"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-005"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-010",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "¿Qué son los ajustes razonables en materia de discapacidad?",
+      "options": [
+        "Modificaciones y adaptaciones necesarias que no impongan una carga desproporcionada o indebida",
+        "Ayudas económicas automáticas sin valoración individual",
+        "Exenciones generales de toda norma universitaria",
+        "Medidas aplicables solo al acceso al transporte público"
+      ],
+      "correctIndex": 0,
+      "explanation": "La norma define los ajustes razonables como adaptaciones eficaces para garantizar igualdad cuando no supongan carga desproporcionada. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-005#opositatest-referencia-010",
+        "path": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md",
+        "highlightText": "Ajustes razonables"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-005"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-011",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En la Ley Orgánica 3/2007, ¿cómo se denominan las medidas específicas para corregir situaciones patentes de desigualdad de hecho?",
+      "options": [
+        "Acciones positivas",
+        "Actos reglados",
+        "Reservas ordinarias",
+        "Permisos retribuidos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La ley permite acciones positivas para hacer efectivo el derecho constitucional a la igualdad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-006#opositatest-referencia-011",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "Acciones positivas"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-006"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-012",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "En materia de igualdad, ¿qué debe promover la Administración en los órganos de selección y valoración?",
+      "options": [
+        "La presencia equilibrada de mujeres y hombres",
+        "La designación exclusivamente por sorteo",
+        "La mayoría automática del personal eventual",
+        "La exclusión de representación sindical"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Ley Orgánica 3/2007 incluye criterios de actuación de las Administraciones públicas orientados a presencia equilibrada. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-006#opositatest-referencia-012",
+        "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
+        "highlightText": "presencia equilibrada"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-006"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-013",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "En prevención de riesgos laborales, ¿cuál es la finalidad básica de la actividad preventiva?",
+      "options": [
+        "Evitar o disminuir los riesgos derivados del trabajo",
+        "Sustituir la evaluación por sanciones disciplinarias",
+        "Reservar la seguridad únicamente al personal de prevención",
+        "Eliminar la participación de los trabajadores"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prevención busca evitar riesgos laborales o reducirlos mediante evaluación, planificación y medidas preventivas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-007#opositatest-referencia-013",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "actividad preventiva"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-007"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-014",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "Según el enfoque preventivo, ¿qué debe hacerse antes de implantar medidas preventivas?",
+      "options": [
+        "Evaluar los riesgos",
+        "Cerrar el centro de trabajo",
+        "Publicar una memoria económica",
+        "Nombrar personal eventual"
+      ],
+      "correctIndex": 0,
+      "explanation": "La evaluación de riesgos es la base para planificar la actividad preventiva. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-007#opositatest-referencia-014",
+        "path": "data/general/07_Plan-de-Prevencion_UAH.md",
+        "highlightText": "evaluación de riesgos"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-007"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-015",
+      "topicId": "uah-bib-t08-contenido",
+      "question": "¿Qué función cumple el Código Ético General de la Universidad de Alcalá?",
+      "options": [
+        "Servir de orientación y guía inspiradora de comportamientos y conductas",
+        "Crear un régimen sancionador penal propio",
+        "Sustituir el EBEP y los Estatutos de la Universidad",
+        "Regular exclusivamente el préstamo bibliotecario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Código Ético UAH tiene finalidad orientativa y preventiva para la comunidad universitaria. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-008#opositatest-referencia-015",
+        "path": "data/general/08_codigo-etico-general-UAH.md",
+        "highlightText": "orientación y guía inspiradora"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-008"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-016",
+      "topicId": "uah-bib-t08-contenido",
+      "question": "En un código ético universitario, ¿qué idea se asocia mejor con la integridad institucional?",
+      "options": [
+        "Actuar con honradez, responsabilidad y servicio al interés general",
+        "Priorizar siempre intereses particulares",
+        "Omitir conflictos de intereses si no son públicos",
+        "Delegar toda responsabilidad en usuarios externos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La integridad se conecta con conducta responsable, honesta y orientada al interés general. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-008#opositatest-referencia-016",
+        "path": "data/general/08_codigo-etico-general-UAH.md",
+        "highlightText": "integridad"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-008"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-017",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "¿Cuál es el objeto de las Normas de Convivencia de la UAH?",
+      "options": [
+        "Establecer las bases de convivencia de la comunidad universitaria y fomentar medios alternativos de resolución de conflictos",
+        "Regular la clasificación bibliográfica CDU",
+        "Fijar las tarifas de préstamo interbibliotecario",
+        "Crear un catálogo colectivo estatal"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento UAH aprueba normas de convivencia y regula la mediación y la Comisión de Convivencia. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-009#opositatest-referencia-017",
+        "path": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md",
+        "highlightText": "estableciendo así las bases de la convivencia"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-009"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-018",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "¿Qué órgano de la UAH vela por la convivencia pacífica y el mecanismo de mediación?",
+      "options": [
+        "La Comisión de Convivencia",
+        "La Comisión Técnica de Biblioteca",
+        "El Consejo Social exclusivamente",
+        "El Servicio de Publicaciones"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento atribuye esa finalidad a la Comisión de Convivencia de la Universidad de Alcalá. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-009#opositatest-referencia-018",
+        "path": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md",
+        "highlightText": "Comisión de Convivencia"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-009"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-019",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Según el Reglamento de Biblioteca UAH, la Biblioteca es una unidad funcional que gestiona recursos documentales destinados a:",
+      "options": [
+        "Estudio, docencia, investigación y formación continua",
+        "Recaudación tributaria y contratación administrativa",
+        "Gestión de nóminas y régimen disciplinario",
+        "Exclusivamente ocio cultural no universitario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 1 describe la Biblioteca como unidad funcional al servicio del estudio, docencia, investigación y formación continua. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-010#opositatest-referencia-019",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "estudio, la docencia, la investigación y la formación continua"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-010"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-020",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "¿Quién es la autoridad responsable de la Biblioteca de la Universidad de Alcalá según su Reglamento?",
+      "options": [
+        "El Rector o Vicerrector en quien delegue",
+        "El Director de cada Departamento",
+        "El Consejo de Estudiantes exclusivamente",
+        "La Asamblea de usuarios autorizados"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Reglamento identifica al Rector o Vicerrector delegado como autoridad responsable de la Biblioteca. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-010#opositatest-referencia-020",
+        "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
+        "highlightText": "Rector o, en su caso, Vicerrector en quien delegue"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-010"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-021",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "En bibliotecas universitarias, ¿qué caracteriza a una zona de libre acceso?",
+      "options": [
+        "El usuario puede consultar directamente los fondos ordenados en estanterías abiertas",
+        "Solo el personal puede acceder a todos los fondos",
+        "Se utiliza únicamente para material excluido de préstamo",
+        "Implica ausencia de clasificación o signatura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La organización espacial de bibliotecas combina libre acceso, depósitos, salas y equipamiento según tipo de fondo y uso. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-011#opositatest-referencia-021",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "libre acceso"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-011"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-022",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "¿Qué indicador físico resulta especialmente relevante al planificar salas de estudio bibliotecarias?",
+      "options": [
+        "Puestos de lectura disponibles",
+        "Número de expedientes disciplinarios",
+        "Total de decretos publicados",
+        "Porcentaje de personal eventual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los puestos de lectura y salas disponibles son variables básicas de capacidad y servicio en bibliotecas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-011#opositatest-referencia-022",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "puestos de lectura"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-011"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-023",
+      "topicId": "uah-bib-t12-contenido",
+      "question": "En gestión de la colección, ¿qué fase decide qué materiales se incorporan al fondo?",
+      "options": [
+        "Selección",
+        "Expurgo",
+        "Sanción",
+        "Recusación"
+      ],
+      "correctIndex": 0,
+      "explanation": "La selección precede a la adquisición y determina la adecuación de los materiales a las necesidades de la comunidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-012#opositatest-referencia-023",
+        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
+        "highlightText": "selección"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-012"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-024",
+      "topicId": "uah-bib-t12-contenido",
+      "question": "¿Qué finalidad tiene el expurgo en una biblioteca universitaria?",
+      "options": [
+        "Retirar o reubicar materiales obsoletos, deteriorados o poco adecuados según criterios técnicos",
+        "Eliminar todo documento que haya sido prestado",
+        "Sustituir la catalogación por inventario económico",
+        "Reservar el fondo antiguo para préstamo domiciliario ordinario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El expurgo forma parte de la evaluación y mantenimiento de la colección. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-012#opositatest-referencia-024",
+        "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
+        "highlightText": "expurgo"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-012"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-025",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "En MARC 21 bibliográfico, ¿qué campo se asocia habitualmente con el ISBN?",
+      "options": [
+        "020",
+        "245",
+        "650",
+        "856"
+      ],
+      "correctIndex": 0,
+      "explanation": "En MARC 21 el campo 020 corresponde al ISBN; el 022 se utiliza para ISSN. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-013#opositatest-referencia-025",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "020"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-013"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-026",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "¿Qué aportan las RDA al proceso técnico bibliotecario?",
+      "options": [
+        "Un estándar de descripción y acceso orientado a recursos y relaciones",
+        "Una tabla de sanciones por retraso",
+        "Un sistema de préstamo interbibliotecario",
+        "Un identificador fiscal de publicaciones oficiales"
+      ],
+      "correctIndex": 0,
+      "explanation": "RDA es un estándar de catalogación que organiza la descripción y el acceso a recursos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-013#opositatest-referencia-026",
+        "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
+        "highlightText": "RDA"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-013"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-027",
+      "topicId": "uah-bib-t14-contenido",
+      "question": "¿Qué identificador normalizado se utiliza para publicaciones seriadas?",
+      "options": [
+        "ISSN",
+        "ISBN",
+        "NIPO",
+        "DNI"
+      ],
+      "correctIndex": 0,
+      "explanation": "El ISSN identifica publicaciones seriadas; el ISBN se aplica a monografías y otras publicaciones no seriadas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-014#opositatest-referencia-027",
+        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
+        "highlightText": "ISSN"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-014"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-028",
+      "topicId": "uah-bib-t14-contenido",
+      "question": "¿Qué identifica principalmente un DOI?",
+      "options": [
+        "Un objeto digital mediante un identificador persistente",
+        "Una biblioteca universitaria concreta",
+        "Una clasificación topográfica local",
+        "Un permiso de préstamo domiciliario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El DOI es un identificador persistente usado para objetos digitales, especialmente publicaciones científicas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-014#opositatest-referencia-028",
+        "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
+        "highlightText": "DOI"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-014"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-029",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "¿Qué finalidad tiene la CDU en una biblioteca?",
+      "options": [
+        "Clasificar materias y facilitar la ordenación/recuperación de documentos",
+        "Asignar números de expediente administrativo",
+        "Gestionar derechos de autor",
+        "Determinar sanciones de préstamo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Clasificación Decimal Universal organiza el conocimiento por materias y apoya la ordenación documental. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-015#opositatest-referencia-029",
+        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
+        "highlightText": "Clasificación Decimal Universal"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-015"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-030",
+      "topicId": "uah-bib-t15-contenido",
+      "question": "En análisis documental, ¿qué operación representa el contenido temático mediante términos controlados?",
+      "options": [
+        "Indización",
+        "Encuadernación",
+        "Recusación",
+        "Compulsa"
+      ],
+      "correctIndex": 0,
+      "explanation": "La indización asigna términos o encabezamientos para representar y recuperar el contenido. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-015#opositatest-referencia-030",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "indización"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-015"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-031",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué caracteriza a la vía verde del acceso abierto?",
+      "options": [
+        "Depósito de trabajos en repositorios",
+        "Publicación exclusiva en papel",
+        "Pago obligatorio siempre por lectores",
+        "Prohibición de reutilización de datos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La vía verde se asocia al autoarchivo o depósito en repositorios institucionales o temáticos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-016#opositatest-referencia-031",
+        "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
+        "highlightText": "repositorios"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-016"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-032",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "¿Qué servicio UAH se relaciona con el depósito y difusión de producción académica en acceso abierto?",
+      "options": [
+        "e_Buah",
+        "Numerus currens",
+        "NIPO",
+        "LibQUAL+"
+      ],
+      "correctIndex": 0,
+      "explanation": "e_Buah es el repositorio institucional de la Universidad de Alcalá. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-016#opositatest-referencia-032",
+        "path": "data/uah-bibliotecas-2025/referencias/16_01_politica_repositorio_ebuah.md",
+        "highlightText": "e_Buah"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-016"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-033",
+      "topicId": "uah-bib-t17-contenido",
+      "question": "¿Qué servicio bibliotecario ayuda al usuario a localizar, evaluar y utilizar recursos de información?",
+      "options": [
+        "Información bibliográfica y referencia",
+        "Régimen disciplinario",
+        "Contratación menor",
+        "Sorteo de tribunales"
+      ],
+      "correctIndex": 0,
+      "explanation": "La atención al usuario incluye información bibliográfica, referencia y apoyo en el uso de recursos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-017#opositatest-referencia-033",
+        "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
+        "highlightText": "información bibliográfica"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-017"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-034",
+      "topicId": "uah-bib-t17-contenido",
+      "question": "¿Qué objetivo tiene la formación de usuarios en una biblioteca universitaria?",
+      "options": [
+        "Mejorar el uso autónomo y crítico de servicios, recursos y fuentes de información",
+        "Sustituir la catalogación normalizada",
+        "Limitar el acceso a bases de datos",
+        "Reducir los derechos de préstamo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La formación de usuarios refuerza competencias informacionales y uso eficiente de recursos bibliotecarios. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-017#opositatest-referencia-034",
+        "path": "data/uah-bibliotecas-2025/referencias/17_02_servicios_usuarios_complemento.md",
+        "highlightText": "formación de usuarios"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-017"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-035",
+      "topicId": "uah-bib-t18-contenido",
+      "question": "¿Qué servicio permite obtener documentos no disponibles directamente en la propia biblioteca?",
+      "options": [
+        "Préstamo interbibliotecario u obtención de documentos",
+        "Expurgo automático",
+        "Depósito legal",
+        "Registro de autoridad"
+      ],
+      "correctIndex": 0,
+      "explanation": "El acceso al documento incluye obtención de documentos y préstamo interbibliotecario. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-018#opositatest-referencia-035",
+        "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
+        "highlightText": "préstamo interbibliotecario"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-018"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-036",
+      "topicId": "uah-bib-t18-contenido",
+      "question": "En la normativa de préstamo, ¿qué operación prolonga el plazo de uso de un documento si cumple condiciones?",
+      "options": [
+        "Renovación",
+        "Indización",
+        "Depósito legal",
+        "Autoevaluación EFQM"
+      ],
+      "correctIndex": 0,
+      "explanation": "La renovación amplía el plazo de préstamo cuando la normativa y el estado del ejemplar lo permiten. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-018#opositatest-referencia-036",
+        "path": "data/uah-bibliotecas-2025/referencias/18_01_normativa_prestamo.md",
+        "highlightText": "renovación"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-018"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-037",
+      "topicId": "uah-bib-t19-contenido",
+      "question": "¿Qué es una LSP en el contexto bibliotecario?",
+      "options": [
+        "Una plataforma de servicios bibliotecarios que integra flujos como gestión, descubrimiento y recursos",
+        "Una licencia de propiedad intelectual para datos abiertos",
+        "Una sección de la CDU para revistas",
+        "Un indicador de accesibilidad universal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las LSP integran procesos bibliotecarios y herramientas de descubrimiento en entornos tecnológicos actuales. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-019#opositatest-referencia-037",
+        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
+        "highlightText": "Plataformas de Servicios Bibliotecarios"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-019"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-038",
+      "topicId": "uah-bib-t19-contenido",
+      "question": "¿Qué función cumple una herramienta de descubrimiento como Primo?",
+      "options": [
+        "Permitir búsquedas integradas sobre catálogo y recursos electrónicos",
+        "Sustituir el EBEP",
+        "Asignar ISBN a monografías",
+        "Determinar el quorum del claustro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Las herramientas de descubrimiento facilitan la recuperación unificada de fondos y recursos electrónicos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-019#opositatest-referencia-038",
+        "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
+        "highlightText": "herramientas de descubrimiento"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-019"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-039",
+      "topicId": "uah-bib-t20-contenido",
+      "question": "¿Cuál es la finalidad principal de REBIUN?",
+      "options": [
+        "Cooperación entre bibliotecas universitarias y científicas españolas",
+        "Asignación de DOI a artículos",
+        "Gestión disciplinaria del estudiantado",
+        "Evaluación individual del personal funcionario"
+      ],
+      "correctIndex": 0,
+      "explanation": "REBIUN es una red de cooperación bibliotecaria universitaria y científica. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-020#opositatest-referencia-039",
+        "path": "data/uah-bibliotecas-2025/referencias/20_reglamento_rebiun.md",
+        "highlightText": "REBIUN"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-020"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-040",
+      "topicId": "uah-bib-t20-contenido",
+      "question": "¿Qué permite el Pasaporte Madroño?",
+      "options": [
+        "Acceso a servicios de bibliotecas participantes del Consorcio Madroño según sus condiciones",
+        "Convertir un ISBN en ISSN",
+        "Publicar automáticamente en e_Buah",
+        "Eximir de toda normativa de préstamo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Pasaporte Madroño se vincula a cooperación y uso de servicios entre instituciones participantes. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-020#opositatest-referencia-040",
+        "path": "data/uah-bibliotecas-2025/referencias/20_acuerdo_pasaporte_madrono_2025.md",
+        "highlightText": "Pasaporte Madroño"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-020"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-041",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "En calidad bibliotecaria, ¿qué es un indicador?",
+      "options": [
+        "Una medida que permite evaluar actividad, evolución o resultados",
+        "Una licencia de uso Creative Commons",
+        "Un campo MARC de título",
+        "Una modalidad de préstamo reservado"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los indicadores convierten datos en información evaluable para seguimiento y mejora. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-021#opositatest-referencia-041",
+        "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
+        "highlightText": "Indicador"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-021"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-042",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "¿Qué aporta la autoevaluación en el modelo EFQM aplicado a bibliotecas?",
+      "options": [
+        "Detectar puntos fuertes, áreas de mejora y planes de acción con evidencias",
+        "Eliminar la necesidad de indicadores",
+        "Sustituir la atención al usuario por sanciones",
+        "Clasificar documentos por materias"
+      ],
+      "correctIndex": 0,
+      "explanation": "La autoevaluación EFQM analiza evidencias para orientar mejora continua. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-021#opositatest-referencia-042",
+        "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
+        "highlightText": "autoevaluación"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-021"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-043",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Qué protegen los derechos de autor en la Ley de Propiedad Intelectual?",
+      "options": [
+        "Creaciones originales literarias, artísticas o científicas expresadas por cualquier medio o soporte",
+        "Números de clasificación topográfica",
+        "Registros de préstamo vencido",
+        "Solicitudes de acceso al documento"
+      ],
+      "correctIndex": 0,
+      "explanation": "La propiedad intelectual protege obras originales expresadas en cualquier soporte. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-022#opositatest-referencia-043",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "creaciones originales"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-022"
+      ]
+    },
+    {
+      "id": "uah-opo-ref-044",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "En Creative Commons, ¿qué condición representa NC?",
+      "options": [
+        "No comercial",
+        "Número currens",
+        "Normalización catalográfica",
+        "Nueva colección"
+      ],
+      "correctIndex": 0,
+      "explanation": "NC indica que la licencia no permite usos comerciales bajo esa condición. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
+      "origin": "opositatest-referencia",
+      "source": {
+        "materialId": "uah-tema-022#opositatest-referencia-044",
+        "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
+        "highlightText": "No comercial"
+      },
+      "difficulty": "intermedia",
+      "tags": [
+        "opositatest-referencia",
+        "pregunta-original",
+        "uah-tema-022"
+      ]
     }
   ],
   "meta": {
-    "updatedAt": "2026-05-02T17:48:22.313Z",
-    "officialExamQuestions": 259
+    "updatedAt": "2026-05-02T17:59:18.492Z",
+    "officialExamQuestions": 259,
+    "opositatesReferenceQuestions": 44
   }
 }

@@ -53,6 +53,14 @@ const getOriginTag = (origin?: string) => {
     };
   }
 
+  if (o === 'opositatest-referencia') {
+    return {
+      label: 'Opositatest ref.',
+      icon: ExternalLink,
+      className: 'border-amber-300 text-amber-700 dark:border-amber-700 dark:text-amber-400',
+    };
+  }
+
   if (o === 'ia' || o === 'generated') {
     return {
       label: o === 'ia' ? 'IA' : 'Generadas',

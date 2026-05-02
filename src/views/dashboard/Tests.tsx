@@ -49,6 +49,15 @@ const getOriginTag = (origin?: string) => {
     };
   }
 
+  if (o === 'opositatest-referencia') {
+    return {
+      label: 'Opositatest ref.',
+      icon: ExternalLink,
+      className: 'border-amber-300 text-amber-700 dark:border-amber-700 dark:text-amber-400',
+      tooltip: 'Pregunta original basada en cobertura de Opositatest y validada con fuente oficial',
+    };
+  }
+
   if (o === 'ia') {
     return {
       label: 'IA',
