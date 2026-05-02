@@ -3,7 +3,7 @@
     "title": "Folio - Índice de datos",
     "description": "Índice principal con tipos de estudio, convocatorias y datasets temáticos.",
     "version": "2026.05",
-    "updatedAt": "2026-05-02T21:09:16.389+02:00"
+    "updatedAt": "2026-05-02T21:20:16.179+02:00"
   },
   "studyTypes": [
     {
@@ -12,6 +12,10 @@
       "temarioTemplate": "oposiciones",
       "convocatoriaId": "uah-2025-c1",
       "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "uah-c1-banco-comun-refuerzo",
         "uah-c1-tema-01-constitucion",
         "uah-c1-tema-02-ebep",
         "uah-c1-tema-03-losu",
@@ -80,6 +84,10 @@
       "activa": true,
       "studyType": "oposiciones",
       "questionDatasetIds": [
+        "constitucion-1978",
+        "estatuto-basico-del-empleado-publico-ebep",
+        "ley-organica-2-2023-sistema-universitario",
+        "uah-c1-banco-comun-refuerzo",
         "uah-c1-tema-01-constitucion",
         "uah-c1-tema-02-ebep",
         "uah-c1-tema-03-losu",
@@ -195,6 +203,15 @@
       "file": "db-ley-organica-2-2023-sistema-universitario.json",
       "tag": "LOSU",
       "officialUrl": "https://www.boe.es/eli/es/lo/2023/03/22/2/con"
+    },
+    {
+      "id": "uah-c1-banco-comun-refuerzo",
+      "title": "UAH C1 Banco común de refuerzo",
+      "description": "Banco común con preguntas sintéticas de alta calidad para reforzar los temas 4 a 22 de la convocatoria UAH C1 2025, filtrado por cobertura exacta de tema.",
+      "file": "db-uah-c1-banco-comun-refuerzo.json",
+      "tag": "UAH común",
+      "color": "#6d28d9",
+      "officialUrl": "https://www.uah.es/es/empleo-publico/PAS/convocatoria/CONVOCATORIA-PRUEBAS-SELECTIVAS-PARA-EL-INGRESO-EN-LA-ESCALA-TECNICA-AUXILIAR-DE-ARCHIVOS-Y-BIBLIOTECAS-GRUPO-C-SUBGRUPO-C1-DE-LA-UNIVERSIDAD-DE-ALCALA/"
     },
     {
       "id": "ley-19-2013-transparencia",

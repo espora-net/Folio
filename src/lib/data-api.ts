@@ -100,6 +100,34 @@ export const getConvocatoriaCoverageIds = (convocatoriaId: string): string[] => 
   return Array.from(allCoverageIds);
 };
 
+export const getConvocatoriaDatasetCoverageIds = (
+  convocatoriaId: string,
+  database = cachedDatabase
+): Map<string, string[]> => {
+  const convocatoria = cachedConvocatorias.get(convocatoriaId);
+  if (!convocatoria) return new Map();
+
+  const datasetIdByFile = new Map((database.datasets ?? []).map(dataset => [dataset.file, dataset.id]));
+  const coverageByDataset = new Map<string, Set<string>>();
+
+  for (const tema of convocatoria.temas) {
+    const coverageIds = tema.cobertura_convocatoria ?? [];
+    for (const recurso of tema.recursos ?? []) {
+      if (recurso.tipo !== 'db') continue;
+      const datasetId = datasetIdByFile.get(recurso.archivo);
+      if (!datasetId) continue;
+
+      const current = coverageByDataset.get(datasetId) ?? new Set<string>();
+      coverageIds.forEach(id => current.add(id));
+      coverageByDataset.set(datasetId, current);
+    }
+  }
+
+  return new Map(
+    Array.from(coverageByDataset, ([datasetId, coverageIds]) => [datasetId, Array.from(coverageIds)])
+  );
+};
+
 /**
  * Comprueba si un ID de cobertura de un topic coincide con algún ID de cobertura
  * de la convocatoria, utilizando matching jerárquico.
@@ -130,19 +158,26 @@ const matchesCoverage = (
  */
 export const getTopicIdsInConvocatoria = (
   topics: Topic[],
-  convocatoriaId: string
+  convocatoriaId: string,
+  database = cachedDatabase
 ): string[] => {
   const coverageIds = getConvocatoriaCoverageIds(convocatoriaId);
   if (coverageIds.length === 0) return [];
 
+  const datasetCoverageIds = getConvocatoriaDatasetCoverageIds(convocatoriaId, database);
   const exactSet = new Set(coverageIds);
-  const matchingTopicIds: string[] = [];
+  const matchingTopicIds = new Set<string>();
 
   for (const topic of topics) {
-    if (topic.syllabusCoverageIds?.some((id) => matchesCoverage(id, exactSet, coverageIds))) {
-      matchingTopicIds.push(topic.id);
+    const datasetCoverage = topic.sourceDatasetId ? datasetCoverageIds.get(topic.sourceDatasetId) : undefined;
+    const candidateCoverageIds = datasetCoverage?.length ? datasetCoverage : coverageIds;
+    const candidateExactSet = datasetCoverage?.length ? new Set(datasetCoverage) : exactSet;
+
+    if (topic.syllabusCoverageIds?.some((id) => matchesCoverage(id, candidateExactSet, candidateCoverageIds))) {
+      matchingTopicIds.add(topic.id);
+      if (topic.parentId) matchingTopicIds.add(topic.parentId);
     }
   }
 
-  return matchingTopicIds;
+  return Array.from(matchingTopicIds);
 };

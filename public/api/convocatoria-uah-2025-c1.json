@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2026.05",
-    "updatedAt": "2026-05-02T21:09:16.389+02:00"
+    "updatedAt": "2026-05-02T21:20:16.179+02:00"
   },
   "descripcion": "Materiales del temario oficial para Técnico Auxiliar de Bibliotecas UAH - Convocatoria 2025",
   "convocatoria": {
@@ -62,6 +62,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común Constitución (filtrado por título/capítulo)",
+          "archivo": "db-constitucion.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 01",
           "archivo": "db-uah-c1-tema-01-constitucion.json"
         }
@@ -110,6 +115,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común EBEP (filtrado por título/capítulo)",
+          "archivo": "db-estatuto-basico-del-empleado-publico-EBEP.json"
         },
         {
           "tipo": "db",
@@ -163,6 +173,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común LOSU (filtrado por título/capítulo)",
+          "archivo": "db-ley-organica-2-2023-sistema-universitario.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 03",
           "archivo": "db-uah-c1-tema-03-losu.json"
         }
@@ -209,6 +224,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_04_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 04",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -260,6 +280,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 05",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 05",
           "archivo": "db-uah-c1-tema-05-discapacidad.json"
         }
@@ -303,6 +328,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_06_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 06",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -375,6 +405,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 07",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 07",
           "archivo": "db-uah-c1-tema-07-prevencion-riesgos-laborales.json"
         }
@@ -422,6 +457,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 08",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 08",
           "archivo": "db-uah-c1-tema-08-codigo-etico-uah.json"
         }
@@ -461,6 +501,11 @@
           "tipo": "md",
           "nombre": "Guía limpia del tema",
           "archivo": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 09",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -532,6 +577,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 10",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 10",
           "archivo": "db-uah-c1-tema-10-servicio-biblioteca-uah.json"
         }
@@ -588,6 +638,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 11",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 11",
           "archivo": "db-uah-c1-tema-11-espacios-equipamiento.json"
         }
@@ -639,6 +694,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 12",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 12",
           "archivo": "db-uah-c1-tema-12-gestion-coleccion.json"
         }
@@ -687,6 +747,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_13_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 13",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -743,6 +808,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 14",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 14",
           "archivo": "db-uah-c1-tema-14-identificadores.json"
         }
@@ -789,6 +859,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 15",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -863,6 +938,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 16",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 16",
           "archivo": "db-uah-c1-tema-16-acceso-abierto-repositorios.json"
         }
@@ -917,6 +997,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 17",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -989,6 +1074,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 18",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 18",
           "archivo": "db-uah-c1-tema-18-prestamo-acceso-documento.json"
         }
@@ -1036,6 +1126,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 19",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",
@@ -1111,6 +1206,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 20",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 20",
           "archivo": "db-uah-c1-tema-20-cooperacion-bibliotecaria.json"
         }
@@ -1162,6 +1262,11 @@
         },
         {
           "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 21",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
+        },
+        {
+          "tipo": "db",
           "nombre": "Banco específico UAH C1 - Tema 21",
           "archivo": "db-uah-c1-tema-21-calidad-efqm.json"
         }
@@ -1207,6 +1312,11 @@
           "tipo": "md",
           "nombre": "Validación de preguntas oficiales",
           "archivo": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md"
+        },
+        {
+          "tipo": "db",
+          "nombre": "Banco común de refuerzo UAH C1 - Tema 22",
+          "archivo": "db-uah-c1-banco-comun-refuerzo.json"
         },
         {
           "tipo": "db",

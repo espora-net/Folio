@@ -2067,7 +2067,7 @@
     },
     {
       "id": "ley-organica-2-2023-sistema-universitario-q-58",
-      "topicId": "articulo-42-adscripcion-de-centros",
+      "topicId": "articulo-57-presupuesto",
       "question": "¿Qué órgano es responsable de la aprobación del presupuesto anual en las universidades según la Ley Orgánica 2/2023?",
       "options": [
         "El Claustro",
@@ -2738,32 +2738,6 @@
         "materialId": "quizlet.com",
         "path": "quizlet.com",
         "highlightText": "TÍTULO X | Artículo 55. 2, se creará en el plazo máximo de un año a partir de la entrada en vigor de esta\nc) Establecerán un programa de promoción interna a Profesorado Permanente Laboral o figuras equivalentes de la normativa autonómica para quienes, estando contratados con carácter indefinido y cuenten con la acreditación, hayan desempeñado en la fecha de la publicación de la convocatoria actividades docentes en universidades públicas españolas durante al menos cinco cursos académicos de los últimos siete años a través de los contratos de profesorado asociado u otros contratos de duración igual o inferior a un año previstos en la Ley Orgánica 6/2001, de 21 de diciembre. Estas plazas de promoción no computarán a efectos de tasa de reposición."
-      },
-      "origin": "quizlet.com"
-    },
-    {
-      "id": "ley-organica-2-2023-sistema-universitario-q-84",
-      "topicId": "articulo-42-adscripcion-de-centros",
-      "question": "¿Qué órgano es responsable de la aprobación del presupuesto anual en las universidades según la Ley Orgánica 2/2023?",
-      "options": [
-        "El Claustro",
-        "El Consejo de Gobierno",
-        "El Rectorado",
-        "El Consejo Social"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Conforme a la Ley Organica 2/2023, la respuesta correcta es: El Consejo Social.",
-      "difficulty": "intermedia",
-      "tags": [
-        "LOSU",
-        "Ley Organica 2/2023"
-      ],
-      "createdAt": "2026-01-03T19:56:39Z",
-      "updatedAt": "2026-01-03T22:00:15Z",
-      "source": {
-        "materialId": "quizlet.com",
-        "path": "quizlet.com",
-        "highlightText": "TÍTULO IX | CAPÍTULO I | Artículo 42. Adscripción de centros.\n2. La adscripción de centros docentes a universidades públicas requerirá la aprobación de la Comunidad Autónoma correspondiente al ámbito territorial en la que estuvieren ubicados los centros. La propuesta se elevará por el Consejo de Gobierno de la universidad, una vez informado el Consejo Social y conocida la necesidad que justifica su adscripción."
       },
       "origin": "quizlet.com"
     },
@@ -5299,8 +5273,8 @@
         "El Consejo de Gobierno",
         "Ninguno de los anteriores"
       ],
-      "correctAnswer": 2,
-      "explanation": "Conforme a la Ley Organica 2/2023, la respuesta correcta es: El Consejo de Gobierno.",
+      "correctAnswer": 1,
+      "explanation": "Según el artículo 47.2.g de la Ley Orgánica 2/2023, corresponde al Consejo Social contribuir a la incorporación de las previsiones del plan trienal en los presupuestos y aprobarlos, además de supervisar las actividades de carácter económico y aprobar las cuentas anuales.",
       "difficulty": "intermedia",
       "tags": [
         "LOSU",
@@ -5309,9 +5283,9 @@
       "createdAt": "2026-01-03T19:56:39Z",
       "updatedAt": "2026-01-03T22:00:15Z",
       "source": {
-        "materialId": "quizlet.com",
-        "path": "quizlet.com",
-        "highlightText": "TÍTULO IX | CAPÍTULO II | Artículo 47. El Consejo Social.\na) Elaborar, aprobar y evaluar un plan trienal de actuaciones dirigido prioritariamente a fomentar las interrelaciones y cooperación entre la universidad, sus antiguos alumnos y su entorno cultural, profesional, científico, empresarial, social y territorial, así como su desarrollo institucional. Se realizará, con la periodicidad que determinen los Estatutos, una sesión conjunta del Consejo Social y del Consejo de Gobierno de cada universidad a fin de realizar el seguimiento del plan y, en su caso, establecer las modificaciones necesarias."
+        "materialId": "losu-art-47",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "Contribuir a la incorporación de las previsiones del plan trienal de actuaciones en los presupuestos, y aprobarlos"
       },
       "origin": "quizlet.com"
     },
