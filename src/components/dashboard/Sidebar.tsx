@@ -17,7 +17,8 @@ import {
   PanelLeft,
   Settings,
   Menu,
-  X
+  X,
+  GraduationCap
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/hooks/useAuth';
@@ -49,6 +50,7 @@ const navItems = [
   { to: '/dashboard/temario', icon: BookOpen, label: 'Temario', end: false },
   { to: '/dashboard/flashcards', icon: Brain, label: 'Flashcards', end: false },
   { to: '/dashboard/tests', icon: ClipboardCheck, label: 'Tests', end: false },
+  { to: '/dashboard/simulacro', icon: GraduationCap, label: 'Simulacro', end: false },
   { to: '/dashboard/progreso', icon: BarChart3, label: 'Progreso', end: false },
 ];
 

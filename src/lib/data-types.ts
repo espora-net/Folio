@@ -71,6 +71,26 @@ export interface DatasetDescriptor {
   officialUrl?: string;
 }
 
+// Configuración del examen oficial de una convocatoria
+export interface ExamConfig {
+  // Número de preguntas del examen
+  numQuestions: number;
+  // Número de preguntas de reserva
+  numReserve?: number;
+  // Duración en minutos
+  durationMinutes: number;
+  // Puntos por respuesta correcta
+  pointsCorrect: number;
+  // Penalización por respuesta incorrecta (valor negativo)
+  pointsIncorrect: number;
+  // Puntos por pregunta en blanco
+  pointsBlank: number;
+  // Nota mínima para aprobar (sobre el total de puntos posibles)
+  passingScore?: number;
+  // Descripción del formato del examen
+  description?: string;
+}
+
 // Tipos para convocatorias y temas del temario
 export interface ConvocatoriaDescriptor {
   id: string;
@@ -88,6 +108,8 @@ export interface ConvocatoriaDescriptor {
   // Opcional para compatibilidad con db.json antiguos.
   studyType?: StudyType;
   questionDatasetIds?: string[];
+  // Configuración del examen oficial (nº preguntas, duración, puntuación)
+  examConfig?: ExamConfig;
 }
 
 export type TemarioTemplateId = 'oposiciones' | 'placeholder';
