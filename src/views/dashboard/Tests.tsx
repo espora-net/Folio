@@ -318,12 +318,15 @@ const Tests = () => {
             </div>
 
             <div className="space-y-3">
-              {(failedIndicesRef.current.size + skippedIndicesRef.current.size) > 0 && (
-                <Button onClick={repeatFailedQuestions} className="w-full">
-                  <RotateCcw className="h-4 w-4 mr-2" />
-                  Repetir preguntas falladas ({failedIndicesRef.current.size + skippedIndicesRef.current.size})
-                </Button>
-              )}
+              {(() => {
+                const failedAndSkippedCount = failedIndicesRef.current.size + skippedIndicesRef.current.size;
+                return failedAndSkippedCount > 0 ? (
+                  <Button onClick={repeatFailedQuestions} className="w-full">
+                    <RotateCcw className="h-4 w-4 mr-2" />
+                    Repetir preguntas falladas ({failedAndSkippedCount})
+                  </Button>
+                ) : null;
+              })()}
               <Button variant="outline" onClick={startTest} className="w-full">
                 <Play className="h-4 w-4 mr-2" />
                 Nuevo test aleatorio
