@@ -197,7 +197,8 @@ const Tests = () => {
 
     const question = testQuestions[currentIndex];
     const isCorrect = selectedAnswer === question.correctIndex;
-    if (isCorrect) setScore(prev => prev + 1);
+    const nextScore = isCorrect ? score + 1 : score;
+    if (isCorrect) setScore(nextScore);
 
     // Track per-topic performance
     const topicId = question.topicId;
@@ -212,13 +213,18 @@ const Tests = () => {
       }
     }
 
+    if (isCorrect) {
+      nextQuestion(nextScore);
+      return;
+    }
+
     setShowResult(true);
   };
 
-  const saveTestResults = () => {
+  const saveTestResults = (finalScore = score) => {
     const stats = getStats();
     stats.testsCompleted += 1;
-    stats.correctAnswers += score;
+    stats.correctAnswers += finalScore;
     stats.questionsAnswered = (stats.questionsAnswered ?? 0) + testQuestions.length - skippedCount;
     saveStats(stats);
 
@@ -234,19 +240,19 @@ const Tests = () => {
     topicResultsRef.current = {};
   };
 
-  const finishTest = () => {
-    saveTestResults();
+  const finishTest = (finalScore = score) => {
+    saveTestResults(finalScore);
     setTesting(false);
     setShowFinalResults(true);
   };
 
-  const nextQuestion = () => {
+  const nextQuestion = (finalScore = score) => {
     if (currentIndex < testQuestions.length - 1) {
       setCurrentIndex(prev => prev + 1);
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
-      finishTest();
+      finishTest(finalScore);
     }
   };
 
@@ -382,7 +388,7 @@ const Tests = () => {
                 <span className="whitespace-nowrap">Pregunta {currentIndex + 1} de {testQuestions.length}</span>
                 <span className="whitespace-nowrap">Aciertos: {score}</span>
               </div>
-              <Button variant="ghost" size="sm" onClick={finishTest} className="shrink-0">
+              <Button variant="ghost" size="sm" onClick={() => finishTest()} className="shrink-0">
                 Terminar test
               </Button>
             </div>
@@ -597,7 +603,7 @@ const Tests = () => {
                     isMobile ? (
                       <Tooltip>
                         <TooltipTrigger asChild>
-                          <Button size="icon" onClick={nextQuestion}>
+                          <Button size="icon" onClick={() => nextQuestion()}>
                             <Play className="h-4 w-4" />
                             <span className="sr-only">{currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}</span>
                           </Button>
@@ -607,7 +613,7 @@ const Tests = () => {
                         </TooltipContent>
                       </Tooltip>
                     ) : (
-                      <Button onClick={nextQuestion}>
+                      <Button onClick={() => nextQuestion()}>
                         {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
                       </Button>
                     )
