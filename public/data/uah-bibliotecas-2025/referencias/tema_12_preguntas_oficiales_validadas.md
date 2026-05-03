@@ -106,13 +106,13 @@ Este material local proporciona una referencia estable para la aplicación cuand
 
 ## uah-exam-cadiz-c1-2025-q051-53fdfdfaa7d7
 
-**Pregunta:** En sus recomendaciones técnicas para la digitalización de documentos, la Junta de Andalucía indica en su punto 5.1 que las reproducciones digitales de alta calidad se realizarán con fines de preservación en formato:
+**Pregunta:** Según las buenas prácticas en digitalización de documentos en bibliotecas y archivos, las reproducciones digitales de alta calidad con fines de preservación se realizan en formato:
 
 **Validación oficial uah-exam-cadiz-c1-2025-q051-53fdfdfaa7d7: TIFF**
 
 **Respuesta oficial validada:** TIFF
 
-**Explicación y origen:** Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 51. Respuesta validada por la plantilla oficial: TIFF. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.
+**Explicación y origen:** Pregunta adaptada de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 51. La pregunta original hacía referencia a la Junta de Andalucía, pero el formato TIFF como estándar de preservación es una recomendación universalmente aceptada (IFLA, ISO, ALA). Adaptada para el temario UAH C1.
 
 **Tema UAH normalizado:** Tema 12 — La gestión de la colección en las bibliotecas universitarias
 
