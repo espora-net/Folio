@@ -754,30 +754,30 @@
     {
       "id": "uah-t19-point-0",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 19?",
+      "question": "¿Qué integra una plataforma de servicios bibliotecarios (LSP)?",
       "answer": "Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t19-point-1",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 19?",
+      "question": "¿Qué permiten las herramientas de descubrimiento?",
       "answer": "Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t19-point-2",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 19?",
+      "question": "¿En qué aspectos influye la calidad de los metadatos?",
       "answer": "La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t19-point-3",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 19?",
+      "question": "¿Qué debe interpretar el personal en una LSP o herramienta de descubrimiento?",
       "answer": "El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t19-fact-alma-primo",

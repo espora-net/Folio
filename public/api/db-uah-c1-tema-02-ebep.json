@@ -665,30 +665,30 @@
     {
       "id": "uah-t2-point-0",
       "topicId": "uah-bib-t02-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué establece el EBEP sobre el personal funcionario y laboral?",
       "answer": "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t2-point-1",
       "topicId": "uah-bib-t02-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué cuatro clases de personal enumera el EBEP?",
       "answer": "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t2-point-2",
       "topicId": "uah-bib-t02-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué principios éticos y de conducta del EBEP debes enumerar?",
       "answer": "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t2-point-3",
       "topicId": "uah-bib-t02-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué principios rigen la provisión de puestos en el EBEP?",
       "answer": "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-2--que-cuatro-clases",
@@ -700,7 +700,7 @@
     {
       "id": "uah-t2-fact-titulos-ebep",
       "topicId": "uah-bib-t02-contenido",
-      "question": "¿Qué bloques del EBEP entran en el tema 2?",
+      "question": "¿Qué títulos del EBEP cubren objeto/ámbito, clases de empleados públicos y derechos/deberes?",
       "answer": "Título I: objeto y ámbito; Título II: clases de empleados públicos; Título III: derechos, deberes y código de conducta.",
       "origin": "curada-editorial"
     }

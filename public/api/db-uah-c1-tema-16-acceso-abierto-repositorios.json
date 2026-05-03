@@ -1063,30 +1063,30 @@
     {
       "id": "uah-t16-point-0",
       "topicId": "uah-bib-t16-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué objetivo persigue el acceso abierto en investigación?",
       "answer": "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t16-point-1",
       "topicId": "uah-bib-t16-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué es eBUAH dentro de la Universidad de Alcalá?",
       "answer": "eBUAH es el repositorio institucional de la Universidad de Alcala.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t16-point-2",
       "topicId": "uah-bib-t16-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué función cumple eCienciaDatos para los datos de investigación?",
       "answer": "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t16-point-3",
       "topicId": "uah-bib-t16-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué compromisos fija la política de Ciencia Abierta de la UAH?",
       "answer": "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-16-ebuah-frente-a-eci",

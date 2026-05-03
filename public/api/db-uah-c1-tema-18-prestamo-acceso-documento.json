@@ -1033,30 +1033,30 @@
     {
       "id": "uah-t18-point-0",
       "topicId": "uah-bib-t18-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué variables regula la gestión del préstamo bibliotecario?",
       "answer": "La gestion del prestamo regula quien puede llevarse que, por cuanto tiempo y con que condiciones.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t18-point-1",
       "topicId": "uah-bib-t18-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 18?",
+      "question": "¿Para qué sirven las reservas y renovaciones?",
       "answer": "Las reservas y renovaciones ordenan la disponibilidad y evitan conflictos entre usuarios.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t18-point-2",
       "topicId": "uah-bib-t18-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué exigen las salas de trabajo para su uso adecuado?",
       "answer": "Las salas de trabajo requieren normas de reserva, uso responsable y convivencia.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t18-point-3",
       "topicId": "uah-bib-t18-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué cubre el acceso al documento?",
       "answer": "El acceso al documento cubre suministro u obtencion de materiales no disponibles en la coleccion propia o inmediata.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t18-fact-reservas-prestamo",

@@ -886,30 +886,30 @@
     {
       "id": "uah-t13-point-0",
       "topicId": "uah-bib-t13-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 13?",
+      "question": "¿Para qué sirve MARC 21 en registros bibliográficos?",
       "answer": "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t13-point-1",
       "topicId": "uah-bib-t13-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 13?",
+      "question": "¿Qué entidades bibliográficas básicas organiza FRBR?",
       "answer": "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t13-point-2",
       "topicId": "uah-bib-t13-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 13?",
+      "question": "¿Qué orienta RDA en la descripción bibliográfica?",
       "answer": "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t13-point-3",
       "topicId": "uah-bib-t13-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 13?",
+      "question": "¿Qué fases incluye el proceso técnico bibliotecario?",
       "answer": "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-13-marc-21-frbr-y-rd",

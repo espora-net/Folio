@@ -1037,30 +1037,30 @@
     {
       "id": "uah-t3-point-0",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué funciones integran el servicio público de educación superior de la universidad según la LOSU?",
       "answer": "La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t3-point-1",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué ámbitos comprende la autonomía universitaria en la LOSU?",
       "answer": "La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t3-point-2",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 3?",
+      "question": "¿Mediante qué tipos de órganos se articula la gobernanza pública universitaria?",
       "answer": "La gobernanza publica se articula mediante organos colegiados y unipersonales.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t3-point-3",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué funciones de apoyo realiza el PTGAS según la LOSU?",
       "answer": "El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-3--que-significa-ptg",

@@ -657,30 +657,30 @@
     {
       "id": "uah-t14-point-0",
       "topicId": "uah-bib-t14-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 14?",
+      "question": "¿Qué identifica el ISBN?",
       "answer": "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t14-point-1",
       "topicId": "uah-bib-t14-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 14?",
+      "question": "¿Qué identifica el ISSN?",
       "answer": "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t14-point-2",
       "topicId": "uah-bib-t14-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 14?",
+      "question": "¿Para qué se usa el DOI?",
       "answer": "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t14-point-3",
       "topicId": "uah-bib-t14-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 14?",
+      "question": "¿A qué responden el Depósito Legal y el NIPO?",
       "answer": "Deposito Legal y NIPO responden a obligaciones o identificacion de publicaciones, especialmente en ambito institucional.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-14-isbn-frente-a-issn",

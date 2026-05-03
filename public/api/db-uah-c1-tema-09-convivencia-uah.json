@@ -268,30 +268,30 @@
     {
       "id": "uah-t9-point-0",
       "topicId": "uah-bib-t09-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 9?",
+      "question": "¿Qué finalidad tiene el Reglamento de convivencia universitaria de la UAH?",
       "answer": "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t9-point-1",
       "topicId": "uah-bib-t09-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 9?",
+      "question": "¿Qué principios de convivencia universitaria debes enumerar?",
       "answer": "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t9-point-2",
       "topicId": "uah-bib-t09-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 9?",
+      "question": "¿Qué mecanismos puede incluir el reglamento ante conflictos de convivencia?",
       "answer": "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t9-point-3",
       "topicId": "uah-bib-t09-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 9?",
+      "question": "¿Qué aspectos del reglamento conviene estudiar con literalidad?",
       "answer": "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t9-fact-ambito-digital",

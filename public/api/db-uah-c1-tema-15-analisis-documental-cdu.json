@@ -629,30 +629,30 @@
     {
       "id": "uah-t15-point-0",
       "topicId": "uah-bib-t15-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 15?",
+      "question": "¿Para qué sirve el análisis documental en la recuperación de información?",
       "answer": "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t15-point-1",
       "topicId": "uah-bib-t15-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 15?",
+      "question": "¿Qué hace la clasificación dentro de un sistema jerárquico o facetado?",
       "answer": "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t15-point-2",
       "topicId": "uah-bib-t15-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 15?",
+      "question": "¿Por qué es relevante la CDU en bibliotecas españolas?",
       "answer": "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t15-point-3",
       "topicId": "uah-bib-t15-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 15?",
+      "question": "¿Qué combina la signatura bibliográfica?",
       "answer": "La signatura combina clasificacion y elementos de localizacion fisica.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t15-fact-clasificar-indizar",

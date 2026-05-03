@@ -633,30 +633,30 @@
     {
       "id": "uah-t12-point-0",
       "topicId": "uah-bib-t12-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 12?",
+      "question": "¿A qué necesidades debe responder la selección de la colección?",
       "answer": "La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t12-point-1",
       "topicId": "uah-bib-t12-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 12?",
+      "question": "¿Qué vías de adquisición de fondos debes recordar?",
       "answer": "La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t12-point-2",
       "topicId": "uah-bib-t12-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 12?",
+      "question": "¿Qué objetivos persiguen la conservación y la preservación?",
       "answer": "La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t12-point-3",
       "topicId": "uah-bib-t12-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 12?",
+      "question": "¿Qué indicadores se usan para evaluar una colección?",
       "answer": "La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t12-fact-ciclo-coleccion",

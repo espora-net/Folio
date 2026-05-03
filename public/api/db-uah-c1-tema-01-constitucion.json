@@ -649,30 +649,30 @@
     {
       "id": "uah-t1-point-0",
       "topicId": "uah-bib-t01-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 1?",
+      "question": "¿Qué define el artículo 1 de la Constitución y cuáles son sus valores superiores?",
       "answer": "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t1-point-1",
       "topicId": "uah-bib-t01-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 1?",
+      "question": "¿Qué dos ideas constitucionales recoge el artículo 2 sobre España?",
       "answer": "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t1-point-2",
       "topicId": "uah-bib-t01-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 1?",
+      "question": "¿Qué bloques de derechos y garantías diferencia el Título I de la Constitución?",
       "answer": "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t1-point-3",
       "topicId": "uah-bib-t01-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 1?",
+      "question": "¿Qué dos instrumentos protegen especialmente los derechos fundamentales?",
       "answer": "El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-1--cuales-son-los-va",
