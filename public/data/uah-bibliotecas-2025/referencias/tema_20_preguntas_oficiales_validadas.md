@@ -24,38 +24,6 @@ Este material local proporciona una referencia estable para la aplicación cuand
 
 ---
 
-## uah-exam-upm-c1-2025-1-q077-a1e1c37ba601
-
-**Pregunta:** La cooperación bibliotecaria permite principalmente:
-
-**Validación oficial uah-exam-upm-c1-2025-1-q077-a1e1c37ba601: Compartir recursos y optimizar gastos mediante acuerdos y consorcios**
-
-**Respuesta oficial validada:** Compartir recursos y optimizar gastos mediante acuerdos y consorcios
-
-**Explicación y origen:** Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 77. Respuesta validada por la plantilla oficial: Compartir recursos y optimizar gastos mediante acuerdos y consorcios. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.
-
-**Tema UAH normalizado:** Tema 20 — La cooperación bibliotecaria en las bibliotecas universitarias en España
-
-**Dataset:** `db-uah-c1-tema-20-cooperacion-bibliotecaria.json`
-
----
-
-## uah-exam-upm-c1-2025-1-q078-48c441e60174
-
-**Pregunta:** El catálogo colectivo REBIUN facilita:
-
-**Validación oficial uah-exam-upm-c1-2025-1-q078-48c441e60174: La localización de fondos de todas las bibliotecas miembros**
-
-**Respuesta oficial validada:** La localización de fondos de todas las bibliotecas miembros
-
-**Explicación y origen:** Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 78. Respuesta validada por la plantilla oficial: La localización de fondos de todas las bibliotecas miembros. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.
-
-**Tema UAH normalizado:** Tema 20 — La cooperación bibliotecaria en las bibliotecas universitarias en España
-
-**Dataset:** `db-uah-c1-tema-20-cooperacion-bibliotecaria.json`
-
----
-
 ## uah-exam-udc-c1-2025-2-q049-60766903c5ee
 
 **Pregunta:** Señale la respuesta que contiene consorcios de bibliotecas universitarias españolas
@@ -97,54 +65,6 @@ Este material local proporciona una referencia estable para la aplicación cuand
 **Respuesta oficial validada:** un objetivo del área 4 de los objetivos del Observatorio de Inteligencia Artificial de Rebiun
 
 **Explicación y origen:** Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 89. Respuesta validada por la plantilla oficial: un objetivo del área 4 de los objetivos del Observatorio de Inteligencia Artificial de Rebiun. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.
-
-**Tema UAH normalizado:** Tema 20 — La cooperación bibliotecaria en las bibliotecas universitarias en España
-
-**Dataset:** `db-uah-c1-tema-20-cooperacion-bibliotecaria.json`
-
----
-
-## uah-exam-udc-c1-2025-2-q101-d015c53778ff
-
-**Pregunta:** Indica cual es la sentencia correcta respecto a Rebiun:
-
-**Validación oficial uah-exam-udc-c1-2025-2-q101-d015c53778ff: Actualmente es una red asociada a la Sectorial CRUE I+D+i**
-
-**Respuesta oficial validada:** Actualmente es una red asociada a la Sectorial CRUE I+D+i
-
-**Explicación y origen:** Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 101. Respuesta validada por la plantilla oficial: Actualmente es una red asociada a la Sectorial CRUE I+D+i. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.
-
-**Tema UAH normalizado:** Tema 20 — La cooperación bibliotecaria en las bibliotecas universitarias en España
-
-**Dataset:** `db-uah-c1-tema-20-cooperacion-bibliotecaria.json`
-
----
-
-## uah-exam-cadiz-c1-2025-q054-8ed78ac9a355
-
-**Pregunta:** ¿Qué tipo de bibliotecas forman parte de REBIUN?
-
-**Validación oficial uah-exam-cadiz-c1-2025-q054-8ed78ac9a355: Bibliotecas de ámbito universitario público y privado más bibliotecas del CSIC**
-
-**Respuesta oficial validada:** Bibliotecas de ámbito universitario público y privado más bibliotecas del CSIC
-
-**Explicación y origen:** Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 54. Respuesta validada por la plantilla oficial: Bibliotecas de ámbito universitario público y privado más bibliotecas del CSIC. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.
-
-**Tema UAH normalizado:** Tema 20 — La cooperación bibliotecaria en las bibliotecas universitarias en España
-
-**Dataset:** `db-uah-c1-tema-20-cooperacion-bibliotecaria.json`
-
----
-
-## uah-exam-cantabria-c2-2025-q021-2cede75af99a
-
-**Pregunta:** ¿Qué sistema de gestión utiliza el catálogo colectivo de REBIUN?
-
-**Validación oficial uah-exam-cantabria-c2-2025-q021-2cede75af99a: AbsysNET.**
-
-**Respuesta oficial validada:** AbsysNET.
-
-**Explicación y origen:** Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 21. Respuesta validada por la plantilla oficial: AbsysNET.. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.
 
 **Tema UAH normalizado:** Tema 20 — La cooperación bibliotecaria en las bibliotecas universitarias en España
 
@@ -247,4 +167,3 @@ Este material local proporciona una referencia estable para la aplicación cuand
 **Dataset:** `db-uah-c1-tema-20-cooperacion-bibliotecaria.json`
 
 ---
-
