@@ -154,43 +154,12 @@ export const getFlashcards = (): Flashcard[] => {
   });
 
   const database = getCachedDatabase();
-  const questions = typeof window === 'undefined'
-    ? filterQuestionsByActiveDatasets(database.questions, database)
-    : getQuestions();
 
-  // Datasets que aportan flashcards curadas (cargadas del JSON fuente).
-  // Para esos datasets se usan las flashcards curadas como fuente de verdad
-  // y NO se derivan flashcards automáticamente desde sus preguntas, ya que
-  // los enunciados de test no se adaptan bien al formato pregunta/respuesta
-  // (p. ej. "¿Cuál de las siguientes es correcta?" no tiene sentido sin opciones).
-  const curatedFlashcards = filterFlashcardsByActiveDatasets(database.flashcards, database)
+  // Solo se devuelven flashcards curadas (declaradas en los datasets).
+  // No se derivan flashcards desde preguntas de test, ya que los enunciados
+  // de test no se adaptan al formato pregunta/respuesta de flashcards.
+  return filterFlashcardsByActiveDatasets(database.flashcards, database)
     .map(withReviewDefaults);
-  const datasetsWithCuratedFlashcards = new Set(
-    curatedFlashcards
-      .map(card => card.sourceDatasetId)
-      .filter((sourceDatasetId): sourceDatasetId is string => Boolean(sourceDatasetId))
-  );
-
-  // Para datasets sin flashcards curadas se mantiene el comportamiento legacy:
-  // derivar una flashcard por pregunta tomando la opción correcta como respuesta.
-  const derivedFlashcards = questions
-    .filter(q => !q.sourceDatasetId || !datasetsWithCuratedFlashcards.has(q.sourceDatasetId))
-    .map(q => {
-      const answer = q.options[q.correctIndex] ?? '';
-      return {
-        id: q.id,
-        topicId: q.topicId,
-        question: q.question,
-        answer,
-        nextReview: '',
-        interval: 0,
-        easeFactor: 2.5,
-        origin: q.origin ?? 'generada-ia',
-        sourceDatasetId: q.sourceDatasetId,
-      } as Flashcard;
-    });
-
-  return [...curatedFlashcards, ...derivedFlashcards];
 };
 
 export const getQuestions = (): TestQuestion[] => {
