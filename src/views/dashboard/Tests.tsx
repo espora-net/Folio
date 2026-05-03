@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useRef } from 'react';
-import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck, SkipForward } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, BookOpen, ExternalLink, SkipForward } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -15,7 +15,7 @@ import {
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
-import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { Separator } from '@/components/ui/separator';
 import {
   Tooltip,
   TooltipContent,
@@ -27,19 +27,16 @@ import { getActiveConvocatoria, getConvocatoriaDescriptors, getTopicIdsInConvoca
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
-import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
+import StudyFiltersInline from '@/components/dashboard/StudyFiltersInline';
 import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
 import QuestionIdBadge from '@/components/dashboard/QuestionIdBadge';
 import { getOriginTag, matchesOriginFilter } from '@/lib/question-origin';
-
-type ViewMode = 'cards' | 'list';
 
 const Tests = () => {
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>([]);
-  const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [originFilter, setOriginFilter] = useState<string>('all');
   const [filterMode, setFilterMode] = useState<FilterMode>('none');
   const [questionLimit, setQuestionLimit] = useState<number>(0); // 0 = all
@@ -339,52 +336,9 @@ const Tests = () => {
         </div>
       )}
 
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-foreground">Tests</h1>
-          <p className="text-sm sm:text-base text-muted-foreground">Practica con preguntas tipo test</p>
-        </div>
-        <div className="flex gap-2 items-center flex-wrap">
-          <StudyFiltersPopover
-            topics={topics}
-            items={questions}
-            allConvocatorias={allConvocatorias}
-            selectedConvocatoria={selectedConvocatoria}
-            filterMode={filterMode}
-            selectedTopicIds={selectedTopics}
-            originFilter={originFilter}
-            expandedGroups={expandedGroups}
-            onFilterModeChange={setFilterMode}
-            onSelectedTopicsChange={setSelectedTopics}
-            onOriginFilterChange={setOriginFilter}
-            onExpandedGroupsChange={setExpandedGroups}
-            onConvocatoriaChange={setSelectedConvocatoria}
-            filteredCount={filteredQuestions.length}
-          />
-          <QuestionCountSelector
-            totalAvailable={filteredQuestions.length}
-            selectedCount={effectiveQuestionCount}
-            onCountChange={setQuestionLimit}
-          />
-          {isMobile ? (
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Button onClick={startTest} size="icon" className="shrink-0">
-                  <Play className="h-4 w-4" />
-                  <span className="sr-only">Empezar test ({effectiveQuestionCount})</span>
-                </Button>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>Empezar test ({effectiveQuestionCount})</p>
-              </TooltipContent>
-            </Tooltip>
-          ) : (
-            <Button onClick={startTest}>
-              <Play className="h-4 w-4 mr-2" />
-              Empezar test ({effectiveQuestionCount})
-            </Button>
-          )}
-        </div>
+      <div>
+        <h1 className="text-2xl sm:text-3xl font-bold text-foreground">Tests</h1>
+        <p className="text-sm sm:text-base text-muted-foreground">Configura y lanza tu test</p>
       </div>
 
       {testing && currentQuestion ? (
@@ -632,130 +586,43 @@ const Tests = () => {
           </Card>
         </div>
       ) : (
-        <>
-          {filteredQuestions.length === 0 ? (
-            <Card className="border-border border-dashed">
-              <CardContent className="py-12 text-center">
-                <p className="text-muted-foreground mb-4">
-                  No hay preguntas para los filtros seleccionados.
-                </p>
-              </CardContent>
-            </Card>
-          ) : (
-            <>
-              {/* Toggle de vista */}
-              <div className="flex justify-end mb-4">
-                <ToggleGroup type="single" value={viewMode} onValueChange={(v) => v && setViewMode(v as ViewMode)}>
-                  <ToggleGroupItem value="cards" aria-label="Vista tarjetas" className="px-2 sm:px-3">
-                    <LayoutGrid className="h-4 w-4 sm:mr-2" />
-                    <span className="hidden sm:inline">Tarjetas</span>
-                  </ToggleGroupItem>
-                  <ToggleGroupItem value="list" aria-label="Vista lista" className="px-2 sm:px-3">
-                    <List className="h-4 w-4 sm:mr-2" />
-                    <span className="hidden sm:inline">Lista</span>
-                  </ToggleGroupItem>
-                </ToggleGroup>
-              </div>
+        <Card className="border-border">
+          <CardContent className="p-4 sm:p-6 space-y-6">
+            <StudyFiltersInline
+              topics={topics}
+              items={questions}
+              allConvocatorias={allConvocatorias}
+              selectedConvocatoria={selectedConvocatoria}
+              filterMode={filterMode}
+              selectedTopicIds={selectedTopics}
+              originFilter={originFilter}
+              expandedGroups={expandedGroups}
+              onFilterModeChange={setFilterMode}
+              onSelectedTopicsChange={setSelectedTopics}
+              onOriginFilterChange={setOriginFilter}
+              onExpandedGroupsChange={setExpandedGroups}
+              onConvocatoriaChange={setSelectedConvocatoria}
+              filteredCount={filteredQuestions.length}
+            />
 
-              {viewMode === 'cards' ? (
-                <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                  {filteredQuestions.map((q) => {
-                    const topic = getTopicById(q.topicId);
-                    const tag = getOriginTag(q.origin);
-                    const TagIcon = tag.icon;
-                    return (
-                      <Card key={q.id} className="border-border">
-                        <CardContent className="p-3 sm:p-4 flex flex-col h-full">
-                          <div className="flex justify-between items-start mb-2">
-                            <p className="text-xs text-muted-foreground">Pregunta</p>
-                          </div>
-                          <p className="font-medium text-foreground mb-3 line-clamp-3 text-sm sm:text-base">
-                            {q.question}
-                          </p>
-                          <p className="text-xs text-muted-foreground">Respuesta correcta</p>
-                          <p className="text-xs sm:text-sm text-primary line-clamp-2 flex-1">
-                            {q.options[q.correctIndex]}
-                          </p>
-                          {topic && (
-                            <div className="mt-3 pt-3 border-t border-border flex items-center gap-2 flex-wrap">
-                              <Badge
-                                className="text-[10px] px-2 py-0.5"
-                                style={{ backgroundColor: topic.color || '#6b7280' }}
-                              >
-                                {topic.tag || topic.title}
-                              </Badge>
-                              <Tooltip>
-                                <TooltipTrigger asChild>
-                                  <Badge 
-                                    variant="outline" 
-                                    className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
-                                  >
-                                    <><TagIcon className="h-3 w-3" /> {tag.label}</>
-                                  </Badge>
-                                </TooltipTrigger>
-                                <TooltipContent side="top">
-                                  {tag.tooltip}
-                                </TooltipContent>
-                              </Tooltip>
-                              <QuestionIdBadge questionId={q.id} />
-                            </div>
-                          )}
-                        </CardContent>
-                      </Card>
-                    );
-                  })}
-                </div>
-              ) : (
-                <div className="space-y-2">
-                  {filteredQuestions.map((q, index) => {
-                    const topic = getTopicById(q.topicId);
-                    const tag = getOriginTag(q.origin);
-                    const TagIcon = tag.icon;
-                    return (
-                      <Card key={q.id} className="border-border">
-                        <CardContent className="p-4">
-                          <div className="flex items-start justify-between gap-4">
-                            <div className="flex-1 min-w-0">
-                              <div className="flex items-center gap-2 mb-1 flex-wrap">
-                                <span className="text-sm text-muted-foreground">#{index + 1}</span>
-                                {topic && (
-                                  <Badge
-                                    className="text-[10px] px-2 py-0.5"
-                                    style={{ backgroundColor: topic.color || '#6b7280' }}
-                                  >
-                                    {topic.tag || topic.title}
-                                  </Badge>
-                                )}
-                                <Tooltip>
-                                  <TooltipTrigger asChild>
-                                    <Badge 
-                                      variant="outline" 
-                                      className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
-                                    >
-                                      <><TagIcon className="h-3 w-3" /> {tag.label}</>
-                                    </Badge>
-                                  </TooltipTrigger>
-                                  <TooltipContent side="top">
-                                    {tag.tooltip}
-                                  </TooltipContent>
-                                </Tooltip>
-                                <QuestionIdBadge questionId={q.id} />
-                              </div>
-                              <p className="text-foreground font-medium">{q.question}</p>
-                              <p className="text-sm text-primary mt-1">
-                                Respuesta correcta: {q.options[q.correctIndex]}
-                              </p>
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    );
-                  })}
-                </div>
-              )}
-            </>
-          )}
-        </>
+            <Separator />
+
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-muted-foreground">Preguntas:</span>
+                <QuestionCountSelector
+                  totalAvailable={filteredQuestions.length}
+                  selectedCount={effectiveQuestionCount}
+                  onCountChange={setQuestionLimit}
+                />
+              </div>
+              <Button onClick={startTest} className="w-full sm:w-auto" disabled={filteredQuestions.length === 0}>
+                <Play className="h-4 w-4 mr-2" />
+                Empezar test ({effectiveQuestionCount})
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
       )}
     </div>
   );

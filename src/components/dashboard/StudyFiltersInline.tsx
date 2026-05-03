@@ -1,0 +1,431 @@
+'use client';
+
+import { useMemo } from 'react';
+import { Filter, ChevronDown, ChevronRight, Sparkles, Building2 } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Separator } from '@/components/ui/separator';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { type Topic, type Flashcard, type TestQuestion } from '@/lib/storage';
+import { type ConvocatoriaDescriptor, getTopicIdsInConvocatoria } from '@/lib/data-api';
+import { getOriginFilterValue, getOriginTag, sortOriginFilters } from '@/lib/question-origin';
+
+type FilterMode = 'none' | 'convocatoria' | 'tema';
+
+interface TopicGroup {
+  parent: Topic;
+  subtopics: Topic[];
+  totalItems: number;
+}
+
+interface StudyFiltersInlineProps {
+  topics: Topic[];
+  items: Flashcard[] | TestQuestion[];
+  allConvocatorias: ConvocatoriaDescriptor[];
+  selectedConvocatoria: ConvocatoriaDescriptor | null;
+  filterMode: FilterMode;
+  selectedTopicIds: string[];
+  originFilter: string;
+  expandedGroups: string[];
+  onFilterModeChange: (mode: FilterMode) => void;
+  onSelectedTopicsChange: (topicIds: string[]) => void;
+  onOriginFilterChange: (origin: string) => void;
+  onExpandedGroupsChange: (groups: string[]) => void;
+  onConvocatoriaChange: (convocatoria: ConvocatoriaDescriptor | null) => void;
+  filteredCount: number;
+}
+
+export default function StudyFiltersInline({
+  topics,
+  items,
+  allConvocatorias,
+  selectedConvocatoria,
+  filterMode,
+  selectedTopicIds,
+  originFilter,
+  expandedGroups,
+  onFilterModeChange,
+  onSelectedTopicsChange,
+  onOriginFilterChange,
+  onExpandedGroupsChange,
+  onConvocatoriaChange,
+  filteredCount,
+}: StudyFiltersInlineProps) {
+  const convocatoriaTopicIds = useMemo(() => {
+    if (!selectedConvocatoria) return [];
+    return getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
+  }, [topics, selectedConvocatoria]);
+
+  const convocatoriaTopicIdSet = useMemo(() => new Set(convocatoriaTopicIds), [convocatoriaTopicIds]);
+
+  const convocatoriaTopicCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const convocatoria of allConvocatorias) {
+      counts.set(convocatoria.id, getTopicIdsInConvocatoria(topics, convocatoria.id).length);
+    }
+    return counts;
+  }, [allConvocatorias, topics]);
+
+  const itemCountsByTopic = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const item of items) {
+      counts.set(item.topicId, (counts.get(item.topicId) ?? 0) + 1);
+    }
+    return counts;
+  }, [items]);
+
+  const subtopicsByParent = useMemo(() => {
+    const groups = new Map<string, Topic[]>();
+    for (const topic of topics) {
+      if (!topic.parentId) continue;
+      const current = groups.get(topic.parentId);
+      if (current) {
+        current.push(topic);
+      } else {
+        groups.set(topic.parentId, [topic]);
+      }
+    }
+    return groups;
+  }, [topics]);
+
+  const topicGroups = useMemo((): TopicGroup[] => {
+    const parentTopics = topics.filter(t => !t.parentId);
+    return parentTopics.map(parent => {
+      const subtopics = subtopicsByParent.get(parent.id) ?? [];
+      const allIds = [parent.id, ...subtopics.map(s => s.id)];
+      const totalItems = allIds.reduce((sum, topicId) => sum + (itemCountsByTopic.get(topicId) ?? 0), 0);
+      return { parent, subtopics, totalItems };
+    });
+  }, [topics, subtopicsByParent, itemCountsByTopic]);
+
+  const availableOrigins = useMemo(() => {
+    const origins = new Set<string>();
+    items.forEach(item => {
+      origins.add(getOriginFilterValue(item.origin));
+    });
+    return Array.from(origins).sort(sortOriginFilters);
+  }, [items]);
+
+  const toggleGroup = (groupId: string) => {
+    onExpandedGroupsChange(
+      expandedGroups.includes(groupId)
+        ? expandedGroups.filter(id => id !== groupId)
+        : [...expandedGroups, groupId]
+    );
+  };
+
+  const toggleTopic = (topicId: string) => {
+    onSelectedTopicsChange(
+      selectedTopicIds.includes(topicId)
+        ? selectedTopicIds.filter(id => id !== topicId)
+        : [...selectedTopicIds, topicId]
+    );
+  };
+
+  const toggleGroupSelection = (group: TopicGroup) => {
+    const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
+    const allSelected = allIds.every(id => selectedTopicIds.includes(id));
+    
+    if (allSelected) {
+      onSelectedTopicsChange(selectedTopicIds.filter(id => !allIds.includes(id)));
+    } else {
+      onSelectedTopicsChange([...new Set([...selectedTopicIds, ...allIds])]);
+    }
+  };
+
+  const selectConvocatoriaTopics = (convocatoria: ConvocatoriaDescriptor) => {
+    onConvocatoriaChange(convocatoria);
+    onFilterModeChange('convocatoria');
+    const topicIds = getTopicIdsInConvocatoria(topics, convocatoria.id);
+    onSelectedTopicsChange(topicIds);
+  };
+
+  const clearConvocatoriaFilter = () => {
+    onConvocatoriaChange(null);
+    onFilterModeChange('none');
+    onSelectedTopicsChange([]);
+  };
+
+  const selectAllTopics = () => {
+    onSelectedTopicsChange(topics.map(t => t.id));
+  };
+
+  const clearAllTopics = () => {
+    onSelectedTopicsChange([]);
+  };
+
+  const hasActiveFilters = filterMode !== 'none' || selectedTopicIds.length > 0 || originFilter !== 'all';
+
+  return (
+    <TooltipProvider>
+      <div className="space-y-4">
+        {/* Filtro por convocatoria */}
+        {allConvocatorias.length > 0 && (
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <Building2 className="h-4 w-4 text-muted-foreground" />
+                <span className="text-sm font-medium">Convocatoria</span>
+              </div>
+              {selectedConvocatoria && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-6 text-xs px-2"
+                  onClick={clearConvocatoriaFilter}
+                >
+                  Limpiar
+                </Button>
+              )}
+            </div>
+            <div className="space-y-1">
+              {allConvocatorias.map((convocatoria) => {
+                const isSelected = selectedConvocatoria?.id === convocatoria.id && filterMode === 'convocatoria';
+                const topicCount = convocatoriaTopicCounts.get(convocatoria.id) ?? 0;
+                return (
+                  <Tooltip key={convocatoria.id}>
+                    <TooltipTrigger asChild>
+                      <Button
+                        variant={isSelected ? 'default' : 'outline'}
+                        size="sm"
+                        className="w-full justify-start gap-2 overflow-hidden"
+                        onClick={() => selectConvocatoriaTopics(convocatoria)}
+                      >
+                        <span 
+                          className="w-2 h-2 rounded-full flex-shrink-0" 
+                          style={{ backgroundColor: convocatoria.color || '#6b7280' }}
+                        />
+                        <span className="flex-1 truncate text-left min-w-0">
+                          {convocatoria.shortTitle}
+                        </span>
+                        <Badge variant="secondary" className="text-[10px] flex-shrink-0">
+                          {topicCount} temas
+                        </Badge>
+                      </Button>
+                    </TooltipTrigger>
+                    <TooltipContent side="top">
+                      <p>{convocatoria.title}</p>
+                    </TooltipContent>
+                  </Tooltip>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {allConvocatorias.length > 0 && <Separator />}
+
+        {/* Filtro por tema */}
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Filter className="h-4 w-4 text-muted-foreground" />
+              <span className="text-sm font-medium">Temas</span>
+            </div>
+            <div className="flex gap-1">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="h-6 text-xs px-2"
+                onClick={() => {
+                  onFilterModeChange('tema');
+                  selectAllTopics();
+                }}
+              >
+                Todos
+              </Button>
+              <span className="text-muted-foreground">·</span>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="h-6 text-xs px-2"
+                onClick={() => {
+                  onFilterModeChange('none');
+                  clearAllTopics();
+                }}
+              >
+                Limpiar
+              </Button>
+            </div>
+          </div>
+
+          <div className="space-y-1">
+            {topicGroups.map((group) => {
+              const isExpanded = expandedGroups.includes(group.parent.id);
+              const allIds = [group.parent.id, ...group.subtopics.map(s => s.id)];
+              const selectedCount = allIds.filter(id => selectedTopicIds.includes(id)).length;
+              const allSelected = selectedCount === allIds.length;
+              const someSelected = selectedCount > 0 && !allSelected;
+              const inConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIdSet.has(group.parent.id);
+              
+              return (
+                <div key={group.parent.id} className="border border-border rounded-lg overflow-hidden">
+                  <div 
+                    className={`flex items-center gap-2 p-2 bg-card hover:bg-muted/50 transition-colors ${
+                      allSelected ? 'bg-primary/5' : someSelected ? 'bg-primary/3' : ''
+                    }`}
+                  >
+                    {group.subtopics.length > 0 && (
+                      <button
+                        onClick={() => toggleGroup(group.parent.id)}
+                        className="p-0.5 hover:bg-muted rounded"
+                      >
+                        {isExpanded ? (
+                          <ChevronDown className="h-3 w-3 text-muted-foreground" />
+                        ) : (
+                          <ChevronRight className="h-3 w-3 text-muted-foreground" />
+                        )}
+                      </button>
+                    )}
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <button
+                          onClick={() => {
+                            if (filterMode === 'convocatoria') {
+                              onFilterModeChange('tema');
+                            }
+                            toggleGroupSelection(group);
+                          }}
+                          className={`flex-1 flex items-center gap-2 text-left overflow-hidden ${
+                            allSelected ? 'text-primary font-medium' : 'text-foreground'
+                          }`}
+                        >
+                          <div 
+                            className="w-2 h-2 rounded-full flex-shrink-0"
+                            style={{ backgroundColor: group.parent.color || '#6b7280' }}
+                          />
+                          <span className="text-xs flex-1 min-w-0 leading-tight">{group.parent.title}</span>
+                          {inConvocatoria && (
+                            <Badge 
+                              variant="outline" 
+                              className="text-[8px] px-1 py-0 h-3 border-green-400 text-green-600 flex-shrink-0"
+                            >
+                              ✓
+                            </Badge>
+                          )}
+                          <Badge variant="secondary" className="text-[9px] px-1 flex-shrink-0">
+                            {group.totalItems}
+                          </Badge>
+                        </button>
+                      </TooltipTrigger>
+                      <TooltipContent side="top">
+                        <p>{group.parent.title}</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </div>
+                  
+                  {isExpanded && group.subtopics.length > 0 && (
+                    <div className="border-t border-border bg-muted/30">
+                      {group.subtopics.map((subtopic) => {
+                        const isSelected = selectedTopicIds.includes(subtopic.id);
+                        const itemCount = itemCountsByTopic.get(subtopic.id) ?? 0;
+                        const subtopicInConvocatoria = filterMode === 'convocatoria' && convocatoriaTopicIdSet.has(subtopic.id);
+                        
+                        return (
+                          <Tooltip key={subtopic.id}>
+                            <TooltipTrigger asChild>
+                              <button
+                                onClick={() => {
+                                  if (filterMode === 'convocatoria') {
+                                    onFilterModeChange('tema');
+                                  }
+                                  toggleTopic(subtopic.id);
+                                }}
+                                className={`w-full flex items-center gap-2 px-2 py-1.5 pl-8 text-left hover:bg-muted/50 transition-colors overflow-hidden ${
+                                  isSelected ? 'bg-primary/5 text-primary' : 'text-muted-foreground'
+                                }`}
+                              >
+                                <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
+                                  isSelected ? 'bg-primary' : 'bg-muted-foreground/30'
+                                }`} />
+                                <span className="text-[11px] flex-1 min-w-0 leading-tight">{subtopic.title}</span>
+                                {subtopicInConvocatoria && (
+                                  <Badge 
+                                    variant="outline" 
+                                    className="text-[8px] px-1 py-0 h-3 border-green-400 text-green-600 flex-shrink-0"
+                                  >
+                                    ✓
+                                  </Badge>
+                                )}
+                                <span className="text-[9px] text-muted-foreground flex-shrink-0">{itemCount}</span>
+                              </button>
+                            </TooltipTrigger>
+                            <TooltipContent side="top">
+                              <p>{subtopic.title}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <Separator />
+
+        {/* Filtro por origen */}
+        <div className="space-y-2">
+          <div className="flex items-center gap-2">
+            <Sparkles className="h-4 w-4 text-muted-foreground" />
+            <span className="text-sm font-medium">Origen</span>
+          </div>
+          <div className="flex gap-1 flex-wrap">
+            <Button
+              variant={originFilter === 'all' ? 'default' : 'outline'}
+              size="sm"
+              className="h-7 px-2 text-xs"
+              onClick={() => onOriginFilterChange('all')}
+            >
+              Todos
+            </Button>
+            
+            {availableOrigins.map(origin => {
+              const tag = getOriginTag(origin);
+              const Icon = tag.icon;
+              return (
+                <Button
+                  key={origin}
+                  variant={originFilter === origin ? 'default' : 'outline'}
+                  size="sm"
+                  className="h-7 px-2 text-xs gap-1"
+                  onClick={() => onOriginFilterChange(origin)}
+                >
+                  <Icon className="h-3 w-3" />
+                  {tag.label}
+                </Button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Resumen de filtros */}
+        <div className="flex items-center justify-between text-xs text-muted-foreground pt-2">
+          <span>
+            {hasActiveFilters 
+              ? `${filteredCount} preguntas disponibles`
+              : `${filteredCount} preguntas en total`
+            }
+          </span>
+          {hasActiveFilters && (
+            <Button
+              variant="ghost"
+              size="sm"
+              className="h-6 text-xs px-2"
+              onClick={() => {
+                onFilterModeChange('none');
+                onSelectedTopicsChange([]);
+                onOriginFilterChange('all');
+                onConvocatoriaChange(null);
+              }}
+            >
+              Resetear filtros
+            </Button>
+          )}
+        </div>
+      </div>
+    </TooltipProvider>
+  );
+}
