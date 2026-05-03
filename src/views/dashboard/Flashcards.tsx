@@ -17,7 +17,7 @@ import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type Convocatori
 import { selectProportionalQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
-import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
+import StudyFiltersInline from '@/components/dashboard/StudyFiltersInline';
 import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
 import { getOriginTag, matchesOriginFilter } from '@/lib/question-origin';
 
@@ -298,52 +298,9 @@ const Flashcards = () => {
         </div>
       )}
 
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-foreground">Flashcards</h1>
-          <p className="text-sm sm:text-base text-muted-foreground">Repasa con tarjetas de memoria</p>
-        </div>
-        <div className="flex gap-2 items-center flex-wrap">
-          <StudyFiltersPopover
-            topics={topics}
-            items={flashcards}
-            allConvocatorias={allConvocatorias}
-            selectedConvocatoria={selectedConvocatoria}
-            filterMode={filterMode}
-            selectedTopicIds={selectedTopics}
-            originFilter={originFilter}
-            expandedGroups={expandedGroups}
-            onFilterModeChange={setFilterMode}
-            onSelectedTopicsChange={setSelectedTopics}
-            onOriginFilterChange={setOriginFilter}
-            onExpandedGroupsChange={setExpandedGroups}
-            onConvocatoriaChange={setSelectedConvocatoria}
-            filteredCount={filteredFlashcards.length}
-          />
-          <QuestionCountSelector
-            totalAvailable={filteredFlashcards.length}
-            selectedCount={effectiveCardCount}
-            onCountChange={setQuestionLimit}
-          />
-          {isMobile ? (
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Button onClick={startStudying} size="icon" className="shrink-0">
-                  <Play className="h-4 w-4" />
-                  <span className="sr-only">Estudiar ({effectiveCardCount})</span>
-                </Button>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>Estudiar ({effectiveCardCount})</p>
-              </TooltipContent>
-            </Tooltip>
-          ) : (
-            <Button onClick={startStudying}>
-              <Play className="h-4 w-4 mr-2" />
-              Estudiar ({effectiveCardCount})
-            </Button>
-          )}
-        </div>
+      <div>
+        <h1 className="text-2xl sm:text-3xl font-bold text-foreground">Flashcards</h1>
+        <p className="text-sm sm:text-base text-muted-foreground">Configura y repasa con tarjetas de memoria</p>
       </div>
 
       {studying && currentCard ? (
@@ -534,15 +491,44 @@ const Flashcards = () => {
         </div>
       ) : (
         <>
-          {filteredFlashcards.length === 0 ? (
-            <Card className="border-border border-dashed">
-              <CardContent className="py-12 text-center">
-                <p className="text-muted-foreground mb-4">
-                  No hay tarjetas para los filtros seleccionados.
-                </p>
-              </CardContent>
-            </Card>
-          ) : (
+          <Card className="border-border">
+            <CardContent className="p-4 sm:p-6 space-y-6">
+              <StudyFiltersInline
+                topics={topics}
+                items={flashcards}
+                allConvocatorias={allConvocatorias}
+                selectedConvocatoria={selectedConvocatoria}
+                filterMode={filterMode}
+                selectedTopicIds={selectedTopics}
+                originFilter={originFilter}
+                expandedGroups={expandedGroups}
+                onFilterModeChange={setFilterMode}
+                onSelectedTopicsChange={setSelectedTopics}
+                onOriginFilterChange={setOriginFilter}
+                onExpandedGroupsChange={setExpandedGroups}
+                onConvocatoriaChange={setSelectedConvocatoria}
+                filteredCount={filteredFlashcards.length}
+                actions={
+                  <>
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm text-muted-foreground">Tarjetas:</span>
+                      <QuestionCountSelector
+                        totalAvailable={filteredFlashcards.length}
+                        selectedCount={effectiveCardCount}
+                        onCountChange={setQuestionLimit}
+                      />
+                    </div>
+                    <Button onClick={startStudying} className="w-full sm:w-auto" disabled={filteredFlashcards.length === 0}>
+                      <Play className="h-4 w-4 mr-2" />
+                      Empezar flashcards ({effectiveCardCount})
+                    </Button>
+                  </>
+                }
+              />
+            </CardContent>
+          </Card>
+
+          {filteredFlashcards.length > 0 && (
             <>
               {/* Toggle de vista */}
               <div className="flex justify-end mb-4">
