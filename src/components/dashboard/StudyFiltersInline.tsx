@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, type ReactNode } from 'react';
 import { Filter, ChevronDown, ChevronRight, Sparkles, Building2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -33,6 +33,7 @@ interface StudyFiltersInlineProps {
   onExpandedGroupsChange: (groups: string[]) => void;
   onConvocatoriaChange: (convocatoria: ConvocatoriaDescriptor | null) => void;
   filteredCount: number;
+  actions?: ReactNode;
 }
 
 export default function StudyFiltersInline({
@@ -50,6 +51,7 @@ export default function StudyFiltersInline({
   onExpandedGroupsChange,
   onConvocatoriaChange,
   filteredCount,
+  actions,
 }: StudyFiltersInlineProps) {
   const convocatoriaTopicIds = useMemo(() => {
     if (!selectedConvocatoria) return [];
@@ -159,6 +161,51 @@ export default function StudyFiltersInline({
   return (
     <TooltipProvider>
       <div className="space-y-4">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+          {/* Filtro por origen */}
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <Sparkles className="h-4 w-4 text-muted-foreground" />
+              <span className="text-sm font-medium">Origen</span>
+            </div>
+            <div className="flex gap-1 flex-wrap">
+              <Button
+                variant={originFilter === 'all' ? 'default' : 'outline'}
+                size="sm"
+                className="h-7 px-2 text-xs"
+                onClick={() => onOriginFilterChange('all')}
+              >
+                Todos
+              </Button>
+              
+              {availableOrigins.map(origin => {
+                const tag = getOriginTag(origin);
+                const Icon = tag.icon;
+                return (
+                  <Button
+                    key={origin}
+                    variant={originFilter === origin ? 'default' : 'outline'}
+                    size="sm"
+                    className="h-7 px-2 text-xs gap-1"
+                    onClick={() => onOriginFilterChange(origin)}
+                  >
+                    <Icon className="h-3 w-3" />
+                    {tag.label}
+                  </Button>
+                );
+              })}
+            </div>
+          </div>
+
+          {actions && (
+            <div className="flex flex-col sm:flex-row items-center gap-4 lg:pt-6 lg:shrink-0">
+              {actions}
+            </div>
+          )}
+        </div>
+
+        <Separator />
+
         {/* Filtro por convocatoria */}
         {allConvocatorias.length > 0 && (
           <div className="space-y-2">
@@ -359,43 +406,6 @@ export default function StudyFiltersInline({
                     </div>
                   )}
                 </div>
-              );
-            })}
-          </div>
-        </div>
-
-        <Separator />
-
-        {/* Filtro por origen */}
-        <div className="space-y-2">
-          <div className="flex items-center gap-2">
-            <Sparkles className="h-4 w-4 text-muted-foreground" />
-            <span className="text-sm font-medium">Origen</span>
-          </div>
-          <div className="flex gap-1 flex-wrap">
-            <Button
-              variant={originFilter === 'all' ? 'default' : 'outline'}
-              size="sm"
-              className="h-7 px-2 text-xs"
-              onClick={() => onOriginFilterChange('all')}
-            >
-              Todos
-            </Button>
-            
-            {availableOrigins.map(origin => {
-              const tag = getOriginTag(origin);
-              const Icon = tag.icon;
-              return (
-                <Button
-                  key={origin}
-                  variant={originFilter === origin ? 'default' : 'outline'}
-                  size="sm"
-                  className="h-7 px-2 text-xs gap-1"
-                  onClick={() => onOriginFilterChange(origin)}
-                >
-                  <Icon className="h-3 w-3" />
-                  {tag.label}
-                </Button>
               );
             })}
           </div>

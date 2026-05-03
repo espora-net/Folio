@@ -15,7 +15,6 @@ import {
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
-import { Separator } from '@/components/ui/separator';
 import {
   Tooltip,
   TooltipContent,
@@ -603,24 +602,23 @@ const Tests = () => {
               onExpandedGroupsChange={setExpandedGroups}
               onConvocatoriaChange={setSelectedConvocatoria}
               filteredCount={filteredQuestions.length}
+              actions={
+                <>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm text-muted-foreground">Preguntas:</span>
+                    <QuestionCountSelector
+                      totalAvailable={filteredQuestions.length}
+                      selectedCount={effectiveQuestionCount}
+                      onCountChange={setQuestionLimit}
+                    />
+                  </div>
+                  <Button onClick={startTest} className="w-full sm:w-auto" disabled={filteredQuestions.length === 0}>
+                    <Play className="h-4 w-4 mr-2" />
+                    Empezar test ({effectiveQuestionCount})
+                  </Button>
+                </>
+              }
             />
-
-            <Separator />
-
-            <div className="flex flex-col sm:flex-row items-center gap-4">
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-muted-foreground">Preguntas:</span>
-                <QuestionCountSelector
-                  totalAvailable={filteredQuestions.length}
-                  selectedCount={effectiveQuestionCount}
-                  onCountChange={setQuestionLimit}
-                />
-              </div>
-              <Button onClick={startTest} className="w-full sm:w-auto" disabled={filteredQuestions.length === 0}>
-                <Play className="h-4 w-4 mr-2" />
-                Empezar test ({effectiveQuestionCount})
-              </Button>
-            </div>
           </CardContent>
         </Card>
       )}
