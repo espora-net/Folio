@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useRef } from 'react';
-import { Play, CheckCircle, XCircle, Trophy, RotateCcw, BookOpen, ExternalLink, SkipForward } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, BookOpen, ExternalLink, SkipForward, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -182,14 +182,18 @@ const Tests = () => {
     skippedIndicesRef.current = new Set();
   };
 
+  const revealAnswerAsSkipped = () => {
+    skippedIndicesRef.current.add(currentIndex);
+    setSkippedCount(prev => prev + 1);
+    setSelectedAnswer(null);
+    setShowResult(true);
+  };
+
   // Pasar pregunta sin responder
   const skipQuestion = () => {
     // Se contabiliza como no acertada, pero se muestra la respuesta correcta
     // y se deja el botón de acción como "Siguiente"/"Finalizar".
-    setSkippedCount(prev => prev + 1);
-    skippedIndicesRef.current.add(currentIndex);
-    setSelectedAnswer(null);
-    setShowResult(true);
+    revealAnswerAsSkipped();
   };
 
   // Calcular el número efectivo de preguntas a estudiar
@@ -205,11 +209,9 @@ const Tests = () => {
 
     const question = testQuestions[currentIndex];
     const isCorrect = selectedAnswer === question.correctIndex;
-    if (isCorrect) {
-      setScore(prev => prev + 1);
-    } else {
-      failedIndicesRef.current.add(currentIndex);
-    }
+    const nextScore = isCorrect ? score + 1 : score;
+    if (isCorrect) setScore(nextScore);
+    else failedIndicesRef.current.add(currentIndex);
 
     // Track per-topic performance
     const topicId = question.topicId;
@@ -224,13 +226,18 @@ const Tests = () => {
       }
     }
 
+    if (isCorrect) {
+      nextQuestion(nextScore);
+      return;
+    }
+
     setShowResult(true);
   };
 
-  const saveTestResults = () => {
+  const saveTestResults = (finalScore = score) => {
     const stats = getStats();
     stats.testsCompleted += 1;
-    stats.correctAnswers += score;
+    stats.correctAnswers += finalScore;
     stats.questionsAnswered = (stats.questionsAnswered ?? 0) + testQuestions.length - skippedCount;
     saveStats(stats);
 
@@ -246,19 +253,19 @@ const Tests = () => {
     topicResultsRef.current = {};
   };
 
-  const finishTest = () => {
-    saveTestResults();
+  const finishTest = (finalScore = score) => {
+    saveTestResults(finalScore);
     setTesting(false);
     setShowFinalResults(true);
   };
 
-  const nextQuestion = () => {
+  const nextQuestion = (finalScore = score) => {
     if (currentIndex < testQuestions.length - 1) {
       setCurrentIndex(prev => prev + 1);
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
-      finishTest();
+      finishTest(finalScore);
     }
   };
 
@@ -302,7 +309,7 @@ const Tests = () => {
                 Has acertado <span className="font-semibold text-foreground">{score}</span> de <span className="font-semibold text-foreground">{totalQuestions}</span> preguntas
                 {skippedCount > 0 && (
                   <span className="block text-sm text-orange-500 mt-1">
-                    ({skippedCount} {skippedCount === 1 ? 'pasada' : 'pasadas'} sin responder)
+                    ({skippedCount} {skippedCount === 1 ? 'pregunta' : 'preguntas'} sin responder)
                   </span>
                 )}
               </p>
@@ -350,7 +357,7 @@ const Tests = () => {
                 <span className="whitespace-nowrap">Pregunta {currentIndex + 1} de {testQuestions.length}</span>
                 <span className="whitespace-nowrap">Aciertos: {score}</span>
               </div>
-              <Button variant="ghost" size="sm" onClick={finishTest} className="shrink-0">
+              <Button variant="ghost" size="sm" onClick={() => finishTest()} className="shrink-0">
                 Terminar test
               </Button>
             </div>
@@ -524,24 +531,45 @@ const Tests = () => {
               )}
 
               <div className="mt-6 flex justify-between gap-2">
-                {isMobile ? (
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <Button variant="ghost" size="icon" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
-                        <SkipForward className="h-4 w-4" />
-                        <span className="sr-only">Pasar</span>
+                <div className="flex gap-2">
+                  {isMobile ? (
+                    <>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button variant="ghost" size="icon" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
+                            <SkipForward className="h-4 w-4" />
+                            <span className="sr-only">Pasar</span>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Pasar</p>
+                        </TooltipContent>
+                      </Tooltip>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button variant="ghost" size="icon" onClick={revealAnswerAsSkipped} className="text-muted-foreground" disabled={showResult}>
+                            <Eye className="h-4 w-4" />
+                            <span className="sr-only">Mostrar respuesta</span>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Mostrar respuesta</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </>
+                  ) : (
+                    <>
+                      <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
+                        <SkipForward className="h-4 w-4 mr-2" />
+                        Pasar
                       </Button>
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>Pasar</p>
-                    </TooltipContent>
-                  </Tooltip>
-                ) : (
-                  <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
-                    <SkipForward className="h-4 w-4 mr-2" />
-                    Pasar
-                  </Button>
-                )}
+                      <Button variant="ghost" onClick={revealAnswerAsSkipped} className="text-muted-foreground" disabled={showResult}>
+                        <Eye className="h-4 w-4 mr-2" />
+                        Mostrar respuesta
+                      </Button>
+                    </>
+                  )}
+                </div>
                 <div className="flex gap-2">
                   {!showResult ? (
                     isMobile ? (
@@ -565,7 +593,7 @@ const Tests = () => {
                     isMobile ? (
                       <Tooltip>
                         <TooltipTrigger asChild>
-                          <Button size="icon" onClick={nextQuestion}>
+                          <Button size="icon" onClick={() => nextQuestion()}>
                             <Play className="h-4 w-4" />
                             <span className="sr-only">{currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}</span>
                           </Button>
@@ -575,7 +603,7 @@ const Tests = () => {
                         </TooltipContent>
                       </Tooltip>
                     ) : (
-                      <Button onClick={nextQuestion}>
+                      <Button onClick={() => nextQuestion()}>
                         {currentIndex < testQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
                       </Button>
                     )
