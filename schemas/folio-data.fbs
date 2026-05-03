@@ -33,6 +33,13 @@ table StudyTypeRegistryEntry {
   convocatoriaId:string;
 }
 
+table ExamPart {
+  label:string;
+  numQuestions:int;
+  numReserve:int;
+  temaNumbers:[int];
+}
+
 table ExamConfig {
   numQuestions:int;
   numReserve:int;
@@ -43,6 +50,7 @@ table ExamConfig {
   passingScore:double;
   hasPassingScore:bool;
   description:string;
+  examParts:[ExamPart];
 }
 
 table ConvocatoriaDescriptor {

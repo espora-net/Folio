@@ -396,6 +396,45 @@ const SimulatedExam = () => {
         toast({ title: 'Sin preguntas', description: 'No se pudieron seleccionar preguntas con la configuración actual.', variant: 'destructive' });
         return;
       }
+    } else if (examConfig.examParts && examConfig.examParts.length > 0 && themeBuckets.length > 0) {
+      // Distribución por partes del examen: cada parte filtra sus temas y selecciona
+      // su número de preguntas de forma proporcional dentro de esos temas.
+      if (allThemeWeightsZero) {
+        toast({
+          title: 'Mezcla sin preguntas',
+          description: 'Sube al menos un tema por encima de 0 para comenzar el simulacro.',
+          variant: 'destructive',
+        });
+        return;
+      }
+
+      const usedQuestionIds = new Set<string>();
+      selected = [];
+
+      for (const part of examConfig.examParts) {
+        const partCount = part.numQuestions + (part.numReserve || 0);
+        const partTemaNumbers = part.temaNumbers;
+        // Filter buckets for this part's tema numbers
+        const partBuckets = (partTemaNumbers && partTemaNumbers.length > 0
+          ? themeBuckets.filter(bucket => partTemaNumbers.includes(bucket.order))
+          : themeBuckets
+        )
+          .map(bucket => ({
+            ...bucket,
+            // Exclude questions already selected in previous parts
+            questions: bucket.questions.filter(q => !usedQuestionIds.has(q.id)),
+          }))
+          .filter(bucket => bucket.questions.length > 0);
+
+        const partSelected = selectWeightedQuestions(partBuckets, partCount, themeWeights);
+        for (const q of partSelected) usedQuestionIds.add(q.id);
+        selected.push(...partSelected);
+      }
+
+      if (selected.length === 0) {
+        toast({ title: 'Sin preguntas', description: 'No se pudieron seleccionar preguntas con la configuración de partes actual.', variant: 'destructive' });
+        return;
+      }
     } else {
       const numQuestions = examConfig.numQuestions + (examConfig.numReserve || 0);
 
@@ -575,6 +614,17 @@ const SimulatedExam = () => {
                   {examConfig.numReserve && (
                     <p className="text-xs text-muted-foreground">+ {examConfig.numReserve} preguntas de reserva</p>
                   )}
+                  {examConfig.examParts && examConfig.examParts.length > 0 && (
+                    <div className="space-y-1 pt-1">
+                      {examConfig.examParts.map((part, i) => (
+                        <p key={i} className="text-xs text-muted-foreground">
+                          <span className="font-medium">{part.label}:</span>{' '}
+                          {part.numQuestions} preguntas{part.numReserve ? ` + ${part.numReserve} reserva` : ''}
+                          {part.temaNumbers && part.temaNumbers.length > 0 ? ` · Temas ${part.temaNumbers[0]}–${part.temaNumbers[part.temaNumbers.length - 1]}` : ' · Todos los temas'}
+                        </p>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
                 {/* Preguntas disponibles */}
@@ -740,7 +790,10 @@ const SimulatedExam = () => {
                   )}
                   {distributionMode === 'proportional' && (
                     <p className="text-xs text-muted-foreground pl-1">
-                      Se seleccionan {examConfig.numQuestions}{examConfig.numReserve ? ` + ${examConfig.numReserve} reserva` : ''} preguntas proporcionalmente según disponibilidad por tema.
+                      {examConfig.examParts && examConfig.examParts.length > 0
+                        ? `Se seleccionan preguntas por partes: ${examConfig.examParts.map(p => `${p.numQuestions}${p.numReserve ? `+${p.numReserve}` : ''}`).join(' + ')} proporcionalmente según disponibilidad por tema.`
+                        : `Se seleccionan ${examConfig.numQuestions}${examConfig.numReserve ? ` + ${examConfig.numReserve} reserva` : ''} preguntas proporcionalmente según disponibilidad por tema.`
+                      }
                     </p>
                   )}
                 </div>
