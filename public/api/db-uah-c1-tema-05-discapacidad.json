@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 05 - Ley de Derechos de las Personas con Discapacidad",
     "description": "Banco normalizado de preguntas del tema 5 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 11,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 5,
       "generada-ia": 4,
@@ -292,30 +292,37 @@
     {
       "id": "uah-t5-point-0",
       "topicId": "uah-bib-t05-contenido",
-      "question": "T5. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 5?",
       "answer": "La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t5-point-1",
       "topicId": "uah-bib-t05-contenido",
-      "question": "T5. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 5?",
       "answer": "La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t5-point-2",
       "topicId": "uah-bib-t05-contenido",
-      "question": "T5. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 5?",
       "answer": "El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t5-point-3",
       "topicId": "uah-bib-t05-contenido",
-      "question": "T5. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 5?",
       "answer": "La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t5-fact-educacion-inclusiva",
+      "topicId": "uah-bib-t05-contenido",
+      "question": "¿Qué exige la educación inclusiva de las personas con discapacidad?",
+      "answer": "Garantizar acceso, permanencia, participación y progreso con apoyos, ajustes razonables y accesibilidad de centros, materiales, tecnologías y procesos.",
+      "origin": "curada-editorial"
     }
   ]
 }

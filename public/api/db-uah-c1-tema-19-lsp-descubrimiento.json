@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:34:51.591Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 19 - Las Plataformas de Servicios Bibliotecarios (LSP)",
     "description": "Banco normalizado de preguntas del tema 19 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 30,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 14,
       "generada-ia": 4,
@@ -754,30 +754,37 @@
     {
       "id": "uah-t19-point-0",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 19?",
       "answer": "Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-1",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 19?",
       "answer": "Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-2",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 19?",
       "answer": "La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-3",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 19?",
       "answer": "El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t19-fact-alma-primo",
+      "topicId": "uah-bib-t19-contenido",
+      "question": "¿Cómo diferencias ALMA y PRIMO en la Biblioteca UAH?",
+      "answer": "ALMA es la plataforma interna de servicios bibliotecarios; PRIMO/Buscador UAH es la herramienta pública de descubrimiento para localizar, reservar y acceder a recursos.",
+      "origin": "curada-editorial"
     }
   ]
 }

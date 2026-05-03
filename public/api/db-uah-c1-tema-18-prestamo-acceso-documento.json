@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 18 - Gestión del préstamo en la Biblioteca de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 18 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 41,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 29,
       "generada-ia": 4,
@@ -1033,30 +1033,37 @@
     {
       "id": "uah-t18-point-0",
       "topicId": "uah-bib-t18-contenido",
-      "question": "T18. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "La gestion del prestamo regula quien puede llevarse que, por cuanto tiempo y con que condiciones.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-1",
       "topicId": "uah-bib-t18-contenido",
-      "question": "T18. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "Las reservas y renovaciones ordenan la disponibilidad y evitan conflictos entre usuarios.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-2",
       "topicId": "uah-bib-t18-contenido",
-      "question": "T18. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "Las salas de trabajo requieren normas de reserva, uso responsable y convivencia.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-3",
       "topicId": "uah-bib-t18-contenido",
-      "question": "T18. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "El acceso al documento cubre suministro u obtencion de materiales no disponibles en la coleccion propia o inmediata.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t18-fact-reservas-prestamo",
+      "topicId": "uah-bib-t18-contenido",
+      "question": "¿Qué regla de reservas de préstamo de la BUAH conviene memorizar?",
+      "answer": "Se pueden reservar hasta 2 obras prestadas; al devolverse, la obra se retiene 4 días para el primer usuario con reserva y se notifica por correo.",
+      "origin": "curada-editorial"
     }
   ]
 }

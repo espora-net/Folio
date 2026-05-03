@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 22 - Propiedad Intelectual y Licencias Creative Commons",
     "description": "Banco normalizado de preguntas del tema 22 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 24,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 9,
       "generada-ia": 4,
@@ -604,28 +604,28 @@
     {
       "id": "uah-t22-point-0",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-1",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-2",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-3",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
       "origin": "generada-ia"
     },
@@ -635,6 +635,13 @@
       "question": "Creative Commons no elimina...",
       "answer": "No elimina derechos de autor; concede permisos estandarizados bajo condiciones como BY, SA, NC y ND.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t22-fact-capitulo-iii-lpi",
+      "topicId": "uah-bib-t22-contenido",
+      "question": "¿Cómo se estructura el Capítulo III de la Ley de Propiedad Intelectual?",
+      "answer": "Derecho moral (arts. 14 a 16), derechos de explotación (arts. 17 a 23) y otros derechos (arts. 24 y 25).",
+      "origin": "curada-editorial"
     }
   ]
 }

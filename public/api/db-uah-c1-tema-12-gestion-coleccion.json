@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 12 - La gestión de la colección en las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 12 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 25,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 10,
       "generada-ia": 4,
@@ -633,30 +633,37 @@
     {
       "id": "uah-t12-point-0",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 12?",
       "answer": "La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-1",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 12?",
       "answer": "La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-2",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 12?",
       "answer": "La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-3",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 12?",
       "answer": "La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t12-fact-ciclo-coleccion",
+      "topicId": "uah-bib-t12-contenido",
+      "question": "¿Cuál es el ciclo básico de gestión de la colección?",
+      "answer": "Análisis de necesidades, selección, adquisición/licencia/donación, proceso técnico, ordenación y acceso, difusión, uso, evaluación, conservación/preservación y expurgo.",
+      "origin": "curada-editorial"
     }
   ]
 }

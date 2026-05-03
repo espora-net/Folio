@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 02 - Estatuto Básico del Empleado Público (EBEP)",
     "description": "Banco normalizado de preguntas del tema 2 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 28,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 19,
       "generada-ia": 4,
@@ -665,28 +665,28 @@
     {
       "id": "uah-t2-point-0",
       "topicId": "uah-bib-t02-contenido",
-      "question": "T2. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-1",
       "topicId": "uah-bib-t02-contenido",
-      "question": "T2. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-2",
       "topicId": "uah-bib-t02-contenido",
-      "question": "T2. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-3",
       "topicId": "uah-bib-t02-contenido",
-      "question": "T2. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
       "origin": "generada-ia"
     },
@@ -696,6 +696,13 @@
       "question": "¿Que cuatro clases de personal enumera el EBEP?",
       "answer": "Funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t2-fact-titulos-ebep",
+      "topicId": "uah-bib-t02-contenido",
+      "question": "¿Qué bloques del EBEP entran en el tema 2?",
+      "answer": "Título I: objeto y ámbito; Título II: clases de empleados públicos; Título III: derechos, deberes y código de conducta.",
+      "origin": "curada-editorial"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 06 - Ley Orgánica 3/2007 para la Igualdad Efectiva",
     "description": "Banco normalizado de preguntas del tema 6 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 15,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 4,
       "generada-ia": 4,
@@ -395,30 +395,37 @@
     {
       "id": "uah-t6-point-0",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 6?",
       "answer": "La igualdad debe integrarse de forma transversal en politicas publicas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t6-point-1",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 6?",
       "answer": "La ley permite acciones positivas para corregir desigualdades de hecho.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t6-point-2",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 6?",
       "answer": "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t6-point-3",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 6?",
       "answer": "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t6-fact-titulo-i-igualdad",
+      "topicId": "uah-bib-t06-contenido",
+      "question": "¿Qué contiene el Título I de la Ley Orgánica 3/2007?",
+      "answer": "El principio de igualdad y la tutela contra la discriminación, artículos 3 a 13, núcleo conceptual del tema.",
+      "origin": "curada-editorial"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 09 - Reglamento de Normas de Convivencia de la UAH",
     "description": "Banco normalizado de preguntas del tema 9 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 10,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 4,
       "generada-ia": 4,
@@ -268,30 +268,37 @@
     {
       "id": "uah-t9-point-0",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 9?",
       "answer": "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t9-point-1",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 9?",
       "answer": "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t9-point-2",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 9?",
       "answer": "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t9-point-3",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Completa esta idea de contenido",
+      "question": "¿Qué idea clave debes recuperar del tema 9?",
       "answer": "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t9-fact-ambito-digital",
+      "topicId": "uah-bib-t09-contenido",
+      "question": "¿Qué ámbito de aplicación no debes olvidar en las Normas de Convivencia UAH?",
+      "answer": "No se limitan al campus físico: también alcanzan plataformas electrónicas, aplicaciones, campus virtual, correo institucional y otros entornos digitales de la UAH.",
+      "origin": "curada-editorial"
     }
   ]
 }
