@@ -54,6 +54,8 @@ const Tests = () => {
   const [score, setScore] = useState(0);
   const [skippedCount, setSkippedCount] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
+  const failedIndicesRef = useRef<Set<number>>(new Set());
+  const skippedIndicesRef = useRef<Set<number>>(new Set());
   const topicResultsRef = useRef<Record<string, { correct: number; incorrect: number }>>({});
   const [sourceDialogOpen, setSourceDialogOpen] = useState(false);
   const [filtersLoaded, setFiltersLoaded] = useState(false);
@@ -160,11 +162,17 @@ const Tests = () => {
     setScore(0);
     setSkippedCount(0);
     setTotalQuestions(selected.length);
+    failedIndicesRef.current = new Set();
+    skippedIndicesRef.current = new Set();
   };
 
-  // Repetir el mismo test con las mismas preguntas
-  const repeatSameTest = () => {
-    if (testQuestions.length === 0) return;
+  // Repetir solo las preguntas falladas y no contestadas
+  const repeatFailedQuestions = () => {
+    const failedAndSkipped = testQuestions.filter((_, i) =>
+      failedIndicesRef.current.has(i) || skippedIndicesRef.current.has(i)
+    );
+    if (failedAndSkipped.length === 0) return;
+    setTestQuestions(failedAndSkipped);
     setTesting(true);
     setShowFinalResults(false);
     setCurrentIndex(0);
@@ -172,7 +180,9 @@ const Tests = () => {
     setShowResult(false);
     setScore(0);
     setSkippedCount(0);
-    // testQuestions ya contiene las preguntas del test anterior
+    setTotalQuestions(failedAndSkipped.length);
+    failedIndicesRef.current = new Set();
+    skippedIndicesRef.current = new Set();
   };
 
   // Pasar pregunta sin responder
@@ -180,6 +190,7 @@ const Tests = () => {
     // Se contabiliza como no acertada, pero se muestra la respuesta correcta
     // y se deja el botón de acción como "Siguiente"/"Finalizar".
     setSkippedCount(prev => prev + 1);
+    skippedIndicesRef.current.add(currentIndex);
     setSelectedAnswer(null);
     setShowResult(true);
   };
@@ -197,7 +208,11 @@ const Tests = () => {
 
     const question = testQuestions[currentIndex];
     const isCorrect = selectedAnswer === question.correctIndex;
-    if (isCorrect) setScore(prev => prev + 1);
+    if (isCorrect) {
+      setScore(prev => prev + 1);
+    } else {
+      failedIndicesRef.current.add(currentIndex);
+    }
 
     // Track per-topic performance
     const topicId = question.topicId;
@@ -303,23 +318,19 @@ const Tests = () => {
             </div>
 
             <div className="space-y-3">
-              <Button onClick={repeatSameTest} className="w-full">
-                <RotateCcw className="h-4 w-4 mr-2" />
-                Repetir mismo test
-              </Button>
+              {(failedIndicesRef.current.size + skippedIndicesRef.current.size) > 0 && (
+                <Button onClick={repeatFailedQuestions} className="w-full">
+                  <RotateCcw className="h-4 w-4 mr-2" />
+                  Repetir preguntas falladas ({failedIndicesRef.current.size + skippedIndicesRef.current.size})
+                </Button>
+              )}
               <Button variant="outline" onClick={startTest} className="w-full">
                 <Play className="h-4 w-4 mr-2" />
                 Nuevo test aleatorio
               </Button>
               <Button variant="ghost" onClick={closeResults} className="w-full">
-                Ver todas las preguntas
+                Volver a tests
               </Button>
-              <a 
-                href="/dashboard/flashcards" 
-                className="block text-sm text-primary hover:underline"
-              >
-                Ir a flashcards para repasar →
-              </a>
             </div>
           </div>
         </div>
