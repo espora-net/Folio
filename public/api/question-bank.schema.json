@@ -133,7 +133,7 @@
           "description": "Enunciado/cara frontal de la flashcard. Debe tener sentido sin ver opciones (no usar 'cuál de las siguientes' u otras formulaciones de test, ni preguntas genéricas por tema).",
           "type": "string",
           "not": {
-            "pattern": "([Ii]dea clave|[Qq]u[eé].*recuperar.*tema)"
+            "pattern": "([Ii]dea clave|([Qq]ue|[Qq]ué).*[Rr]ecuperar.*[Tt]ema)"
           }
         },
         "answer": {
