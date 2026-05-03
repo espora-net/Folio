@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:34:51.592Z",
     "title": "UAH C1 Tema 20 - La cooperación bibliotecaria en las bibliotecas universitarias en España",
     "description": "Banco normalizado de preguntas del tema 20 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 30,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 16,
-      "opositatest-referencia": 2
+      "curada": 10,
+      "oficial": 14,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 12,
@@ -197,78 +197,102 @@
     {
       "id": "uah-c-20-0",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Elige la afirmacion correcta sobre \"Cooperacion bibliotecaria: REBIUN y Madrono\".",
+      "question": "¿Qué es REBIUN?",
       "options": [
-        "La cooperacion permite compartir recursos, mejorar servicios, negociar y coordinar buenas practicas.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "La Red de Bibliotecas Universitarias Españolas, que articula cooperación, estadísticas e indicadores de calidad en el ámbito universitario.",
+        "Un identificador para monografías y seriadas de ámbito nacional.",
+        "Una agencia de evaluación de tramos de investigación del PDI.",
+        "Una clasificación temática jerárquica usada en bibliotecas especializadas."
       ],
       "correctIndex": 0,
-      "explanation": "La cooperacion permite compartir recursos, mejorar servicios, negociar y coordinar buenas practicas.",
+      "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
-        "highlightText": "Cooperacion bibliotecaria: REBIUN y Madrono"
-      }
+        "highlightText": "REBIUN es la Red de Bibliotecas Universitarias Españolas."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-20",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-20-1",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Elige la afirmacion correcta sobre \"Cooperacion bibliotecaria: REBIUN y Madrono\".",
+      "question": "¿Qué caracteriza al Consorcio Madroño?",
       "options": [
-        "REBIUN articula cooperacion de bibliotecas universitarias y cientificas en el ambito espanol.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Consorcio de bibliotecas universitarias de la Comunidad de Madrid y la UNED para negociación conjunta y cooperación.",
+        "Una clasificación temática decimal de uso generalizado en bibliotecas.",
+        "Un repositorio institucional propio de la UAH.",
+        "Una licencia abierta equivalente al dominio público para obras creativas."
       ],
       "correctIndex": 0,
-      "explanation": "REBIUN articula cooperacion de bibliotecas universitarias y cientificas en el ambito espanol.",
+      "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
-        "highlightText": "Cooperacion bibliotecaria: REBIUN y Madrono"
-      }
+        "highlightText": "Madroño agrupa las bibliotecas universitarias de la Comunidad de Madrid y la UNED."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-20",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-20-2",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Elige la afirmacion correcta sobre \"Cooperacion bibliotecaria: REBIUN y Madrono\".",
+      "question": "¿Qué finalidad tiene el Pasaporte Madroño?",
       "options": [
-        "Madrono agrupa universidades de Madrid y UNED para cooperacion bibliotecaria.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Facilitar el acceso y uso de servicios entre las instituciones miembro del Consorcio Madroño.",
+        "Servir como licencia abierta equivalente al dominio público.",
+        "Identificar publicaciones de monografías no seriadas.",
+        "Evaluar los sexenios de investigación del PDI universitario."
       ],
       "correctIndex": 0,
-      "explanation": "Madrono agrupa universidades de Madrid y UNED para cooperacion bibliotecaria.",
+      "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
-        "highlightText": "Cooperacion bibliotecaria: REBIUN y Madrono"
-      }
+        "highlightText": "El Pasaporte Madroño facilita el acceso y uso de servicios entre instituciones del Consorcio."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-20",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-20-3",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Elige la afirmacion correcta sobre \"Cooperacion bibliotecaria: REBIUN y Madrono\".",
+      "question": "¿Qué ventaja aporta la cooperación bibliotecaria?",
       "options": [
-        "El Pasaporte Madrono facilita acceso y uso de servicios entre instituciones participantes segun condiciones.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Optimizar recursos, ampliar el acceso a la información, negociar condiciones con proveedores y compartir buenas prácticas.",
+        "Centralizar todos los fondos en una única biblioteca nacional.",
+        "Eliminar la duplicidad de catalogación en cada institución sin coordinación.",
+        "Sustituir los servicios propios de cada biblioteca por un único servicio centralizado."
       ],
       "correctIndex": 0,
-      "explanation": "El Pasaporte Madrono facilita acceso y uso de servicios entre instituciones participantes segun condiciones.",
+      "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
-        "highlightText": "Cooperacion bibliotecaria: REBIUN y Madrono"
-      }
+        "highlightText": "La cooperación permite optimizar recursos, ampliar el acceso y compartir buenas prácticas."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-20",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q073-e377c3c555a3",
@@ -403,20 +427,20 @@
     {
       "id": "uah-exam-udc-c1-2025-2-q089-5536b1df9ff4",
       "topicId": "uah-bib-t20-contenido",
-      "question": "Promover la formación del personal en IA mediante la realización de jornadas sobre IA online para el personal técnico es...",
+      "question": "Promover la formación del personal en Inteligencia Artificial mediante jornadas online para el personal técnico es un objetivo de:",
       "options": [
-        "un objetivo de BNELab para avanzar en el análisis y posibilidades de aplicación de IA en la generación de nuevo conocimiento",
-        "un objetivo del área 4 de los objetivos del Observatorio de Inteligencia Artificial de Rebiun",
-        "unobjetivo de la BUDC para adecuar la biblioteca a los nuevos tiempos",
-        "un objetivo clave de la \"Declaración de la IFLA sobre Bibliotecas e Inteligencia Artificial\""
+        "La BUAH para adecuarse a los nuevos tiempos digitales.",
+        "El Observatorio de Inteligencia Artificial de la red REBIUN.",
+        "La declaración de la IFLA sobre Bibliotecas e IA.",
+        "REBIUN como línea estratégica de innovación tecnológica en sus planes."
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 89. Respuesta validada por la plantilla oficial: un objetivo del área 4 de los objetivos del Observatorio de Inteligencia Artificial de Rebiun. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q089-5536b1df9ff4",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q089-5536b1df9ff4"
+        "materialId": "uah-tema20#rebiun-ia",
+        "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
+        "highlightText": "REBIUN incluye entre sus líneas estratégicas la formación del personal en innovación tecnológica."
       },
       "tags": [
         "examen-oficial",
@@ -506,20 +530,20 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q021-2cede75af99a",
       "topicId": "uah-bib-t20-contenido",
-      "question": "¿Qué sistema de gestión utiliza el catálogo colectivo de REBIUN?",
+      "question": "¿Cuál es la función principal del Catálogo Colectivo de REBIUN?",
       "options": [
-        "AbsysNET.",
-        "Digibis.",
-        "Milenium.",
-        "Virtual ILS."
+        "Localizar documentos en bibliotecas universitarias y científicas para apoyar búsqueda y préstamo interbibliotecario.",
+        "Asignar ISBN a monografías universitarias publicadas en España.",
+        "Gestionar el Pasaporte Madroño como carné físico de una sola biblioteca.",
+        "Sustituir los repositorios institucionales de cada universidad."
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 21. Respuesta validada por la plantilla oficial: AbsysNET.. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "El Catálogo Colectivo de REBIUN reúne registros de bibliotecas universitarias y científicas para localizar fondos, evitar duplicidades y apoyar el préstamo interbibliotecario.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q021-2cede75af99a",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q021-2cede75af99a"
+        "materialId": "catalogo-colectivo-rebiun",
+        "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
+        "highlightText": "El Catálogo Colectivo de REBIUN reúne registros bibliográficos procedentes de bibliotecas universitarias y científicas. Su función principal es permitir localizar documentos en otras instituciones."
       },
       "tags": [
         "examen-oficial",

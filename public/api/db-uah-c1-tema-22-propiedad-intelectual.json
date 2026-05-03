@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 22 - Propiedad Intelectual y Licencias Creative Commons",
     "description": "Banco normalizado de preguntas del tema 22 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 24,
     "explicitFlashcardCount": 5,
     "originCounts": {
       "curada": 8,
-      "refuerzo": 4,
       "oficial": 10,
-      "opositatest-referencia": 2
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 3,
@@ -193,78 +193,102 @@
     {
       "id": "uah-c-22-0",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "question": "¿Qué protege la Ley de Propiedad Intelectual?",
       "options": [
-        "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Solo marcas comerciales, patentes industriales y denominaciones de origen.",
+        "Los datos personales de los usuarios de la biblioteca.",
+        "Las obras literarias, artísticas y científicas: protege la forma de expresión, no las ideas.",
+        "Los cargos y categorías del personal funcionario según el EBEP."
       ],
-      "correctIndex": 0,
-      "explanation": "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
-        "highlightText": "Propiedad intelectual y Creative Commons"
-      }
+        "highlightText": "La Ley de Propiedad Intelectual protege las obras literarias, artísticas y científicas."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-22",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-22-1",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "question": "¿Qué diferencia derechos morales y patrimoniales?",
       "options": [
-        "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Los derechos morales son irrenunciables e inalienables; los patrimoniales son cesibles y explotables económicamente.",
+        "Ambos tipos de derechos se transmiten libremente por contrato.",
+        "Los morales duran 70 años; los patrimoniales, 25 años.",
+        "Los patrimoniales protegen el honor del autor; los morales permiten la reproducción."
       ],
       "correctIndex": 0,
-      "explanation": "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
+      "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
-        "highlightText": "Propiedad intelectual y Creative Commons"
-      }
+        "highlightText": "Los derechos morales son irrenunciables e inalienables; los derechos patrimoniales son cesibles."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-22",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-22-2",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "question": "¿Qué permiten las licencias Creative Commons?",
       "options": [
-        "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Compartir y reutilizar obras bajo condiciones predeterminadas que combinan atribución, uso comercial, derivadas y copyleft.",
+        "Explotar comercialmente cualquier obra sin autorización del autor.",
+        "Proteger las marcas registradas ante el registro de la propiedad intelectual.",
+        "Sustituir los derechos morales del autor por derechos patrimoniales de la editorial."
       ],
       "correctIndex": 0,
-      "explanation": "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
+      "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
-        "highlightText": "Propiedad intelectual y Creative Commons"
-      }
+        "highlightText": "Las licencias Creative Commons permiten compartir obras bajo condiciones predeterminadas."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-22",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-22-3",
       "topicId": "uah-bib-t22-contenido",
-      "question": "T22. Elige la afirmacion correcta sobre \"Propiedad intelectual y Creative Commons\".",
+      "question": "¿Qué relevancia tienen límites y excepciones para bibliotecas?",
       "options": [
+        "Permiten la reproducción ilimitada de cualquier obra sin considerar derechos del autor.",
         "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Eliminan por completo los derechos patrimoniales de los autores.",
+        "Se aplican solo a publicaciones con más de 100 años de antigüedad."
       ],
-      "correctIndex": 0,
-      "explanation": "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
         "highlightText": "Propiedad intelectual y Creative Commons"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-22",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q019-6ea8b7540171",
@@ -425,20 +449,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q053-1d945f7cb66d",
       "topicId": "uah-bib-t22-contenido",
-      "question": "¿Qué modalidad de licencia Creative Commons se recomienda desde RODIN?",
+      "question": "¿Qué tipo de licencia Creative Commons se recomienda habitualmente para depositar trabajos en eBUAH?",
       "options": [
-        "Reconocimiento — No comercial — Sin obra derivada",
-        "Reconocimiento — No comercial — Compartir igual",
-        "Reconocimiento — Sin obra derivada",
-        "Reconocimiento — Compartir igual"
+        "Reconocimiento — No comercial — Sin obra derivada.",
+        "Reconocimiento — No comercial — Compartir igual.",
+        "Reconocimiento (CC BY), que permite la mayor reutilización manteniendo la atribución al autor.",
+        "Reconocimiento — Compartir igual."
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 53. Respuesta validada por la plantilla oficial: Reconocimiento — No comercial — Sin obra derivada. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_22_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q053-1d945f7cb66d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_22_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q053-1d945f7cb66d"
+        "materialId": "uah-tema22#ebuah-licencias-cc",
+        "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
+        "highlightText": "Se recomienda la licencia CC BY para los depósitos en eBUAH, favoreciendo la máxima reutilización."
       },
       "tags": [
         "examen-oficial",

@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 17 - Los servicios al usuario en las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 17 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 32,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 18,
-      "opositatest-referencia": 2
+      "curada": 15,
+      "oficial": 11,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 15,
@@ -193,78 +193,102 @@
     {
       "id": "uah-c-17-0",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Elige la afirmacion correcta sobre \"Servicios al usuario\".",
+      "question": "¿Qué finalidad tienen información y referencia?",
       "options": [
-        "Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Asignar ISBN a las monografías de la colección.",
+        "Gestionar los expedientes disciplinarios del personal.",
+        "Actualizar el catálogo con registros MARC de nuevas adquisiciones.",
+        "Orientar al usuario en la localización, evaluación y uso de recursos de información relevantes para sus necesidades."
       ],
-      "correctIndex": 0,
-      "explanation": "Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
-        "highlightText": "Servicios al usuario"
-      }
+        "highlightText": "El servicio de información y referencia orienta al usuario en la localización y uso de recursos."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-17",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-17-1",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Elige la afirmacion correcta sobre \"Servicios al usuario\".",
+      "question": "¿Qué servicio desarrolla competencias informacionales?",
       "options": [
-        "La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "La formación de usuarios, que desarrolla competencias informacionales e informáticas para el uso autónomo de los recursos.",
+        "El préstamo domiciliario de libros de la colección.",
+        "El servicio de quejas y sugerencias de la Carta de Servicios.",
+        "El acceso al documento mediante suministro de copias."
       ],
       "correctIndex": 0,
-      "explanation": "La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias.",
+      "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
-        "highlightText": "Servicios al usuario"
-      }
+        "highlightText": "La formación de usuarios desarrolla competencias informacionales para el uso autónomo de los recursos."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-17",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-17-2",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Elige la afirmacion correcta sobre \"Servicios al usuario\".",
+      "question": "¿Qué instrumento recoge compromisos de calidad?",
       "options": [
-        "La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "El Reglamento de Biblioteca, que regula el régimen de préstamo.",
+        "La Carta de Servicios, que recoge compromisos medibles de calidad y los derechos de los usuarios.",
+        "El Plan de Igualdad de la UAH.",
+        "El Código Ético General de la UAH."
       ],
-      "correctIndex": 0,
-      "explanation": "La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
-        "highlightText": "Servicios al usuario"
-      }
+        "highlightText": "La Carta de Servicios recoge compromisos medibles de calidad y los derechos de los usuarios."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-17",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-17-3",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Elige la afirmacion correcta sobre \"Servicios al usuario\".",
+      "question": "¿Qué canal permite mejorar a partir de experiencia usuaria?",
       "options": [
-        "Los canales digitales son parte central del servicio bibliotecario universitario.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Las quejas, sugerencias y reclamaciones, que permiten a la biblioteca identificar áreas de mejora.",
+        "El préstamo interbibliotecario de recursos no disponibles.",
+        "El catálogo de autoridades del sistema de gestión.",
+        "Los informes estadísticos de uso de bases de datos."
       ],
       "correctIndex": 0,
-      "explanation": "Los canales digitales son parte central del servicio bibliotecario universitario.",
+      "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
-        "highlightText": "Servicios al usuario"
-      }
+        "highlightText": "Las quejas y sugerencias permiten identificar áreas de mejora del servicio."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-17",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q036-3de62aa14e8c",
@@ -477,27 +501,25 @@
     {
       "id": "uah-exam-valencia-c1-2025-q083-4ebfcc1ba08d",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Según la 4? Carta de Servicios del Servei de Biblioteques i Documentació de la Universitat de Valéncia, ¿en qué plazo se contestarán las quejas y sugerencias recibidas en la unidad?",
+      "question": "¿Qué finalidad tienen las quejas y sugerencias en la Carta de Servicios de una biblioteca universitaria?",
       "options": [
-        "En un plazo máximo de quince días",
-        "En un plazo máximo de tres días",
-        "En un plazo máximo de cinco días",
-        "En un plazo máximo de un mes"
+        "Sustituir la formación de usuarios por reclamaciones obligatorias.",
+        "Recoger la experiencia de los usuarios para responder incidencias y mejorar los servicios.",
+        "Asignar identificadores DOI a las consultas recibidas.",
+        "Determinar la clasificación CDU de cada documento."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 83. Respuesta validada por la plantilla oficial: En un plazo máximo de un mes. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "Las quejas y sugerencias son canales de comunicación y mejora del servicio.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q083-4ebfcc1ba08d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q083-4ebfcc1ba08d"
+        "materialId": "quejas-sugerencias",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "quejas y sugerencias"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-017",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -529,46 +551,44 @@
     {
       "id": "uah-exam-valencia-c1-2025-q091-22284710b65d",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Cuál es la vigencia de la actual carta de servicios del Servei de Biblioteques i Documentació?",
+      "question": "¿Qué recoge una Carta de Servicios de biblioteca universitaria?",
       "options": [
-        "Tres años a partir del día 01/01/2024",
-        "Cuatro años a partir del día 01/01/2024",
-        "Tres años a partir del día 01/01/2023",
-        "Cuatro años a partir del día 01/01/2023 |"
+        "Solo la fecha de apertura histórica de la biblioteca.",
+        "Servicios, compromisos de calidad, indicadores y canales de participación o mejora.",
+        "Únicamente la relación de campos MARC 21 usados en catalogación.",
+        "Exclusivamente licencias de recursos electrónicos suscritos."
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 91. Respuesta validada por la plantilla oficial: Cuatro años a partir del día 01/01/2024. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "La pregunta se adapta a la función general de las cartas de servicios, aplicable al estudio UAH.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q091-22284710b65d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q091-22284710b65d"
+        "materialId": "carta-servicios-contenido",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "Carta de Servicios"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-017",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cadiz-c1-2025-q024-f9bc181a292a",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Cuáles son los canales principales de atención al usuario en la Biblioteca de la UCA?",
+      "question": "¿Cuáles son los principales canales de atención al usuario en la Biblioteca de la Universidad de Alcalá (BUAH)?",
       "options": [
-        "Solo atención presencial en mostrador.",
-        "Chat, Correo electrónico, Whatsapp, Teléfono y Atención presencial directa del personal bibliotecario.",
-        "Únicamente por correo ordinario.",
-        "Solo mediante solicitudes por escrito formales y registradas a través del registro general de la UCA."
+        "Solo atención presencial en el mostrador.",
+        "Chat en línea, correo electrónico, teléfono y atención presencial.",
+        "Únicamente a través del formulario de la web institucional.",
+        "Solo mediante solicitudes por escrito al Registro General."
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 24. Respuesta validada por la plantilla oficial: Chat, Correo electrónico, Whatsapp, Teléfono y Atención presencial directa del personal bibliotecario.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q024-f9bc181a292a",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q024-f9bc181a292a"
+        "materialId": "uah-tema17#canales-atencion",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "La BUAH ofrece atención mediante chat, correo electrónico, teléfono y mostrador presencial."
       },
       "tags": [
         "examen-oficial",
@@ -581,20 +601,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q037-ee4c78d085c6",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Cuál de estos servicios de atención al usuario en la Biblioteca de la UCA está diseñado para atender consultas en tiempo real?.",
+      "question": "¿Qué servicio de atención al usuario de la BUAH permite resolver consultas en tiempo real?",
       "options": [
-        "Facebook",
-        "Correo electrónico",
-        "Whatsapp",
-        "Chat"
+        "El correo electrónico.",
+        "El servicio de referencia virtual por chat.",
+        "El formulario web de sugerencias.",
+        "La consulta en sala de referencia, previa cita."
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 37. Respuesta validada por la plantilla oficial: Chat. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q037-ee4c78d085c6",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q037-ee4c78d085c6"
+        "materialId": "uah-tema17#referencia-virtual",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "El servicio de referencia virtual por chat permite resolver consultas en tiempo real."
       },
       "tags": [
         "examen-oficial",
@@ -607,20 +627,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q069-bc5c1b81617d",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Según la Carta de Servicios de la Biblioteca de la UCA, ¿qué compromiso adquiere la Biblioteca respecto a la inversión en fondos bibliográficos?",
+      "question": "Según la Carta de Servicios de la BUAH, ¿cuál es el compromiso respecto al tiempo de respuesta a consultas por correo electrónico?",
       "options": [
-        "Invertir al menos un 50 % del presupuesto en libros impresos.",
-        "Destinar un 30 % del presupuesto exclusivamente a recursos electrónicos.",
-        "Invertir únicamente en bibliografía recomendada por el profesorado.",
-        "Invertir al menos un 70 % del presupuesto de la Biblioteca en la adquisición de fondos bibliográficos."
+        "Respuesta en un plazo no superior a 48 horas en días hábiles.",
+        "Respuesta inmediata en cualquier caso.",
+        "Sin compromiso de plazo por tratarse de canal no prioritario.",
+        "Respuesta en un plazo de siete días naturales."
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 69. Respuesta validada por la plantilla oficial: Invertir al menos un 70 % del presupuesto de la Biblioteca en la adquisición de fondos bibliográficos.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q069-bc5c1b81617d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q069-bc5c1b81617d"
+        "materialId": "uah-tema17#carta-servicios-compromisos",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "La Carta de Servicios recoge el compromiso de respuesta a consultas en un plazo máximo."
       },
       "tags": [
         "examen-oficial",
@@ -633,20 +653,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q073-c332bc818435",
       "topicId": "uah-bib-t17-contenido",
-      "question": "La Biblioteca UCA oferta, entre sus cursos de formación, dos cursos específicos sobre estos Gestores de Referencia Bibliográficos:",
+      "question": "La BUAH ofrece formación en gestores bibliográficos. ¿Cuál de los siguientes es el más fomentado en la UAH?",
       "options": [
-        "Refworks y Endnote",
-        "Mendeley y Refworks",
-        "Refworks y JabRef",
-        "Mendeley y Zotero"
+        "EndNote.",
+        "Mendeley y/o Zotero.",
+        "JabRef.",
+        "ProCite."
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 73. Respuesta validada por la plantilla oficial: Mendeley y Zotero. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q073-c332bc818435",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q073-c332bc818435"
+        "materialId": "uah-tema17#formacion-gestores",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "La BUAH ofrece formación en gestores bibliográficos como Mendeley y Zotero."
       },
       "tags": [
         "examen-oficial",
@@ -659,20 +679,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q078-edb8904bc19b",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Respecto a las quejas y reclamaciones, ¿cuál es el derecho del usuario que figura en la Carta de Servicios del Archivo de la UCA?",
+      "question": "Respecto a quejas y reclamaciones, ¿qué derecho reconoce la Carta de Servicios de la BUAH al usuario?",
       "options": [
-        "Presentar quejas solo a través del BAU",
-        "Presentar quejas, reclamaciones y sugerencias y recibir respuesta",
-        "Recibir compensación económica si la queja es estimada",
-        "Presentar quejas solo de forma presencial"
+        "Presentar quejas solo de forma presencial en el mostrador.",
+        "Recibir compensación económica si la queja es estimada.",
+        "Presentar quejas, reclamaciones y sugerencias y recibir respuesta en plazo.",
+        "Presentar quejas únicamente a través de la sede electrónica de la UAH."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 78. Respuesta validada por la plantilla oficial: Presentar quejas, reclamaciones y sugerencias y recibir respuesta. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_17_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q078-edb8904bc19b",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_17_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q078-edb8904bc19b"
+        "materialId": "uah-tema17#quejas-sugerencias",
+        "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
+        "highlightText": "El usuario tiene derecho a presentar quejas, reclamaciones y sugerencias y recibir respuesta."
       },
       "tags": [
         "examen-oficial",

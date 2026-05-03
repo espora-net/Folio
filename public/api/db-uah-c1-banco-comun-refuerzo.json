@@ -2401,10 +2401,10 @@
       "topicId": "common-uah-c1-t05",
       "question": "¿Qué caracteriza a los ajustes razonables?",
       "options": [
-        "Son privilegios que eliminan los requisitos esenciales.",
+        "Ajustes que solo se aplican en el transporte y la movilidad urbana.",
         "Son adaptaciones necesarias y adecuadas que no imponen una carga desproporcionada o indebida.",
-        "Solo se aplican en el transporte público.",
-        "Dependen de una decisión discrecional sin relación con la igualdad."
+        "Beneficios adicionales que eliminan los requisitos de acceso al puesto.",
+        "Medidas genéricas de accesibilidad universal sin relación con el individuo."
       ],
       "correctIndex": 1,
       "explanation": "Los ajustes razonables facilitan el ejercicio de derechos en igualdad sin imponer cargas desproporcionadas.",
@@ -5641,10 +5641,10 @@
       "topicId": "common-uah-c1-t06",
       "question": "La conciliación en las Administraciones públicas debe facilitarse...",
       "options": [
-        "aunque reduzca necesariamente la promoción profesional.",
-        "sin menoscabo de la promoción profesional.",
-        "solo a personal eventual.",
-        "sin relación con el principio de igualdad."
+        "Aunque implique reducción de retribuciones durante el periodo de conciliación.",
+        "Sin menoscabo de la promoción profesional.",
+        "Solo cuando lo autorice expresamente el Ministerio de Hacienda.",
+        "Únicamente al personal interino durante el primer año de servicio."
       ],
       "correctIndex": 1,
       "explanation": "La conciliación no debe perjudicar la promoción profesional de quienes la ejercen.",
@@ -6424,10 +6424,10 @@
       "topicId": "common-uah-c1-t07",
       "question": "¿Qué idea define mejor la prevención de riesgos laborales en el contexto del material del Tema 7?",
       "options": [
-        "Actuar solo después de un accidente grave",
-        "Adoptar o prever medidas en todas las fases para evitar o disminuir riesgos del trabajo",
-        "Realizar reconocimientos médicos sin relación con el puesto",
-        "Sustituir toda decisión organizativa por instrucciones individuales"
+        "Actuar solo después de producirse un accidente grave o enfermedad profesional.",
+        "Adoptar o prever medidas en todas las fases de la actividad para evitar o disminuir los riesgos laborales.",
+        "Realizar evaluaciones de riesgos únicamente en puestos de trabajo físicamente peligrosos.",
+        "Delegar toda la responsabilidad preventiva en el Servicio de Prevención Ajeno."
       ],
       "correctIndex": 1,
       "explanation": "La prevención comprende actividades o medidas adoptadas o previstas en todas las fases de la organización para evitar o reducir riesgos laborales.",
@@ -6532,10 +6532,10 @@
       "topicId": "common-uah-c1-t07",
       "question": "La política preventiva de la UAH debe entenderse como:",
       "options": [
-        "Una declaración aislada sin relación con evaluación ni planificación",
-        "Un documento solo sanitario",
-        "Una declaración conectada con el Plan, la evaluación, la planificación y la participación",
-        "Una instrucción exclusiva para laboratorios"
+        "Un plan de comunicación interna sin conexión con la gestión del riesgo.",
+        "Un documento técnico de aplicación exclusiva a laboratorios y talleres.",
+        "Una declaración conectada con el Plan, la evaluación, la planificación y la participación.",
+        "Una instrucción dirigida solo al personal directivo y mandos intermedios."
       ],
       "correctIndex": 2,
       "explanation": "El material advierte que la política no es una declaración aislada y debe conectarse con los instrumentos preventivos.",
@@ -7018,10 +7018,10 @@
       "topicId": "common-uah-c1-t07",
       "question": "Los Delegados de Prevención son, en el sistema descrito para la UAH:",
       "options": [
-        "Representantes de los trabajadores con funciones específicas en prevención",
-        "Miembros de una empresa externa sin relación representativa",
-        "Técnicos sanitarios que sustituyen al CSS",
-        "Usuarios designados por sorteo anual"
+        "Representantes de los trabajadores con funciones específicas en materia de prevención.",
+        "Técnicos del Servicio de Prevención Propio que actúan como inspectores.",
+        "Personal de RRHH nombrado por la dirección para coordinar la prevención.",
+        "Delegados sindicales con competencias exclusivas en negociación colectiva."
       ],
       "correctIndex": 0,
       "explanation": "El Plan reproduce la definición de los Delegados de Prevención como representantes de los trabajadores con funciones específicas en PRL.",
@@ -7747,10 +7747,10 @@
       "topicId": "common-uah-c1-t07",
       "question": "La vigilancia de la salud que garantiza el empresario debe realizarse:",
       "options": [
-        "En función de los riesgos inherentes al trabajo",
-        "Sin relación con el puesto ni con los riesgos",
-        "Solo para personal directivo",
-        "Con publicidad de resultados individuales"
+        "En función de los riesgos inherentes al trabajo y con respeto a la intimidad.",
+        "De forma periódica y uniforme para todo el personal sin distinción de puesto.",
+        "Solo cuando el trabajador lo solicite expresamente por escrito.",
+        "Mediante resultados publicados en el tablón de anuncios de la unidad."
       ],
       "correctIndex": 0,
       "explanation": "La vigilancia periódica del estado de salud se vincula a los riesgos inherentes al trabajo.",
@@ -25219,10 +25219,10 @@
       "topicId": "common-uah-c1-t17",
       "question": "¿Cuál de los siguientes elementos se cita como parte de la accesibilidad bibliotecaria?",
       "options": [
-        "Depósito legal de publicaciones",
-        "Aseos adaptados",
-        "Nombramiento de tribunales",
-        "Ordenación alfabética de nóminas"
+        "Préstamo exclusivo a usuarios con acreditación de discapacidad.",
+        "Aseos adaptados.",
+        "Reserva de salas solo mediante solicitud presencial.",
+        "Catálogo diferenciado para usuarios con necesidades especiales."
       ],
       "correctIndex": 1,
       "explanation": "El listado de elementos de accesibilidad incluye los aseos adaptados.",
@@ -25583,10 +25583,10 @@
       "topicId": "common-uah-c1-t17",
       "question": "En la Carta, ¿qué elemento muestra que los espacios y equipamientos deben contemplar necesidades diversas?",
       "options": [
-        "Puestos adaptados",
-        "Tribunales de selección",
-        "Tasas académicas",
-        "Expedientes disciplinarios"
+        "Puestos adaptados.",
+        "Restricción de acceso a zonas de trabajo grupal.",
+        "Horarios diferenciados por colectivos.",
+        "Sistemas de préstamo limitados a usuarios sin discapacidad."
       ],
       "correctIndex": 0,
       "explanation": "La referencia a puestos adaptados evidencia la atención a necesidades de accesibilidad en espacios y equipamientos.",
@@ -29613,12 +29613,12 @@
     {
       "id": "common-uah-c1-t20-003",
       "topicId": "common-uah-c1-t20",
-      "question": "En los niveles de cooperación del tema, ¿qué ejemplo se asocia al nivel regional?",
+      "question": "¿Qué ejemplo corresponde mejor al nivel regional de cooperación bibliotecaria?",
       "options": [
-        "IFLA y LIBER.",
-        "La cooperación interna de una biblioteca de facultad.",
-        "El Consorcio Madroño en Madrid y la UNED.",
-        "El catálogo local de una sola universidad."
+        "IFLA o LIBER (cooperación internacional).",
+        "Un acuerdo interno entre dos departamentos de una misma facultad.",
+        "El Consorcio Madroño, que agrupa las bibliotecas universitarias de la Comunidad de Madrid.",
+        "El catálogo colectivo de una sola universidad."
       ],
       "correctIndex": 2,
       "explanation": "El Consorcio Madroño es el ejemplo regional señalado para Madrid y la UNED.",
@@ -29634,7 +29634,7 @@
       "origin": "ia-common-bank-opus46-repaired",
       "source": {
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
-        "highlightText": "Regional | Consorcio Madroño en Madrid y UNED",
+        "highlightText": "El Consorcio Madroño agrupa las bibliotecas universitarias de la Comunidad de Madrid.",
         "materialId": "cooperacion-rebiun-madrono-uah"
       }
     },
@@ -31519,10 +31519,10 @@
       "topicId": "common-uah-c1-t21",
       "question": "Según el tema, un indicador de calidad debe estar vinculado principalmente a:",
       "options": [
-        "Signaturas topográficas",
-        "Números de depósito legal",
-        "Objetivos",
-        "Códigos ISBN"
+        "Signatura topográfica de los documentos de la colección.",
+        "Número de registros MARC procesados al mes.",
+        "Objetivos.",
+        "Tipo de licencia Creative Commons de los recursos electrónicos."
       ],
       "correctIndex": 2,
       "explanation": "Entre las condiciones de los indicadores figura que estén vinculados a objetivos.",
@@ -32275,10 +32275,10 @@
       "topicId": "common-uah-c1-t21",
       "question": "¿Qué instrumento de la BUAH refleja la recogida y análisis de información de gestión?",
       "options": [
-        "Código ISBN",
-        "Cuadro de Mando Integral",
-        "Depósito legal",
-        "Catálogo de autoridades nacional"
+        "Registro de autoridades bibliográficas del catálogo.",
+        "Cuadro de Mando Integral.",
+        "Número de depósito legal de las publicaciones propias.",
+        "Tabla de materias de la CDU aplicada a la colección."
       ],
       "correctIndex": 1,
       "explanation": "El Cuadro de Mando Integral se utiliza para recoger y analizar información de gestión.",

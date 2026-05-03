@@ -102,7 +102,7 @@
         "updatedAt": { "type": "string", "format": "date-time" },
         "source": { "$ref": "#/definitions/source" },
         "origin": {
-          "description": "Origen del contenido (p. ej. 'official', 'oposito.es', 'generated').",
+          "description": "Origen editorial/validación del contenido (p. ej. 'oficial', 'examen-oficial-externo', 'curada', 'refuerzo', 'opositatest-referencia', 'ia-common-bank-opus47', 'generated').",
           "type": "string"
         }
       }

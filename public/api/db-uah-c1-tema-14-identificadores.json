@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 14 - Estándares de normalización: Identificación de documentos",
     "description": "Banco normalizado de preguntas del tema 14 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 26,
     "explicitFlashcardCount": 5,
     "originCounts": {
       "curada": 8,
-      "refuerzo": 4,
       "oficial": 12,
-      "opositatest-referencia": 2
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 7,
@@ -196,78 +196,102 @@
     {
       "id": "uah-c-14-0",
       "topicId": "uah-bib-t14-contenido",
-      "question": "T14. Elige la afirmacion correcta sobre \"Identificacion normalizada de documentos\".",
+      "question": "¿Qué identifica principalmente un ISBN?",
       "options": [
+        "Una sala de trabajo reservable por estudiantes.",
+        "Una clase de empleado público del EBEP.",
         "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Una técnica de prevención de riesgos laborales."
       ],
-      "correctIndex": 0,
-      "explanation": "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
         "highlightText": "Identificacion normalizada de documentos"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-14",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-14-1",
       "topicId": "uah-bib-t14-contenido",
-      "question": "T14. Elige la afirmacion correcta sobre \"Identificacion normalizada de documentos\".",
+      "question": "¿Qué identifica un ISSN?",
       "options": [
         "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Una técnica de prevención de riesgos laborales.",
+        "Una signatura topográfica basada en CDU.",
+        "Un órgano de calidad universitaria."
       ],
       "correctIndex": 0,
-      "explanation": "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
+      "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
         "highlightText": "Identificacion normalizada de documentos"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-14",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-14-2",
       "topicId": "uah-bib-t14-contenido",
-      "question": "T14. Elige la afirmacion correcta sobre \"Identificacion normalizada de documentos\".",
+      "question": "¿Qué caracteriza al DOI?",
       "options": [
-        "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un órgano de calidad universitaria.",
+        "Una sala de trabajo reservable por estudiantes.",
+        "Una clase de empleado público del EBEP.",
+        "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos."
       ],
-      "correctIndex": 0,
-      "explanation": "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
         "highlightText": "Identificacion normalizada de documentos"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-14",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-14-3",
       "topicId": "uah-bib-t14-contenido",
-      "question": "T14. Elige la afirmacion correcta sobre \"Identificacion normalizada de documentos\".",
+      "question": "¿Qué finalidad tiene el NIPO?",
       "options": [
-        "Deposito Legal y NIPO responden a obligaciones o identificacion de publicaciones, especialmente en ambito institucional.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un sistema de clasificación decimal de materias bibliográficas.",
+        "Identificar las publicaciones producidas por organismos de la Administración General del Estado.",
+        "Un protocolo de intercambio de registros entre bibliotecas universitarias.",
+        "Un registro de licencias de uso para obras bajo Creative Commons."
       ],
-      "correctIndex": 0,
-      "explanation": "Deposito Legal y NIPO responden a obligaciones o identificacion de publicaciones, especialmente en ambito institucional.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Identificacion normalizada de documentos"
-      }
+        "highlightText": "El NIPO identifica las publicaciones producidas por organismos de la Administración General del Estado."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-14",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q021-3027f62dc7ca",

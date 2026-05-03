@@ -5827,35 +5827,10 @@
       "question": "¿Qué derechos tienen los funcionarios que han sufrido daños por actividad terrorista, según el TREBEP?",
       "options": [
         "Derecho a la reducción de la jornada o a la reordenación del tiempo de trabajo.",
-        "Derecho a la retribución íntegra sin importar las horas trabajadas.",
-        "Derecho a cambiar de puesto de trabajo sin reducción salarial.",
-        "Derecho a la jubilación anticipada.",
-        "Diez días.",
-        "Quince días.",
-        "Una semana.",
-        "Treinta días.",
-        "Veintitrés días hábiles, o de los días que correspondan proporcionalmente si el tiempo de servicio durante el año fue menor.",
-        "Veintitrés días naturales, o de los días que correspondan proporcionalmente si el tiempo de servicio durante el año fue menor.",
-        "Veintidós días hábiles, o de los días que correspondan proporcionalmente si el tiempo de servicio durante el año fue menor.",
-        "Veinte días hábiles, o de los días que correspondan proporcionalmente si el tiempo de servicio durante el año fue menor.",
-        "Se consideran como días hábiles los sábados, sin perjuicio de las adaptaciones que se establezcan para los horarios especiales.",
-        "No se consideran como días hábiles los sábados, sin perjuicio de las adaptaciones que se establezcan para los horarios especiales.",
-        "No se consideran como días hábiles los sábados, con perjuicio de las adaptaciones que se establezcan para los horarios especiales.",
-        "Ninguna de las respuestas es correcta.",
-        "Se podrá disfrutar siempre que no haya terminado el año natural a que correspondan y siempre manteniendo las necesidades del servicio.",
-        "Se podrá disfrutar, aunque haya terminado el año natural a que correspondan y siempre que no hayan transcurrido más de dieciocho meses a partir del final del año en que se hayan originado.",
-        "Se podrá disfrutar, aunque haya terminado el año natural a que correspondan y siempre que no hayan transcurrido más de un año a partir del final del año en que se hayan originado.",
-        "Se podrá disfrutar, aunque haya terminado el año natural a que correspondan y siempre que no hayan transcurrido más de dos años a partir del final del año en que se hayan originado.",
-        "Podrá ser sustituido por una cuantía económica.",
-        "* No puede ser sustituido por una cuantía económica.",
-        "La respuesta marcada (*), salvo en los casos de renuncia voluntaria en la que se garantizará su compensación económica.",
-        "Ninguna de las respuestas es correcta.",
-        "Exclusivamente en la legislación laboral correspondiente.",
-        "Exclusivamente en el Capítulo IV del Título III del TREBEP.",
-        "En el Capítulo V del Título III del TREBEP y en la legislación laboral correspondiente.",
-        "Ninguna de las otras respuestas es correcta."
+        "Derecho a la excedencia retribuida durante un mínimo de seis meses.",
+        "Derecho a cambiar de puesto de trabajo sin limitación alguna por razones de servicio.",
+        "Derecho a la jubilación anticipada con el cien por cien de los haberes reguladores."
       ],
-      "correctAnswer": 0,
       "explanation": "La respuesta correcta es: Derecho a la reducción de la jornada o a la reordenación del tiempo de trabajo..",
       "difficulty": "intermedia",
       "tags": [
@@ -5865,10 +5840,11 @@
       "updatedAt": "2025-12-25T09:17:55.079423Z",
       "source": {
         "materialId": "oposito.es",
-        "path": "http://oposito.es/test-oposiciones/test-texto-refundido-ley-estatuto-basico-empleado-publico/test-trebep-titulo-iii-capitulo-5/",
-        "highlightText": "TBD"
+        "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
+        "highlightText": "La reducción de jornada o la reordenación del tiempo de trabajo."
       },
-      "origin": "oposito.es"
+      "origin": "oposito.es",
+      "correctIndex": 0
     },
     {
       "id": "ley-del-estatuto-basico-del-empleado-publico-titulo-iii-derechos-y-deberes-codigo-de-conducta-de-los-empleados-publicos-capitulo-5-q-40",

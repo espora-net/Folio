@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 10 - El Servicio de Biblioteca de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 10 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 24,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 10,
-      "opositatest-referencia": 2
+      "curada": 13,
+      "oficial": 5,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 9,
@@ -45,9 +45,9 @@
       "question": "El Reglamento de la Biblioteca UAH regula principalmente:",
       "options": [
         "Organizacion, usuarios, servicios, derechos y deberes",
-        "La soberania nacional",
-        "La designacion de personal interino",
-        "La expedicion del DOI"
+        "Regula únicamente la gestión del fondo bibliográfico antiguo.",
+        "Establece el procedimiento de selección de personal directivo.",
+        "Define el sistema de incentivos salariales del personal de biblioteca."
       ],
       "correctIndex": 0,
       "explanation": "El reglamento es la norma interna basica de organizacion y uso de la Biblioteca UAH.",
@@ -194,78 +194,102 @@
     {
       "id": "uah-c-10-0",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "question": "¿Qué define institucionalmente a la Biblioteca UAH?",
       "options": [
+        "Un órgano electoral ajeno al apoyo docente e investigador.",
+        "Un proveedor externo de bases de datos sin vinculación universitaria.",
         "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un archivo sin servicios de aprendizaje ni usuarios."
       ],
-      "correctIndex": 0,
-      "explanation": "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
         "highlightText": "Servicio de Biblioteca UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-10",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-10-1",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "question": "¿Qué elemento pertenece al propósito de la BUAH?",
       "options": [
         "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un archivo sin servicios de aprendizaje ni usuarios.",
+        "La asignación internacional de DOI a artículos científicos.",
+        "La composición de agencias autonómicas de calidad."
       ],
       "correctIndex": 0,
-      "explanation": "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
+      "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
         "highlightText": "Servicio de Biblioteca UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-10",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-10-2",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "question": "¿Qué nivel coordina la gestión general del servicio?",
       "options": [
-        "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un proveedor externo de bases de datos sin vinculación universitaria.",
+        "Un tribunal de selección de personal sin relación con la dirección del servicio.",
+        "Una comisión asesora externa de agencias de calidad autonómicas.",
+        "La Dirección del Servicio de Biblioteca, que coordina las bibliotecas de centro y las unidades de apoyo."
       ],
-      "correctIndex": 0,
-      "explanation": "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
-        "highlightText": "Servicio de Biblioteca UAH"
-      }
+        "highlightText": "La Dirección del Servicio de Biblioteca coordina la gestión general."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-10",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-10-3",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Elige la afirmacion correcta sobre \"Servicio de Biblioteca UAH\".",
+      "question": "¿Qué regula el Reglamento de Biblioteca UAH?",
       "options": [
+        "Un proveedor externo de bases de datos sin vinculación universitaria.",
         "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un archivo sin servicios de aprendizaje ni usuarios.",
+        "La asignación internacional de DOI a artículos científicos."
       ],
-      "correctIndex": 0,
-      "explanation": "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
         "highlightText": "Servicio de Biblioteca UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-10",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q058-215ccd6b0448",
@@ -322,20 +346,20 @@
     {
       "id": "uah-exam-upm-c1-2025-1-q081-9c30faff0755",
       "topicId": "uah-bib-t10-contenido",
-      "question": "El reglamento de la Biblioteca UPM establece que el carné de biblioteca es:",
+      "question": "Según el Reglamento de la Biblioteca de la Universidad de Alcalá, el carné de biblioteca es:",
       "options": [
-        "Reemplazable por el DNI sin identificación electrónica",
-        "Obligatorio solo para profesorado",
-        "Personal e intransferible para cualquier usuario autorizado",
-        "Válido solo durante dos semanas"
+        "Personal e intransferible, necesario para el acceso a los servicios de préstamo.",
+        "Colectivo y compartible entre miembros del mismo departamento.",
+        "Obligatorio únicamente para el préstamo de portátiles y material audiovisual.",
+        "Válido solo durante el año académico de expedición."
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 81. Respuesta validada por la plantilla oficial: Personal e intransferible para cualquier usuario autorizado. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_10_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q081-9c30faff0755",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_10_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q081-9c30faff0755"
+        "materialId": "uah-reglamento-biblioteca#carne",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "El carné de biblioteca es personal e intransferible."
       },
       "tags": [
         "examen-oficial",
@@ -426,105 +450,97 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q025-e795240ace82",
       "topicId": "uah-bib-t10-contenido",
-      "question": "Según el Reglamento de la Biblioteca de la Universidad de Cantabria ¿qué consecuencia puede tener para un usuario/a utilizar la identificación de otra persona para acceder a la Biblioteca electrónica Emilio Botín?",
+      "question": "Según los deberes de los usuarios de la Biblioteca UAH, ¿qué conducta es exigible respecto a identificación y uso de recursos?",
       "options": [
-        "Comunicación a las autoridades académicas de su Facultad o Escuela",
-        "Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses.",
-        "Expulsión y suspensión de la biblioteca del Paraninfo por una semana.",
-        "En este caso, impone la medida correctora el Director del Servicio de Informática."
+        "Ceder credenciales personales para facilitar accesos a terceros.",
+        "Identificarse cuando proceda y respetar las condiciones de uso de recursos y servicios.",
+        "Usar recursos electrónicos sin respetar licencias ni normativa.",
+        "Acceder a cualquier servicio restringido sin pertenecer a la comunidad autorizada."
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 25. Respuesta validada por la plantilla oficial: Exclusión del uso de la biblioteca del Paraninfo por un periodo de tres meses.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "El Reglamento y las normas de uso exigen identificación cuando proceda y respeto de condiciones de acceso, recursos y servicios.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_10_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q025-e795240ace82",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_10_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q025-e795240ace82"
+        "materialId": "reglamento-identificacion",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Identificarse cuando proceda"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-010",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q026-627321cb045d",
       "topicId": "uah-bib-t10-contenido",
-      "question": "Según el Reglamento de la Biblioteca de la Universidad de Cantabria, el grupo de dirección de la Biblioteca está formado por:",
+      "question": "En la estructura del Servicio de Biblioteca UAH, ¿qué elemento coordina la gestión general del servicio?",
       "options": [
-        "Directora, Subdirectora, responsables de servicios técnicos y divisiones y la Administradora.",
-        "Directora, Subdirectora, responsables de servicios técnicos y un responsable de una división que actuara como secretario/a.",
-        "Directora, Subdirectora, Coordinadores y la Administradora, que actuará como secretaria.",
-        "Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria."
+        "La división de una biblioteca externa.",
+        "La Dirección del Servicio de Biblioteca.",
+        "El proveedor del buscador bibliográfico.",
+        "Una comisión de estudiantes sin competencias de gestión."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 26. Respuesta validada por la plantilla oficial: Directora, Subdirectora, los responsables de los principales procesos, un responsable de división y la Administradora que actuará como secretaria.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La Dirección del Servicio de Biblioteca coordina estrategia, representación y gestión general.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_10_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q026-627321cb045d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_10_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q026-627321cb045d"
+        "materialId": "direccion-buah",
+        "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
+        "highlightText": "Dirección del Servicio de Biblioteca"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-010",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q046-8ca6f6762157",
       "topicId": "uah-bib-t10-contenido",
-      "question": "Indique cuál de las siguientes afirmaciones es correcta respecto a la Biblioteca de la Universidad de Cantabria:",
+      "question": "Respecto a los espacios de la Biblioteca UAH, ¿qué afirmación es correcta?",
       "options": [
-        "Elaccesoatodas las salas de lectura es libre.",
-        "Todas las salas de lectura están destinadas al estudio en silencio.",
-        "El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido.",
-        "En todas las Divisiones hay Salas de Grupo."
+        "Todas las salas tienen siempre el mismo uso y no admiten normas diferenciadas.",
+        "Existen espacios de estudio, consulta y trabajo colaborativo sujetos a normas de uso y, en su caso, reserva.",
+        "Las salas de grupo sustituyen al préstamo y no requieren regulación.",
+        "Los espacios bibliotecarios se destinan solo a depósito cerrado sin usuarios."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 46. Respuesta validada por la plantilla oficial: El acceso a las Salas de Grupo de la Biblioteca Universitaria está restringido.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La Biblioteca UAH organiza espacios para distintos usos, con normas, reservas y condiciones específicas.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_10_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q046-8ca6f6762157",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_10_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q046-8ca6f6762157"
+        "materialId": "espacios-buah",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "salas de trabajo"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-010",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-uz-c1-pi-2024-q015-cf4291b99d9b",
       "topicId": "uah-bib-t10-contenido",
-      "question": "En la Biblioteca de la Universidad de Zaragoza, los contactos con los editores para poner en funcionamiento cada plataforma de libro electrónico la gestiona",
+      "question": "En la gestión de recursos electrónicos de una biblioteca universitaria, ¿qué tarea forma parte del proceso?",
       "options": [
-        "La Comisión de la Biblioteca.",
-        "El Servicio de Suscripciones.",
-        "Cada director de biblioteca.",
-        "El director de la Biblioteca Universitaria."
+        "Elegir órganos de gobierno universitario por sorteo.",
+        "Coordinar licencias, accesos, cobertura y activación de plataformas o colecciones.",
+        "Asignar notaciones CDU a recursos sin catalogación.",
+        "Tramitar quejas de convivencia sin relación con recursos."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 15. Respuesta validada por la plantilla oficial: El director de la Biblioteca Universitaria.. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La gestión de recursos electrónicos requiere coordinar proveedores, licencias, accesos y cobertura.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_10_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q015-cf4291b99d9b",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_10_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q015-cf4291b99d9b"
+        "materialId": "gestion-recursos-electronicos",
+        "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
+        "highlightText": "recursos electrónicos"
       },
       "tags": [
-        "examen-oficial",
-        "uz-c1-pi-2024",
-        "uah-tema-010",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {

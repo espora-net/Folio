@@ -1,15 +1,16 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 03 - Ley Orgánica 2/2023 del Sistema Universitario",
     "description": "Banco normalizado de preguntas del tema 3 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 41,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 5,
-      "refuerzo": 4,
-      "oficial": 30,
-      "opositatest-referencia": 2
+      "curada": 24,
+      "examen-oficial-externo": 6,
+      "oficial": 5,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 9,
@@ -138,78 +139,102 @@
     {
       "id": "uah-c-3-0",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Elige la afirmacion correcta sobre \"Ley Organica 2/2023 del Sistema Universitario\".",
+      "question": "Según la LOSU, ¿cómo se presta el servicio público universitario?",
       "options": [
+        "Solo mediante préstamo bibliotecario y acceso al documento.",
+        "Exclusivamente por servicios externos contratados por cada facultad.",
         "La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sin órganos colegiados ni rendición de cuentas institucional."
       ],
-      "correctIndex": 0,
-      "explanation": "La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
         "highlightText": "Ley Organica 2/2023 del Sistema Universitario"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-03",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-3-1",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Elige la afirmacion correcta sobre \"Ley Organica 2/2023 del Sistema Universitario\".",
+      "question": "¿Qué comprende la autonomía universitaria?",
       "options": [
         "La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sin órganos colegiados ni rendición de cuentas institucional.",
+        "Solo mediante expedición de ISBN para monografías oficiales.",
+        "A través de depósitos cerrados sin actividad docente o investigadora."
       ],
       "correctIndex": 0,
-      "explanation": "La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos.",
+      "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
         "highlightText": "Ley Organica 2/2023 del Sistema Universitario"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-03",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-3-2",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Elige la afirmacion correcta sobre \"Ley Organica 2/2023 del Sistema Universitario\".",
+      "question": "¿Cómo se articula la gobernanza universitaria?",
       "options": [
-        "La gobernanza publica se articula mediante organos colegiados y unipersonales.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "A través de depósitos cerrados sin actividad docente o investigadora.",
+        "Solo mediante préstamo bibliotecario y acceso al documento.",
+        "Exclusivamente por servicios externos contratados por cada facultad.",
+        "La gobernanza publica se articula mediante organos colegiados y unipersonales."
       ],
-      "correctIndex": 0,
-      "explanation": "La gobernanza publica se articula mediante organos colegiados y unipersonales.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
         "highlightText": "Ley Organica 2/2023 del Sistema Universitario"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-03",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-3-3",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Elige la afirmacion correcta sobre \"Ley Organica 2/2023 del Sistema Universitario\".",
+      "question": "¿Qué funciones sostiene el PTGAS?",
       "options": [
+        "Exclusivamente por servicios externos contratados por cada facultad.",
         "El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sin órganos colegiados ni rendición de cuentas institucional.",
+        "Solo mediante expedición de ISBN para monografías oficiales."
       ],
-      "correctIndex": 0,
-      "explanation": "El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
         "highlightText": "Ley Organica 2/2023 del Sistema Universitario"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-03",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q015-4bd72209b212",
@@ -222,8 +247,8 @@
         "La propuesta y determinación de la estructura y organización de la oferta de enseñanzas universitarias oficiales, así como de enseñanzas propias universitarias, incluida la formación a lo largo de la vida"
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 15. Respuesta validada por la plantilla oficial: La generación, desarrollo, difusión, transferencia e intercambio del conocimiento. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 15. Respuesta validada por la plantilla oficial: La generación, desarrollo, difusión, transferencia e intercambio del conocimiento. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "examen-oficial-externo",
       "source": {
         "materialId": "upm-c1-2025-1#q015",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -247,8 +272,8 @@
         "No tienen derecho a progresión profesional"
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 16. Respuesta validada por la plantilla oficial: Pueden desarrollar su carrera profesional sin cambiar de puesto, mediante progresión en grado, categoría o nivel. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 16. Respuesta validada por la plantilla oficial: Pueden desarrollar su carrera profesional sin cambiar de puesto, mediante progresión en grado, categoría o nivel. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "examen-oficial-externo",
       "source": {
         "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q016-475487c1acca",
         "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
@@ -265,72 +290,68 @@
     {
       "id": "uah-exam-upm-c1-2025-1-q018-c1fc6ae4321e",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según los Estatutos de la UPM se convocará sesión extraordinaria del Claustro Universitario o se incluirán puntos en el orden del día de una sesión ordinaria a propuesta motivada de:",
+      "question": "Según la LOSU, ¿qué dimensión forma parte de la autonomía universitaria?",
       "options": [
-        "La Comisión de Gobierno",
-        "Al menos la tercera parte de los componentes del claustro.",
-        "La mesa del claustro",
-        "El Rector"
+        "La aprobación de leyes autonómicas sin intervención parlamentaria.",
+        "La elaboración de normas de organización y funcionamiento dentro del marco legal.",
+        "La eliminación de órganos colegiados de gobierno.",
+        "La sustitución de la rendición de cuentas por autonomía absoluta."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 18. Respuesta validada por la plantilla oficial: La mesa del claustro. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La autonomía universitaria incluye capacidad normativa interna, organización, gobierno y gestión dentro del marco legal.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q018-c1fc6ae4321e",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q018-c1fc6ae4321e"
+        "materialId": "losu-autonomia-normas",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "autonomía universitaria"
       },
       "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-003",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q079-d201b153d502",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según la normativa UPM, el órgano colegiado que aprueba la política bibliotecaria es:",
+      "question": "En una universidad pública, ¿qué órgano participa en la aprobación de políticas institucionales dentro de la gobernanza universitaria?",
       "options": [
-        "El Consejo Social",
-        "El Claustro de Profesores",
-        "El Consejo de Gobierno:",
-        "El Consejo de Estudiantes"
+        "Un proveedor externo de recursos electrónicos.",
+        "El Consejo de Gobierno, conforme a sus competencias estatutarias y legales.",
+        "La plantilla de corrección de un examen de otra universidad.",
+        "Una comisión informal sin competencia de gobierno."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 79. Respuesta validada por la plantilla oficial: El Consejo de Gobierno:. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "Las políticas institucionales se encuadran en la gobernanza universitaria y se aprueban por órganos competentes como el Consejo de Gobierno.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q079-d201b153d502",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q079-d201b153d502"
+        "materialId": "losu-politicas-institucionales",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "Consejo de Gobierno"
       },
       "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-003",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-udc-c1-2025-2-q004-6fb5be83468d",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según el artículo 25 del Decreto 101/2004 del 13 de mayo, por el que 30 aprueban los Estatutos de la UDC, NO es una función del Claustro:",
+      "question": "Según la LOSU (LO 2/2023), ¿cuál de las siguientes NO es una función del Claustro universitario?",
       "options": [
-        "Elaborar la reforma de los Estatutos de la Universidad",
-        "Aprobar la planificación estratégica y las líneas generales de la programación plurianual y presupuestaria",
-        "Elegir, por mayoría simple, al defensor universitario, aprobar su reglamento y conocer la memoria anual sobre su actividad",
-        "Convocar, con carácter extraordinario, elecciones al rector por iniciativa de un tercio de sus miembros y con la aprobación de dos tercios"
+        "Aprobar la programación plurianual y las cuentas anuales de la universidad.",
+        "Elaborar y reformar los Estatutos de la universidad.",
+        "Elegir y revocar al Rector mediante sufragio universal, libre, igual, directo y secreto.",
+        "Controlar la gestión del equipo de gobierno y aprobar las líneas estratégicas generales."
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 4. Respuesta validada por la plantilla oficial: Convocar, con carácter extraordinario, elecciones al rector por iniciativa de un tercio de sus miembros y con la aprobación de dos tercios. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q004-6fb5be83468d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q004-6fb5be83468d"
+        "materialId": "losu-2023#claustro-universitario",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "El Claustro universitario es el máximo órgano de representación de la comunidad universitaria."
       },
       "tags": [
         "examen-oficial",
@@ -343,20 +364,20 @@
     {
       "id": "uah-exam-udc-c1-2025-2-q079-50f7ae47262d",
       "topicId": "uah-bib-t03-contenido",
-      "question": "La búsqueda avanzada en Crunia NO permite escoger el campo:",
+      "question": "Según la LOSU, ¿cuál de los siguientes es un derecho del estudiantado universitario?",
       "options": [
-        "Docente de la materia",
-        "ISBN",
-        "Código de la materia",
-        "Director de trabajo de grado/máster"
+        "Recibir orientación y tutoría académica a lo largo de sus estudios.",
+        "Participar en los órganos de gobierno sin límite de mandatos.",
+        "Acceder directamente a cualquier titulación sin requisitos de acceso.",
+        "Obtener la matrícula gratuita en todos los estudios oficiales."
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 79. Respuesta validada por la plantilla oficial: Director de trabajo de grado/máster. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q079-50f7ae47262d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q079-50f7ae47262d"
+        "materialId": "losu-2023#derechos-estudiantado",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "El estudiantado tiene derecho a recibir orientación y tutoría académica."
       },
       "tags": [
         "examen-oficial",
@@ -377,8 +398,8 @@
         "el acceso a la cultura y al estudio a toda la sociedad valenciana."
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 2. Respuesta validada por la plantilla oficial: la docencia, la investigación y la transferencia del conocimiento.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 2. Respuesta validada por la plantilla oficial: la docencia, la investigación y la transferencia del conocimiento.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "examen-oficial-externo",
       "source": {
         "materialId": "valencia-c1-2025#q002",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -394,20 +415,20 @@
     {
       "id": "uah-exam-valencia-c1-2025-q017-2fb2a7fdec44",
       "topicId": "uah-bib-t03-contenido",
-      "question": "La Ley orgánica 2/2023, del sistema universitario, señala en el artículo 32, que la concesión de las becas y ayudas al estudio responderá prioritaria y fundamentalmente a criterios socioeconómicos, sin perjuicio de los criterios académicos y de otros criterios que puedan, en su caso, establecer las bases reguladoras, atendiendo a:",
+      "question": "¿Qué principios deben guiar la actividad de las universidades según el Título I de la LOSU?",
       "options": [
-        "La discapacidad y sus necesidades de apoyo.",
-        "La preferencia de estudios en universidades privadas.",
-        "El orden de inscripción en la solicitud.",
-        "Ninguna de las respuestas anteriores es correcta."
+        "Calidad, equidad, transferencia del conocimiento, inclusión, diversidad e internacionalización.",
+        "Exclusivamente la autonomía universitaria sin rendición de cuentas.",
+        "Primacía de la actividad investigadora sobre la docente.",
+        "Gestión centralizada por el Estado de todos los planes de estudio."
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 17. Respuesta validada por la plantilla oficial: La discapacidad y sus necesidades de apoyo.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 17. Respuesta validada por la plantilla oficial: La discapacidad y sus necesidades de apoyo.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q017-2fb2a7fdec44",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q017-2fb2a7fdec44"
+        "materialId": "losu-2023#titulo-i-principios",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "El sistema universitario español se basa en los principios de calidad, igualdad, equidad e inclusión."
       },
       "tags": [
         "examen-oficial",
@@ -420,26 +441,25 @@
     {
       "id": "uah-exam-valencia-c1-2025-q020-5e7b2efa27fd",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según el artículo 44 del Reglamento de régimen interno del Servei de Biblioteques i Documentació su reforma es aprobada por:",
+      "question": "En el marco de la LOSU, ¿qué órgano colegiado expresa la gobernanza académica general de la universidad?",
       "options": [
-        "El Consejo de Gobierno",
-        "El Consejo de Dirección",
-        "El Claustro de la Universitat de Valencia",
-        "La Comisión del Servei de Biblioteques i Documentació"
+        "El servicio de una biblioteca externa.",
+        "El Consejo de Gobierno.",
+        "La comisión de adquisiciones de un proveedor.",
+        "El comité editorial de una revista científica."
       ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 20. Respuesta validada por la plantilla oficial: El Consejo de Gobierno. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "El Consejo de Gobierno es un órgano central de la gobernanza universitaria en la universidad pública.",
+      "origin": "curada",
       "source": {
-        "materialId": "valencia-c1-2025#q020",
-        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "El Consejo de Gobierno"
+        "materialId": "losu-consejo-gobierno-2",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "Consejo de Gobierno"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-003",
-        "prioridad-alta"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -546,20 +566,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q008-622f1f9e8373",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según el artículo 57.21 de los Estatutos de la UCA, la autorización de gastos y la ordenación de pagos corresponde al:",
+      "question": "Según la LOSU, ¿cuál es el órgano colegiado de gobierno de la universidad encargado de aprobar el presupuesto y la programación?",
       "options": [
-        "Gerente",
-        "Rector",
-        "Secretario del Consejo Social",
-        "Vicegerente de Asuntos Económicos"
+        "El Consejo de Gobierno.",
+        "El Claustro Universitario.",
+        "El Consejo Social.",
+        "El Rector."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 8. Respuesta validada por la plantilla oficial: Rector. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "cadiz-c1-2025#q008",
+        "materialId": "losu-2023#consejo-de-gobierno",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Rector"
+        "highlightText": "El Consejo de Gobierno es el órgano de gobierno de la universidad."
       },
       "tags": [
         "examen-oficial",
@@ -571,20 +591,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q061-3d066af99417",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿De qué Vicerrectorado depende actualmente la Biblioteca de la UCA?",
+      "question": "Según la LOSU, ¿qué función corresponde al Rector o Rectora de la universidad?",
       "options": [
-        "Vicerrectorado de Investigación y Transferencia",
-        "Vicerrectorado de Sostenibilidad y Cultura",
-        "Vicerrectorado de Estudiantes",
-        "Vicerrectorado de Transformación para la Universidad Digital"
+        "Dirigir, coordinar y supervisar la actividad universitaria y representar a la universidad.",
+        "Administrar exclusivamente el patrimonio inmobiliario.",
+        "Presidir el Consejo Social como máxima autoridad económica.",
+        "Nombrar directamente a todo el personal docente e investigador."
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 61. Respuesta validada por la plantilla oficial: Vicerrectorado de Investigación y Transferencia. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q061-3d066af99417",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q061-3d066af99417"
+        "materialId": "losu-2023#rector",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "El Rector o Rectora es la máxima autoridad académica de la universidad."
       },
       "tags": [
         "examen-oficial",
@@ -597,20 +617,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q080-b6aaa02715fe",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿Qué órgano universitario aprobó el Reglamento del Archivo de la Universidad de Cádiz, y en qué fecha?",
+      "question": "La LOSU establece en materia de ciencia abierta que el personal docente e investigador deberá:",
       "options": [
-        "El Rector, el 1 de diciembre de 2023",
-        "La Junta Consultiva, el 10 de julio de 2025",
-        "El Claustro Universitario, el 7 de julio de 2020",
-        "Acuerdo de Consejo de Gobierno de 1 de diciembre de 2023"
+        "Depositar una copia de sus publicaciones en repositorios de acceso abierto, con un período de embargo que no excederá de seis meses.",
+        "Publicar exclusivamente en revistas de impacto indexadas en JCR.",
+        "Ceder todos sus derechos de explotación a la universidad.",
+        "Abstenerse de publicar en acceso abierto hasta obtener la autorización del Consejo de Gobierno."
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 80. Respuesta validada por la plantilla oficial: Acuerdo de Consejo de Gobierno de 1 de diciembre de 2023. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q080-b6aaa02715fe",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q080-b6aaa02715fe"
+        "materialId": "losu-2023#ciencia-abierta",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "El personal docente e investigador estará obligado a depositar una copia de sus publicaciones en repositorios de acceso abierto."
       },
       "tags": [
         "examen-oficial",
@@ -631,8 +651,8 @@
         "El Ministerio de Universidades, promoverá programas de movilidad que cuenten con financiación pública. ercicio de la fase de oposición de las pruebas selectivas convocadas por n rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y"
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 20. Respuesta validada por la plantilla oficial: El Ministerio de Universidades, promoverá la presencia de universidades y las distintas instancias del sistema universitario español en los órganos y foros de representación nacional universitaria.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: UNED 2024 - Auxiliar de Biblioteca, pregunta 20. Respuesta validada por la plantilla oficial: El Ministerio de Universidades, promoverá la presencia de universidades y las distintas instancias del sistema universitario español en los órganos y foros de representación nacional universitaria.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "examen-oficial-externo",
       "source": {
         "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q020-0dd47b618a2a",
         "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
@@ -649,53 +669,49 @@
     {
       "id": "uah-exam-uned-aux-2024-q023-cd8d0b663dbb",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según el artículo 10 de los Estatutos de la UNED, la Comisión de Metodología y Docencia:",
+      "question": "¿Qué rasgo debe tener una comisión u órgano universitario para actuar válidamente?",
       "options": [
-        "Será constituida por el Claustro Universitario, presidida por el rector e integrada por los decanos y directores de escuela.",
-        "Será constituida por el Consejo de Gobierno, presidida por el vicerrector con competencia en la materia e integrada solo por profesores con vinculación permanente.",
-        "Será elegida por el Consejo de Gobierno por la mayoría absoluta de sus miembros cada cuatro años y solo estará compuesta por profesores con vinculación permanente.",
-        "Podrá constituir una comisión permanente, integrada por el vicerrector, que la presidirá y por un número de miembros que garantice la representación de todos los sectores."
+        "Puede sustituir cualquier órgano legal si lo decide su presidencia.",
+        "Debe estar previsto por la normativa aplicable y actuar dentro de las competencias atribuidas.",
+        "Solo necesita publicar una noticia web para crear competencias.",
+        "Actúa siempre sin reglas de composición ni representación."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 23. Respuesta validada por la plantilla oficial: Podrá constituir una comisión permanente, integrada por el vicerrector, que la presidirá y por un número de miembros que garantice la representación de todos los sectores.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La gobernanza universitaria se articula mediante órganos previstos normativamente, con composición y competencias definidas.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q023-cd8d0b663dbb",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q023-cd8d0b663dbb"
+        "materialId": "losu-organos-competencias",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "órganos colegiados y unipersonales"
       },
       "tags": [
-        "examen-oficial",
-        "uned-aux-2024",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-uned-aux-2024-q040-36402cdfaaea",
       "topicId": "uah-bib-t03-contenido",
-      "question": "La Biblioteca del Campus Norte de la UNED:",
+      "question": "Según la LOSU, ¿qué función debe garantizar el sistema universitario como servicio público?",
       "options": [
-        "Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3.",
-        "Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Humanidades, Psicologia-IUED y del fondo de la Facultad de Educación.",
-        "Fue Inaugurada en 2014 y es resultado de la fusión de las Bibliotecas de Humanidades, de Ciencias, Biblioteca de Ciencias Sociales y Biblioteca de Ingeniería.",
-        "Fue Inaugurada en 2014 y es resultado de la fusión de las Bibliotecas de Ciencias Sociales, Biblioteca de Ingeniería y del fondo de la Facultad de Educación."
+        "La gestión exclusiva de bibliotecas universitarias sin actividad docente.",
+        "La educación superior universitaria mediante docencia, investigación y transferencia e intercambio del conocimiento.",
+        "La expedición de títulos no oficiales sin control académico.",
+        "La prestación de servicios comerciales ajenos a la actividad universitaria."
       ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 40. Respuesta validada por la plantilla oficial: Fue Inaugurada en 2012 y es resultado de la fusión de las Bibliotecas de Ingenierías, Psicologia-IUED y del fondo de la Facultad de Educación. percicio de la fase de oposición de las pruebas selectivas convocadas por 111114 1]bn rectoral de 8 de abril de 2024 (BOE 16 de abril). Plazas: LBIB0032 y p3.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La LOSU configura el sistema universitario como servicio público de educación superior basado en docencia, investigación y transferencia/intercambio del conocimiento.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q040-36402cdfaaea",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q040-36402cdfaaea"
+        "materialId": "losu-servicio-publico",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "servicio público de la educación superior universitaria"
       },
       "tags": [
-        "examen-oficial",
-        "uned-aux-2024",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -709,8 +725,8 @@
         "El Claustro Universitario."
       ],
       "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 6. Respuesta validada por la plantilla oficial: El Consejo de Gobierno.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 6. Respuesta validada por la plantilla oficial: El Consejo de Gobierno.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "examen-oficial-externo",
       "source": {
         "materialId": "cantabria-c2-2025#q006",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -726,20 +742,20 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q007-b5024d0f6924",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según establece la LOSU, el personal docente e investigador debe depositar una copia de la versión final aceptada para publicación y los datos asociados a la misma:",
+      "question": "Según la LOSU, el personal docente e investigador debe depositar una copia de la versión final aceptada para publicación en repositorios de acceso abierto:",
       "options": [
-        "Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.",
-        "Enrepositorios de acceso abierto con un plazo de embargo que no excederá de los seis meses.",
-        "Enrepositorios internacionales en un plazo no superior a un año desde la fecha de publicación.",
-        "Enrepositorios de las editoriales que hayan aceptado los trabajos."
+        "Con un plazo de embargo que no excederá de los seis meses.",
+        "De forma simultánea a la fecha de publicación sin posibilidad de embargo.",
+        "En repositorios internacionales en un plazo no superior a un año.",
+        "En repositorios de las editoriales que hayan aceptado los trabajos."
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 7. Respuesta validada por la plantilla oficial: Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 7. Respuesta validada por la plantilla oficial: Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q007-b5024d0f6924",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q007-b5024d0f6924"
+        "materialId": "losu-2023#acceso-abierto",
+        "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
+        "highlightText": "El plazo de embargo no excederá de los seis meses."
       },
       "tags": [
         "examen-oficial",
@@ -752,124 +768,116 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q009-e96dd618eb4c",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Los órganos aseguramiento de la calidad del sistema universitario español son Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | U nive rsidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de Ca ntabri a, de 7 de julio de 2025 (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)",
+      "question": "Según la LOSU, ¿qué órganos forman parte del aseguramiento de la calidad del sistema universitario español?",
       "options": [
-        "La Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA) exclusivamente para todo el ámbito territorial español. ¢",
-        "La ANECA y, en su correspondiente ámbito territorial, las agencias de calidad de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Aseguramiento de la Calidad en la Educación Superior.",
-        "Una agencia evaluadora independiente con experiencia en el sector universitario.",
-        "Los Servicios Internos de Garantía de Calidad de cada universidad y el Sistema Integrado de Información Universitaria (SIIU) del Ministerio de Universidades."
+        "Exclusivamente la ANECA para todo el territorio español.",
+        "La ANECA y, en su ámbito, las agencias de calidad autonómicas inscritas en el registro europeo correspondiente.",
+        "Solo los servicios internos de garantía de calidad de cada universidad.",
+        "Una agencia evaluadora independiente elegida por cada facultad."
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 9. Respuesta validada por la plantilla oficial: La ANECA y, en su correspondiente ámbito territorial, las agencias de calidad de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Aseguramiento de la Calidad en la Educación Superior.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "La LOSU reconoce la función de ANECA y de las agencias autonómicas de calidad en su ámbito territorial cuando cumplen los requisitos aplicables.",
+      "origin": "examen-oficial-externo",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q009-e96dd618eb4c",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q009-e96dd618eb4c"
+        "materialId": "losu-calidad-aneca",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "ANECA"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q024-38b6d423568e",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Los Responsables de división de la Biblioteca de la Universidad de Cantabria dependen jerárquicamente de:",
+      "question": "En una universidad pública, ¿qué órgano se identifica en la LOSU como máximo órgano de gobierno?",
       "options": [
-        "La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)",
-        "La subdirección.",
-        "El coordinador de colecciones. 4",
-        "Elcoordinador de formación y promoción."
+        "La unidad de biblioteca de cada campus.",
+        "El Consejo de Gobierno.",
+        "La comisión técnica de un servicio administrativo.",
+        "El proveedor de la plataforma de descubrimiento."
       ],
-      "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 24. Respuesta validada por la plantilla oficial: La dirección. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C U n ive rsid a da Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Ca Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La LOSU regula la gobernanza universitaria y atribuye al Consejo de Gobierno la posición de máximo órgano de gobierno en la universidad pública.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q024-38b6d423568e",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q024-38b6d423568e"
+        "materialId": "losu-consejo-gobierno",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "Consejo de Gobierno"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q032-ba741a643003",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Estamos en el mostrador de préstamo de la división de Minas de la Biblioteca de la Universidad de Cantabria y nos devuelven unas obras con el tejuelo rojo. ¿En qué colección las tenemos que colocar?",
+      "question": "¿Qué principio de la LOSU conecta con el acceso de la comunidad universitaria a servicios, recursos e infraestructuras?",
       "options": [
-        "Monografías.",
-        "Básica.",
-        "ExtraBUC.",
-        "Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+        "La organización de tejuelos por colores en fondos de otra universidad.",
+        "La garantía del servicio público universitario orientado a docencia, investigación y transferencia.",
+        "La sustitución de todos los servicios por repositorios privados.",
+        "La exclusión de servicios bibliotecarios del sistema universitario."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 32. Respuesta validada por la plantilla oficial: Referencia. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C Un iversi d a da Biblioteca, subgrupo C2, por el sistema general de acceso: libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Canta bria: (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "Los servicios universitarios, entre ellos bibliotecas y recursos de información, apoyan las funciones del servicio público universitario.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q032-ba741a643003",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q032-ba741a643003"
+        "materialId": "losu-servicios-universitarios",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "servicio público"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q055-eb40af96966d",
       "topicId": "uah-bib-t03-contenido",
-      "question": "¿Cuál de estos gestores bibliográficos es un software libre de código abierto?",
+      "question": "En el marco de la LOSU, ¿qué responsabilidad tienen los servicios bibliotecarios universitarios respecto a la investigación?",
       "options": [
-        "RefWorks.",
-        "Procite.",
-        "EndNote.",
-        "Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)"
+        "Apoyar la transferencia, la preservación y la difusión de los resultados de investigación.",
+        "Gestionar exclusivamente el fondo bibliográfico impreso.",
+        "Garantizar el acceso privativo a los recursos para el PDI.",
+        "Sustituir a los investigadores en las tareas de búsqueda documental."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 55. Respuesta validada por la plantilla oficial: Zotero. Pruebas selectivas para el ingreso en la Escala Auxiliar de 1 ¬ U n ive rsi da d Biblioteca, subgrupo C2, por el sistema general de acceso libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de Cantabria (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto). Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "Zotero es un gestor bibliográfico de código abierto; se conserva como pregunta oficial externa genérica, sin residuos OCR.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q055-eb40af96966d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q055-eb40af96966d"
+        "materialId": "losu-tema03#servicios-biblioteca",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "Los servicios bibliotecarios apoyan la investigación, la transferencia y la difusión del conocimiento."
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-uz-c1-libre-2024-q013-aa48ed37f0d6",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según la Ley Orgánica 2/2023 del Sistema Universitario:",
+      "question": "¿Qué función atribuye la LOSU a las universidades públicas en relación con la sociedad?",
       "options": [
-        "Los estudios de Doctorado tienen como finalidad la adquisición de las competencias y las habilidades concernientes a la investigación dentro de un ámbito del conocimiento científico, técnico, humanístico, artístico o cultural.",
-        "Los estudios de Máster Universitario tienen como finalidad la obtención por parte del estudiantado de una formación básica y generalista en una disciplina determinada.",
-        "Los estudios de Grado tienen como finalidad la obtención por parte del estudiantado de una formación avanzada y especializada en una disciplina determinada.",
-        "los estudios de Doctorado tienen como finalidad la formación avanzada, de carácter especializado temáticamente, o de carácter multidisciplinar o interdisciplinar, dirigida a la especialización académica o profesional, o bien encaminada a la iniciación en tareas de investigación."
+        "Generar, transmitir y aplicar conocimiento al servicio de la sociedad, contribuyendo a la cohesión social y al desarrollo sostenible.",
+        "Gestionar únicamente la formación reglada sin conexión con el entorno productivo.",
+        "Subordinar la investigación a criterios exclusivamente económicos.",
+        "Limitar el acceso a la universidad a titulados con nota media superior a 8."
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 13. Respuesta validada por la plantilla oficial: Los estudios de Doctorado tienen como finalidad la adquisición de las competencias y las habilidades concernientes a la investigación dentro de un ámbito del conocimiento científico, técnico, humanístico, artístico o cultural.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "uz-c1-libre-2024#q013",
+        "materialId": "losu-2023#titulo-i",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
-        "highlightText": "Los estudios de Doctorado tienen como finalidad la adquisición de las competencias y las habilidades concernientes a la investigación dentro de un ámbito del conocimiento científico, técnico, humanístico, artístico o cultural."
+        "highlightText": "Las universidades tienen como misión la generación, transmisión y aplicación del conocimiento."
       },
       "tags": [
         "examen-oficial",
@@ -881,79 +889,73 @@
     {
       "id": "uah-exam-uz-c1-libre-2024-q015-0533ba028b88",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Según consta en el artículo \"La Biblioteca Universitaria de Zaragoza\" de la exdirectora de la misma, Remedios Moralejo Álvarez ¿en qué año se abre al público la BUZ?",
+      "question": "Según la LOSU, ¿qué rasgo define a las universidades como parte del sistema universitario?",
       "options": [
-        "1796",
-        "1696",
-        "1596",
-        "1542"
+        "Son únicamente archivos históricos con fondos patrimoniales.",
+        "Tienen como función exclusiva la gestión de bibliotecas universitarias.",
+        "Actúan solo como proveedores comerciales de recursos electrónicos.",
+        "Prestan el servicio público de educación superior mediante docencia, investigación y transferencia e intercambio del conocimiento."
       ],
       "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 15. Respuesta validada por la plantilla oficial: 1542. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Se sustituye una pregunta institucional externa por una formulación alineada con la LOSU y la convocatoria UAH C1.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q015-0533ba028b88",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q015-0533ba028b88"
+        "materialId": "losu-servicio-publico-2",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "servicio público de la educación superior universitaria"
       },
       "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-003",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-uz-c1-libre-2024-q017-37800da2cd6c",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Grupo 9 de Universidades es una asociación sin ánimo de lucro formada por las universidades públicas españolas que son únicas universidades públicas en sus respectivas Comunidades Autónomas: Universidad de Cantabria, Universidad de Castilla La Mancha, Universidad de Extremadura, Universitat de les Illes Balears, Universidad de La Rioja, Universidad de Oviedo, Universidad del País Vasco / Euskal Herriko Unibertsitatea, Universidad Pública de Navarra, Universidad de Zaragoza. Contesta cuál es la respuesta correcta sobre el G9:",
+      "question": "En la cooperación universitaria, ¿qué opción encaja con el marco general de la LOSU?",
       "options": [
-        "Además, desde 2023, la Universidad de Murcia forma parte del G-9 como universidad colaboradora.",
-        "Existe un Grupo de Trabajo de Bibliotecas incluido en la Sectorial de Investigación.",
-        "Consta de 9 Comisiones Sectoriales.",
-        "Todas las anteriores son correctas."
+        "La cooperación queda limitada a universidades únicas en su comunidad autónoma.",
+        "Las redes universitarias sustituyen a los órganos de gobierno de cada universidad.",
+        "Las universidades pueden cooperar y coordinarse en redes, proyectos y servicios para cumplir sus funciones.",
+        "La cooperación solo puede referirse a competiciones deportivas universitarias."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 17. Respuesta validada por la plantilla oficial: Todas las anteriores son correctas.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 2,
+      "explanation": "La pregunta se adapta desde una referencia externa a una idea general aplicable al sistema universitario: cooperación entre universidades y servicios.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q017-37800da2cd6c",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q017-37800da2cd6c"
+        "materialId": "losu-cooperacion-universitaria",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "cooperación"
       },
       "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-003",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-uz-c1-pi-2024-q041-50b4cabae88f",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Grupo 9 de Universidades es una asociación sin ánimo de lucro formada por las universidades públicas españolas que son únicas universidades públicas en sus respectivas Comunidades Autónomas: Universidad de Cantabria, Universidad de Castilla La Mancha, Universidad de Extremadura, Universitat de les Illes Balears, Universidad de La Rioja, Universidad de Oviedo, Universidad del País Vasco / Euskal Herriko Unibertsitatea, Universidad Pública de Navarra, Universidad de Zaragoza. Conteste cuál es la respuesta correcta sobre el G9:",
+      "question": "¿Qué finalidad tiene la cooperación entre universidades y bibliotecas universitarias?",
       "options": [
-        "Además, desde 2023, la Universidad de Murcia forma parte del G-9 como universidad colaboradora.",
-        "Existe un Grupo de Trabajo de Bibliotecas incluido en la Sectorial de Investigación.",
-        "Consta de 9 Comisiones Sectoriales.",
-        "Todas las anteriores son correctas."
+        "Compartir recursos, buenas prácticas, servicios y capacidades para mejorar apoyo a docencia e investigación.",
+        "Eliminar la autonomía universitaria reconocida por la LOSU.",
+        "Sustituir repositorios institucionales por archivos privados cerrados.",
+        "Impedir el acceso abierto a publicaciones financiadas públicamente."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Promoción interna, pregunta 41. Respuesta validada por la plantilla oficial: Todas las anteriores son correctas.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "La pregunta se reformula para eliminar referencias G9 no UAH y mantener la práctica sobre cooperación universitaria/bibliotecaria.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uz-c1-pi-2024-q041-50b4cabae88f",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uz-c1-pi-2024-q041-50b4cabae88f"
+        "materialId": "losu-cooperacion-servicios",
+        "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
+        "highlightText": "cooperación"
       },
       "tags": [
-        "examen-oficial",
-        "uz-c1-pi-2024",
-        "uah-tema-003",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {

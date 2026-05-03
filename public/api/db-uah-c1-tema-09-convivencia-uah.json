@@ -1,14 +1,14 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 09 - Reglamento de Normas de Convivencia de la UAH",
     "description": "Banco normalizado de preguntas del tema 9 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 10,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 4,
-      "refuerzo": 4,
-      "opositatest-referencia": 2
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 0,
@@ -43,9 +43,9 @@
       "question": "Las Normas de Convivencia UAH tienen por objeto proteger:",
       "options": [
         "La convivencia en la comunidad universitaria",
-        "La catalogacion descriptiva",
-        "El deposito legal",
-        "La adquisicion de revistas"
+        "La disciplina académica en procesos de evaluación y exámenes.",
+        "El régimen sancionador laboral del PAS de la UAH.",
+        "La propiedad intelectual de los trabajos finales de grado y máster."
       ],
       "correctIndex": 0,
       "explanation": "El reglamento regula la convivencia en el ambito universitario.",
@@ -62,9 +62,9 @@
       "question": "Las medidas de convivencia universitaria se relacionan con:",
       "options": [
         "Respeto, inclusion y resolucion de conflictos",
-        "Asignacion de ISBN",
-        "Proceso tecnico MARC",
-        "Signatura topografica"
+        "La elaboración y defensa de tesis doctorales.",
+        "El régimen de acceso y permanencia en estudios oficiales.",
+        "La gestión presupuestaria de las facultades y departamentos."
       ],
       "correctIndex": 0,
       "explanation": "El reglamento se centra en respeto, inclusion, prevencion y resolucion de conflictos.",
@@ -81,9 +81,9 @@
       "question": "El Reglamento de Normas de Convivencia UAH se conecta especialmente con:",
       "options": [
         "Prevencion y resolucion de conflictos en la comunidad universitaria",
-        "Normalizacion del ISBN",
-        "Catalogacion MARC 21",
-        "Indicadores de PRIMO"
+        "Los Estatutos de la UAH sobre organización académica.",
+        "El Reglamento de evaluación y exámenes de la UAH.",
+        "El Plan de Financiación de la UAH para el periodo vigente."
       ],
       "correctIndex": 0,
       "explanation": "El reglamento establece bases de convivencia y fomenta modalidades alternativas de resolucion de conflictos.",
@@ -116,78 +116,102 @@
     {
       "id": "uah-c-9-0",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "question": "¿Cuál es la finalidad de las normas de convivencia universitaria?",
       "options": [
+        "Regular la compra de recursos electrónicos y licencias editoriales.",
+        "Imponer sanciones automáticas sin audiencia ni proporcionalidad.",
         "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Resolver errores de catalogación mediante expediente disciplinario."
       ],
-      "correctIndex": 0,
-      "explanation": "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
         "highlightText": "Normas de Convivencia UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-09",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-9-1",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "question": "¿Qué papel puede tener la mediación?",
       "options": [
-        "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Mecanismo alternativo de resolución de conflictos basado en el diálogo asistido por un tercero neutral y voluntario.",
+        "Sustituto obligatorio del procedimiento sancionador en todos los casos.",
+        "Instrumento de control disciplinario unilateral del equipo de gobierno.",
+        "Vía exclusiva para resolver conflictos entre PAS y PDI sobre condiciones laborales."
       ],
       "correctIndex": 0,
-      "explanation": "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
+      "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
-        "highlightText": "Normas de Convivencia UAH"
-      }
+        "highlightText": "La mediación es un mecanismo alternativo de resolución de conflictos basado en el diálogo."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-09",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-9-2",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "question": "¿Qué conductas deben prevenirse?",
       "options": [
-        "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Publicar listados nominales antes de iniciar cualquier trámite.",
+        "Regular la compra de recursos electrónicos y licencias editoriales.",
+        "Imponer sanciones automáticas sin audiencia ni proporcionalidad.",
+        "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia."
       ],
-      "correctIndex": 0,
-      "explanation": "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
         "highlightText": "Normas de Convivencia UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-09",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-9-3",
       "topicId": "uah-bib-t09-contenido",
-      "question": "T9. Elige la afirmacion correcta sobre \"Normas de Convivencia UAH\".",
+      "question": "¿Qué garantía debe respetar una actuación por infracción?",
       "options": [
-        "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Imponer sanciones automáticas sin audiencia ni proporcionalidad.",
+        "La proporcionalidad de la sanción respecto a la infracción cometida y la audiencia previa del afectado.",
+        "Resolver únicamente por vía disciplinaria laboral sin trámite universitario.",
+        "Derivar siempre a instancias judiciales antes de iniciar el procedimiento interno."
       ],
-      "correctIndex": 0,
-      "explanation": "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
-        "highlightText": "Normas de Convivencia UAH"
-      }
+        "highlightText": "Las actuaciones deben respetar los principios de proporcionalidad y garantizar la audiencia del interesado."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-09",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-opo-ref-017",

@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 06 - Ley Orgánica 3/2007 para la Igualdad Efectiva",
     "description": "Banco normalizado de preguntas del tema 6 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 15,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 4,
-      "refuerzo": 4,
       "oficial": 5,
-      "opositatest-referencia": 2
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 1,
@@ -100,9 +100,9 @@
       "question": "En el estudio del tema 6, el Plan de Igualdad UAH sirve para:",
       "options": [
         "Concretar medidas institucionales de igualdad en la Universidad",
-        "Sustituir la LO 3/2007",
-        "Regular MARC 21",
-        "Asignar numeros de deposito legal"
+        "Sustituir la aplicación de la LO 3/2007 de igualdad en la UAH.",
+        "Establecer el complemento salarial específico del personal docente.",
+        "Determinar el régimen de incompatibilidades del PAS y PDI de la UAH."
       ],
       "correctIndex": 0,
       "explanation": "El tema combina el marco estatal de la LO 3/2007 con el Plan de Igualdad de la UAH.",
@@ -116,78 +116,102 @@
     {
       "id": "uah-c-6-0",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "question": "¿Qué significa transversalidad del principio de igualdad?",
       "options": [
+        "Limitar la igualdad a campañas voluntarias sin efectos organizativos.",
+        "Eliminar mérito y capacidad en cualquier procedimiento público.",
         "La igualdad debe integrarse de forma transversal en politicas publicas.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sustituir protocolos por decisiones informales no documentadas."
       ],
-      "correctIndex": 0,
-      "explanation": "La igualdad debe integrarse de forma transversal en politicas publicas.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
         "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-06",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-6-1",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "question": "¿Para qué sirven las acciones positivas?",
       "options": [
         "La ley permite acciones positivas para corregir desigualdades de hecho.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sustituir protocolos por decisiones informales no documentadas.",
+        "Aplicar igualdad solo a procesos de préstamo bibliotecario.",
+        "Resolver situaciones de acoso únicamente mediante encuestas."
       ],
       "correctIndex": 0,
-      "explanation": "La ley permite acciones positivas para corregir desigualdades de hecho.",
+      "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
         "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-06",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-6-2",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "question": "¿Qué instrumento organiza medidas de igualdad en la UAH?",
       "options": [
-        "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Resolver situaciones de acoso únicamente mediante encuestas.",
+        "Limitar la igualdad a campañas voluntarias sin efectos organizativos.",
+        "Eliminar mérito y capacidad en cualquier procedimiento público.",
+        "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento."
       ],
-      "correctIndex": 0,
-      "explanation": "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
         "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-06",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-6-3",
       "topicId": "uah-bib-t06-contenido",
-      "question": "T6. Elige la afirmacion correcta sobre \"Igualdad efectiva y Plan de Igualdad UAH\".",
+      "question": "¿Qué respuesta institucional exige el acoso por razón de sexo?",
       "options": [
-        "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Activar el protocolo de actuación frente al acoso, garantizando confidencialidad, investigación imparcial y medidas correctoras.",
+        "Eliminar el complemento de productividad de la víctima hasta resolución del expediente.",
+        "Sustituir los protocolos de acoso por la decisión discrecional del responsable jerárquico.",
+        "Aplicar el protocolo de acoso solo cuando exista sentencia judicial firme previa."
       ],
       "correctIndex": 0,
-      "explanation": "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
+      "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
-        "highlightText": "Igualdad efectiva y Plan de Igualdad UAH"
-      }
+        "highlightText": "El protocolo de actuación frente al acoso garantiza confidencialidad e investigación imparcial."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-06",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q011-87c8598b103b",

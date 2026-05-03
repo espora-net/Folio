@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 15 - Análisis documental y clasificaciones bibliográficas",
     "description": "Banco normalizado de preguntas del tema 15 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 25,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 11,
-      "opositatest-referencia": 2
+      "curada": 9,
+      "oficial": 10,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 6,
@@ -194,78 +194,102 @@
     {
       "id": "uah-c-15-0",
       "topicId": "uah-bib-t15-contenido",
-      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "question": "¿Qué finalidad tiene la clasificación bibliográfica?",
       "options": [
-        "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Organizar y ordenar documentos por materia, facilitando su localización física y la recuperación temática.",
+        "Asignar licencias de uso a los recursos electrónicos suscritos.",
+        "Gestionar el sistema de quejas y sugerencias de los usuarios.",
+        "Regular el acceso a los repositorios institucionales de acceso abierto."
       ],
       "correctIndex": 0,
-      "explanation": "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
+      "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
-        "highlightText": "Analisis documental y clasificaciones bibliograficas"
-      }
+        "highlightText": "La clasificación bibliográfica organiza los documentos por materia para facilitar su localización."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-15",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-15-1",
       "topicId": "uah-bib-t15-contenido",
-      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "question": "¿Qué caracteriza a la CDU?",
       "options": [
-        "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sistema de clasificación jerárquico y facetado, de uso generalizado en bibliotecas españolas, con notación decimal.",
+        "Sistema de asignación de identificadores numéricos a publicaciones periódicas.",
+        "Protocolo de intercambio de metadatos entre repositorios de acceso abierto.",
+        "Lista de encabezamientos de materia para la indización en lenguaje controlado."
       ],
       "correctIndex": 0,
-      "explanation": "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
+      "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
-        "highlightText": "Analisis documental y clasificaciones bibliograficas"
-      }
+        "highlightText": "La CDU es un sistema de clasificación jerárquico y facetado con notación decimal."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-15",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-15-2",
       "topicId": "uah-bib-t15-contenido",
-      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "question": "¿Para qué sirven las tablas auxiliares CDU?",
       "options": [
-        "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Para imponer penalizaciones por devolución tardía de préstamos.",
+        "Para asignar licencias Creative Commons a obras digitales.",
+        "Para gestionar las reclamaciones de usuarios ante la Dirección.",
+        "Añadir aspectos complementarios (lugar, tiempo, forma, lengua) a la notación principal del tema."
       ],
-      "correctIndex": 0,
-      "explanation": "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
-        "highlightText": "Analisis documental y clasificaciones bibliograficas"
-      }
+        "highlightText": "Las tablas auxiliares de la CDU permiten añadir aspectos de lugar, tiempo, forma y lengua a la notación principal."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-15",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-15-3",
       "topicId": "uah-bib-t15-contenido",
-      "question": "T15. Elige la afirmacion correcta sobre \"Analisis documental y clasificaciones bibliograficas\".",
+      "question": "¿Qué diferencia clasificación e indización?",
       "options": [
-        "La signatura combina clasificacion y elementos de localizacion fisica.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Clasificar consiste en gestionar las quejas de usuarios; indizar es tramitar sugerencias.",
+        "Clasificar = asignar una notación temática dentro de un sistema ordenado; indizar = representar el contenido mediante descriptores o palabras clave.",
+        "Clasificar es asignar ISBN; indizar es asignar ISSN.",
+        "Clasificar y indizar son sinónimos: ambos asignan signaturas topográficas a los documentos."
       ],
-      "correctIndex": 0,
-      "explanation": "La signatura combina clasificacion y elementos de localizacion fisica.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
-        "highlightText": "Analisis documental y clasificaciones bibliograficas"
-      }
+        "highlightText": "Clasificar es asignar una notación temática; indizar es representar el contenido mediante descriptores."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-15",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q095-6affeabf8f20",
@@ -296,20 +320,20 @@
     {
       "id": "uah-exam-udc-c1-2025-2-q036-855549cf75b3",
       "topicId": "uah-bib-t15-contenido",
-      "question": "Si se busca por materias las bases de datos de ciencias sociales en la página web de la BUDC, NO está?",
+      "question": "En la página web de la BUAH, al buscar bases de datos por materias de ciencias sociales, ¿cuál de las siguientes NO suele aparecer como materia específica?",
       "options": [
-        "Derecho",
-        "Historia",
-        "Moda",
-        "Educación"
+        "Derecho.",
+        "Historia.",
+        "Moda y diseño.",
+        "Educación."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 36. Respuesta validada por la plantilla oficial: Historia. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "udc-c1-2025-2#q036",
-        "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
-        "highlightText": "Historia"
+        "materialId": "uah-tema15#bases-datos-materias",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "La BUAH organiza sus bases de datos por materias temáticas."
       },
       "tags": [
         "examen-oficial",
@@ -347,46 +371,44 @@
     {
       "id": "uah-exam-valencia-c1-2025-q043-951fa1af2d05",
       "topicId": "uah-bib-t15-contenido",
-      "question": "La Universitat de Valéncia participa en el proyecto Dialnet realizando el vaciado de revistas y la indización de capítulos de obras colectivas y congresos editados por la Universidad. ¿Cuál de las siguientes afirmaciones NO es correcta?",
+      "question": "En análisis documental, ¿qué afirmación sobre indización es correcta?",
       "options": [
-        "La Universitat de Valéncia participa en el proyecto Dialnet desde 2005.",
-        "El objetivo es dar visibilidad a la producción de la Universitat de Valencia, priorizando las publicaciones editadas por la Universitat y la calidad de la información de los autores de la Universitat.",
-        "Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet.",
-        "En 2013, se propone ampliar los criterios incluyendo también las obras en colaboración, en las que participe un profesor de la Universitat de Valencia, aunque no esté editado o coeditado por la Universitat."
+        "La indización consiste en prestar documentos fuera de plazo.",
+        "La indización asigna términos de materia para representar el contenido y facilitar la recuperación.",
+        "La indización sustituye al registro bibliográfico completo.",
+        "La indización solo se aplica a documentos sin materia."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 43. Respuesta validada por la plantilla oficial: Las propuestas para el vaciado de nuevas revistas vienen exclusivamente del propio Dialnet.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "Indizar implica representar materias o conceptos para mejorar recuperación temática.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q043-951fa1af2d05",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q043-951fa1af2d05"
+        "materialId": "indizacion",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "indización"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-015",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-cadiz-c1-2025-q036-ee9a05ae5958",
       "topicId": "uah-bib-t15-contenido",
-      "question": "El sistema Bibliobook® permite: 5",
+      "question": "¿Qué función permite el módulo de bibliografía recomendada del Buscador de la UAH?",
       "options": [
-        "Consultar todo el catálogo de la Biblioteca de la UCA.",
-        "Acceder a la bibliografía recomendada de cada asignatura.",
-        "Obtener documentos de otras bibliotecas que no se encuentran en la biblioteca del usuario.",
+        "Consultar todo el catálogo de la BUAH.",
+        "Acceder a la bibliografía recomendada de cada asignatura vinculada al Buscador.",
+        "Obtener documentos de otras bibliotecas no disponibles en la BUAH.",
         "Citar correctamente la bibliografía utilizada en un trabajo académico."
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 36. Respuesta validada por la plantilla oficial: Acceder a la bibliografía recomendada de cada asignatura.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_15_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q036-ee9a05ae5958",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_15_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q036-ee9a05ae5958"
+        "materialId": "uah-tema15#bibliografia-recomendada",
+        "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
+        "highlightText": "El Buscador de la UAH integra la bibliografía recomendada de cada asignatura."
       },
       "tags": [
         "examen-oficial",

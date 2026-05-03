@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 21 - La calidad en las bibliotecas universitarias españolas según REBIUN",
     "description": "Banco normalizado de preguntas del tema 21 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 24,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 10,
-      "opositatest-referencia": 2
+      "curada": 11,
+      "oficial": 7,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 6,
@@ -195,78 +195,102 @@
     {
       "id": "uah-c-21-0",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Elige la afirmacion correcta sobre \"Calidad, REBIUN y EFQM\".",
+      "question": "¿Qué busca un sistema de calidad en biblioteca?",
       "options": [
-        "REBIUN impulsa indicadores, estadisticas, lineas estrategicas y buenas practicas de calidad.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Eliminar indicadores estadísticos para evitar comparaciones con otras bibliotecas.",
+        "Asignar números normalizados (ISBN/ISSN) a los documentos de la colección.",
+        "Mejorar de forma continua los servicios mediante evaluación sistemática, indicadores y satisfacción de usuarios.",
+        "Codificar los registros bibliográficos según el estándar MARC 21."
       ],
-      "correctIndex": 0,
-      "explanation": "REBIUN impulsa indicadores, estadisticas, lineas estrategicas y buenas practicas de calidad.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
-        "highlightText": "Calidad, REBIUN y EFQM"
-      }
+        "highlightText": "Un sistema de calidad busca la mejora continua mediante evaluación e indicadores."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-21",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-21-1",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Elige la afirmacion correcta sobre \"Calidad, REBIUN y EFQM\".",
+      "question": "¿Qué aporta el modelo EFQM?",
       "options": [
         "EFQM es un modelo de gestion orientado a excelencia, evaluacion y mejora continua.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Codificar registros bibliográficos en MARC 21.",
+        "Determinar derechos morales de autor.",
+        "Sustituir quejas por decisiones informales."
       ],
       "correctIndex": 0,
-      "explanation": "EFQM es un modelo de gestion orientado a excelencia, evaluacion y mejora continua.",
+      "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
         "highlightText": "Calidad, REBIUN y EFQM"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-21",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-21-2",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Elige la afirmacion correcta sobre \"Calidad, REBIUN y EFQM\".",
+      "question": "¿Para qué sirven los indicadores?",
       "options": [
-        "La certificacion exige evidencias documentales y resultados, no solo declaracion de intenciones.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sustituir los procedimientos internos por decisiones informales de gestión.",
+        "Eliminar la evaluación de satisfacción de usuarios.",
+        "Asignar números normalizados a libros y revistas de la colección.",
+        "Medir y comparar el rendimiento de los servicios para apoyar la toma de decisiones basada en evidencia."
       ],
-      "correctIndex": 0,
-      "explanation": "La certificacion exige evidencias documentales y resultados, no solo declaracion de intenciones.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
-        "highlightText": "Calidad, REBIUN y EFQM"
-      }
+        "highlightText": "Los indicadores miden el rendimiento de los servicios y apoyan la toma de decisiones."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-21",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-21-3",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Elige la afirmacion correcta sobre \"Calidad, REBIUN y EFQM\".",
+      "question": "¿Qué relación existe entre carta de servicios y calidad?",
       "options": [
+        "Asignar números normalizados a libros y revistas.",
         "En bibliotecas, la calidad se mide en servicios, colecciones, accesibilidad, tiempos, satisfaccion e impacto.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Codificar registros bibliográficos en MARC 21.",
+        "Determinar derechos morales de autor."
       ],
-      "correctIndex": 0,
-      "explanation": "En bibliotecas, la calidad se mide en servicios, colecciones, accesibilidad, tiempos, satisfaccion e impacto.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
         "highlightText": "Calidad, REBIUN y EFQM"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-21",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q027-abe9e1f182e2",
@@ -349,79 +373,73 @@
     {
       "id": "uah-exam-valencia-c1-2025-q023-aedec6c050ba",
       "topicId": "uah-bib-t21-contenido",
-      "question": "Según el organigrama del Servei de Biblioteques i Documentació, NO es una sección central:",
+      "question": "En calidad bibliotecaria, ¿qué función tiene un indicador de gestión?",
       "options": [
-        "Calidad en la Gestión Bibliotecaria",
-        "Comunicación y Formación",
-        "Apoyo a la Investigación",
-        "Gestión de Recursos de Información"
+        "Medir actividad, rendimiento o cumplimiento para apoyar evaluación y mejora.",
+        "Asignar ISBN a publicaciones monográficas.",
+        "Codificar la mención de edición en MARC 21.",
+        "Autorizar el uso de una obra con Creative Commons."
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 23. Respuesta validada por la plantilla oficial: Calidad en la Gestión Bibliotecaria. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Se sustituye un organigrama externo por el concepto evaluable de indicadores de calidad y gestión bibliotecaria.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q023-aedec6c050ba",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q023-aedec6c050ba"
+        "materialId": "calidad-indicadores",
+        "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
+        "highlightText": "indicadores"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-021",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-valencia-c1-2025-q035-c73654b25dfd",
       "topicId": "uah-bib-t21-contenido",
-      "question": "Según consta en la página web del Servei de Biblioteques i Documentació, ¿qué órgano participa en la autoevaluación del servicio, se encarga de la supervisión de las mejoras y define e implementa los canales de comunicación para detectar las necesidades y expectativas de los diferentes grupos de interés?",
+      "question": "En gestión de calidad bibliotecaria, ¿qué órgano o equipo suele encargarse de impulsar autoevaluación y seguimiento de mejoras?",
       "options": [
-        "La Comisión del Servei de Biblioteques i Documentació",
-        "La Junta Técnica",
-        "El Comité de Calidad 3 ñ",
-        "La Unitat de Qualitat de la Universitat de Valencia"
+        "El proveedor de identificadores ISBN.",
+        "Un comité o grupo de calidad del servicio con funciones de seguimiento y mejora.",
+        "La oficina que asigna NIPO a publicaciones oficiales.",
+        "Un tribunal de selección de personal externo al servicio."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 35. Respuesta validada por la plantilla oficial: El Comité de Calidad 3 ñ. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La autoevaluación y la mejora continua requieren estructuras de calidad, seguimiento de acciones e identificación de necesidades de usuarios.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q035-c73654b25dfd",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q035-c73654b25dfd"
+        "materialId": "calidad-autoevaluacion",
+        "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
+        "highlightText": "autoevaluación"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-021",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-valencia-c1-2025-q075-ac85d4bb4e6a",
       "topicId": "uah-bib-t21-contenido",
-      "question": "En relación con los procesos de autoevaluación realizados por el Servei de Biblioteques i Documentació de la Universitat de Valéncia, ¿cuál de las siguientes afirmaciones es correcta?",
+      "question": "¿Qué afirmación describe mejor la autoevaluación en calidad bibliotecaria?",
       "options": [
-        "El Servei de Biblioteques i Documentació ha realizado tres procesos de autoevaluación, siendo el último en 2024.",
-        "El Servei de Biblioteques i Documentació ha realizado dos procesos de autoevaluación, siendo el último en 2017.",
-        "El Servei de Biblioteques i Documentació ha realizado tres procesos de autoevaluación, siendo el último en 2023.",
-        "El Servei de Biblioteques i Documentació ha realizado dos procesos de autoevaluación, siendo el último en 2020."
+        "Es un trámite contable ajeno a la satisfacción de usuarios.",
+        "Es una revisión sistemática del servicio para identificar fortalezas, áreas de mejora y planes de acción.",
+        "Consiste solo en contar préstamos sin analizar procesos.",
+        "Sustituye la carta de servicios por una memoria histórica."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 75. Respuesta validada por la plantilla oficial: El Servei de Biblioteques i Documentació ha realizado tres procesos de autoevaluación, siendo el último en 2023.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 1,
+      "explanation": "La autoevaluación ayuda a diagnosticar el servicio y orientar planes de mejora con enfoque de calidad.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q075-ac85d4bb4e6a",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q075-ac85d4bb4e6a"
+        "materialId": "calidad-autoevaluacion-2",
+        "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
+        "highlightText": "autoevaluación"
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-021",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -453,20 +471,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q021-4aca38849613",
       "topicId": "uah-bib-t21-contenido",
-      "question": "¿Cuál es el propósito fundamental de la Biblioteca de la Universidad de Cádiz según la misión establecida en el Sistema de Gestión de Calidad?",
+      "question": "¿Cuál es el propósito fundamental de la Biblioteca de la Universidad de Alcalá según su misión?",
       "options": [
         "Generar ingresos económicos a través de la venta de servicios bibliográficos.",
-        "Colaborar en la consecución de los objetivos de la Universidad mediante la difusión de la información, así como a través de la gestión de colecciones, servicios y espacios que apoyen el aprendizaje, la investigación y la transferencia de conocimiento.",
-        "Sustituir los servicios de otras bibliotecas públicas de Cádiz.",
-        "Establecer únicamente horarios de atención al público como sala de estudios para los alumnos.."
+        "Colaborar en la consecución de los objetivos de la UAH mediante la difusión del conocimiento y el apoyo a la docencia, investigación y aprendizaje.",
+        "Sustituir los servicios de otras bibliotecas públicas de Alcalá de Henares.",
+        "Establecer únicamente horarios de atención al público como sala de estudios general."
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 21. Respuesta validada por la plantilla oficial: Colaborar en la consecución de los objetivos de la Universidad mediante la difusión de la información, así como a través de la gestión de colecciones, servicios y espacios que apoyen el aprendizaje, la investigación y la transferencia de conocimiento.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_21_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q021-4aca38849613",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_21_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q021-4aca38849613"
+        "materialId": "uah-tema21#mision-buah",
+        "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
+        "highlightText": "La misión de la BUAH es colaborar en los objetivos de la UAH mediante la difusión del conocimiento."
       },
       "tags": [
         "examen-oficial",

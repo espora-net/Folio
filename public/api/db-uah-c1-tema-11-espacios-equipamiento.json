@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:34:51.592Z",
     "title": "UAH C1 Tema 11 - Organización espacial y equipamiento de las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 11 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 18,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 4,
-      "opositatest-referencia": 2
+      "curada": 11,
+      "oficial": 1,
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 4,
@@ -197,78 +197,102 @@
     {
       "id": "uah-c-11-0",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "question": "¿Qué expresa el concepto CRAI?",
       "options": [
+        "Un depósito cerrado sin acceso de usuarios.",
+        "Un identificador de publicaciones seriadas.",
         "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Una licencia de reutilización de obras en abierto."
       ],
-      "correctIndex": 0,
-      "explanation": "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
         "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-11",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-11-1",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "question": "¿Qué servicio se relaciona con organización de espacios?",
       "options": [
         "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Una licencia de reutilización de obras en abierto.",
+        "Una oficina que asigna números ISBN.",
+        "Un procedimiento disciplinario del EBEP."
       ],
       "correctIndex": 0,
-      "explanation": "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
+      "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
         "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-11",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-11-2",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "question": "¿Qué criterio debe considerarse en equipamiento bibliotecario?",
       "options": [
-        "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un procedimiento disciplinario del EBEP.",
+        "Un depósito cerrado sin acceso de usuarios.",
+        "Un identificador de publicaciones seriadas.",
+        "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente."
       ],
-      "correctIndex": 0,
-      "explanation": "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
         "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-11",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-11-3",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Elige la afirmacion correcta sobre \"Espacios y equipamiento en bibliotecas universitarias\".",
+      "question": "¿Qué diferencia sala de lectura y sala de grupo?",
       "options": [
-        "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Ambas están destinadas al trabajo en equipo y se pueden reservar para uso individual.",
+        "La sala de lectura es un espacio de estudio individual en silencio; la sala de grupo es para trabajo colaborativo y puede reservarse por equipos.",
+        "La sala de grupo es de acceso restringido solo al PDI y al alumnado de posgrado.",
+        "Ambas requieren reserva previa y están sujetas al mismo límite de tiempo de uso."
       ],
-      "correctIndex": 0,
-      "explanation": "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
-        "highlightText": "Espacios y equipamiento en bibliotecas universitarias"
-      }
+        "highlightText": "Las salas de lectura son espacios de estudio individual; las salas de grupo están destinadas al trabajo colaborativo."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-11",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-udc-c1-2025-2-q042-c50179bc05c1",
@@ -299,20 +323,20 @@
     {
       "id": "uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec",
       "topicId": "uah-bib-t11-contenido",
-      "question": "¿Cuál de estos sistemas NO se usaría para la clasificación y ordenación topográfica de una biblioteca con libre acceso?",
+      "question": "En una colección de libre acceso, ¿qué sistema se usa habitualmente para ordenar materias en bibliotecas españolas y en la BUAH?",
       "options": [
-        "Clasificación Decimal Universal (CDU)",
-        "Clasificación Decimal de Dewey (DDC)",
-        "Clasificación de la Library of Congress (LC)",
-        "Numerus currens"
+        "Clasificación Decimal Universal (CDU).",
+        "Numerus currens como simple número correlativo de ingreso.",
+        "Ordenación estricta por fecha de adquisición.",
+        "Ordenación por número de carné del usuario solicitante."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 60. Respuesta validada por la plantilla oficial: Numerus currens. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "El Tema 11 conecta la colección de libre acceso con la ordenación por materias; en el contexto UAH se refuerza la CDU como sistema de clasificación para localizar fondos.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec"
+        "materialId": "coleccion-libre-acceso-cdu",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Colección de libre acceso y depósitos | Qué fondos puede consultar directamente el usuario y cuáles requieren solicitud o gestión por el personal bibliotecario."
       },
       "tags": [
         "examen-oficial",
@@ -325,20 +349,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q062-c86e5f3229e2",
       "topicId": "uah-bib-t11-contenido",
-      "question": "La Biblioteca de la Universidad de Cádiz dispone de un sistema de monitorización de puestos de lectura, ¿en qué campus se puede consultar en línea la ocupación de puestos en tiempo real?",
+      "question": "¿Cómo pueden los usuarios consultar la disponibilidad de puestos en las bibliotecas de la Universidad de Alcalá?",
       "options": [
-        "En el Campus de Cádiz, de Puerto Real y Bahía de Algeciras",
-        "En los Campus de Puerto Real, de Jerez y Bahía de Algeciras",
-        "En el Campus de Cádiz, de Jerez y Bahia de Algeciras",
-        "En todos los Campus"
+        "A través del sistema de reservas en línea disponible en la web de la BUAH.",
+        "Llamando por teléfono al mostrador de cada biblioteca.",
+        "Únicamente de forma presencial, consultando el panel de ocupación en la entrada.",
+        "Por correo electrónico a la Dirección del Servicio de Biblioteca."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 62. Respuesta validada por la plantilla oficial: En los Campus de Puerto Real, de Jerez y Bahía de Algeciras. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q062-c86e5f3229e2",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q062-c86e5f3229e2"
+        "materialId": "uah-tema11#reservas-espacios",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Los usuarios pueden consultar la disponibilidad de puestos y reservar espacios a través de la web de la BUAH."
       },
       "tags": [
         "examen-oficial",
@@ -351,27 +375,25 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q033-964c7e5a11e0",
       "topicId": "uah-bib-t11-contenido",
-      "question": "Algunas de las colecciones impresas de la Biblioteca de la Universidad de Cantabria se conservan en almacenes y depósitos. ¿Pueden los usuarios acceder a estos fondos?",
+      "question": "Si un fondo está en depósito o almacén no accesible directamente, ¿cómo debe acceder normalmente el usuario?",
       "options": [
-        "No pueden acceder directamente ni tampoco consultarlos porque son materiales muy frágiles.",
-        "No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca.",
-        "Pueden acceder directamente siempre que pidan permiso en la división de la BUC correspondiente.",
-        "Pueden acceder directamente a estos fondos siguiendo la señalización."
+        "Accediendo libremente al depósito sin control.",
+        "Solicitándolo al personal o mediante el procedimiento previsto por la biblioteca.",
+        "Descartando su consulta porque todo depósito es inaccesible.",
+        "Retirándolo sin registro para evitar esperas."
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 33. Respuesta validada por la plantilla oficial: No pueden acceder directamente, pero sí solicitarlos al personal de la biblioteca.. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Los fondos en depósitos o almacenes pueden requerir solicitud y mediación del personal según normas de acceso.",
+      "origin": "curada",
       "source": {
-        "materialId": "tema_11_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q033-964c7e5a11e0",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_11_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q033-964c7e5a11e0"
+        "materialId": "fondos-deposito",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "depósitos"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-011",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {

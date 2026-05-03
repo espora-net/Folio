@@ -1,13 +1,21 @@
 'use client';
 
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import { Play, CheckCircle, XCircle, Trophy, RotateCcw, Clock, Maximize, Minimize, AlertTriangle, BookOpen } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, Clock, Maximize, Minimize, AlertTriangle, BookOpen, SlidersHorizontal } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
+import { Slider } from '@/components/ui/slider';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 import {
   Select,
   SelectContent,
@@ -15,21 +23,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
 import { TestQuestion, Topic, getQuestions, getTopics, getStats, saveStats, recordTopicResults } from '@/lib/storage';
-import { getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
+import { getCachedConvocatoria, getCachedDatabase, getConvocatoriaDescriptors, getTopicIdsInConvocatoria, type ConvocatoriaDescriptor } from '@/lib/data-api';
 import { selectProportionalQuestions, selectEqualQuestions } from '@/lib/question-selector';
 import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
-import { type ExamConfig } from '@/lib/data-types';
+import { type ExamConfig, type TemaConvocatoria } from '@/lib/data-types';
+import { getOriginFilterValue, getOriginTag, matchesOriginFilter, sortOriginFilters } from '@/lib/question-origin';
 
 type ExamPhase = 'setup' | 'running' | 'review' | 'results';
 
@@ -38,10 +38,114 @@ interface ExamAnswer {
   selectedAnswer: number | null; // null = en blanco
 }
 
+interface ExamThemeBucket {
+  id: string;
+  label: string;
+  shortLabel: string;
+  order: number;
+  questions: TestQuestion[];
+}
+
 const formatTime = (seconds: number): string => {
   const mins = Math.floor(seconds / 60);
   const secs = seconds % 60;
   return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+};
+
+const shuffleQuestions = (items: TestQuestion[]) => [...items].sort(() => Math.random() - 0.5);
+
+const coverageMatches = (topicCoverage: string[], temaCoverage: string[]) => {
+  if (topicCoverage.length === 0 || temaCoverage.length === 0) return false;
+  return topicCoverage.some(topicId =>
+    temaCoverage.some(temaId =>
+      topicId === temaId ||
+      topicId.startsWith(`${temaId}/`) ||
+      topicId.startsWith(`${temaId}#`) ||
+      temaId.startsWith(`${topicId}/`) ||
+      temaId.startsWith(`${topicId}#`)
+    )
+  );
+};
+
+const selectWeightedQuestions = (
+  buckets: ExamThemeBucket[],
+  count: number,
+  weights: Record<string, number>
+) => {
+  const availableCount = buckets.reduce((sum, bucket) => sum + bucket.questions.length, 0);
+  const targetCount = Math.min(count, availableCount);
+  if (targetCount <= 0) return [];
+
+  const weightedBuckets = buckets.map(bucket => {
+    const weight = weights[bucket.id] ?? 1;
+    return {
+      ...bucket,
+      shuffled: shuffleQuestions(bucket.questions),
+      weight,
+      weightedSize: Math.max(0, weight) * bucket.questions.length,
+      quota: 0,
+      remainder: 0,
+    };
+  });
+
+  const activeBuckets = weightedBuckets.filter(bucket => bucket.weightedSize > 0);
+  if (activeBuckets.length === 0) {
+    return [];
+  }
+
+  const totalWeightedSize = activeBuckets.reduce((sum, bucket) => sum + bucket.weightedSize, 0);
+  let assigned = 0;
+  for (const bucket of activeBuckets) {
+    const rawQuota = (bucket.weightedSize / totalWeightedSize) * targetCount;
+    bucket.quota = Math.min(bucket.questions.length, Math.floor(rawQuota));
+    bucket.remainder = rawQuota - bucket.quota;
+    assigned += bucket.quota;
+  }
+
+  let remaining = targetCount - assigned;
+  const byRemainder = [...activeBuckets].sort((a, b) => b.remainder - a.remainder);
+  while (remaining > 0) {
+    let progressed = false;
+    for (const bucket of byRemainder) {
+      if (bucket.quota >= bucket.questions.length) continue;
+      bucket.quota++;
+      remaining--;
+      progressed = true;
+      if (remaining === 0) break;
+    }
+    if (!progressed) break;
+  }
+
+  const selected = activeBuckets.flatMap(bucket => bucket.shuffled.slice(0, bucket.quota));
+  if (selected.length < targetCount) {
+    const selectedIds = new Set(selected.map(question => question.id));
+    const fallback = shuffleQuestions(
+      weightedBuckets.flatMap(bucket => bucket.questions).filter(question => !selectedIds.has(question.id))
+    );
+    selected.push(...fallback.slice(0, targetCount - selected.length));
+  }
+
+  return shuffleQuestions(selected).slice(0, targetCount);
+};
+
+const OriginBadge = ({ origin, className = '' }: { origin?: string; className?: string }) => {
+  const tag = getOriginTag(origin);
+  const Icon = tag.icon;
+  return (
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Badge variant="outline" className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className} ${className}`}>
+            <Icon className="h-3 w-3" />
+            {tag.label}
+          </Badge>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>{tag.tooltip}</p>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
+  );
 };
 
 const SimulatedExam = () => {
@@ -58,6 +162,10 @@ const SimulatedExam = () => {
   const [displayMode, setDisplayMode] = useState<'fullscreen' | 'window'>('window');
   const [distributionMode, setDistributionMode] = useState<'proportional' | 'equal'>('proportional');
   const [questionsPerTopic, setQuestionsPerTopic] = useState<number>(5);
+  const [originFilter, setOriginFilter] = useState('all');
+  const [themeWeights, setThemeWeights] = useState<Record<string, number>>({});
+  const [showThemeWeights, setShowThemeWeights] = useState(false);
+  const [showFinishConfirm, setShowFinishConfirm] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
@@ -86,14 +194,94 @@ const SimulatedExam = () => {
 
   const examConfig: ExamConfig | undefined = selectedConvocatoria?.examConfig;
 
-  // Get filtered questions for the selected convocatoria
-  const availableQuestions = useMemo(() => {
+  const topicById = useMemo(() => new Map(topics.map(topic => [topic.id, topic])), [topics]);
+
+  // Get questions for the selected convocatoria before optional origin/theme tuning
+  const convocatoriaQuestions = useMemo(() => {
     if (!selectedConvocatoria) return [];
     const topicIds = getTopicIdsInConvocatoria(topics, selectedConvocatoria.id);
     if (!topicIds || topicIds.length === 0) return questions;
     const topicIdSet = new Set(topicIds);
     return questions.filter(q => topicIdSet.has(q.topicId));
   }, [questions, topics, selectedConvocatoria]);
+
+  const availableOriginFilters = useMemo(() => {
+    const origins = new Set<string>();
+    convocatoriaQuestions.forEach(question => origins.add(getOriginFilterValue(question.origin)));
+    return Array.from(origins).sort(sortOriginFilters);
+  }, [convocatoriaQuestions]);
+
+  useEffect(() => {
+    if (originFilter !== 'all' && !availableOriginFilters.includes(originFilter)) {
+      setOriginFilter('all');
+    }
+  }, [availableOriginFilters, originFilter]);
+
+  const originFilterCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const filter of availableOriginFilters) counts.set(filter, 0);
+    for (const question of convocatoriaQuestions) {
+      const filter = getOriginFilterValue(question.origin);
+      counts.set(filter, (counts.get(filter) ?? 0) + 1);
+    }
+    return counts;
+  }, [availableOriginFilters, convocatoriaQuestions]);
+
+  const availableQuestions = useMemo(() => {
+    if (originFilter === 'all') return convocatoriaQuestions;
+    return convocatoriaQuestions.filter(question => matchesOriginFilter(question.origin, originFilter));
+  }, [convocatoriaQuestions, originFilter]);
+
+  const themeBuckets = useMemo((): ExamThemeBucket[] => {
+    if (!selectedConvocatoria || availableQuestions.length === 0) return [];
+
+    const convocatoria = getCachedConvocatoria(selectedConvocatoria.id);
+    const database = getCachedDatabase();
+    const datasetIdByFile = new Map((database.datasets ?? []).map(dataset => [dataset.file, dataset.id]));
+    const temasByDataset = new Map<string, TemaConvocatoria[]>();
+
+    for (const tema of convocatoria?.temas ?? []) {
+      for (const recurso of tema.recursos ?? []) {
+        if (recurso.tipo !== 'db') continue;
+        const datasetId = datasetIdByFile.get(recurso.archivo);
+        if (!datasetId) continue;
+        const current = temasByDataset.get(datasetId) ?? [];
+        current.push(tema);
+        temasByDataset.set(datasetId, current);
+      }
+    }
+
+    const findTemaForQuestion = (question: TestQuestion): TemaConvocatoria | undefined => {
+      const topic = topicById.get(question.topicId);
+      const coverage = topic?.syllabusCoverageIds ?? [];
+      const candidates = temasByDataset.get(question.sourceDatasetId ?? '') ?? [];
+      if (candidates.length === 1) return candidates[0];
+      return candidates.find(tema => coverageMatches(coverage, tema.cobertura_convocatoria ?? []));
+    };
+
+    const buckets = new Map<string, ExamThemeBucket>();
+    for (const question of availableQuestions) {
+      const tema = findTemaForQuestion(question);
+      const fallbackTopic = topicById.get(question.topicId);
+      const id = tema?.id ?? fallbackTopic?.parentId ?? question.topicId;
+      const label = tema ? `Tema ${tema.numero}. ${tema.titulo}` : fallbackTopic?.title ?? question.topicId;
+      const shortLabel = tema ? `Tema ${tema.numero}` : fallbackTopic?.tag ?? fallbackTopic?.title ?? question.topicId;
+      const order = tema?.numero ?? fallbackTopic?.order ?? 999;
+      const bucket = buckets.get(id) ?? { id, label, shortLabel, order, questions: [] };
+      bucket.questions.push(question);
+      buckets.set(id, bucket);
+    }
+
+    return Array.from(buckets.values()).sort((a, b) => a.order - b.order || a.label.localeCompare(b.label, 'es'));
+  }, [availableQuestions, selectedConvocatoria, topicById]);
+
+  const allThemeWeightsZero = themeBuckets.length > 0 &&
+    themeBuckets.every(bucket => (themeWeights[bucket.id] ?? 1) === 0);
+
+  useEffect(() => {
+    setThemeWeights({});
+    setShowThemeWeights(false);
+  }, [selectedConvocatoria?.id]);
 
   const finishExam = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
@@ -142,6 +330,7 @@ const SimulatedExam = () => {
       recordTopicResults(results);
     }
 
+    setShowFinishConfirm(false);
     setExamPhase('results');
     if (document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
@@ -218,13 +407,25 @@ const SimulatedExam = () => {
       }
 
       const count = Math.min(numQuestions, availableQuestions.length);
-      selected = selectProportionalQuestions(availableQuestions, count);
+      if (allThemeWeightsZero) {
+        toast({
+          title: 'Mezcla sin preguntas',
+          description: 'Sube al menos un tema por encima de 0 para comenzar el simulacro.',
+          variant: 'destructive',
+        });
+        return;
+      }
+
+      selected = themeBuckets.length > 0
+        ? selectWeightedQuestions(themeBuckets, count, themeWeights)
+        : selectProportionalQuestions(availableQuestions, count);
     }
 
     setExamQuestions(selected);
     setAnswers(selected.map((_, i) => ({ questionIndex: i, selectedAnswer: null })));
     setCurrentIndex(0);
     setTimeRemaining(examConfig.durationMinutes * 60);
+    setShowFinishConfirm(false);
     setExamPhase('running');
 
     if (displayMode === 'fullscreen') {
@@ -246,6 +447,11 @@ const SimulatedExam = () => {
     setAnswers([]);
     setCurrentIndex(0);
     setTimeRemaining(0);
+    setShowFinishConfirm(false);
+  };
+
+  const requestFinishExam = () => {
+    setShowFinishConfirm(true);
   };
 
   const selectAnswer = (answerIndex: number) => {
@@ -290,13 +496,14 @@ const SimulatedExam = () => {
     return { correct, incorrect, blank, totalPoints: Math.round(totalPoints * 100) / 100, maxPoints };
   }, [answers, examQuestions, examConfig]);
 
-  const getTopicById = (topicId: string) => topics.find(t => t.id === topicId);
+  const getTopicById = (topicId: string) => topicById.get(topicId);
 
   const currentQuestion = examQuestions[currentIndex];
   const currentAnswer = answers[currentIndex];
   const scoredQuestionCount = examConfig ? Math.min(examConfig.numQuestions, examQuestions.length) : examQuestions.length;
   const reserveQuestionCount = Math.max(0, examQuestions.length - scoredQuestionCount);
   const currentQuestionIsReserve = currentIndex >= scoredQuestionCount;
+  const unansweredCount = answers.filter(answer => answer.selectedAnswer === null).length;
 
   // Timer warning color
   const timerColor = timeRemaining < 300 ? 'text-red-500' : timeRemaining < 600 ? 'text-orange-500' : 'text-foreground';
@@ -373,6 +580,9 @@ const SimulatedExam = () => {
                 {/* Preguntas disponibles */}
                 <div className="flex items-center gap-2 text-sm">
                   <Badge variant="outline">{availableQuestions.length} preguntas disponibles</Badge>
+                  {originFilter !== 'all' && (
+                    <Badge variant="secondary">Origen filtrado</Badge>
+                  )}
                   {availableQuestions.length < examConfig.numQuestions && (
                     <span className="text-orange-500 flex items-center gap-1">
                       <AlertTriangle className="h-3 w-3" />
@@ -380,6 +590,83 @@ const SimulatedExam = () => {
                     </span>
                   )}
                 </div>
+
+                {availableOriginFilters.length > 1 && (
+                  <div className="space-y-2">
+                    <Label className="text-sm font-medium">Origen de preguntas</Label>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button
+                        variant={originFilter === 'all' ? 'default' : 'outline'}
+                        size="sm"
+                        className="h-8 px-3 text-xs"
+                        onClick={() => setOriginFilter('all')}
+                      >
+                        Todos
+                      </Button>
+                      {availableOriginFilters.map(origin => {
+                        const tag = getOriginTag(origin);
+                        const Icon = tag.icon;
+                        return (
+                          <Button
+                            key={origin}
+                            variant={originFilter === origin ? 'default' : 'outline'}
+                            size="sm"
+                            className="h-8 px-3 text-xs gap-1"
+                            onClick={() => setOriginFilter(origin)}
+                          >
+                            <Icon className="h-3 w-3" />
+                            {tag.label}
+                            <span className="text-[10px] opacity-70">{originFilterCounts.get(origin) ?? 0}</span>
+                          </Button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {themeBuckets.length > 1 && (
+                  <Collapsible open={showThemeWeights} onOpenChange={setShowThemeWeights} className="rounded-lg border border-border">
+                    <CollapsibleTrigger asChild>
+                      <Button variant="ghost" className="w-full justify-between px-4">
+                        <span className="flex items-center gap-2">
+                          <SlidersHorizontal className="h-4 w-4" />
+                          Ajustar mezcla por temas
+                        </span>
+                        <Badge variant="outline">{themeBuckets.length} temas</Badge>
+                      </Button>
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="px-4 pb-4 space-y-3">
+                      <p className="text-xs text-muted-foreground">
+                        Peso 1 mantiene la proporción del banco. Sube o baja temas para practicar más o menos sin cambiar las condiciones del simulacro.
+                      </p>
+                      <div className="space-y-3 max-h-72 overflow-y-auto pr-1">
+                        {themeBuckets.map(bucket => {
+                          const weight = themeWeights[bucket.id] ?? 1;
+                          return (
+                            <div key={bucket.id} className="space-y-2 rounded-md bg-muted/40 p-3">
+                              <div className="flex items-center justify-between gap-3 text-xs">
+                                <span className="font-medium truncate" title={bucket.label}>{bucket.shortLabel}</span>
+                                <span className="text-muted-foreground whitespace-nowrap">
+                                  {bucket.questions.length} preg. · {weight.toFixed(1)}x
+                                </span>
+                              </div>
+                              <Slider
+                                min={0}
+                                max={3}
+                                step={0.5}
+                                value={[weight]}
+                                onValueChange={([value]) => setThemeWeights(prev => ({ ...prev, [bucket.id]: value }))}
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
+                      <Button variant="outline" size="sm" onClick={() => setThemeWeights({})}>
+                        Restablecer pesos
+                      </Button>
+                    </CollapsibleContent>
+                  </Collapsible>
+                )}
 
                 {/* Modo de pantalla */}
                 <div className="space-y-2">
@@ -463,7 +750,7 @@ const SimulatedExam = () => {
                   onClick={startExam}
                   size="lg"
                   className="w-full"
-                  disabled={availableQuestions.length === 0}
+                  disabled={availableQuestions.length === 0 || (distributionMode === 'proportional' && allThemeWeightsZero)}
                 >
                   <Play className="h-5 w-5 mr-2" />
                   Comenzar simulacro
@@ -478,6 +765,8 @@ const SimulatedExam = () => {
 
   // ============ RUNNING PHASE ============
   if (examPhase === 'running' && currentQuestion) {
+    const currentTopic = getTopicById(currentQuestion.topicId);
+
     return (
       <div ref={containerRef} className={`space-y-4 ${isFullscreen ? 'bg-background p-6 overflow-auto h-screen' : ''}`}>
         {/* Header con timer y controles */}
@@ -491,6 +780,15 @@ const SimulatedExam = () => {
                 Reserva no puntuable
               </Badge>
             )}
+            {currentTopic && (
+              <Badge
+                className="text-[10px] px-2 py-0.5"
+                style={{ backgroundColor: currentTopic.color || '#6b7280' }}
+              >
+                {currentTopic.tag || currentTopic.title}
+              </Badge>
+            )}
+            <OriginBadge origin={currentQuestion.origin} />
             <div className={`flex items-center gap-1 font-mono text-lg font-bold ${timerColor}`}>
               <Clock className="h-4 w-4" />
               {formatTime(timeRemaining)}
@@ -500,32 +798,27 @@ const SimulatedExam = () => {
             <Button variant="ghost" size="sm" onClick={toggleFullscreen}>
               {isFullscreen ? <Minimize className="h-4 w-4" /> : <Maximize className="h-4 w-4" />}
             </Button>
-            <Dialog>
-              <DialogTrigger asChild>
-                <Button variant="destructive" size="sm">Finalizar</Button>
-              </DialogTrigger>
-              <DialogContent>
-                <DialogHeader>
-                  <DialogTitle>¿Finalizar simulacro?</DialogTitle>
-                  <DialogDescription>
-                    Se calcularán los resultados con las respuestas dadas hasta ahora.
-                    {answers.filter(a => a.selectedAnswer === null).length > 0 && (
-                      <span className="block mt-2 text-orange-500">
-                        Tienes {answers.filter(a => a.selectedAnswer === null).length} preguntas sin responder.
-                      </span>
-                    )}
-                  </DialogDescription>
-                </DialogHeader>
-                <div className="flex gap-3 justify-end">
-                  <DialogClose asChild>
-                    <Button variant="outline">Cancelar</Button>
-                  </DialogClose>
-                  <Button variant="destructive" onClick={finishExam}>Sí, finalizar</Button>
-                </div>
-              </DialogContent>
-            </Dialog>
+            <Button variant="destructive" size="sm" onClick={requestFinishExam}>Finalizar</Button>
           </div>
         </div>
+
+        {showFinishConfirm && (
+          <Card className="border-destructive/40 bg-destructive/5">
+            <CardContent className="p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <div>
+                <p className="font-medium text-foreground">¿Finalizar simulacro?</p>
+                <p className="text-sm text-muted-foreground">
+                  Se calcularán los resultados con las respuestas dadas hasta ahora.
+                  {unansweredCount > 0 && ` Tienes ${unansweredCount} preguntas sin responder.`}
+                </p>
+              </div>
+              <div className="flex gap-2 justify-end">
+                <Button variant="outline" size="sm" onClick={() => setShowFinishConfirm(false)}>Cancelar</Button>
+                <Button variant="destructive" size="sm" onClick={finishExam}>Sí, finalizar</Button>
+              </div>
+            </CardContent>
+          </Card>
+        )}
 
         <div className="max-w-3xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_200px] gap-4">
           {/* Question area */}
@@ -570,7 +863,7 @@ const SimulatedExam = () => {
                     Siguiente
                   </Button>
                 ) : (
-                  <Button variant="destructive" onClick={finishExam}>
+                  <Button variant="destructive" onClick={requestFinishExam}>
                     Finalizar
                   </Button>
                 )}
@@ -767,6 +1060,7 @@ const SimulatedExam = () => {
                           {topic.tag || topic.title}
                         </Badge>
                       )}
+                      <OriginBadge origin={q.origin} />
                       {isReserve && (
                         <Badge variant="outline" className="text-orange-600 border-orange-300">
                           Reserva

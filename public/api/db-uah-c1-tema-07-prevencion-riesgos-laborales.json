@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 07 - Prevención de Riesgos Laborales en la UAH",
     "description": "Banco normalizado de preguntas del tema 7 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 14,
     "explicitFlashcardCount": 4,
     "originCounts": {
       "curada": 4,
-      "refuerzo": 4,
       "oficial": 4,
-      "opositatest-referencia": 2
+      "opositatest-referencia": 2,
+      "refuerzo": 4
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 2,
@@ -119,78 +119,102 @@
     {
       "id": "uah-c-7-0",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "question": "¿Qué deber básico tiene la institución empleadora en PRL?",
       "options": [
+        "Evaluar únicamente accidentes ya ocurridos.",
+        "Trasladar toda la prevención al trabajador sin planificación.",
         "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Publicar datos sanitarios individuales para control interno."
       ],
-      "correctIndex": 0,
-      "explanation": "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
         "highlightText": "Prevencion de riesgos laborales en la UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-07",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-7-1",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "question": "¿Para qué sirve la evaluación de riesgos?",
       "options": [
         "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Publicar datos sanitarios individuales para control interno.",
+        "Excluir ergonomía y pantallas por tratarse de oficinas.",
+        "Sustituir formación preventiva por estadísticas de préstamos."
       ],
       "correctIndex": 0,
-      "explanation": "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
+      "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
         "highlightText": "Prevencion de riesgos laborales en la UAH"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-07",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-7-2",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "question": "¿Qué caracteriza la vigilancia de la salud?",
       "options": [
-        "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Evaluar únicamente accidentes ya ocurridos, sin medidas preventivas asociadas.",
+        "Trasladar toda la responsabilidad preventiva al propio trabajador.",
+        "Sustituir la evaluación de riesgos por reconocimientos médicos generales.",
+        "Vigilar el estado de salud en función de los riesgos inherentes al puesto, con carácter voluntario y confidencial salvo excepciones legales."
       ],
-      "correctIndex": 0,
-      "explanation": "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
-        "highlightText": "Prevencion de riesgos laborales en la UAH"
-      }
+        "highlightText": "La vigilancia de la salud se realizará en función de los riesgos inherentes al trabajo."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-07",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-7-3",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Elige la afirmacion correcta sobre \"Prevencion de riesgos laborales en la UAH\".",
+      "question": "¿Qué riesgos pueden darse en puestos de biblioteca?",
       "options": [
-        "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Exclusivamente riesgos eléctricos en sala de servidores.",
+        "Riesgos posturales y visuales por uso de pantallas, manipulación de cargas en depósitos, riesgos psicosociales por atención al público y condiciones de iluminación.",
+        "Riesgos únicamente asociados a agentes biológicos en fondos antiguos.",
+        "Ningún riesgo relevante, al tratarse de actividad de oficina sin carga física."
       ],
-      "correctIndex": 0,
-      "explanation": "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
       "origin": "refuerzo",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
-        "highlightText": "Prevencion de riesgos laborales en la UAH"
-      }
+        "highlightText": "Los puestos de biblioteca presentan riesgos posturales, visuales, de manipulación de cargas y psicosociales."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-07",
+        "refuerzo",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-valencia-c1-2025-q049-f4e006df21e5",
