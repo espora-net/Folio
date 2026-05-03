@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
-import { Filter, ChevronDown, ChevronRight, Sparkles, FileCheck, ExternalLink, Building2 } from 'lucide-react';
+import { Filter, ChevronDown, ChevronRight, Sparkles, Building2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
@@ -10,6 +10,7 @@ import { Separator } from '@/components/ui/separator';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { type Topic, type Flashcard, type TestQuestion } from '@/lib/storage';
 import { type ConvocatoriaDescriptor, getTopicIdsInConvocatoria } from '@/lib/data-api';
+import { getOriginFilterValue, getOriginTag, sortOriginFilters } from '@/lib/question-origin';
 
 type FilterMode = 'none' | 'convocatoria' | 'tema';
 
@@ -41,40 +42,6 @@ interface StudyFiltersPopoverProps {
   // Derived count
   filteredCount: number;
 }
-
-const getOriginTag = (origin?: string) => {
-  const o = (origin ?? 'generated').trim() || 'generated';
-
-  if (o === 'oficial') {
-    return {
-      label: 'Oficial',
-      icon: FileCheck,
-      className: 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400',
-    };
-  }
-
-  if (o === 'opositatest-referencia') {
-    return {
-      label: 'Opositatest ref.',
-      icon: ExternalLink,
-      className: 'border-amber-300 text-amber-700 dark:border-amber-700 dark:text-amber-400',
-    };
-  }
-
-  if (o === 'ia' || o === 'generated') {
-    return {
-      label: o === 'ia' ? 'IA' : 'Generadas',
-      icon: Sparkles,
-      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
-    };
-  }
-
-  return {
-    label: o,
-    icon: ExternalLink,
-    className: 'border-sky-300 text-sky-700 dark:border-sky-700 dark:text-sky-400',
-  };
-};
 
 export default function StudyFiltersPopover({
   topics,
@@ -145,9 +112,9 @@ export default function StudyFiltersPopover({
   const availableOrigins = useMemo(() => {
     const origins = new Set<string>();
     items.forEach(item => {
-      origins.add((item.origin || 'generated').trim() || 'generated');
+      origins.add(getOriginFilterValue(item.origin));
     });
-    return Array.from(origins);
+    return Array.from(origins).sort(sortOriginFilters);
   }, [items]);
 
   const toggleGroup = (groupId: string) => {
@@ -448,19 +415,7 @@ export default function StudyFiltersPopover({
                   Todos
                 </Button>
                 
-                {availableOrigins.includes('generated') && (
-                  <Button
-                    variant={originFilter === 'generated' ? 'default' : 'outline'}
-                    size="sm"
-                    className="h-7 px-2 text-xs gap-1"
-                    onClick={() => onOriginFilterChange('generated')}
-                  >
-                    <Sparkles className="h-3 w-3" />
-                    Generadas
-                  </Button>
-                )}
-
-                {availableOrigins.filter(o => o !== 'generated' && o !== 'ia').map(origin => {
+                {availableOrigins.map(origin => {
                   const tag = getOriginTag(origin);
                   const Icon = tag.icon;
                   return (

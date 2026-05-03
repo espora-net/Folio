@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 01 - Constitución Española de 1978",
     "description": "Banco normalizado de preguntas del tema 1 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 28,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 16,
-      "refuerzo": 4,
-      "oficial": 6,
-      "opositatest-referencia": 2
+      "adaptada-ia": 21,
+      "generada-ia": 4,
+      "oficial": 1,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 0,
@@ -50,7 +50,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La formula constitucional es Estado social y democratico de Derecho.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -69,7 +69,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La soberania nacional reside en el pueblo espanol.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -88,7 +88,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La forma politica del Estado espanol es la Monarquia parlamentaria.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -107,7 +107,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 2 reconoce y garantiza el derecho a la autonomia de nacionalidades y regiones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -126,7 +126,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 14 declara la igualdad ante la ley.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -145,7 +145,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 53 pertenece al capitulo IV del Titulo I, sobre garantias.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -158,13 +158,13 @@
       "question": "El articulo 9.3 de la Constitucion garantiza, entre otros principios:",
       "options": [
         "Legalidad, jerarquia normativa, publicidad de las normas y seguridad juridica",
-        "Exclusividad del prestamo bibliotecario y reserva de salas",
-        "Acceso abierto, FAIR y deposito en e_Buah",
-        "ISBN, ISSN, DOI y NIPO"
+        "Responsabilidad de los poderes públicos, prohibición de la arbitrariedad y principio de interdicción.",
+        "Reserva de ley orgánica para la regulación de los derechos fundamentales del Título I.",
+        "Inviolabilidad del domicilio, secreto de las comunicaciones y libertad de residencia."
       ],
       "correctIndex": 0,
       "explanation": "El articulo 9.3 enumera garantias juridicas del Titulo Preliminar, como legalidad, jerarquia normativa, publicidad, seguridad juridica, responsabilidad e interdiccion de la arbitrariedad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -183,7 +183,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El derecho a la educacion pertenece al Titulo I, que si entra en el alcance oficial del tema 1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -202,7 +202,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 10 abre el Titulo I y fija el fundamento del orden politico y de la paz social.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -221,7 +221,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 15 protege vida e integridad y prohibe tortura y penas o tratos inhumanos o degradantes.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -234,13 +234,13 @@
       "question": "El articulo 16 de la Constitucion garantiza:",
       "options": [
         "Libertad ideologica, religiosa y de culto",
-        "Derecho de prestamo domiciliario",
-        "Identificacion DOI",
-        "Procedimiento de expurgo"
+        "Derecho a la libre expresión, comunicación y difusión de ideas.",
+        "Derecho a sindicarse libremente y a la negociación colectiva.",
+        "Derecho a la educación y a la libertad de enseñanza."
       ],
       "correctIndex": 0,
       "explanation": "El articulo 16 reconoce libertad ideologica, religiosa y de culto, con limite en el orden publico protegido por la ley.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -259,7 +259,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Constitucion fija un plazo maximo de setenta y dos horas para poner al detenido en libertad o a disposicion judicial.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -278,7 +278,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 18 agrupa honor, intimidad, propia imagen, inviolabilidad del domicilio y secreto de comunicaciones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -297,7 +297,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 20.2 prohibe la censura previa.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -310,13 +310,13 @@
       "question": "El articulo 23 de la Constitucion reconoce el derecho a:",
       "options": [
         "Participar en los asuntos publicos y acceder en igualdad a funciones y cargos publicos",
-        "Obtener un ISBN",
-        "Reservar salas de trabajo",
-        "Crear registros MARC"
+        "Obtener la tutela judicial efectiva sin indefensión.",
+        "Sindicarse libremente y ejercer el derecho a la huelga.",
+        "Dirigir peticiones a los poderes públicos en forma individual o colectiva."
       ],
       "correctIndex": 0,
       "explanation": "El articulo 23 reconoce participacion politica y acceso en igualdad a funciones y cargos publicos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -335,7 +335,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 28 reconoce libertad sindical y establece que nadie puede ser obligado a afiliarse a un sindicato.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -345,78 +345,102 @@
     {
       "id": "uah-c-1-0",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Elige la afirmacion correcta sobre \"Constitucion Espanola de 1978\".",
+      "question": "¿Qué valores superiores proclama el artículo 1.1 de la Constitución?",
       "options": [
+        "La legalidad presupuestaria, estabilidad financiera, eficacia y jerarquía administrativa.",
+        "La cooperación bibliotecaria, acceso abierto, catalogación y préstamo interbibliotecario.",
         "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
-        "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-        "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania."
+        "La autonomía universitaria, transferencia, investigación y gestión de recursos."
       ],
-      "correctIndex": 0,
-      "explanation": "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-      "origin": "refuerzo",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
         "highlightText": "Constitucion Espanola de 1978"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-01",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-1-1",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Elige la afirmacion correcta sobre \"Constitucion Espanola de 1978\".",
+      "question": "¿Qué reconoce el artículo 2 CE junto a la unidad de la Nación española?",
       "options": [
         "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
-        "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-        "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania."
+        "La autonomía universitaria, transferencia, investigación y gestión de recursos.",
+        "La protección exclusiva de publicaciones seriadas mediante ISSN.",
+        "La ordenación de fondos por materias y signaturas topográficas."
       ],
       "correctIndex": 0,
-      "explanation": "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-      "origin": "refuerzo",
+      "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
         "highlightText": "Constitucion Espanola de 1978"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-01",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-1-2",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Elige la afirmacion correcta sobre \"Constitucion Espanola de 1978\".",
+      "question": "¿Qué bloque del Título I resulta clave para distinguir derechos y garantías?",
       "options": [
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias.",
-        "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
-        "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-        "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania."
+        "La ordenación de fondos por materias y signaturas topográficas.",
+        "La legalidad presupuestaria, estabilidad financiera, eficacia y jerarquía administrativa.",
+        "La cooperación bibliotecaria, acceso abierto, catalogación y préstamo interbibliotecario.",
+        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
       ],
-      "correctIndex": 0,
-      "explanation": "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias.",
-      "origin": "refuerzo",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
         "highlightText": "Constitucion Espanola de 1978"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-01",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-1-3",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Elige la afirmacion correcta sobre \"Constitucion Espanola de 1978\".",
+      "question": "¿Qué precepto constitucional conecta directamente con la igualdad y la no discriminación?",
       "options": [
-        "El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
-        "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
-        "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-        "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania."
+        "El art. 14 CE: los españoles son iguales ante la ley, sin discriminación por nacimiento, raza, sexo, religión u opinión.",
+        "El art. 27 CE: derecho a la educación y libertad de enseñanza.",
+        "El art. 38 CE: reconocimiento de la libertad de empresa en el marco de la economía de mercado.",
+        "El art. 45 CE: derecho a disfrutar de un medio ambiente adecuado para el desarrollo personal."
       ],
       "correctIndex": 0,
-      "explanation": "El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
-      "origin": "refuerzo",
+      "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
-        "highlightText": "Constitucion Espanola de 1978"
-      }
+        "highlightText": "Art. 14. Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-01",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q001-483029eff7ff",
@@ -429,8 +453,8 @@
         "Solo los españoles tienen derecho a la educación"
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 1. Respuesta validada por la plantilla oficial: Se reconoce a las personas físicas y jurídicas la libertad de creación de centros docentes, dentro del respeto a los principios constitucionales. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 1. Respuesta validada por la plantilla oficial: Se reconoce a las personas físicas y jurídicas la libertad de creación de centros docentes, dentro del respeto a los principios constitucionales. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "upm-c1-2025-1#q001",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -446,20 +470,20 @@
     {
       "id": "uah-exam-valencia-c1-2025-q069-95b3c65f267b",
       "topicId": "uah-bib-t01-contenido",
-      "question": "La Constitución Española de 1978, en su artículo 76.1 en relación con las comisiones de investigación establece que:",
+      "question": "Según el artículo 1 de la Constitución Española de 1978, España se constituye en:",
       "options": [
-        "Se podrán nombrar exclusivamente por el. Senado.",
-        "El resultado de la investigación deberá comunicarse al presidente del Gobierno.",
-        "Sus conclusiones no serán vinculantes.",
-        "La a) y la b) son correctas."
+        "Un Estado social y democrático de Derecho, que propugna como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
+        "Una Monarquía parlamentaria sin separación de poderes.",
+        "Una República federal con plena autonomía de sus territorios.",
+        "Un Estado confesional que adopta como religión oficial la católica."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 69. Respuesta validada por la plantilla oficial: Sus conclusiones no serán vinculantes.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 69. Respuesta validada por la plantilla oficial: Sus conclusiones no serán vinculantes.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_01_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q069-95b3c65f267b",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_01_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q069-95b3c65f267b"
+        "materialId": "01_constitucion_espanola_1978.md#articulo-1",
+        "path": "data/general/01_constitucion_espanola_1978.md",
+        "highlightText": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político."
       },
       "tags": [
         "examen-oficial",
@@ -472,20 +496,20 @@
     {
       "id": "uah-exam-uned-aux-2024-q006-88ee92c9893b",
       "topicId": "uah-bib-t01-contenido",
-      "question": "Según establece la Constitución Española el estado de sitio:",
+      "question": "¿Qué regula el artículo 15 de la Constitución Española?",
       "options": [
-        "Será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros dando cuenta al Congreso de los Diputados.",
-        "Será declarado por la mayoría absoluta del Congreso de los Diputados y del Senado en sesión conjunta de ambas cámaras.",
-        "Será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados.",
-        "Será declarado por la mayoría absoluta del Congreso de los Diputados."
+        "El derecho a la vida y a la integridad física y moral, con prohibición de la tortura y de las penas inhumanas o degradantes.",
+        "El derecho a contraer matrimonio con plena igualdad jurídica.",
+        "El derecho a la educación básica obligatoria y gratuita.",
+        "La libertad de residencia y circulación por el territorio nacional."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: UNED 2024 - Auxiliar de Biblioteca, pregunta 6. Respuesta validada por la plantilla oficial: Será declarado por la mayoría absoluta del Congreso de los Diputados.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: UNED 2024 - Auxiliar de Biblioteca, pregunta 6. Respuesta validada por la plantilla oficial: Será declarado por la mayoría absoluta del Congreso de los Diputados.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_01_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q006-88ee92c9893b",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_01_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uned-aux-2024-q006-88ee92c9893b"
+        "materialId": "01_constitucion_espanola_1978.md#articulo-15",
+        "path": "data/general/01_constitucion_espanola_1978.md",
+        "highlightText": "Todos tienen derecho a la vida y a la integridad física y moral, sin que, en ningún caso, puedan ser sometidos a tortura ni a penas o tratos inhumanos o degradantes."
       },
       "tags": [
         "examen-oficial",
@@ -506,8 +530,8 @@
         "No necesitará autorización previa."
       ],
       "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 1. Respuesta validada por la plantilla oficial: No necesitará autorización previa.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 1. Respuesta validada por la plantilla oficial: No necesitará autorización previa.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cantabria-c2-2025#q001",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -531,12 +555,12 @@
         "Sanidad e higiene."
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 2. Respuesta validada por la plantilla oficial: Legislación sobre propiedad intelectual e industrial.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 2. Respuesta validada por la plantilla oficial: Legislación sobre propiedad intelectual e industrial.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "cantabria-c2-2025#q002",
+        "materialId": "01_constitucion_espanola_1978.md#articulo-149",
         "path": "data/general/01_constitucion_espanola_1978.md",
-        "highlightText": "Legislación sobre propiedad intelectual e industrial."
+        "highlightText": "El Estado tiene competencia exclusiva sobre las siguientes materias: Legislación sobre propiedad intelectual e industrial."
       },
       "tags": [
         "examen-oficial",
@@ -555,13 +579,13 @@
         "El Gobierno.",
         "El Tribunal Supremo."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 2. Respuesta validada por la plantilla oficial: El Consejo General del Poder Judicial.. Clasificada como Tema 1 (Constitución Española) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
         "materialId": "uz-c1-libre-2024#q002",
         "path": "data/general/01_constitucion_espanola_1978.md",
-        "highlightText": "El Consejo General del Poder Judicial."
+        "highlightText": "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial."
       },
       "tags": [
         "examen-oficial",
@@ -582,7 +606,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El artículo 1.1 define España como Estado social y democrático de Derecho y enumera esos valores superiores. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-001#opositatest-referencia-001",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -590,7 +614,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-001"
       ]
@@ -607,7 +631,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El artículo 27 reconoce el derecho a la educación y la libertad de enseñanza, incluyendo la creación de centros docentes. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-001#opositatest-referencia-002",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -615,7 +639,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-001"
       ]
@@ -627,35 +651,35 @@
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-1",
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-2",
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-3",
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-1--cuales-son-los-va",
       "topicId": "uah-bib-t01-contenido",
       "question": "¿Cuales son los valores superiores del ordenamiento juridico?",
       "answer": "Libertad, justicia, igualdad y pluralismo politico.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

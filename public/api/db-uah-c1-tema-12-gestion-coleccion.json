@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:27:57.068Z",
     "title": "UAH C1 Tema 12 - La gestión de la colección en las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 12 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 25,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 11,
-      "opositatest-referencia": 2
+      "adaptada-ia": 10,
+      "generada-ia": 4,
+      "oficial": 9,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 9,
@@ -54,7 +54,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El expurgo requiere criterios, evaluacion y procedimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -73,7 +73,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La seleccion responde a necesidades academicas y de investigacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -92,7 +92,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Adquisiciones BUAH indica que se valora interes, pertinencia, coste del proceso tecnico, valor de la donacion y espacio disponible.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -111,7 +111,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 7 asigna al area de gestion de coleccion adquisicion, evaluacion continua y propuestas de expurgo.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -130,7 +130,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Adquisiciones indica consultar el Buscador antes de realizar sugerencias.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -149,7 +149,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La orden de compra se vincula al PDI/PAS responsable y al centro de coste presupuestario.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -168,7 +168,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Adquisiciones describe el canje como intercambio de revistas editadas por la UAH con otras entidades.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -187,7 +187,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Adquisiciones indica que no se admiten donaciones que exijan condiciones contrarias a la normativa vigente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -197,78 +197,102 @@
     {
       "id": "uah-c-12-0",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Elige la afirmacion correcta sobre \"Gestion de la coleccion\".",
+      "question": "¿Qué objetivo persigue la gestión de la colección?",
       "options": [
+        "Comprar siempre más ejemplares sin evaluar uso.",
+        "Ordenar usuarios según sanciones de préstamo.",
         "La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sustituir el catálogo por encuestas de satisfacción."
       ],
-      "correctIndex": 0,
-      "explanation": "La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional.",
-      "origin": "refuerzo",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
         "highlightText": "Gestion de la coleccion"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-12",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-12-1",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Elige la afirmacion correcta sobre \"Gestion de la coleccion\".",
+      "question": "¿Qué son las desideratas?",
       "options": [
-        "La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Solicitudes de adquisición de fondos realizadas por usuarios o personal de la biblioteca para incorporar nuevos materiales.",
+        "Procedimiento de expurgo de materiales obsoletos según criterios de uso y estado.",
+        "Contratos de suscripción anual con proveedores de recursos electrónicos.",
+        "Informes estadísticos sobre el uso de la colección por materia y soporte."
       ],
       "correctIndex": 0,
-      "explanation": "La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas.",
-      "origin": "refuerzo",
+      "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
-        "highlightText": "Gestion de la coleccion"
-      }
+        "highlightText": "Las desideratas son solicitudes de adquisición realizadas por usuarios o personal."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-12",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-12-2",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Elige la afirmacion correcta sobre \"Gestion de la coleccion\".",
+      "question": "¿Para qué sirve evaluar la colección?",
       "options": [
-        "La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Para determinar qué materiales deben recibir clasificación CDU prioritaria.",
+        "Para tramitar las reclamaciones de préstamo vencido.",
+        "Para certificar el número de ejemplares ante auditorías externas.",
+        "Adecuar la colección a las necesidades reales de los usuarios y optimizar el uso de los recursos disponibles."
       ],
-      "correctIndex": 0,
-      "explanation": "La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital.",
-      "origin": "refuerzo",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
-        "highlightText": "Gestion de la coleccion"
-      }
+        "highlightText": "La evaluación de la colección permite adecuarla a las necesidades de los usuarios y optimizar los recursos."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-12",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-12-3",
       "topicId": "uah-bib-t12-contenido",
-      "question": "T12. Elige la afirmacion correcta sobre \"Gestion de la coleccion\".",
+      "question": "¿Qué se controla en recursos electrónicos?",
       "options": [
+        "Ordenar usuarios según sanciones de préstamo.",
         "La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Sustituir el catálogo por encuestas de satisfacción.",
+        "Excluir recursos electrónicos de la planificación documental."
       ],
-      "correctIndex": 0,
-      "explanation": "La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
-      "origin": "refuerzo",
+      "correctIndex": 1,
+      "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
         "highlightText": "Gestion de la coleccion"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-12",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q035-6676005096fb",
@@ -351,20 +375,20 @@
     {
       "id": "uah-exam-udc-c1-2025-2-q051-6ebb5ff4bac2",
       "topicId": "uah-bib-t12-contenido",
-      "question": "¿Por qué medio puede tramitarse la solicitud de documentos objeto de donación de la BUDC?",
+      "question": "¿Por qué medios puede tramitarse una solicitud de donación de fondos a la Biblioteca de la UAH?",
       "options": [
-        "Por teléfono",
-        "Personalmente",
-        "— Mediante una solicitud en línea en la página web de la BUDC",
-        "Todas son correctas"
+        "Por teléfono.",
+        "Personalmente en el mostrador.",
+        "Mediante solicitud en línea en la web de la BUAH.",
+        "Todas son correctas."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 51. Respuesta validada por la plantilla oficial: Personalmente. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_12_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q051-6ebb5ff4bac2",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_12_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q051-6ebb5ff4bac2"
+        "materialId": "uah-tema12#donaciones",
+        "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
+        "highlightText": "Las donaciones pueden tramitarse a través de la web de la BUAH."
       },
       "tags": [
         "examen-oficial",
@@ -377,27 +401,25 @@
     {
       "id": "uah-exam-valencia-c1-2025-q001-73ff887fd020",
       "topicId": "uah-bib-t12-contenido",
-      "question": "El Servei de Biblioteques i Documentació de la Universitat de Valencia pertenece a un grupo de compra para la adquisición conjunta de fondos bibliográficos que se denomina:",
+      "question": "¿Cuál es el principal criterio para incluir un recurso en la colección de una biblioteca universitaria?",
       "options": [
-        "UPNA",
-        "UNIR -",
-        "UNIRIS",
-        "UAX"
+        "Su relevancia para la docencia, la investigación y el aprendizaje de la comunidad universitaria.",
+        "El precio más bajo del mercado, con independencia del contenido.",
+        "La antigüedad del material, priorizando fondos históricos.",
+        "La disponibilidad inmediata en acceso abierto en internet."
       ],
-      "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 1. Respuesta validada por la plantilla oficial: UNIRIS. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "La UAH participa en el ecosistema de cooperación del Consorcio Madroño, relevante para servicios y recursos compartidos.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_12_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q001-73ff887fd020",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_12_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-valencia-c1-2025-q001-73ff887fd020"
+        "materialId": "uah-tema12#politica-coleccion",
+        "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
+        "highlightText": "La política de colección responde a las necesidades de docencia e investigación de la comunidad."
       },
       "tags": [
-        "examen-oficial",
-        "valencia-c1-2025",
-        "uah-tema-012",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -568,7 +590,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La selección precede a la adquisición y determina la adecuación de los materiales a las necesidades de la comunidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-012#opositatest-referencia-023",
         "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
@@ -576,7 +598,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-012"
       ]
@@ -593,7 +615,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El expurgo forma parte de la evaluación y mantenimiento de la colección. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-012#opositatest-referencia-024",
         "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
@@ -601,7 +623,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-012"
       ]
@@ -613,28 +635,28 @@
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-1",
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-2",
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-3",
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

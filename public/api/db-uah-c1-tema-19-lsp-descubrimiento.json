@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-05-02T21:09:16.389+02:00",
+    "updatedAt": "2026-05-03T12:34:51.591Z",
     "title": "UAH C1 Tema 19 - Las Plataformas de Servicios Bibliotecarios (LSP)",
     "description": "Banco normalizado de preguntas del tema 19 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 30,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 8,
-      "refuerzo": 4,
-      "oficial": 16,
-      "opositatest-referencia": 2
+      "adaptada-ia": 14,
+      "generada-ia": 4,
+      "oficial": 10,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 11,
@@ -52,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las Library Services Platforms integran recursos fisicos, electronicos y procesos bibliotecarios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -71,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El descubrimiento facilita recuperacion desde una interfaz unificada.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -90,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El resultado R.4.1 del Plan Estrategico cita ALMA como plataforma de servicios bibliotecarios y PRIMO como herramienta de descubrimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -109,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El documento de recursos no indizados indica que se debe acceder directamente a la plataforma del propio recurso.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "buscador-no-indizados",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -128,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Plan Estrategico describe la integracion de recursos fisicos y electronicos en una unica LSP.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -147,7 +147,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Plan Estrategico incluye R.4.2 sobre planificacion tecnologica y vigilancia tecnologica.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -166,7 +166,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El documento de recursos no indizados aclara que Buscador no indiza el 100% de recursos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "buscador-no-indizados",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -185,7 +185,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El documento explica que si una revista no esta indizada se muestra el titulo, pero no se recuperan sus articulos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "buscador-no-indizados",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -195,103 +195,125 @@
     {
       "id": "uah-c-19-0",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Elige la afirmacion correcta sobre \"LSP y herramientas de descubrimiento\".",
+      "question": "¿Qué pareja documenta la UAH como plataforma y descubrimiento?",
       "options": [
-        "Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "CDU e ISBN como herramientas de buscador integrado.",
+        "REBIUN y Madroño como catálogo local de ejemplares.",
+        "Alma (LSP de gestión) y Primo (herramienta de descubrimiento) son el par tecnológico de la UAH.",
+        "NIPO y depósito legal como módulo de circulación."
       ],
-      "correctIndex": 0,
-      "explanation": "Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios.",
-      "origin": "refuerzo",
+      "correctIndex": 2,
+      "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
-        "highlightText": "LSP y herramientas de descubrimiento"
-      }
+        "highlightText": "La UAH utiliza Alma como plataforma de servicios bibliotecarios y Primo como herramienta de descubrimiento."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-19",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-19-1",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Elige la afirmacion correcta sobre \"LSP y herramientas de descubrimiento\".",
+      "question": "¿Qué permite una herramienta de descubrimiento?",
       "options": [
         "Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "Un catálogo local sin acceso a recursos electrónicos externos.",
+        "Un índice central que solo cubre monografías impresas de la biblioteca.",
+        "Un módulo de gestión de facturas y adquisiciones de nuevos fondos."
       ],
       "correctIndex": 0,
-      "explanation": "Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos.",
-      "origin": "refuerzo",
+      "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
         "highlightText": "LSP y herramientas de descubrimiento"
-      }
+      },
+      "tags": [
+        "uah-c1",
+        "tema-19",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-19-2",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Elige la afirmacion correcta sobre \"LSP y herramientas de descubrimiento\".",
+      "question": "¿Qué módulo se asocia a préstamos y reservas?",
       "options": [
-        "La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "El módulo de adquisiciones, que gestiona compras y suscripciones.",
+        "El módulo de catalogación, que procesa los registros bibliográficos.",
+        "El módulo de administración de sistemas, que controla la configuración.",
+        "El módulo de circulación, que gestiona préstamos, devoluciones y reservas de ejemplares."
       ],
-      "correctIndex": 0,
-      "explanation": "La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo.",
-      "origin": "refuerzo",
+      "correctIndex": 3,
+      "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
-        "highlightText": "LSP y herramientas de descubrimiento"
-      }
+        "highlightText": "El módulo de circulación gestiona préstamos, devoluciones y reservas."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-19",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-c-19-3",
       "topicId": "uah-bib-t19-contenido",
-      "question": "T19. Elige la afirmacion correcta sobre \"LSP y herramientas de descubrimiento\".",
+      "question": "¿Qué gestiona el inventario en una LSP?",
       "options": [
-        "El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
-        "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-        "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-        "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias."
+        "El registro y control de todos los ejemplares con su localización, estado y disponibilidad en tiempo real.",
+        "La política de privacidad de los datos de los usuarios.",
+        "Los indicadores de satisfacción recogidos en encuestas anuales.",
+        "Las relaciones con los proveedores externos de bases de datos."
       ],
       "correctIndex": 0,
-      "explanation": "El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
-      "origin": "refuerzo",
+      "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
-        "highlightText": "LSP y herramientas de descubrimiento"
-      }
+        "highlightText": "El inventario de la LSP registra y controla todos los ejemplares con su localización y estado."
+      },
+      "tags": [
+        "uah-c1",
+        "tema-19",
+        "generada-ia",
+        "distractores-revisados"
+      ]
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q026-efdb03dd836d",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Qué SIGB ha elegido la Library of Congress en 2023?",
+      "question": "En la Biblioteca UAH, ¿qué pareja documentada corresponde a plataforma interna y herramienta de descubrimiento?",
       "options": [
-        "Absys",
-        "Koha-Kobli",
-        "Symphony",
-        "Folio '"
+        "Alma como plataforma de servicios bibliotecarios y Primo/Buscador UAH como herramienta de descubrimiento.",
+        "Primo como sistema interno de catalogación y Alma como catálogo público independiente.",
+        "Koha como repositorio institucional y DSpace como buscador de recursos suscritos.",
+        "Sierra como gestor de datos de investigación y Summon como módulo de adquisiciones."
       ],
-      "correctIndex": 3,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 26. Respuesta validada por la plantilla oficial: Folio '. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "correctIndex": 0,
+      "explanation": "La documentación del Tema 19 identifica Alma como Plataforma de Servicios Bibliotecarios y Primo/Buscador UAH como herramienta de descubrimiento para usuarios.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q026-efdb03dd836d",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q026-efdb03dd836d"
+        "materialId": "alma-primo-buscador-uah",
+        "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
+        "highlightText": "ALMA | Plataforma de Servicios Bibliotecarios. PRIMO / Buscador UAH | Herramienta de descubrimiento."
       },
       "tags": [
-        "examen-oficial",
-        "upm-c1-2025-1",
-        "uah-tema-019",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -426,20 +448,20 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q023-43c249504420",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Cómo puede consultar un usuario del Campus de Jerez los libros ubicados en la Biblioteca del Campus de Cádiz?",
+      "question": "¿Cómo puede consultar un usuario de la UAH los recursos ubicados en otra biblioteca de la universidad?",
       "options": [
-        "No puede acceder desde otros campus que no sea Cádiz.",
+        "No puede acceder desde una biblioteca a fondos de otra.",
         "Solo a través de una solicitud física al personal de biblioteca.",
-        "Mediante acceso en línea al catálogo de la Biblioteca de la UCA, Koha, desde cualquier ubicación.",
-        "Unicamente tras solicitarlo personalmente a un profesor de su campus."
+        "Mediante el Buscador de la UAH (Primo), que integra los fondos de todas las bibliotecas de la BUAH.",
+        "Únicamente tras solicitarlo personalmente a un profesor de su facultad."
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 23. Respuesta validada por la plantilla oficial: Mediante acceso en línea al catálogo de la Biblioteca de la UCA, Koha, desde cualquier ubicación.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q023-43c249504420",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q023-43c249504420"
+        "materialId": "uah-tema19#buscador-catalogo-integrado",
+        "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
+        "highlightText": "El Buscador de la UAH integra los fondos de todas las bibliotecas del Servicio."
       },
       "tags": [
         "examen-oficial",
@@ -556,20 +578,20 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q073-5e97b019e7db",
       "topicId": "uah-bib-t19-contenido",
-      "question": "El OPAC de Absysnet es de diseño <responsivo= lo que significa que:",
+      "question": "El Buscador de la UAH (Primo) es de diseño responsivo, lo que significa que:",
       "options": [
-        "Darespuesta a todas las búsquedas bibliográficas.",
-        "Tiene un asistente de voz.",
-        "Se adapta a las pantallas de múltiples dispositivos.",
-        "Se puede usar en cualquier idioma."
+        "Da respuesta únicamente a búsquedas en el catálogo local.",
+        "Requiere una aplicación específica para cada sistema operativo.",
+        "Se adapta automáticamente a las pantallas de múltiples dispositivos.",
+        "Solo funciona en redes internas de la universidad."
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 73. Respuesta validada por la plantilla oficial: Se adapta a las pantallas de múltiples dispositivos.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q073-5e97b019e7db",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q073-5e97b019e7db"
+        "materialId": "uah-tema19#primo-responsivo",
+        "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
+        "highlightText": "El Buscador de la UAH (Primo) es de diseño responsivo y se adapta a múltiples dispositivos."
       },
       "tags": [
         "examen-oficial",
@@ -582,27 +604,25 @@
     {
       "id": "uah-exam-cantabria-c2-2025-q085-73e7bc5bb2d1",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Cuál de las siguientes NO es una herramienta de almacenamiento de archivos en la nube?",
+      "question": "¿Cuál de las siguientes opciones NO es una herramienta de almacenamiento de archivos en la nube?",
       "options": [
         "Dropbox.",
-        "Google Drive. Pruebas selectivas para el ingreso en la Escala Auxiliar de U C | Unive rsidad Biblioteca, subgrupo C2, por el sistema general de acceso. libre (Resolución Rectoral 843/25, de 7 de julio de 2025 de e antabria 9 (BOE de 18 de julio), corregida por Resolución Rectoral 903/25 de 29 de julio de 2025 (BOE de 2 de agosto)",
+        "Google Drive.",
         "WinZip.",
-        "Microsoft Onedrive."
+        "Microsoft OneDrive."
       ],
       "correctIndex": 2,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 85. Respuesta validada por la plantilla oficial: WinZip.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "WinZip es una herramienta de compresión de archivos, no un servicio de almacenamiento en la nube; se elimina el residuo OCR de las opciones.",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q085-73e7bc5bb2d1",
         "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cantabria-c2-2025-q085-73e7bc5bb2d1"
+        "highlightText": "WinZip"
       },
       "tags": [
-        "examen-oficial",
-        "cantabria-c2-2025",
-        "uah-tema-019",
-        "prioridad-media",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -634,53 +654,49 @@
     {
       "id": "uah-exam-uz-c1-libre-2024-q034-6468150ee7d9",
       "topicId": "uah-bib-t19-contenido",
-      "question": "¿Cuál de estas utilidades NO proporciona la plataforma de servicios bibliotecarios FOLIO a la Biblioteca de la Universidad de Zaragoza?",
+      "question": "En el contexto UAH, ¿qué plataforma se documenta como sistema de gestión bibliotecaria junto con Primo?",
       "options": [
-        "Inventario.",
-        "Adquisición.",
-        "Circulación.",
-        "Reservas."
+        "Koha.",
+        "Alma.",
+        "Sierra.",
+        "Symphony."
       ],
       "correctIndex": 1,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 34. Respuesta validada por la plantilla oficial: Adquisición.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "La Biblioteca UAH documenta Alma como plataforma de servicios bibliotecarios y Primo como herramienta de descubrimiento.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q034-6468150ee7d9",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q034-6468150ee7d9"
+        "materialId": "alma-primo-uah",
+        "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
+        "highlightText": "ALMA como Plataforma de Servicios Bibliotecarios y PRIMO como herramienta de descubrimiento."
       },
       "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-019",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
       "id": "uah-exam-uz-c1-libre-2024-q037-af97bb9bc95a",
       "topicId": "uah-bib-t19-contenido",
-      "question": "FOLIO es una plataforma de servicios bibliotecarios",
+      "question": "¿Qué diferencia principal hay entre una LSP como Alma y una herramienta de descubrimiento como Primo?",
       "options": [
-        "De código abierto.",
-        "De código cerrado.",
-        "De código secuencia.",
-        "De código ordinario."
+        "Alma gestiona procesos internos y recursos; Primo ofrece la interfaz pública de búsqueda y acceso para usuarios.",
+        "Alma solo asigna ISBN y Primo solo registra publicaciones oficiales con NIPO.",
+        "Alma es un repositorio de datos y Primo una norma de catalogación descriptiva.",
+        "No existe diferencia funcional: ambas herramientas se usan solo para depósito legal."
       ],
       "correctIndex": 0,
-      "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 37. Respuesta validada por la plantilla oficial: De código abierto.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "oficial",
+      "explanation": "El Tema 19 distingue la LSP interna, orientada a gestión bibliotecaria, de la herramienta de descubrimiento pública para buscar, localizar y acceder a recursos.",
+      "origin": "adaptada-ia",
       "source": {
-        "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-uz-c1-libre-2024-q037-af97bb9bc95a",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-uz-c1-libre-2024-q037-af97bb9bc95a"
+        "materialId": "lsp-vs-descubrimiento-uah",
+        "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
+        "highlightText": "Una LSP es la plataforma interna de gestión bibliotecaria; una herramienta de descubrimiento es la interfaz de búsqueda para el usuario."
       },
       "tags": [
-        "examen-oficial",
-        "uz-c1-libre-2024",
-        "uah-tema-019",
-        "prioridad-alta",
-        "validacion-plantilla-oficial"
+        "uah-c1",
+        "pregunta-revisada",
+        "fuente-uah"
       ]
     },
     {
@@ -695,7 +711,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las LSP integran procesos bibliotecarios y herramientas de descubrimiento en entornos tecnológicos actuales. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-019#opositatest-referencia-037",
         "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
@@ -703,7 +719,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-019"
       ]
@@ -714,13 +730,13 @@
       "question": "¿Qué función cumple una herramienta de descubrimiento como Primo?",
       "options": [
         "Permitir búsquedas integradas sobre catálogo y recursos electrónicos",
-        "Sustituir el EBEP",
-        "Asignar ISBN a monografías",
-        "Determinar el quorum del claustro"
+        "Actuar como catálogo local sin acceso a índice central de recursos electrónicos.",
+        "Funcionar como gestor de adquisiciones y control de presupuesto.",
+        "Gestionar exclusivamente el préstamo de ejemplares físicos en sala."
       ],
       "correctIndex": 0,
       "explanation": "Las herramientas de descubrimiento facilitan la recuperación unificada de fondos y recursos electrónicos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-019#opositatest-referencia-038",
         "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
@@ -728,7 +744,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-019"
       ]
@@ -740,28 +756,28 @@
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-1",
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-2",
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-3",
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

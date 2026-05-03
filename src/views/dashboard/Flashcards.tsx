@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { RotateCcw, Check, Bookmark, Trophy, X, LayoutGrid, List, Sparkles, ExternalLink, FileCheck, Play } from 'lucide-react';
+import { RotateCcw, Check, Bookmark, Trophy, X, LayoutGrid, List, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -19,60 +19,9 @@ import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
 import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
 import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
+import { getOriginTag, matchesOriginFilter } from '@/lib/question-origin';
 
 type ViewMode = 'cards' | 'list';
-
-const normalizeOrigin = (origin?: string) => {
-  const o = (origin ?? 'generated').trim();
-  return o || 'generated';
-};
-
-const getOriginTag = (origin?: string) => {
-  const o = normalizeOrigin(origin);
-
-  if (o === 'oficial') {
-    return {
-      label: 'Oficial',
-      icon: FileCheck,
-      className: 'border-emerald-300 text-emerald-600 dark:border-emerald-700 dark:text-emerald-400',
-      tooltip: 'Contenido oficial',
-    };
-  }
-
-  if (o === 'opositatest-referencia') {
-    return {
-      label: 'Opositatest ref.',
-      icon: ExternalLink,
-      className: 'border-amber-300 text-amber-700 dark:border-amber-700 dark:text-amber-400',
-      tooltip: 'Contenido original basado en cobertura de Opositatest y validado con fuente oficial',
-    };
-  }
-
-  if (o === 'ia') {
-    return {
-      label: 'IA',
-      icon: Sparkles,
-      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
-      tooltip: 'Contenido generado por IA',
-    };
-  }
-
-  if (o === 'generated') {
-    return {
-      label: 'Generada',
-      icon: Sparkles,
-      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
-      tooltip: 'Contenido generado (incluye IA)',
-    };
-  }
-
-  return {
-    label: o,
-    icon: ExternalLink,
-    className: 'border-sky-300 text-sky-700 dark:border-sky-700 dark:text-sky-400',
-    tooltip: `Origen: ${o}`,
-  };
-};
 
 const Flashcards = () => {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
@@ -168,9 +117,7 @@ const Flashcards = () => {
       if (selectedTopicSet && !selectedTopicSet.has(f.topicId)) return false;
       if (originFilter === 'all') return true;
 
-      const origin = f.origin || 'generated';
-      if (originFilter === 'generated') return origin === 'generated' || origin === 'ia';
-      return origin === originFilter;
+      return matchesOriginFilter(f.origin, originFilter);
     });
   }, [flashcards, selectedTopicSet, originFilter, convocatoriaTopicSet]);
 

@@ -102,7 +102,7 @@
         "updatedAt": { "type": "string", "format": "date-time" },
         "source": { "$ref": "#/definitions/source" },
         "origin": {
-          "description": "Origen del contenido (p. ej. 'official', 'oposito.es', 'generated').",
+          "description": "Origen editorial/validación del contenido: 'oficial' para preguntas oficiales directas, 'adaptada-ia' para preguntas existentes/oficiales adaptadas con IA, 'generada-ia' para preguntas completamente generadas, o una fuente externa explícita como 'oposito.es', 'leyesdeoposiciones.es', 'quizlet.com' u 'opositatest.com'.",
           "type": "string"
         }
       }

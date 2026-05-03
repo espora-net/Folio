@@ -20,7 +20,7 @@ export interface Flashcard {
   nextReview: string;
   interval: number;
   easeFactor: number;
-  // Origen del contenido (p. ej. 'generated', 'ia', 'oposito.es').
+  // Origen del contenido (p. ej. 'oficial', 'adaptada-ia', 'generada-ia', 'oposito.es').
   // Opcional para compatibilidad con localStorage antiguo.
   origin?: QuestionOrigin;
   sourceDatasetId?: string;
