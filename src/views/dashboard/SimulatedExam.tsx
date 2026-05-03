@@ -30,6 +30,7 @@ import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { type ExamConfig, type TemaConvocatoria } from '@/lib/data-types';
 import { getOriginFilterValue, getOriginTag, matchesOriginFilter, sortOriginFilters } from '@/lib/question-origin';
+import QuestionIdBadge from '@/components/dashboard/QuestionIdBadge';
 
 type ExamPhase = 'setup' | 'running' | 'review' | 'results';
 
@@ -842,6 +843,7 @@ const SimulatedExam = () => {
               </Badge>
             )}
             <OriginBadge origin={currentQuestion.origin} />
+            <QuestionIdBadge questionId={currentQuestion.id} />
             <div className={`flex items-center gap-1 font-mono text-lg font-bold ${timerColor}`}>
               <Clock className="h-4 w-4" />
               {formatTime(timeRemaining)}
@@ -1119,6 +1121,7 @@ const SimulatedExam = () => {
                           Reserva
                         </Badge>
                       )}
+                      <QuestionIdBadge questionId={q.id} />
                     </div>
                     <div>
                       {isBlank ? (
