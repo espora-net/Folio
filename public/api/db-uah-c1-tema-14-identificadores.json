@@ -71,7 +71,7 @@
         "Identificación administrativa de publicaciones oficiales"
       ],
       "correctIndex": 0,
-      "explanation": "El DOI proporciona identificacion persistente de objetos digitales.",
+      "explanation": "El DOI proporciona identificación persistente de objetos digitales.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "doi",
@@ -90,12 +90,12 @@
         "Objetos científicos con referencia persistente"
       ],
       "correctIndex": 0,
-      "explanation": "La Orden PRE/2418/2015 regula el numero de identificacion de publicaciones oficiales.",
+      "explanation": "La Orden PRE/2418/2015 regula el número de identificación de publicaciones oficiales.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "nipo",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Numero de identificacion de las publicaciones oficiales."
+        "highlightText": "Número de identificación de las publicaciones oficiales."
       }
     },
     {
@@ -128,12 +128,12 @@
         "Publicaciones oficiales de la Administración General del Estado"
       ],
       "correctIndex": 0,
-      "explanation": "El Ministerio de Cultura define el ISBN como codigo internacional que identifica cada libro.",
+      "explanation": "El Ministerio de Cultura define el ISBN como código internacional que identifica cada libro.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Codigo numerico que identifica cada libro."
+        "highlightText": "Código numérico que identifica cada libro."
       }
     },
     {
@@ -147,12 +147,12 @@
         "Una agencia de registro DOI como Crossref"
       ],
       "correctIndex": 0,
-      "explanation": "La BNE indica que el Centro Nacional Espanol del ISSN esta integrado en su Departamento de Control Bibliografico de Revistas.",
+      "explanation": "La BNE indica que el Centro Nacional Español del ISSN está integrado en su Departamento de Control Bibliográfico de Revistas.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "issn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Integrado en la Biblioteca Nacional de Espana."
+        "highlightText": "Integrado en la Biblioteca Nacional de España."
       }
     },
     {
@@ -190,7 +190,7 @@
       "source": {
         "materialId": "nipo",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Publicaciones electronicas de la AGE."
+        "highlightText": "Publicaciones electrónicas de la AGE."
       }
     },
     {
