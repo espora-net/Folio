@@ -657,28 +657,28 @@
     {
       "id": "uah-t14-point-0",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
+      "question": "¿Qué idea clave debes recuperar del tema 14?",
       "answer": "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-1",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
+      "question": "¿Qué idea clave debes recuperar del tema 14?",
       "answer": "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-2",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
+      "question": "¿Qué idea clave debes recuperar del tema 14?",
       "answer": "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-3",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
+      "question": "¿Qué idea clave debes recuperar del tema 14?",
       "answer": "Deposito Legal y NIPO responden a obligaciones o identificacion de publicaciones, especialmente en ambito institucional.",
       "origin": "generada-ia"
     },
@@ -692,7 +692,7 @@
     {
       "id": "uah-t14-fact-identificadores",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, distingue ISBN, ISSN, DOI, Depósito Legal y NIPO en una frase.",
+      "question": "Distingue ISBN, ISSN, DOI, Depósito Legal y NIPO en una frase.",
       "answer": "ISBN e ISSN son identificadores bibliográficos; DOI es persistente; Depósito Legal preserva patrimonio; NIPO identifica publicaciones oficiales de la AGE.",
       "origin": "curada-editorial"
     }

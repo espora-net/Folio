@@ -1063,28 +1063,28 @@
     {
       "id": "uah-t16-point-0",
       "topicId": "uah-bib-t16-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué idea clave debes recuperar del tema 16?",
       "answer": "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-1",
       "topicId": "uah-bib-t16-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué idea clave debes recuperar del tema 16?",
       "answer": "eBUAH es el repositorio institucional de la Universidad de Alcala.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-2",
       "topicId": "uah-bib-t16-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué idea clave debes recuperar del tema 16?",
       "answer": "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-3",
       "topicId": "uah-bib-t16-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
+      "question": "¿Qué idea clave debes recuperar del tema 16?",
       "answer": "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
       "origin": "generada-ia"
     },
@@ -1098,7 +1098,7 @@
     {
       "id": "uah-t16-fact-rutas-acceso-abierto",
       "topicId": "uah-bib-t16-contenido",
-      "question": "Como opositor/a, ¿qué rutas de acceso abierto debes reconocer?",
+      "question": "¿Qué rutas de acceso abierto debes reconocer?",
       "answer": "Verde, dorada, híbrida, diamante o platino y bronce, distinguiendo repositorio, revista abierta, apertura en revista de suscripción, sin coste autor/lector y acceso sin licencia clara.",
       "origin": "curada-editorial"
     }

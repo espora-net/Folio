@@ -809,35 +809,35 @@
     {
       "id": "uah-t17-point-0",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
+      "question": "¿Qué idea clave debes recuperar del tema 17?",
       "answer": "Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-1",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
+      "question": "¿Qué idea clave debes recuperar del tema 17?",
       "answer": "La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-2",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
+      "question": "¿Qué idea clave debes recuperar del tema 17?",
       "answer": "La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-3",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
+      "question": "¿Qué idea clave debes recuperar del tema 17?",
       "answer": "Los canales digitales son parte central del servicio bibliotecario universitario.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-fact-carta-servicios",
       "topicId": "uah-bib-t17-contenido",
-      "question": "Como opositor/a, ¿qué informa públicamente la Carta de Servicios de la Biblioteca UAH?",
+      "question": "¿Qué informa públicamente la Carta de Servicios de la Biblioteca UAH?",
       "answer": "Servicios ofrecidos, compromisos de calidad, indicadores de cumplimiento, canales de comunicación y derechos, deberes y participación de los usuarios.",
       "origin": "curada-editorial"
     }

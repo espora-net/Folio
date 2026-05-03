@@ -629,35 +629,35 @@
     {
       "id": "uah-t15-point-0",
       "topicId": "uah-bib-t15-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 15?",
+      "question": "¿Qué idea clave debes recuperar del tema 15?",
       "answer": "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t15-point-1",
       "topicId": "uah-bib-t15-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 15?",
+      "question": "¿Qué idea clave debes recuperar del tema 15?",
       "answer": "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t15-point-2",
       "topicId": "uah-bib-t15-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 15?",
+      "question": "¿Qué idea clave debes recuperar del tema 15?",
       "answer": "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t15-point-3",
       "topicId": "uah-bib-t15-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 15?",
+      "question": "¿Qué idea clave debes recuperar del tema 15?",
       "answer": "La signatura combina clasificacion y elementos de localizacion fisica.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t15-fact-clasificar-indizar",
       "topicId": "uah-bib-t15-contenido",
-      "question": "Como opositor/a, ¿cómo diferencias clasificar e indizar?",
+      "question": "¿Cómo diferencias clasificar e indizar?",
       "answer": "Clasificar es situar un documento en una clase del conocimiento; indizar es representar sus temas mediante términos.",
       "origin": "curada-editorial"
     }

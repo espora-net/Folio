@@ -604,28 +604,28 @@
     {
       "id": "uah-t22-point-0",
       "topicId": "uah-bib-t22-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 22?",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-1",
       "topicId": "uah-bib-t22-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 22?",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-2",
       "topicId": "uah-bib-t22-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 22?",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-3",
       "topicId": "uah-bib-t22-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 22?",
+      "question": "¿Qué idea clave debes recuperar del tema 22?",
       "answer": "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
       "origin": "generada-ia"
     },
@@ -639,7 +639,7 @@
     {
       "id": "uah-t22-fact-capitulo-iii-lpi",
       "topicId": "uah-bib-t22-contenido",
-      "question": "Como opositor/a, ¿cómo se estructura el Capítulo III de la Ley de Propiedad Intelectual?",
+      "question": "¿Cómo se estructura el Capítulo III de la Ley de Propiedad Intelectual?",
       "answer": "Derecho moral (arts. 14 a 16), derechos de explotación (arts. 17 a 23) y otros derechos (arts. 24 y 25).",
       "origin": "curada-editorial"
     }

@@ -665,28 +665,28 @@
     {
       "id": "uah-t2-point-0",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-1",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-2",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-3",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 2?",
+      "question": "¿Qué idea clave debes recuperar del tema 2?",
       "answer": "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
       "origin": "generada-ia"
     },
@@ -700,7 +700,7 @@
     {
       "id": "uah-t2-fact-titulos-ebep",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Como opositor/a, ¿qué bloques del EBEP entran en el tema 2?",
+      "question": "¿Qué bloques del EBEP entran en el tema 2?",
       "answer": "Título I: objeto y ámbito; Título II: clases de empleados públicos; Título III: derechos, deberes y código de conducta.",
       "origin": "curada-editorial"
     }

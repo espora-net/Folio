@@ -1033,35 +1033,35 @@
     {
       "id": "uah-t18-point-0",
       "topicId": "uah-bib-t18-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "La gestion del prestamo regula quien puede llevarse que, por cuanto tiempo y con que condiciones.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-1",
       "topicId": "uah-bib-t18-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "Las reservas y renovaciones ordenan la disponibilidad y evitan conflictos entre usuarios.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-2",
       "topicId": "uah-bib-t18-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "Las salas de trabajo requieren normas de reserva, uso responsable y convivencia.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-3",
       "topicId": "uah-bib-t18-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 18?",
+      "question": "¿Qué idea clave debes recuperar del tema 18?",
       "answer": "El acceso al documento cubre suministro u obtencion de materiales no disponibles en la coleccion propia o inmediata.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t18-fact-reservas-prestamo",
       "topicId": "uah-bib-t18-contenido",
-      "question": "Como opositor/a, ¿qué regla de reservas de préstamo de la BUAH conviene memorizar?",
+      "question": "¿Qué regla de reservas de préstamo de la BUAH conviene memorizar?",
       "answer": "Se pueden reservar hasta 2 obras prestadas; al devolverse, la obra se retiene 4 días para el primer usuario con reserva y se notifica por correo.",
       "origin": "curada-editorial"
     }

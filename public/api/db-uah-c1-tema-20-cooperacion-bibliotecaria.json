@@ -764,28 +764,28 @@
     {
       "id": "uah-t20-point-0",
       "topicId": "uah-bib-t20-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
+      "question": "¿Qué idea clave debes recuperar del tema 20?",
       "answer": "La cooperacion permite compartir recursos, mejorar servicios, negociar y coordinar buenas practicas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-1",
       "topicId": "uah-bib-t20-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
+      "question": "¿Qué idea clave debes recuperar del tema 20?",
       "answer": "REBIUN articula cooperacion de bibliotecas universitarias y cientificas en el ambito espanol.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-2",
       "topicId": "uah-bib-t20-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
+      "question": "¿Qué idea clave debes recuperar del tema 20?",
       "answer": "Madrono agrupa universidades de Madrid y UNED para cooperacion bibliotecaria.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-3",
       "topicId": "uah-bib-t20-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
+      "question": "¿Qué idea clave debes recuperar del tema 20?",
       "answer": "El Pasaporte Madrono facilita acceso y uso de servicios entre instituciones participantes segun condiciones.",
       "origin": "generada-ia"
     },
@@ -799,7 +799,7 @@
     {
       "id": "uah-t20-fact-niveles-cooperacion",
       "topicId": "uah-bib-t20-contenido",
-      "question": "Como opositor/a, ¿qué niveles de cooperación bibliotecaria debes manejar?",
+      "question": "¿Qué niveles de cooperación bibliotecaria debes manejar?",
       "answer": "Local, regional, nacional, internacional, técnica, económica y profesional; Madroño es regional y REBIUN nacional.",
       "origin": "curada-editorial"
     }

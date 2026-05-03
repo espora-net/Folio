@@ -519,28 +519,28 @@
     {
       "id": "uah-t4-point-0",
       "topicId": "uah-bib-t04-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué idea clave debes recuperar del tema 4?",
       "answer": "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-1",
       "topicId": "uah-bib-t04-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué idea clave debes recuperar del tema 4?",
       "answer": "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-2",
       "topicId": "uah-bib-t04-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué idea clave debes recuperar del tema 4?",
       "answer": "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-3",
       "topicId": "uah-bib-t04-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué idea clave debes recuperar del tema 4?",
       "answer": "Los datos deben tratarse con minimizacion y finalidad concreta.",
       "origin": "generada-ia"
     },
@@ -554,7 +554,7 @@
     {
       "id": "uah-t4-fact-principios-rgpd",
       "topicId": "uah-bib-t04-contenido",
-      "question": "Como opositor/a, ¿qué fórmula resume los principios básicos del RGPD?",
+      "question": "¿Qué fórmula resume los principios básicos del RGPD?",
       "answer": "Tratar datos de forma lícita, leal, transparente, limitada a la finalidad, exacta, segura y con responsabilidad proactiva.",
       "origin": "curada-editorial"
     }

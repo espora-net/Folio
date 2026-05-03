@@ -1037,28 +1037,28 @@
     {
       "id": "uah-t3-point-0",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué idea clave debes recuperar del tema 3?",
       "answer": "La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-1",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué idea clave debes recuperar del tema 3?",
       "answer": "La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-2",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué idea clave debes recuperar del tema 3?",
       "answer": "La gobernanza publica se articula mediante organos colegiados y unipersonales.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-3",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
+      "question": "¿Qué idea clave debes recuperar del tema 3?",
       "answer": "El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
       "origin": "generada-ia"
     },
@@ -1072,7 +1072,7 @@
     {
       "id": "uah-t3-fact-funciones-sistema-universitario",
       "topicId": "uah-bib-t03-contenido",
-      "question": "Como opositor/a, ¿qué tres grandes funciones garantiza el sistema universitario según la LOSU?",
+      "question": "¿Qué tres grandes funciones garantiza el sistema universitario según la LOSU?",
       "answer": "Docencia, investigación y transferencia e intercambio del conocimiento.",
       "origin": "curada-editorial"
     }
