@@ -130,8 +130,11 @@
         "id": { "type": "string" },
         "topicId": { "type": "string" },
         "question": {
-          "description": "Enunciado/cara frontal de la flashcard. Debe tener sentido sin ver opciones (no usar 'cuál de las siguientes' u otras formulaciones de test).",
-          "type": "string"
+          "description": "Enunciado/cara frontal de la flashcard. Debe tener sentido sin ver opciones (no usar 'cuál de las siguientes' u otras formulaciones de test, ni preguntas genéricas por tema).",
+          "type": "string",
+          "not": {
+            "pattern": "([Ii]dea clave|([Qq]ue|[Qq]ué).*[Rr]ecuperar.*[Tt]ema)"
+          }
         },
         "answer": {
           "description": "Respuesta/cara reverso. Concreta, memorizable y revisable de un vistazo.",

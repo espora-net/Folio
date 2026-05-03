@@ -598,30 +598,30 @@
     {
       "id": "uah-t10-point-0",
       "topicId": "uah-bib-t10-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 10?",
+      "question": "¿A qué funciones universitarias da apoyo la Biblioteca UAH?",
       "answer": "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t10-point-1",
       "topicId": "uah-bib-t10-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 10?",
+      "question": "¿Qué unidades combina la estructura de la Biblioteca UAH?",
       "answer": "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t10-point-2",
       "topicId": "uah-bib-t10-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 10?",
+      "question": "¿Qué aspectos de identidad de servicio recoge la guía de cultura y valores de la Biblioteca UAH?",
       "answer": "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t10-point-3",
       "topicId": "uah-bib-t10-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 10?",
+      "question": "¿Qué materias regula el reglamento de la Biblioteca UAH?",
       "answer": "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t10-fact-proposito-buah",

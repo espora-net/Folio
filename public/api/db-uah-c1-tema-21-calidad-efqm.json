@@ -601,30 +601,30 @@
     {
       "id": "uah-t21-point-0",
       "topicId": "uah-bib-t21-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 21?",
+      "question": "¿Qué impulsa REBIUN en materia de calidad bibliotecaria?",
       "answer": "REBIUN impulsa indicadores, estadisticas, lineas estrategicas y buenas practicas de calidad.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t21-point-1",
       "topicId": "uah-bib-t21-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 21?",
+      "question": "¿Qué caracteriza al modelo EFQM?",
       "answer": "EFQM es un modelo de gestion orientado a excelencia, evaluacion y mejora continua.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t21-point-2",
       "topicId": "uah-bib-t21-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 21?",
+      "question": "¿Qué exige una certificación de calidad?",
       "answer": "La certificacion exige evidencias documentales y resultados, no solo declaracion de intenciones.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t21-point-3",
       "topicId": "uah-bib-t21-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 21?",
+      "question": "¿En qué dimensiones se mide la calidad en bibliotecas?",
       "answer": "En bibliotecas, la calidad se mide en servicios, colecciones, accesibilidad, tiempos, satisfaccion e impacto.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t21-fact-calidad-rebiun",

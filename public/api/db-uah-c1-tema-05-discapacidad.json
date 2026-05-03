@@ -292,30 +292,30 @@
     {
       "id": "uah-t5-point-0",
       "topicId": "uah-bib-t05-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 5?",
+      "question": "¿Qué tres ejes protege la normativa de discapacidad?",
       "answer": "La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t5-point-1",
       "topicId": "uah-bib-t05-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 5?",
+      "question": "¿Qué exige la educación inclusiva para personas con discapacidad?",
       "answer": "La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t5-point-2",
       "topicId": "uah-bib-t05-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 5?",
+      "question": "¿Qué modalidades incluye el derecho al trabajo de las personas con discapacidad?",
       "answer": "El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t5-point-3",
       "topicId": "uah-bib-t05-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 5?",
+      "question": "¿Desde qué enfoque debe entenderse la discapacidad además del reconocimiento administrativo?",
       "answer": "La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t5-fact-educacion-inclusiva",

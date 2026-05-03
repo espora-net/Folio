@@ -809,30 +809,30 @@
     {
       "id": "uah-t17-point-0",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 17?",
+      "question": "Enumera servicios al usuario habituales en una biblioteca universitaria.",
       "answer": "Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t17-point-1",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 17?",
+      "question": "¿Qué concreta una carta de servicios bibliotecaria?",
       "answer": "La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t17-point-2",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 17?",
+      "question": "¿Cómo debe ser la atención a las personas usuarias?",
       "answer": "La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t17-point-3",
       "topicId": "uah-bib-t17-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 17?",
+      "question": "¿Qué papel tienen los canales digitales en el servicio bibliotecario?",
       "answer": "Los canales digitales son parte central del servicio bibliotecario universitario.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t17-fact-carta-servicios",

@@ -519,30 +519,30 @@
     {
       "id": "uah-t4-point-0",
       "topicId": "uah-bib-t04-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué principios básicos de protección de datos debes recordar?",
       "answer": "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t4-point-1",
       "topicId": "uah-bib-t04-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 4?",
+      "question": "Enumera los derechos básicos de protección de datos que debes reconocer.",
       "answer": "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t4-point-2",
       "topicId": "uah-bib-t04-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué datos o procesos bibliotecarios quedan afectados por la protección de datos personales?",
       "answer": "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-t4-point-3",
       "topicId": "uah-bib-t04-contenido",
-      "question": "¿Qué idea clave debes recuperar del tema 4?",
+      "question": "¿Qué exigencias resumen los principios de minimización y limitación de finalidad?",
       "answer": "Los datos deben tratarse con minimizacion y finalidad concreta.",
-      "origin": "generada-ia"
+      "origin": "curada-editorial"
     },
     {
       "id": "uah-x-4-enumera-los-derech",
