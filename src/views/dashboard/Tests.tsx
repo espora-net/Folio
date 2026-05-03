@@ -29,6 +29,7 @@ import { useToast } from '@/hooks/use-toast';
 import { useIsMobile } from '@/hooks/use-mobile';
 import StudyFiltersPopover from '@/components/dashboard/StudyFiltersPopover';
 import QuestionCountSelector from '@/components/dashboard/QuestionCountSelector';
+import QuestionIdBadge from '@/components/dashboard/QuestionIdBadge';
 import { getOriginTag, matchesOriginFilter } from '@/lib/question-origin';
 
 type ViewMode = 'cards' | 'list';
@@ -415,6 +416,8 @@ const Tests = () => {
                   {getOriginTag(currentQuestion.origin).tooltip}
                 </TooltipContent>
               </Tooltip>
+
+              <QuestionIdBadge questionId={currentQuestion.id} />
             </div>
           </div>
           <Card className="border-border">
@@ -680,6 +683,7 @@ const Tests = () => {
                                   {tag.tooltip}
                                 </TooltipContent>
                               </Tooltip>
+                              <QuestionIdBadge questionId={q.id} />
                             </div>
                           )}
                         </CardContent>
@@ -721,6 +725,7 @@ const Tests = () => {
                                     {tag.tooltip}
                                   </TooltipContent>
                                 </Tooltip>
+                                <QuestionIdBadge questionId={q.id} />
                               </div>
                               <p className="text-foreground font-medium">{q.question}</p>
                               <p className="text-sm text-primary mt-1">
