@@ -21703,10 +21703,10 @@
       "topicId": "common-uah-c1-t14",
       "question": "La función de los principios FAIR en relación con DOI y datasets es:",
       "options": [
-        "Garantizar gratuidad absoluta",
-        "Apoyar la localización, el acceso, la interoperabilidad y la reutilización de los datos",
-        "Sustituir la licencia Creative Commons",
-        "Convertir los datos en publicaciones"
+        "Limitarse a asignar un código comercial propio de monografías",
+        "Apoyar la trazabilidad, la citación de datos y la interoperabilidad",
+        "Cumplir la obligación de preservación patrimonial del Depósito Legal",
+        "Identificar publicaciones oficiales de la Administración General del Estado"
       ],
       "correctIndex": 1,
       "explanation": "Los principios FAIR (Findable, Accessible, Interoperable, Reusable) orientan la gestión de datos; los identificadores como el DOI ayudan al primer 'F'.",

@@ -65,13 +65,13 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "El DOI se usa sobre todo para:",
       "options": [
-        "Identificacion persistente de objetos digitales",
-        "Regular prestamos presenciales",
-        "Clasificar estanterias",
-        "Nombrar organos universitarios"
+        "Identificación persistente de objetos digitales",
+        "Identificación comercial de ediciones monográficas",
+        "Identificación de publicaciones seriadas y recursos continuados",
+        "Identificación administrativa de publicaciones oficiales"
       ],
       "correctIndex": 0,
-      "explanation": "El DOI proporciona identificacion persistente de objetos digitales.",
+      "explanation": "El DOI proporciona identificación persistente de objetos digitales.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "doi",
@@ -84,18 +84,18 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "El NIPO identifica:",
       "options": [
-        "Publicaciones oficiales de la Administracion General del Estado y entidades vinculadas",
+        "Publicaciones oficiales de la Administración General del Estado y entidades vinculadas",
         "Publicaciones seriadas de cualquier editor",
-        "Datos de investigacion FAIR",
-        "Salas de trabajo en grupo"
+        "Ediciones concretas de publicaciones monográficas",
+        "Objetos científicos con referencia persistente"
       ],
       "correctIndex": 0,
-      "explanation": "La Orden PRE/2418/2015 regula el numero de identificacion de publicaciones oficiales.",
+      "explanation": "La Orden PRE/2418/2015 regula el número de identificación de publicaciones oficiales.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "nipo",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Numero de identificacion de las publicaciones oficiales."
+        "highlightText": "Número de identificación de las publicaciones oficiales."
       }
     },
     {
@@ -104,9 +104,9 @@
       "question": "Un DOI como 10.1000/182 se caracteriza por:",
       "options": [
         "Tener prefijo y sufijo, ser persistente y resolverse como enlace",
-        "Identificar solo publicaciones seriadas impresas",
-        "Sustituir al carnet de biblioteca",
-        "Ser una sancion por retraso"
+        "Tener 13 dígitos y distinguir el formato editorial de una monografía",
+        "Constar de ocho cifras y vincular las versiones de una publicación seriada",
+        "Expresarse con siglas de provincia, número correlativo y año"
       ],
       "correctIndex": 0,
       "explanation": "La DOI Foundation define el DOI como identificador persistente con prefijo y sufijo, resoluble mediante https://doi.org/.",
@@ -120,77 +120,77 @@
     {
       "id": "uah-m-14-129",
       "topicId": "uah-bib-t14-contenido",
-      "question": "El ISBN permite coordinar y normalizar la identificacion de:",
+      "question": "El ISBN permite coordinar y normalizar la identificación de:",
       "options": [
-        "Libros para localizarlos y facilitar su circulacion en el mercado",
-        "Funcionarios interinos",
-        "Salas de trabajo",
-        "Faltas disciplinarias"
+        "Libros para localizarlos y facilitar su circulación en el mercado",
+        "Publicaciones seriadas y recursos continuados",
+        "Objetos digitales o físicos con referencia persistente",
+        "Publicaciones oficiales de la Administración General del Estado"
       ],
       "correctIndex": 0,
-      "explanation": "El Ministerio de Cultura define el ISBN como codigo internacional que identifica cada libro.",
+      "explanation": "El Ministerio de Cultura define el ISBN como código internacional que identifica cada libro.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Codigo numerico que identifica cada libro."
+        "highlightText": "Código numérico que identifica cada libro."
       }
     },
     {
       "id": "uah-m-14-130",
       "topicId": "uah-bib-t14-contenido",
-      "question": "El Centro Nacional Espanol del ISSN esta integrado actualmente en:",
+      "question": "El Centro Nacional Español del ISSN está integrado actualmente en:",
       "options": [
-        "La Biblioteca Nacional de Espana",
-        "La UAH",
-        "El Consorcio Madrono",
-        "La DOI Foundation"
+        "La Biblioteca Nacional de España",
+        "La Agencia Española del ISBN",
+        "La Secretaría de la Junta de Coordinación de Publicaciones Oficiales",
+        "Una agencia de registro DOI como Crossref"
       ],
       "correctIndex": 0,
-      "explanation": "La BNE indica que el Centro Nacional Espanol del ISSN esta integrado en su Departamento de Control Bibliografico de Revistas.",
+      "explanation": "La BNE indica que el Centro Nacional Español del ISSN está integrado en su Departamento de Control Bibliográfico de Revistas.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "issn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Integrado en la Biblioteca Nacional de Espana."
+        "highlightText": "Integrado en la Biblioteca Nacional de España."
       }
     },
     {
       "id": "uah-m-14-131",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Los numeros de Deposito Legal deben figurar:",
+      "question": "Un código de Depósito Legal suele expresarse con:",
       "options": [
-        "En un lugar visible dentro de las publicaciones",
-        "Solo en ALMA",
-        "Solo en el expediente disciplinario",
-        "Unicamente en Creative Commons"
+        "Siglas de provincia, número correlativo y año",
+        "Trece dígitos con prefijo EAN y grupo de registro",
+        "Ocho cifras en dos grupos de cuatro separadas por guion",
+        "Prefijo y sufijo separados por una barra"
       ],
       "correctIndex": 0,
-      "explanation": "La BNE senala que los numeros de Deposito Legal deben figurar en lugar visible y que su solicitud es obligatoria y gratuita.",
+      "explanation": "El tema muestra el Depósito Legal con siglas de provincia, número y año, por ejemplo D.L. M-12345-2025.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "deposito-legal",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Deben figurar en lugar visible."
+        "highlightText": "D.L. M-12345-2025"
       }
     },
     {
       "id": "uah-m-14-132",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Segun la Orden NIPO, las publicaciones electronicas y bajo demanda:",
+      "question": "Según el tema, el NIPO puede aparecer en:",
       "options": [
-        "Deben incluirse en el programa editorial y disponer/reflejar NIPO",
-        "No se consideran publicaciones oficiales",
-        "Sustituyen al ISSN",
-        "Son siempre obras privadas"
+        "Publicaciones electrónicas oficiales de la Administración General del Estado",
+        "Revistas científicas de cualquier editor por ser recursos continuados",
+        "Ediciones comerciales de monografías sin relación con organismos públicos",
+        "Datasets de investigación cuando se registran con DOI"
       ],
       "correctIndex": 0,
-      "explanation": "El articulo 3 de la Orden PRE/2418/2015 vincula publicaciones electronicas y bajo demanda a la normativa de publicaciones oficiales y NIPO.",
+      "explanation": "El tema indica que el NIPO identifica publicaciones oficiales de la Administración General del Estado y puede aparecer en publicaciones electrónicas de la AGE.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "nipo",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
-        "highlightText": "Publicaciones electronicas y bajo demanda."
+        "highlightText": "Publicaciones electrónicas de la AGE."
       }
     },
     {
@@ -198,10 +198,10 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "¿Qué identifica principalmente un ISBN?",
       "options": [
-        "Una sala de trabajo reservable por estudiantes.",
-        "Una clase de empleado público del EBEP.",
-        "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
-        "Una técnica de prevención de riesgos laborales."
+        "La revista o recurso continuado en su conjunto.",
+        "El objeto digital mediante una referencia persistente.",
+        "La edición o formato concreto de una publicación monográfica.",
+        "La publicación oficial de la Administración General del Estado."
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
@@ -223,10 +223,10 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "¿Qué identifica un ISSN?",
       "options": [
-        "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
-        "Una técnica de prevención de riesgos laborales.",
-        "Una signatura topográfica basada en CDU.",
-        "Un órgano de calidad universitaria."
+        "La publicación seriada o recurso continuado en su conjunto.",
+        "La edición o formato concreto de una monografía.",
+        "El artículo individual mediante una referencia persistente.",
+        "La publicación oficial de la Administración General del Estado."
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
@@ -248,10 +248,10 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "¿Qué caracteriza al DOI?",
       "options": [
-        "Un órgano de calidad universitaria.",
-        "Una sala de trabajo reservable por estudiantes.",
-        "Una clase de empleado público del EBEP.",
-        "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos."
+        "Un código comercial de 13 dígitos para ediciones monográficas.",
+        "Un código administrativo para publicaciones oficiales de la AGE.",
+        "Una obligación jurídica de depósito para preservación patrimonial.",
+        "Un identificador persistente para objetos, usado en artículos, datos y otros recursos."
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
@@ -273,10 +273,10 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "¿Qué finalidad tiene el NIPO?",
       "options": [
-        "Un sistema de clasificación decimal de materias bibliográficas.",
+        "Identificar publicaciones seriadas y recursos continuados.",
         "Identificar las publicaciones producidas por organismos de la Administración General del Estado.",
-        "Un protocolo de intercambio de registros entre bibliotecas universitarias.",
-        "Un registro de licencias de uso para obras bajo Creative Commons."
+        "Diferenciar ediciones concretas de publicaciones monográficas.",
+        "Resolver objetos científicos mediante enlaces persistentes."
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
