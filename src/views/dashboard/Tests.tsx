@@ -175,7 +175,7 @@ const Tests = () => {
     // testQuestions ya contiene las preguntas del test anterior
   };
 
-  const showAnswer = () => {
+  const revealAnswerAsSkipped = () => {
     setSkippedCount(prev => prev + 1);
     setSelectedAnswer(null);
     setShowResult(true);
@@ -185,7 +185,7 @@ const Tests = () => {
   const skipQuestion = () => {
     // Se contabiliza como no acertada, pero se muestra la respuesta correcta
     // y se deja el botón de acción como "Siguiente"/"Finalizar".
-    showAnswer();
+    revealAnswerAsSkipped();
   };
 
   // Calcular el número efectivo de preguntas a estudiar
@@ -300,7 +300,7 @@ const Tests = () => {
                 Has acertado <span className="font-semibold text-foreground">{score}</span> de <span className="font-semibold text-foreground">{totalQuestions}</span> preguntas
                 {skippedCount > 0 && (
                   <span className="block text-sm text-orange-500 mt-1">
-                    ({skippedCount} {skippedCount === 1 ? 'pasada' : 'pasadas'} sin responder)
+                    ({skippedCount} {skippedCount === 1 ? 'pregunta' : 'preguntas'} sin responder)
                   </span>
                 )}
               </p>
@@ -582,7 +582,7 @@ const Tests = () => {
                       </Tooltip>
                       <Tooltip>
                         <TooltipTrigger asChild>
-                          <Button variant="ghost" size="icon" onClick={showAnswer} className="text-muted-foreground" disabled={showResult}>
+                          <Button variant="ghost" size="icon" onClick={revealAnswerAsSkipped} className="text-muted-foreground" disabled={showResult}>
                             <Eye className="h-4 w-4" />
                             <span className="sr-only">Mostrar respuesta</span>
                           </Button>
@@ -598,7 +598,7 @@ const Tests = () => {
                         <SkipForward className="h-4 w-4 mr-2" />
                         Pasar
                       </Button>
-                      <Button variant="ghost" onClick={showAnswer} className="text-muted-foreground" disabled={showResult}>
+                      <Button variant="ghost" onClick={revealAnswerAsSkipped} className="text-muted-foreground" disabled={showResult}>
                         <Eye className="h-4 w-4 mr-2" />
                         Mostrar respuesta
                       </Button>
