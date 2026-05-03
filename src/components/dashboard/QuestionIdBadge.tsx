@@ -30,9 +30,10 @@ const QuestionIdBadge = ({ questionId, className = '' }: QuestionIdBadgeProps) =
     event.preventDefault();
     event.stopPropagation();
     try {
-      if (typeof navigator !== 'undefined' && navigator.clipboard?.writeText) {
-        await navigator.clipboard.writeText(questionId);
+      if (typeof navigator === 'undefined' || !navigator.clipboard?.writeText) {
+        throw new Error('Clipboard API no disponible');
       }
+      await navigator.clipboard.writeText(questionId);
       setCopied(true);
       toast({
         title: 'ID copiado',
