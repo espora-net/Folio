@@ -6,10 +6,10 @@
     "questionCount": 20,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 10,
+      "adaptada-ia": 10,
+      "generada-ia": 4,
       "oficial": 4,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 3,
@@ -51,7 +51,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Titulo III regula derechos como acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -70,7 +70,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La exactitud forma parte de los principios de proteccion de datos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -89,7 +89,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La LOPDGDD recoge el deber de confidencialidad en el Titulo II.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -108,7 +108,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El deber de confidencialidad es un principio exigible a quienes participan en el tratamiento de datos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -127,7 +127,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Titulo III de la LOPDGDD regula derechos como acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -146,7 +146,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 04 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -155,7 +155,7 @@
       "tags": [
         "uah-c1",
         "tema-04",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -171,7 +171,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 04 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -180,7 +180,7 @@
       "tags": [
         "uah-c1",
         "tema-04",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -196,7 +196,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 04 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -205,7 +205,7 @@
       "tags": [
         "uah-c1",
         "tema-04",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -221,7 +221,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 04 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lopdgdd",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -230,7 +230,7 @@
       "tags": [
         "uah-c1",
         "tema-04",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -271,7 +271,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 45. Respuesta validada por la plantilla oficial: El Delegado de Protección de Datos. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd-2018#ejercicio-derechos",
         "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
@@ -296,7 +296,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 66. Respuesta validada por la plantilla oficial: Cuatro: Política, normas generales, procedimientos y recomendaciones. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd-2018#derechos-digitales-laborales",
         "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
@@ -322,7 +322,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Toda la información sobre una persona física identificada o identificable. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "rgpd-2016#definicion-dato-personal",
         "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
@@ -374,7 +374,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 58. Respuesta validada por la plantilla oficial: Una competencia digital del área de Seguridad. Clasificada como Tema 4 (Protección de datos) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "rgpd-2016#delegado-proteccion-datos",
         "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
@@ -452,7 +452,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La seguridad de la información y la protección de datos se orientan a preservar confidencialidad, integridad, disponibilidad y cumplimiento normativo.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lopdgdd-seguridad",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -476,7 +476,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La minimización obliga a limitar los datos personales a los necesarios para la finalidad del tratamiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-004#opositatest-referencia-007",
         "path": "data/general/04_Ley_Organica_3_2018_de_5_de_diciembre_de_Proteccion_de_Datos_Personales_y_garantia_de_los_derechos_digitales.md",
@@ -484,7 +484,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-004"
       ]
@@ -501,7 +501,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El derecho de acceso permite conocer si se están tratando datos personales y recibir información sobre ese tratamiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-004#opositatest-referencia-008",
         "path": "data/uah-bibliotecas-2025/tema_04_proteccion_datos_personales_rgpd_lopdgdd_uah.md",
@@ -509,7 +509,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-004"
       ]
@@ -521,35 +521,35 @@
       "topicId": "uah-bib-t04-contenido",
       "question": "T4. Completa esta idea de contenido",
       "answer": "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-1",
       "topicId": "uah-bib-t04-contenido",
       "question": "T4. Completa esta idea de contenido",
       "answer": "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-2",
       "topicId": "uah-bib-t04-contenido",
       "question": "T4. Completa esta idea de contenido",
       "answer": "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-3",
       "topicId": "uah-bib-t04-contenido",
       "question": "T4. Completa esta idea de contenido",
       "answer": "Los datos deben tratarse con minimizacion y finalidad concreta.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-4-enumera-los-derech",
       "topicId": "uah-bib-t04-contenido",
       "question": "Enumera los derechos basicos de proteccion de datos que debes reconocer.",
       "answer": "Acceso, rectificacion, supresion, oposicion, limitacion del tratamiento y portabilidad.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

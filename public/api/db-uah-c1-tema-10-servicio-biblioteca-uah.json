@@ -6,10 +6,10 @@
     "questionCount": 24,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 13,
+      "adaptada-ia": 13,
+      "generada-ia": 4,
       "oficial": 5,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 9,
@@ -51,7 +51,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El reglamento es la norma interna basica de organizacion y uso de la Biblioteca UAH.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -70,7 +70,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La mision bibliotecaria universitaria se orienta al apoyo a docencia, aprendizaje e investigacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "guia-cultura",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -89,7 +89,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 1 define la Biblioteca como unidad funcional para estudio, docencia, investigacion y formacion continua.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -108,7 +108,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Reglamento fija una reunion al menos trimestral, convocada por su presidente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -127,7 +127,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 1 del Reglamento atribuye a la Biblioteca garantizar acceso a documentacion disponible y facilitar acceso a informacion de otras bibliotecas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -146,7 +146,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 3 atribuye al organo de gobierno aprobar la Memoria anual y directrices generales.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -165,7 +165,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 8 diferencia usuarios de pleno derecho y autorizados.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -184,7 +184,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 7.4 enumera informacion bibliografica, formacion y acceso al documento: prestamo en sala, domiciliario e interbibliotecario.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -203,7 +203,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -212,7 +212,7 @@
       "tags": [
         "uah-c1",
         "tema-10",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -228,7 +228,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -237,7 +237,7 @@
       "tags": [
         "uah-c1",
         "tema-10",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -253,7 +253,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -262,7 +262,7 @@
       "tags": [
         "uah-c1",
         "tema-10",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -278,7 +278,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 10 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -287,7 +287,7 @@
       "tags": [
         "uah-c1",
         "tema-10",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -355,7 +355,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 81. Respuesta validada por la plantilla oficial: Personal e intransferible para cualquier usuario autorizado. Clasificada como Tema 10 (Servicio de Biblioteca) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-reglamento-biblioteca#carne",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -459,7 +459,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El Reglamento y las normas de uso exigen identificación cuando proceda y respeto de condiciones de acceso, recursos y servicios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-identificacion",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -483,7 +483,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La Dirección del Servicio de Biblioteca coordina estrategia, representación y gestión general.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "direccion-buah",
         "path": "data/uah-bibliotecas-2025/tema_10_servicio_biblioteca_uah.md",
@@ -507,7 +507,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La Biblioteca UAH organiza espacios para distintos usos, con normas, reservas y condiciones específicas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "espacios-buah",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -531,7 +531,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La gestión de recursos electrónicos requiere coordinar proveedores, licencias, accesos y cobertura.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "gestion-recursos-electronicos",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -555,7 +555,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El artículo 1 describe la Biblioteca como unidad funcional al servicio del estudio, docencia, investigación y formación continua. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-010#opositatest-referencia-019",
         "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
@@ -563,7 +563,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-010"
       ]
@@ -580,7 +580,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Reglamento identifica al Rector o Vicerrector delegado como autoridad responsable de la Biblioteca. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-010#opositatest-referencia-020",
         "path": "data/uah-bibliotecas-2025/referencias/10_reglamento_biblioteca_uah.md",
@@ -588,7 +588,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-010"
       ]
@@ -600,28 +600,28 @@
       "topicId": "uah-bib-t10-contenido",
       "question": "T10. Completa esta idea de contenido",
       "answer": "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t10-point-1",
       "topicId": "uah-bib-t10-contenido",
       "question": "T10. Completa esta idea de contenido",
       "answer": "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t10-point-2",
       "topicId": "uah-bib-t10-contenido",
       "question": "T10. Completa esta idea de contenido",
       "answer": "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t10-point-3",
       "topicId": "uah-bib-t10-contenido",
       "question": "T10. Completa esta idea de contenido",
       "answer": "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

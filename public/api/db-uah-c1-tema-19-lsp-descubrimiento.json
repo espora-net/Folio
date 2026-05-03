@@ -6,11 +6,10 @@
     "questionCount": 30,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 13,
-      "examen-oficial-externo": 1,
+      "adaptada-ia": 14,
+      "generada-ia": 4,
       "oficial": 10,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 11,
@@ -53,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las Library Services Platforms integran recursos fisicos, electronicos y procesos bibliotecarios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -72,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El descubrimiento facilita recuperacion desde una interfaz unificada.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -91,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El resultado R.4.1 del Plan Estrategico cita ALMA como plataforma de servicios bibliotecarios y PRIMO como herramienta de descubrimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -110,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El documento de recursos no indizados indica que se debe acceder directamente a la plataforma del propio recurso.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "buscador-no-indizados",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -129,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Plan Estrategico describe la integracion de recursos fisicos y electronicos en una unica LSP.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -148,7 +147,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Plan Estrategico incluye R.4.2 sobre planificacion tecnologica y vigilancia tecnologica.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -167,7 +166,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El documento de recursos no indizados aclara que Buscador no indiza el 100% de recursos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "buscador-no-indizados",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -186,7 +185,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El documento explica que si una revista no esta indizada se muestra el titulo, pero no se recuperan sus articulos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "buscador-no-indizados",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -205,7 +204,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -214,7 +213,7 @@
       "tags": [
         "uah-c1",
         "tema-19",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -230,7 +229,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -239,7 +238,7 @@
       "tags": [
         "uah-c1",
         "tema-19",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -255,7 +254,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -264,7 +263,7 @@
       "tags": [
         "uah-c1",
         "tema-19",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -280,7 +279,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 19 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-estrategico-buah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -289,7 +288,7 @@
       "tags": [
         "uah-c1",
         "tema-19",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -305,7 +304,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La documentación del Tema 19 identifica Alma como Plataforma de Servicios Bibliotecarios y Primo/Buscador UAH como herramienta de descubrimiento para usuarios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "alma-primo-buscador-uah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -458,7 +457,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 23. Respuesta validada por la plantilla oficial: Mediante acceso en línea al catálogo de la Biblioteca de la UCA, Koha, desde cualquier ubicación.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema19#buscador-catalogo-integrado",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -588,7 +587,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 73. Respuesta validada por la plantilla oficial: Se adapta a las pantallas de múltiples dispositivos.. Clasificada como Tema 19 (LSP y herramientas de descubrimiento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema19#primo-responsivo",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -614,7 +613,7 @@
       ],
       "correctIndex": 2,
       "explanation": "WinZip es una herramienta de compresión de archivos, no un servicio de almacenamiento en la nube; se elimina el residuo OCR de las opciones.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_19_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q085-73e7bc5bb2d1",
         "path": "data/uah-bibliotecas-2025/referencias/tema_19_preguntas_oficiales_validadas.md",
@@ -664,7 +663,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La Biblioteca UAH documenta Alma como plataforma de servicios bibliotecarios y Primo como herramienta de descubrimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "alma-primo-uah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -688,7 +687,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Tema 19 distingue la LSP interna, orientada a gestión bibliotecaria, de la herramienta de descubrimiento pública para buscar, localizar y acceder a recursos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lsp-vs-descubrimiento-uah",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -712,7 +711,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las LSP integran procesos bibliotecarios y herramientas de descubrimiento en entornos tecnológicos actuales. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-019#opositatest-referencia-037",
         "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
@@ -720,7 +719,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-019"
       ]
@@ -737,7 +736,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las herramientas de descubrimiento facilitan la recuperación unificada de fondos y recursos electrónicos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-019#opositatest-referencia-038",
         "path": "data/uah-bibliotecas-2025/referencias/19_lsp_buscador_uah.md",
@@ -745,7 +744,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-019"
       ]
@@ -757,28 +756,28 @@
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "Una LSP integra gestion de recursos impresos, electronicos y flujos bibliotecarios.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-1",
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "Las herramientas de descubrimiento permiten buscar de forma unificada en catalogo, bases de datos y recursos electronicos.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-2",
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "La calidad de metadatos condiciona recuperacion, facetas, disponibilidad y enlace al texto completo.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t19-point-3",
       "topicId": "uah-bib-t19-contenido",
       "question": "T19. Completa esta idea de contenido",
       "answer": "El personal debe interpretar disponibilidad, ubicacion, acceso electronico, reservas y problemas de enlace.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

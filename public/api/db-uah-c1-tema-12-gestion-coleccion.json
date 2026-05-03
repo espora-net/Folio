@@ -6,10 +6,10 @@
     "questionCount": 25,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 9,
-      "oficial": 10,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 10,
+      "generada-ia": 4,
+      "oficial": 9,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 9,
@@ -54,7 +54,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El expurgo requiere criterios, evaluacion y procedimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -73,7 +73,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La seleccion responde a necesidades academicas y de investigacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -92,7 +92,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Adquisiciones BUAH indica que se valora interes, pertinencia, coste del proceso tecnico, valor de la donacion y espacio disponible.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -111,7 +111,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 7 asigna al area de gestion de coleccion adquisicion, evaluacion continua y propuestas de expurgo.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -130,7 +130,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Adquisiciones indica consultar el Buscador antes de realizar sugerencias.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -149,7 +149,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La orden de compra se vincula al PDI/PAS responsable y al centro de coste presupuestario.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -168,7 +168,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Adquisiciones describe el canje como intercambio de revistas editadas por la UAH con otras entidades.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -187,7 +187,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Adquisiciones indica que no se admiten donaciones que exijan condiciones contrarias a la normativa vigente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -206,7 +206,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -215,7 +215,7 @@
       "tags": [
         "uah-c1",
         "tema-12",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -231,7 +231,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -240,7 +240,7 @@
       "tags": [
         "uah-c1",
         "tema-12",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -256,7 +256,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -265,7 +265,7 @@
       "tags": [
         "uah-c1",
         "tema-12",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -281,7 +281,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 12 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "adquisiciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -290,7 +290,7 @@
       "tags": [
         "uah-c1",
         "tema-12",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -384,7 +384,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 51. Respuesta validada por la plantilla oficial: Personalmente. Clasificada como Tema 12 (Gestión de la colección) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema12#donaciones",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -410,7 +410,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La UAH participa en el ecosistema de cooperación del Consorcio Madroño, relevante para servicios y recursos compartidos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema12#politica-coleccion",
         "path": "data/uah-bibliotecas-2025/tema_12_gestion_coleccion_bibliotecas_universitarias_uah.md",
@@ -590,7 +590,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La selección precede a la adquisición y determina la adecuación de los materiales a las necesidades de la comunidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-012#opositatest-referencia-023",
         "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
@@ -598,7 +598,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-012"
       ]
@@ -615,7 +615,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El expurgo forma parte de la evaluación y mantenimiento de la colección. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-012#opositatest-referencia-024",
         "path": "data/uah-bibliotecas-2025/referencias/12_03_gestion_coleccion_fuentes_web.md",
@@ -623,7 +623,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-012"
       ]
@@ -635,28 +635,28 @@
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La seleccion responde a necesidades de docencia, investigacion, aprendizaje y estrategia institucional.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-1",
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La adquisicion puede realizarse por compra, suscripcion, donacion, canje o deposito segun politicas internas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-2",
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La conservacion y preservacion buscan mantener acceso y estabilidad fisica o digital.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t12-point-3",
       "topicId": "uah-bib-t12-contenido",
       "question": "T12. Completa esta idea de contenido",
       "answer": "La evaluacion usa indicadores de uso, pertinencia, coste, duplicidad, obsolescencia y estado.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

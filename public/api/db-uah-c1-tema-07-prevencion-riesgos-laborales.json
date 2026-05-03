@@ -6,10 +6,10 @@
     "questionCount": 14,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 4,
+      "adaptada-ia": 4,
+      "generada-ia": 4,
       "oficial": 4,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 2,
@@ -52,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La prevencion debe estar integrada en la gestion universitaria.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -71,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La planificacion convierte la evaluacion de riesgos en medidas con responsables y seguimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -90,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica preventiva de la UAH vincula la cultura de prevencion con informacion, formacion y participacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "politica-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -109,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El plan de prevencion convierte la evaluacion de riesgos en actuaciones planificadas y trazables.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -128,7 +128,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -137,7 +137,7 @@
       "tags": [
         "uah-c1",
         "tema-07",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -153,7 +153,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -162,7 +162,7 @@
       "tags": [
         "uah-c1",
         "tema-07",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -178,7 +178,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -187,7 +187,7 @@
       "tags": [
         "uah-c1",
         "tema-07",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -203,7 +203,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 07 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "plan-prevencion",
         "path": "data/uah-bibliotecas-2025/tema_07_prevencion_riesgos_laborales_uah.md",
@@ -212,7 +212,7 @@
       "tags": [
         "uah-c1",
         "tema-07",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -331,7 +331,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La prevención busca evitar riesgos laborales o reducirlos mediante evaluación, planificación y medidas preventivas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-007#opositatest-referencia-013",
         "path": "data/general/07_Plan-de-Prevencion_UAH.md",
@@ -339,7 +339,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-007"
       ]
@@ -356,7 +356,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La evaluación de riesgos es la base para planificar la actividad preventiva. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-007#opositatest-referencia-014",
         "path": "data/general/07_Plan-de-Prevencion_UAH.md",
@@ -364,7 +364,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-007"
       ]
@@ -376,28 +376,28 @@
       "topicId": "uah-bib-t07-contenido",
       "question": "T7. Completa esta idea de contenido",
       "answer": "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t7-point-1",
       "topicId": "uah-bib-t07-contenido",
       "question": "T7. Completa esta idea de contenido",
       "answer": "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t7-point-2",
       "topicId": "uah-bib-t07-contenido",
       "question": "T7. Completa esta idea de contenido",
       "answer": "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t7-point-3",
       "topicId": "uah-bib-t07-contenido",
       "question": "T7. Completa esta idea de contenido",
       "answer": "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

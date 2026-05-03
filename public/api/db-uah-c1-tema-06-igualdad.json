@@ -6,10 +6,10 @@
     "questionCount": 15,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 4,
+      "adaptada-ia": 4,
+      "generada-ia": 4,
       "oficial": 5,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 1,
@@ -49,7 +49,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Titulo II de la LO 3/2007 exige integrar la igualdad en las politicas publicas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -68,7 +68,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La LO 3/2007 admite medidas especificas para corregir desigualdad de hecho.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -87,7 +87,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Titulo II de la LO 3/2007 trata politicas publicas para la igualdad e integra el principio de igualdad de forma transversal.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -106,7 +106,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El tema combina el marco estatal de la LO 3/2007 con el Plan de Igualdad de la UAH.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "plan-igualdad",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -125,7 +125,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -134,7 +134,7 @@
       "tags": [
         "uah-c1",
         "tema-06",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -150,7 +150,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -159,7 +159,7 @@
       "tags": [
         "uah-c1",
         "tema-06",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -175,7 +175,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -184,7 +184,7 @@
       "tags": [
         "uah-c1",
         "tema-06",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -200,7 +200,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 06 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "igualdad-ley",
         "path": "data/uah-bibliotecas-2025/tema_06_igualdad_lo_3_2007_plan_igualdad_uah.md",
@@ -209,7 +209,7 @@
       "tags": [
         "uah-c1",
         "tema-06",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -352,7 +352,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La ley permite acciones positivas para hacer efectivo el derecho constitucional a la igualdad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-006#opositatest-referencia-011",
         "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
@@ -360,7 +360,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-006"
       ]
@@ -377,7 +377,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Ley Orgánica 3/2007 incluye criterios de actuación de las Administraciones públicas orientados a presencia equilibrada. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-006#opositatest-referencia-012",
         "path": "data/general/06_Ley_Organica_3_2007_de_22_de_marzo_para_la_igualdad_efectiva_de_mujeres_y_hombres.md",
@@ -385,7 +385,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-006"
       ]
@@ -397,28 +397,28 @@
       "topicId": "uah-bib-t06-contenido",
       "question": "T6. Completa esta idea de contenido",
       "answer": "La igualdad debe integrarse de forma transversal en politicas publicas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t6-point-1",
       "topicId": "uah-bib-t06-contenido",
       "question": "T6. Completa esta idea de contenido",
       "answer": "La ley permite acciones positivas para corregir desigualdades de hecho.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t6-point-2",
       "topicId": "uah-bib-t06-contenido",
       "question": "T6. Completa esta idea de contenido",
       "answer": "El plan UAH concreta medidas de diagnostico, prevencion, sensibilizacion, formacion y seguimiento.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t6-point-3",
       "topicId": "uah-bib-t06-contenido",
       "question": "T6. Completa esta idea de contenido",
       "answer": "La igualdad afecta a acceso, carrera, conciliacion, comunicacion, prevencion de acoso y cultura institucional.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

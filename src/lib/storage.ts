@@ -150,7 +150,7 @@ export const getFlashcards = (): Flashcard[] => {
     nextReview: card.nextReview ?? '',
     interval: card.interval ?? 0,
     easeFactor: card.easeFactor ?? 2.5,
-    origin: card.origin ?? 'generated',
+    origin: card.origin ?? 'generada-ia',
   });
 
   const database = getCachedDatabase();
@@ -168,7 +168,7 @@ export const getFlashcards = (): Flashcard[] => {
       nextReview: '',
       interval: 0,
       easeFactor: 2.5,
-      origin: q.origin ?? 'generated',
+      origin: q.origin ?? 'generada-ia',
       sourceDatasetId: q.sourceDatasetId,
     } as Flashcard;
   });

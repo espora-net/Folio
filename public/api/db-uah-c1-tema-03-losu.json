@@ -6,11 +6,10 @@
     "questionCount": 41,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 24,
-      "examen-oficial-externo": 6,
+      "adaptada-ia": 30,
+      "generada-ia": 4,
       "oficial": 5,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 9,
@@ -53,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La LOSU define funciones universitarias de docencia, investigacion, transferencia y difusion del conocimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -72,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La autonomia permite organizacion y gestion propias dentro del marco juridico.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -91,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La LOSU usa PTGAS para el personal tecnico, de gestion y de administracion y servicios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -110,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El alcance oficial incluye funciones del sistema universitario y autonomia de las universidades.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -129,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica UAH de Ciencia Abierta cita el marco de la LOSU sobre ciencia abierta y acceso abierto a publicaciones, datos, codigos y metodologias.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -148,7 +147,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -157,7 +156,7 @@
       "tags": [
         "uah-c1",
         "tema-03",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -173,7 +172,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -182,7 +181,7 @@
       "tags": [
         "uah-c1",
         "tema-03",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -198,7 +197,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -207,7 +206,7 @@
       "tags": [
         "uah-c1",
         "tema-03",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -223,7 +222,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 03 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "losu",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -232,7 +231,7 @@
       "tags": [
         "uah-c1",
         "tema-03",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -248,7 +247,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 15. Respuesta validada por la plantilla oficial: La generación, desarrollo, difusión, transferencia e intercambio del conocimiento. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "upm-c1-2025-1#q015",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -273,7 +272,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 16. Respuesta validada por la plantilla oficial: Pueden desarrollar su carrera profesional sin cambiar de puesto, mediante progresión en grado, categoría o nivel. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q016-475487c1acca",
         "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
@@ -299,7 +298,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La autonomía universitaria incluye capacidad normativa interna, organización, gobierno y gestión dentro del marco legal.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-autonomia-normas",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -323,7 +322,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Las políticas institucionales se encuadran en la gobernanza universitaria y se aprueban por órganos competentes como el Consejo de Gobierno.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-politicas-institucionales",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -347,7 +346,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 4. Respuesta validada por la plantilla oficial: Convocar, con carácter extraordinario, elecciones al rector por iniciativa de un tercio de sus miembros y con la aprobación de dos tercios. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#claustro-universitario",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -373,7 +372,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 79. Respuesta validada por la plantilla oficial: Director de trabajo de grado/máster. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#derechos-estudiantado",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -399,7 +398,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 2. Respuesta validada por la plantilla oficial: la docencia, la investigación y la transferencia del conocimiento.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "valencia-c1-2025#q002",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -424,7 +423,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 17. Respuesta validada por la plantilla oficial: La discapacidad y sus necesidades de apoyo.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#titulo-i-principios",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -450,7 +449,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El Consejo de Gobierno es un órgano central de la gobernanza universitaria en la universidad pública.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-consejo-gobierno-2",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -575,7 +574,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 8. Respuesta validada por la plantilla oficial: Rector. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#consejo-de-gobierno",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -600,7 +599,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 61. Respuesta validada por la plantilla oficial: Vicerrectorado de Investigación y Transferencia. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#rector",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -626,7 +625,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 80. Respuesta validada por la plantilla oficial: Acuerdo de Consejo de Gobierno de 1 de diciembre de 2023. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#ciencia-abierta",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -652,7 +651,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: UNED 2024 - Auxiliar de Biblioteca, pregunta 20. Respuesta validada por la plantilla oficial: El Ministerio de Universidades, promoverá la presencia de universidades y las distintas instancias del sistema universitario español en los órganos y foros de representación nacional universitaria.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_03_preguntas_oficiales_validadas.md#uah-exam-uned-aux-2024-q020-0dd47b618a2a",
         "path": "data/uah-bibliotecas-2025/referencias/tema_03_preguntas_oficiales_validadas.md",
@@ -678,7 +677,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La gobernanza universitaria se articula mediante órganos previstos normativamente, con composición y competencias definidas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-organos-competencias",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -702,7 +701,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La LOSU configura el sistema universitario como servicio público de educación superior basado en docencia, investigación y transferencia/intercambio del conocimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-servicio-publico",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -726,7 +725,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 6. Respuesta validada por la plantilla oficial: El Consejo de Gobierno.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cantabria-c2-2025#q006",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -751,7 +750,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 7. Respuesta validada por la plantilla oficial: Enrepositorios de acceso abierto de forma simultánea a la fecha de publicación.. Validada para UAH C1 por correspondencia con Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#acceso-abierto",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -777,7 +776,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La LOSU reconoce la función de ANECA y de las agencias autonómicas de calidad en su ámbito territorial cuando cumplen los requisitos aplicables.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-calidad-aneca",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -801,7 +800,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La LOSU regula la gobernanza universitaria y atribuye al Consejo de Gobierno la posición de máximo órgano de gobierno en la universidad pública.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-consejo-gobierno",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -825,7 +824,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Los servicios universitarios, entre ellos bibliotecas y recursos de información, apoyan las funciones del servicio público universitario.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-servicios-universitarios",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -849,7 +848,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Zotero es un gestor bibliográfico de código abierto; se conserva como pregunta oficial externa genérica, sin residuos OCR.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-tema03#servicios-biblioteca",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -873,7 +872,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 13. Respuesta validada por la plantilla oficial: Los estudios de Doctorado tienen como finalidad la adquisición de las competencias y las habilidades concernientes a la investigación dentro de un ámbito del conocimiento científico, técnico, humanístico, artístico o cultural.. Clasificada como Tema 3 (LOSU) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-2023#titulo-i",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -898,7 +897,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Se sustituye una pregunta institucional externa por una formulación alineada con la LOSU y la convocatoria UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-servicio-publico-2",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -922,7 +921,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La pregunta se adapta desde una referencia externa a una idea general aplicable al sistema universitario: cooperación entre universidades y servicios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-cooperacion-universitaria",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -946,7 +945,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pregunta se reformula para eliminar referencias G9 no UAH y mantener la práctica sobre cooperación universitaria/bibliotecaria.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "losu-cooperacion-servicios",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -995,7 +994,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La LOSU vincula el servicio público universitario con docencia, investigación y transferencia/difusión del conocimiento. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-003#opositatest-referencia-005",
         "path": "data/general/03_Ley_Organica_2_2023_de_22_de_marzo_del_Sistema_Universitario.md",
@@ -1003,7 +1002,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-003"
       ]
@@ -1020,7 +1019,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Personal Técnico, de Gestión y de Administración y Servicios sostiene funciones de apoyo técnico y administrativo en la universidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-003#opositatest-referencia-006",
         "path": "data/uah-bibliotecas-2025/tema_03_losu_sistema_universitario_uah.md",
@@ -1028,7 +1027,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-003"
       ]
@@ -1040,35 +1039,35 @@
       "topicId": "uah-bib-t03-contenido",
       "question": "T3. Completa esta idea de contenido",
       "answer": "La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-1",
       "topicId": "uah-bib-t03-contenido",
       "question": "T3. Completa esta idea de contenido",
       "answer": "La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-2",
       "topicId": "uah-bib-t03-contenido",
       "question": "T3. Completa esta idea de contenido",
       "answer": "La gobernanza publica se articula mediante organos colegiados y unipersonales.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-3",
       "topicId": "uah-bib-t03-contenido",
       "question": "T3. Completa esta idea de contenido",
       "answer": "El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-3--que-significa-ptg",
       "topicId": "uah-bib-t03-contenido",
       "question": "¿Que significa PTGAS?",
       "answer": "Personal tecnico, de gestion y de administracion y servicios.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

@@ -13,38 +13,49 @@ export interface OriginTag {
   tooltip: string;
 }
 
-const IA_COMMON_BANK_FILTER = 'ia-common-bank';
+const GENERATED_AI_ORIGIN = 'generada-ia';
+const ADAPTED_AI_ORIGIN = 'adaptada-ia';
+
+const LEGACY_ORIGIN_ALIASES: Record<string, string> = {
+  ia: GENERATED_AI_ORIGIN,
+  generated: GENERATED_AI_ORIGIN,
+  refuerzo: GENERATED_AI_ORIGIN,
+  curada: ADAPTED_AI_ORIGIN,
+  'examen-oficial-externo': ADAPTED_AI_ORIGIN,
+  'opositatest-referencia': 'opositatest.com',
+};
+
+const EXTERNAL_SOURCE_ORIGINS = new Set([
+  'opositatest.com',
+  'oposito.es',
+  'leyesdeoposiciones.es',
+  'quizlet.com',
+]);
 
 const ORIGIN_ORDER = [
   'oficial',
-  'examen-oficial-externo',
-  'curada',
-  'refuerzo',
-  IA_COMMON_BANK_FILTER,
-  'opositatest-referencia',
-  'generated',
+  ADAPTED_AI_ORIGIN,
+  GENERATED_AI_ORIGIN,
+  'opositatest.com',
+  'oposito.es',
+  'leyesdeoposiciones.es',
+  'quizlet.com',
 ];
 
 export const normalizeOrigin = (origin?: string) => {
-  const value = (origin ?? 'generated').trim();
-  return value || 'generated';
+  const value = (origin ?? GENERATED_AI_ORIGIN).trim();
+  if (!value) return GENERATED_AI_ORIGIN;
+  if (value.startsWith('ia-common-bank')) return GENERATED_AI_ORIGIN;
+  return LEGACY_ORIGIN_ALIASES[value] ?? value;
 };
 
 export const getOriginFilterValue = (origin?: string) => {
-  const value = normalizeOrigin(origin);
-  if (value.startsWith('ia-common-bank')) return IA_COMMON_BANK_FILTER;
-  if (value === 'ia') return 'generated';
-  return value;
+  return normalizeOrigin(origin);
 };
 
 export const matchesOriginFilter = (origin: string | undefined, filter: string) => {
   if (filter === 'all') return true;
-  const value = normalizeOrigin(origin);
-
-  if (filter === 'generated') return value === 'generated' || value === 'ia';
-  if (filter === IA_COMMON_BANK_FILTER) return value.startsWith('ia-common-bank');
-
-  return value === filter;
+  return normalizeOrigin(origin) === normalizeOrigin(filter);
 };
 
 export const sortOriginFilters = (a: string, b: string) => {
@@ -58,7 +69,6 @@ export const sortOriginFilters = (a: string, b: string) => {
 
 export const getOriginTag = (origin?: string): OriginTag => {
   const value = normalizeOrigin(origin);
-  const filterValue = getOriginFilterValue(value);
 
   if (value === 'oficial') {
     return {
@@ -69,75 +79,30 @@ export const getOriginTag = (origin?: string): OriginTag => {
     };
   }
 
-  if (value === 'examen-oficial-externo') {
+  if (value === ADAPTED_AI_ORIGIN) {
     return {
-      label: 'Oficial externa',
-      icon: FileCheck,
+      label: 'Adaptada IA',
+      icon: Building2,
       className: 'border-teal-300 text-teal-700 dark:border-teal-700 dark:text-teal-400',
-      tooltip: 'Pregunta oficial externa conservada por estar alineada con normativa común del temario',
+      tooltip: 'Pregunta existente u oficial adaptada/mejorada con IA y validada contra el temario',
     };
   }
 
-  if (value === 'curada') {
+  if (value === GENERATED_AI_ORIGIN) {
     return {
-      label: 'Curada UAH',
-      icon: Building2,
-      className: 'border-sky-300 text-sky-700 dark:border-sky-700 dark:text-sky-400',
-      tooltip: 'Pregunta revisada y adaptada al temario UAH con fuente de apoyo',
-    };
-  }
-
-  if (value === 'refuerzo') {
-    return {
-      label: 'Refuerzo UAH',
-      icon: Building2,
-      className: 'border-blue-300 text-blue-700 dark:border-blue-700 dark:text-blue-400',
-      tooltip: 'Pregunta adicional de refuerzo revisada para el tema UAH',
-    };
-  }
-
-  if (filterValue === IA_COMMON_BANK_FILTER) {
-    return {
-      label: 'Refuerzo IA',
+      label: 'Generada IA',
       icon: Sparkles,
       className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
-      tooltip: 'Pregunta sintética del banco común enlazada a fuentes del temario',
+      tooltip: 'Pregunta completamente generada para refuerzo y enlazada a fuentes del temario',
     };
   }
 
-  if (value === 'opositatest-referencia') {
-    return {
-      label: 'Opositatest ref.',
-      icon: ExternalLink,
-      className: 'border-amber-300 text-amber-700 dark:border-amber-700 dark:text-amber-400',
-      tooltip: 'Pregunta original basada en cobertura de Opositatest y validada con fuente oficial',
-    };
-  }
-
-  if (value === 'ia') {
-    return {
-      label: 'IA',
-      icon: Sparkles,
-      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
-      tooltip: 'Pregunta generada por IA',
-    };
-  }
-
-  if (value === 'generated') {
-    return {
-      label: 'Generadas',
-      icon: Sparkles,
-      className: 'border-violet-300 text-violet-600 dark:border-violet-700 dark:text-violet-400',
-      tooltip: 'Pregunta generada',
-    };
-  }
-
-  if (value === 'oposito.es' || value === 'leyesdeoposiciones.es' || value === 'quizlet.com') {
+  if (EXTERNAL_SOURCE_ORIGINS.has(value)) {
     return {
       label: value,
       icon: ExternalLink,
       className: 'border-slate-300 text-slate-700 dark:border-slate-700 dark:text-slate-300',
-      tooltip: `Banco externo reutilizable: ${value}`,
+      tooltip: `Fuente externa definida: ${value}`,
     };
   }
 

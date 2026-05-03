@@ -6,11 +6,10 @@
     "questionCount": 41,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 21,
-      "examen-oficial-externo": 1,
-      "oficial": 13,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 29,
+      "generada-ia": 4,
+      "oficial": 6,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 22,
@@ -53,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El prestamo requiere condiciones claras para gestionar disponibilidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -72,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El acceso al documento cubre vias para conseguir materiales no disponibles de forma inmediata.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "acceso-documento",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -91,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 8 fija para alumnos y PAS un maximo de 5 obras durante 15 dias, con 2 renovaciones si no hay reserva.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -110,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina de Acceso al Documento pide comprobar antes en Buscador si el documento esta en fondos de la Biblioteca UAH.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "acceso-documento",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -129,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 6 de la Normativa de prestamo fija para PDI 25 obras por dos meses.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -148,7 +147,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 7 regula este grupo con 10 obras y un mes renovable hasta tres veces.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -167,7 +166,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 9 indica que la obra se retiene 4 dias para el primer usuario que la hubiera reservado.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -186,7 +185,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 14 fija la medida correctora por retraso.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -205,7 +204,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 18 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -214,7 +213,7 @@
       "tags": [
         "uah-c1",
         "tema-18",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -230,7 +229,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 18 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -239,7 +238,7 @@
       "tags": [
         "uah-c1",
         "tema-18",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -255,7 +254,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 18 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -264,7 +263,7 @@
       "tags": [
         "uah-c1",
         "tema-18",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -280,7 +279,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 18 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -289,7 +288,7 @@
       "tags": [
         "uah-c1",
         "tema-18",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -331,7 +330,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 83. Respuesta validada por la plantilla oficial: Obtener documentos que no están disponibles en sus fondos propios. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#prestamo-interbibliotecario",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -383,7 +382,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 38. Respuesta validada por la plantilla oficial: Apoyo ala investigación, apoyo al aprendizaje, adquisiciones, formación de usuarios, información, préstamo, préstamo interbibliotecario y donación de publicaciones. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#servicios-buah",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -435,7 +434,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 72. Respuesta validada por la plantilla oficial: El tipo de préstamo. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#buscador-filtros",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -461,7 +460,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Las normas de préstamo suelen restringir documentos por conservación, consulta o condiciones especiales.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "documentos-no-prestables",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -485,7 +484,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El préstamo de equipos requiere condiciones claras sobre plazos, uso responsable y devolución.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo-equipos",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -509,7 +508,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El préstamo interbibliotecario exige seguir las instrucciones de recepción, uso y devolución del original.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "pi-devolucion",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -533,7 +532,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 25. Respuesta validada por la plantilla oficial: Extender el período de préstamo del libro si éste no ha vencido y no hay reserva de otro usuario.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#renovacion-prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -559,7 +558,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 26. Respuesta validada por la plantilla oficial: El primero posibilita para la circulación interna de documentos entre campus de la UCA y el segundo el acceso a documentos de otras instituciones... Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#tipos-prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -637,7 +636,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 39. Respuesta validada por la plantilla oficial: 15 días. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#plazos-prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -663,7 +662,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 41. Respuesta validada por la plantilla oficial: Alumnos de posgrado. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#salas-trabajo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -715,7 +714,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 43. Respuesta validada por la plantilla oficial: La Biblioteca de Humanidades. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#puntos-pib",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -741,7 +740,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 57. Respuesta validada por la plantilla oficial: 3 ejemplares. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#prestamo-ebooks",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -767,7 +766,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 60. Respuesta validada por la plantilla oficial: El personal de la biblioteca puede cancelar la reserva y liberar el espacio.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#salas-normas",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -793,7 +792,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 70. Respuesta validada por la plantilla oficial: Una colección bibliográfica en una zona reservable de la Biblioteca del Campus de Jerez para celebración de actos sobre asuntos relacionados con la igualdad.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#espacio-igualdad",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -819,7 +818,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 89. Respuesta validada por la plantilla oficial: El acceso al catálogo es público y no requiere identificación, pero no se realizará el préstamo de las tesis.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema16#tesis-ebuah",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -845,7 +844,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Las salas de trabajo colaborativo se gestionan mediante normas de uso, usuarios autorizados y reserva.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reserva-salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -869,7 +868,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El acceso a recursos electrónicos se controla mediante autenticación institucional y condiciones de licencia.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "credenciales-recursos",
         "path": "data/uah-bibliotecas-2025/tema_19_lsp_herramientas_descubrimiento_buscador_uah.md",
@@ -893,7 +892,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 42. Respuesta validada por la plantilla oficial: Puede acudir a la división de Derecho-Económicas o a la del Paraninfo para solicitar un portátil de préstamo largo durante un mes, pudiendo hacer una renovación automática por el mismo periodo, si no hay personas en espera.. Clasificada como Tema 18 (Préstamo, salas y acceso al documento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema18#usuarios-erasmus",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -919,7 +918,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pregunta oficial externa se conserva por encajar con acceso al documento y se limpia el residuo OCR de la opción errónea.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_18_preguntas_oficiales_validadas.md#uah-exam-cantabria-c2-2025-q043-3aff551b20d3",
         "path": "data/uah-bibliotecas-2025/referencias/tema_18_preguntas_oficiales_validadas.md",
@@ -943,7 +942,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Las condiciones de préstamo se establecen por categorías de usuario y materiales, con límites y renovaciones definidos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "condiciones-prestamo",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -967,7 +966,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El préstamo de dispositivos requiere normas específicas para disponibilidad, uso responsable y devolución.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "prestamo-portatiles",
         "path": "data/uah-bibliotecas-2025/tema_18_prestamo_salas_acceso_documento_biblioteca_uah.md",
@@ -991,7 +990,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El acceso al documento incluye obtención de documentos y préstamo interbibliotecario. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-018#opositatest-referencia-035",
         "path": "data/uah-bibliotecas-2025/referencias/18_prestamo_salas_acceso_documento.md",
@@ -999,7 +998,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-018"
       ]
@@ -1016,7 +1015,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La renovación amplía el plazo de préstamo cuando la normativa y el estado del ejemplar lo permiten. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-018#opositatest-referencia-036",
         "path": "data/uah-bibliotecas-2025/referencias/18_01_normativa_prestamo.md",
@@ -1024,7 +1023,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-018"
       ]
@@ -1036,28 +1035,28 @@
       "topicId": "uah-bib-t18-contenido",
       "question": "T18. Completa esta idea de contenido",
       "answer": "La gestion del prestamo regula quien puede llevarse que, por cuanto tiempo y con que condiciones.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-1",
       "topicId": "uah-bib-t18-contenido",
       "question": "T18. Completa esta idea de contenido",
       "answer": "Las reservas y renovaciones ordenan la disponibilidad y evitan conflictos entre usuarios.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-2",
       "topicId": "uah-bib-t18-contenido",
       "question": "T18. Completa esta idea de contenido",
       "answer": "Las salas de trabajo requieren normas de reserva, uso responsable y convivencia.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t18-point-3",
       "topicId": "uah-bib-t18-contenido",
       "question": "T18. Completa esta idea de contenido",
       "answer": "El acceso al documento cubre suministro u obtencion de materiales no disponibles en la coleccion propia o inmediata.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

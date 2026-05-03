@@ -6,10 +6,10 @@
     "questionCount": 18,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 11,
+      "adaptada-ia": 11,
+      "generada-ia": 4,
       "oficial": 1,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 4,
@@ -54,7 +54,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El libre acceso permite consulta directa y exige ordenacion comprensible.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -73,7 +73,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Los depositos protegen fondos y ordenan la recuperacion de documentos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -92,7 +92,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las normas de salas indican que la reserva vence a los 15 minutos si no se hace efectiva.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -111,7 +111,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las salas de trabajo se destinan a fines academicos y tienen un maximo de 3 horas por reserva.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -130,7 +130,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las normas de salas limitan su uso a finalidades academicas de estudio, investigacion y docencia.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -149,7 +149,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las normas exigen identificacion en mostrador para recoger la llave cuando proceda.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -168,7 +168,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las normas indican que al terminar debe formalizar la devolucion y entregar la llave cuando proceda.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -187,7 +187,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Las normas piden respetar el ambiente de estudio, no comer, cuidar mobiliario y no anadir sillas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -206,7 +206,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -215,7 +215,7 @@
       "tags": [
         "uah-c1",
         "tema-11",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -231,7 +231,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -240,7 +240,7 @@
       "tags": [
         "uah-c1",
         "tema-11",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -256,7 +256,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -265,7 +265,7 @@
       "tags": [
         "uah-c1",
         "tema-11",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -281,7 +281,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 11 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "salas",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -290,7 +290,7 @@
       "tags": [
         "uah-c1",
         "tema-11",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -332,7 +332,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Tema 11 conecta la colección de libre acceso con la ordenación por materias; en el contexto UAH se refuerza la CDU como sistema de clasificación para localizar fondos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "coleccion-libre-acceso-cdu",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -358,7 +358,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 62. Respuesta validada por la plantilla oficial: En los Campus de Puerto Real, de Jerez y Bahía de Algeciras. Clasificada como Tema 11 (Organización espacial y equipamiento) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema11#reservas-espacios",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -384,7 +384,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Los fondos en depósitos o almacenes pueden requerir solicitud y mediación del personal según normas de acceso.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "fondos-deposito",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -408,7 +408,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La organización espacial de bibliotecas combina libre acceso, depósitos, salas y equipamiento según tipo de fondo y uso. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-011#opositatest-referencia-021",
         "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
@@ -416,7 +416,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-011"
       ]
@@ -433,7 +433,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Los puestos de lectura y salas disponibles son variables básicas de capacidad y servicio en bibliotecas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-011#opositatest-referencia-022",
         "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
@@ -441,7 +441,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-011"
       ]
@@ -453,28 +453,28 @@
       "topicId": "uah-bib-t11-contenido",
       "question": "T11. Completa esta idea de contenido",
       "answer": "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-1",
       "topicId": "uah-bib-t11-contenido",
       "question": "T11. Completa esta idea de contenido",
       "answer": "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-2",
       "topicId": "uah-bib-t11-contenido",
       "question": "T11. Completa esta idea de contenido",
       "answer": "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-3",
       "topicId": "uah-bib-t11-contenido",
       "question": "T11. Completa esta idea de contenido",
       "answer": "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

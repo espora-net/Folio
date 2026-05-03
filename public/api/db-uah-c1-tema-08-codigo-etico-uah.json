@@ -6,10 +6,10 @@
     "questionCount": 11,
     "explicitFlashcardCount": 3,
     "originCounts": {
-      "curada": 5,
+      "adaptada-ia": 5,
+      "generada-ia": 3,
       "oficial": 1,
-      "opositatest-referencia": 2,
-      "refuerzo": 3
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 1,
@@ -49,7 +49,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El codigo etico fija valores y principios de actuacion de la comunidad universitaria.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -68,7 +68,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El codigo etico se basa en integridad, responsabilidad y buen uso de recursos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -87,7 +87,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Codigo etico se presenta como elemento del marco de integridad institucional.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -106,7 +106,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El codigo se orienta a integridad, responsabilidad, transparencia, imparcialidad y buen uso de recursos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -125,7 +125,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 08 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -134,7 +134,7 @@
       "tags": [
         "uah-c1",
         "tema-08",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -150,7 +150,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 08 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -159,7 +159,7 @@
       "tags": [
         "uah-c1",
         "tema-08",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -175,7 +175,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 08 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "codigo-etico",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -184,7 +184,7 @@
       "tags": [
         "uah-c1",
         "tema-08",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -226,7 +226,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 19. Respuesta validada por la plantilla oficial: El modelo que debiera inspirar la conducta de los miembros de la UCA.. Clasificada como Tema 8 (Código ético) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-codigo-etico#ambito-subjetivo",
         "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
@@ -252,7 +252,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Código Ético UAH tiene finalidad orientativa y preventiva para la comunidad universitaria. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-008#opositatest-referencia-015",
         "path": "data/general/08_codigo-etico-general-UAH.md",
@@ -260,7 +260,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-008"
       ]
@@ -277,7 +277,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La integridad se conecta con conducta responsable, honesta y orientada al interés general. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-008#opositatest-referencia-016",
         "path": "data/general/08_codigo-etico-general-UAH.md",
@@ -285,7 +285,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-008"
       ]
@@ -297,21 +297,21 @@
       "topicId": "uah-bib-t08-contenido",
       "question": "T8. Completa esta idea de contenido",
       "answer": "El codigo promueve integridad, responsabilidad, respeto, transparencia, imparcialidad y servicio publico.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t8-point-1",
       "topicId": "uah-bib-t08-contenido",
       "question": "T8. Completa esta idea de contenido",
       "answer": "Afecta a relaciones internas, uso de recursos, conflicto de intereses y compromiso institucional.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t8-point-2",
       "topicId": "uah-bib-t08-contenido",
       "question": "T8. Completa esta idea de contenido",
       "answer": "Relaciona etica publica con calidad del servicio universitario.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

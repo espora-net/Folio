@@ -6,11 +6,10 @@
     "questionCount": 42,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 13,
-      "examen-oficial-externo": 1,
-      "oficial": 22,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 18,
+      "generada-ia": 4,
+      "oficial": 18,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 15,
@@ -53,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "eBUAH es el repositorio institucional de la UAH.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -72,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "eCienciaDatos es el repositorio para datos de investigacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -91,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica exige que los datos en acceso abierto sean FAIR.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -110,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica pide redactar un PGD que registre decisiones sobre datos de investigacion y su ciclo de vida.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -129,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Politica de Ciencia Abierta UAH atribuye a la Universidad asegurar la calidad de e-Buah y e-cienciaDatos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -148,7 +147,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica indica que, aunque la publicacion este embargada por requisitos del editor, los metadatos deben estar disponibles en acceso abierto.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -167,7 +166,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica pide disponer de ORCID y usarlo al publicar y depositar publicaciones y datos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -186,7 +185,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La politica incluye ofrecer estadisticas de visitas y descargas de publicaciones y datos en abierto.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -205,7 +204,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 16 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -214,7 +213,7 @@
       "tags": [
         "uah-c1",
         "tema-16",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -230,7 +229,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 16 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -239,7 +238,7 @@
       "tags": [
         "uah-c1",
         "tema-16",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -255,7 +254,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 16 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -264,7 +263,7 @@
       "tags": [
         "uah-c1",
         "tema-16",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -280,7 +279,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 16 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -289,7 +288,7 @@
       "tags": [
         "uah-c1",
         "tema-16",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -434,7 +433,7 @@
       ],
       "correctIndex": 2,
       "explanation": "FECYT desarrolla infraestructuras, recomendaciones y servicios de apoyo al acceso abierto, ciencia abierta y repositorios.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "fecyt-ciencia-abierta",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -536,7 +535,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 82. Respuesta validada por la plantilla oficial: Asesoramiento sobre licencias Creative Commons y financiación de APC en revistas seleccionadas. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema16#asesoramiento-acceso-abierto",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -614,7 +613,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 59. Respuesta validada por la plantilla oficial: Tanto en depósito en autoarchivo como en archivo delegado. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema16#ebuah-deposito",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -640,7 +639,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Los repositorios organizan distintos tipos de resultados de investigación y producción académica mediante comunidades o colecciones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "repositorio-comunidades",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -742,7 +741,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Los portales de revistas en acceso abierto facilitan publicación, visibilidad, metadatos y acceso a contenidos académicos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "portal-revistas-aa",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -766,7 +765,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 52. Respuesta validada por la plantilla oficial: Vía verde. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema16#ebuah-via-verde",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -791,7 +790,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 56. Respuesta validada por la plantilla oficial: Que ofrece resultados del catálogo tradicional, bases de datos suscritas por la Biblioteca y de acceso abierto, del repositorio institucional RODIN, de la plataforma de préstamo de libros electrónicos, etc.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema16#buscador-primo",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -817,7 +816,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Los embargos temporales permiten depositar y describir el documento, retrasando el acceso al texto completo cuando procede.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "repositorio-embargo",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -971,7 +970,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Zaragoza 2024 - Técnicos Especialistas de Biblioteca C1 - Turno libre, pregunta 69. Respuesta validada por la plantilla oficial: Boletín Oficial de Aragón.. Clasificada como Tema 16 (Acceso abierto y repositorios) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema16#ebuah-contenidos",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -997,7 +996,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Se sustituye una pregunta de herramientas propias de Zaragoza por una pregunta UAH sobre el repositorio institucional.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebuah-repositorio",
         "path": "data/uah-bibliotecas-2025/tema_16_acceso_abierto_repositorios_ebuah_ecienciadatos_ciencia_abierta_uah.md",
@@ -1021,7 +1020,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La vía verde se asocia al autoarchivo o depósito en repositorios institucionales o temáticos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-016#opositatest-referencia-031",
         "path": "data/uah-bibliotecas-2025/referencias/16_02_ciencia_abierta_complemento.md",
@@ -1029,7 +1028,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-016"
       ]
@@ -1046,7 +1045,7 @@
       ],
       "correctIndex": 0,
       "explanation": "e_Buah es el repositorio institucional de la Universidad de Alcalá. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-016#opositatest-referencia-032",
         "path": "data/uah-bibliotecas-2025/referencias/16_01_politica_repositorio_ebuah.md",
@@ -1054,7 +1053,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-016"
       ]
@@ -1066,35 +1065,35 @@
       "topicId": "uah-bib-t16-contenido",
       "question": "T16. Completa esta idea de contenido",
       "answer": "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-1",
       "topicId": "uah-bib-t16-contenido",
       "question": "T16. Completa esta idea de contenido",
       "answer": "eBUAH es el repositorio institucional de la Universidad de Alcala.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-2",
       "topicId": "uah-bib-t16-contenido",
       "question": "T16. Completa esta idea de contenido",
       "answer": "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-3",
       "topicId": "uah-bib-t16-contenido",
       "question": "T16. Completa esta idea de contenido",
       "answer": "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-16-ebuah-frente-a-eci",
       "topicId": "uah-bib-t16-contenido",
       "question": "eBUAH frente a eCienciaDatos.",
       "answer": "eBUAH es repositorio institucional de produccion UAH; eCienciaDatos se orienta a datos de investigacion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

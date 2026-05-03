@@ -6,10 +6,10 @@
     "questionCount": 35,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 12,
+      "adaptada-ia": 12,
+      "generada-ia": 4,
       "oficial": 17,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 12,
@@ -52,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "MARC 21 estructura datos bibliograficos para intercambio y lectura por maquina.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -71,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "FRBR modela entidades bibliograficas y sus relaciones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -90,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La BNE explica que el perfil se estructura segun entidades OEM; el item no esta contemplado en ese perfil.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-rda",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -109,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La BNE describe MARC como herramienta para normalizacion, compatibilidad y transferencia de informacion bibliografica.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -128,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La BNE explica que el perfil se estructura por Obra, Expresion y Manifestacion; Item no esta contemplado en ese perfil.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-rda",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -147,7 +147,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La BNE senala que dentro de cada elemento aparece la mencion de elemento nucleo y codificacion MARC 21.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-rda",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -166,7 +166,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El metodo de trabajo BNE incluye opcionalmente asignar materias con autoridades BNE y numero de clasificacion con CDU.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-rda",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -185,7 +185,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La pagina BNE de MARC 21 enlaza registros bibliograficos, de autoridad y de fondos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -204,7 +204,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 13 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -213,7 +213,7 @@
       "tags": [
         "uah-c1",
         "tema-13",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -229,7 +229,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 13 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -238,7 +238,7 @@
       "tags": [
         "uah-c1",
         "tema-13",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -254,7 +254,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 13 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -263,7 +263,7 @@
       "tags": [
         "uah-c1",
         "tema-13",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -279,7 +279,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 13 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-marc21",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -288,7 +288,7 @@
       "tags": [
         "uah-c1",
         "tema-13",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -538,7 +538,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El campo 250 de MARC 21 se usa para la mención de edición; se elimina el ejemplo institucional externo manteniendo el concepto técnico.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "marc21-campo-250",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -743,7 +743,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 52. Respuesta validada por la plantilla oficial: Privacidad.. Clasificada como Tema 13 (Proceso técnico, MARC, FRBR y RDA) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema13#frbr",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -769,7 +769,7 @@
       ],
       "correctIndex": 2,
       "explanation": "El campo 264 de MARC 21 se emplea para información de publicación y datos relacionados en catalogación RDA; se elimina residuo OCR.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "marc21-campo-264",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -793,7 +793,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La calidad del proceso técnico depende de normalización descriptiva, autoridades y coherencia de registros.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "proceso-tecnico-calidad",
         "path": "data/uah-bibliotecas-2025/tema_13_proceso_tecnico_marc21_frbr_rda_uah.md",
@@ -843,7 +843,7 @@
       ],
       "correctIndex": 0,
       "explanation": "En MARC 21 el campo 020 corresponde al ISBN; el 022 se utiliza para ISSN. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-013#opositatest-referencia-025",
         "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
@@ -851,7 +851,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-013"
       ]
@@ -868,7 +868,7 @@
       ],
       "correctIndex": 0,
       "explanation": "RDA es un estándar de catalogación que organiza la descripción y el acceso a recursos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-013#opositatest-referencia-026",
         "path": "data/uah-bibliotecas-2025/referencias/13_proceso_tecnico_marc21_frbr_rda.md",
@@ -876,7 +876,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-013"
       ]
@@ -888,35 +888,35 @@
       "topicId": "uah-bib-t13-contenido",
       "question": "T13. Completa esta idea de contenido",
       "answer": "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-1",
       "topicId": "uah-bib-t13-contenido",
       "question": "T13. Completa esta idea de contenido",
       "answer": "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-2",
       "topicId": "uah-bib-t13-contenido",
       "question": "T13. Completa esta idea de contenido",
       "answer": "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-3",
       "topicId": "uah-bib-t13-contenido",
       "question": "T13. Completa esta idea de contenido",
       "answer": "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-13-marc-21-frbr-y-rd",
       "topicId": "uah-bib-t13-contenido",
       "question": "MARC 21, FRBR y RDA en una linea.",
       "answer": "MARC 21 codifica datos; FRBR modela entidades y relaciones; RDA da instrucciones de descripcion y acceso.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

@@ -6,10 +6,10 @@
     "questionCount": 24,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 8,
-      "oficial": 10,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 9,
+      "generada-ia": 4,
+      "oficial": 9,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 3,
@@ -50,7 +50,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Creative Commons concede permisos anticipados bajo condiciones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "creativecommons",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -69,7 +69,7 @@
       ],
       "correctIndex": 0,
       "explanation": "BY, SA, NC y ND son condiciones combinables en licencias Creative Commons.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "creativecommons",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -88,7 +88,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 17 enumera las modalidades principales de explotacion de la obra.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -107,7 +107,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Creative Commons define ND como prohibicion de derivados o adaptaciones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "creativecommons",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -126,7 +126,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 18 define reproduccion como fijacion directa o indirecta que permite comunicar u obtener copias.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -145,7 +145,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 19 define distribucion y menciona venta, alquiler, prestamo u otra forma.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -164,7 +164,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 21 incluye traduccion, adaptacion y cualquier modificacion que genere una obra diferente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -183,7 +183,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Creative Commons define BY como atribucion y SA como compartir adaptaciones bajo los mismos terminos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "creativecommons",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -202,7 +202,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -211,7 +211,7 @@
       "tags": [
         "uah-c1",
         "tema-22",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -227,7 +227,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -236,7 +236,7 @@
       "tags": [
         "uah-c1",
         "tema-22",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -252,7 +252,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -261,7 +261,7 @@
       "tags": [
         "uah-c1",
         "tema-22",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -277,7 +277,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 22 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "lpi",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -286,7 +286,7 @@
       "tags": [
         "uah-c1",
         "tema-22",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -458,7 +458,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 53. Respuesta validada por la plantilla oficial: Reconocimiento — No comercial — Sin obra derivada. Clasificada como Tema 22 (Propiedad intelectual y Creative Commons) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema22#ebuah-licencias-cc",
         "path": "data/uah-bibliotecas-2025/tema_22_derechos_autor_lpi_creative_commons_uah.md",
@@ -561,7 +561,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La propiedad intelectual protege obras originales expresadas en cualquier soporte. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-022#opositatest-referencia-043",
         "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
@@ -569,7 +569,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-022"
       ]
@@ -586,7 +586,7 @@
       ],
       "correctIndex": 0,
       "explanation": "NC indica que la licencia no permite usos comerciales bajo esa condición. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-022#opositatest-referencia-044",
         "path": "data/uah-bibliotecas-2025/referencias/22_ley_propiedad_intelectual.md",
@@ -594,7 +594,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-022"
       ]
@@ -606,35 +606,35 @@
       "topicId": "uah-bib-t22-contenido",
       "question": "T22. Completa esta idea de contenido",
       "answer": "La propiedad intelectual distingue derechos morales y derechos de explotacion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-1",
       "topicId": "uah-bib-t22-contenido",
       "question": "T22. Completa esta idea de contenido",
       "answer": "El capitulo indicado se centra en contenido de derechos como reproduccion, distribucion, comunicacion publica y transformacion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-2",
       "topicId": "uah-bib-t22-contenido",
       "question": "T22. Completa esta idea de contenido",
       "answer": "Las licencias Creative Commons combinan condiciones como BY, SA, NC y ND.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t22-point-3",
       "topicId": "uah-bib-t22-contenido",
       "question": "T22. Completa esta idea de contenido",
       "answer": "En biblioteca hay que equilibrar acceso, docencia, investigacion, limites legales y respeto a titulares.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-22-creative-commons-n",
       "topicId": "uah-bib-t22-contenido",
       "question": "Creative Commons no elimina...",
       "answer": "No elimina derechos de autor; concede permisos estandarizados bajo condiciones como BY, SA, NC y ND.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

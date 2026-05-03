@@ -6,10 +6,10 @@
     "questionCount": 24,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 11,
-      "oficial": 7,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 12,
+      "generada-ia": 4,
+      "oficial": 6,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 6,
@@ -52,7 +52,7 @@
       ],
       "correctIndex": 0,
       "explanation": "EFQM es un modelo de gestion orientado a excelencia y mejora.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -71,7 +71,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Los indicadores deben aportar evidencia sobre servicios y resultados.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "rebiun",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -90,7 +90,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta de Servicios recoge la renovacion del Sello de Excelencia Europea 500 en abril de 2023.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -109,7 +109,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Memoria EFQM describe el sistema documental y operativo de procesos de la Biblioteca.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "memoria-efqm-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -128,7 +128,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Memoria EFQM recoge los valores definidos por la Biblioteca.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "memoria-efqm-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -147,7 +147,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Memoria EFQM describe el ambito geografico de la BUAH en tres campus.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "memoria-efqm-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -166,7 +166,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Memoria EFQM indica que en 2017 obtuvo el Sello EFQM 500+ y lo renovo posteriormente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "memoria-efqm-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -185,7 +185,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta lista instrumentos de calidad como cuadro de mando integral, plan estrategico, encuestas y procesos clave y de soporte.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -204,7 +204,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -213,7 +213,7 @@
       "tags": [
         "uah-c1",
         "tema-21",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -229,7 +229,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -238,7 +238,7 @@
       "tags": [
         "uah-c1",
         "tema-21",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -254,7 +254,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -263,7 +263,7 @@
       "tags": [
         "uah-c1",
         "tema-21",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -279,7 +279,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 21 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "calidad-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -288,7 +288,7 @@
       "tags": [
         "uah-c1",
         "tema-21",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -382,7 +382,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Se sustituye un organigrama externo por el concepto evaluable de indicadores de calidad y gestión bibliotecaria.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "calidad-indicadores",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -406,7 +406,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La autoevaluación y la mejora continua requieren estructuras de calidad, seguimiento de acciones e identificación de necesidades de usuarios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "calidad-autoevaluacion",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -430,7 +430,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La autoevaluación ayuda a diagnosticar el servicio y orientar planes de mejora con enfoque de calidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "calidad-autoevaluacion-2",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -480,7 +480,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 21. Respuesta validada por la plantilla oficial: Colaborar en la consecución de los objetivos de la Universidad mediante la difusión de la información, así como a través de la gestión de colecciones, servicios y espacios que apoyen el aprendizaje, la investigación y la transferencia de conocimiento.. Clasificada como Tema 21 (Calidad y EFQM) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema21#mision-buah",
         "path": "data/uah-bibliotecas-2025/tema_21_calidad_rebiun_efqm_biblioteca_uah.md",
@@ -558,7 +558,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Los indicadores convierten datos en información evaluable para seguimiento y mejora. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-021#opositatest-referencia-041",
         "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
@@ -566,7 +566,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-021"
       ]
@@ -583,7 +583,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La autoevaluación EFQM analiza evidencias para orientar mejora continua. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-021#opositatest-referencia-042",
         "path": "data/uah-bibliotecas-2025/referencias/21_calidad_rebiun_efqm_buah.md",
@@ -591,7 +591,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-021"
       ]
@@ -603,28 +603,28 @@
       "topicId": "uah-bib-t21-contenido",
       "question": "T21. Completa esta idea de contenido",
       "answer": "REBIUN impulsa indicadores, estadisticas, lineas estrategicas y buenas practicas de calidad.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t21-point-1",
       "topicId": "uah-bib-t21-contenido",
       "question": "T21. Completa esta idea de contenido",
       "answer": "EFQM es un modelo de gestion orientado a excelencia, evaluacion y mejora continua.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t21-point-2",
       "topicId": "uah-bib-t21-contenido",
       "question": "T21. Completa esta idea de contenido",
       "answer": "La certificacion exige evidencias documentales y resultados, no solo declaracion de intenciones.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t21-point-3",
       "topicId": "uah-bib-t21-contenido",
       "question": "T21. Completa esta idea de contenido",
       "answer": "En bibliotecas, la calidad se mide en servicios, colecciones, accesibilidad, tiempos, satisfaccion e impacto.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

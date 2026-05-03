@@ -6,11 +6,10 @@
     "questionCount": 28,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 19,
-      "examen-oficial-externo": 2,
+      "adaptada-ia": 21,
+      "generada-ia": 4,
       "oficial": 1,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 0,
@@ -51,7 +50,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La formula constitucional es Estado social y democratico de Derecho.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -70,7 +69,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La soberania nacional reside en el pueblo espanol.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -89,7 +88,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La forma politica del Estado espanol es la Monarquia parlamentaria.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -108,7 +107,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 2 reconoce y garantiza el derecho a la autonomia de nacionalidades y regiones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -127,7 +126,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 14 declara la igualdad ante la ley.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -146,7 +145,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 53 pertenece al capitulo IV del Titulo I, sobre garantias.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -165,7 +164,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 9.3 enumera garantias juridicas del Titulo Preliminar, como legalidad, jerarquia normativa, publicidad, seguridad juridica, responsabilidad e interdiccion de la arbitrariedad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -184,7 +183,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El derecho a la educacion pertenece al Titulo I, que si entra en el alcance oficial del tema 1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -203,7 +202,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 10 abre el Titulo I y fija el fundamento del orden politico y de la paz social.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -222,7 +221,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 15 protege vida e integridad y prohibe tortura y penas o tratos inhumanos o degradantes.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -241,7 +240,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 16 reconoce libertad ideologica, religiosa y de culto, con limite en el orden publico protegido por la ley.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -260,7 +259,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Constitucion fija un plazo maximo de setenta y dos horas para poner al detenido en libertad o a disposicion judicial.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -279,7 +278,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 18 agrupa honor, intimidad, propia imagen, inviolabilidad del domicilio y secreto de comunicaciones.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -298,7 +297,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 20.2 prohibe la censura previa.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -317,7 +316,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 23 reconoce participacion politica y acceso en igualdad a funciones y cargos publicos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -336,7 +335,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 28 reconoce libertad sindical y establece que nadie puede ser obligado a afiliarse a un sindicato.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -355,7 +354,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -364,7 +363,7 @@
       "tags": [
         "uah-c1",
         "tema-01",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -380,7 +379,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -389,7 +388,7 @@
       "tags": [
         "uah-c1",
         "tema-01",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -405,7 +404,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -414,7 +413,7 @@
       "tags": [
         "uah-c1",
         "tema-01",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -430,7 +429,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 01 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "constitucion",
         "path": "data/uah-bibliotecas-2025/tema_01_constitucion_titulo_preliminar_titulo_i.md",
@@ -439,7 +438,7 @@
       "tags": [
         "uah-c1",
         "tema-01",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -455,7 +454,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 1. Respuesta validada por la plantilla oficial: Se reconoce a las personas físicas y jurídicas la libertad de creación de centros docentes, dentro del respeto a los principios constitucionales. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "upm-c1-2025-1#q001",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -480,7 +479,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 69. Respuesta validada por la plantilla oficial: Sus conclusiones no serán vinculantes.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "01_constitucion_espanola_1978.md#articulo-1",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -506,7 +505,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: UNED 2024 - Auxiliar de Biblioteca, pregunta 6. Respuesta validada por la plantilla oficial: Será declarado por la mayoría absoluta del Congreso de los Diputados.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "01_constitucion_espanola_1978.md#articulo-15",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -532,7 +531,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 1. Respuesta validada por la plantilla oficial: No necesitará autorización previa.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cantabria-c2-2025#q001",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -557,7 +556,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad de Cantabria 2025 - Escala Auxiliar de Biblioteca C2, pregunta 2. Respuesta validada por la plantilla oficial: Legislación sobre propiedad intelectual e industrial.. Validada para UAH C1 por correspondencia con Tema 1 (Constitución Española) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "01_constitucion_espanola_1978.md#articulo-149",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -607,7 +606,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El artículo 1.1 define España como Estado social y democrático de Derecho y enumera esos valores superiores. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-001#opositatest-referencia-001",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -615,7 +614,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-001"
       ]
@@ -632,7 +631,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El artículo 27 reconoce el derecho a la educación y la libertad de enseñanza, incluyendo la creación de centros docentes. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-001#opositatest-referencia-002",
         "path": "data/general/01_constitucion_espanola_1978.md",
@@ -640,7 +639,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-001"
       ]
@@ -652,35 +651,35 @@
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-1",
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-2",
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-3",
       "topicId": "uah-bib-t01-contenido",
       "question": "T1. Completa esta idea de contenido",
       "answer": "El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-1--cuales-son-los-va",
       "topicId": "uah-bib-t01-contenido",
       "question": "¿Cuales son los valores superiores del ordenamiento juridico?",
       "answer": "Libertad, justicia, igualdad y pluralismo politico.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

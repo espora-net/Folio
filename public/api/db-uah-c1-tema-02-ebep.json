@@ -6,11 +6,10 @@
     "questionCount": 28,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 15,
-      "examen-oficial-externo": 4,
+      "adaptada-ia": 19,
+      "generada-ia": 4,
       "oficial": 3,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 1,
@@ -55,7 +54,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El EBEP enumera personal funcionario de carrera, interino, laboral y eventual.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -74,7 +73,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El EBEP vincula el nombramiento de interinos a razones de necesidad y urgencia.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -93,7 +92,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El codigo de conducta se formula mediante principios eticos y de conducta.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -112,7 +111,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El capitulo de provision de puestos exige igualdad, merito, capacidad y publicidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -131,7 +130,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Titulo IV del EBEP regula la adquisicion y perdida de la relacion de servicio.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -150,7 +149,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El capitulo I del Titulo II diferencia el personal eventual por sus funciones de confianza o asesoramiento especial.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -169,7 +168,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 14 enumera derechos individuales, entre ellos la formacion continua y actualizacion permanente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -188,7 +187,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 15 enumera derechos individuales de ejercicio colectivo.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -207,7 +206,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 16 define carrera como oportunidades de ascenso y progreso conforme a igualdad, merito y capacidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -226,7 +225,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 18 exige dos anos de servicio activo en el inferior subgrupo o grupo, ademas de requisitos y pruebas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -245,7 +244,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 20 define la evaluacion del desempeno y exige transparencia, objetividad, imparcialidad y no discriminacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -264,7 +263,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 63 incluye renuncia, perdida de nacionalidad, jubilacion total, separacion del servicio firme e inhabilitacion firme.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -283,7 +282,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 95 clasifica las faltas disciplinarias como muy graves, graves y leves.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -302,7 +301,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 97 fija prescripcion de infracciones: muy graves tres anos, graves dos anos y leves seis meses.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -321,7 +320,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 02 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -330,7 +329,7 @@
       "tags": [
         "uah-c1",
         "tema-02",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -346,7 +345,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 02 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -355,7 +354,7 @@
       "tags": [
         "uah-c1",
         "tema-02",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -371,7 +370,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 02 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -380,7 +379,7 @@
       "tags": [
         "uah-c1",
         "tema-02",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -396,7 +395,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 02 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "ebep",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -405,7 +404,7 @@
       "tags": [
         "uah-c1",
         "tema-02",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -421,7 +420,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 3. Respuesta validada por la plantilla oficial: A los funcionarios públicos. Validada para UAH C1 por correspondencia con Tema 2 (EBEP) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "upm-c1-2025-1#q003",
         "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
@@ -446,7 +445,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 4. Respuesta validada por la plantilla oficial: El ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad. Validada para UAH C1 por correspondencia con Tema 2 (EBEP) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q004-be8e7c9c9070",
         "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
@@ -472,7 +471,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta oficial externa sobre normativa común del temario: Universitat de València 2025 - Auxiliar de Archivos y Bibliotecas C1, pregunta 25. Respuesta validada por la plantilla oficial: Las leyes de la función pública que se dicten en desarrollo del Estatuto básico del empleado público.. Validada para UAH C1 por correspondencia con Tema 2 (EBEP) para practicar el temario UAH C1.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "tema_02_preguntas_oficiales_validadas.md#uah-exam-valencia-c1-2025-q025-f268090dff2e",
         "path": "data/uah-bibliotecas-2025/referencias/tema_02_preguntas_oficiales_validadas.md",
@@ -550,7 +549,7 @@
       ],
       "correctIndex": 3,
       "explanation": "El EBEP enumera funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual; la libre designación es una forma de provisión, no una clase de empleado público.",
-      "origin": "examen-oficial-externo",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep-clases-empleados",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -574,7 +573,7 @@
       ],
       "correctIndex": 1,
       "explanation": "El EBEP incluye al personal laboral entre las clases de empleados públicos y remite su relación a la legislación laboral con especialidades públicas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "ebep-personal-laboral",
         "path": "data/uah-bibliotecas-2025/tema_02_ebep_trebep_titulos_i_ii_iii.md",
@@ -623,7 +622,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El EBEP diferencia el personal eventual por su nombramiento no permanente y funciones de confianza o asesoramiento especial. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-002#opositatest-referencia-003",
         "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
@@ -631,7 +630,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-002"
       ]
@@ -648,7 +647,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El acceso al empleo público se articula sobre igualdad, mérito, capacidad y publicidad. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-002#opositatest-referencia-004",
         "path": "data/general/02_Estatuto_Basico_del_Empleado_Publico.md",
@@ -656,7 +655,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-002"
       ]
@@ -668,35 +667,35 @@
       "topicId": "uah-bib-t02-contenido",
       "question": "T2. Completa esta idea de contenido",
       "answer": "El EBEP fija bases del regimen estatutario del personal funcionario y normas aplicables al personal laboral.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-1",
       "topicId": "uah-bib-t02-contenido",
       "question": "T2. Completa esta idea de contenido",
       "answer": "Clases de personal: funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-2",
       "topicId": "uah-bib-t02-contenido",
       "question": "T2. Completa esta idea de contenido",
       "answer": "Principios eticos y de conducta: objetividad, integridad, neutralidad, responsabilidad, austeridad, accesibilidad y servicio a la ciudadania.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t2-point-3",
       "topicId": "uah-bib-t02-contenido",
       "question": "T2. Completa esta idea de contenido",
       "answer": "La provision de puestos combina igualdad, merito, capacidad, publicidad y adecuacion al puesto.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-2--que-cuatro-clases",
       "topicId": "uah-bib-t02-contenido",
       "question": "¿Que cuatro clases de personal enumera el EBEP?",
       "answer": "Funcionario de carrera, funcionario interino, personal laboral y personal eventual.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

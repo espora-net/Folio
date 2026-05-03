@@ -6,10 +6,10 @@
     "questionCount": 26,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 8,
+      "adaptada-ia": 8,
+      "generada-ia": 4,
       "oficial": 12,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 7,
@@ -53,7 +53,7 @@
       ],
       "correctIndex": 0,
       "explanation": "ISSN identifica publicaciones seriadas y recursos continuados.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "issn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -72,7 +72,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El DOI proporciona identificacion persistente de objetos digitales.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "doi",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -91,7 +91,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Orden PRE/2418/2015 regula el numero de identificacion de publicaciones oficiales.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "nipo",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -110,7 +110,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La DOI Foundation define el DOI como identificador persistente con prefijo y sufijo, resoluble mediante https://doi.org/.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "doi",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -129,7 +129,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Ministerio de Cultura define el ISBN como codigo internacional que identifica cada libro.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -148,7 +148,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La BNE indica que el Centro Nacional Espanol del ISSN esta integrado en su Departamento de Control Bibliografico de Revistas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "issn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -167,7 +167,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La BNE senala que los numeros de Deposito Legal deben figurar en lugar visible y que su solicitud es obligatoria y gratuita.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "deposito-legal",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -186,7 +186,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 3 de la Orden PRE/2418/2015 vincula publicaciones electronicas y bajo demanda a la normativa de publicaciones oficiales y NIPO.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "nipo",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -205,7 +205,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -214,7 +214,7 @@
       "tags": [
         "uah-c1",
         "tema-14",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -230,7 +230,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -239,7 +239,7 @@
       "tags": [
         "uah-c1",
         "tema-14",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -255,7 +255,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -264,7 +264,7 @@
       "tags": [
         "uah-c1",
         "tema-14",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -280,7 +280,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 14 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "isbn",
         "path": "data/uah-bibliotecas-2025/tema_14_estandares_normalizacion_identificadores_documentales.md",
@@ -289,7 +289,7 @@
       "tags": [
         "uah-c1",
         "tema-14",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -614,7 +614,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El ISSN identifica publicaciones seriadas; el ISBN se aplica a monografías y otras publicaciones no seriadas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-014#opositatest-referencia-027",
         "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
@@ -622,7 +622,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-014"
       ]
@@ -639,7 +639,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El DOI es un identificador persistente usado para objetos digitales, especialmente publicaciones científicas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-014#opositatest-referencia-028",
         "path": "data/uah-bibliotecas-2025/referencias/14_identificadores_documentales.md",
@@ -647,7 +647,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-014"
       ]
@@ -659,35 +659,35 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "T14. Completa esta idea de contenido",
       "answer": "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-1",
       "topicId": "uah-bib-t14-contenido",
       "question": "T14. Completa esta idea de contenido",
       "answer": "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-2",
       "topicId": "uah-bib-t14-contenido",
       "question": "T14. Completa esta idea de contenido",
       "answer": "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-3",
       "topicId": "uah-bib-t14-contenido",
       "question": "T14. Completa esta idea de contenido",
       "answer": "Deposito Legal y NIPO responden a obligaciones o identificacion de publicaciones, especialmente en ambito institucional.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-14-isbn-frente-a-issn",
       "topicId": "uah-bib-t14-contenido",
       "question": "ISBN frente a ISSN.",
       "answer": "ISBN para monografias; ISSN para publicaciones seriadas y recursos continuados.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

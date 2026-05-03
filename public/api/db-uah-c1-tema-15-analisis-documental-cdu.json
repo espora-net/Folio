@@ -6,10 +6,10 @@
     "questionCount": 25,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 9,
-      "oficial": 10,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 11,
+      "generada-ia": 4,
+      "oficial": 8,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 6,
@@ -51,7 +51,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La clasificacion representa el contenido y facilita ordenacion y recuperacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "boe-convocatoria",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -70,7 +70,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Clasificacion Decimal Universal es un sistema de clasificacion bibliografica.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -89,7 +89,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El listado numerico de materias del plano de Ciencias asocia 502 con Naturaleza.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cdu-uah",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -108,7 +108,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La clasificacion representa materias y ordena documentos dentro de un sistema bibliografico.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -127,7 +127,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El analisis documental puede representar materias por terminos de indizacion o por notaciones de clasificacion; cumplen funciones relacionadas pero distintas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "bne-proceso-tecnico",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -146,7 +146,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El listado numerico de materias del plano de Ciencias asocia 504 con Medio ambiente.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cdu-uah",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -165,7 +165,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El listado numerico de materias del plano de Ciencias asocia 51 con Matematicas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cdu-uah",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -184,7 +184,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El plano de Ciencias recoge notaciones del grupo 61 para materias medicas, como estadistica medica y anatomia/fisiologia.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "cdu-uah",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -203,7 +203,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -212,7 +212,7 @@
       "tags": [
         "uah-c1",
         "tema-15",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -228,7 +228,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -237,7 +237,7 @@
       "tags": [
         "uah-c1",
         "tema-15",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -253,7 +253,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -262,7 +262,7 @@
       "tags": [
         "uah-c1",
         "tema-15",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -278,7 +278,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 15 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "bne-clasificacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -287,7 +287,7 @@
       "tags": [
         "uah-c1",
         "tema-15",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -329,7 +329,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 36. Respuesta validada por la plantilla oficial: Historia. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema15#bases-datos-materias",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -380,7 +380,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Indizar implica representar materias o conceptos para mejorar recuperación temática.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "indizacion",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -404,7 +404,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 36. Respuesta validada por la plantilla oficial: Acceder a la bibliografía recomendada de cada asignatura.. Clasificada como Tema 15 (Análisis documental y clasificación) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema15#bibliografia-recomendada",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -586,7 +586,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Clasificación Decimal Universal organiza el conocimiento por materias y apoya la ordenación documental. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-015#opositatest-referencia-029",
         "path": "data/uah-bibliotecas-2025/referencias/15_analisis_documental_cdu_uah.md",
@@ -594,7 +594,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-015"
       ]
@@ -611,7 +611,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La indización asigna términos o encabezamientos para representar y recuperar el contenido. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-015#opositatest-referencia-030",
         "path": "data/uah-bibliotecas-2025/tema_15_analisis_documental_clasificaciones_cdu_uah.md",
@@ -619,7 +619,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-015"
       ]
@@ -631,28 +631,28 @@
       "topicId": "uah-bib-t15-contenido",
       "question": "T15. Completa esta idea de contenido",
       "answer": "El analisis documental representa contenido para recuperar documentos de forma eficaz.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t15-point-1",
       "topicId": "uah-bib-t15-contenido",
       "question": "T15. Completa esta idea de contenido",
       "answer": "La clasificacion asigna una notacion dentro de un sistema jerarquico o facetado.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t15-point-2",
       "topicId": "uah-bib-t15-contenido",
       "question": "T15. Completa esta idea de contenido",
       "answer": "La CDU es muy habitual en bibliotecas espanolas y permite ordenacion tematica.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t15-point-3",
       "topicId": "uah-bib-t15-contenido",
       "question": "T15. Completa esta idea de contenido",
       "answer": "La signatura combina clasificacion y elementos de localizacion fisica.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

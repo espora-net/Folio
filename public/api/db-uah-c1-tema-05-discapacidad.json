@@ -6,9 +6,9 @@
     "questionCount": 11,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 5,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 5,
+      "generada-ia": 4,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 1,
@@ -49,7 +49,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La convocatoria limita este tema al capitulo IV del Titulo I para educacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -68,7 +68,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La convocatoria limita este tema al capitulo VI del Titulo I para trabajo.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -87,7 +87,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El alcance del tema incluye el derecho a la educacion dentro del Titulo I, capitulo IV.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -106,7 +106,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El capitulo VI del Titulo I regula el derecho al trabajo de las personas con discapacidad.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -125,7 +125,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 05 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -134,7 +134,7 @@
       "tags": [
         "uah-c1",
         "tema-05",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -150,7 +150,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 05 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -159,7 +159,7 @@
       "tags": [
         "uah-c1",
         "tema-05",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -175,7 +175,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 05 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -184,7 +184,7 @@
       "tags": [
         "uah-c1",
         "tema-05",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -200,7 +200,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 05 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "discapacidad",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -209,7 +209,7 @@
       "tags": [
         "uah-c1",
         "tema-05",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -225,7 +225,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La accesibilidad exige información actualizada, clara y revisada periódicamente para que las personas con discapacidad conozcan apoyos y servicios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "discapacidad-informacion-web",
         "path": "data/uah-bibliotecas-2025/tema_05_discapacidad_educacion_trabajo_uah.md",
@@ -249,7 +249,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La definición legal de accesibilidad universal abarca entornos, procesos, bienes, productos y servicios utilizables por todas las personas. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-005#opositatest-referencia-009",
         "path": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md",
@@ -257,7 +257,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-005"
       ]
@@ -274,7 +274,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La norma define los ajustes razonables como adaptaciones eficaces para garantizar igualdad cuando no supongan carga desproporcionada. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-005#opositatest-referencia-010",
         "path": "data/general/05_Ley_general_de_derechos_de_las_personas_con_discapacidad_y_su_inclusion_social.md",
@@ -282,7 +282,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-005"
       ]
@@ -294,28 +294,28 @@
       "topicId": "uah-bib-t05-contenido",
       "question": "T5. Completa esta idea de contenido",
       "answer": "La ley protege igualdad de oportunidades, no discriminacion y accesibilidad universal.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t5-point-1",
       "topicId": "uah-bib-t05-contenido",
       "question": "T5. Completa esta idea de contenido",
       "answer": "La educacion debe ser inclusiva y contemplar apoyos y ajustes razonables.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t5-point-2",
       "topicId": "uah-bib-t05-contenido",
       "question": "T5. Completa esta idea de contenido",
       "answer": "El derecho al trabajo incluye empleo ordinario, empleo protegido y apoyo a la actividad profesional.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t5-point-3",
       "topicId": "uah-bib-t05-contenido",
       "question": "T5. Completa esta idea de contenido",
       "answer": "La discapacidad debe entenderse desde la inclusion social, no solo desde el reconocimiento administrativo.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

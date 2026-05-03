@@ -6,10 +6,10 @@
     "questionCount": 32,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 15,
+      "adaptada-ia": 15,
+      "generada-ia": 4,
       "oficial": 11,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 15,
@@ -50,7 +50,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La carta traduce servicios en compromisos medibles y derechos de usuarios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -69,7 +69,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La formacion de usuarios es un servicio bibliotecario central.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -88,7 +88,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta de Servicios fija el compromiso de responder a quejas y sugerencias en un maximo de 3 dias habiles.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -107,7 +107,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta de Servicios indica un maximo de 6 dias habiles para articulos pedidos al Servicio de Acceso al Documento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -126,7 +126,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta declara el proposito de apoyar aprendizaje, docencia, investigacion e innovacion mediante generacion, gestion y transmision de conocimiento.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -145,7 +145,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta recoge derechos de informacion, asesoramiento, colaboracion y formacion basica.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -164,7 +164,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta exige respetar patrimonio, ambiente de estudio, funcionamiento del servicio y normas de los servicios.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -183,7 +183,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La Carta lista indicadores como rapidez de respuesta, apertura, avisos, cursos, APCs, documentos depositados y reservas.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -202,7 +202,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -211,7 +211,7 @@
       "tags": [
         "uah-c1",
         "tema-17",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -227,7 +227,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -236,7 +236,7 @@
       "tags": [
         "uah-c1",
         "tema-17",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -252,7 +252,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -261,7 +261,7 @@
       "tags": [
         "uah-c1",
         "tema-17",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -277,7 +277,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 17 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "carta-servicios",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -286,7 +286,7 @@
       "tags": [
         "uah-c1",
         "tema-17",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -510,7 +510,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Las quejas y sugerencias son canales de comunicación y mejora del servicio.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "quejas-sugerencias",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -560,7 +560,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La pregunta se adapta a la función general de las cartas de servicios, aplicable al estudio UAH.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "carta-servicios-contenido",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -584,7 +584,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 24. Respuesta validada por la plantilla oficial: Chat, Correo electrónico, Whatsapp, Teléfono y Atención presencial directa del personal bibliotecario.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema17#canales-atencion",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -610,7 +610,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 37. Respuesta validada por la plantilla oficial: Chat. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema17#referencia-virtual",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -636,7 +636,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 69. Respuesta validada por la plantilla oficial: Invertir al menos un 70 % del presupuesto de la Biblioteca en la adquisición de fondos bibliográficos.. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema17#carta-servicios-compromisos",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -662,7 +662,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 73. Respuesta validada por la plantilla oficial: Mendeley y Zotero. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema17#formacion-gestores",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -688,7 +688,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 78. Respuesta validada por la plantilla oficial: Presentar quejas, reclamaciones y sugerencias y recibir respuesta. Clasificada como Tema 17 (Servicios al usuario) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema17#quejas-sugerencias",
         "path": "data/uah-bibliotecas-2025/tema_17_servicios_usuario_carta_servicios_biblioteca_uah.md",
@@ -766,7 +766,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La atención al usuario incluye información bibliográfica, referencia y apoyo en el uso de recursos. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-017#opositatest-referencia-033",
         "path": "data/uah-bibliotecas-2025/referencias/17_carta_servicios_buah.md",
@@ -774,7 +774,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-017"
       ]
@@ -791,7 +791,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La formación de usuarios refuerza competencias informacionales y uso eficiente de recursos bibliotecarios. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-017#opositatest-referencia-034",
         "path": "data/uah-bibliotecas-2025/referencias/17_02_servicios_usuarios_complemento.md",
@@ -799,7 +799,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-017"
       ]
@@ -811,28 +811,28 @@
       "topicId": "uah-bib-t17-contenido",
       "question": "T17. Completa esta idea de contenido",
       "answer": "Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-1",
       "topicId": "uah-bib-t17-contenido",
       "question": "T17. Completa esta idea de contenido",
       "answer": "La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-2",
       "topicId": "uah-bib-t17-contenido",
       "question": "T17. Completa esta idea de contenido",
       "answer": "La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-3",
       "topicId": "uah-bib-t17-contenido",
       "question": "T17. Completa esta idea de contenido",
       "answer": "Los canales digitales son parte central del servicio bibliotecario universitario.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

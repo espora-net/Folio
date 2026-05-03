@@ -6,9 +6,9 @@
     "questionCount": 10,
     "explicitFlashcardCount": 4,
     "originCounts": {
-      "curada": 4,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "adaptada-ia": 4,
+      "generada-ia": 4,
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 0,
@@ -49,7 +49,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El reglamento regula la convivencia en el ambito universitario.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -68,7 +68,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El reglamento se centra en respeto, inclusion, prevencion y resolucion de conflictos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -87,7 +87,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El reglamento establece bases de convivencia y fomenta modalidades alternativas de resolucion de conflictos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -106,7 +106,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Convivencia, etica y disciplina son bloques distintos aunque puedan relacionarse en supuestos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -125,7 +125,7 @@
       ],
       "correctIndex": 2,
       "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -134,7 +134,7 @@
       "tags": [
         "uah-c1",
         "tema-09",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -150,7 +150,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -159,7 +159,7 @@
       "tags": [
         "uah-c1",
         "tema-09",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -175,7 +175,7 @@
       ],
       "correctIndex": 3,
       "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -184,7 +184,7 @@
       "tags": [
         "uah-c1",
         "tema-09",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -200,7 +200,7 @@
       ],
       "correctIndex": 1,
       "explanation": "La respuesta correcta recoge el punto del tema 09 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "convivencia",
         "path": "data/uah-bibliotecas-2025/tema_09_normas_convivencia_uah.md",
@@ -209,7 +209,7 @@
       "tags": [
         "uah-c1",
         "tema-09",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -225,7 +225,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Reglamento UAH aprueba normas de convivencia y regula la mediación y la Comisión de Convivencia. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-009#opositatest-referencia-017",
         "path": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md",
@@ -233,7 +233,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-009"
       ]
@@ -250,7 +250,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Reglamento atribuye esa finalidad a la Comisión de Convivencia de la Universidad de Alcalá. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-009#opositatest-referencia-018",
         "path": "data/general/09_Reglamento-Normas-de-Convivencia-de-la-UAH.md",
@@ -258,7 +258,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-009"
       ]
@@ -270,28 +270,28 @@
       "topicId": "uah-bib-t09-contenido",
       "question": "T9. Completa esta idea de contenido",
       "answer": "El reglamento busca proteger la convivencia universitaria y resolver conflictos en la comunidad UAH.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t9-point-1",
       "topicId": "uah-bib-t09-contenido",
       "question": "T9. Completa esta idea de contenido",
       "answer": "Incluye principios de respeto, libertad, igualdad, inclusion y rechazo de violencia o discriminacion.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t9-point-2",
       "topicId": "uah-bib-t09-contenido",
       "question": "T9. Completa esta idea de contenido",
       "answer": "Puede prever mecanismos preventivos, mediacion y procedimientos ante conductas contrarias a la convivencia.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t9-point-3",
       "topicId": "uah-bib-t09-contenido",
       "question": "T9. Completa esta idea de contenido",
       "answer": "Conviene estudiar definiciones y organos/procedimientos con literalidad.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }

@@ -6,10 +6,10 @@
     "questionCount": 30,
     "explicitFlashcardCount": 5,
     "originCounts": {
-      "curada": 10,
+      "adaptada-ia": 10,
+      "generada-ia": 4,
       "oficial": 14,
-      "opositatest-referencia": 2,
-      "refuerzo": 4
+      "opositatest.com": 2
     },
     "removedUnverifiedOfficialQuestions": 0,
     "restoredOfficialQuestions": 12,
@@ -54,7 +54,7 @@
       ],
       "correctIndex": 0,
       "explanation": "REBIUN articula cooperacion bibliotecaria universitaria y cientifica.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -73,7 +73,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Pasaporte Madrono es un instrumento de servicios compartidos.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "madrono",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -92,7 +92,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Acuerdo 2025 fija cupo de 4 volumenes, periodo minimo de 30 dias, hasta 2 reservas y una renovacion.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "madrono",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -111,7 +111,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 2 del Reglamento REBIUN establece como miembros de pleno derecho las universidades de Crue y el CSIC.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -130,7 +130,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Reglamento REBIUN define la red como asociada a la Comision Sectorial de I+D+i de Crue.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -149,7 +149,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El articulo 6 establece que el Pleno es el maximo organo de decision.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -168,7 +168,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Acuerdo 2025 indica que la identificacion PM permite obtener carne de investigador/a de la BNE.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "madrono",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -187,7 +187,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Acuerdo 2025 exige estadisticas anuales de pasaportes emitidos, recibidos y servicios realizados.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "madrono",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -206,7 +206,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -215,7 +215,7 @@
       "tags": [
         "uah-c1",
         "tema-20",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -231,7 +231,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -240,7 +240,7 @@
       "tags": [
         "uah-c1",
         "tema-20",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -256,7 +256,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -265,7 +265,7 @@
       "tags": [
         "uah-c1",
         "tema-20",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -281,7 +281,7 @@
       ],
       "correctIndex": 0,
       "explanation": "La respuesta correcta recoge el punto del tema 20 que debe memorizarse; las demás opciones mezclan conceptos próximos pero no describen ese apartado.",
-      "origin": "refuerzo",
+      "origin": "generada-ia",
       "source": {
         "materialId": "reglamento-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -290,7 +290,7 @@
       "tags": [
         "uah-c1",
         "tema-20",
-        "refuerzo",
+        "generada-ia",
         "distractores-revisados"
       ]
     },
@@ -436,7 +436,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 89. Respuesta validada por la plantilla oficial: un objetivo del área 4 de los objetivos del Observatorio de Inteligencia Artificial de Rebiun. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "uah-tema20#rebiun-ia",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -539,7 +539,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Catálogo Colectivo de REBIUN reúne registros de bibliotecas universitarias y científicas para localizar fondos, evitar duplicidades y apoyar el préstamo interbibliotecario.",
-      "origin": "curada",
+      "origin": "adaptada-ia",
       "source": {
         "materialId": "catalogo-colectivo-rebiun",
         "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
@@ -721,7 +721,7 @@
       ],
       "correctIndex": 0,
       "explanation": "REBIUN es una red de cooperación bibliotecaria universitaria y científica. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-020#opositatest-referencia-039",
         "path": "data/uah-bibliotecas-2025/referencias/20_reglamento_rebiun.md",
@@ -729,7 +729,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-020"
       ]
@@ -746,7 +746,7 @@
       ],
       "correctIndex": 0,
       "explanation": "El Pasaporte Madroño se vincula a cooperación y uso de servicios entre instituciones participantes. Pregunta original de refuerzo creada a partir de patrones de cobertura detectados en los backups Opositatest y validada contra fuente oficial/UAH; no reproduce contenido literal del banco comercial.",
-      "origin": "opositatest-referencia",
+      "origin": "opositatest.com",
       "source": {
         "materialId": "uah-tema-020#opositatest-referencia-040",
         "path": "data/uah-bibliotecas-2025/referencias/20_acuerdo_pasaporte_madrono_2025.md",
@@ -754,7 +754,7 @@
       },
       "difficulty": "intermedia",
       "tags": [
-        "opositatest-referencia",
+        "opositatest.com",
         "pregunta-original",
         "uah-tema-020"
       ]
@@ -766,35 +766,35 @@
       "topicId": "uah-bib-t20-contenido",
       "question": "T20. Completa esta idea de contenido",
       "answer": "La cooperacion permite compartir recursos, mejorar servicios, negociar y coordinar buenas practicas.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-1",
       "topicId": "uah-bib-t20-contenido",
       "question": "T20. Completa esta idea de contenido",
       "answer": "REBIUN articula cooperacion de bibliotecas universitarias y cientificas en el ambito espanol.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-2",
       "topicId": "uah-bib-t20-contenido",
       "question": "T20. Completa esta idea de contenido",
       "answer": "Madrono agrupa universidades de Madrid y UNED para cooperacion bibliotecaria.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-3",
       "topicId": "uah-bib-t20-contenido",
       "question": "T20. Completa esta idea de contenido",
       "answer": "El Pasaporte Madrono facilita acceso y uso de servicios entre instituciones participantes segun condiciones.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     },
     {
       "id": "uah-x-20-rebiun-frente-a-ma",
       "topicId": "uah-bib-t20-contenido",
       "question": "REBIUN frente a Madrono.",
       "answer": "REBIUN es red de cooperacion bibliotecaria universitaria/cientifica; Madrono es consorcio de universidades madrilenas y UNED.",
-      "origin": "refuerzo"
+      "origin": "generada-ia"
     }
   ]
 }
