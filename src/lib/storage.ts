@@ -158,39 +158,39 @@ export const getFlashcards = (): Flashcard[] => {
     ? filterQuestionsByActiveDatasets(database.questions, database)
     : getQuestions();
 
-  const questionFlashcards = questions.map(q => {
-    const answer = q.options[q.correctIndex] ?? '';
-    return {
-      id: q.id,
-      topicId: q.topicId,
-      question: q.question,
-      answer,
-      nextReview: '',
-      interval: 0,
-      easeFactor: 2.5,
-      origin: q.origin ?? 'generada-ia',
-      sourceDatasetId: q.sourceDatasetId,
-    } as Flashcard;
-  });
-
-  const questionIds = new Set(questions.map(q => q.id));
-  const questionTopicIds = new Set(questions.map(q => q.topicId));
-  const questionDatasetIds = new Set(
-    questions
-      .map(q => q.sourceDatasetId)
+  // Datasets que aportan flashcards curadas (cargadas del JSON fuente).
+  // Para esos datasets se usan las flashcards curadas como fuente de verdad
+  // y NO se derivan flashcards automáticamente desde sus preguntas, ya que
+  // los enunciados de test no se adaptan bien al formato pregunta/respuesta
+  // (p. ej. "¿Cuál de las siguientes es correcta?" no tiene sentido sin opciones).
+  const curatedFlashcards = filterFlashcardsByActiveDatasets(database.flashcards, database)
+    .map(withReviewDefaults);
+  const datasetsWithCuratedFlashcards = new Set(
+    curatedFlashcards
+      .map(card => card.sourceDatasetId)
       .filter((sourceDatasetId): sourceDatasetId is string => Boolean(sourceDatasetId))
   );
 
-  const explicitFlashcards = filterFlashcardsByActiveDatasets(database.flashcards, database)
-    .map(withReviewDefaults)
-    .filter(card => {
-      if (questionIds.has(card.id)) return false;
-      if (questionTopicIds.has(card.topicId)) return false;
-      if (card.sourceDatasetId && questionDatasetIds.has(card.sourceDatasetId)) return false;
-      return true;
+  // Para datasets sin flashcards curadas se mantiene el comportamiento legacy:
+  // derivar una flashcard por pregunta tomando la opción correcta como respuesta.
+  const derivedFlashcards = questions
+    .filter(q => !q.sourceDatasetId || !datasetsWithCuratedFlashcards.has(q.sourceDatasetId))
+    .map(q => {
+      const answer = q.options[q.correctIndex] ?? '';
+      return {
+        id: q.id,
+        topicId: q.topicId,
+        question: q.question,
+        answer,
+        nextReview: '',
+        interval: 0,
+        easeFactor: 2.5,
+        origin: q.origin ?? 'generada-ia',
+        sourceDatasetId: q.sourceDatasetId,
+      } as Flashcard;
     });
 
-  return [...questionFlashcards, ...explicitFlashcards];
+  return [...curatedFlashcards, ...derivedFlashcards];
 };
 
 export const getQuestions = (): TestQuestion[] => {
