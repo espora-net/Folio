@@ -413,20 +413,18 @@ const SimulatedExam = () => {
 
       for (const part of examConfig.examParts) {
         const partCount = part.numQuestions + (part.numReserve || 0);
+        const partTemaNumbers = part.temaNumbers;
         // Filter buckets for this part's tema numbers
-        const partBuckets = part.temaNumbers
-          ? themeBuckets
-              .filter(bucket => part.temaNumbers!.includes(bucket.order))
-              .map(bucket => ({
-                ...bucket,
-                // Exclude questions already selected in previous parts
-                questions: bucket.questions.filter(q => !usedQuestionIds.has(q.id)),
-              }))
-              .filter(bucket => bucket.questions.length > 0)
-          : themeBuckets.map(bucket => ({
-              ...bucket,
-              questions: bucket.questions.filter(q => !usedQuestionIds.has(q.id)),
-            })).filter(bucket => bucket.questions.length > 0);
+        const partBuckets = (partTemaNumbers && partTemaNumbers.length > 0
+          ? themeBuckets.filter(bucket => partTemaNumbers.includes(bucket.order))
+          : themeBuckets
+        )
+          .map(bucket => ({
+            ...bucket,
+            // Exclude questions already selected in previous parts
+            questions: bucket.questions.filter(q => !usedQuestionIds.has(q.id)),
+          }))
+          .filter(bucket => bucket.questions.length > 0);
 
         const partSelected = selectWeightedQuestions(partBuckets, partCount, themeWeights);
         for (const q of partSelected) usedQuestionIds.add(q.id);
@@ -622,7 +620,7 @@ const SimulatedExam = () => {
                         <p key={i} className="text-xs text-muted-foreground">
                           <span className="font-medium">{part.label}:</span>{' '}
                           {part.numQuestions} preguntas{part.numReserve ? ` + ${part.numReserve} reserva` : ''}
-                          {part.temaNumbers ? ` · Temas ${part.temaNumbers[0]}–${part.temaNumbers[part.temaNumbers.length - 1]}` : ' · Todos los temas'}
+                          {part.temaNumbers && part.temaNumbers.length > 0 ? ` · Temas ${part.temaNumbers[0]}–${part.temaNumbers[part.temaNumbers.length - 1]}` : ' · Todos los temas'}
                         </p>
                       ))}
                     </div>
