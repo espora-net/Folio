@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:34:51.592Z",
+    "updatedAt": "2026-05-03T14:45:54.241Z",
     "title": "UAH C1 Tema 20 - La cooperación bibliotecaria en las bibliotecas universitarias en España",
     "description": "Banco normalizado de preguntas del tema 20 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 30,
@@ -334,9 +334,9 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 77. Respuesta validada por la plantilla oficial: Compartir recursos y optimizar gastos mediante acuerdos y consorcios. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q077-a1e1c37ba601",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q077-a1e1c37ba601"
+        "materialId": "uah-tema20#cooperacion-bibliotecaria",
+        "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
+        "highlightText": "La cooperación bibliotecaria amplía el acceso a la información, mejora la eficiencia de los servicios, reduce costes, favorece la normalización técnica y refuerza el papel de las bibliotecas universitarias en docencia, investigación y ciencia abierta."
       },
       "tags": [
         "examen-oficial",
@@ -360,9 +360,9 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad Politécnica de Madrid 2025 - Técnico Auxiliar de Biblioteca C1 - Primer ejercicio, pregunta 78. Respuesta validada por la plantilla oficial: La localización de fondos de todas las bibliotecas miembros. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-upm-c1-2025-1-q078-48c441e60174",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-upm-c1-2025-1-q078-48c441e60174"
+        "materialId": "uah-tema20#catalogo-colectivo-rebiun",
+        "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
+        "highlightText": "El Catálogo Colectivo de REBIUN reúne registros bibliográficos procedentes de bibliotecas universitarias y científicas. Su función principal es permitir localizar documentos en otras instituciones."
       },
       "tags": [
         "examen-oficial",
@@ -438,9 +438,9 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 89. Respuesta validada por la plantilla oficial: un objetivo del área 4 de los objetivos del Observatorio de Inteligencia Artificial de Rebiun. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
       "origin": "adaptada-ia",
       "source": {
-        "materialId": "uah-tema20#rebiun-ia",
-        "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
-        "highlightText": "REBIUN incluye entre sus líneas estratégicas la formación del personal en innovación tecnológica."
+        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q089-5536b1df9ff4",
+        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
+        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q089-5536b1df9ff4"
       },
       "tags": [
         "examen-oficial",
@@ -464,9 +464,9 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidade da Coruña 2025 - Auxiliar Técnico de Biblioteca - Segundo ejercicio, pregunta 101. Respuesta validada por la plantilla oficial: Actualmente es una red asociada a la Sectorial CRUE I+D+i. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-udc-c1-2025-2-q101-d015c53778ff",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-udc-c1-2025-2-q101-d015c53778ff"
+        "materialId": "reglamento-rebiun#naturaleza-fines",
+        "path": "data/uah-bibliotecas-2025/referencias/20_reglamento_rebiun.md",
+        "highlightText": "asociada a la Comisión Sectorial de I+D+i de Crue-Universidades Españolas"
       },
       "tags": [
         "examen-oficial",
@@ -515,9 +515,9 @@
       "explanation": "Pregunta procedente de examen oficial/real: Universidad de Cádiz 2025 - Técnico Auxiliar Biblioteca, Archivo y Museo, pregunta 54. Respuesta validada por la plantilla oficial: Bibliotecas de ámbito universitario público y privado más bibliotecas del CSIC. Clasificada como Tema 20 (Cooperación bibliotecaria) para practicar el temario UAH C1.",
       "origin": "oficial",
       "source": {
-        "materialId": "tema_20_preguntas_oficiales_validadas.md#uah-exam-cadiz-c1-2025-q054-8ed78ac9a355",
-        "path": "data/uah-bibliotecas-2025/referencias/tema_20_preguntas_oficiales_validadas.md",
-        "highlightText": "Validación oficial uah-exam-cadiz-c1-2025-q054-8ed78ac9a355"
+        "materialId": "uah-tema20#rebiun-composicion",
+        "path": "data/uah-bibliotecas-2025/tema_20_cooperacion_bibliotecaria_rebiun_madrono_uah.md",
+        "highlightText": "REBIUN está formada por las bibliotecas de las 76 universidades que forman parte de CRUE —49 públicas y 27 privadas— y por el CSIC."
       },
       "tags": [
         "examen-oficial",
