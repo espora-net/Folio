@@ -65,10 +65,10 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "El DOI se usa sobre todo para:",
       "options": [
-        "Identificacion persistente de objetos digitales",
-        "Identificacion comercial de ediciones monograficas",
-        "Identificacion de publicaciones seriadas y recursos continuados",
-        "Identificacion administrativa de publicaciones oficiales"
+        "Identificación persistente de objetos digitales",
+        "Identificación comercial de ediciones monográficas",
+        "Identificación de publicaciones seriadas y recursos continuados",
+        "Identificación administrativa de publicaciones oficiales"
       ],
       "correctIndex": 0,
       "explanation": "El DOI proporciona identificacion persistente de objetos digitales.",
@@ -84,10 +84,10 @@
       "topicId": "uah-bib-t14-contenido",
       "question": "El NIPO identifica:",
       "options": [
-        "Publicaciones oficiales de la Administracion General del Estado y entidades vinculadas",
+        "Publicaciones oficiales de la Administración General del Estado y entidades vinculadas",
         "Publicaciones seriadas de cualquier editor",
-        "Ediciones concretas de publicaciones monograficas",
-        "Objetos cientificos con referencia persistente"
+        "Ediciones concretas de publicaciones monográficas",
+        "Objetos científicos con referencia persistente"
       ],
       "correctIndex": 0,
       "explanation": "La Orden PRE/2418/2015 regula el numero de identificacion de publicaciones oficiales.",
@@ -104,9 +104,9 @@
       "question": "Un DOI como 10.1000/182 se caracteriza por:",
       "options": [
         "Tener prefijo y sufijo, ser persistente y resolverse como enlace",
-        "Tener 13 digitos y distinguir el formato editorial de una monografia",
-        "Constar de ocho cifras y vincular las versiones de una publicacion seriada",
-        "Expresarse con siglas de provincia, numero correlativo y anio"
+        "Tener 13 dígitos y distinguir el formato editorial de una monografía",
+        "Constar de ocho cifras y vincular las versiones de una publicación seriada",
+        "Expresarse con siglas de provincia, número correlativo y año"
       ],
       "correctIndex": 0,
       "explanation": "La DOI Foundation define el DOI como identificador persistente con prefijo y sufijo, resoluble mediante https://doi.org/.",
@@ -120,12 +120,12 @@
     {
       "id": "uah-m-14-129",
       "topicId": "uah-bib-t14-contenido",
-      "question": "El ISBN permite coordinar y normalizar la identificacion de:",
+      "question": "El ISBN permite coordinar y normalizar la identificación de:",
       "options": [
-        "Libros para localizarlos y facilitar su circulacion en el mercado",
+        "Libros para localizarlos y facilitar su circulación en el mercado",
         "Publicaciones seriadas y recursos continuados",
-        "Objetos digitales o fisicos con referencia persistente",
-        "Publicaciones oficiales de la Administracion General del Estado"
+        "Objetos digitales o físicos con referencia persistente",
+        "Publicaciones oficiales de la Administración General del Estado"
       ],
       "correctIndex": 0,
       "explanation": "El Ministerio de Cultura define el ISBN como codigo internacional que identifica cada libro.",
@@ -139,11 +139,11 @@
     {
       "id": "uah-m-14-130",
       "topicId": "uah-bib-t14-contenido",
-      "question": "El Centro Nacional Espanol del ISSN esta integrado actualmente en:",
+      "question": "El Centro Nacional Español del ISSN está integrado actualmente en:",
       "options": [
-        "La Biblioteca Nacional de Espana",
-        "La Agencia Espanola del ISBN",
-        "La Secretaria de la Junta de Coordinacion de Publicaciones Oficiales",
+        "La Biblioteca Nacional de España",
+        "La Agencia Española del ISBN",
+        "La Secretaría de la Junta de Coordinación de Publicaciones Oficiales",
         "Una agencia de registro DOI como Crossref"
       ],
       "correctIndex": 0,
@@ -158,15 +158,15 @@
     {
       "id": "uah-m-14-131",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Un codigo de Deposito Legal suele expresarse con:",
+      "question": "Un código de Depósito Legal suele expresarse con:",
       "options": [
-        "Siglas de provincia, numero correlativo y anio",
-        "Trece digitos con prefijo EAN y grupo de registro",
+        "Siglas de provincia, número correlativo y año",
+        "Trece dígitos con prefijo EAN y grupo de registro",
         "Ocho cifras en dos grupos de cuatro separadas por guion",
         "Prefijo y sufijo separados por una barra"
       ],
       "correctIndex": 0,
-      "explanation": "El tema muestra el Deposito Legal con siglas de provincia, numero y anio, por ejemplo D.L. M-12345-2025.",
+      "explanation": "El tema muestra el Depósito Legal con siglas de provincia, número y año, por ejemplo D.L. M-12345-2025.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "deposito-legal",
@@ -177,15 +177,15 @@
     {
       "id": "uah-m-14-132",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Segun el tema, el NIPO puede aparecer en:",
+      "question": "Según el tema, el NIPO puede aparecer en:",
       "options": [
-        "Publicaciones electronicas oficiales de la Administracion General del Estado",
-        "Revistas cientificas de cualquier editor por ser recursos continuados",
-        "Ediciones comerciales de monografias sin relacion con organismos publicos",
-        "Datasets de investigacion cuando se registran con DOI"
+        "Publicaciones electrónicas oficiales de la Administración General del Estado",
+        "Revistas científicas de cualquier editor por ser recursos continuados",
+        "Ediciones comerciales de monografías sin relación con organismos públicos",
+        "Datasets de investigación cuando se registran con DOI"
       ],
       "correctIndex": 0,
-      "explanation": "El tema indica que el NIPO identifica publicaciones oficiales de la Administracion General del Estado y puede aparecer en publicaciones electronicas de la AGE.",
+      "explanation": "El tema indica que el NIPO identifica publicaciones oficiales de la Administración General del Estado y puede aparecer en publicaciones electrónicas de la AGE.",
       "origin": "adaptada-ia",
       "source": {
         "materialId": "nipo",
