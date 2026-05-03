@@ -657,21 +657,21 @@
     {
       "id": "uah-t14-point-0",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué debes recordar sobre ISBN?",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
       "answer": "ISBN: identificador internacional de libros y ciertas publicaciones monograficas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-1",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué debes recordar sobre ISSN?",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
       "answer": "ISSN: identificador internacional de publicaciones seriadas y recursos continuados.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t14-point-2",
       "topicId": "uah-bib-t14-contenido",
-      "question": "Como opositor/a, ¿qué debes recordar sobre DOI?",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 14?",
       "answer": "DOI: identificador persistente para objetos digitales, usado en articulos, datos y otros recursos.",
       "origin": "generada-ia"
     },
