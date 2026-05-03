@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 13 - Proceso técnico de fondos documentales",
     "description": "Banco normalizado de preguntas del tema 13 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 35,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 12,
       "generada-ia": 4,
@@ -886,28 +886,28 @@
     {
       "id": "uah-t13-point-0",
       "topicId": "uah-bib-t13-contenido",
-      "question": "T13. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 13?",
       "answer": "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-1",
       "topicId": "uah-bib-t13-contenido",
-      "question": "T13. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 13?",
       "answer": "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-2",
       "topicId": "uah-bib-t13-contenido",
-      "question": "T13. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 13?",
       "answer": "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-3",
       "topicId": "uah-bib-t13-contenido",
-      "question": "T13. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 13?",
       "answer": "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
       "origin": "generada-ia"
     },
@@ -917,6 +917,13 @@
       "question": "MARC 21, FRBR y RDA en una linea.",
       "answer": "MARC 21 codifica datos; FRBR modela entidades y relaciones; RDA da instrucciones de descripcion y acceso.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t13-fact-finalidad-proceso-tecnico",
+      "topicId": "uah-bib-t13-contenido",
+      "question": "Como opositor/a, ¿cuál es la finalidad del proceso técnico de fondos documentales?",
+      "answer": "Convertir cada documento en un recurso localizable, recuperable, identificable, accesible y gestionable en el sistema bibliotecario.",
+      "origin": "curada-editorial"
     }
   ]
 }

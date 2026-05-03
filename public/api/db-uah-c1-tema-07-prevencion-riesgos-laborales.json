@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 07 - Prevención de Riesgos Laborales en la UAH",
     "description": "Banco normalizado de preguntas del tema 7 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 14,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 4,
       "generada-ia": 4,
@@ -374,30 +374,37 @@
     {
       "id": "uah-t7-point-0",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 7?",
       "answer": "La politica preventiva fija el compromiso institucional con seguridad, salud y mejora continua.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t7-point-1",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 7?",
       "answer": "La actividad preventiva se planifica, ejecuta, evalua y revisa.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t7-point-2",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 7?",
       "answer": "Las responsabilidades se distribuyen entre organos de gobierno, unidades, mandos, trabajadores y servicio de prevencion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t7-point-3",
       "topicId": "uah-bib-t07-contenido",
-      "question": "T7. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué debes recordar sobre La documentacion preventiva debe permitir trazabilidad?",
       "answer": "La documentacion preventiva debe permitir trazabilidad: riesgos, medidas, responsables, plazos y seguimiento.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t7-fact-principios-preventivos",
+      "topicId": "uah-bib-t07-contenido",
+      "question": "Como opositor/a, ¿qué principio preventivo debes aplicar antes de recurrir a medidas individuales?",
+      "answer": "Anteponer la protección colectiva a la individual, dentro de los principios generales de la acción preventiva.",
+      "origin": "curada-editorial"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 16 - El movimiento de acceso abierto y los repositorios institucionales",
     "description": "Banco normalizado de preguntas del tema 16 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 42,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 18,
       "generada-ia": 4,
@@ -1063,28 +1063,28 @@
     {
       "id": "uah-t16-point-0",
       "topicId": "uah-bib-t16-contenido",
-      "question": "T16. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
       "answer": "El acceso abierto busca disponibilidad en linea de resultados de investigacion con barreras minimas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-1",
       "topicId": "uah-bib-t16-contenido",
-      "question": "T16. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
       "answer": "eBUAH es el repositorio institucional de la Universidad de Alcala.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-2",
       "topicId": "uah-bib-t16-contenido",
-      "question": "T16. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
       "answer": "eCienciaDatos aloja y facilita preservacion, cita y reutilizacion de datos de investigacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t16-point-3",
       "topicId": "uah-bib-t16-contenido",
-      "question": "T16. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 16?",
       "answer": "La politica de Ciencia Abierta UAH fija compromisos institucionales sobre publicaciones, datos, preservacion y buenas practicas.",
       "origin": "generada-ia"
     },
@@ -1094,6 +1094,13 @@
       "question": "eBUAH frente a eCienciaDatos.",
       "answer": "eBUAH es repositorio institucional de produccion UAH; eCienciaDatos se orienta a datos de investigacion.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t16-fact-rutas-acceso-abierto",
+      "topicId": "uah-bib-t16-contenido",
+      "question": "Como opositor/a, ¿qué rutas de acceso abierto debes reconocer?",
+      "answer": "Verde, dorada, híbrida, diamante o platino y bronce, distinguiendo repositorio, revista abierta, apertura en revista de suscripción, sin coste autor/lector y acceso sin licencia clara.",
+      "origin": "curada-editorial"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 10 - El Servicio de Biblioteca de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 10 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 24,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 13,
       "generada-ia": 4,
@@ -598,30 +598,37 @@
     {
       "id": "uah-t10-point-0",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 10?",
       "answer": "La Biblioteca UAH presta apoyo a aprendizaje, docencia, investigacion y gestion universitaria.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t10-point-1",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 10?",
       "answer": "La estructura combina servicios centrales, bibliotecas de centro y unidades de apoyo.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t10-point-2",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 10?",
       "answer": "La guia de cultura y valores ayuda a memorizar identidad de servicio, trato al usuario y mejora continua.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t10-point-3",
       "topicId": "uah-bib-t10-contenido",
-      "question": "T10. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 10?",
       "answer": "El reglamento define usuarios, servicios, derechos, deberes y normas generales.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t10-fact-proposito-buah",
+      "topicId": "uah-bib-t10-contenido",
+      "question": "Como opositor/a, ¿cuál es el propósito de la Biblioteca UAH?",
+      "answer": "Ofrecer servicios excelentes para aprendizaje, docencia, investigación e innovación, facilitando la generación, gestión y transmisión del conocimiento y contribuyendo a la estrategia UAH.",
+      "origin": "curada-editorial"
     }
   ]
 }

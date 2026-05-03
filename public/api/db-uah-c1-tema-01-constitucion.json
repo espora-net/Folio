@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 01 - Constitución Española de 1978",
     "description": "Banco normalizado de preguntas del tema 1 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 28,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 21,
       "generada-ia": 4,
@@ -649,28 +649,28 @@
     {
       "id": "uah-t1-point-0",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué debes recordar sobre Articulo 1?",
       "answer": "Articulo 1: Estado social y democratico de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo politico.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-1",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué debes recordar sobre Articulo 2?",
       "answer": "Articulo 2: unidad de la Nacion espanola y derecho a la autonomia de nacionalidades y regiones.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-2",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 1?",
       "answer": "Titulo I distingue derechos fundamentales, derechos y deberes, principios rectores y garantias.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t1-point-3",
       "topicId": "uah-bib-t01-contenido",
-      "question": "T1. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 1?",
       "answer": "El Defensor del Pueblo y el recurso de amparo protegen especialmente los derechos fundamentales.",
       "origin": "generada-ia"
     },
@@ -680,6 +680,13 @@
       "question": "¿Cuales son los valores superiores del ordenamiento juridico?",
       "answer": "Libertad, justicia, igualdad y pluralismo politico.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t1-fact-igualdad-9-2-14",
+      "topicId": "uah-bib-t01-contenido",
+      "question": "Como opositor/a, ¿qué diferencia debes recordar entre los artículos 14 y 9.2 de la Constitución?",
+      "answer": "El artículo 14 proclama la igualdad formal ante la ley; el artículo 9.2 exige a los poderes públicos promover la igualdad real y efectiva.",
+      "origin": "curada-editorial"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:34:51.592Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 11 - Organización espacial y equipamiento de las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 11 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 18,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 11,
       "generada-ia": 4,
@@ -451,30 +451,37 @@
     {
       "id": "uah-t11-point-0",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 11?",
       "answer": "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-1",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 11?",
       "answer": "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-2",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 11?",
       "answer": "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-3",
       "topicId": "uah-bib-t11-contenido",
-      "question": "T11. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 11?",
       "answer": "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t11-fact-bloques-espacios",
+      "topicId": "uah-bib-t11-contenido",
+      "question": "Como opositor/a, ¿qué cinco bloques debes dominar sobre espacios y equipamiento bibliotecario?",
+      "answer": "Instalaciones, salas de estudio y trabajo en grupo, colección de libre acceso y depósitos, equipamiento informático y sistemas de autoservicio.",
+      "origin": "curada-editorial"
     }
   ]
 }

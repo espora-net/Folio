@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 04 - Ley Orgánica 3/2018 de Protección de Datos Personales",
     "description": "Banco normalizado de preguntas del tema 4 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 20,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 10,
       "generada-ia": 4,
@@ -519,28 +519,28 @@
     {
       "id": "uah-t4-point-0",
       "topicId": "uah-bib-t04-contenido",
-      "question": "T4. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué debes recordar sobre Principios?",
       "answer": "Principios: exactitud, deber de confidencialidad, consentimiento cuando proceda y tratamiento basado en legitimacion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-1",
       "topicId": "uah-bib-t04-contenido",
-      "question": "T4. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué debes recordar sobre Derechos?",
       "answer": "Derechos: acceso, rectificacion, supresion, oposicion, limitacion y portabilidad.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-2",
       "topicId": "uah-bib-t04-contenido",
-      "question": "T4. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué debes recordar sobre La proteccion de datos personales afecta a servicios bibliotecarios?",
       "answer": "La proteccion de datos personales afecta a servicios bibliotecarios: usuarios, prestamos, accesos y comunicaciones.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t4-point-3",
       "topicId": "uah-bib-t04-contenido",
-      "question": "T4. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 4?",
       "answer": "Los datos deben tratarse con minimizacion y finalidad concreta.",
       "origin": "generada-ia"
     },
@@ -550,6 +550,13 @@
       "question": "Enumera los derechos basicos de proteccion de datos que debes reconocer.",
       "answer": "Acceso, rectificacion, supresion, oposicion, limitacion del tratamiento y portabilidad.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t4-fact-principios-rgpd",
+      "topicId": "uah-bib-t04-contenido",
+      "question": "Como opositor/a, ¿qué fórmula resume los principios básicos del RGPD?",
+      "answer": "Tratar datos de forma lícita, leal, transparente, limitada a la finalidad, exacta, segura y con responsabilidad proactiva.",
+      "origin": "curada-editorial"
     }
   ]
 }

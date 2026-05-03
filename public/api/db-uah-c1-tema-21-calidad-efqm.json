@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 21 - La calidad en las bibliotecas universitarias españolas según REBIUN",
     "description": "Banco normalizado de preguntas del tema 21 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 24,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 12,
       "generada-ia": 4,
@@ -601,30 +601,37 @@
     {
       "id": "uah-t21-point-0",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 21?",
       "answer": "REBIUN impulsa indicadores, estadisticas, lineas estrategicas y buenas practicas de calidad.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t21-point-1",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 21?",
       "answer": "EFQM es un modelo de gestion orientado a excelencia, evaluacion y mejora continua.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t21-point-2",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 21?",
       "answer": "La certificacion exige evidencias documentales y resultados, no solo declaracion de intenciones.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t21-point-3",
       "topicId": "uah-bib-t21-contenido",
-      "question": "T21. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 21?",
       "answer": "En bibliotecas, la calidad se mide en servicios, colecciones, accesibilidad, tiempos, satisfaccion e impacto.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t21-fact-calidad-rebiun",
+      "topicId": "uah-bib-t21-contenido",
+      "question": "Como opositor/a, ¿por qué REBIUN es clave para la calidad bibliotecaria?",
+      "answer": "Recopila estadísticas e indicadores, facilita comparación y benchmarking, promueve estándares y buenas prácticas y ayuda a mostrar el impacto de las bibliotecas.",
+      "origin": "curada-editorial"
     }
   ]
 }

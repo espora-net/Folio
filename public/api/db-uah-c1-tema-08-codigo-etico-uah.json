@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 08 - Código Ético General de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 8 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 11,
-    "explicitFlashcardCount": 3,
+    "explicitFlashcardCount": 4,
     "originCounts": {
       "adaptada-ia": 5,
       "generada-ia": 3,
@@ -295,23 +295,30 @@
     {
       "id": "uah-t8-point-0",
       "topicId": "uah-bib-t08-contenido",
-      "question": "T8. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 8?",
       "answer": "El codigo promueve integridad, responsabilidad, respeto, transparencia, imparcialidad y servicio publico.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t8-point-1",
       "topicId": "uah-bib-t08-contenido",
-      "question": "T8. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 8?",
       "answer": "Afecta a relaciones internas, uso de recursos, conflicto de intereses y compromiso institucional.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t8-point-2",
       "topicId": "uah-bib-t08-contenido",
-      "question": "T8. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 8?",
       "answer": "Relaciona etica publica con calidad del servicio universitario.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t8-fact-estructura-codigo-etico",
+      "topicId": "uah-bib-t08-contenido",
+      "question": "Como opositor/a, ¿qué estructura tiene el Código Ético General de la UAH?",
+      "answer": "Cinco títulos y una disposición final: valores éticos, principios de conducta y buen gobierno, Comité de Ética, auditorías y mecanismos de control/reprobación.",
+      "origin": "curada-editorial"
     }
   ]
 }

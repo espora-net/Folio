@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 17 - Los servicios al usuario en las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 17 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 32,
-    "explicitFlashcardCount": 4,
+    "explicitFlashcardCount": 5,
     "originCounts": {
       "adaptada-ia": 15,
       "generada-ia": 4,
@@ -809,30 +809,37 @@
     {
       "id": "uah-t17-point-0",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
       "answer": "Los servicios al usuario incluyen informacion, prestamo, formacion, acceso a recursos, apoyo a investigacion y espacios.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-1",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
       "answer": "La carta concreta compromisos de calidad, indicadores y derechos de las personas usuarias.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-2",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
       "answer": "La atencion debe ser accesible, respetuosa, eficaz y orientada a resolver necesidades.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t17-point-3",
       "topicId": "uah-bib-t17-contenido",
-      "question": "T17. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 17?",
       "answer": "Los canales digitales son parte central del servicio bibliotecario universitario.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t17-fact-carta-servicios",
+      "topicId": "uah-bib-t17-contenido",
+      "question": "Como opositor/a, ¿qué informa públicamente la Carta de Servicios de la Biblioteca UAH?",
+      "answer": "Servicios ofrecidos, compromisos de calidad, indicadores de cumplimiento, canales de comunicación y derechos, deberes y participación de los usuarios.",
+      "origin": "curada-editorial"
     }
   ]
 }

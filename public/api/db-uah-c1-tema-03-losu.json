@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T12:27:57.068Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 03 - Ley Orgánica 2/2023 del Sistema Universitario",
     "description": "Banco normalizado de preguntas del tema 3 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 41,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 30,
       "generada-ia": 4,
@@ -1037,28 +1037,28 @@
     {
       "id": "uah-t3-point-0",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
       "answer": "La universidad presta servicio publico de educacion superior mediante docencia, investigacion, transferencia y difusion del conocimiento.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-1",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
       "answer": "La autonomia universitaria alcanza organizacion, gobierno, docencia, investigacion, gestion y administracion de recursos.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-2",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
       "answer": "La gobernanza publica se articula mediante organos colegiados y unipersonales.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t3-point-3",
       "topicId": "uah-bib-t03-contenido",
-      "question": "T3. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 3?",
       "answer": "El PTGAS sostiene funciones tecnicas, de gestion, administracion, apoyo, asesoramiento y asistencia.",
       "origin": "generada-ia"
     },
@@ -1068,6 +1068,13 @@
       "question": "¿Que significa PTGAS?",
       "answer": "Personal tecnico, de gestion y de administracion y servicios.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t3-fact-funciones-sistema-universitario",
+      "topicId": "uah-bib-t03-contenido",
+      "question": "Como opositor/a, ¿qué tres grandes funciones garantiza el sistema universitario según la LOSU?",
+      "answer": "Docencia, investigación y transferencia e intercambio del conocimiento.",
+      "origin": "curada-editorial"
     }
   ]
 }

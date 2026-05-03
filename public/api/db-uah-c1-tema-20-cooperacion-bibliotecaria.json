@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T14:45:54.241Z",
+    "updatedAt": "2026-05-03T17:54:05.548Z",
     "title": "UAH C1 Tema 20 - La cooperación bibliotecaria en las bibliotecas universitarias en España",
     "description": "Banco normalizado de preguntas del tema 20 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 30,
-    "explicitFlashcardCount": 5,
+    "explicitFlashcardCount": 6,
     "originCounts": {
       "adaptada-ia": 10,
       "generada-ia": 4,
@@ -764,28 +764,28 @@
     {
       "id": "uah-t20-point-0",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
       "answer": "La cooperacion permite compartir recursos, mejorar servicios, negociar y coordinar buenas practicas.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-1",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
       "answer": "REBIUN articula cooperacion de bibliotecas universitarias y cientificas en el ambito espanol.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-2",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
       "answer": "Madrono agrupa universidades de Madrid y UNED para cooperacion bibliotecaria.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t20-point-3",
       "topicId": "uah-bib-t20-contenido",
-      "question": "T20. Completa esta idea de contenido",
+      "question": "Como opositor/a, ¿qué idea clave debes recuperar del tema 20?",
       "answer": "El Pasaporte Madrono facilita acceso y uso de servicios entre instituciones participantes segun condiciones.",
       "origin": "generada-ia"
     },
@@ -795,6 +795,13 @@
       "question": "REBIUN frente a Madrono.",
       "answer": "REBIUN es red de cooperacion bibliotecaria universitaria/cientifica; Madrono es consorcio de universidades madrilenas y UNED.",
       "origin": "generada-ia"
+    },
+    {
+      "id": "uah-t20-fact-niveles-cooperacion",
+      "topicId": "uah-bib-t20-contenido",
+      "question": "Como opositor/a, ¿qué niveles de cooperación bibliotecaria debes manejar?",
+      "answer": "Local, regional, nacional, internacional, técnica, económica y profesional; Madroño es regional y REBIUN nacional.",
+      "origin": "curada-editorial"
     }
   ]
 }
