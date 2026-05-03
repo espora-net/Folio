@@ -33,13 +33,14 @@ Decisiones actuales (fuente de verdad):
 - 2025-12-14 — **Sitio estático**: Next.js App Router con `output: 'export'` y `trailingSlash: true` para GitHub Pages.
 - 2025-12-14 — **Datos sin backend**: `public/api/` nació como “API estática” JSON consumida vía `fetch`; desde 2026-05-02 el runtime publicado usa FlatBuffers derivados.
 - 2025-12-14 — **Persistencia por usuario**: progreso en `localStorage` con claves `clave::userId` y usuario activo en `folio_active_user_id`.
-- 2025-12-14 — **No persistir preguntas**: `questions` vienen del dataset y no se guardan; `flashcards` se derivan de `questions`.
+- 2025-12-14 — **No persistir preguntas**: `questions` vienen del dataset y no se guardan; las `flashcards` tampoco se persisten (ver decisión 2026-05-03).
 - 2025-12-14 — **Authgear + GitHub OAuth**: login client-side, callback en `/auth/callback/` y `NEXT_PUBLIC_SKIP_AUTH=true` para desarrollo/demos.
 - 2026-01-03 — **Temario por tipo de estudio**: `public/api/db.json` declara `studyTypes` (plantilla de Temario + datasets asociados) y `convocatorias` enlaza `questionDatasetIds` para relacionar temario con tests.
 - 2026-01-03 — **syllabusCoverageIds**: Los subtopics de los datasets (`db-*.json`) incluyen `syllabusCoverageIds` que enlazan con `cobertura_convocatoria` de la convocatoria. Validado por el agente `.github/agents/ValidateSyllabusCoverage.agent.md` antes de cualquier merge.
 - 2026-01-04 — **Schema consolidado para datasets**: Todos los archivos `db-*.json` siguen el mismo schema definido en `public/api/question-bank.schema.json`. Validación con `npm run validate-schemas`. Campos `correctAnswer` y `correctIndex` son intercambiables (normalizados a `correctIndex` en runtime).
 - 2026-05-02 — **Runtime FlatBuffers sin fallback JSON**: los JSON de `public/api/*.json` son fuente editorial; `npm run generate-flatbuffers` genera `public/api/optimized/manifest.json` y `.fb.bin`; el sitio publicado consume solo FlatBuffers y la Action elimina JSON fuente de `out/api`. Archivos: `schemas/folio-data.fbs`, `scripts/generate-flatbuffers-data.mjs`, `src/lib/optimized-data-api.ts`, `.github/workflows/nextjs.yml`.
 - 2026-05-02 — **Contenido específico UAH Bibliotecas 2025**: se añade el dataset `uah-tec-aux-archivos-bibliotecas-2025` con preguntas `curada`/`refuerzo`, fuentes enlazadas y guías Markdown limpias por tema en `public/data/uah-bibliotecas-2025/`.
+- 2026-05-03 — **Flashcards curadas por dataset**: cada `db-*.json` puede declarar un array `flashcards` (formalizado en `question-bank.schema.json`) con `{id, topicId, question, answer, origin}`. Si un dataset incluye flashcards curadas, en runtime se usan tal cual y NO se derivan flashcards desde sus preguntas (los enunciados de test no se adaptan al formato pregunta/respuesta). Para datasets sin `flashcards`, se mantiene el fallback legacy de derivar 1:1 desde `questions`. Archivos: `public/api/question-bank.schema.json`, `src/lib/storage.ts`.
 
 ## Estructura del proyecto (resumen)
 
@@ -220,7 +221,7 @@ Reglas de persistencia actuales:
 - **Topics**: se guardan en localStorage y se preserva `completed` durante la hidratación.
 - **Stats**: se guardan en localStorage (solo se inicializan si no existen).
 - **Questions**: vienen del runtime optimizado generado desde JSON fuente y **no se persisten**.
-- **Flashcards**: se **derivan** de `questions` (no se guardan como entidad propia).
+- **Flashcards**: si el dataset declara un array `flashcards`, se usan esas flashcards curadas (origen editorial); en caso contrario se **derivan** automáticamente de `questions` como fallback. No se persisten en localStorage.
 - **Preferencias** (onboarding / tipo de estudio): `folio_preferences::userId`.
 
 ⚠️ Importante al modificar tipos/merge:
