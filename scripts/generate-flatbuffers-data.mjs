@@ -166,6 +166,14 @@ const normalizeExamConfig = (config) => {
     passingScore: hasPassingScore ? config.passingScore : 0,
     hasPassingScore,
     description: normalizeString(config.description),
+    examParts: Array.isArray(config.examParts)
+      ? config.examParts.map(part => ({
+          label: normalizeString(part.label),
+          numQuestions: typeof part.numQuestions === 'number' ? part.numQuestions : 0,
+          numReserve: typeof part.numReserve === 'number' ? part.numReserve : 0,
+          temaNumbers: Array.isArray(part.temaNumbers) ? part.temaNumbers.filter(n => typeof n === 'number') : [],
+        }))
+      : [],
   };
 };
 

@@ -89,6 +89,19 @@ export interface DatasetDescriptor {
   }>;
 }
 
+// Parte de un examen con distribución diferenciada de preguntas
+export interface ExamPart {
+  // Etiqueta de la parte (ej. "Primera parte", "Segunda parte")
+  label: string;
+  // Número de preguntas evaluables de esta parte
+  numQuestions: number;
+  // Número de preguntas de reserva de esta parte
+  numReserve?: number;
+  // Números de temas incluidos en esta parte (ej. [1,2,...,22] o [10,11,...,22]).
+  // Si no se especifica, se incluyen todos los temas.
+  temaNumbers?: number[];
+}
+
 // Configuración del examen oficial de una convocatoria
 export interface ExamConfig {
   // Número de preguntas del examen
@@ -107,6 +120,10 @@ export interface ExamConfig {
   passingScore?: number;
   // Descripción del formato del examen
   description?: string;
+  // Partes del examen con distribución diferenciada de temas.
+  // Si se define, la selección de preguntas respeta la distribución por partes.
+  // numQuestions/numReserve del nivel superior siguen siendo el total.
+  examParts?: ExamPart[];
 }
 
 // Tipos para convocatorias y temas del temario

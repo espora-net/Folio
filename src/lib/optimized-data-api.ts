@@ -25,6 +25,7 @@ import {
   type DatabaseMeta,
   type DatasetDescriptor,
   type ExamConfig,
+  type ExamPart,
   type Flashcard,
   type QuestionSource,
   type StudyStats,
@@ -184,6 +185,24 @@ const decodeStudyType = (entry: FlatStudyTypeRegistryEntry | null): StudyTypeReg
 
 const decodeExamConfig = (config: FlatExamConfig | null): ExamConfig | undefined => {
   if (!config) return undefined;
+
+  const examParts: ExamPart[] = [];
+  const partsLength = config.examPartsLength();
+  for (let i = 0; i < partsLength; i++) {
+    const part = config.examParts(i);
+    if (!part) continue;
+    const temaNumbers: number[] = [];
+    for (let j = 0; j < part.temaNumbersLength(); j++) {
+      temaNumbers.push(part.temaNumbers(j)!);
+    }
+    examParts.push({
+      label: text(part.label()) || '',
+      numQuestions: part.numQuestions(),
+      numReserve: part.numReserve() || undefined,
+      temaNumbers: temaNumbers.length > 0 ? temaNumbers : undefined,
+    });
+  }
+
   return {
     numQuestions: config.numQuestions(),
     numReserve: config.numReserve() || undefined,
@@ -193,6 +212,7 @@ const decodeExamConfig = (config: FlatExamConfig | null): ExamConfig | undefined
     pointsBlank: config.pointsBlank(),
     passingScore: config.hasPassingScore() ? config.passingScore() : undefined,
     description: text(config.description()) || undefined,
+    examParts: examParts.length > 0 ? examParts : undefined,
   };
 };
 

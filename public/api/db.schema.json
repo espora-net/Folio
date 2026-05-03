@@ -177,6 +177,35 @@
             "description": {
               "type": "string",
               "description": "Descripción del formato del examen."
+            },
+            "examParts": {
+              "type": "array",
+              "description": "Partes del examen con distribución diferenciada de temas.",
+              "items": {
+                "type": "object",
+                "required": ["label", "numQuestions"],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "description": "Etiqueta de la parte (ej. 'Primera parte')."
+                  },
+                  "numQuestions": {
+                    "type": "integer",
+                    "description": "Número de preguntas evaluables de esta parte."
+                  },
+                  "numReserve": {
+                    "type": "integer",
+                    "description": "Número de preguntas de reserva de esta parte."
+                  },
+                  "temaNumbers": {
+                    "type": "array",
+                    "description": "Números de temas incluidos en esta parte. Si no se especifica, todos.",
+                    "items": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
             }
           },
           "required": ["numQuestions", "durationMinutes", "pointsCorrect", "pointsIncorrect", "pointsBlank"]
