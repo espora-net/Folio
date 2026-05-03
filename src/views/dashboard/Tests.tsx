@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useRef } from 'react';
-import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck, SkipForward } from 'lucide-react';
+import { Play, CheckCircle, XCircle, Trophy, RotateCcw, LayoutGrid, List, BookOpen, ExternalLink, Sparkles, FileCheck, SkipForward, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -175,13 +175,17 @@ const Tests = () => {
     // testQuestions ya contiene las preguntas del test anterior
   };
 
+  const showAnswer = () => {
+    setSkippedCount(prev => prev + 1);
+    setSelectedAnswer(null);
+    setShowResult(true);
+  };
+
   // Pasar pregunta sin responder
   const skipQuestion = () => {
     // Se contabiliza como no acertada, pero se muestra la respuesta correcta
     // y se deja el botón de acción como "Siguiente"/"Finalizar".
-    setSkippedCount(prev => prev + 1);
-    setSelectedAnswer(null);
-    setShowResult(true);
+    showAnswer();
   };
 
   // Calcular el número efectivo de preguntas a estudiar
@@ -562,24 +566,45 @@ const Tests = () => {
               )}
 
               <div className="mt-6 flex justify-between gap-2">
-                {isMobile ? (
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <Button variant="ghost" size="icon" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
-                        <SkipForward className="h-4 w-4" />
-                        <span className="sr-only">Pasar</span>
+                <div className="flex gap-2">
+                  {isMobile ? (
+                    <>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button variant="ghost" size="icon" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
+                            <SkipForward className="h-4 w-4" />
+                            <span className="sr-only">Pasar</span>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Pasar</p>
+                        </TooltipContent>
+                      </Tooltip>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button variant="ghost" size="icon" onClick={showAnswer} className="text-muted-foreground" disabled={showResult}>
+                            <Eye className="h-4 w-4" />
+                            <span className="sr-only">Mostrar respuesta</span>
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Mostrar respuesta</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </>
+                  ) : (
+                    <>
+                      <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
+                        <SkipForward className="h-4 w-4 mr-2" />
+                        Pasar
                       </Button>
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>Pasar</p>
-                    </TooltipContent>
-                  </Tooltip>
-                ) : (
-                  <Button variant="ghost" onClick={skipQuestion} className="text-muted-foreground" disabled={showResult}>
-                    <SkipForward className="h-4 w-4 mr-2" />
-                    Pasar
-                  </Button>
-                )}
+                      <Button variant="ghost" onClick={showAnswer} className="text-muted-foreground" disabled={showResult}>
+                        <Eye className="h-4 w-4 mr-2" />
+                        Mostrar respuesta
+                      </Button>
+                    </>
+                  )}
+                </div>
                 <div className="flex gap-2">
                   {!showResult ? (
                     isMobile ? (
