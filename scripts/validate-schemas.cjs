@@ -68,6 +68,86 @@ function printResult(file, result) {
   }
 }
 
+function validateReferentialIntegrity(filePath) {
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    
+    // Extract valid subtopic IDs
+    const validSubtopicIds = new Set();
+    if (data.topics && Array.isArray(data.topics)) {
+      for (const topic of data.topics) {
+        if (topic.subtopics && Array.isArray(topic.subtopics)) {
+          for (const subtopic of topic.subtopics) {
+            if (subtopic.id) {
+              validSubtopicIds.add(subtopic.id);
+            }
+          }
+        }
+      }
+    }
+    
+    // Check question topicId references
+    const invalidQuestions = [];
+    if (data.questions && Array.isArray(data.questions)) {
+      for (const q of data.questions) {
+        if (q.topicId && !validSubtopicIds.has(q.topicId)) {
+          invalidQuestions.push({ id: q.id, topicId: q.topicId });
+        }
+      }
+    }
+    
+    // Check flashcard topicId references
+    const invalidFlashcards = [];
+    if (data.flashcards && Array.isArray(data.flashcards)) {
+      for (const fc of data.flashcards) {
+        if (fc.topicId && !validSubtopicIds.has(fc.topicId)) {
+          invalidFlashcards.push({ id: fc.id, topicId: fc.topicId });
+        }
+      }
+    }
+    
+    if (invalidQuestions.length > 0 || invalidFlashcards.length > 0) {
+      return {
+        status: 'invalid',
+        validSubtopics: Array.from(validSubtopicIds),
+        invalidQuestions,
+        invalidFlashcards
+      };
+    }
+    
+    return { status: 'valid' };
+  } catch (error) {
+    return { status: 'error', message: error.message };
+  }
+}
+
+function printIntegrityResult(file, result) {
+  if (result.status === 'valid') {
+    console.log(`  ✅ Referential integrity OK`);
+  } else if (result.status === 'invalid') {
+    console.log(`  ❌ Referential integrity errors:`);
+    console.log(`     Valid subtopics: ${result.validSubtopics.length}`);
+    if (result.invalidQuestions.length > 0) {
+      console.log(`     Invalid question references: ${result.invalidQuestions.length}`);
+      result.invalidQuestions.slice(0, 5).forEach(q => {
+        console.log(`       - ${q.id} → ${q.topicId}`);
+      });
+      if (result.invalidQuestions.length > 5) {
+        console.log(`       ... and ${result.invalidQuestions.length - 5} more`);
+      }
+    }
+    if (result.invalidFlashcards.length > 0) {
+      console.log(`     Invalid flashcard references: ${result.invalidFlashcards.length}`);
+      result.invalidFlashcards.forEach(fc => {
+        console.log(`       - ${fc.id} → ${fc.topicId}`);
+      });
+    }
+    console.log('');
+  } else if (result.status === 'error') {
+    console.log(`  ⚠️  Could not validate referential integrity: ${result.message}`);
+  }
+}
+
 function main() {
   const ajv = new Ajv({ allErrors: true, strict: false });
   addFormats(ajv);
@@ -113,6 +193,13 @@ function main() {
       printResult(file, result);
       if (result.status !== 'valid') {
         allValid = false;
+      } else {
+        // Also validate referential integrity
+        const integrityResult = validateReferentialIntegrity(filePath);
+        printIntegrityResult(file, integrityResult);
+        if (integrityResult.status !== 'valid') {
+          allValid = false;
+        }
       }
     }
   }

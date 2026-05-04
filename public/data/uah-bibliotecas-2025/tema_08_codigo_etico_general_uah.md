@@ -165,6 +165,8 @@ Este es el bloque más importante para la oposición, porque afecta directamente
 
 ### 8.1. Respeto de derechos fundamentales y libertades públicas
 
+**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social.
+
 El personal debe actuar respetando los derechos fundamentales y evitando cualquier actuación discriminatoria.
 
 El Código menciona expresamente discriminaciones por razón de:
@@ -195,6 +197,8 @@ Un auxiliar de archivos y bibliotecas debe aplicar este principio en:
 
 ## 9. Imparcialidad, objetividad y ausencia de privilegios
 
+**Artículo 9 del Código:** En el desempeño de sus funciones y tareas, el personal al servicio de la Universidad de Alcalá actuará con imparcialidad, objetividad, diligencia, lealtad y buena fe con la Universidad y con sus superiores, compañeros y subordinados. Estos mismos principios inspirarán el comportamiento del personal en sus relaciones con los estudiantes.
+
 El Código exige que la actuación del personal se oriente al interés general y evite ventajas indebidas para el propio empleado, su entorno familiar o social, o terceros.
 
 Esto implica:
@@ -211,9 +215,15 @@ Un usuario conocido del empleado pide saltarse la lista de espera de una sala de
 
 ---
 
-## 10. Rechazo de regalos, favores o servicios ventajosos
+## 10. Conflictos de intereses y rechazo de regalos
 
-El personal debe rechazar regalos, favores o servicios ventajosos que vayan más allá de los usos habituales, sociales y de cortesía.
+**Artículo 10 del Código:** A fin de evitar la incursión en conflicto de intereses con las obligaciones de su puesto público, el personal de la Universidad de Alcalá:
+
+a) No contraerá obligaciones económicas ni intervendrá en operaciones financieras, obligaciones patrimoniales o negocios jurídicos con personas o entidades cuando pueda suponer un conflicto de intereses con las obligaciones de su puesto público.
+
+b) Se abstendrá de intervenir en aquellos asuntos en los que tenga interés personal, así como de realizar cualquier actividad privada que pueda suponer un riesgo de incurrir en conflictos de intereses con su puesto público.
+
+En particular, el personal de administración y servicios cuidará especialmente de que la tramitación de los procedimientos de los que sea responsable se lleve a cabo de manera que en ningún caso se derive de ello beneficio para su entorno familiar o social inmediato, ni privilegio para los titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya más allá de los usos habituales, sociales y de cortesía.
 
 La idea clave es evitar conflictos de intereses o apariencia de trato privilegiado.
 
@@ -229,6 +239,8 @@ Ejemplos problemáticos:
 
 ## 11. Dedicación al servicio público y neutralidad
 
+**Artículo 11 del Código:** El personal ejercerá sus funciones según el principio de dedicación al servicio público, absteniéndose de conductas contrarias al mismo y de cualesquiera otras que comprometan la neutralidad en la prestación de los servicios públicos.
+
 El Código establece que el personal ejercerá sus funciones según el principio de **dedicación al servicio público**, evitando conductas que comprometan la neutralidad en la prestación de servicios.
 
 Esto conecta con el EBEP y con el principio de servicio a los intereses generales.
@@ -243,6 +255,8 @@ En la práctica significa:
 ---
 
 ## 12. Secreto profesional y uso de la información
+
+**Artículo 12 del Código:** El personal de la Universidad de Alcalá guardará secreto acerca de los hechos o informes conocidos con ocasión del ejercicio de sus competencias, sin que en ningún caso pueda utilizar información obtenida por razón de su puesto de trabajo en provecho propio o de un tercero, ni en perjuicio de la Universidad.
 
 El personal debe guardar secreto sobre hechos o informes conocidos por razón del puesto y no puede utilizar información obtenida en el trabajo en provecho propio, en beneficio de terceros o en perjuicio de la Universidad.
 
@@ -267,6 +281,8 @@ Aunque el Código Ético no es una norma específica de protección de datos, su
 ---
 
 ## 13. Gestión, protección y conservación de recursos públicos
+
+**Artículo 13 del Código:** El personal al servicio de la Universidad de Alcalá gestionará, protegerá y conservará adecuadamente los recursos públicos, que sólo podrán ser utilizados con la finalidad para la cual les hayan sido asignados. La administración de los recursos y bienes públicos estará presidida por el principio de austeridad.
 
 El personal debe gestionar, proteger y conservar adecuadamente los recursos públicos, que solo pueden utilizarse para la finalidad para la que fueron asignados.
 
@@ -295,6 +311,14 @@ Además, la administración de recursos y bienes públicos debe estar presidida 
 ---
 
 ## 14. Principios de buen gobierno
+
+**Capítulo Segundo — PRINCIPIOS DE BUEN GOBIERNO**
+
+**Artículo 14 del Código:** Los cargos directivos y los puestos de responsabilidad de la Universidad de Alcalá observarán en el ejercicio de sus funciones lo dispuesto en la Constitución española y en el resto del ordenamiento jurídico y promoverán el respeto a los derechos fundamentales y a las libertades públicas.
+
+**Artículo 15 del Código:** Las personas titulares de puestos de responsabilidad o de cargos directivos universitarios actuarán con transparencia en la gestión de los asuntos que se les encomienden, y en el ejercicio de su cargo respetarán los principios de imparcialidad, trato igual y no discriminación, diligencia, calidad y, en especial, mantendrán una conducta digna y de respeto y corrección en sus relaciones con sus subordinados y con los destinatarios de sus decisiones.
+
+**Artículo 16 del Código:** Las personas titulares de puestos directivos y de responsabilidad ejercerán los poderes que les atribuyan las normas vigentes con la finalidad exclusiva para la que fueron otorgados y evitarán toda acción que pueda poner en riesgo el interés público o el patrimonio de la Universidad. En ningún caso se implicarán en situaciones, actividades o intereses incompatibles con sus funciones, ni se valdrán de su posición en la Universidad para obtener ventajas personales o materiales, absteniéndose de intervenir en los asuntos en que concurra alguna causa que pueda afectar a su dignidad.
 
 El Código dedica un capítulo a los principios de buen gobierno aplicables a cargos directivos y puestos de responsabilidad.
 
@@ -327,6 +351,23 @@ En una biblioteca universitaria, los principios de buen gobierno se reflejan en:
 
 El Código crea o regula el **Comité de Ética de la Universidad de Alcalá** como órgano competente para interpretar y resolver dudas sobre el cumplimiento del Código.
 
+**Artículo 17:** El Comité de Ética de la Universidad de Alcalá se constituye como órgano competente para interpretar y resolver cuantas dudas ofrezca el cumplimiento de lo dispuesto en el presente Código.
+
+**Artículo 18 - Composición del Comité de Ética:**
+
+- **Presidente/a:** La persona titular de la Secretaría General.
+- **Vocales:**
+  - El Gerente o persona en quien delegue.
+  - La persona titular del Defensor Universitario.
+  - La persona titular de la Dirección de la Inspección de Servicios.
+  - La persona titular de la Presidencia del Consejo de Estudiantes.
+  - La persona titular de la Presidencia de la Comisión de Igualdad.
+  - La persona titular de la Presidencia de la Comisión de Calidad.
+  - La persona titular de la Presidencia del Comité de Ética de la Investigación.
+- **Secretario/a:** La persona titular de la Dirección del Órgano Técnico de Auditoría y Control Internos.
+
+**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria.
+
 ### Funciones principales
 
 Aunque el detalle debe consultarse en el texto oficial, para el estudio interesa recordar que el Comité:
@@ -335,10 +376,7 @@ Aunque el detalle debe consultarse en el texto oficial, para el estudio interesa
 - Resuelve dudas sobre su aplicación.
 - Contribuye al seguimiento de la ética pública en la Universidad.
 - Se relaciona con mecanismos de control, consulta y reprobación ética.
-
-### Composición
-
-El Código establece una composición institucional. La presidencia corresponde a la persona titular de la Secretaría General.
+- Elabora informes anuales para el Consejo de Gobierno.
 
 ### Importancia para examen
 
@@ -346,7 +384,7 @@ La pregunta típica puede formularse así:
 
 > ¿Qué órgano es competente para interpretar y resolver dudas sobre el cumplimiento del Código Ético General de la UAH?
 
-Respuesta: **el Comité de Ética de la Universidad de Alcalá**.
+Respuesta: **el Comité de Ética de la Universidad de Alcalá**, presidido por la persona titular de la Secretaría General.
 
 ---
 
@@ -354,19 +392,24 @@ Respuesta: **el Comité de Ética de la Universidad de Alcalá**.
 
 El Código prevé la posibilidad de realizar auditorías de ética para reforzar la cultura ética general de la Universidad.
 
-Entre los aspectos que pueden ser objeto de auditoría se incluyen:
+**Artículo 20 - Objeto de las auditorías:** A fin de contribuir al reforzamiento de una cultura ética general en el ámbito de la Universidad de Alcalá, podrá acordarse la realización de auditorías de ética a fin de comprobar, entre otros, los siguientes hechos:
 
-- Retraso en expedientes y actuaciones.
-- Absentismo laboral y justificación.
-- Recursos presentados contra resoluciones o actuaciones universitarias.
-- Utilización y protección de bienes públicos.
-- Fiabilidad de informes y actas.
-- Formación del personal.
-- Cumplimiento de objetividad, imparcialidad, publicidad y transparencia en procedimientos competitivos.
-- Conflictividad laboral y académica.
-- Quejas y reclamaciones.
-- Gastos desproporcionados o excesivos.
-- Calidad de los servicios prestados.
+- Retraso de los expedientes y de la actuación propia de las funciones de la Universidad. Consecuencias y causas de la demora.
+- Grado de absentismo laboral y justificación.
+- Recursos presentados contra resoluciones o actuaciones de la Universidad, tramitación y resolución de tales recursos.
+- Grado de utilización y protección de los bienes públicos que están a cargo de la Universidad de Alcalá.
+- Evaluación de la fiabilidad de los informes/actas exigidos legalmente en cualquier ámbito.
+- Formación de personal.
+- Cumplimiento de los principios de objetividad, imparcialidad, publicidad y transparencia en el desarrollo de los procedimientos de concurrencia competitiva.
+- Conflictividad laboral y sus causas.
+- Conflictividad académica y sus causas.
+- Quejas y reclamaciones planteadas por cualquier miembro de la comunidad universitaria, y sus causas.
+- Justificación de gastos desproporcionados o excesivos, incluyendo la revisión del soporte documental y el cumplimiento de los plazos para su tramitación.
+- Nivel de calidad de los servicios prestados por la Universidad.
+
+**Artículo 21 - Valoración del informe:** El informe de auditoría valorará si las decisiones adoptadas en los diferentes niveles auditados han cumplido los principios y las conductas contenidas en el presente Código. En los casos que se detecte su incumplimiento deberán incluirse en el informe las razones que justifiquen tal actuación, o si, por el contrario, no existe ninguna justificación.
+
+**Artículo 22 - Promoción de auditorías:** Corresponderá al Comité de Ética promover la realización de auditorías en los diferentes ámbitos, con la periodicidad que se estime igualmente por parte de este órgano. Los informes emitidos serán remitidos al Consejo de Gobierno.
 
 ### Aplicación en biblioteca
 
@@ -385,6 +428,12 @@ Una auditoría ética podría revisar, por ejemplo:
 
 El Código contempla mecanismos de control o reprobación de comportamientos incorrectos o contrarios a sus principios y valores.
 
+**Artículo 23 - Propuestas de medidas correctoras:** El Consejo de Gobierno de la Universidad de Alcalá, a la vista de los informes anuales de actuación emitidos por el Comité de Ética y de los informes de resultados generados por las auditorías de ética, podrá efectuar propuestas de adopción de medidas correctoras de aquellas conductas o comportamientos que en dichos informes se reflejen como incorrectas o contrarias a los principios y valores contenidos en el presente Código.
+
+**Artículo 24 - Tramitación de medidas correctoras:** Las propuestas de medidas correctoras se dirigirán al órgano que en cada caso resulte competente para su valoración y, en su caso, la adopción de la resolución que proceda, dentro del marco normativo que en cada caso corresponda, atendiendo al colectivo al que pertenezca o esté adscrita la persona o personas que hayan intervenido en el procedimiento en que se haya producido la conducta o comportamiento incorrecto o no ajustado a las disposiciones contenidas en el presente Código.
+
+### Naturaleza del Código
+
 Hay que distinguir:
 
 | Tipo de consecuencia | Naturaleza |
@@ -393,7 +442,7 @@ Hay que distinguir:
 | Responsabilidad disciplinaria | Consecuencia jurídica regulada por normativa aplicable |
 | Responsabilidad administrativa, civil o penal | Consecuencias externas cuando procedan según la ley |
 
-El Código Ético no debe confundirse con un reglamento disciplinario completo. Su función principal es orientar conductas, reforzar la cultura ética y ofrecer mecanismos de interpretación y control.
+El Código Ético no debe confundirse con un reglamento disciplinario completo. Su función principal es orientar conductas, reforzar la cultura ética y ofrecer mecanismos de interpretación y control. Como se señala en el Preámbulo, el Código no reviste naturaleza normativa ni tiene carácter sancionador o disciplinario; su propósito es preventivo y orientativo.
 
 ---
 
@@ -664,7 +713,17 @@ Antes del examen deberías poder responder:
 
 ---
 
-## 28. Esquema de memorización
+## 28. Fuentes y provenance
+
+**Fuente principal:** Universidad de Alcalá. Código Ético General de la Universidad de Alcalá. Aprobado en Consejo de Gobierno de 22 de junio de 2017. Boletín Oficial de la Universidad de Alcalá (BOUA), 4 de julio de 2017, Año XII, Número 6, páginas 1-8.
+
+**Material de estudio:** `material-revision/contenido/08_codigo-etico-general-UAH.md` - Transcripción completa del BOUA con estructura de artículos preservada para facilitar memorización y referencia exacta.
+
+**Enriquecimiento:** Este tema ha sido enriquecido incorporando el texto literal de los artículos clave del Código (Artículos 1-24) para permitir generación de preguntas precisas basadas en el contenido oficial UAH. Los artículos literales permiten preguntas tipo "Según el artículo X del Código Ético..." con respuestas verificables.
+
+---
+
+## 29. Esquema de memorización
 
 ```text
 Código Ético General UAH

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T17:54:05.548Z",
+    "updatedAt": "2026-05-04T13:14:38.312Z",
     "title": "UAH C1 Tema 11 - Organización espacial y equipamiento de las bibliotecas universitarias",
     "description": "Banco normalizado de preguntas del tema 11 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 18,
-    "explicitFlashcardCount": 5,
+    "questionCount": 74,
+    "explicitFlashcardCount": 61,
     "originCounts": {
-      "adaptada-ia": 11,
+      "adaptada-ia": 67,
       "generada-ia": 4,
       "oficial": 1,
       "opositatest.com": 2
@@ -23,17 +23,89 @@
       "order": 11,
       "subtopics": [
         {
-          "id": "uah-bib-t11-contenido",
+          "id": "tema-11-organizacion-espacial-bibliotecas-universitarias",
           "topicId": "uah-bib-t11",
-          "title": "Espacios físicos, equipamiento tecnológico, zonas de estudio y almacenamiento de fondos en bibliotecas universitarias",
-          "content": "Enfoque de examen: Organización espacial y equipamiento de las bibliotecas universitarias: Instalaciones y equipamientos de la Biblioteca de la Universidad de Alcalá: salas de estudio y trabajo en grupo, colección de libre acceso y depósitos. Equipamiento informático y sistemas de autoservicio.\n\nContenido acotado: Espacios físicos, equipamiento tecnológico, zonas de estudio y almacenamiento de fondos en bibliotecas universitarias\n\nCobertura oficial: #salas-de-estudio, #trabajo-en-grupo, #coleccion-libre-acceso, #depositos, #equipamiento-informatico, #sistemas-autoservicio",
+          "title": "Organización espacial en bibliotecas universitarias (concepto general y CRAI)",
+          "content": "La biblioteca universitaria como espacio: funciones de los espacios bibliotecarios (lectura, estudio individual, trabajo colaborativo, formación, consulta especializada), zonificación y modelo CRAI (Centro de Recursos para el Aprendizaje y la Investigación). Condiciones ambientales y ergonómicas según REBIUN.",
           "order": 1,
           "syllabusCoverageIds": [
             "#salas-de-estudio",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-bibliotecas-buah-distribucion-campus",
+          "topicId": "uah-bib-t11",
+          "title": "Biblioteca de la Universidad de Alcalá: distribución por campus y bibliotecas",
+          "content": "Organización espacial de la BUAH: distribución por campus y áreas, bibliotecas de centro relevantes (Ciencias, Politécnica, Medicina y Ciencias de la Salud, Cisneriana, etc.) y espacios singulares.",
+          "order": 2,
+          "syllabusCoverageIds": [
+            "#salas-de-estudio",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-salas-estudio-puestos-lectura",
+          "topicId": "uah-bib-t11",
+          "title": "Salas de estudio, puestos de lectura y reserva de puestos",
+          "content": "Concepto de sala de estudio o sala de lectura, número y tipología de puestos en la BUAH, sistema de reserva de puestos de lectura y consulta de disponibilidad por buscador o web.",
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#salas-de-estudio",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-salas-trabajo-grupo",
+          "topicId": "uah-bib-t11",
+          "title": "Salas de trabajo en grupo (uso, reservas y normas UAH)",
+          "content": "Salas de trabajo en grupo de la BUAH: condiciones de uso, sistema de reservas, plazo de validación de la reserva, duración máxima, requisitos para hacer efectiva la reserva, obligaciones al finalizar el uso y normas de convivencia (silencio, limpieza, no consumo de alimentos).",
+          "order": 4,
+          "syllabusCoverageIds": [
             "#trabajo-en-grupo",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-coleccion-libre-acceso",
+          "topicId": "uah-bib-t11",
+          "title": "Colección de libre acceso (concepto, ordenación CDU, ventajas y riesgos)",
+          "content": "Concepto de colección de libre acceso. Ordenación por CDU en la BUAH, localización en mapa desde el Buscador, ventajas (autonomía del usuario, navegación temática) e inconvenientes (desorden, etiquetas rojas, control).",
+          "order": 5,
+          "syllabusCoverageIds": [
             "#coleccion-libre-acceso",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-depositos-bibliotecarios",
+          "topicId": "uah-bib-t11",
+          "title": "Depósitos bibliotecarios (concepto, acceso indirecto y diferencia con libre acceso)",
+          "content": "Concepto de depósito y fondos no directamente accesibles. Depósitos en la UAH, mecanismos de petición y servicio al usuario (acceso indirecto mediado por personal). Diferencia entre libre acceso y depósito.",
+          "order": 6,
+          "syllabusCoverageIds": [
             "#depositos",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-equipamiento-informatico-accesibilidad",
+          "topicId": "uah-bib-t11",
+          "title": "Equipamiento informático, tecnológico y accesibilidad",
+          "content": "Función del equipamiento informático en la biblioteca: PCs de consulta, OPAC, impresoras y reprografía, escáneres, redes wifi. Equipamiento accesible y productos de apoyo para personas con discapacidad.",
+          "order": 7,
+          "syllabusCoverageIds": [
             "#equipamiento-informatico",
+            "uah-tema-011"
+          ]
+        },
+        {
+          "id": "tema-11-sistemas-autoservicio",
+          "topicId": "uah-bib-t11",
+          "title": "Sistemas de autoservicio (autopréstamo, reserva de salas, localización en mapa)",
+          "content": "Concepto de autoservicio bibliotecario. Autopréstamo, reserva en línea de puestos y salas, localización de fondos en mapa, ventajas y necesidades de control.",
+          "order": 8,
+          "syllabusCoverageIds": [
             "#sistemas-autoservicio",
             "uah-tema-011"
           ]
@@ -44,7 +116,7 @@
   "questions": [
     {
       "id": "uah-m-11-29",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-coleccion-libre-acceso",
       "question": "La coleccion de libre acceso se caracteriza por:",
       "options": [
         "Consulta directa por las personas usuarias",
@@ -63,7 +135,7 @@
     },
     {
       "id": "uah-m-11-30",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-depositos-bibliotecarios",
       "question": "Los depositos bibliotecarios priorizan:",
       "options": [
         "Conservacion, seguridad y recuperacion controlada",
@@ -82,7 +154,7 @@
     },
     {
       "id": "uah-m-11-73",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-trabajo-grupo",
       "question": "Un estudiante reserva una sala de trabajo UAH y no acude. La reserva vence a los:",
       "options": [
         "15 minutos de la hora de inicio",
@@ -101,7 +173,7 @@
     },
     {
       "id": "uah-m-11-74",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-trabajo-grupo",
       "question": "Segun las normas UAH, el tiempo maximo de uso de una sala por reserva es:",
       "options": [
         "3 horas",
@@ -120,7 +192,7 @@
     },
     {
       "id": "uah-m-11-117",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-trabajo-grupo",
       "question": "Las salas de trabajo UAH se destinan unica y exclusivamente a:",
       "options": [
         "Fines academicos ligados a estudio, investigacion y docencia",
@@ -139,7 +211,7 @@
     },
     {
       "id": "uah-m-11-118",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-trabajo-grupo",
       "question": "Para hacer efectiva una reserva de sala, el estudiante debe presentar:",
       "options": [
         "TUI, DNI o documento acreditativo de la UAH",
@@ -158,7 +230,7 @@
     },
     {
       "id": "uah-m-11-119",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-trabajo-grupo",
       "question": "Si finaliza el uso de una sala UAH, el estudiante debe:",
       "options": [
         "Formalizar la devolucion en mostrador y entregar la llave si procede",
@@ -177,7 +249,7 @@
     },
     {
       "id": "uah-m-11-120",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-trabajo-grupo",
       "question": "En las salas de trabajo UAH se ruega expresamente:",
       "options": [
         "Respetar el ambiente de estudio y no comer",
@@ -196,7 +268,7 @@
     },
     {
       "id": "uah-c-11-0",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
       "question": "¿Qué expresa el concepto CRAI?",
       "options": [
         "Un depósito cerrado sin acceso de usuarios.",
@@ -221,7 +293,7 @@
     },
     {
       "id": "uah-c-11-1",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
       "question": "¿Qué servicio se relaciona con organización de espacios?",
       "options": [
         "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
@@ -246,7 +318,7 @@
     },
     {
       "id": "uah-c-11-2",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
       "question": "¿Qué criterio debe considerarse en equipamiento bibliotecario?",
       "options": [
         "Un procedimiento disciplinario del EBEP.",
@@ -271,7 +343,7 @@
     },
     {
       "id": "uah-c-11-3",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
       "question": "¿Qué diferencia sala de lectura y sala de grupo?",
       "options": [
         "Ambas están destinadas al trabajo en equipo y se pueden reservar para uso individual.",
@@ -296,7 +368,7 @@
     },
     {
       "id": "uah-exam-udc-c1-2025-2-q042-c50179bc05c1",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
       "question": "Según las \"Normas y directrices para bibliotecas universitarias y científicas\" de REBIUN (2* ed, aum., 1999), las condiciones ambientales en los depósitos de bibliotecas estarán permanentemente controladas mediante:",
       "options": [
         "Termómetros y controladores de humedad",
@@ -322,7 +394,7 @@
     },
     {
       "id": "uah-exam-udc-c1-2025-2-q060-ef6dccdc04ec",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-coleccion-libre-acceso",
       "question": "En una colección de libre acceso, ¿qué sistema se usa habitualmente para ordenar materias en bibliotecas españolas y en la BUAH?",
       "options": [
         "Clasificación Decimal Universal (CDU).",
@@ -348,7 +420,7 @@
     },
     {
       "id": "uah-exam-cadiz-c1-2025-q062-c86e5f3229e2",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
       "question": "¿Cómo pueden los usuarios consultar la disponibilidad de puestos en las bibliotecas de la Universidad de Alcalá?",
       "options": [
         "A través del sistema de reservas en línea disponible en la web de la BUAH.",
@@ -374,7 +446,7 @@
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q033-964c7e5a11e0",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-depositos-bibliotecarios",
       "question": "Si un fondo está en depósito o almacén no accesible directamente, ¿cómo debe acceder normalmente el usuario?",
       "options": [
         "Accediendo libremente al depósito sin control.",
@@ -398,7 +470,7 @@
     },
     {
       "id": "uah-opo-ref-021",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-coleccion-libre-acceso",
       "question": "En bibliotecas universitarias, ¿qué caracteriza a una zona de libre acceso?",
       "options": [
         "El usuario puede consultar directamente los fondos ordenados en estanterías abiertas",
@@ -423,7 +495,7 @@
     },
     {
       "id": "uah-opo-ref-022",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
       "question": "¿Qué indicador físico resulta especialmente relevante al planificar salas de estudio bibliotecarias?",
       "options": [
         "Puestos de lectura disponibles",
@@ -445,40 +517,2672 @@
         "pregunta-original",
         "uah-tema-011"
       ]
+    },
+    {
+      "id": "uah-m-11-B2-001",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "Según la guía Folio §2.2. Reserva de puestos de lectura, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH.",
+        "Este servicio permite a la comunidad universitaria reservar puestos en zonas indicadas, con control de entrada y salida mediante código QR.",
+        "Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador.",
+        "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §2.2. Reserva de puestos de lectura, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Este servicio permite a la comunidad universitaria reservar puestos en zonas indicadas, con control de entrada y salida mediante código QR."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-002",
+      "topicId": "tema-11-salas-trabajo-grupo",
+      "question": "Según la guía Folio §2.3. Salas de trabajo, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La página de accesibilidad de la Biblioteca UAH indica que el CRAI-Biblioteca cuenta con buen acceso desde la calle, puertas automáticas, ascensores con información para discapacidad visual, anchura de puertas de 80 cm, aseos adaptados y dos salas de trabajo individual con equipamiento adaptado para usuarios con diversidad funcional.",
+        "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo.",
+        "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso.",
+        "El equipamiento informático es esencial en la biblioteca universitaria actual."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §2.3. Salas de trabajo, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-003",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §2.4. Buscador UAH y localización en mapa, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal.",
+        "El horario ordinario publicado es de lunes a viernes, de 8:30 a 20:30.",
+        "La accesibilidad es una dimensión esencial del equipamiento bibliotecario.",
+        "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §2.4. Buscador UAH y localización en mapa, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-004",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "Según la guía Folio §2.5. Procesos del Servicio de Biblioteca UAH, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El documento de procesos es clave para entender la gestión interna de espacios y equipos.",
+        "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras.",
+        "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca.",
+        "El equipamiento informático es esencial en la biblioteca universitaria actual."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §2.5. Procesos del Servicio de Biblioteca UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "El documento de procesos es clave para entender la gestión interna de espacios y equipos."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-005",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §2.6. Guía del CRAI, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso.",
+        "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual.",
+        "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH.",
+        "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §2.6. Guía del CRAI, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-006",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §2.6. Guía del CRAI, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo.",
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria.",
+        "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica.",
+        "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §2.6. Guía del CRAI, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-007",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "Según la guía Folio §3.3. Colección de libre acceso, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual.",
+        "Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas.",
+        "La colección de libre acceso está formada por documentos que el usuario puede consultar directamente en las estanterías.",
+        "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §3.3. Colección de libre acceso, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "La colección de libre acceso está formada por documentos que el usuario puede consultar directamente en las estanterías."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-008",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "Según la guía Folio §3.4. Depósitos, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario.",
+        "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso.",
+        "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta.",
+        "Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §3.4. Depósitos, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-009",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §3.5. Equipamiento informático, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio.",
+        "El equipamiento informático es esencial en la biblioteca universitaria actual.",
+        "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo.",
+        "La colección de libre acceso está formada por documentos que el usuario puede consultar directamente en las estanterías."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §3.5. Equipamiento informático, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "El equipamiento informático es esencial en la biblioteca universitaria actual."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-010",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "Según la guía Folio §3.6. Sistemas de autoservicio, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas.",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU.",
+        "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §3.6. Sistemas de autoservicio, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-011",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §2.1. Función general de los espacios bibliotecarios, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Una parte esencial del Tema 11 es comprender la relación entre espacio físico y colección. Las páginas oficiales de las bibliotecas UAH repiten un patrón: las colecciones de acceso directo se ordenan por materias siguiendo la Clasificación Decimal Universal (CDU).",
+        "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario.",
+        "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio.",
+        "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §2.1. Función general de los espacios bibliotecarios, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-012",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §3. Organización espacial básica de una biblioteca universitaria, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Organización espacial básica de una biblioteca universitaria",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "La función de localizar un libro en el mapa de cada biblioteca permite al usuario encontrar físicamente el ejemplar en relación con la ordenación CDU. Es un ejemplo claro de autoservicio aplicado a la colección de libre acceso.",
+        "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §3. Organización espacial básica de una biblioteca universitaria, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Organización espacial básica de una biblioteca universitaria"
+      }
+    },
+    {
+      "id": "uah-m-11-B2-013",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §3. Organización espacial básica de una biblioteca universitaria, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca.",
+        "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso.",
+        "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario.",
+        "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §3. Organización espacial básica de una biblioteca universitaria, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-014",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §4. Organización espacial de la Biblioteca de la Universidad de Alcalá, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo.",
+        "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador.",
+        "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual.",
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá"
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §4. Organización espacial de la Biblioteca de la Universidad de Alcalá, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Organización espacial de la Biblioteca de la Universidad de Alcalá"
+      }
+    },
+    {
+      "id": "uah-m-11-B2-015",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "Según la guía Folio §4.1. Distribución por campus y áreas, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso.",
+        "El depósito es un espacio donde se ubican fondos que no están disponibles directamente en libre acceso o que requieren un control especial.",
+        "El documento de procesos es clave para entender la gestión interna de espacios y equipos.",
+        "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §4.1. Distribución por campus y áreas, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-016",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "Según la guía Folio §4.1. Distribución por campus y áreas, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica.",
+        "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio.",
+        "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal.",
+        "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §4.1. Distribución por campus y áreas, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-017",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "Según la guía Folio §4.2. Bibliotecas y espacios relevantes, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El CRAI-Biblioteca, por ejemplo, se ubica en el Edificio Cisneros, en la Plaza de San Diego, y la página oficial incluye referencia al plano por CDU, contacto y equipamiento accesible.",
+        "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud.",
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá",
+        "Organización espacial básica de una biblioteca universitaria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §4.2. Bibliotecas y espacios relevantes, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El CRAI-Biblioteca, por ejemplo, se ubica en el Edificio Cisneros, en la Plaza de San Diego, y la página oficial incluye referencia al plano por CDU, contacto y equipamiento accesible."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-018",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "Según la guía Folio §5.1. Concepto de sala de estudio o sala de lectura, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio.",
+        "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH.",
+        "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca.",
+        "En la UAH, el acceso a las salas de lectura está generalmente permitido, aunque puede restringirse en periodos de exámenes, horarios especiales o situaciones de elevada ocupación por usuarios miembros de la UAH."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §5.1. Concepto de sala de estudio o sala de lectura, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "En la UAH, el acceso a las salas de lectura está generalmente permitido, aunque puede restringirse en periodos de exámenes, horarios especiales o situaciones de elevada ocupación por usuarios miembros de la UAH. La propia Biblioteca señala que, fuera de esas situaciones, usuarios ajenos pueden acceder a salas de lectura y consultar fondos, aunque sin acceso al resto de servicios bibliotecarios."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-019",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "Según la guía Folio §5.2. Reserva de puestos de lectura, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca.",
+        "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual.",
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30.",
+        "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §5.2. Reserva de puestos de lectura, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-020",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "Según la guía Folio §5.2. Reserva de puestos de lectura, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "El equipamiento informático es esencial en la biblioteca universitaria actual.",
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá",
+        "También indica que, al abandonar el puesto, debe marcarse la salida para dejarlo libre para otro usuario."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §5.2. Reserva de puestos de lectura, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "También indica que, al abandonar el puesto, debe marcarse la salida para dejarlo libre para otro usuario."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-021",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §6.1. Concepto, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Se diferencian de las salas de lectura porque admiten interacción, conversación moderada y trabajo conjunto.",
+        "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas.",
+        "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo.",
+        "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §6.1. Concepto, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Se diferencian de las salas de lectura porque admiten interacción, conversación moderada y trabajo conjunto."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-022",
+      "topicId": "tema-11-salas-trabajo-grupo",
+      "question": "Según la guía Folio §6.2. Salas de trabajo en la UAH, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías.",
+        "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU.",
+        "El horario ordinario publicado es de lunes a viernes, de 8:30 a 20:30.",
+        "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §6.2. Salas de trabajo en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El horario ordinario publicado es de lunes a viernes, de 8:30 a 20:30."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-023",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §6.3. Gestión interna de las salas, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "En la UAH, el acceso a las salas de lectura está generalmente permitido, aunque puede restringirse en periodos de exámenes, horarios especiales o situaciones de elevada ocupación por usuarios miembros de la UAH.",
+        "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual.",
+        "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU.",
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §6.3. Gestión interna de las salas, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-024",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §7.1. Concepto, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta.",
+        "Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas.",
+        "La colección de libre acceso está formada por documentos situados en salas o zonas accesibles directamente por el usuario. El usuario puede localizar el documento, tomarlo de la estantería, consultarlo y, si es prestable, llevarlo en préstamo.",
+        "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §7.1. Concepto, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La colección de libre acceso está formada por documentos situados en salas o zonas accesibles directamente por el usuario. El usuario puede localizar el documento, tomarlo de la estantería, consultarlo y, si es prestable, llevarlo en préstamo."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-025",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "Según la guía Folio §7.2. Ordenación por CDU en la UAH, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Biblioteca de Farmacia indica que sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU.",
+        "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso.",
+        "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador.",
+        "Este servicio permite a la comunidad universitaria reservar puestos en zonas indicadas, con control de entrada y salida mediante código QR."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §7.2. Ordenación por CDU en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Farmacia indica que sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-026",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "Según la guía Folio §7.2. Ordenación por CDU en la UAH, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "Se diferencian de las salas de lectura porque admiten interacción, conversación moderada y trabajo conjunto.",
+        "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH.",
+        "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta.",
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §7.2. Ordenación por CDU en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-027",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "Indique cuál de las siguientes afirmaciones aparece en la guía Folio §7.2. Ordenación por CDU en la UAH.",
+      "options": [
+        "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso.",
+        "La Biblioteca de Educación indica que sus monografías, manuales y bibliografía recomendada están situados en las plantas primera y segunda y ordenados por materias siguiendo la CDU.",
+        "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta.",
+        "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §7.2. Ordenación por CDU en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Educación indica que sus monografías, manuales y bibliografía recomendada están situados en las plantas primera y segunda y ordenados por materias siguiendo la CDU."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-028",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "Según la guía Folio §7.3. Libre acceso y localización en mapa, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30.",
+        "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio.",
+        "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU.",
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §7.3. Libre acceso y localización en mapa, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-029",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §8.1. Concepto, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El depósito es un espacio donde se ubican fondos que no están disponibles directamente en libre acceso o que requieren un control especial.",
+        "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo.",
+        "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario.",
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §8.1. Concepto, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El depósito es un espacio donde se ubican fondos que no están disponibles directamente en libre acceso o que requieren un control especial."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-030",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "Según la guía Folio §8.2. Depósitos en la UAH, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El depósito es un espacio de conservación y gestión. Puede contener fondos de menor demanda, colecciones antiguas, revistas retrospectivas, proyectos académicos antiguos o materiales cuyo acceso requiere mediación del personal. La clave es que el usuario no siempre accede físicamente al depósito: suele solicitar los documentos en mostrador.",
+        "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías.",
+        "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud.",
+        "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §8.2. Depósitos en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-031",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "Según la guía Folio §8.2. Depósitos en la UAH, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta.",
+        "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso.",
+        "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo.",
+        "El depósito es un espacio donde se ubican fondos que no están disponibles directamente en libre acceso o que requieren un control especial."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §8.2. Depósitos en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-032",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "Indique cuál de las siguientes afirmaciones aparece en la guía Folio §8.2. Depósitos en la UAH.",
+      "options": [
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "El horario ordinario publicado es de lunes a viernes, de 8:30 a 20:30.",
+        "La Memoria EFQM 2023 de la Biblioteca UAH menciona que la Biblioteca está estructurada en tres campus y que en el Campus Histórico se localizan, entre otros, el CRAI-Biblioteca, la Biblioteca de Trinitarios y el depósito María de Guzmán.",
+        "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §8.2. Depósitos en la UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Memoria EFQM 2023 de la Biblioteca UAH menciona que la Biblioteca está estructurada en tres campus y que en el Campus Histórico se localizan, entre otros, el CRAI-Biblioteca, la Biblioteca de Trinitarios y el depósito María de Guzmán."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-033",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §9.2. Equipamiento en bibliotecas UAH, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá",
+        "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica.",
+        "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías.",
+        "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §9.2. Equipamiento en bibliotecas UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-034",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §9.2. Equipamiento en bibliotecas UAH, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca.",
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §9.2. Equipamiento en bibliotecas UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-035",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Indique cuál de las siguientes afirmaciones aparece en la guía Folio §9.2. Equipamiento en bibliotecas UAH.",
+      "options": [
+        "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso.",
+        "El servicio general de préstamo de la Biblioteca UAH incluye préstamo domiciliario, renovaciones, reservas, préstamo de portátiles, préstamo de calculadoras y Pasaporte Madroño. Además, la página de préstamo señala que la Biblioteca Politécnica y el CRAI disponen de calculadoras científicas para préstamo a estudiantes matriculados en la UAH mediante presentación de la TUI.",
+        "El depósito es un espacio de conservación y gestión. Puede contener fondos de menor demanda, colecciones antiguas, revistas retrospectivas, proyectos académicos antiguos o materiales cuyo acceso requiere mediación del personal. La clave es que el usuario no siempre accede físicamente al depósito: suele solicitar los documentos en mostrador.",
+        "En la UAH, el acceso a las salas de lectura está generalmente permitido, aunque puede restringirse en periodos de exámenes, horarios especiales o situaciones de elevada ocupación por usuarios miembros de la UAH."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §9.2. Equipamiento en bibliotecas UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El servicio general de préstamo de la Biblioteca UAH incluye préstamo domiciliario, renovaciones, reservas, préstamo de portátiles, préstamo de calculadoras y Pasaporte Madroño. Además, la página de préstamo señala que la Biblioteca Politécnica y el CRAI disponen de calculadoras científicas para préstamo a estudiantes matriculados en la UAH mediante presentación de la TUI."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-036",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §10.1. Accesibilidad como parte del equipamiento, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso.",
+        "El documento de procesos es clave para entender la gestión interna de espacios y equipos.",
+        "La accesibilidad es una dimensión esencial del equipamiento bibliotecario.",
+        "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §10.1. Accesibilidad como parte del equipamiento, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La accesibilidad es una dimensión esencial del equipamiento bibliotecario."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-037",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §10.1. Accesibilidad como parte del equipamiento, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "La reserva de puestos de lectura mediante Accede UAH y la reserva de salas de trabajo forman parte de la lógica de autoservicio: el usuario selecciona espacio, franja y confirma su uso. En los puestos de lectura, la reserva genera un PDF con código QR y el dispositivo de entrada/salida permite confirmar ocupación o liberación del puesto.",
+        "La página de accesibilidad de la Biblioteca UAH indica que el CRAI-Biblioteca cuenta con buen acceso desde la calle, puertas automáticas, ascensores con información para discapacidad visual, anchura de puertas de 80 cm, aseos adaptados y dos salas de trabajo individual con equipamiento adaptado para usuarios con diversidad funcional.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §10.1. Accesibilidad como parte del equipamiento, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La página de accesibilidad de la Biblioteca UAH indica que el CRAI-Biblioteca cuenta con buen acceso desde la calle, puertas automáticas, ascensores con información para discapacidad visual, anchura de puertas de 80 cm, aseos adaptados y dos salas de trabajo individual con equipamiento adaptado para usuarios con diversidad funcional."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-038",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §10.2. Equipamiento accesible en páginas de bibliotecas UAH, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta.",
+        "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca.",
+        "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud.",
+        "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §10.2. Equipamiento accesible en páginas de bibliotecas UAH, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-039",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §11.1. Concepto, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio.",
+        "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso.",
+        "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario.",
+        "Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §11.1. Concepto, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-040",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "Según la guía Folio §11.2. Autopréstamo, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El CRAI-Biblioteca, por ejemplo, se ubica en el Edificio Cisneros, en la Plaza de San Diego, y la página oficial incluye referencia al plano por CDU, contacto y equipamiento accesible.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica.",
+        "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §11.2. Autopréstamo, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual. También señala que no todas las bibliotecas disponen de máquina de autopréstamo y menciona 7 de 14 bibliotecas."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-041",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "Según la guía Folio §11.3. Reserva de puestos y salas como autoservicio, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo.",
+        "Las salas de lectura son el espacio básico de estudio y consulta. En la UAH, la reserva de puestos se ofrece en línea mediante la plataforma Accede UAH para la comunidad universitaria, especialmente en el CRAI-Biblioteca y en zonas indicadas. La lógica de este servicio es controlar la ocupación, asegurar disponibilidad y ordenar el uso en periodos de alta demanda.",
+        "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo.",
+        "La reserva de puestos de lectura mediante Accede UAH y la reserva de salas de trabajo forman parte de la lógica de autoservicio: el usuario selecciona espacio, franja y confirma su uso. En los puestos de lectura, la reserva genera un PDF con código QR y el dispositivo de entrada/salida permite confirmar ocupación o liberación del puesto."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §11.3. Reserva de puestos y salas como autoservicio, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La reserva de puestos de lectura mediante Accede UAH y la reserva de salas de trabajo forman parte de la lógica de autoservicio: el usuario selecciona espacio, franja y confirma su uso. En los puestos de lectura, la reserva genera un PDF con código QR y el dispositivo de entrada/salida permite confirmar ocupación o liberación del puesto."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-042",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §11.4. Localización de fondos en mapa, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Memoria EFQM 2023 de la Biblioteca UAH menciona que la Biblioteca está estructurada en tres campus y que en el Campus Histórico se localizan, entre otros, el CRAI-Biblioteca, la Biblioteca de Trinitarios y el depósito María de Guzmán.",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas.",
+        "La función de localizar un libro en el mapa de cada biblioteca permite al usuario encontrar físicamente el ejemplar en relación con la ordenación CDU. Es un ejemplo claro de autoservicio aplicado a la colección de libre acceso."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §11.4. Localización de fondos en mapa, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La función de localizar un libro en el mapa de cada biblioteca permite al usuario encontrar físicamente el ejemplar en relación con la ordenación CDU. Es un ejemplo claro de autoservicio aplicado a la colección de libre acceso."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-043",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §Convocatoria oficial, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá",
+        "Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas.",
+        "La Biblioteca de Educación indica que sus monografías, manuales y bibliografía recomendada están situados en las plantas primera y segunda y ordenados por materias siguiendo la CDU.",
+        "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §Convocatoria oficial, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "avanzada",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "- Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-044",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §2. Fuentes autoritativas del tema, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio.",
+        "Organización espacial de la Biblioteca de la Universidad de Alcalá",
+        "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca.",
+        "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §2. Fuentes autoritativas del tema, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-045",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "Según la guía Folio §3. Organización espacial en bibliotecas universitarias, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas.",
+        "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso.",
+        "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §3. Organización espacial en bibliotecas universitarias, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-046",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "Según la guía Folio §4. Instalaciones de la Biblioteca UAH: visión de conjunto, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria.",
+        "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §4. Instalaciones de la Biblioteca UAH: visión de conjunto, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-047",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "Según la guía Folio §5. Salas de lectura y reserva de puestos, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La página de accesibilidad de la Biblioteca UAH indica que el CRAI-Biblioteca cuenta con buen acceso desde la calle, puertas automáticas, ascensores con información para discapacidad visual, anchura de puertas de 80 cm, aseos adaptados y dos salas de trabajo individual con equipamiento adaptado para usuarios con diversidad funcional.",
+        "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías.",
+        "Las salas de lectura son el espacio básico de estudio y consulta. En la UAH, la reserva de puestos se ofrece en línea mediante la plataforma Accede UAH para la comunidad universitaria, especialmente en el CRAI-Biblioteca y en zonas indicadas. La lógica de este servicio es controlar la ocupación, asegurar disponibilidad y ordenar el uso en periodos de alta demanda.",
+        "La Memoria EFQM 2023 de la Biblioteca UAH menciona que la Biblioteca está estructurada en tres campus y que en el Campus Histórico se localizan, entre otros, el CRAI-Biblioteca, la Biblioteca de Trinitarios y el depósito María de Guzmán."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §5. Salas de lectura y reserva de puestos, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Las salas de lectura son el espacio básico de estudio y consulta. En la UAH, la reserva de puestos se ofrece en línea mediante la plataforma Accede UAH para la comunidad universitaria, especialmente en el CRAI-Biblioteca y en zonas indicadas. La lógica de este servicio es controlar la ocupación, asegurar disponibilidad y ordenar el uso en periodos de alta demanda."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-048",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "Según la guía Folio §5. Salas de lectura y reserva de puestos, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria.",
+        "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud.",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "El servicio general de préstamo de la Biblioteca UAH incluye préstamo domiciliario, renovaciones, reservas, préstamo de portátiles, préstamo de calculadoras y Pasaporte Madroño. Además, la página de préstamo señala que la Biblioteca Politécnica y el CRAI disponen de calculadoras científicas para préstamo a estudiantes matriculados en la UAH mediante presentación de la TUI."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §5. Salas de lectura y reserva de puestos, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-049",
+      "topicId": "tema-11-salas-trabajo-grupo",
+      "question": "Según la guía Folio §6. Salas de trabajo en grupo, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio.",
+        "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual.",
+        "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual.",
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §6. Salas de trabajo en grupo, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "avanzada",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-050",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "Según la guía Folio §7. Colección de libre acceso y ordenación por CDU, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo.",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "Una parte esencial del Tema 11 es comprender la relación entre espacio físico y colección. Las páginas oficiales de las bibliotecas UAH repiten un patrón: las colecciones de acceso directo se ordenan por materias siguiendo la Clasificación Decimal Universal (CDU)."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §7. Colección de libre acceso y ordenación por CDU, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Una parte esencial del Tema 11 es comprender la relación entre espacio físico y colección. Las páginas oficiales de las bibliotecas UAH repiten un patrón: las colecciones de acceso directo se ordenan por materias siguiendo la Clasificación Decimal Universal (CDU). Esta ordenación permite que el usuario localice libros por materia y que la biblioteca mantenga una distribución coherente en estanterías."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-051",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "Según la guía Folio §8. Depósitos y fondos no directamente accesibles, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria.",
+        "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta.",
+        "El depósito es un espacio de conservación y gestión. Puede contener fondos de menor demanda, colecciones antiguas, revistas retrospectivas, proyectos académicos antiguos o materiales cuyo acceso requiere mediación del personal. La clave es que el usuario no siempre accede físicamente al depósito: suele solicitar los documentos en mostrador.",
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30."
+      ],
+      "correctIndex": 2,
+      "explanation": "Según la guía Folio §8. Depósitos y fondos no directamente accesibles, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El depósito es un espacio de conservación y gestión. Puede contener fondos de menor demanda, colecciones antiguas, revistas retrospectivas, proyectos académicos antiguos o materiales cuyo acceso requiere mediación del personal. La clave es que el usuario no siempre accede físicamente al depósito: suele solicitar los documentos en mostrador."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-052",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "Según la guía Folio §8. Depósitos y fondos no directamente accesibles, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "Organización espacial básica de una biblioteca universitaria",
+        "Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §8. Depósitos y fondos no directamente accesibles, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "- Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-053",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §9. Equipamiento informático, tecnológico y accesible, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica.",
+        "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías.",
+        "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas.",
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30."
+      ],
+      "correctIndex": 0,
+      "explanation": "Según la guía Folio §9. Equipamiento informático, tecnológico y accesible, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-054",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "Según la guía Folio §10. Sistemas de autoservicio y descubrimiento, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30.",
+        "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal.",
+        "Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador.",
+        "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §10. Sistemas de autoservicio y descubrimiento, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-055",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "Según la guía Folio §10. Sistemas de autoservicio y descubrimiento, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador.",
+        "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo.",
+        "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo.",
+        "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías."
+      ],
+      "correctIndex": 3,
+      "explanation": "Según la guía Folio §10. Sistemas de autoservicio y descubrimiento, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías."
+      }
+    },
+    {
+      "id": "uah-m-11-B2-056",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "Según la guía Folio §11. Accesibilidad y diversidad funcional, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "options": [
+        "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario.",
+        "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo.",
+        "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual.",
+        "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Según la guía Folio §11. Accesibilidad y diversidad funcional, la afirmación correcta reproduce literalmente el contenido del precepto. Las demás opciones son afirmaciones extraídas de otros pasajes del mismo cuerpo normativo o de la guía oficial y, por tanto, no se corresponden con este contenido.",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo."
+      }
     }
   ],
   "flashcards": [
     {
       "id": "uah-t11-point-0",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
       "question": "¿Qué idea clave debes recuperar del tema 11?",
       "answer": "Los espacios universitarios combinan lectura, estudio individual, trabajo colaborativo, formacion y consulta especializada.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-1",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-coleccion-libre-acceso",
       "question": "¿Qué idea clave debes recuperar del tema 11?",
       "answer": "La coleccion de libre acceso exige ordenacion comprensible, senalizacion y reposicion.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-2",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-depositos-bibliotecarios",
       "question": "¿Qué idea clave debes recuperar del tema 11?",
       "answer": "Los depositos priorizan conservacion, control ambiental, seguridad y recuperacion eficiente.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t11-point-3",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-sistemas-autoservicio",
       "question": "¿Qué idea clave debes recuperar del tema 11?",
       "answer": "Los sistemas de autoservicio agilizan prestamo, devolucion y gestion por parte del usuario.",
       "origin": "generada-ia"
     },
     {
+      "id": "fc-t11-B2-001",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "¿Qué señala la guía Folio §2.2. Reserva de puestos de lectura respecto a «servicio permite comunidad universitaria reservar»?",
+      "answer": "Este servicio permite a la comunidad universitaria reservar puestos en zonas indicadas, con control de entrada y salida mediante código QR. (Fuente: guía Folio §2.2. Reserva de puestos de lectura.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Este servicio permite a la comunidad universitaria reservar puestos en zonas indicadas, con control de entrada y salida mediante código QR."
+      }
+    },
+    {
+      "id": "fc-t11-B2-002",
+      "topicId": "tema-11-salas-trabajo-grupo",
+      "question": "¿Qué señala la guía Folio §2.3. Salas de trabajo respecto a «salas trabajo permiten estudiantes docentes»?",
+      "answer": "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso. (Fuente: guía Folio §2.3. Salas de trabajo.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Las salas de trabajo permiten a estudiantes, docentes e investigadores realizar actividades académicas en grupo. Se diferencian de las salas de lectura porque están pensadas para el trabajo colaborativo y no para el estudio individual silencioso."
+      }
+    },
+    {
+      "id": "fc-t11-B2-003",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §2.4. Buscador UAH y localización en mapa respecto a «Buscador permite localizar libros situados»?",
+      "answer": "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca. (Fuente: guía Folio §2.4. Buscador UAH y localización en mapa.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "El Buscador UAH permite localizar libros situados en salas de lectura mediante mapas de biblioteca."
+      }
+    },
+    {
+      "id": "fc-t11-B2-004",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "¿Qué señala la guía Folio §2.5. Procesos del Servicio de Biblioteca UAH respecto a «documento procesos clave entender gestión»?",
+      "answer": "El documento de procesos es clave para entender la gestión interna de espacios y equipos. (Fuente: guía Folio §2.5. Procesos del Servicio de Biblioteca UAH.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "El documento de procesos es clave para entender la gestión interna de espacios y equipos."
+      }
+    },
+    {
+      "id": "fc-t11-B2-005",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §2.6. Guía del CRAI respecto a «Guía CRAI sirve fuente síntesis»?",
+      "answer": "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH. (Fuente: guía Folio §2.6. Guía del CRAI.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "La Guía del CRAI sirve como fuente de síntesis para estudiar el principal espacio bibliotecario de la UAH."
+      }
+    },
+    {
+      "id": "fc-t11-B2-006",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §2.6. Guía del CRAI respecto a «Permite comprender CRAI centro recursos»?",
+      "answer": "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo. (Fuente: guía Folio §2.6. Guía del CRAI.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Permite comprender el CRAI como un centro de recursos para el aprendizaje y la investigación, con salas de lectura, espacios de trabajo, zonas de consulta, equipamiento tecnológico y servicios de apoyo."
+      }
+    },
+    {
+      "id": "fc-t11-B2-007",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "¿Qué señala la guía Folio §3.3. Colección de libre acceso respecto a «colección libre acceso formada documentos»?",
+      "answer": "La colección de libre acceso está formada por documentos que el usuario puede consultar directamente en las estanterías. (Fuente: guía Folio §3.3. Colección de libre acceso.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "La colección de libre acceso está formada por documentos que el usuario puede consultar directamente en las estanterías."
+      }
+    },
+    {
+      "id": "fc-t11-B2-008",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "¿Qué señala la guía Folio §3.4. Depósitos respecto a «depósitos espacios almacenamiento controlado documentos»?",
+      "answer": "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso. (Fuente: guía Folio §3.4. Depósitos.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Los depósitos son espacios de almacenamiento controlado para documentos que no están en libre acceso."
+      }
+    },
+    {
+      "id": "fc-t11-B2-009",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §3.5. Equipamiento informático respecto a «equipamiento informático esencial biblioteca universitaria»?",
+      "answer": "El equipamiento informático es esencial en la biblioteca universitaria actual. (Fuente: guía Folio §3.5. Equipamiento informático.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "El equipamiento informático es esencial en la biblioteca universitaria actual."
+      }
+    },
+    {
+      "id": "fc-t11-B2-010",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "¿Qué señala la guía Folio §3.6. Sistemas de autoservicio respecto a «sistemas autoservicio permiten usuario realice»?",
+      "answer": "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador. (Fuente: guía Folio §3.6. Sistemas de autoservicio.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "material-revision/contenido/11_fuentes_estudio_organizacion_espacial_buah.md",
+        "highlightText": "Los sistemas de autoservicio permiten que el usuario realice operaciones sin depender siempre del mostrador."
+      }
+    },
+    {
+      "id": "fc-t11-B2-011",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §2.1. Función general de los espacios bibliotecarios respecto a «Biblioteca refleja orientación mediante oferta»?",
+      "answer": "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario. (Fuente: guía Folio §2.1. Función general de los espacios bibliotecarios.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La web de la Biblioteca UAH refleja esta orientación mediante una oferta de servicios que incluye préstamo, reserva de puestos de lectura, acceso al documento, salas de trabajo, formación, información bibliográfica, adquisiciones, accesibilidad, biblioteca en línea, biblioguías y apoyo a distintos perfiles de usuario."
+      }
+    },
+    {
+      "id": "fc-t11-B2-012",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §3. Organización espacial básica de una biblioteca universitaria respecto a «Organización espacial básica biblioteca universitaria»?",
+      "answer": "Organización espacial básica de una biblioteca universitaria (Fuente: guía Folio §3. Organización espacial básica de una biblioteca universitaria.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Organización espacial básica de una biblioteca universitaria"
+      }
+    },
+    {
+      "id": "fc-t11-B2-013",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §3. Organización espacial básica de una biblioteca universitaria respecto a «biblioteca universitaria suele estructurarse zonas»?",
+      "answer": "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso. (Fuente: guía Folio §3. Organización espacial básica de una biblioteca universitaria.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Una biblioteca universitaria suele estructurarse en zonas diferenciadas según el tipo de uso."
+      }
+    },
+    {
+      "id": "fc-t11-B2-014",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §4. Organización espacial de la Biblioteca de la Universidad de Alcalá respecto a «Organización espacial Biblioteca Universidad Alcalá»?",
+      "answer": "Organización espacial de la Biblioteca de la Universidad de Alcalá (Fuente: guía Folio §4. Organización espacial de la Biblioteca de la Universidad de Alcalá.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Organización espacial de la Biblioteca de la Universidad de Alcalá"
+      }
+    },
+    {
+      "id": "fc-t11-B2-015",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "¿Qué señala la guía Folio §4.1. Distribución por campus y áreas respecto a «Además organiza áreas temáticas ciudad»?",
+      "answer": "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras. (Fuente: guía Folio §4.1. Distribución por campus y áreas.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Además, se organiza por áreas temáticas: en la ciudad se concentran humanidades y sociales; en el campus, áreas experimentales y técnicas; y en Guadalajara, educación, turismo y sociales, entre otras."
+      }
+    },
+    {
+      "id": "fc-t11-B2-016",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "¿Qué señala la guía Folio §4.1. Distribución por campus y áreas respecto a «distribución importante porque conecta organización»?",
+      "answer": "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio. (Fuente: guía Folio §4.1. Distribución por campus y áreas.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Esta distribución es importante porque conecta la organización espacial con la estructura académica de la universidad: las bibliotecas se sitúan cerca de las facultades y áreas de conocimiento a las que dan servicio."
+      }
+    },
+    {
+      "id": "fc-t11-B2-017",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "¿Qué señala la guía Folio §4.2. Bibliotecas y espacios relevantes respecto a «CRAI Biblioteca ejemplo ubica Edificio»?",
+      "answer": "El CRAI-Biblioteca, por ejemplo, se ubica en el Edificio Cisneros, en la Plaza de San Diego, y la página oficial incluye referencia al plano por CDU, contacto y equipamiento accesible. (Fuente: guía Folio §4.2. Bibliotecas y espacios relevantes.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El CRAI-Biblioteca, por ejemplo, se ubica en el Edificio Cisneros, en la Plaza de San Diego, y la página oficial incluye referencia al plano por CDU, contacto y equipamiento accesible."
+      }
+    },
+    {
+      "id": "fc-t11-B2-018",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "¿Qué señala la guía Folio §5.1. Concepto de sala de estudio o sala de lectura respecto a «acceso salas lectura generalmente permitido»?",
+      "answer": "En la UAH, el acceso a las salas de lectura está generalmente permitido, aunque puede restringirse en periodos de exámenes, horarios especiales o situaciones de elevada ocupación por usuarios miembros de la UAH. (Fuente: guía Folio §5.1. Concepto de sala de estudio o sala de lectura.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "En la UAH, el acceso a las salas de lectura está generalmente permitido, aunque puede restringirse en periodos de exámenes, horarios especiales o situaciones de elevada ocupación por usuarios miembros de la UAH. La propia Biblioteca señala que, fuera de esas situaciones, usuarios ajenos pueden acceder a salas de lectura y consultar fondos, aunque sin acceso al resto de servicios bibliotecarios."
+      }
+    },
+    {
+      "id": "fc-t11-B2-019",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "¿Qué señala la guía Folio §5.2. Reserva de puestos de lectura respecto a «servicio permite comunidad universitaria reservar»?",
+      "answer": "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30. (Fuente: guía Folio §5.2. Reserva de puestos de lectura.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Este servicio permite a la comunidad universitaria reservar con antelación un puesto de lectura en zonas indicadas del CRAI-Biblioteca, de lunes a viernes en horario de 8:30 a 20:30."
+      }
+    },
+    {
+      "id": "fc-t11-B2-020",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "¿Qué señala la guía Folio §5.2. Reserva de puestos de lectura respecto a «También indica abandonar puesto debe»?",
+      "answer": "También indica que, al abandonar el puesto, debe marcarse la salida para dejarlo libre para otro usuario. (Fuente: guía Folio §5.2. Reserva de puestos de lectura.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "También indica que, al abandonar el puesto, debe marcarse la salida para dejarlo libre para otro usuario."
+      }
+    },
+    {
+      "id": "fc-t11-B2-021",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §6.1. Concepto respecto a «diferencian salas lectura porque admiten»?",
+      "answer": "Se diferencian de las salas de lectura porque admiten interacción, conversación moderada y trabajo conjunto. (Fuente: guía Folio §6.1. Concepto.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Se diferencian de las salas de lectura porque admiten interacción, conversación moderada y trabajo conjunto."
+      }
+    },
+    {
+      "id": "fc-t11-B2-022",
+      "topicId": "tema-11-salas-trabajo-grupo",
+      "question": "¿Qué señala la guía Folio §6.2. Salas de trabajo en la UAH respecto a «horario ordinario publicado lunes viernes»?",
+      "answer": "El horario ordinario publicado es de lunes a viernes, de 8:30 a 20:30. (Fuente: guía Folio §6.2. Salas de trabajo en la UAH.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El horario ordinario publicado es de lunes a viernes, de 8:30 a 20:30."
+      }
+    },
+    {
+      "id": "fc-t11-B2-023",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §6.3. Gestión interna de las salas respecto a «fórmula indicada número reservas salas»?",
+      "answer": "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual. (Fuente: guía Folio §6.3. Gestión interna de las salas.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La fórmula indicada es el número de reservas de salas multiplicado por 5 dividido entre estudiantes de grado, con medición mensual y análisis anual."
+      }
+    },
+    {
+      "id": "fc-t11-B2-024",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §7.1. Concepto respecto a «colección libre acceso formada documentos»?",
+      "answer": "La colección de libre acceso está formada por documentos situados en salas o zonas accesibles directamente por el usuario. El usuario puede localizar el documento, tomarlo de la estantería, consultarlo y, si es prestable, llevarlo en préstamo. (Fuente: guía Folio §7.1. Concepto.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La colección de libre acceso está formada por documentos situados en salas o zonas accesibles directamente por el usuario. El usuario puede localizar el documento, tomarlo de la estantería, consultarlo y, si es prestable, llevarlo en préstamo."
+      }
+    },
+    {
+      "id": "fc-t11-B2-025",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "¿Qué señala la guía Folio §7.2. Ordenación por CDU en la UAH respecto a «Biblioteca Farmacia indica colecciones acceso»?",
+      "answer": "La Biblioteca de Farmacia indica que sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU. (Fuente: guía Folio §7.2. Ordenación por CDU en la UAH.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Farmacia indica que sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU."
+      }
+    },
+    {
+      "id": "fc-t11-B2-026",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "¿Qué señala la guía Folio §7.2. Ordenación por CDU en la UAH respecto a «Biblioteca Medicina Ciencias Salud también»?",
+      "answer": "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta. (Fuente: guía Folio §7.2. Ordenación por CDU en la UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Medicina y Ciencias de la Salud también señala que sus monografías y manuales son de libre acceso y están ordenados por materias siguiendo la CDU, al igual que obras de referencia y consulta."
+      }
+    },
+    {
+      "id": "fc-t11-B2-027",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "¿Qué señala la guía Folio §7.2. Ordenación por CDU en la UAH respecto a «Biblioteca Educación indica monografías manuales»?",
+      "answer": "La Biblioteca de Educación indica que sus monografías, manuales y bibliografía recomendada están situados en las plantas primera y segunda y ordenados por materias siguiendo la CDU. (Fuente: guía Folio §7.2. Ordenación por CDU en la UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Educación indica que sus monografías, manuales y bibliografía recomendada están situados en las plantas primera y segunda y ordenados por materias siguiendo la CDU."
+      }
+    },
+    {
+      "id": "fc-t11-B2-028",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "¿Qué señala la guía Folio §7.3. Libre acceso y localización en mapa respecto a «Biblioteca incorporó buscador opción localizar»?",
+      "answer": "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU. (Fuente: guía Folio §7.3. Libre acceso y localización en mapa.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca UAH incorporó en su buscador una opción para localizar libros situados en salas de lectura. Esta opción dirige al mapa de cada biblioteca y permite ver dónde está ubicado el libro en relación con la ordenación de las estanterías según CDU."
+      }
+    },
+    {
+      "id": "fc-t11-B2-029",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §8.1. Concepto respecto a «depósito espacio ubican fondos están»?",
+      "answer": "El depósito es un espacio donde se ubican fondos que no están disponibles directamente en libre acceso o que requieren un control especial. (Fuente: guía Folio §8.1. Concepto.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El depósito es un espacio donde se ubican fondos que no están disponibles directamente en libre acceso o que requieren un control especial."
+      }
+    },
+    {
+      "id": "fc-t11-B2-030",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "¿Qué señala la guía Folio §8.2. Depósitos en la UAH respecto a «Biblioteca Educación indica revistas últimos»?",
+      "answer": "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo. (Fuente: guía Folio §8.2. Depósitos en la UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Educación indica que las revistas de los dos últimos años son de libre acceso en la sala de lectura, mientras que los años anteriores están ubicados en un depósito y se solicitan en el mostrador de préstamo."
+      }
+    },
+    {
+      "id": "fc-t11-B2-031",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "¿Qué señala la guía Folio §8.2. Depósitos en la UAH respecto a «Biblioteca Farmacia distingue fondos planta»?",
+      "answer": "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta. (Fuente: guía Folio §8.2. Depósitos en la UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Farmacia distingue entre fondos en planta baja y depósito; menciona revistas, monografías y ediciones antiguas, con identificación mediante etiquetas de distinto color según sean de préstamo o consulta."
+      }
+    },
+    {
+      "id": "fc-t11-B2-032",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "¿Qué señala la guía Folio §8.2. Depósitos en la UAH respecto a «Memoria EFQM 2023 Biblioteca menciona»?",
+      "answer": "La Memoria EFQM 2023 de la Biblioteca UAH menciona que la Biblioteca está estructurada en tres campus y que en el Campus Histórico se localizan, entre otros, el CRAI-Biblioteca, la Biblioteca de Trinitarios y el depósito María de Guzmán. (Fuente: guía Folio §8.2. Depósitos en la UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Memoria EFQM 2023 de la Biblioteca UAH menciona que la Biblioteca está estructurada en tres campus y que en el Campus Histórico se localizan, entre otros, el CRAI-Biblioteca, la Biblioteca de Trinitarios y el depósito María de Guzmán."
+      }
+    },
+    {
+      "id": "fc-t11-B2-033",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §9.2. Equipamiento en bibliotecas UAH respecto a «Biblioteca Politécnica incluye equipos ordenadores»?",
+      "answer": "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo. (Fuente: guía Folio §9.2. Equipamiento en bibliotecas UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca Politécnica incluye entre sus equipos: ordenadores para consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, calculadoras para préstamo, escáner, fotocopiadora-impresora, pantalla multimedia y máquina de autopréstamo."
+      }
+    },
+    {
+      "id": "fc-t11-B2-034",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §9.2. Equipamiento en bibliotecas UAH respecto a «Biblioteca Educación enumera ordenadores consulta»?",
+      "answer": "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo. (Fuente: guía Folio §9.2. Equipamiento en bibliotecas UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La Biblioteca de Educación enumera ordenadores de consulta al catálogo, ordenadores para uso individual, portátiles para préstamo, escáner y máquina de autopréstamo."
+      }
+    },
+    {
+      "id": "fc-t11-B2-035",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §9.2. Equipamiento en bibliotecas UAH respecto a «servicio general préstamo Biblioteca incluye»?",
+      "answer": "El servicio general de préstamo de la Biblioteca UAH incluye préstamo domiciliario, renovaciones, reservas, préstamo de portátiles, préstamo de calculadoras y Pasaporte Madroño. Además, la página de préstamo señala que la Biblioteca Politécnica y el CRAI disponen de calculadoras científicas para préstamo a estudiantes matriculados en la UAH mediante presentación de la TUI. (Fuente: guía Folio §9.2. Equipamiento en bibliotecas UAH.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El servicio general de préstamo de la Biblioteca UAH incluye préstamo domiciliario, renovaciones, reservas, préstamo de portátiles, préstamo de calculadoras y Pasaporte Madroño. Además, la página de préstamo señala que la Biblioteca Politécnica y el CRAI disponen de calculadoras científicas para préstamo a estudiantes matriculados en la UAH mediante presentación de la TUI."
+      }
+    },
+    {
+      "id": "fc-t11-B2-036",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §10.1. Accesibilidad como parte del equipamiento respecto a «accesibilidad dimensión esencial equipamiento bibliotecario»?",
+      "answer": "La accesibilidad es una dimensión esencial del equipamiento bibliotecario. (Fuente: guía Folio §10.1. Accesibilidad como parte del equipamiento.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La accesibilidad es una dimensión esencial del equipamiento bibliotecario."
+      }
+    },
+    {
+      "id": "fc-t11-B2-037",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §10.1. Accesibilidad como parte del equipamiento respecto a «página accesibilidad Biblioteca indica CRAI»?",
+      "answer": "La página de accesibilidad de la Biblioteca UAH indica que el CRAI-Biblioteca cuenta con buen acceso desde la calle, puertas automáticas, ascensores con información para discapacidad visual, anchura de puertas de 80 cm, aseos adaptados y dos salas de trabajo individual con equipamiento adaptado para usuarios con diversidad funcional. (Fuente: guía Folio §10.1. Accesibilidad como parte del equipamiento.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La página de accesibilidad de la Biblioteca UAH indica que el CRAI-Biblioteca cuenta con buen acceso desde la calle, puertas automáticas, ascensores con información para discapacidad visual, anchura de puertas de 80 cm, aseos adaptados y dos salas de trabajo individual con equipamiento adaptado para usuarios con diversidad funcional."
+      }
+    },
+    {
+      "id": "fc-t11-B2-038",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §10.2. Equipamiento accesible en páginas de bibliotecas UAH respecto a «Esto aparece ejemplo páginas CRAI»?",
+      "answer": "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud. (Fuente: guía Folio §10.2. Equipamiento accesible en páginas de bibliotecas UAH.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Esto aparece, por ejemplo, en las páginas del CRAI-Biblioteca, Biblioteca Politécnica y Biblioteca de Medicina y Ciencias de la Salud."
+      }
+    },
+    {
+      "id": "fc-t11-B2-039",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §11.1. Concepto respecto a «sistemas autoservicio permiten usuario realice»?",
+      "answer": "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario. (Fuente: guía Folio §11.1. Concepto.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "Los sistemas de autoservicio permiten que el usuario realice de forma autónoma operaciones que tradicionalmente requerían intervención directa del personal bibliotecario."
+      }
+    },
+    {
+      "id": "fc-t11-B2-040",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "¿Qué señala la guía Folio §11.2. Autopréstamo respecto a «documento procesos Servicio Biblioteca incluye»?",
+      "answer": "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual. (Fuente: guía Folio §11.2. Autopréstamo.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "El documento de procesos del Servicio de Biblioteca UAH incluye un indicador de uso de autopréstamo. Define la fórmula como transacciones a través de autopréstamo divididas por el total de transacciones —préstamos, renovaciones y devoluciones—, con medición trimestral y análisis anual. También señala que no todas las bibliotecas disponen de máquina de autopréstamo y menciona 7 de 14 bibliotecas."
+      }
+    },
+    {
+      "id": "fc-t11-B2-041",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "¿Qué señala la guía Folio §11.3. Reserva de puestos y salas como autoservicio respecto a «reserva puestos lectura mediante Accede»?",
+      "answer": "La reserva de puestos de lectura mediante Accede UAH y la reserva de salas de trabajo forman parte de la lógica de autoservicio: el usuario selecciona espacio, franja y confirma su uso. En los puestos de lectura, la reserva genera un PDF con código QR y el dispositivo de entrada/salida permite confirmar ocupación o liberación del puesto. (Fuente: guía Folio §11.3. Reserva de puestos y salas como autoservicio.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La reserva de puestos de lectura mediante Accede UAH y la reserva de salas de trabajo forman parte de la lógica de autoservicio: el usuario selecciona espacio, franja y confirma su uso. En los puestos de lectura, la reserva genera un PDF con código QR y el dispositivo de entrada/salida permite confirmar ocupación o liberación del puesto."
+      }
+    },
+    {
+      "id": "fc-t11-B2-042",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §11.4. Localización de fondos en mapa respecto a «función localizar libro mapa cada»?",
+      "answer": "La función de localizar un libro en el mapa de cada biblioteca permite al usuario encontrar físicamente el ejemplar en relación con la ordenación CDU. Es un ejemplo claro de autoservicio aplicado a la colección de libre acceso. (Fuente: guía Folio §11.4. Localización de fondos en mapa.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "La función de localizar un libro en el mapa de cada biblioteca permite al usuario encontrar físicamente el ejemplar en relación con la ordenación CDU. Es un ejemplo claro de autoservicio aplicado a la colección de libre acceso."
+      }
+    },
+    {
+      "id": "fc-t11-B2-043",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §Convocatoria oficial respecto a «Resolución octubre 2025 Universidad Alcalá»?",
+      "answer": "Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas. (Fuente: guía Folio §Convocatoria oficial.)",
+      "difficulty": "avanzada",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/tema_11_organizacion_espacial_bibliotecas_uah.md",
+        "highlightText": "- Resolución de 6 de octubre de 2025 de la Universidad de Alcalá, convocatoria de pruebas selectivas para la Escala Técnica Auxiliar de Archivos y Bibliotecas."
+      }
+    },
+    {
+      "id": "fc-t11-B2-044",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §2. Fuentes autoritativas del tema respecto a «existe sola norma cubra todo»?",
+      "answer": "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca. (Fuente: guía Folio §2. Fuentes autoritativas del tema.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "No existe una sola norma que cubra todo el Tema 11. La fuente principal práctica es el conjunto de páginas oficiales de cada biblioteca UAH, complementado por los servicios de reserva, normas de salas, Buscador y procesos del Servicio de Biblioteca."
+      }
+    },
+    {
+      "id": "fc-t11-B2-045",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
+      "question": "¿Qué señala la guía Folio §3. Organización espacial en bibliotecas universitarias respecto a «organización espacial biblioteca universitaria responde»?",
+      "answer": "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas. (Fuente: guía Folio §3. Organización espacial en bibliotecas universitarias.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "La organización espacial de una biblioteca universitaria responde a una finalidad académica: facilitar el aprendizaje, la docencia, la investigación y el acceso a la información. Por eso el espacio se ordena en zonas con funciones diferenciadas."
+      }
+    },
+    {
+      "id": "fc-t11-B2-046",
+      "topicId": "tema-11-bibliotecas-buah-distribucion-campus",
+      "question": "¿Qué señala la guía Folio §4. Instalaciones de la Biblioteca UAH: visión de conjunto respecto a «BUAH organiza bibliotecas distribuidas campus»?",
+      "answer": "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas. (Fuente: guía Folio §4. Instalaciones de la Biblioteca UAH: visión de conjunto.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "La BUAH se organiza en bibliotecas distribuidas por campus. El CRAI-Biblioteca concentra una gran parte de los servicios y espacios del Campus Histórico, mientras que el Campus Científico-Tecnológico y Guadalajara cuentan con bibliotecas vinculadas a sus áreas académicas."
+      }
+    },
+    {
+      "id": "fc-t11-B2-047",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "¿Qué señala la guía Folio §5. Salas de lectura y reserva de puestos respecto a «salas lectura espacio básico estudio»?",
+      "answer": "Las salas de lectura son el espacio básico de estudio y consulta. En la UAH, la reserva de puestos se ofrece en línea mediante la plataforma Accede UAH para la comunidad universitaria, especialmente en el CRAI-Biblioteca y en zonas indicadas. La lógica de este servicio es controlar la ocupación, asegurar disponibilidad y ordenar el uso en periodos de alta demanda. (Fuente: guía Folio §5. Salas de lectura y reserva de puestos.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Las salas de lectura son el espacio básico de estudio y consulta. En la UAH, la reserva de puestos se ofrece en línea mediante la plataforma Accede UAH para la comunidad universitaria, especialmente en el CRAI-Biblioteca y en zonas indicadas. La lógica de este servicio es controlar la ocupación, asegurar disponibilidad y ordenar el uso en periodos de alta demanda."
+      }
+    },
+    {
+      "id": "fc-t11-B2-048",
+      "topicId": "tema-11-salas-estudio-puestos-lectura",
+      "question": "¿Qué señala la guía Folio §5. Salas de lectura y reserva de puestos respecto a «pregunta práctica usuario pertenece distinguir»?",
+      "answer": "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria. (Fuente: guía Folio §5. Salas de lectura y reserva de puestos.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "En una pregunta práctica, si un usuario no pertenece a la UAH, hay que distinguir entre acceso general a salas y acceso a servicios específicos: la consulta de fondos y uso de sala puede estar permitida en periodos ordinarios, pero determinados servicios quedan reservados a la comunidad universitaria."
+      }
+    },
+    {
+      "id": "fc-t11-B2-049",
+      "topicId": "tema-11-salas-trabajo-grupo",
+      "question": "¿Qué señala la guía Folio §6. Salas de trabajo en grupo respecto a «salas trabajo destinan miembros comunidad»?",
+      "answer": "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio. (Fuente: guía Folio §6. Salas de trabajo en grupo.)",
+      "difficulty": "avanzada",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Las salas de trabajo se destinan a miembros de la comunidad universitaria y responden a una necesidad diferente de la sala de lectura: colaboración, preparación de trabajos, tutorías, seminarios o reuniones académicas. La página oficial indica que la reserva vence si no se hace efectiva en los 15 minutos posteriores a la hora de inicio."
+      }
+    },
+    {
+      "id": "fc-t11-B2-050",
+      "topicId": "tema-11-coleccion-libre-acceso",
+      "question": "¿Qué señala la guía Folio §7. Colección de libre acceso y ordenación por CDU respecto a «parte esencial Tema comprender relación»?",
+      "answer": "Una parte esencial del Tema 11 es comprender la relación entre espacio físico y colección. Las páginas oficiales de las bibliotecas UAH repiten un patrón: las colecciones de acceso directo se ordenan por materias siguiendo la Clasificación Decimal Universal (CDU). (Fuente: guía Folio §7. Colección de libre acceso y ordenación por CDU.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "Una parte esencial del Tema 11 es comprender la relación entre espacio físico y colección. Las páginas oficiales de las bibliotecas UAH repiten un patrón: las colecciones de acceso directo se ordenan por materias siguiendo la Clasificación Decimal Universal (CDU). Esta ordenación permite que el usuario localice libros por materia y que la biblioteca mantenga una distribución coherente en estanterías."
+      }
+    },
+    {
+      "id": "fc-t11-B2-051",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "¿Qué señala la guía Folio §8. Depósitos y fondos no directamente accesibles respecto a «depósito espacio conservación gestión Puede»?",
+      "answer": "El depósito es un espacio de conservación y gestión. Puede contener fondos de menor demanda, colecciones antiguas, revistas retrospectivas, proyectos académicos antiguos o materiales cuyo acceso requiere mediación del personal. La clave es que el usuario no siempre accede físicamente al depósito: suele solicitar los documentos en mostrador. (Fuente: guía Folio §8. Depósitos y fondos no directamente accesibles.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El depósito es un espacio de conservación y gestión. Puede contener fondos de menor demanda, colecciones antiguas, revistas retrospectivas, proyectos académicos antiguos o materiales cuyo acceso requiere mediación del personal. La clave es que el usuario no siempre accede físicamente al depósito: suele solicitar los documentos en mostrador."
+      }
+    },
+    {
+      "id": "fc-t11-B2-052",
+      "topicId": "tema-11-depositos-bibliotecarios",
+      "question": "¿Qué señala la guía Folio §8. Depósitos y fondos no directamente accesibles respecto a «Politécnica proyectos anteriores 1997 depósito»?",
+      "answer": "Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador. (Fuente: guía Folio §8. Depósitos y fondos no directamente accesibles.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "- Politécnica: proyectos anteriores a 1997 en depósito; revistas con números anteriores solicitables en\nmostrador."
+      }
+    },
+    {
+      "id": "fc-t11-B2-053",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §9. Equipamiento informático, tecnológico y accesible respecto a «equipamiento informático convierte biblioteca entorno»?",
+      "answer": "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica. (Fuente: guía Folio §9. Equipamiento informático, tecnológico y accesible.)",
+      "difficulty": "basica",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El equipamiento informático convierte la biblioteca en un entorno de aprendizaje, consulta y producción académica."
+      }
+    },
+    {
+      "id": "fc-t11-B2-054",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "¿Qué señala la guía Folio §10. Sistemas de autoservicio y descubrimiento respecto a «autoservicio limita máquina autopréstamo Incluye»?",
+      "answer": "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal. (Fuente: guía Folio §10. Sistemas de autoservicio y descubrimiento.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El autoservicio no se limita a una máquina de autopréstamo. Incluye la capacidad del usuario para reservar espacios, localizar documentos, consultar disponibilidad, encontrar la ubicación en el plano de la biblioteca y realizar operaciones básicas sin intervención constante del personal."
+      }
+    },
+    {
+      "id": "fc-t11-B2-055",
+      "topicId": "tema-11-sistemas-autoservicio",
+      "question": "¿Qué señala la guía Folio §10. Sistemas de autoservicio y descubrimiento respecto a «Buscador importante Tema porque conecta»?",
+      "answer": "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías. (Fuente: guía Folio §10. Sistemas de autoservicio y descubrimiento.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "El Buscador UAH es importante para el Tema 11 porque conecta el registro bibliográfico con el espacio físico. La opción de localizar en el mapa permite al usuario identificar dónde está un libro dentro de la biblioteca y relacionarlo con la CDU y las estanterías."
+      }
+    },
+    {
+      "id": "fc-t11-B2-056",
+      "topicId": "tema-11-equipamiento-informatico-accesibilidad",
+      "question": "¿Qué señala la guía Folio §11. Accesibilidad y diversidad funcional respecto a «accesibilidad forma parte equipamiento organización»?",
+      "answer": "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo. (Fuente: guía Folio §11. Accesibilidad y diversidad funcional.)",
+      "difficulty": "intermedia",
+      "tags": [
+        "tema-11",
+        "guia-folio",
+        "organizacion-espacial",
+        "equipamiento",
+        "buah"
+      ],
+      "origin": "adaptada-ia",
+      "source": {
+        "materialId": "tema-11",
+        "path": "data/uah-bibliotecas-2025/referencias/11_organizacion_espacial_equipamiento_buah.md",
+        "highlightText": "La accesibilidad forma parte del equipamiento y de la organización espacial. No basta con que exista colección o tecnología: el usuario debe poder acceder a los edificios, salas, puestos y recursos. Las páginas oficiales mencionan accesos, puertas automáticas, ascensores, puestos adaptados y productos de apoyo."
+      }
+    },
+    {
       "id": "uah-t11-fact-bloques-espacios",
-      "topicId": "uah-bib-t11-contenido",
+      "topicId": "tema-11-organizacion-espacial-bibliotecas-universitarias",
       "question": "¿Qué cinco bloques debes dominar sobre espacios y equipamiento bibliotecario?",
       "answer": "Instalaciones, salas de estudio y trabajo en grupo, colección de libre acceso y depósitos, equipamiento informático y sistemas de autoservicio.",
       "origin": "curada-editorial"

@@ -111,6 +111,7 @@ table OptimizedQuestion {
   explanation:string;
   origin:string;
   source:QuestionSource;
+  duplicateOf:string;
 }
 
 table OriginCount {

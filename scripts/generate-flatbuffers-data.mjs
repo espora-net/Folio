@@ -290,6 +290,7 @@ const normalizeQuestions = (dataset) => {
         explanation: normalizeString(question.explanation),
         origin: normalizeString(question.origin) || 'generated',
         source: normalizeQuestionSource(question.source),
+        duplicateOf: normalizeString(question.duplicateOf),
       };
       return normalized.id && normalized.topicId && normalized.question && normalized.options.length ? normalized : null;
     })

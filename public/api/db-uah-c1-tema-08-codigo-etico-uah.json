@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T17:54:05.548Z",
+    "updatedAt": "2026-05-04T13:14:38.256Z",
     "title": "UAH C1 Tema 08 - Código Ético General de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 8 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
-    "questionCount": 11,
-    "explicitFlashcardCount": 4,
+    "questionCount": 61,
+    "explicitFlashcardCount": 54,
     "originCounts": {
       "adaptada-ia": 5,
-      "generada-ia": 3,
+      "generada-ia": 53,
       "oficial": 1,
       "opositatest.com": 2
     },
@@ -23,11 +23,77 @@
       "order": 8,
       "subtopics": [
         {
-          "id": "uah-bib-t08-contenido",
+          "id": "tema-08-titulo-i-valores-comunidad-arts-1-7",
           "topicId": "uah-bib-t08",
-          "title": "Incluye referencias a normativa de buen gobierno y códigos de conducta sectoriales. Fuente: Boletín Oficial UAH, año XII, nº 6, 4/7/2017",
-          "content": "Enfoque de examen: Documento marco aprobado en Consejo de Gobierno de 22 de junio de 2017 (publicado en el Boletín Oficial de la UAH). Este código ético recoge los valores institucionales, principios de buena conducta y compromisos de integridad.\n\nContenido acotado: Incluye referencias a normativa de buen gobierno y códigos de conducta sectoriales. Fuente: Boletín Oficial UAH, año XII, nº 6, 4/7/2017\n\nCobertura oficial: #codigo-etico-general-uah",
+          "title": "Título I. Valores comunes y comunidad universitaria (arts. 1-7)",
+          "content": "Título I del Código Ético General UAH (Consejo de Gobierno 22/06/2017). Comprende los artículos 1 a 7: valores compartidos por la comunidad universitaria, respeto a la dignidad, libre desarrollo de la personalidad, igualdad y no discriminación; responsabilidad del personal docente e investigador y del PAS en la transmisión de valores; principios aplicables al estudiantado y al conjunto de la comunidad.",
           "order": 1,
+          "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
+            "uah-tema-008"
+          ]
+        },
+        {
+          "id": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+          "topicId": "uah-bib-t08",
+          "title": "Título II. Conducta del personal: principios generales y conflictos de intereses (arts. 8-10)",
+          "content": "Título II, Capítulo Primero del Código Ético General UAH. Artículos 8-10: respeto a derechos fundamentales y libertades públicas y prohibición de discriminación (art. 8); imparcialidad, objetividad, diligencia, lealtad y buena fe (art. 9); evitación del conflicto de intereses, rechazo de regalos, favores o servicios ventajosos más allá de los usos habituales, sociales y de cortesía (art. 10).",
+          "order": 2,
+          "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
+            "uah-tema-008"
+          ]
+        },
+        {
+          "id": "tema-08-titulo-ii-dedicacion-secreto-recursos-arts-11-13",
+          "topicId": "uah-bib-t08",
+          "title": "Título II. Dedicación al servicio público, secreto profesional y recursos (arts. 11-13)",
+          "content": "Título II, Capítulo Primero del Código Ético General UAH. Artículos 11-13: dedicación al servicio público y neutralidad (art. 11); deber de secreto profesional y prohibición de uso de información obtenida por razón del puesto (art. 12); gestión, protección y conservación de los recursos públicos bajo el principio de austeridad (art. 13).",
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
+            "uah-tema-008"
+          ]
+        },
+        {
+          "id": "tema-08-titulo-ii-buen-gobierno-cargos-directivos-arts-14-16",
+          "topicId": "uah-bib-t08",
+          "title": "Título II. Principios de buen gobierno y cargos directivos (arts. 14-16)",
+          "content": "Título II, Capítulo Segundo del Código Ético General UAH (Principios de Buen Gobierno). Artículos 14-16: deber de los cargos directivos de observar la Constitución y el ordenamiento jurídico y promover los derechos fundamentales (art. 14); transparencia, imparcialidad, trato igual, no discriminación, diligencia y calidad (art. 15); ejercicio de poderes con finalidad exclusiva, evitación de incompatibilidades y de uso del cargo para ventajas personales o materiales (art. 16).",
+          "order": 4,
+          "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
+            "uah-tema-008"
+          ]
+        },
+        {
+          "id": "tema-08-titulo-iii-comite-etica-arts-17-19",
+          "topicId": "uah-bib-t08",
+          "title": "Título III. Comité de Ética: constitución, composición y funcionamiento (arts. 17-19)",
+          "content": "Título III del Código Ético General UAH. Artículos 17-19: el Comité de Ética se constituye como órgano competente para interpretar y resolver dudas sobre el cumplimiento del Código (art. 17); composición (Presidente: Secretaría General; Secretario: titular de la Dirección del Órgano Técnico de Auditoría y Control Internos; vocales: Gerente, Defensor Universitario, Director de Inspección de Servicios, Presidente del Consejo de Estudiantes, Presidente de la Comisión de Igualdad, Presidente de la Comisión de Calidad, Presidente del Comité de Ética de la Investigación) (art. 18); reunión trimestral, convocatoria a petición de dos terceras partes o por el Presidente, e informe anual de actuaciones al Consejo de Gobierno (art. 19).",
+          "order": 5,
+          "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
+            "uah-tema-008"
+          ]
+        },
+        {
+          "id": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+          "topicId": "uah-bib-t08",
+          "title": "Título IV. Auditorías éticas: objeto, valoración y promoción (arts. 20-22)",
+          "content": "Título IV del Código Ético General UAH. Artículos 20-22: objeto de las auditorías éticas y hechos a comprobar (art. 20); valoración del informe respecto al cumplimiento del Código y exigencia de razones que justifiquen los incumplimientos detectados (art. 21); promoción de las auditorías por el Comité de Ética y remisión de los informes al Consejo de Gobierno (art. 22).",
+          "order": 6,
+          "syllabusCoverageIds": [
+            "#codigo-etico-general-uah",
+            "uah-tema-008"
+          ]
+        },
+        {
+          "id": "tema-08-titulo-v-medidas-correctoras-arts-23-24",
+          "topicId": "uah-bib-t08",
+          "title": "Título V. Medidas correctoras: propuesta y tramitación (arts. 23-24)",
+          "content": "Título V del Código Ético General UAH. Artículos 23-24: propuestas de medidas correctoras por el Consejo de Gobierno a la vista de los informes del Comité de Ética y de las auditorías éticas (art. 23); tramitación de las propuestas, dirigidas al órgano competente para la valoración y la adopción de la resolución correspondiente, atendiendo al colectivo afectado (art. 24).",
+          "order": 7,
           "syllabusCoverageIds": [
             "#codigo-etico-general-uah",
             "uah-tema-008"
@@ -39,7 +105,7 @@
   "questions": [
     {
       "id": "uah-m-8-23",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "El Codigo etico general UAH se orienta a:",
       "options": [
         "Principios y valores de conducta institucional",
@@ -58,7 +124,7 @@
     },
     {
       "id": "uah-m-8-24",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Cual de estos valores encaja con el Codigo etico general UAH?",
       "options": [
         "Integridad y responsabilidad",
@@ -77,7 +143,7 @@
     },
     {
       "id": "uah-m-8-67",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "El Codigo etico general UAH forma parte de:",
       "options": [
         "Un marco de integridad institucional y conducta responsable",
@@ -96,7 +162,7 @@
     },
     {
       "id": "uah-m-8-68",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "Ante un conflicto entre interes personal y deber institucional, el enfoque coherente con el Codigo etico UAH es:",
       "options": [
         "Actuar con integridad, imparcialidad y buen uso de los recursos",
@@ -115,7 +181,7 @@
     },
     {
       "id": "uah-c-8-0",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué finalidad tiene el Código Ético General UAH?",
       "options": [
         "Regular la notación de la CDU y sus tablas auxiliares.",
@@ -140,7 +206,7 @@
     },
     {
       "id": "uah-c-8-1",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué conducta expresa mejor la integridad institucional?",
       "options": [
         "Afecta a relaciones internas, uso de recursos, conflicto de intereses y compromiso institucional.",
@@ -165,7 +231,7 @@
     },
     {
       "id": "uah-c-8-2",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Cómo se proyecta el Código Ético en servicios bibliotecarios?",
       "options": [
         "Asignar números normalizados a publicaciones seriadas.",
@@ -190,7 +256,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q029-c4e188582988",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué organización internacional promueve la integridad y transparencia en la investigación científica?",
       "options": [
         "COPE",
@@ -216,7 +282,7 @@
     },
     {
       "id": "uah-exam-cadiz-c1-2025-q019-2ee3b72d2ff5",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿A quién se aplica el Código Ético General de la Universidad de Alcalá (UAH)?",
       "options": [
         "A toda la comunidad universitaria: PDI, PAS, estudiantes y cualquier persona que actúe en nombre de la UAH.",
@@ -242,7 +308,7 @@
     },
     {
       "id": "uah-opo-ref-015",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué función cumple el Código Ético General de la Universidad de Alcalá?",
       "options": [
         "Servir de orientación y guía inspiradora de comportamientos y conductas",
@@ -267,7 +333,7 @@
     },
     {
       "id": "uah-opo-ref-016",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "En un código ético universitario, ¿qué idea se asocia mejor con la integridad institucional?",
       "options": [
         "Actuar con honradez, responsabilidad y servicio al interés general",
@@ -289,33 +355,2353 @@
         "pregunta-original",
         "uah-tema-008"
       ]
+    },
+    {
+      "id": "uah-m-8-PILOT-001",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 8 del Código Ético General de la UAH, ¿en qué debe basarse la conducta del personal al servicio de la Universidad?",
+      "options": [
+        "En la preferencia por los usos internos del servicio",
+        "En el respeto de los derechos fundamentales y libertades públicas",
+        "En la autonomía completa de cada unidad administrativa",
+        "En la prioridad de criterios económicos sobre el trato al usuario"
+      ],
+      "correctIndex": 1,
+      "explanation": "El artículo 8 vincula la conducta del personal al respeto de los derechos fundamentales y libertades públicas, evitando actuaciones discriminatorias.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "derechos fundamentales",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-002",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 8, ¿cuál de estas razones de discriminación aparece expresamente mencionada?",
+      "options": [
+        "Antigüedad en la Universidad",
+        "Origen racial o étnico",
+        "Tipo de carné universitario",
+        "Turno de trabajo asignado"
+      ],
+      "correctIndex": 1,
+      "explanation": "El listado del artículo 8 incluye expresamente el origen racial o étnico entre las causas de discriminación que deben evitarse.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Origen racial o étnico."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-003",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué actuación resulta incompatible con el artículo 8 del Código Ético General de la UAH?",
+      "options": [
+        "Atender con respeto a cualquier usuario autorizado",
+        "Adaptar la comunicación a las necesidades del usuario",
+        "Producir discriminación por edad, discapacidad u otra circunstancia personal",
+        "Aplicar una norma general publicada de forma igualitaria"
+      ],
+      "correctIndex": 2,
+      "explanation": "El artículo 8 ordena evitar toda actuación que pueda producir discriminación, incluidas las basadas en edad, discapacidad o circunstancias personales o sociales.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "aplicación práctica",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-004",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "En el artículo 8, ¿qué fórmula cierra la enumeración de causas de discriminación?",
+      "options": [
+        "Cualquier diferencia académica o profesional",
+        "Cualquier otra circunstancia personal o social",
+        "Cualquier preferencia de gestión interna",
+        "Cualquier criterio económico o presupuestario"
+      ],
+      "correctIndex": 1,
+      "explanation": "La enumeración no es cerrada: incluye cualquier otra circunstancia personal o social.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-005",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 8, ¿qué categoría aparece expresamente junto a origen racial o étnico, género, sexo y orientación sexual?",
+      "options": [
+        "Religión o convicciones",
+        "Especialidad bibliotecaria",
+        "Unidad administrativa",
+        "Tipo de expediente"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 8 menciona religión o convicciones como una de las razones por las que no puede producirse discriminación.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "derechos fundamentales",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Religión o convicciones."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-006",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "En una biblioteca universitaria, ¿qué aplicación práctica conecta directamente con el artículo 8?",
+      "options": [
+        "Gestionar usuarios con discapacidad evitando discriminaciones",
+        "Reservar siempre los mejores puestos al personal conocido",
+        "Reducir derechos por nacionalidad cuando haya alta demanda",
+        "Exigir convicciones religiosas para acceder a servicios"
+      ],
+      "correctIndex": 0,
+      "explanation": "El material vincula el respeto del artículo 8 con la gestión de usuarios con discapacidad en el entorno bibliotecario.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "bibliotecas",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Gestión de usuarios con discapacidad."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-007",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Cuál de estas parejas reproduce causas expresas de discriminación del artículo 8?",
+      "options": [
+        "Religión o convicciones y opinión",
+        "Destino presupuestario y categoría profesional",
+        "Horario del servicio y calendario académico",
+        "Tipo de colección y centro de adscripción"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 8 cita expresamente religión o convicciones y opinión, junto con otras circunstancias personales o sociales.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-008",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Si una conducta discrimina por una circunstancia personal no enumerada literalmente, ¿qué respuesta se ajusta al artículo 8?",
+      "options": [
+        "No queda comprendida porque la lista es cerrada",
+        "Solo queda comprendida si afecta a estudiantes de grado",
+        "Puede quedar comprendida por la cláusula de cualquier otra circunstancia personal o social",
+        "Depende exclusivamente de que haya una sanción disciplinaria previa"
+      ],
+      "correctIndex": 2,
+      "explanation": "La cláusula “cualquier otra circunstancia personal o social” amplía la protección frente a discriminaciones no enumeradas nominalmente.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "interpretación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-009",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 9, ¿qué principios deben regir el desempeño de funciones y tareas del personal de la UAH?",
+      "options": [
+        "Imparcialidad, objetividad, diligencia, lealtad y buena fe",
+        "Publicidad, jerarquía, rotación, austeridad y reserva",
+        "Exclusividad, preferencia, confidencialidad, rapidez y cortesía",
+        "Autonomía, oportunidad, discrecionalidad, urgencia y delegación"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 9 enumera imparcialidad, objetividad, diligencia, lealtad y buena fe como principios de actuación.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "imparcialidad",
+        "objetividad",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 9 del Código:** En el desempeño de sus funciones y tareas, el personal al servicio de la Universidad de Alcalá actuará con imparcialidad, objetividad, diligencia, lealtad y buena fe con la Universidad y con sus superiores, compañeros y subordinados. Estos mismos principios inspirarán el comportamiento del personal en sus relaciones con los estudiantes."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-010",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 9, esos mismos principios deben inspirar también el comportamiento del personal en sus relaciones con:",
+      "options": [
+        "Los estudiantes",
+        "Solo los proveedores",
+        "Exclusivamente los órganos judiciales",
+        "Únicamente los antiguos alumnos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 9 extiende esos principios al comportamiento del personal en sus relaciones con los estudiantes.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "estudiantes",
+        "imparcialidad",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 9 del Código:** En el desempeño de sus funciones y tareas, el personal al servicio de la Universidad de Alcalá actuará con imparcialidad, objetividad, diligencia, lealtad y buena fe con la Universidad y con sus superiores, compañeros y subordinados. Estos mismos principios inspirarán el comportamiento del personal en sus relaciones con los estudiantes."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-011",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué exige el Código respecto a la orientación de la actuación del personal?",
+      "options": [
+        "Orientarla al interés general y evitar ventajas indebidas",
+        "Orientarla a la rapidez aunque genere privilegios",
+        "Orientarla a la preferencia del entorno familiar inmediato",
+        "Orientarla a criterios personales cuando no haya reclamación"
+      ],
+      "correctIndex": 0,
+      "explanation": "El material indica que la actuación del personal debe orientarse al interés general y evitar ventajas indebidas.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "interés general",
+        "privilegios",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "El Código exige que la actuación del personal se oriente al interés general y evite ventajas indebidas para el propio empleado, su entorno familiar o social, o terceros."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-012",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué conducta se menciona como contraria a la imparcialidad del artículo 9?",
+      "options": [
+        "No favorecer a conocidos en trámites o servicios",
+        "Publicar criterios generales de atención",
+        "Canalizar una reclamación formal",
+        "Aplicar turnos por orden de solicitud"
+      ],
+      "correctIndex": 0,
+      "explanation": "Entre las implicaciones del artículo 9 figura no favorecer a conocidos en trámites o servicios.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "favoritismo",
+        "bibliotecas",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No favorecer a conocidos en trámites o servicios."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-013",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "En relación con turnos o reservas, ¿qué implica el principio de imparcialidad del artículo 9?",
+      "options": [
+        "Alterarlos por motivos personales cuando el usuario sea conocido",
+        "No alterarlos por motivos personales",
+        "Sustituir las normas por acuerdos verbales",
+        "Dar prioridad a quien insista presencialmente"
+      ],
+      "correctIndex": 1,
+      "explanation": "El material traduce la imparcialidad en no alterar turnos o reservas por motivos personales.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "reservas",
+        "imparcialidad",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No alterar turnos o reservas por motivos personales."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-014",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué pauta práctica deriva del artículo 9 sobre la aplicación de normas de servicio?",
+      "options": [
+        "Conceder excepciones arbitrarias si mejoran la satisfacción inmediata",
+        "No conceder excepciones arbitrarias",
+        "Excluir las normas cuando haya presión de un usuario",
+        "Reservar las excepciones a personas del entorno social"
+      ],
+      "correctIndex": 1,
+      "explanation": "La actuación imparcial excluye conceder excepciones arbitrarias.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "objetividad",
+        "excepciones",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No conceder excepciones arbitrarias."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-015",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según las implicaciones del artículo 9, ¿qué debe hacerse con la información interna conocida por el puesto?",
+      "options": [
+        "Usarla para beneficio propio si no se divulga",
+        "Usarla para favorecer a terceros solo si son usuarios autorizados",
+        "No usarla para beneficio propio",
+        "Compartirla con conocidos para anticipar trámites"
+      ],
+      "correctIndex": 2,
+      "explanation": "El material incluye expresamente no usar información interna para beneficio propio.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "información interna",
+        "beneficio propio",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No usar información interna para beneficio propio."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-016",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "En el caso de un conocido que pide saltarse la lista de espera de una sala, ¿cuál es la respuesta correcta según el material?",
+      "options": [
+        "Resolver por la relación personal si no perjudica visiblemente a nadie",
+        "Aplicar la normativa aplicable, no la relación personal",
+        "Conceder la reserva y regularizarla después",
+        "Remitirlo automáticamente al Consejo de Gobierno"
+      ],
+      "correctIndex": 1,
+      "explanation": "El caso práctico indica que la respuesta debe basarse en la normativa aplicable, no en la relación personal.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "caso práctico",
+        "reservas",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "Un usuario conocido del empleado pide saltarse la lista de espera de una sala de trabajo o reservar un ejemplar antes que otros usuarios. La respuesta correcta debe basarse en la normativa aplicable, no en la relación personal."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-017",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 10, ¿qué finalidad tiene la regulación sobre conflictos de intereses?",
+      "options": [
+        "Evitar la incursión en conflicto de intereses con las obligaciones del puesto público",
+        "Permitir operaciones privadas si producen ventaja institucional",
+        "Sustituir la normativa de contratación por reglas de cortesía",
+        "Reservar las decisiones a proveedores con experiencia previa"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 10 se formula “a fin de evitar la incursión en conflicto de intereses” con las obligaciones del puesto público.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "conflicto de intereses",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 10 del Código:** A fin de evitar la incursión en conflicto de intereses con las obligaciones de su puesto público, el personal de la Universidad de Alcalá:"
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-018",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 10.a), ¿qué no debe hacer el personal cuando pueda suponer conflicto de intereses?",
+      "options": [
+        "Contraer obligaciones económicas o intervenir en operaciones financieras o negocios jurídicos con personas o entidades afectadas",
+        "Solicitar formación interna sobre contratación pública",
+        "Aplicar criterios publicados de adquisición",
+        "Informar a su superior de una incidencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "El apartado a) prohíbe contraer obligaciones económicas o intervenir en operaciones financieras, patrimoniales o negocios jurídicos cuando pueda haber conflicto de intereses.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "conflicto de intereses",
+        "operaciones financieras",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "a) No contraerá obligaciones económicas ni intervendrá en operaciones financieras, obligaciones patrimoniales o negocios jurídicos con personas o entidades cuando pueda suponer un conflicto de intereses con las obligaciones de su puesto público."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-019",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 10.b), ¿cuándo debe abstenerse el personal de intervenir en un asunto?",
+      "options": [
+        "Cuando tenga interés personal o una actividad privada genere riesgo de conflicto",
+        "Cuando el asunto requiera consulta técnica",
+        "Siempre que intervenga un estudiante",
+        "Solo cuando exista una sanción firme"
+      ],
+      "correctIndex": 0,
+      "explanation": "El apartado b) exige abstenerse en asuntos con interés personal y ante actividades privadas que puedan suponer riesgo de conflicto.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "abstención",
+        "interés personal",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "b) Se abstendrá de intervenir en aquellos asuntos en los que tenga interés personal, así como de realizar cualquier actividad privada que pueda suponer un riesgo de incurrir en conflictos de intereses con su puesto público."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-020",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "En la tramitación de procedimientos, el personal de administración y servicios debe cuidar especialmente que no se derive:",
+      "options": [
+        "Beneficio para su entorno familiar o social inmediato ni privilegio para titulares de cargos públicos",
+        "Retraso cuando el procedimiento sea complejo",
+        "Informe anual para la comunidad universitaria",
+        "Revisión del soporte documental de todo gasto ordinario"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 10 destaca que la tramitación no debe beneficiar al entorno familiar o social inmediato ni privilegiar a cargos públicos.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "PAS",
+        "privilegios",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "En particular, el personal de administración y servicios cuidará especialmente de que la tramitación de los procedimientos de los que sea responsable se lleve a cabo de manera que en ningún caso se derive de ello beneficio para su entorno familiar o social inmediato, ni privilegio para los titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya más allá de los usos habituales, sociales y de cortesía."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-021",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "Según el artículo 10, ¿qué debe hacerse con regalos, favores o servicios ventajosos que vayan más allá de los usos habituales, sociales y de cortesía?",
+      "options": [
+        "Aceptarlos si son de un usuario frecuente",
+        "Registrarlos como mérito profesional",
+        "Rechazarlos",
+        "Solicitar que se entreguen fuera del horario laboral"
+      ],
+      "correctIndex": 2,
+      "explanation": "El artículo 10 ordena rechazar regalos, favores o servicios ventajosos que excedan los usos habituales, sociales y de cortesía.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "regalos",
+        "cortesía",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "En particular, el personal de administración y servicios cuidará especialmente de que la tramitación de los procedimientos de los que sea responsable se lleve a cabo de manera que en ningún caso se derive de ello beneficio para su entorno familiar o social inmediato, ni privilegio para los titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya más allá de los usos habituales, sociales y de cortesía."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-022",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Cuál es la idea clave del artículo 10 según el material de estudio?",
+      "options": [
+        "Evitar conflictos de intereses o apariencia de trato privilegiado",
+        "Centralizar todas las compras en el Comité de Ética",
+        "Convertir cualquier regalo en falta disciplinaria automática",
+        "Permitir excepciones si el usuario no reclama"
+      ],
+      "correctIndex": 0,
+      "explanation": "La idea clave recogida en el material es evitar conflictos de intereses o apariencia de trato privilegiado.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "trato privilegiado",
+        "conflicto de intereses",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "La idea clave es evitar conflictos de intereses o apariencia de trato privilegiado."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-023",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Cuál de estos ejemplos se identifica como problemático en compras bibliográficas?",
+      "options": [
+        "Un proveedor ofrece regalos al personal que interviene en compras bibliográficas",
+        "Un usuario consulta el horario publicado de sala",
+        "Un estudiante presenta una reclamación por cauce ordinario",
+        "Un bibliotecario comunica una incidencia técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "El material cita como ejemplo problemático que un proveedor ofrezca regalos al personal que interviene en compras bibliográficas.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "bibliotecas",
+        "proveedores",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Un proveedor ofrece regalos al personal que interviene en compras bibliográficas."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-024",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué supuesto práctico ilustra un conflicto de intereses o trato preferente en el artículo 10?",
+      "options": [
+        "Un usuario ofrece compensación por obtener trato preferente",
+        "Un usuario solicita información sobre plazos de préstamo",
+        "Un responsable publica criterios de reserva",
+        "Una unidad revisa una queja dentro de plazo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El ofrecimiento de compensación por trato preferente aparece como ejemplo problemático conectado con el artículo 10.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "trato preferente",
+        "caso práctico",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Un usuario ofrece compensación por obtener trato preferente."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-025",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Por qué es problemática una invitación desproporcionada de una empresa editorial a quien decide adquisiciones?",
+      "options": [
+        "Porque puede comprometer la apariencia de imparcialidad y generar conflicto de intereses",
+        "Porque las editoriales no pueden comunicarse con bibliotecas en ningún caso",
+        "Porque toda adquisición debe decidirse por estudiantes",
+        "Porque el Comité de Ética sustituye al órgano de contratación"
+      ],
+      "correctIndex": 0,
+      "explanation": "El material incluye la invitación desproporcionada de una empresa editorial a quien decide adquisiciones como ejemplo de riesgo ético.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "adquisiciones",
+        "conflicto de intereses",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Una empresa editorial invita de forma desproporcionada a quien decide adquisiciones."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-026",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "En el artículo 10, la referencia a los “usos habituales, sociales y de cortesía” opera como criterio para:",
+      "options": [
+        "Determinar cuándo deben rechazarse regalos, favores o servicios ventajosos",
+        "Eximir del deber de abstención por interés personal",
+        "Permitir beneficios al entorno familiar inmediato",
+        "Sustituir la tramitación objetiva de procedimientos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La fórmula sirve para delimitar los regalos, favores o servicios ventajosos que deben rechazarse cuando excedan esos usos.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "regalos",
+        "interpretación",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "En particular, el personal de administración y servicios cuidará especialmente de que la tramitación de los procedimientos de los que sea responsable se lleve a cabo de manera que en ningún caso se derive de ello beneficio para su entorno familiar o social inmediato, ni privilegio para los titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya más allá de los usos habituales, sociales y de cortesía."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-027",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 17, ¿qué órgano es competente para interpretar y resolver dudas sobre el cumplimiento del Código Ético General de la UAH?",
+      "options": [
+        "La Comisión de Biblioteca",
+        "El Comité de Ética de la Universidad de Alcalá",
+        "La Gerencia exclusivamente",
+        "El Consejo de Estudiantes"
+      ],
+      "correctIndex": 1,
+      "explanation": "El artículo 17 constituye al Comité de Ética de la Universidad de Alcalá como órgano competente para interpretar y resolver dudas del Código.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "competencia",
+        "art. 17"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 17:** El Comité de Ética de la Universidad de Alcalá se constituye como órgano competente para interpretar y resolver cuantas dudas ofrezca el cumplimiento de lo dispuesto en el presente Código."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-028",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 18, ¿quién preside el Comité de Ética de la UAH?",
+      "options": [
+        "La persona titular de la Secretaría General",
+        "La persona titular de la Gerencia",
+        "La Presidencia del Consejo de Estudiantes",
+        "La Dirección de la Biblioteca"
+      ],
+      "correctIndex": 0,
+      "explanation": "La presidencia del Comité corresponde a la persona titular de la Secretaría General.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "composición",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- **Presidente/a:** La persona titular de la Secretaría General."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-029",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 18, ¿quién actúa como secretario/a del Comité de Ética?",
+      "options": [
+        "La Presidencia de la Comisión de Calidad",
+        "La persona titular del Defensor Universitario",
+        "La Dirección del Órgano Técnico de Auditoría y Control Internos",
+        "La Dirección de la Inspección de Servicios"
+      ],
+      "correctIndex": 2,
+      "explanation": "La secretaría corresponde a la persona titular de la Dirección del Órgano Técnico de Auditoría y Control Internos.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "secretaría",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- **Secretario/a:** La persona titular de la Dirección del Órgano Técnico de Auditoría y Control Internos."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-030",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 18, ¿cómo se incorpora la Gerencia al Comité de Ética?",
+      "options": [
+        "Como presidencia permanente",
+        "Como vocal: el Gerente o persona en quien delegue",
+        "Como secretaría del Comité",
+        "Solo mediante informe anual sin pertenecer al órgano"
+      ],
+      "correctIndex": 1,
+      "explanation": "Entre los vocales figura el Gerente o persona en quien delegue.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "vocales",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- El Gerente o persona en quien delegue."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-031",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué figura universitaria aparece como vocal del Comité de Ética en el artículo 18?",
+      "options": [
+        "La persona titular del Defensor Universitario",
+        "La persona responsable del archivo histórico exclusivamente",
+        "Un representante de proveedores",
+        "La secretaría de cada facultad por turno"
+      ],
+      "correctIndex": 0,
+      "explanation": "La persona titular del Defensor Universitario integra el Comité como vocal.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "vocales",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular del Defensor Universitario."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-032",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 18, ¿qué dirección forma parte del Comité de Ética como vocal?",
+      "options": [
+        "La Dirección de la Inspección de Servicios",
+        "La Dirección de cada departamento docente",
+        "La Dirección de comunicación externa",
+        "La Dirección de una empresa adjudicataria"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 18 incluye a la persona titular de la Dirección de la Inspección de Servicios.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "Inspección de Servicios",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Dirección de la Inspección de Servicios."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-033",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué presidencia estudiantil forma parte de la composición del Comité de Ética?",
+      "options": [
+        "La Presidencia del Consejo de Estudiantes",
+        "La Presidencia de una asociación cultural externa",
+        "La Presidencia de cada delegación de clase",
+        "La Presidencia de la Comisión de Biblioteca"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Comité incluye a la persona titular de la Presidencia del Consejo de Estudiantes.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "estudiantes",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia del Consejo de Estudiantes."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-034",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 18, ¿qué comisión vinculada a la igualdad aporta una vocalía al Comité de Ética?",
+      "options": [
+        "La Comisión de Igualdad",
+        "La Comisión Económica",
+        "La Comisión de Reclamaciones Electorales",
+        "La Comisión de Doctorado"
+      ],
+      "correctIndex": 0,
+      "explanation": "La persona titular de la Presidencia de la Comisión de Igualdad forma parte del Comité.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "Igualdad",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia de la Comisión de Igualdad."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-035",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué comisión relacionada con la calidad aparece entre las vocalías del Comité de Ética?",
+      "options": [
+        "La Comisión de Calidad",
+        "La Comisión de Urbanismo",
+        "La Comisión de Deportes",
+        "La Comisión de Seguridad Informática"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 18 incluye a la persona titular de la Presidencia de la Comisión de Calidad.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "Calidad",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia de la Comisión de Calidad."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-036",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Cuál es el papel de la Presidencia del Comité de Ética de la Investigación en el Comité de Ética del Código General?",
+      "options": [
+        "Integra el Comité de Ética del Código General como vocal",
+        "Preside necesariamente el Comité de Ética del Código General",
+        "Sustituye al Secretario General en todos los casos",
+        "Queda excluida para evitar duplicidades"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 18 menciona a la persona titular de la Presidencia del Comité de Ética de la Investigación entre las vocalías.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "Comité de Ética de la Investigación",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia del Comité de Ética de la Investigación."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-037",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 19, ¿con qué periodicidad ordinaria se reúne el Comité de Ética?",
+      "options": [
+        "Una vez al trimestre",
+        "Una vez al semestre",
+        "Una vez al año",
+        "Solo cuando haya auditorías abiertas"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 19 establece que el Comité de Ética se reunirá una vez al trimestre.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "funcionamiento",
+        "art. 19"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-038",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Además de la reunión trimestral, ¿cuándo debe reunirse el Comité de Ética según el artículo 19?",
+      "options": [
+        "Cuando lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente",
+        "Solo cuando lo solicite un usuario de biblioteca",
+        "Cuando lo pida cualquier proveedor de la Universidad",
+        "Únicamente al inicio de cada curso académico"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 19 prevé reunión cuando lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "funcionamiento",
+        "art. 19"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-039",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "Según el artículo 19, ¿qué debe hacer anualmente el Comité de Ética con su informe de actuaciones?",
+      "options": [
+        "Archivarlo sin comunicación externa",
+        "Remitirlo al Consejo de Gobierno para conocimiento suyo y de toda la comunidad universitaria",
+        "Publicarlo solo en el tablón de cada biblioteca",
+        "Enviar únicamente un extracto a proveedores"
+      ],
+      "correctIndex": 1,
+      "explanation": "El artículo 19 exige elaborar anualmente un informe de actuaciones y remitirlo al Consejo de Gobierno para conocimiento de la comunidad universitaria.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "informe anual",
+        "art. 19"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-040",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué opción evita confundir el Comité de Ética del Código General con el Comité de Ética de la Investigación?",
+      "options": [
+        "La Presidencia del Comité de Ética de la Investigación es una vocalía del Comité de Ética del Código General",
+        "Ambos órganos son idénticos y tienen siempre la misma presidencia",
+        "El Comité de Ética de la Investigación sustituye al Comité del Código General",
+        "El Código excluye cualquier relación entre ambos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 18 incorpora la Presidencia del Comité de Ética de la Investigación como vocal del Comité de Ética del Código General.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "diferenciación de órganos",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia del Comité de Ética de la Investigación."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-041",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "Según el artículo 20, ¿con qué finalidad pueden acordarse auditorías de ética en la UAH?",
+      "options": [
+        "Contribuir al reforzamiento de una cultura ética general",
+        "Sustituir todos los procedimientos administrativos ordinarios",
+        "Reemplazar la evaluación académica del alumnado",
+        "Limitarse a comprobar horarios de apertura"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 20 vincula las auditorías con el reforzamiento de una cultura ética general en la UAH.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 20 - Objeto de las auditorías:** A fin de contribuir al reforzamiento de una cultura ética general en el ámbito de la Universidad de Alcalá, podrá acordarse la realización de auditorías de ética a fin de comprobar, entre otros, los siguientes hechos:"
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-042",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "Entre los objetos de auditoría del artículo 20 se incluye comprobar:",
+      "options": [
+        "El retraso de expedientes y de la actuación propia de las funciones de la Universidad, con consecuencias y causas de la demora",
+        "La elección directa de todos los vocales del Comité",
+        "La reforma anual del Código Ético",
+        "La adscripción política del personal"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 20 incluye el retraso de expedientes y actuaciones, así como las consecuencias y causas de la demora.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "expedientes",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Retraso de los expedientes y de la actuación propia de las funciones de la Universidad. Consecuencias y causas de la demora."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-043",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué aspecto laboral puede ser objeto de auditoría ética según el artículo 20?",
+      "options": [
+        "Grado de absentismo laboral y justificación",
+        "Preferencias personales de lectura",
+        "Número de asignaturas matriculadas",
+        "Publicidad de actividades culturales externas"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 20 menciona el grado de absentismo laboral y su justificación.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "absentismo",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Grado de absentismo laboral y justificación."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-044",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "Según el artículo 20, las auditorías de ética pueden comprobar los recursos presentados contra resoluciones o actuaciones de la Universidad en cuanto a:",
+      "options": [
+        "Su tramitación y resolución",
+        "Su idioma de redacción exclusivamente",
+        "La titulación del recurrente únicamente",
+        "El número de páginas del expediente"
+      ],
+      "correctIndex": 0,
+      "explanation": "El objeto de auditoría incluye recursos presentados, su tramitación y su resolución.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "recursos",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Recursos presentados contra resoluciones o actuaciones de la Universidad, tramitación y resolución de tales recursos."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-045",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué comprobación sobre bienes públicos figura en el artículo 20?",
+      "options": [
+        "Grado de utilización y protección de los bienes públicos a cargo de la UAH",
+        "Venta de bienes públicos a usuarios habituales",
+        "Uso privado de bienes públicos si hay autorización verbal",
+        "Cesión de bienes a proveedores por cortesía"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 20 incluye el grado de utilización y protección de bienes públicos a cargo de la Universidad.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "bienes públicos",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Grado de utilización y protección de los bienes públicos que están a cargo de la Universidad de Alcalá."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-046",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "Según el artículo 20, ¿qué evaluación documental puede formar parte de las auditorías de ética?",
+      "options": [
+        "La fiabilidad de informes o actas exigidos legalmente",
+        "La extensión literaria de las memorias de curso",
+        "El diseño gráfico de carteles informativos",
+        "La popularidad de un recurso electrónico"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 20 menciona la evaluación de la fiabilidad de los informes o actas exigidos legalmente.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "informes",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Evaluación de la fiabilidad de los informes/actas exigidos legalmente en cualquier ámbito."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-047",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué elemento relativo al personal aparece expresamente como posible objeto de auditoría en el artículo 20?",
+      "options": [
+        "Formación de personal",
+        "Antigüedad de todos los usuarios externos",
+        "Preferencia de lectura del alumnado",
+        "Número de visitas a redes sociales"
+      ],
+      "correctIndex": 0,
+      "explanation": "La formación de personal aparece de forma expresa en la lista de hechos comprobables por auditoría.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "formación",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Formación de personal."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-048",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "En procedimientos de concurrencia competitiva, ¿qué principios puede comprobar una auditoría ética según el artículo 20?",
+      "options": [
+        "Objetividad, imparcialidad, publicidad y transparencia",
+        "Jerarquía, urgencia, secreto y preferencia",
+        "Antigüedad, rotación, cortesía y oportunidad",
+        "Exclusividad, informalidad, reserva y rapidez"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 20 incluye el cumplimiento de objetividad, imparcialidad, publicidad y transparencia en procedimientos de concurrencia competitiva.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "concurrencia competitiva",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Cumplimiento de los principios de objetividad, imparcialidad, publicidad y transparencia en el desarrollo de los procedimientos de concurrencia competitiva."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-049",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "Según el artículo 21, ¿qué debe valorar el informe de auditoría?",
+      "options": [
+        "Si las decisiones auditadas han cumplido los principios y conductas del Código y, si no, las razones o ausencia de justificación",
+        "Solo el coste económico total de cada servicio",
+        "La conveniencia de suprimir el Comité de Ética",
+        "La responsabilidad penal automática de todo incumplimiento"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 21 exige valorar el cumplimiento de los principios y conductas del Código e incluir razones justificativas o la ausencia de justificación si hay incumplimiento.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "informe",
+        "art. 21"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 21 - Valoración del informe:** El informe de auditoría valorará si las decisiones adoptadas en los diferentes niveles auditados han cumplido los principios y las conductas contenidas en el presente Código. En los casos que se detecte su incumplimiento deberán incluirse en el informe las razones que justifiquen tal actuación, o si, por el contrario, no existe ninguna justificación."
+      }
+    },
+    {
+      "id": "uah-m-8-PILOT-050",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "Según el artículo 22, ¿a quién corresponde promover auditorías de ética y a dónde se remiten sus informes?",
+      "options": [
+        "Al Comité de Ética; los informes se remiten al Consejo de Gobierno",
+        "A cada proveedor; los informes se remiten al archivo de contratos",
+        "Al Consejo de Estudiantes; los informes se remiten solo a las bibliotecas",
+        "A la Gerencia exclusivamente; los informes no se remiten"
+      ],
+      "correctIndex": 0,
+      "explanation": "El artículo 22 atribuye al Comité de Ética promover auditorías y dispone que los informes emitidos se remitan al Consejo de Gobierno.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "Comité de Ética",
+        "art. 22"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 22 - Promoción de auditorías:** Corresponderá al Comité de Ética promover la realización de auditorías en los diferentes ámbitos, con la periodicidad que se estime igualmente por parte de este órgano. Los informes emitidos serán remitidos al Consejo de Gobierno."
+      }
     }
   ],
   "flashcards": [
     {
       "id": "uah-t8-point-0",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué idea clave debes recuperar del tema 8?",
       "answer": "El codigo promueve integridad, responsabilidad, respeto, transparencia, imparcialidad y servicio publico.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t8-point-1",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué idea clave debes recuperar del tema 8?",
       "answer": "Afecta a relaciones internas, uso de recursos, conflicto de intereses y compromiso institucional.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t8-point-2",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
       "question": "¿Qué idea clave debes recuperar del tema 8?",
       "answer": "Relaciona etica publica con calidad del servicio universitario.",
       "origin": "generada-ia"
     },
     {
+      "id": "fc-t08-PILOT-001",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿En qué se basa la conducta del personal según el art. 8?",
+      "answer": "En el respeto de los derechos fundamentales y libertades públicas.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "derechos fundamentales",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-002",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué debe evitar el personal según el art. 8?",
+      "answer": "Toda actuación que pueda producir discriminación.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "El personal debe actuar respetando los derechos fundamentales y evitando cualquier actuación discriminatoria."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-003",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿La discriminación por nacimiento está citada en el art. 8?",
+      "answer": "Sí, el nacimiento aparece como causa expresamente mencionada.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Nacimiento."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-004",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué origen aparece protegido frente a discriminación en el art. 8?",
+      "answer": "El origen racial o étnico.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Origen racial o étnico."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-005",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué menciones de género/sexo incluye el art. 8?",
+      "answer": "Género y sexo aparecen como causas de discriminación prohibida.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-006",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué orientación personal cita expresamente el art. 8?",
+      "answer": "La orientación sexual.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Orientación sexual."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-007",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué creencias o ideas cita el art. 8 como causas de no discriminación?",
+      "answer": "Religión o convicciones y opinión.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 8 del Código:** La conducta del personal al servicio de la Universidad de Alcalá se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión, discapacidad, edad o cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-008",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué cláusula abierta cierra el listado del art. 8?",
+      "answer": "Cualquier otra circunstancia personal o social.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "no discriminación",
+        "art. 8"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Cualquier otra circunstancia personal o social."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-009",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué cinco principios enumera el art. 9 para el desempeño de funciones?",
+      "answer": "Imparcialidad, objetividad, diligencia, lealtad y buena fe.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "imparcialidad",
+        "objetividad",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 9 del Código:** En el desempeño de sus funciones y tareas, el personal al servicio de la Universidad de Alcalá actuará con imparcialidad, objetividad, diligencia, lealtad y buena fe con la Universidad y con sus superiores, compañeros y subordinados. Estos mismos principios inspirarán el comportamiento del personal en sus relaciones con los estudiantes."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-010",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Con quiénes deben inspirar esos principios las relaciones del personal?",
+      "answer": "Con los estudiantes, además de con la Universidad, superiores, compañeros y subordinados.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "estudiantes",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 9 del Código:** En el desempeño de sus funciones y tareas, el personal al servicio de la Universidad de Alcalá actuará con imparcialidad, objetividad, diligencia, lealtad y buena fe con la Universidad y con sus superiores, compañeros y subordinados. Estos mismos principios inspirarán el comportamiento del personal en sus relaciones con los estudiantes."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-011",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿A qué debe orientarse la actuación del personal según el material?",
+      "answer": "Al interés general, evitando ventajas indebidas.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "interés general",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "El Código exige que la actuación del personal se oriente al interés general y evite ventajas indebidas para el propio empleado, su entorno familiar o social, o terceros."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-012",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué regla aplica a conocidos en trámites o servicios?",
+      "answer": "No favorecerlos por la relación personal.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "favoritismo",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No favorecer a conocidos en trámites o servicios."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-013",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué regla aplica a turnos o reservas?",
+      "answer": "No alterarlos por motivos personales.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "reservas",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No alterar turnos o reservas por motivos personales."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-014",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué regla aplica a la información interna?",
+      "answer": "No usarla para beneficio propio.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "información interna",
+        "art. 9"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- No usar información interna para beneficio propio."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-015",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué busca prevenir el art. 10?",
+      "answer": "La incursión en conflicto de intereses con las obligaciones del puesto público.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "conflicto de intereses",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 10 del Código:** A fin de evitar la incursión en conflicto de intereses con las obligaciones de su puesto público, el personal de la Universidad de Alcalá:"
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-016",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué prohíbe el art. 10.a) cuando pueda haber conflicto?",
+      "answer": "Contraer obligaciones económicas o intervenir en operaciones financieras, patrimoniales o negocios jurídicos afectados.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "operaciones financieras",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "a) No contraerá obligaciones económicas ni intervendrá en operaciones financieras, obligaciones patrimoniales o negocios jurídicos con personas o entidades cuando pueda suponer un conflicto de intereses con las obligaciones de su puesto público."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-017",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Cuándo exige abstención el art. 10.b)?",
+      "answer": "Cuando exista interés personal o una actividad privada pueda generar riesgo de conflicto.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "abstención",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "b) Se abstendrá de intervenir en aquellos asuntos en los que tenga interés personal, así como de realizar cualquier actividad privada que pueda suponer un riesgo de incurrir en conflictos de intereses con su puesto público."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-018",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué debe evitar el PAS en la tramitación de procedimientos?",
+      "answer": "Beneficios para su entorno familiar o social inmediato y privilegios para titulares de cargos públicos.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "PAS",
+        "privilegios",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "En particular, el personal de administración y servicios cuidará especialmente de que la tramitación de los procedimientos de los que sea responsable se lleve a cabo de manera que en ningún caso se derive de ello beneficio para su entorno familiar o social inmediato, ni privilegio para los titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya más allá de los usos habituales, sociales y de cortesía."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-019",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Qué regalos o favores deben rechazarse?",
+      "answer": "Los que vayan más allá de los usos habituales, sociales y de cortesía.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "regalos",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "En particular, el personal de administración y servicios cuidará especialmente de que la tramitación de los procedimientos de los que sea responsable se lleve a cabo de manera que en ningún caso se derive de ello beneficio para su entorno familiar o social inmediato, ni privilegio para los titulares de cargos públicos, debiendo rechazar cualquier regalo, favor o servicio ventajoso que vaya más allá de los usos habituales, sociales y de cortesía."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-020",
+      "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
+      "question": "¿Cuál es la idea clave del art. 10?",
+      "answer": "Evitar conflictos de intereses o apariencia de trato privilegiado.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "trato privilegiado",
+        "art. 10"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "La idea clave es evitar conflictos de intereses o apariencia de trato privilegiado."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-021",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué órgano interpreta el Código y resuelve dudas?",
+      "answer": "El Comité de Ética de la Universidad de Alcalá.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "art. 17"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 17:** El Comité de Ética de la Universidad de Alcalá se constituye como órgano competente para interpretar y resolver cuantas dudas ofrezca el cumplimiento de lo dispuesto en el presente Código."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-022",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Quién preside el Comité de Ética?",
+      "answer": "La persona titular de la Secretaría General.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "composición",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- **Presidente/a:** La persona titular de la Secretaría General."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-023",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Quién ejerce la secretaría del Comité de Ética?",
+      "answer": "La persona titular de la Dirección del Órgano Técnico de Auditoría y Control Internos.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "secretaría",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- **Secretario/a:** La persona titular de la Dirección del Órgano Técnico de Auditoría y Control Internos."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-024",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué representante de Gerencia es vocal del Comité?",
+      "answer": "El Gerente o persona en quien delegue.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "vocales",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- El Gerente o persona en quien delegue."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-025",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué defensoría forma parte del Comité?",
+      "answer": "La persona titular del Defensor Universitario.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "vocales",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular del Defensor Universitario."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-026",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué inspección forma parte del Comité?",
+      "answer": "La Dirección de la Inspección de Servicios.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "vocales",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Dirección de la Inspección de Servicios."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-027",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué presidencia estudiantil es vocal?",
+      "answer": "La Presidencia del Consejo de Estudiantes.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "estudiantes",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia del Consejo de Estudiantes."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-028",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "En la composición del Comité, ¿qué presidencia se asocia a políticas de igualdad?",
+      "answer": "La Presidencia de la Comisión de Igualdad.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "Igualdad",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia de la Comisión de Igualdad."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-029",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Cuál es la vocalía del Comité relacionada con la evaluación de calidad?",
+      "answer": "La persona titular de la Presidencia de la Comisión de Calidad.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "Calidad",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia de la Comisión de Calidad."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-030",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué presidencia de ética investigadora es vocal?",
+      "answer": "La Presidencia del Comité de Ética de la Investigación.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética de la Investigación",
+        "art. 18"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- La persona titular de la Presidencia del Comité de Ética de la Investigación."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-031",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Cada cuánto se reúne ordinariamente el Comité de Ética?",
+      "answer": "Una vez al trimestre.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "funcionamiento",
+        "art. 19"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-032",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué solicitudes activan reunión del Comité fuera de la periodicidad ordinaria?",
+      "answer": "La solicitud de dos terceras partes de sus miembros o el acuerdo del Presidente.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "funcionamiento",
+        "art. 19"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-033",
+      "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
+      "question": "¿Qué informe elabora anualmente el Comité?",
+      "answer": "Un informe de actuaciones remitido al Consejo de Gobierno.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "Comité de Ética",
+        "informe anual",
+        "art. 19"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 19 - Funcionamiento:** El Comité de Ética se reunirá una vez al trimestre y, en todo caso, cuando así lo soliciten dos terceras partes de sus miembros o lo acuerde el Presidente. El Comité elaborará anualmente un informe de actuaciones, que será remitido al Consejo de Gobierno de la Universidad, para su conocimiento y de toda la comunidad universitaria."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-034",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Para qué sirven las auditorías de ética según el art. 20?",
+      "answer": "Para contribuir al reforzamiento de una cultura ética general en la UAH.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 20 - Objeto de las auditorías:** A fin de contribuir al reforzamiento de una cultura ética general en el ámbito de la Universidad de Alcalá, podrá acordarse la realización de auditorías de ética a fin de comprobar, entre otros, los siguientes hechos:"
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-035",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué retrasos pueden comprobar las auditorías?",
+      "answer": "Retrasos de expedientes y de actuaciones propias de las funciones universitarias, con consecuencias y causas.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Retraso de los expedientes y de la actuación propia de las funciones de la Universidad. Consecuencias y causas de la demora."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-036",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué aspecto sobre absentismo puede auditarse?",
+      "answer": "El grado de absentismo laboral y su justificación.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "absentismo",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Grado de absentismo laboral y justificación."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-037",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué aspecto de los recursos contra resoluciones puede auditarse?",
+      "answer": "Su presentación, tramitación y resolución.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "recursos",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Recursos presentados contra resoluciones o actuaciones de la Universidad, tramitación y resolución de tales recursos."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-038",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué aspecto de bienes públicos puede auditarse?",
+      "answer": "El grado de utilización y protección de los bienes públicos a cargo de la UAH.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "bienes públicos",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Grado de utilización y protección de los bienes públicos que están a cargo de la Universidad de Alcalá."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-039",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué fiabilidad documental puede auditarse?",
+      "answer": "La fiabilidad de informes o actas exigidos legalmente en cualquier ámbito.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "informes",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Evaluación de la fiabilidad de los informes/actas exigidos legalmente en cualquier ámbito."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-040",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué aspecto de personal figura como objeto de auditoría?",
+      "answer": "La formación de personal.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "formación",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Formación de personal."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-041",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué principios de concurrencia competitiva pueden auditarse?",
+      "answer": "Objetividad, imparcialidad, publicidad y transparencia.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "concurrencia competitiva",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Cumplimiento de los principios de objetividad, imparcialidad, publicidad y transparencia en el desarrollo de los procedimientos de concurrencia competitiva."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-042",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué conflictividad laboral puede auditarse?",
+      "answer": "La conflictividad laboral y sus causas.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "conflictividad",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Conflictividad laboral y sus causas."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-043",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué conflictividad académica puede auditarse?",
+      "answer": "La conflictividad académica y sus causas.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "conflictividad",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Conflictividad académica y sus causas."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-044",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué quejas pueden ser objeto de auditoría?",
+      "answer": "Quejas y reclamaciones de cualquier miembro de la comunidad universitaria, y sus causas.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "quejas",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Quejas y reclamaciones planteadas por cualquier miembro de la comunidad universitaria, y sus causas."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-045",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué gastos pueden revisar las auditorías de ética?",
+      "answer": "Gastos desproporcionados o excesivos, soporte documental y cumplimiento de plazos.",
+      "difficulty": "intermedia",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "gastos",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Justificación de gastos desproporcionados o excesivos, incluyendo la revisión del soporte documental y el cumplimiento de los plazos para su tramitación."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-046",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué nivel de servicio puede auditarse?",
+      "answer": "El nivel de calidad de los servicios prestados por la Universidad.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "calidad",
+        "art. 20"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "- Nivel de calidad de los servicios prestados por la Universidad."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-047",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Qué valora el informe de auditoría según el art. 21?",
+      "answer": "Si las decisiones auditadas cumplieron los principios y conductas del Código.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "informe",
+        "art. 21"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 21 - Valoración del informe:** El informe de auditoría valorará si las decisiones adoptadas en los diferentes niveles auditados han cumplido los principios y las conductas contenidas en el presente Código. En los casos que se detecte su incumplimiento deberán incluirse en el informe las razones que justifiquen tal actuación, o si, por el contrario, no existe ninguna justificación."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-048",
+      "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
+      "question": "¿Quién promueve auditorías de ética según el art. 22?",
+      "answer": "El Comité de Ética.",
+      "difficulty": "basica",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "auditorías de ética",
+        "Comité de Ética",
+        "art. 22"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 22 - Promoción de auditorías:** Corresponderá al Comité de Ética promover la realización de auditorías en los diferentes ámbitos, con la periodicidad que se estime igualmente por parte de este órgano. Los informes emitidos serán remitidos al Consejo de Gobierno."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-049",
+      "topicId": "tema-08-titulo-v-medidas-correctoras-arts-23-24",
+      "question": "¿Quién puede proponer medidas correctoras según el art. 23?",
+      "answer": "El Consejo de Gobierno, a la vista de informes del Comité y de auditorías de ética.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "medidas correctoras",
+        "art. 23"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 23 - Propuestas de medidas correctoras:** El Consejo de Gobierno de la Universidad de Alcalá, a la vista de los informes anuales de actuación emitidos por el Comité de Ética y de los informes de resultados generados por las auditorías de ética, podrá efectuar propuestas de adopción de medidas correctoras de aquellas conductas o comportamientos que en dichos informes se reflejen como incorrectas o contrarias a los principios y valores contenidos en el presente Código."
+      }
+    },
+    {
+      "id": "fc-t08-PILOT-050",
+      "topicId": "tema-08-titulo-v-medidas-correctoras-arts-23-24",
+      "question": "¿A quién se dirigen las propuestas de medidas correctoras?",
+      "answer": "Al órgano competente para su valoración y, en su caso, resolución procedente.",
+      "difficulty": "avanzada",
+      "tags": [
+        "Código Ético UAH",
+        "Tema 8",
+        "medidas correctoras",
+        "art. 24"
+      ],
+      "origin": "generada-ia",
+      "source": {
+        "materialId": "codigo-etico-uah",
+        "path": "data/uah-bibliotecas-2025/tema_08_codigo_etico_general_uah.md",
+        "highlightText": "**Artículo 24 - Tramitación de medidas correctoras:** Las propuestas de medidas correctoras se dirigirán al órgano que en cada caso resulte competente para su valoración y, en su caso, la adopción de la resolución que proceda, dentro del marco normativo que en cada caso corresponda, atendiendo al colectivo al que pertenezca o esté adscrita la persona o personas que hayan intervenido en el procedimiento en que se haya producido la conducta o comportamiento incorrecto o no ajustado a las disposiciones contenidas en el presente Código."
+      }
+    },
+    {
       "id": "uah-t8-fact-estructura-codigo-etico",
-      "topicId": "uah-bib-t08-contenido",
+      "topicId": "tema-08-titulo-i-valores-comunidad-arts-1-7",
       "question": "¿Qué estructura tiene el Código Ético General de la UAH?",
       "answer": "Cinco títulos y una disposición final: valores éticos, principios de conducta y buen gobierno, Comité de Ética, auditorías y mecanismos de control/reprobación.",
       "origin": "curada-editorial"

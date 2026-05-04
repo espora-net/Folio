@@ -9688,6 +9688,7 @@
     },
     {
       "id": "common-uah-c1-t08-047",
+      "duplicateOf": "uah-m-8-PILOT-037",
       "topicId": "common-uah-c1-t08",
       "question": "¿Con qué periodicidad ordinaria se reúne el Comité de Ética?",
       "options": [
@@ -23540,6 +23541,7 @@
     },
     {
       "id": "common-uah-c1-t16-opus47-001-fd74c9f3",
+      "duplicateOf": "uah-m-16-39",
       "topicId": "common-uah-c1-t16",
       "question": "¿Qué es eBUAH?",
       "options": [

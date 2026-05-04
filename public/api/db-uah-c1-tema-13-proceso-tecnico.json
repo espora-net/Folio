@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T17:54:05.548Z",
+    "updatedAt": "2026-05-04T13:14:38.339Z",
     "title": "UAH C1 Tema 13 - Proceso técnico de fondos documentales",
     "description": "Banco normalizado de preguntas del tema 13 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 35,
@@ -23,11 +23,77 @@
       "order": 13,
       "subtopics": [
         {
-          "id": "uah-bib-t13-contenido",
+          "id": "tema-13-concepto-finalidad-proceso-tecnico",
           "topicId": "uah-bib-t13",
-          "title": "Catalogación y tratamiento técnico de documentos, estándares internacionales de descripción bibliográfica",
-          "content": "Enfoque de examen: Proceso técnico de fondos documentales. Formatos de intercambio bibliográfico MARC 21, FRBR y RDA.\n\nContenido acotado: Catalogación y tratamiento técnico de documentos, estándares internacionales de descripción bibliográfica\n\nCobertura oficial: #proceso-tecnico, #marc-21, #frbr, #rda",
+          "title": "Concepto y finalidad del proceso técnico de fondos documentales",
+          "content": "Definición y objetivos del proceso técnico bibliotecario: identificación unívoca, normalización, recuperación de información, organización física y lógica de la colección y cooperación bibliotecaria. Visión general del flujo desde la recepción hasta la integración en el catálogo.",
           "order": 1,
+          "syllabusCoverageIds": [
+            "#proceso-tecnico",
+            "uah-tema-013"
+          ]
+        },
+        {
+          "id": "tema-13-fases-proceso-tecnico",
+          "topicId": "uah-bib-t13",
+          "title": "Fases del proceso técnico (recepción, registro, catalogación, indización, signatura)",
+          "content": "Fases operativas del proceso técnico: recepción y comprobación, registro o inventario, sellado y marcado, catalogación descriptiva, elección y normalización de puntos de acceso (control de autoridades), análisis documental, clasificación, indización por materias (incl. listas de encabezamientos como LEMAC/LCSH), signatura topográfica, preparación física e integración en el catálogo y descubridor.",
+          "order": 2,
+          "syllabusCoverageIds": [
+            "#proceso-tecnico",
+            "uah-tema-013"
+          ]
+        },
+        {
+          "id": "tema-13-normalizacion-estandares-bibliograficos",
+          "topicId": "uah-bib-t13",
+          "title": "Normalización bibliográfica y estándares (ISBD, RCE, ISBN/ISSN)",
+          "content": "Normalización bibliográfica: ISBD (descripción bibliográfica internacional normalizada) y sus áreas (incl. área 0 sobre forma de contenido y tipo de medio y área 5 descripción material), Reglas de Catalogación Españolas (RCE) e identificadores normalizados (ISBN, ISSN). Marco que sustenta la catalogación previa a MARC 21/RDA.",
+          "order": 3,
+          "syllabusCoverageIds": [
+            "#proceso-tecnico",
+            "uah-tema-013"
+          ]
+        },
+        {
+          "id": "tema-13-marc-21-formato-estructura",
+          "topicId": "uah-bib-t13",
+          "title": "MARC 21: formato, estructura, etiquetas, indicadores y subcampos",
+          "content": "Formato MARC 21: concepto, función e historia (desarrollo en la Library of Congress), tipos de formato (bibliográfico, autoridades, fondos/holdings, clasificación, información a la comunidad), estructura del registro (cabecera, directorio, campos de control, campos de datos), etiquetas (010 LCCN, 020 ISBN, 022 ISSN, 100/700 personas, 245 título, 250 edición, 264 producción/publicación/distribución, 300 descripción física, 5xx notas, 6xx materias, 8xx series), indicadores y subcampos.",
+          "order": 4,
+          "syllabusCoverageIds": [
+            "#marc-21",
+            "uah-tema-013"
+          ]
+        },
+        {
+          "id": "tema-13-frbr-lrm",
+          "topicId": "uah-bib-t13",
+          "title": "FRBR e IFLA LRM: entidades WEMI, atributos, relaciones y tareas del usuario",
+          "content": "Modelo conceptual FRBR/IFLA LRM: entidades del Grupo 1 (Obra, Expresión, Manifestación, Ítem — WEMI), Grupo 2 (Persona, Familia, Entidad corporativa) y Grupo 3 (concepto, objeto, evento, lugar). Atributos y relaciones. Tareas del usuario: encontrar, identificar, seleccionar, obtener (y explorar en LRM).",
+          "order": 5,
+          "syllabusCoverageIds": [
+            "#frbr",
+            "uah-tema-013"
+          ]
+        },
+        {
+          "id": "tema-13-rda-recursos",
+          "topicId": "uah-bib-t13",
+          "title": "RDA (Resource Description and Access): contenido, medio y soporte",
+          "content": "RDA como norma de contenido sucesora de AACR2, alineada con FRBR/LRM. Principales rasgos, diferencias frente a AACR2/ISBD y elementos frecuentes. Tipo de contenido (336), tipo de medio (337) y tipo de soporte (338). Perfiles de aplicación nacionales (BNE) y campos MARC 21 asociados a RDA, incluida la representación de la función del autor en el campo 100.",
+          "order": 6,
+          "syllabusCoverageIds": [
+            "#rda",
+            "uah-tema-013"
+          ]
+        },
+        {
+          "id": "tema-13-relacion-marc-frbr-rda-metadatos",
+          "topicId": "uah-bib-t13",
+          "title": "Relación MARC 21 / FRBR / RDA y metadatos asociados (interoperabilidad, LOD, OAI-PMH, PREMIS)",
+          "content": "Articulación práctica entre MARC 21 (codificación), FRBR/LRM (modelo conceptual) y RDA (instrucciones de contenido). Metadatos en bibliotecas: concepto, interoperabilidad, esquemas asociados (Dublin Core), Linked Open Data y RDF, OAI-PMH como protocolo de recolección, PREMIS para preservación digital y marcos de referencia transversales (DIGCOMP) que sitúan la propiedad intelectual y los metadatos en el conjunto del trabajo bibliotecario.",
+          "order": 7,
           "syllabusCoverageIds": [
             "#proceso-tecnico",
             "#marc-21",
@@ -42,7 +108,7 @@
   "questions": [
     {
       "id": "uah-m-13-33",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "MARC 21 es principalmente:",
       "options": [
         "Un formato de codificacion e intercambio de registros bibliograficos",
@@ -61,7 +127,7 @@
     },
     {
       "id": "uah-m-13-34",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-frbr-lrm",
       "question": "En FRBR, obra, expresion, manifestacion e item son:",
       "options": [
         "Entidades bibliograficas",
@@ -80,7 +146,7 @@
     },
     {
       "id": "uah-m-13-77",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "En RDA/BNE, el perfil de aplicacion para monografias modernas esta estructurado segun:",
       "options": [
         "Obra, Expresion y Manifestacion",
@@ -99,7 +165,7 @@
     },
     {
       "id": "uah-m-13-78",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "MARC 21 facilita especialmente:",
       "options": [
         "Normalizacion, compatibilidad y transferencia de informacion bibliografica legible por computadora",
@@ -118,7 +184,7 @@
     },
     {
       "id": "uah-m-13-125",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "En el perfil RDA de la BNE, el item no esta contemplado porque:",
       "options": [
         "Las politicas de descripcion de fondos no habian sido todavia adaptadas a RDA",
@@ -137,7 +203,7 @@
     },
     {
       "id": "uah-m-13-126",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "El perfil RDA BNE indica en cada elemento o subelemento:",
       "options": [
         "Si es elemento nucleo y su codificacion adecuada en MARC 21",
@@ -156,7 +222,7 @@
     },
     {
       "id": "uah-m-13-127",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "En los ejercicios practicos RDA de la BNE, una tarea opcional es:",
       "options": [
         "Asignar materias y numero de clasificacion apropiados",
@@ -175,7 +241,7 @@
     },
     {
       "id": "uah-m-13-128",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "MARC 21 incluye formatos para registros:",
       "options": [
         "Bibliograficos, de autoridad y de fondos",
@@ -194,7 +260,7 @@
     },
     {
       "id": "uah-c-13-0",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-concepto-finalidad-proceso-tecnico",
       "question": "¿Qué finalidad tiene el proceso técnico?",
       "options": [
         "Hacer accesibles los recursos desde su recepción hasta su disponibilidad, mediante descripción, clasificación e indización.",
@@ -219,7 +285,7 @@
     },
     {
       "id": "uah-c-13-1",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "¿Qué aporta RDA a la descripción bibliográfica?",
       "options": [
         "Instrucciones de catalogación orientadas a entornos digitales y analógicos, basadas en el modelo conceptual FRBR/LRM.",
@@ -244,7 +310,7 @@
     },
     {
       "id": "uah-c-13-2",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "¿Para qué se utiliza MARC 21?",
       "options": [
         "Registrar la evaluación de la colección por materia y soporte.",
@@ -269,7 +335,7 @@
     },
     {
       "id": "uah-c-13-3",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-fases-proceso-tecnico",
       "question": "¿Qué persigue el control de autoridades?",
       "options": [
         "Normalizar los puntos de acceso (nombres, títulos, materias) para garantizar coherencia en el catálogo.",
@@ -294,7 +360,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q028-69b7ae5dacb1",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "¿Qué siglas identifican el Marco europeo de competencias digitales?",
       "options": [
         "Plan",
@@ -320,7 +386,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q033-79aade4987b0",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "¿Qué son los metadatos en el contexto bibliotecario?",
       "options": [
         "Términos equivalentes que se usan para facilitar la recuperación de la información",
@@ -346,7 +412,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q037-6cb5e13aba97",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "En el sistema MARC 21, los campos para el ISBN y el ISSN son respectivamente:",
       "options": [
         "020 y030",
@@ -372,7 +438,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q039-9661fecaf80a",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "En el contexto de los metadatos, el término \"interoperabilidad\" se refiere a:",
       "options": [
         "La capacidad de traducir metadatos",
@@ -398,7 +464,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q040-d7e49271bbe1",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "¿Qué rol cumple RDF en el ecosistema semántico de las bibliotecas digitales?",
       "options": [
         "Codifica imágenes",
@@ -424,7 +490,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q042-aa3a258fca65",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "¿Qué protocolo utiliza el Archivo Digital UPM para que sean recolectados sus metadatos?",
       "options": [
         "HTTP Secure (HTTPS)",
@@ -450,7 +516,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q089-e86ebce8e4f8",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "PREMIS es un estándar que describe:",
       "options": [
         "Metadatos de preservación de objetos digitales",
@@ -476,7 +542,7 @@
     },
     {
       "id": "uah-exam-upm-c1-2025-1-q094-4c50ef0c6f62",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "Linked Open Data (LOD) se apoya técnicamente en el estándar:",
       "options": [
         "RDF (Resource Description Framework)",
@@ -502,7 +568,7 @@
     },
     {
       "id": "uah-exam-valencia-c1-2025-q016-a93afa7f5f7d",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-fases-proceso-tecnico",
       "question": "La Lista de encabezamientos de materia en catalán (LEMAC) es un lenguaje controlado empleado para la catalogación temática o indexación de los documentos. Contiene los registros de autoridad de materia adaptados de:",
       "options": [
         "BNE",
@@ -528,7 +594,7 @@
     },
     {
       "id": "uah-exam-valencia-c1-2025-q022-d22ac60f5a28",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "En MARC 21 bibliográfico, ¿qué campo recoge normalmente la mención de edición?",
       "options": [
         "245.",
@@ -552,7 +618,7 @@
     },
     {
       "id": "uah-exam-valencia-c1-2025-q028-8dea6f4fc827",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "Según las RDA y el formato MARC 21, ¿cuál es la forma correcta de representar la función del autor en un campo 100 de una autoridad personal?",
       "options": [
         "100 1% $$a Soriano, Ramón, $$e autor",
@@ -578,7 +644,7 @@
     },
     {
       "id": "uah-exam-valencia-c1-2025-q052-1caba9dfd49a",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-normalizacion-estandares-bibliograficos",
       "question": "¿Cómo se denomina el área 0 de las ISBD (descripción bibliográfica internacional normalizada) según su última actualización de 2021?",
       "options": [
         "Área de forma del contenido, proceso de producción y de tipo de medio",
@@ -604,7 +670,7 @@
     },
     {
       "id": "uah-exam-valencia-c1-2025-q093-0771459a0aca",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "¿En qué etiqueta del formato MARC 21 conciso para registros bibliográficos colocaremos la información referente a la descripción física de una monografía?",
       "options": [
         "310",
@@ -630,7 +696,7 @@
     },
     {
       "id": "uah-exam-uned-aux-2024-q038-d2ba8b192187",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "El formato MARC fue desarrollado en la Biblioteca del Congreso por:",
       "options": [
         "Radia Perlman",
@@ -656,7 +722,7 @@
     },
     {
       "id": "uah-exam-uned-aux-2024-q057-f856b554b196",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "El formato MARC 21 cuyo fin es proporcionar información sobre cada ítem e identificar cada uno de los documentos que constituyen el fondo con datos como la signatura, colección, número de copia, etc. es:",
       "options": [
         "MARC 21 para registros bibliográficos",
@@ -682,7 +748,7 @@
     },
     {
       "id": "uah-exam-uned-aux-2024-q058-f287949c0f4c",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-normalizacion-estandares-bibliograficos",
       "question": "Las Reglas de Catalogación Españolas vigentes se redactaron teniendo en cuenta:",
       "options": [
         "Las ISNM",
@@ -708,7 +774,7 @@
     },
     {
       "id": "uah-exam-uned-aux-2024-q059-e5a2fabbb99b",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-normalizacion-estandares-bibliograficos",
       "question": "El área 5 de las ISBD corresponde a la de:",
       "options": [
         "Edición cans oa Ge",
@@ -733,7 +799,7 @@
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q052-8de5c08d5f85",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-frbr-lrm",
       "question": "¿Cuál de las siguientes entidades NO forma parte del modelo conceptual FRBR?",
       "options": [
         "Obra.",
@@ -759,7 +825,7 @@
     },
     {
       "id": "uah-exam-cantabria-c2-2025-q064-6b381e3de479",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "En RDA/MARC 21, ¿qué campo se usa para datos de producción, publicación, distribución, fabricación y copyright?",
       "options": [
         "245.",
@@ -783,7 +849,7 @@
     },
     {
       "id": "uah-exam-uz-c1-pi-2024-q028-56855bb40c69",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-fases-proceso-tecnico",
       "question": "En proceso técnico, ¿qué actuación mejora la calidad y consistencia del catálogo?",
       "options": [
         "Eliminar puntos de acceso para reducir resultados.",
@@ -807,7 +873,7 @@
     },
     {
       "id": "uah-exam-uz-c1-pi-2024-q031-856036f1f305",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "¿Cuál es la principal diferencia entre los campos RDA 337 y 338?",
       "options": [
         "El campo 337 describe el tipo de contenido y el 338 el tipo de soporte.",
@@ -833,7 +899,7 @@
     },
     {
       "id": "uah-opo-ref-025",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "En MARC 21 bibliográfico, ¿qué campo se asocia habitualmente con el ISBN?",
       "options": [
         "020",
@@ -858,7 +924,7 @@
     },
     {
       "id": "uah-opo-ref-026",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "¿Qué aportan las RDA al proceso técnico bibliotecario?",
       "options": [
         "Un estándar de descripción y acceso orientado a recursos y relaciones",
@@ -885,42 +951,42 @@
   "flashcards": [
     {
       "id": "uah-t13-point-0",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-marc-21-formato-estructura",
       "question": "¿Qué idea clave debes recuperar del tema 13?",
       "answer": "MARC 21 codifica registros bibliograficos para intercambio y lectura por maquina.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-1",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-frbr-lrm",
       "question": "¿Qué idea clave debes recuperar del tema 13?",
       "answer": "FRBR organiza entidades y relaciones bibliograficas, como obra, expresion, manifestacion e item.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-2",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-rda-recursos",
       "question": "¿Qué idea clave debes recuperar del tema 13?",
       "answer": "RDA orienta la descripcion y acceso a recursos en entornos digitales.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-point-3",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-fases-proceso-tecnico",
       "question": "¿Qué idea clave debes recuperar del tema 13?",
       "answer": "El proceso tecnico incluye recepcion, identificacion, catalogacion, clasificacion, indizacion, ejemplarizacion y disponibilidad.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-x-13-marc-21-frbr-y-rd",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
       "question": "MARC 21, FRBR y RDA en una linea.",
       "answer": "MARC 21 codifica datos; FRBR modela entidades y relaciones; RDA da instrucciones de descripcion y acceso.",
       "origin": "generada-ia"
     },
     {
       "id": "uah-t13-fact-finalidad-proceso-tecnico",
-      "topicId": "uah-bib-t13-contenido",
+      "topicId": "tema-13-concepto-finalidad-proceso-tecnico",
       "question": "¿Cuál es la finalidad del proceso técnico de fondos documentales?",
       "answer": "Convertir cada documento en un recurso localizable, recuperable, identificable, accesible y gestionable en el sistema bibliotecario.",
       "origin": "curada-editorial"

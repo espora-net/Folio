@@ -254,56 +254,113 @@ En bibliotecas, la prevención se refleja en señalización clara, normas visibl
 
 ## 14. Mediación universitaria
 
-### 14.1. Concepto
+### 14.1. Concepto (Artículo 24)
 
 La mediación es un mecanismo de resolución de conflictos basado en el diálogo activo y respetuoso, asistido por una persona mediadora.
 
 Su finalidad es que las partes puedan alcanzar un acuerdo para solucionar un conflicto derivado del incumplimiento de las Normas de Convivencia.
 
-### 14.2. Principios de la mediación
+La Ley 3/2022, de 24 de febrero, de convivencia universitaria (LCU), emplaza a las universidades públicas y privadas a desarrollar medios alternativos de solución de conflictos.
+
+### 14.2. Principios de la mediación (Artículo 25)
 
 | Principio | Explicación |
 |---|---|
-| **Voluntariedad** | Las partes participan libremente. |
-| **Confidencialidad** | La información del procedimiento queda protegida. |
+| **Voluntariedad** | Las partes participan libremente. Solo podrá ponerse en marcha si todas las partes prestan su consentimiento. |
+| **Confidencialidad** | La información del procedimiento queda protegida. Las personas mediadoras deben suscribir compromiso de confidencialidad. |
 | **Equidad** | Se busca equilibrio entre las partes. |
 | **Imparcialidad** | La persona mediadora no favorece a ninguna parte. |
 | **Buena fe** | Las partes deben actuar con honestidad. |
 | **Respeto mutuo** | Se exige trato correcto durante el procedimiento. |
-| **Prevención** | Busca evitar escalada del conflicto. |
+| **Flexibilidad** | Adaptación al caso concreto. |
+| **Calidad** | Garantía de formación y competencia de las personas mediadoras. |
+| **Transparencia** | Claridad en el procedimiento. |
 
-### 14.3. Supuestos excluidos de mediación disciplinaria estudiantil
+**Artículo 25.3 - Personas mediadoras:** Las personas integrantes del Registro de Personas Mediadoras deberán haber realizado un curso de formación en mediación de al menos 25 horas, desarrollado o auspiciado por la Universidad de Alcalá. Este curso deberá incluir contenidos sobre la Ley 3/2022, de convivencia universitaria, sobre el Reglamento de Normas de Convivencia de la UAH y sobre el Reglamento de Régimen disciplinario de los estudiantes de la UAH.
 
-Quedan excluidos, entre otros, los supuestos que puedan involucrar:
+### 14.3. Procedimiento de mediación (Artículos 32-37)
 
-- Violencia.
-- Discriminación.
-- Acoso.
-- Fraude académico.
-- Deterioro del patrimonio de la Universidad.
+**Iniciación (Artículo 33):**
 
-Estos casos requieren la intervención de los órganos o procedimientos específicos que correspondan.
+1. El mecanismo de mediación se iniciará a propuesta de la Comisión de Convivencia, por propia iniciativa o a solicitud de un miembro de la comunidad universitaria.
+2. Recibida la solicitud de intervención, en un plazo no superior a **cinco días hábiles** desde su recepción, la Comisión procederá a admitir o no admitir a trámite la solicitud, notificándolo a la persona solicitante.
+3. La Comisión recabará de las restantes partes del conflicto que manifiesten si aceptan o no acogerse al mecanismo de mediación. Las partes deberán pronunciarse al respecto en el plazo de **cuatro días hábiles**.
+4. Una vez verificada la procedencia, la Comisión propondrá a las partes una persona mediadora. Las partes podrán oponerse a tal propuesta en el plazo de **cuatro días hábiles**.
+
+**Desarrollo del procedimiento (Artículo 34):**
+
+1. En la **primera sesión de mediación**, que tendrá lugar en los **cinco días hábiles** siguientes a la aceptación de la persona mediadora, se identificará a las partes y a la persona mediadora, se determinarán los elementos de la controversia y se acordará el calendario de actuaciones. La persona mediadora levantará acta de esta primera sesión, firmada por la persona mediadora y las partes.
+2. El procedimiento de mediación tendrá que finalizar en el plazo máximo de **quince días hábiles**, contados desde la fecha de la celebración de la primera sesión. Solo podrá prorrogarse una vez por un plazo máximo de cinco días cuando concurran razones de carácter excepcional que deberán acreditarse en el acuerdo de prórroga, que tendrá que contar con la aceptación de las partes.
+3. Este procedimiento de mediación podrá finalizar por:
+   - Haber alcanzado un acuerdo entre las partes
+   - Desistimiento de todas o alguna de las partes
+   - Transcurso del plazo máximo
+   - Apreciación motivada por la persona mediadora de que las posiciones de las partes son irreconciliables
+4. La persona mediadora levantará un **acta final** del procedimiento de mediación en el que se expresará el acuerdo total o parcial alcanzado por las partes o, en otro caso, el motivo de la conclusión del procedimiento.
+
+**Acuerdos (Artículo 35):**
+
+1. Los acuerdos que se alcancen en el procedimiento de mediación tienen **carácter vinculante** para las partes, sin perjuicio de la observancia de las exigencias legales o reglamentarias a que pueda estar sujeto su cumplimiento.
+2. El acuerdo total o parcial será **confidencial**, deberá constar por escrito y ser firmado por las partes, quienes conservarán cada una un ejemplar.
+
+**Seguimiento (Artículo 36):** La Comisión de Convivencia será la competente para hacer el seguimiento de los acuerdos adoptados.
+
+### 14.4. Supuestos excluidos de mediación disciplinaria estudiantil (Artículo 26)
+
+**Artículo 26 del Reglamento:** Quedan excluidos del mecanismo de mediación como alternativa al régimen disciplinario del estudiantado los supuestos que pudieran estar relacionados con:
+
+a) El patrimonio de la Universidad y sus centros, o su deterioro grave.
+b) El uso, la fabricación, la compra, la venta, el suministro o la posesión de sustancias estupefacientes, psicotrópicas o similares, no prescritas facultativamente, en cualquier espacio o instalación de la Universidad.
+c) El quebrantamiento de una sanción en los términos establecidos en el Reglamento de régimen disciplinario del estudiantado de la Universidad de Alcalá.
+d) El fraude académico y el plagio.
+e) El uso de la violencia, intimidación o amenazas contra miembros de la comunidad universitaria o terceras personas.
 
 ---
 
 ## 15. Comisión de Convivencia
 
-### 15.1. Finalidad
+### 15.1. Finalidad y naturaleza
 
-La Comisión de Convivencia vela por la convivencia pacífica y garantiza el correcto funcionamiento de la mediación.
+**Artículo 6.1 del Reglamento:** La Comisión de Convivencia de la Universidad de Alcalá es un órgano colegiado que tiene como finalidad principal velar por la convivencia pacífica en la Universidad de Alcalá, y garantizar el correcto funcionamiento del mecanismo de mediación y de la tramitación del procedimiento de mediación como medios de solución de conflictos de convivencia.
 
-### 15.2. Funciones principales
+### 15.2. Composición
+
+**Artículo 29 - Composición:**
+
+1. La Comisión de Convivencia es nombrada por el Claustro para un periodo de **dos años** y estará integrada por **seis personas titulares**:
+   - Dos representantes del estudiantado
+   - Dos representantes del personal docente e investigador
+   - Dos representantes del personal de administración y servicios
+
+Todas ellas seleccionadas por los sectores a los que pertenezcan las personas claustrales designadas.
+
+2. También se nombrarán **cuatro personas suplentes** para cada colectivo, señalando en el mismo acto de nombramiento el orden de prelación de las mismas.
+
+3. Las personas suplentes pasarán a integrar la Comisión de Convivencia en caso de vacante, así como cuando concurra causa de abstención o recusación en alguna de las personas titulares.
+
+**Artículo 31.1 - Elección de Presidencia y Secretaría:** Las personas titulares, en la sesión constitutiva de la Comisión, elegirán a la Presidencia y a la Secretaría. Corresponde a la Presidencia convocar y presidir las sesiones. La Presidencia será sustituida por la Vicepresidencia que elija, que será de distinto sector.
+
+### 15.3. Funciones principales (Artículo 30)
 
 Entre sus funciones destacan:
 
-1. Intervenir en conflictos de convivencia cuando proceda.
-2. Proponer mecanismos de mediación.
-3. Tramitar procedimientos de mediación a solicitud de las partes.
-4. Derivar casos a órganos competentes.
-5. Velar por la correcta aplicación del Reglamento.
-6. Colaborar con otros servicios y órganos universitarios.
+1. Canalizar las consultas e iniciativas del estudiantado, PDI y PAS para la mejora de la convivencia, y formular propuestas en este ámbito.
+2. Promover la utilización del mecanismo de mediación para intentar dar respuesta a los conflictos que pudieran plantearse entre miembros de la comunidad universitaria pertenecientes al mismo o diferente sector, por la vulneración de las Normas de Convivencia.
+3. Realizar, en su caso, sesiones informativas para comunicar a las personas involucradas la disponibilidad y alcance del mecanismo o del procedimiento de mediación.
+4. Comunicar a los órganos competentes los hechos que pudieran constituir faltas de conformidad con el régimen disciplinario que resulte aplicable en cada caso.
+5. Tramitar el procedimiento de mediación como alternativa al régimen disciplinario del estudiantado, de conformidad con lo dispuesto en los artículos 19 y 23 del Reglamento de Régimen disciplinario del estudiantado de la Universidad de Alcalá, cuando así lo considere procedente.
+6. Tramitar el procedimiento de mediación, a solicitud de las partes en conflicto, para intentar dar respuesta a los conflictos que pudieran plantearse entre miembros de la comunidad universitaria pertenecientes al mismo o diferente sector, por la vulneración de las Normas de Convivencia sin perjuicio de las competencias propias del Defensor Universitario.
 
-### 15.3. Importancia práctica
+### 15.4. Funcionamiento (Artículo 31)
+
+- Los miembros de la Comisión no podrán intervenir en ningún asunto en el que concurra alguna de las causas de abstención establecidas en el artículo 23.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
+- Las actuaciones de la Comisión se regirán por los principios de **independencia y autonomía**.
+- Las personas integrantes de la Comisión deberán guardar estricta **confidencialidad** acerca de los asuntos tratados en las sesiones celebradas, así como de cuanta documentación conozcan en el cumplimiento de sus funciones.
+- Los acuerdos se adoptarán por **mayoría simple de votos**, debiendo estar presentes, para la validez de la votación, al menos un miembro de cada sector de la comunidad universitaria.
+- La Comisión se dotará de un **Protocolo de Actuación en el procedimiento de mediación**.
+- Las personas integrantes de la Comisión no tienen derecho a percibir ningún tipo de indemnización o retribución por el desarrollo de sus funciones.
+
+### 15.5. Importancia práctica
 
 En un conflicto ordinario entre usuarios o entre un usuario y personal universitario, la Comisión puede ser relevante cuando el conflicto supera la gestión inmediata del servicio y requiere una vía institucional de mediación.
 

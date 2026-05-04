@@ -109,6 +109,10 @@
         "origin": {
           "description": "Origen editorial/validación del contenido: 'oficial' para preguntas oficiales directas, 'adaptada-ia' para preguntas existentes/oficiales adaptadas con IA, 'generada-ia' para preguntas completamente generadas, o una fuente externa explícita como 'oposito.es', 'leyesdeoposiciones.es', 'quizlet.com' u 'opositatest.com'.",
           "type": "string"
+        },
+        "duplicateOf": {
+          "description": "ID de la pregunta canónica de la que esta es duplicado. Las preguntas duplicadas deben marcarse (no eliminarse) para trazabilidad y análisis posterior.",
+          "type": "string"
         }
       }
     },
