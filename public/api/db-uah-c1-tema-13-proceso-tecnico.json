@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-04T13:14:38.339Z",
+    "updatedAt": "2026-05-04T14:38:36.095Z",
     "title": "UAH C1 Tema 13 - Proceso técnico de fondos documentales",
     "description": "Banco normalizado de preguntas del tema 13 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 35,
@@ -980,7 +980,7 @@
     {
       "id": "uah-x-13-marc-21-frbr-y-rd",
       "topicId": "tema-13-relacion-marc-frbr-rda-metadatos",
-      "question": "MARC 21, FRBR y RDA en una linea.",
+      "question": "¿Qué son marc 21, frbr y rda en una linea.?",
       "answer": "MARC 21 codifica datos; FRBR modela entidades y relaciones; RDA da instrucciones de descripcion y acceso.",
       "origin": "generada-ia"
     },

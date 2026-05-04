@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-04T13:14:38.236Z",
+    "updatedAt": "2026-05-04T14:55:50.132Z",
     "title": "UAH C1 Tema 04 - Ley Orgánica 3/2018 de Protección de Datos Personales",
     "description": "Banco normalizado de preguntas del tema 4 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 188,
@@ -381,7 +381,7 @@
     {
       "id": "uah-exam-valencia-c1-2025-q004-49e2bb53b107",
       "topicId": "tema-04-derechos-digitales-y-regimen-sancionador",
-      "question": "Según el artículo 26 de la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales:",
+      "question": "En el artículo 26 de la LOPDGDD, sobre tratamientos con fines de archivo, de la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales:",
       "options": [
         "Será lícito el tratamiento por las administraciones públicas de datos con fines de archivo en interés público.",
         "El tratamiento de datos relativos a infracciones y sanciones administrativas por parte de las bibliotecas, incluido el mantenimiento de registros relacionados con las mismas, deberá siempre contar con el consentimiento del interesado.",
@@ -559,7 +559,7 @@
     {
       "id": "uah-m-4-B1-001",
       "topicId": "tema-04-titulo-i-disposiciones-generales",
-      "question": "Según el artículo 1 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 1 de la LOPDGDD, sobre objeto y finalidad, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Salvo prueba en contrario, se presumirá amparado en lo dispuesto en el artículo 6.1.f) del Reglamento (UE) 2016/679 el tratamiento de los datos de contacto y en su caso los relativos a la función o puesto desempeñado de las personas físicas que presten servicios en una persona jurídica siempre que se cumplan los siguientes requisitos:",
         "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679 del Parlamento Europeo y el Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de sus datos personales y a la libre circulación de estos datos, y completar sus disposiciones.",
@@ -585,7 +585,7 @@
     {
       "id": "uah-m-4-B1-002",
       "topicId": "tema-04-titulo-i-disposiciones-generales",
-      "question": "Según el artículo 2 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 2, sobre ámbito territorial, de la LOPDGDD, sobre las definiciones, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El artículo 18.4 de la Constitución establece que la ley limitará el uso de la informática para garantizar el honor, la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.",
         "La presunción a la que se refiere el apartado 1 de este artículo no ampara los supuestos en que la información crediticia fuese asociada por la entidad que mantuviera el sistema a informaciones adicionales a las contempladas en dicho apartado, relacionadas con el deudor y obtenidas de otras fuentes, a fin de llevar a cabo un perfilado del mismo,",
@@ -611,7 +611,7 @@
     {
       "id": "uah-m-4-B1-003",
       "topicId": "tema-04-titulo-i-disposiciones-generales",
-      "question": "Según el artículo 2 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "En el artículo 2, sobre ámbito territorial, de la LOPDGDD, sobre las definiciones, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Solo deben tratarse los datos adecuados, pertinentes y limitados a lo necesario.",
         "Su tratamiento está prohibido como regla general, salvo que concurra alguna excepción prevista por el RGPD.",
@@ -637,7 +637,7 @@
     {
       "id": "uah-m-4-B1-004",
       "topicId": "tema-04-titulo-i-disposiciones-generales",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 2 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 2, sobre ámbito territorial, de la LOPDGDD.",
       "options": [
         "La protección de datos personales es un derecho fundamental vinculado al artículo 18.4 de la Constitución Española. En España y la Unión Europea se regula principalmente mediante:",
         "Será lícito el tratamiento de datos personales que tenga por objeto evitar el envío de comunicaciones comerciales a quienes hubiesen manifestado su negativa u oposición a recibirlas. A tal efecto, podrán crearse sistemas de información, generales o sectoriales, en los que solo se incluirán los datos imprescindibles para identificar a los afectados.",
@@ -663,7 +663,7 @@
     {
       "id": "uah-m-4-B1-007",
       "topicId": "tema-04-titulo-i-disposiciones-generales",
-      "question": "Según el artículo 3 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 3 de la LOPDGDD, sobre principios de protección de datos, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Los tratamientos de datos contemplados en las letras g), h) e i) del artículo 9.2 del Reglamento (UE) 2016/679 fundados en el Derecho español deberán estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales relativos a su seguridad y confidencialidad.",
         "Las personas vinculadas al fallecido por razones familiares o de hecho así como sus herederos podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso a los datos personales de aquella y, en su caso, su rectificación o supresión.",
@@ -689,7 +689,7 @@
     {
       "id": "uah-m-4-B1-010",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 4 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 4, sobre exactitud de los datos, de la LOPDGDD, sobre exactitud de los datos, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El personal que trata datos personales está obligado al secreto y confidencialidad, incluso después de finalizar su relación con la organización.",
         "Tratamiento es cualquier operación realizada sobre datos personales.",
@@ -715,7 +715,7 @@
     {
       "id": "uah-m-4-B1-012",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 4 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "En el artículo 4, sobre exactitud de los datos, de la LOPDGDD, sobre exactitud de los datos, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Hubiesen sido obtenidos por el responsable directamente del afectado.",
         "Fuera de los supuestos señalados en los apartados anteriores, los tratamientos de datos referidos a condenas e infracciones penales,",
@@ -741,7 +741,7 @@
     {
       "id": "uah-m-4-B1-013",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 4 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 4, sobre exactitud de los datos, de la LOPDGDD.",
       "options": [
         "Envío de un listado de usuarios a destinatario equivocado.\n- Pérdida de un portátil sin cifrar.\n- Acceso indebido a expedientes.\n- Publicación accidental de datos personales.\n- Ataque informático que expone datos.",
         "En el contexto UAH, la hoja informativa institucional indica que la responsable de los tratamientos efectuados en la UAH es la **Secretaría General**, asesorada por la Delegada de Protección de Datos.",
@@ -767,7 +767,7 @@
     {
       "id": "uah-m-4-B1-014",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Conforme al artículo 4 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 4, sobre exactitud de los datos, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "**Reglamento (UE) 2016/679**, Reglamento General de Protección de Datos, RGPD.\n- **Ley Orgánica 3/2018**, de Protección de Datos Personales y garantía de los derechos digitales, LOPDGDD.\n- Normativa sectorial y criterios de la Agencia Española de Protección de Datos.",
         "**Explique los derechos de las personas en materia de protección de datos.**",
@@ -793,7 +793,7 @@
     {
       "id": "uah-m-4-B1-015",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 4 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 4, sobre exactitud de los datos, de la LOPDGDD, sobre exactitud de los datos, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Fuesen obtenidos de un registro público por el responsable.",
         "Salvo prueba en contrario, se presumirá lícito el tratamiento de datos personales relativos al incumplimiento de obligaciones dinerarias, financieras o de crédito por sistemas comunes de información crediticia cuando se cumplan los siguientes requisitos:",
@@ -819,7 +819,7 @@
     {
       "id": "uah-m-4-B1-016",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 5 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 5 de la LOPDGDD, sobre el deber de confidencialidad, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "En una biblioteca universitaria hay tratamiento de datos cuando se consulta la ficha de un usuario, se tramita un préstamo, se gestiona una reserva, se registra una incidencia o se envía una comunicación.",
         "En caso de fallecimiento de menores, estas facultades podrán ejercerse también por sus representantes legales o, en el marco de sus competencias, por el Ministerio Fiscal, que podrá actuar de oficio o a instancia de cualquier persona física o jurídica interesada.",
@@ -845,7 +845,7 @@
     {
       "id": "uah-m-4-B1-017",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 6 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 6 de la LOPDGDD, sobre tratamiento basado en el consentimiento, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Que los datos únicamente se mantengan en el sistema mientras persista el incumplimiento, con el límite máximo de cinco años desde la fecha de vencimiento de la obligación dineraria, financiera o de crédito.",
         "De conformidad con lo dispuesto en el artículo 4.11 del Reglamento (UE) 2016/679, se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, ya sea mediante una declaración o una clara acción afirmativa, el tratamiento de datos personales que le conciernen.",
@@ -871,7 +871,7 @@
     {
       "id": "uah-m-4-B1-018",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 6 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 6 de la LOPDGDD, sobre tratamiento basado en el consentimiento, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Cuando un afectado manifieste a un responsable su deseo de que sus datos no sean tratados para la remisión de comunicaciones comerciales, este deberá informarle de los sistemas de exclusión publicitaria existentes, pudiendo remitirse a la información publicada por la autoridad de control competente.",
         "El RGPD no prohíbe tratar datos personales, pero exige hacerlo de forma lícita, leal, transparente, limitada, exacta, segura y responsable.",
@@ -897,7 +897,7 @@
     {
       "id": "uah-m-4-B1-019",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 7 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 7 de la LOPDGDD, sobre consentimiento de menores, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Lo dispuesto en los Títulos I a IX y en los artículos 89 a 94 de la presente ley orgánica se aplica a cualquier tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
         "El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años. Se exceptúan los supuestos en que la ley exija la asistencia de los titulares de la patria potestad o tutela para la celebración del acto o negocio jurídico en cuyo contexto se recaba el consentimiento para el tratamiento.",
@@ -923,7 +923,7 @@
     {
       "id": "uah-m-4-B1-020",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 8 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 8 de la LOPDGDD, sobre tratamiento de datos de trabajadores, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "La protección de datos personales es un derecho fundamental vinculado al artículo 18.4 de la Constitución Española. En España y la Unión Europea se regula principalmente mediante:",
         "Las personas vinculadas al fallecido por razones familiares o de hecho así como sus herederos podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso a los datos personales de aquella y, en su caso, su rectificación o supresión.",
@@ -949,7 +949,7 @@
     {
       "id": "uah-m-4-B1-022",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 8 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 8 de la LOPDGDD, sobre tratamiento de datos de trabajadores, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El tratamiento de datos personales solo podrá considerarse fundado en el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable, en los términos previstos en el artículo 6.1 e) del Reglamento (UE) 2016/679, cuando derive de una competencia atribuida por una norma con rango de ley.",
         "Cuando los datos personales sean obtenidos del afectado el responsable del tratamiento podrá dar cumplimiento al deber de información establecido en el artículo 13 del Reglamento (UE) 2016/679 facilitando al afectado la información básica a la que se refiere el apartado siguiente e indicándole una dirección electrónica u otro medio que permita acceder de forma sencilla e inmedi",
@@ -975,7 +975,7 @@
     {
       "id": "uah-m-4-B1-023",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 9 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 9 de la LOPDGDD, sobre categorías especiales de datos en sanidad, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "La posibilidad de ejercer los derechos establecidos en los artículos 15 a 22 del Reglamento (UE) 2016/679. Si los datos obtenidos del afectado fueran a ser tratados para la elaboración de perfiles, la información básica comprenderá asimismo esta circunstancia.",
         "Que los datos se refieran a deudas ciertas, vencidas y exigibles, cuya existencia o cuantía no hubiese sido objeto de reclamación administrativa o judicial por el deudor o mediante un procedimiento alternativo de resolución de disputas vinculante entre las partes.",
@@ -1001,7 +1001,7 @@
     {
       "id": "uah-m-4-B1-024",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 9 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 9 de la LOPDGDD, sobre categorías especiales de datos en sanidad, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Los tratamientos de datos contemplados en las letras g), h) e i) del artículo 9.2 del Reglamento (UE) 2016/679 fundados en el Derecho español deberán estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales relativos a su seguridad y confidencialidad.",
         "En el ámbito universitario pueden aparecer, por ejemplo, datos de discapacidad, adaptaciones académicas, salud laboral, prevención de riesgos o situaciones de violencia/acoso. Deben tratarse con especial cautela.",
@@ -1027,7 +1027,7 @@
     {
       "id": "uah-m-4-B1-025",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 10 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 10, sobre deber de confidencialidad, de la LOPDGDD, sobre el deber de informar, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El tratamiento de datos personales relativos a condenas e infracciones penales, así como a procedimientos y medidas cautelares y de seguridad conexas, para fines distintos de los de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales,",
         "Salvo prueba en contrario, se presumirá amparado en lo dispuesto en el artículo 6.1.f) del Reglamento (UE) 2016/679 el tratamiento de los datos de contacto y en su caso los relativos a la función o puesto desempeñado de las personas físicas que presten servicios en una persona jurídica siempre que se cumplan los siguientes requisitos:",
@@ -1053,7 +1053,7 @@
     {
       "id": "uah-m-4-B1-026",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Según el artículo 10 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "En el artículo 10, sobre deber de confidencialidad, de la LOPDGDD, sobre el deber de informar, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "El registro completo de los datos referidos a condenas e infracciones penales, así como a procedimientos y medidas cautelares y de seguridad conexas a que se refiere el",
         "treinta días siguientes a la notificación de la deuda al sistema, permaneciendo bloqueados los datos durante ese plazo.",
@@ -1079,7 +1079,7 @@
     {
       "id": "uah-m-4-B1-027",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 10 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 10, sobre deber de confidencialidad, de la LOPDGDD.",
       "options": [
         "El derecho de oposición, así como los derechos relacionados con las decisiones individuales automatizadas, incluida la realización de perfiles, se ejercerán de acuerdo con lo establecido, respectivamente, en los artículos 21 y 22 del Reglamento (UE) 2016/679.",
         "Marco RGPD y LOPDGDD.\n- Licitud, lealtad y transparencia.\n- Limitación de finalidad.\n- Minimización.\n- Exactitud.\n- Conservación.\n- Integridad y confidencialidad.\n- Responsabilidad proactiva.\n- Ejemplos: préstamo, reservas, salas, usuarios, comunicaciones.",
@@ -1105,7 +1105,7 @@
     {
       "id": "uah-m-4-B1-028",
       "topicId": "tema-04-titulo-ii-principios-proteccion-datos",
-      "question": "Conforme al artículo 10 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 10, sobre deber de confidencialidad, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "**Desarrolle los principios de protección de datos y explique su aplicación en una biblioteca universitaria.**",
         "Que los datos se refieran a deudas ciertas, vencidas y exigibles, cuya existencia o cuantía no hubiese sido objeto de reclamación administrativa o judicial por el deudor o mediante un procedimiento alternativo de resolución de disputas vinculante entre las partes.",
@@ -1131,7 +1131,7 @@
     {
       "id": "uah-m-4-B1-029",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 11 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 11, sobre transparencia e información, de la LOPDGDD, sobre modelos de información, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Las entidades responsables de los sistemas de exclusión publicitaria comunicarán a la autoridad de control competente su creación, su carácter general o sectorial, así como el modo en que los afectados pueden incorporarse a los mismos y, en su caso, hacer valer sus preferencias.",
         "Cuando los datos personales sean obtenidos del afectado el responsable del tratamiento podrá dar cumplimiento al deber de información establecido en el artículo 13 del Reglamento (UE) 2016/679 facilitando al afectado la información básica a la que se refiere el apartado siguiente e indicándole una dirección electrónica u otro medio que permita acceder de forma sencilla e inmedi",
@@ -1157,7 +1157,7 @@
     {
       "id": "uah-m-4-B1-030",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 11 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "En el artículo 11, sobre transparencia e información, de la LOPDGDD, sobre modelos de información, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "No dejar pantallas abiertas con datos de usuarios.\n- No comentar datos personales en espacios públicos.\n- No compartir contraseñas.\n- No enviar listados con datos personales sin protección.\n- Bloquear el equipo al ausentarse del puesto.\n- Usar canales institucionales.",
         "Los datos deben tratarse de forma lícita, leal y transparente.",
@@ -1183,7 +1183,7 @@
     {
       "id": "uah-m-4-B1-031",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 11 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 11, sobre transparencia e información, de la LOPDGDD.",
       "options": [
         "Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones. En tal caso, las imágenes deberán ser",
         "Ideología.\n- Afiliación sindical.\n- Religión.\n- Convicciones filosóficas.\n- Datos genéticos.\n- Datos biométricos dirigidos a identificar de manera unívoca a una persona.\n- Datos relativos a la salud.\n- Vida sexual u orientación sexual.\n- Origen racial o étnico.",
@@ -1209,7 +1209,7 @@
     {
       "id": "uah-m-4-B1-032",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Conforme al artículo 11 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 11, sobre transparencia e información, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "En el ámbito universitario pueden aparecer, por ejemplo, datos de discapacidad, adaptaciones académicas, salud laboral, prevención de riesgos o situaciones de violencia/acoso. Deben tratarse con especial cautela.",
         "La posibilidad de ejercer los derechos establecidos en los artículos 15 a 22 del Reglamento (UE) 2016/679. Si los datos obtenidos del afectado fueran a ser tratados para la elaboración de perfiles, la información básica comprenderá asimismo esta circunstancia.",
@@ -1235,7 +1235,7 @@
     {
       "id": "uah-m-4-B1-033",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 11 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 11, sobre transparencia e información, de la LOPDGDD, sobre modelos de información, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Nombre y apellidos.\n- DNI/NIE.\n- Correo electrónico institucional o personal.\n- Teléfono.\n- Dirección.\n- Número de usuario de biblioteca.\n- Identificador universitario.\n- Imagen captada por videovigilancia.\n- Dirección IP si permite identificar a una persona.\n- Datos académicos, laborales o administrativos.",
         "La misma presunción operará para el tratamiento de los datos relativos a los empresarios individuales y a los profesionales liberales, cuando se refieran a ellos únicamente en dicha condición y no se traten para entablar una relación con los mismos como personas físicas.",
@@ -1261,7 +1261,7 @@
     {
       "id": "uah-m-4-B1-034",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 12 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 12, sobre procedimientos de información, de la LOPDGDD, sobre derechos de las personas, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "puestas a disposición de la autoridad competente en un plazo máximo de setenta y dos horas desde que se tuviera conocimiento de la existencia de la grabación. No será de aplicación a estos tratamientos la obligación de bloqueo prevista en el",
         "infracciones normativas. Serán lícitos los tratamientos de datos personales necesarios para garantizar la protección de las personas que informen sobre infracciones normativas.",
@@ -1287,7 +1287,7 @@
     {
       "id": "uah-m-4-B1-035",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 12 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "En el artículo 12, sobre procedimientos de información, de la LOPDGDD, sobre derechos de las personas, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679 del Parlamento Europeo y el Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de sus datos personales y a la libre circulación de estos datos, y completar sus disposiciones.",
         "fácilmente accesibles para el afectado. El ejercicio del derecho no podrá ser denegado por el solo motivo de optar el afectado por otro medio.",
@@ -1313,7 +1313,7 @@
     {
       "id": "uah-m-4-B1-036",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 12 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 12, sobre procedimientos de información, de la LOPDGDD.",
       "options": [
         "Empresa que presta un servicio informático.\n- Proveedor de una plataforma de gestión.\n- Empresa que aloja una aplicación.\n- Servicio externo de digitalización.\n- Plataforma contratada para comunicaciones.",
         "treinta días siguientes a la notificación de la deuda al sistema, permaneciendo bloqueados los datos durante ese plazo.",
@@ -1339,7 +1339,7 @@
     {
       "id": "uah-m-4-B1-037",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Conforme al artículo 12 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 12, sobre procedimientos de información, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "la regulación del Sistema de registros administrativos de apoyo a la Administración de Justicia.",
         "No comentar préstamos de usuarios.\n- No revelar sanciones o incidencias.\n- No dejar documentos con datos visibles.\n- No facilitar información sobre una persona a terceros no autorizados.\n- Verificar identidad antes de informar sobre cuentas, préstamos o reservas.",
@@ -1365,7 +1365,7 @@
     {
       "id": "uah-m-4-B1-040",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 12 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 12, sobre procedimientos de información, de la LOPDGDD, sobre derechos de las personas, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "En España, la autoridad estatal de control es la **Agencia Española de Protección de Datos**. Existen también autoridades autonómicas en determinados territorios y ámbitos.",
         "puestas a disposición de la autoridad competente en un plazo máximo de setenta y dos horas desde que se tuviera conocimiento de la existencia de la grabación. No será de aplicación a estos tratamientos la obligación de bloqueo prevista en el",
@@ -1391,7 +1391,7 @@
     {
       "id": "uah-m-4-B1-042",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 13 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 13, sobre ejercicio de derechos por personas fallecidas, de la LOPDGDD, sobre el derecho de acceso, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El tratamiento por el empleador de datos obtenidos a través de sistemas de cámaras o videocámaras se somete a lo dispuesto en el artículo 89 de esta ley orgánica.",
         "Informa y asesora al responsable, encargado y personal.\n- Supervisa el cumplimiento del RGPD y la LOPDGDD.\n- Asesora sobre evaluaciones de impacto.\n- Coopera con la autoridad de control.\n- Actúa como punto de contacto.\n- Atiende consultas internas y de personas interesadas.\n- Promueve cultura de protección de datos.",
@@ -1417,7 +1417,7 @@
     {
       "id": "uah-m-4-B1-044",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 13 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "En el artículo 13, sobre ejercicio de derechos por personas fallecidas, de la LOPDGDD, sobre el derecho de acceso, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Ejemplo: los datos de préstamos históricos no deben mantenerse indefinidamente si ya no son necesarios, salvo que exista una razón legítima o normativa.",
         "A los efectos establecidos en el artículo 12.5 del Reglamento (UE) 2016/679 se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello.",
@@ -1443,7 +1443,7 @@
     {
       "id": "uah-m-4-B1-045",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 13 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 13, sobre ejercicio de derechos por personas fallecidas, de la LOPDGDD.",
       "options": [
         "Cuando el afectado elija un medio distinto al que se le ofrece que suponga un coste desproporcionado, la solicitud será considerada excesiva, por lo que dicho afectado asumirá el exceso de costes que su elección comporte. En este caso, solo será exigible al responsable del tratamiento la satisfacción del derecho de acceso sin dilaciones indebidas.",
         "En el contexto UAH, la hoja informativa institucional indica que la responsable de los tratamientos efectuados en la UAH es la **Secretaría General**, asesorada por la Delegada de Protección de Datos.",
@@ -1469,7 +1469,7 @@
     {
       "id": "uah-m-4-B1-046",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 14 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 14 de la LOPDGDD, sobre criterios de ponderación, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Envío de un listado de usuarios a destinatario equivocado.\n- Pérdida de un portátil sin cifrar.\n- Acceso indebido a expedientes.\n- Publicación accidental de datos personales.\n- Ataque informático que expone datos.",
         "En una universidad pública, muchos tratamientos se basan en el cumplimiento de una misión de interés público, en obligaciones legales o en la relación administrativa o académica con la persona interesada.",
@@ -1495,7 +1495,7 @@
     {
       "id": "uah-m-4-B1-047",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 15 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 15 de la LOPDGDD, sobre el derecho de rectificación, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El derecho de supresión se ejercerá de acuerdo con lo establecido en el artículo 17 del Reglamento (UE) 2016/679.\n2. Cuando la supresión derive del ejercicio del derecho de oposición con arreglo al",
         "Que el acreedor haya informado al afectado en el contrato o en el momento de requerir el pago acerca de la posibilidad de inclusión en dichos sistemas, con indicación de aquéllos en los que participe.",
@@ -1521,7 +1521,7 @@
     {
       "id": "uah-m-4-B1-048",
       "topicId": "tema-04-titulo-iii-derechos-personas",
-      "question": "Según el artículo 15 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 15 de la LOPDGDD, sobre el derecho de rectificación, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Es toda información sobre una persona física identificada o identificable.",
         "identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines de mercadotecnia directa.",
@@ -1599,7 +1599,7 @@
     {
       "id": "uah-m-4-B1-052",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 19 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 19, sobre derecho de rectificación, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El tratamiento de datos llevado a cabo con ocasión de la tramitación por los órganos judiciales de los procesos de los que sean competentes, así como el realizado dentro de la gestión de la Oficina Judicial, se regirán por lo dispuesto en el Reglamento (UE) 2016/679 y la presente ley orgánica, sin perjuicio de las disposiciones de la Ley Orgánica 6/1985, de 1 julio,",
         "En una universidad pública, muchos tratamientos se basan en el cumplimiento de una misión de interés público, en obligaciones legales o en la relación administrativa o académica con la persona interesada.",
@@ -1625,7 +1625,7 @@
     {
       "id": "uah-m-4-B1-053",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 19 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 19, sobre derecho de rectificación, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "El tratamiento por el empleador de datos obtenidos a través de sistemas de cámaras o videocámaras se somete a lo dispuesto en el artículo 89 de esta ley orgánica.",
         "Que el tratamiento se refiera únicamente a los datos necesarios para su localización profesional.",
@@ -1651,7 +1651,7 @@
     {
       "id": "uah-m-4-B1-055",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 19 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 19, sobre derecho de rectificación, de la LOPDGDD.",
       "options": [
         "Cuando se hubiera ejercitado ante el sistema el derecho a la limitación del tratamiento de los datos impugnando su exactitud conforme a lo previsto en el artículo 18.1.a) del Reglamento (UE) 2016/679, el sistema informará a quienes pudieran consultarlo con arreglo al párrafo anterior acerca de la mera existencia de dicha circunstancia,",
         "La misma presunción operará para el tratamiento de los datos relativos a los empresarios individuales y a los profesionales liberales, cuando se refieran a ellos únicamente en dicha condición y no se traten para entablar una relación con los mismos como personas físicas.",
@@ -1677,7 +1677,7 @@
     {
       "id": "uah-m-4-B1-058",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 20 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 20, sobre derecho de supresión, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El RGPD prevé sanciones administrativas elevadas para infracciones. La LOPDGDD desarrolla el régimen en España y clasifica infracciones en:",
         "Control de accesos.\n- Contraseñas robustas.\n- Perfiles de usuario.\n- Copias de seguridad.\n- Cifrado cuando proceda.\n- Registro de accesos.\n- Bloqueo de pantalla.\n- Destrucción segura.\n- Formación del personal.\n- Procedimientos de incidencias.\n- Confidencialidad.",
@@ -1703,7 +1703,7 @@
     {
       "id": "uah-m-4-B1-059",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 20 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 20, sobre derecho de supresión, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Salvo prueba en contrario, se presumirá amparado en lo dispuesto en el artículo 6.1.f) del Reglamento (UE) 2016/679 el tratamiento de los datos de contacto y en su caso los relativos a la función o puesto desempeñado de las personas físicas que presten servicios en una persona jurídica siempre que se cumplan los siguientes requisitos:",
         "Las personas vinculadas al fallecido por razones familiares o de hecho así como sus herederos podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso a los datos personales de aquella y, en su caso, su rectificación o supresión.",
@@ -1729,7 +1729,7 @@
     {
       "id": "uah-m-4-B1-060",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 20 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 20, sobre derecho de supresión, de la LOPDGDD.",
       "options": [
         "Que el acreedor haya informado al afectado en el contrato o en el momento de requerir el pago acerca de la posibilidad de inclusión en dichos sistemas, con indicación de aquéllos en los que participe.",
         "La idea central del tema es que cualquier tratamiento de datos personales debe hacerse con una **base jurídica válida**, respetando unos **principios**, informando a las personas afectadas, garantizando sus **derechos**, aplicando medidas de seguridad y asignando responsabilidades claras entre responsable, encargado y delegado de protección de datos.",
@@ -1755,7 +1755,7 @@
     {
       "id": "uah-m-4-B1-061",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Conforme al artículo 20 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 20, sobre derecho de supresión, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "Los datos deben tratarse garantizando una seguridad adecuada, incluida la protección frente a tratamiento no autorizado o ilícito, pérdida, destrucción o daño accidental.",
         "Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones. En tal caso, las imágenes deberán ser",
@@ -1781,7 +1781,7 @@
     {
       "id": "uah-m-4-B1-063",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 20 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 20, sobre derecho de supresión, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Cuando el afectado elija un medio distinto al que se le ofrece que suponga un coste desproporcionado, la solicitud será considerada excesiva, por lo que dicho afectado asumirá el exceso de costes que su elección comporte. En este caso, solo será exigible al responsable del tratamiento la satisfacción del derecho de acceso sin dilaciones indebidas.",
         "La normativa actual gira más en torno al concepto de **tratamiento** que al de fichero. Lo importante no es solo dónde están guardados los datos, sino para qué se usan, con qué legitimación, durante cuánto tiempo, quién accede y qué medidas de seguridad se aplican.",
@@ -1807,7 +1807,7 @@
     {
       "id": "uah-m-4-B1-064",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 20 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 20, sobre derecho de supresión, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Cuando se hubiera ejercitado ante el sistema el derecho a la limitación del tratamiento de los datos impugnando su exactitud conforme a lo previsto en el artículo 18.1.a) del Reglamento (UE) 2016/679, el sistema informará a quienes pudieran consultarlo con arreglo al párrafo anterior acerca de la mera existencia de dicha circunstancia,",
         "Lo dispuesto en los Títulos I a IX y en los artículos 89 a 94 de la presente ley orgánica se aplica a cualquier tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
@@ -1833,7 +1833,7 @@
     {
       "id": "uah-m-4-B1-065",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 20 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 20, sobre derecho de supresión, de la LOPDGDD.",
       "options": [
         "Recogida.\n- Registro.\n- Organización.\n- Conservación.\n- Consulta.\n- Modificación.\n- Comunicación.\n- Cesión.\n- Supresión.\n- Destrucción.\n- Consulta de expedientes.\n- Envío de comunicaciones.\n- Gestión de préstamos bibliotecarios.\n- Control de acceso a salas.\n- Gestión de reservas.\n- Atención a usuarios.",
         "Serán gratuitas las actuaciones llevadas a cabo por el responsable del tratamiento para atender las solicitudes de ejercicio de estos derechos, sin perjuicio de lo dispuesto en los artículos 12.5 y 15.3 del Reglamento (UE) 2016/679 y en los apartados 3 y 4 del artículo 13 de esta ley orgánica.",
@@ -1859,7 +1859,7 @@
     {
       "id": "uah-m-4-B1-067",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Conforme al artículo 20 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 20, sobre derecho de supresión, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "Hubiesen sido obtenidos por el responsable de un mediador o intermediario en caso de que las normas aplicables al sector de actividad al que pertenezca el responsable del tratamiento establecieran la posibilidad de intervención de un intermediario o mediador que recoja en nombre propio los datos de los afectados para su transmisión al responsable.",
         "En la práctica, esta información se ofrece mediante cláusulas informativas, formularios, páginas web, avisos de privacidad o documentos administrativos.",
@@ -1911,7 +1911,7 @@
     {
       "id": "uah-m-4-B1-069",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 22 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "**Diferencie responsable, encargado y Delegado de Protección de Datos.**",
         "El RGPD prevé sanciones administrativas elevadas para infracciones. La LOPDGDD desarrolla el régimen en España y clasifica infracciones en:",
@@ -1937,7 +1937,7 @@
     {
       "id": "uah-m-4-B1-070",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 22 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "El derecho de acceso se entenderá otorgado si el responsable del tratamiento facilitara al afectado un sistema de acceso remoto, directo y seguro a los datos personales que garantice, de modo permanente, el acceso a su totalidad.",
         "Solo podrán captarse imágenes de la vía pública en la medida en que resulte imprescindible para la finalidad mencionada en el apartado anterior.",
@@ -1963,7 +1963,7 @@
     {
       "id": "uah-m-4-B1-071",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 22 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD.",
       "options": [
         "No podrá supeditarse la ejecución del contrato a que el afectado consienta el tratamiento de los datos personales para finalidades que no guarden relación con el mantenimiento, desarrollo o control de la relación contractual.",
         "Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones. En tal caso, las imágenes deberán ser",
@@ -1989,7 +1989,7 @@
     {
       "id": "uah-m-4-B1-072",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Conforme al artículo 22 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "A los efectos establecidos en el artículo 12.5 del Reglamento (UE) 2016/679 se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello.",
         "El tratamiento de datos llevado a cabo con ocasión de la tramitación por los órganos judiciales de los procesos de los que sean competentes, así como el realizado dentro de la gestión de la Oficina Judicial, se regirán por lo dispuesto en el Reglamento (UE) 2016/679 y la presente ley orgánica, sin perjuicio de las disposiciones de la Ley Orgánica 6/1985, de 1 julio,",
@@ -2015,7 +2015,7 @@
     {
       "id": "uah-m-4-B1-073",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 22 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Ideología.\n- Afiliación sindical.\n- Religión.\n- Convicciones filosóficas.\n- Datos genéticos.\n- Datos biométricos dirigidos a identificar de manera unívoca a una persona.\n- Datos relativos a la salud.\n- Vida sexual u orientación sexual.\n- Origen racial o étnico.",
         "El deber de información previsto en el artículo 12 del Reglamento (UE) 2016/679 se entenderá cumplido mediante la colocación de un dispositivo informativo en lugar suficientemente visible identificando, al menos, la existencia del tratamiento, la identidad del responsable y la posibilidad de ejercitar los derechos previstos en los artículos 15 a 22 del Reglamento (UE) 2016/679.",
@@ -2041,7 +2041,7 @@
     {
       "id": "uah-m-4-B1-074",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 22 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Al amparo del artículo 2.2.c) del Reglamento (UE) 2016/679, se considera excluido de su ámbito de aplicación el tratamiento por una persona física de imágenes que solamente capten el interior de su propio domicilio.",
         "El derecho de supresión se ejercerá de acuerdo con lo establecido en el artículo 17 del Reglamento (UE) 2016/679.\n2. Cuando la supresión derive del ejercicio del derecho de oposición con arreglo al",
@@ -2067,7 +2067,7 @@
     {
       "id": "uah-m-4-B1-075",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 22 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD.",
       "options": [
         "El tratamiento de los datos personales procedentes de las imágenes y sonidos obtenidos mediante la utilización de cámaras y videocámaras por las Fuerzas y Cuerpos de Seguridad y por los órganos competentes para la vigilancia y control en los centros penitenciarios y para el control, regulación, vigilancia y disciplina del tráfico,",
         "Recogida.\n- Registro.\n- Organización.\n- Conservación.\n- Consulta.\n- Modificación.\n- Comunicación.\n- Cesión.\n- Supresión.\n- Destrucción.\n- Consulta de expedientes.\n- Envío de comunicaciones.\n- Gestión de préstamos bibliotecarios.\n- Control de acceso a salas.\n- Gestión de reservas.\n- Atención a usuarios.",
@@ -2093,7 +2093,7 @@
     {
       "id": "uah-m-4-B1-076",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Conforme al artículo 22 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "**Explique los derechos de las personas en materia de protección de datos.**",
         "Fuera de estos supuestos, dicho tratamiento se regirá por su legislación específica y supletoriamente por el Reglamento (UE) 2016/679 y la presente ley orgánica.",
@@ -2119,7 +2119,7 @@
     {
       "id": "uah-m-4-B1-077",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 22 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Lo regulado en el presente artículo se entiende sin perjuicio de lo previsto en la Ley 5/2014, de 4 de abril, de Seguridad Privada y sus disposiciones de desarrollo.",
         "Cuando un afectado manifieste a un responsable su deseo de que sus datos no sean tratados para la remisión de comunicaciones comerciales, este deberá informarle de los sistemas de exclusión publicitaria existentes, pudiendo remitirse a la información publicada por la autoridad de control competente.",
@@ -2145,7 +2145,7 @@
     {
       "id": "uah-m-4-B1-078",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 22 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 22, sobre derecho de limitación del tratamiento, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El tratamiento por el empleador de datos obtenidos a través de sistemas de cámaras o videocámaras se somete a lo dispuesto en el artículo 89 de esta ley orgánica.",
         "De conformidad con lo dispuesto en el artículo 4.11 del Reglamento (UE) 2016/679, se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, ya sea mediante una declaración o una clara acción afirmativa, el tratamiento de datos personales que le conciernen.",
@@ -2171,7 +2171,7 @@
     {
       "id": "uah-m-4-B1-079",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 23 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 23, sobre derecho de portabilidad, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "Consultar solo los datos necesarios.\n- Verificar identidad antes de facilitar información.\n- No compartir contraseñas.\n- Usar correo institucional.\n- Bloquear el equipo al ausentarse.\n- Destruir borradores o listados con datos de forma segura.\n- No guardar datos personales en dispositivos no autorizados.\n- Comunicar incidencias al responsable o DPD.\n- Aplicar las instrucciones",
         "Será lícito el tratamiento de datos personales que tenga por objeto evitar el envío de comunicaciones comerciales a quienes hubiesen manifestado su negativa u oposición a recibirlas. A tal efecto, podrán crearse sistemas de información, generales o sectoriales, en los que solo se incluirán los datos imprescindibles para identificar a los afectados.",
@@ -2197,7 +2197,7 @@
     {
       "id": "uah-m-4-B1-080",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Según el artículo 23 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 23, sobre derecho de portabilidad, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Las entidades responsables de los sistemas de exclusión publicitaria comunicarán a la autoridad de control competente su creación, su carácter general o sectorial, así como el modo en que los afectados pueden incorporarse a los mismos y, en su caso, hacer valer sus preferencias.",
         "No dejar pantallas abiertas con datos de usuarios.\n- No comentar datos personales en espacios públicos.\n- No compartir contraseñas.\n- No enviar listados con datos personales sin protección.\n- Bloquear el equipo al ausentarse del puesto.\n- Usar canales institucionales.",
@@ -2223,7 +2223,7 @@
     {
       "id": "uah-m-4-B1-081",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 23 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 23, sobre derecho de portabilidad, de la LOPDGDD.",
       "options": [
         "No comentar préstamos de usuarios.\n- No revelar sanciones o incidencias.\n- No dejar documentos con datos visibles.\n- No facilitar información sobre una persona a terceros no autorizados.\n- Verificar identidad antes de informar sobre cuentas, préstamos o reservas.",
         "Empresa que presta un servicio informático.\n- Proveedor de una plataforma de gestión.\n- Empresa que aloja una aplicación.\n- Servicio externo de digitalización.\n- Plataforma contratada para comunicaciones.",
@@ -2249,7 +2249,7 @@
     {
       "id": "uah-m-4-B1-083",
       "topicId": "tema-04-responsable-encargado-dpd",
-      "question": "Conforme al artículo 23 de la LOPDGDD, señale la afirmación VERDADERA.",
+      "question": "Conforme al artículo 23, sobre derecho de portabilidad, de la LOPDGDD, señale la afirmación VERDADERA.",
       "options": [
         "Cuando las leyes aplicables a determinados tratamientos establezcan un régimen especial que afecte al ejercicio de los derechos previstos en el Capítulo III del Reglamento (UE) 2016/679, se estará a lo dispuesto en aquellas.",
         "su oposición o negativa al mismo. A estos efectos, para considerar cumplida la obligación anterior será suficiente la consulta de los sistemas de exclusión incluidos en la relación publicada por la autoridad de control competente.",
@@ -2301,7 +2301,7 @@
     {
       "id": "uah-m-4-B1-085",
       "topicId": "tema-04-derechos-digitales-y-regimen-sancionador",
-      "question": "Según el artículo 25 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "Según el artículo 25, sobre evaluaciones de impacto, de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "El tratamiento de datos personales llevado a cabo por los organismos que tengan atribuidas las competencias relacionadas con el ejercicio de la función estadística pública se someterá a lo dispuesto en su legislación específica, así como en el Reglamento (UE) 2016/679 y en la presente ley orgánica.",
         "La presunción a la que se refiere el apartado 1 de este artículo no ampara los supuestos en que la información crediticia fuese asociada por la entidad que mantuviera el sistema a informaciones adicionales a las contempladas en dicho apartado, relacionadas con el deudor y obtenidas de otras fuentes, a fin de llevar a cabo un perfilado del mismo,",
@@ -2327,7 +2327,7 @@
     {
       "id": "uah-m-4-B1-086",
       "topicId": "tema-04-derechos-digitales-y-regimen-sancionador",
-      "question": "Según el artículo 25 de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "Según el artículo 25, sobre evaluaciones de impacto, de la LOPDGDD, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Los tratamientos de datos contemplados en las letras g), h) e i) del artículo 9.2 del Reglamento (UE) 2016/679 fundados en el Derecho español deberán estar amparados en una norma con rango de ley, que podrá establecer requisitos adicionales relativos a su seguridad y confidencialidad.",
         "Que, en el caso de que se denegase la solicitud de celebración del contrato, o éste no llegara a celebrarse, como consecuencia de la consulta efectuada, quien haya consultado el sistema informe al afectado del resultado de dicha consulta.",
@@ -2353,7 +2353,7 @@
     {
       "id": "uah-m-4-B1-087",
       "topicId": "tema-04-derechos-digitales-y-regimen-sancionador",
-      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 25 de la LOPDGDD.",
+      "question": "Indique cuál de las siguientes afirmaciones está prevista en el artículo 25, sobre evaluaciones de impacto, de la LOPDGDD.",
       "options": [
         "De conformidad con lo dispuesto en el artículo 11.2 de la Ley 12/1989, de 9 de mayo, de la Función Estadística Pública, serán de aportación estrictamente voluntaria y, en consecuencia, solo podrán recogerse previo consentimiento expreso de los afectados los datos a los que se refieren los artículos 9 y 10 del Reglamento (UE) 2016/679.",
         "Que los datos únicamente se mantengan en el sistema mientras persista el incumplimiento, con el límite máximo de cinco años desde la fecha de vencimiento de la obligación dineraria, financiera o de crédito.",
@@ -2379,7 +2379,7 @@
     {
       "id": "uah-m-4-B1-089",
       "topicId": "tema-04-derechos-digitales-y-regimen-sancionador",
-      "question": "Según el artículo 26 de la LOPDGDD, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
+      "question": "En el artículo 26 de la LOPDGDD, sobre tratamientos con fines de archivo, ¿cuál de las siguientes afirmaciones se corresponde con su contenido?",
       "options": [
         "La protección de datos personales es un derecho fundamental vinculado al artículo 18.4 de la Constitución Española. En España y la Unión Europea se regula principalmente mediante:",
         "Administraciones Públicas. Será lícito el tratamiento por las Administraciones Públicas de datos con fines de archivo en interés público, que se someterá a lo dispuesto en el Reglamento (UE) 2016/679 y en la presente ley orgánica con las especialidades que se derivan de lo previsto en la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español,",

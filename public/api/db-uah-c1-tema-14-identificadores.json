@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-04T13:14:38.354Z",
+    "updatedAt": "2026-05-04T14:38:36.097Z",
     "title": "UAH C1 Tema 14 - Estándares de normalización: Identificación de documentos",
     "description": "Banco normalizado de preguntas del tema 14 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 205,
@@ -4484,7 +4484,7 @@
     {
       "id": "uah-x-14-isbn-frente-a-issn",
       "topicId": "tema-14-isbn",
-      "question": "ISBN frente a ISSN.",
+      "question": "¿Qué es isbn frente a issn.?",
       "answer": "ISBN para monografias; ISSN para publicaciones seriadas y recursos continuados.",
       "origin": "generada-ia"
     },
@@ -6855,7 +6855,7 @@
     {
       "id": "uah-t14-fact-identificadores",
       "topicId": "tema-14-isbn",
-      "question": "Distingue ISBN, ISSN, DOI, Depósito Legal y NIPO en una frase.",
+      "question": "¿Qué son distingue isbn, issn, doi, depósito legal y nipo en una frase.?",
       "answer": "ISBN e ISSN son identificadores bibliográficos; DOI es persistente; Depósito Legal preserva patrimonio; NIPO identifica publicaciones oficiales de la AGE.",
       "origin": "curada-editorial"
     }

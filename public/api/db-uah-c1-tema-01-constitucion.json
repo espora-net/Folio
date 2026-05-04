@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-04T13:14:38.212Z",
+    "updatedAt": "2026-05-04T14:54:44.196Z",
     "title": "UAH C1 Tema 01 - Constitución Española de 1978",
     "description": "Banco normalizado de preguntas del tema 1 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 78,
@@ -96,7 +96,7 @@
     {
       "id": "uah-m-1-1",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "Segun el articulo 1.1 de la Constitucion, Espana se constituye en:",
+      "question": "En el artículo 1 de la Constitución, sobre la forma política del Estado, .1 de la Constitucion, Espana se constituye en, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Un Estado social y democratico de Derecho",
         "Una republica parlamentaria",
@@ -115,7 +115,7 @@
     {
       "id": "uah-m-1-2",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "Segun el articulo 1.2 de la Constitucion, la soberania nacional reside en:",
+      "question": "En el artículo 1 de la Constitución, sobre la forma política del Estado, .2 de la Constitucion, la soberania nacional reside en, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "El pueblo espanol",
         "Las Cortes Generales exclusivamente",
@@ -134,7 +134,7 @@
     {
       "id": "uah-m-1-3",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "Segun el articulo 1.3 de la Constitucion, la forma politica del Estado espanol es:",
+      "question": "En el artículo 1 de la Constitución, sobre la forma política del Estado, .3 de la Constitucion, la forma politica del Estado espanol es, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "La Monarquia parlamentaria",
         "La Republica federal",
@@ -153,7 +153,7 @@
     {
       "id": "uah-m-1-4",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "El articulo 2 de la Constitucion reconoce y garantiza:",
+      "question": "El articulo 2, sobre unidad nacional y autonomías, de la Constitucion reconoce y garantiza:",
       "options": [
         "El derecho a la autonomia de nacionalidades y regiones",
         "La soberania de cada municipio",
@@ -172,7 +172,7 @@
     {
       "id": "uah-m-1-5",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "Segun el articulo 14 de la Constitucion, los espanoles son iguales ante:",
+      "question": "En el artículo 14 de la Constitución, sobre igualdad ante la ley, de la Constitucion, los espanoles son iguales ante, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "La ley",
         "El Gobierno",
@@ -191,7 +191,7 @@
     {
       "id": "uah-m-1-6",
       "topicId": "titulo-i-capitulos-iv-v-arts-53-55",
-      "question": "El articulo 53 de la Constitucion se estudia dentro de:",
+      "question": "El articulo 53, sobre garantías de libertades y derechos fundamentales, de la Constitucion se estudia dentro de:",
       "options": [
         "Las garantias de las libertades y derechos fundamentales",
         "La organizacion territorial del Estado",
@@ -210,7 +210,7 @@
     {
       "id": "uah-m-1-53",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "El articulo 9.3 de la Constitucion garantiza, entre otros principios:",
+      "question": "El articulo 9.3, sobre garantías jurídicas y principio de legalidad, de la Constitucion garantiza, entre otros principios:",
       "options": [
         "Legalidad, jerarquia normativa, publicidad de las normas y seguridad juridica",
         "Responsabilidad de los poderes públicos, prohibición de la arbitrariedad y principio de interdicción.",
@@ -229,7 +229,7 @@
     {
       "id": "uah-m-1-54",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "Dentro del Titulo I de la Constitucion, el articulo 27 reconoce:",
+      "question": "Dentro del Titulo I de la Constitucion, el articulo 27, sobre educación y libertad de enseñanza, reconoce:",
       "options": [
         "El derecho a la educacion y la libertad de ensenanza",
         "La forma politica de Monarquia parlamentaria",
@@ -248,7 +248,7 @@
     {
       "id": "uah-m-1-97",
       "topicId": "titulo-i-art-10-capitulo-i-arts-10-13",
-      "question": "Segun el articulo 10 de la Constitucion, la dignidad de la persona, los derechos inviolables, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demas son:",
+      "question": "En el artículo 10 de la Constitución, sobre dignidad y derechos fundamentales, de la Constitucion, la dignidad de la persona, los derechos inviolables, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demas son, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Fundamento del orden politico y de la paz social",
         "Valores de una carta de servicios",
@@ -267,7 +267,7 @@
     {
       "id": "uah-m-1-98",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "El articulo 15 de la Constitucion reconoce el derecho a:",
+      "question": "El articulo 15, sobre derecho a la vida e integridad física, de la Constitucion reconoce el derecho a:",
       "options": [
         "La vida y la integridad fisica y moral",
         "La negociacion colectiva",
@@ -286,7 +286,7 @@
     {
       "id": "uah-m-1-99",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "El articulo 16 de la Constitucion garantiza:",
+      "question": "El articulo 16, sobre libertad ideológica y religiosa, de la Constitucion garantiza:",
       "options": [
         "Libertad ideologica, religiosa y de culto",
         "Derecho a la libre expresión, comunicación y difusión de ideas.",
@@ -305,7 +305,7 @@
     {
       "id": "uah-m-1-100",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "La detencion preventiva, segun el articulo 17.2 de la Constitucion, no puede exceder como regla general de:",
+      "question": "La detencion preventiva, segun el articulo 17.2, sobre detención preventiva, de la Constitucion, no puede exceder como regla general de:",
       "options": [
         "72 horas",
         "3 dias habiles",
@@ -324,7 +324,7 @@
     {
       "id": "uah-m-1-101",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "El articulo 18 de la Constitucion garantiza, entre otros derechos:",
+      "question": "El articulo 18, sobre intimidad, honor y secreto de comunicaciones, sobre intimidad, honor y secreto de comunicaciones, sobre intimidad, honor y secreto de comunicaciones, de la Constitucion garantiza, entre otros derechos:",
       "options": [
         "Honor, intimidad personal y familiar, propia imagen y secreto de las comunicaciones",
         "Solo libertad sindical",
@@ -343,7 +343,7 @@
     {
       "id": "uah-m-1-102",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "Segun el articulo 20 de la Constitucion, el ejercicio de las libertades de expresion e informacion:",
+      "question": "En el artículo 20 de la Constitución, sobre libertades de expresión e información, de la Constitucion, el ejercicio de las libertades de expresion e informacion, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "No puede restringirse mediante censura previa",
         "Exige siempre deposito legal previo",
@@ -362,7 +362,7 @@
     {
       "id": "uah-m-1-103",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "El articulo 23 de la Constitucion reconoce el derecho a:",
+      "question": "El articulo 23, sobre participación política y acceso a cargos públicos, de la Constitucion reconoce el derecho a:",
       "options": [
         "Participar en los asuntos publicos y acceder en igualdad a funciones y cargos publicos",
         "Obtener la tutela judicial efectiva sin indefensión.",
@@ -381,7 +381,7 @@
     {
       "id": "uah-m-1-104",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "Segun el articulo 28 de la Constitucion, nadie puede ser obligado a:",
+      "question": "En el artículo 28 de la Constitución, sobre libertad de sindicación, de la Constitucion, nadie puede ser obligado a, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Afiliarse a un sindicato",
         "Usar Buscador",
@@ -525,7 +525,7 @@
     {
       "id": "uah-exam-valencia-c1-2025-q069-95b3c65f267b",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "Según el artículo 1 de la Constitución Española de 1978, España se constituye en:",
+      "question": "En el artículo 1 de la Constitución, sobre la forma política del Estado, España se constituye en, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Un Estado social y democrático de Derecho, que propugna como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
         "Una Monarquía parlamentaria sin separación de poderes.",
@@ -551,7 +551,7 @@
     {
       "id": "uah-exam-uned-aux-2024-q006-88ee92c9893b",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué regula el artículo 15 de la Constitución Española?",
+      "question": "En el artículo 15 de la Constitución Española, sobre el derecho a la vida y a la integridad, ¿qué derechos se reconocen y qué se prohíbe?",
       "options": [
         "El derecho a la vida y a la integridad física y moral, con prohibición de la tortura y de las penas inhumanas o degradantes.",
         "El derecho a contraer matrimonio con plena igualdad jurídica.",
@@ -652,7 +652,7 @@
     {
       "id": "uah-opo-ref-001",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "En el Título Preliminar de la Constitución, ¿qué valores superiores proclama el artículo 1.1?",
+      "question": "En el Título Preliminar de la Constitución, ¿qué valores superiores proclama el artículo 1.1, sobre valores superiores del ordenamiento,?",
       "options": [
         "Libertad, justicia, igualdad y pluralismo político",
         "Unidad, autonomía, solidaridad y jerarquía normativa",
@@ -702,7 +702,7 @@
     {
       "id": "uah-m-1-PILOT-001",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "¿Qué caracteriza al «Estado de Derecho» según el art. 1 CE?",
+      "question": "¿Qué caracteriza al «Estado de Derecho» según el art. 1, sobre Estado social y democrático de Derecho, CE?",
       "options": [
         "La primacía de la costumbre sobre la Constitución",
         "El sometimiento de los poderes públicos a la Constitución y al ordenamiento jurídico",
@@ -730,7 +730,7 @@
     {
       "id": "uah-m-1-PILOT-002",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "¿Qué valores superiores propugna el ordenamiento jurídico español según el art. 1.1 CE?",
+      "question": "¿Qué valores superiores propugna el ordenamiento jurídico español según el art. 1.1, sobre valores superiores del ordenamiento, CE?",
       "options": [
         "Legalidad, jerarquía normativa, publicidad y seguridad jurídica",
         "Libertad, justicia, igualdad y pluralismo político",
@@ -758,7 +758,7 @@
     {
       "id": "uah-m-1-PILOT-003",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "¿Qué combinación de principios recoge el art. 2 CE?",
+      "question": "¿Qué combinación de principios recoge el art. 2, sobre unidad nacional y autonomías, CE?",
       "options": [
         "Unidad de la Nación, autonomía de nacionalidades y regiones, y solidaridad",
         "Federalismo, independencia territorial y confederación autonómica",
@@ -954,7 +954,7 @@
     {
       "id": "uah-m-1-PILOT-010",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "¿Qué mandato del art. 9.2 CE aplica una biblioteca universitaria que elimina barreras reales de acceso?",
+      "question": "¿Qué mandato del art. 9.2, sobre igualdad, CE aplica una biblioteca universitaria que elimina barreras reales de acceso?",
       "options": [
         "Reconocer la capitalidad del Estado",
         "Remover obstáculos que impidan o dificulten la plenitud de libertad e igualdad",
@@ -982,7 +982,7 @@
     {
       "id": "uah-m-1-PILOT-011",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "¿Qué principio del art. 9.3 CE prohíbe decisiones caprichosas o injustificadas de los poderes públicos?",
+      "question": "¿Qué principio del art. 9.3, sobre garantías jurídicas y principio de legalidad, CE prohíbe decisiones caprichosas o injustificadas de los poderes públicos?",
       "options": [
         "Jerarquía normativa",
         "Interdicción de la arbitrariedad",
@@ -1010,7 +1010,7 @@
     {
       "id": "uah-m-1-PILOT-012",
       "topicId": "titulo-preliminar-arts-1-9",
-      "question": "¿Cuál es la diferencia correcta entre el art. 14 CE y el art. 9.2 CE?",
+      "question": "¿Cuál es la diferencia correcta entre el art. 14, sobre igualdad ante la ley, CE y el art. 9.2 CE?",
       "options": [
         "El art. 14 proclama igualdad formal y el art. 9.2 promueve igualdad real y efectiva",
         "El art. 14 regula la bandera y el art. 9.2 regula la capitalidad del Estado",
@@ -1094,7 +1094,7 @@
     {
       "id": "uah-m-1-PILOT-015",
       "topicId": "titulo-i-art-10-capitulo-i-arts-10-13",
-      "question": "¿Qué excepción puede afectar a los derechos del art. 23 para extranjeros según el art. 13 CE?",
+      "question": "¿Qué excepción puede afectar a los derechos del art. 23, sobre participación política y acceso a cargos públicos, para extranjeros según el art. 13 CE?",
       "options": [
         "La libertad de cátedra en centros docentes extranjeros",
         "El sufragio activo y pasivo en elecciones municipales por tratado o ley y reciprocidad",
@@ -1122,7 +1122,7 @@
     {
       "id": "uah-m-1-PILOT-016",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué prohíbe el art. 14 CE al proclamar la igualdad ante la ley?",
+      "question": "¿Qué prohíbe el art. 14, sobre igualdad ante la ley, CE al proclamar la igualdad ante la ley?",
       "options": [
         "La discriminación por nacimiento, raza, sexo, religión, opinión u otra condición personal o social",
         "La libertad ideológica de individuos y comunidades",
@@ -1150,7 +1150,7 @@
     {
       "id": "uah-m-1-PILOT-017",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué queda abolido según el art. 15 CE con la salvedad indicada en el propio precepto?",
+      "question": "¿Qué queda abolido según el art. 15, sobre derecho a la vida e integridad física, CE con la salvedad indicada en el propio precepto?",
       "options": [
         "La pena de muerte",
         "El derecho de petición",
@@ -1178,7 +1178,7 @@
     {
       "id": "uah-m-1-PILOT-018",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué protege expresamente el art. 16 CE respecto de ideología, religión o creencias?",
+      "question": "¿Qué protege expresamente el art. 16, sobre libertad ideológica y religiosa, CE respecto de ideología, religión o creencias?",
       "options": [
         "Que nadie pueda ser obligado a declarar sobre ellas",
         "Que toda confesión tenga carácter estatal",
@@ -1206,7 +1206,7 @@
     {
       "id": "uah-m-1-PILOT-019",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Cuál es el plazo máximo general de la detención preventiva según el art. 17 CE?",
+      "question": "¿Cuál es el plazo máximo general de la detención preventiva según el art. 17, sobre libertad y seguridad, CE?",
       "options": [
         "Veinticuatro horas",
         "Cuarenta y ocho horas",
@@ -1234,7 +1234,7 @@
     {
       "id": "uah-m-1-PILOT-020",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué supuesto bibliotecario se relaciona más directamente con el art. 18 CE?",
+      "question": "¿Qué supuesto bibliotecario se relaciona más directamente con el art. 18, sobre intimidad, honor y secreto de comunicaciones, sobre intimidad, honor y secreto de comunicaciones, CE?",
       "options": [
         "La publicación de normas presupuestarias anuales",
         "La protección de datos de usuarios, historial de préstamos y consultas bibliográficas",
@@ -1346,7 +1346,7 @@
     {
       "id": "uah-m-1-PILOT-024",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué aspecto del art. 23.2 CE resulta especialmente relevante para el acceso al empleo público?",
+      "question": "¿Qué aspecto del art. 23.2, sobre igualdad, CE resulta especialmente relevante para el acceso al empleo público?",
       "options": [
         "El acceso en condiciones de igualdad a funciones y cargos públicos con los requisitos legales",
         "La abolición de la pena de muerte en tiempos ordinarios",
@@ -1458,7 +1458,7 @@
     {
       "id": "uah-m-1-PILOT-028",
       "topicId": "titulo-i-capitulo-ii-seccion-1-arts-14-29",
-      "question": "¿Qué reconoce el art. 27.10 CE en relación con las universidades?",
+      "question": "¿Qué reconoce el art. 27.10, sobre autonomías, CE en relación con las universidades?",
       "options": [
         "La autonomía de las universidades en los términos que la ley establezca",
         "La exclusividad estatal de todos los centros docentes",
@@ -1570,7 +1570,7 @@
     {
       "id": "uah-m-1-PILOT-032",
       "topicId": "titulo-i-capitulo-ii-seccion-2-arts-30-38",
-      "question": "¿Qué principios inspiran el sistema tributario justo del art. 31 CE?",
+      "question": "¿Qué principios inspiran el sistema tributario justo del art. 31, sobre igualdad, CE?",
       "options": [
         "Igualdad, progresividad y no confiscatoriedad",
         "Pluralismo político, capitalidad y cooficialidad lingüística",
@@ -1850,7 +1850,7 @@
     {
       "id": "uah-m-1-PILOT-042",
       "topicId": "titulo-i-capitulo-iii-arts-39-52",
-      "question": "¿Qué enfoque recoge el art. 49 CE tras la reforma constitucional de 2024?",
+      "question": "¿Qué enfoque recoge el art. 49, sobre autonomías, CE tras la reforma constitucional de 2024?",
       "options": [
         "Personas con discapacidad, autonomía personal, inclusión social y accesibilidad universal",
         "Consumidores y usuarios, legítimos intereses económicos y educación financiera",
@@ -1878,7 +1878,7 @@
     {
       "id": "uah-m-1-PILOT-043",
       "topicId": "titulo-i-capitulo-iii-arts-39-52",
-      "question": "¿Qué promoverán los poderes públicos según el art. 51 CE además de defender consumidores y usuarios?",
+      "question": "¿Qué promoverán los poderes públicos según el art. 51, sobre educación, CE además de defender consumidores y usuarios?",
       "options": [
         "La información y educación de consumidores y usuarios",
         "La creación de asociaciones secretas de defensa económica",
@@ -1962,7 +1962,7 @@
     {
       "id": "uah-m-1-PILOT-046",
       "topicId": "titulo-i-capitulos-iv-v-arts-53-55",
-      "question": "¿Qué derechos reciben tutela preferente y sumaria y posible amparo según el art. 53.2 CE?",
+      "question": "¿Qué derechos reciben tutela preferente y sumaria y posible amparo según el art. 53.2, sobre unidad y autonomías, CE?",
       "options": [
         "El art. 14 y los derechos de la Sección 1.ª del Capítulo II",
         "Todos los principios rectores de los arts. 39 a 52 sin desarrollo legal",

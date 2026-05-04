@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-04T13:14:38.256Z",
+    "updatedAt": "2026-05-04T14:56:23.992Z",
     "title": "UAH C1 Tema 08 - Código Ético General de la Universidad de Alcalá",
     "description": "Banco normalizado de preguntas del tema 8 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 61,
@@ -386,7 +386,7 @@
     {
       "id": "uah-m-8-PILOT-002",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 8, ¿cuál de estas razones de discriminación aparece expresamente mencionada?",
+      "question": "Según el artículo 8, sobre no discriminación, ¿cuál de estas razones de discriminación aparece expresamente mencionada?",
       "options": [
         "Antigüedad en la Universidad",
         "Origen racial o étnico",
@@ -439,7 +439,7 @@
     {
       "id": "uah-m-8-PILOT-004",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "En el artículo 8, ¿qué fórmula cierra la enumeración de causas de discriminación?",
+      "question": "En el artículo 8, sobre no discriminación, ¿qué fórmula cierra la enumeración de causas de discriminación?",
       "options": [
         "Cualquier diferencia académica o profesional",
         "Cualquier otra circunstancia personal o social",
@@ -465,7 +465,7 @@
     {
       "id": "uah-m-8-PILOT-005",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 8, ¿qué categoría aparece expresamente junto a origen racial o étnico, género, sexo y orientación sexual?",
+      "question": "Según el artículo 8, sobre no discriminación, ¿qué categoría aparece expresamente junto a origen racial o étnico, género, sexo y orientación sexual?",
       "options": [
         "Religión o convicciones",
         "Especialidad bibliotecaria",
@@ -491,7 +491,7 @@
     {
       "id": "uah-m-8-PILOT-006",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "En una biblioteca universitaria, ¿qué aplicación práctica conecta directamente con el artículo 8?",
+      "question": "En una biblioteca universitaria, ¿qué aplicación práctica conecta directamente con el artículo 8, sobre no discriminación,?",
       "options": [
         "Gestionar usuarios con discapacidad evitando discriminaciones",
         "Reservar siempre los mejores puestos al personal conocido",
@@ -518,7 +518,7 @@
     {
       "id": "uah-m-8-PILOT-007",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "¿Cuál de estas parejas reproduce causas expresas de discriminación del artículo 8?",
+      "question": "¿Cuál de estas parejas reproduce causas expresas de discriminación del artículo 8, sobre no discriminación,?",
       "options": [
         "Religión o convicciones y opinión",
         "Destino presupuestario y categoría profesional",
@@ -544,7 +544,7 @@
     {
       "id": "uah-m-8-PILOT-008",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Si una conducta discrimina por una circunstancia personal no enumerada literalmente, ¿qué respuesta se ajusta al artículo 8?",
+      "question": "Si una conducta discrimina por una circunstancia personal no enumerada literalmente, ¿qué respuesta se ajusta al artículo 8, sobre no discriminación,?",
       "options": [
         "No queda comprendida porque la lista es cerrada",
         "Solo queda comprendida si afecta a estudiantes de grado",
@@ -571,7 +571,7 @@
     {
       "id": "uah-m-8-PILOT-009",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 9, ¿qué principios deben regir el desempeño de funciones y tareas del personal de la UAH?",
+      "question": "Según el artículo 9, sobre principios de conducta del personal, ¿qué principios deben regir el desempeño de funciones y tareas del personal de la UAH?",
       "options": [
         "Imparcialidad, objetividad, diligencia, lealtad y buena fe",
         "Publicidad, jerarquía, rotación, austeridad y reserva",
@@ -598,7 +598,7 @@
     {
       "id": "uah-m-8-PILOT-010",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 9, esos mismos principios deben inspirar también el comportamiento del personal en sus relaciones con:",
+      "question": "Según el artículo 9, sobre principios de conducta del personal, esos mismos principios deben inspirar también el comportamiento del personal en sus relaciones con, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Los estudiantes",
         "Solo los proveedores",
@@ -652,7 +652,7 @@
     {
       "id": "uah-m-8-PILOT-012",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "¿Qué conducta se menciona como contraria a la imparcialidad del artículo 9?",
+      "question": "¿Qué conducta se menciona como contraria a la imparcialidad del artículo 9, sobre principios de conducta del personal,?",
       "options": [
         "No favorecer a conocidos en trámites o servicios",
         "Publicar criterios generales de atención",
@@ -679,7 +679,7 @@
     {
       "id": "uah-m-8-PILOT-013",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "En relación con turnos o reservas, ¿qué implica el principio de imparcialidad del artículo 9?",
+      "question": "En relación con turnos o reservas, ¿qué implica el principio de imparcialidad del artículo 9, sobre principios de conducta del personal,?",
       "options": [
         "Alterarlos por motivos personales cuando el usuario sea conocido",
         "No alterarlos por motivos personales",
@@ -706,7 +706,7 @@
     {
       "id": "uah-m-8-PILOT-014",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "¿Qué pauta práctica deriva del artículo 9 sobre la aplicación de normas de servicio?",
+      "question": "¿Qué pauta práctica deriva del artículo 9, sobre principios de conducta del personal, sobre la aplicación de normas de servicio?",
       "options": [
         "Conceder excepciones arbitrarias si mejoran la satisfacción inmediata",
         "No conceder excepciones arbitrarias",
@@ -733,7 +733,7 @@
     {
       "id": "uah-m-8-PILOT-015",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según las implicaciones del artículo 9, ¿qué debe hacerse con la información interna conocida por el puesto?",
+      "question": "Según las implicaciones del artículo 9, sobre principios de conducta del personal, ¿qué debe hacerse con la información interna conocida por el puesto?",
       "options": [
         "Usarla para beneficio propio si no se divulga",
         "Usarla para favorecer a terceros solo si son usuarios autorizados",
@@ -787,7 +787,7 @@
     {
       "id": "uah-m-8-PILOT-017",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 10, ¿qué finalidad tiene la regulación sobre conflictos de intereses?",
+      "question": "Según el artículo 10, sobre relaciones con los demás, ¿qué finalidad tiene la regulación sobre conflictos de intereses?",
       "options": [
         "Evitar la incursión en conflicto de intereses con las obligaciones del puesto público",
         "Permitir operaciones privadas si producen ventaja institucional",
@@ -813,7 +813,7 @@
     {
       "id": "uah-m-8-PILOT-018",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 10.a), ¿qué no debe hacer el personal cuando pueda suponer conflicto de intereses?",
+      "question": "Según el artículo 10, sobre relaciones con los demás,.a), ¿qué no debe hacer el personal cuando pueda suponer conflicto de intereses?",
       "options": [
         "Contraer obligaciones económicas o intervenir en operaciones financieras o negocios jurídicos con personas o entidades afectadas",
         "Solicitar formación interna sobre contratación pública",
@@ -840,7 +840,7 @@
     {
       "id": "uah-m-8-PILOT-019",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 10.b), ¿cuándo debe abstenerse el personal de intervenir en un asunto?",
+      "question": "Según el artículo 10, sobre relaciones con los demás,.b), ¿cuándo debe abstenerse el personal de intervenir en un asunto?",
       "options": [
         "Cuando tenga interés personal o una actividad privada genere riesgo de conflicto",
         "Cuando el asunto requiera consulta técnica",
@@ -894,7 +894,7 @@
     {
       "id": "uah-m-8-PILOT-021",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "Según el artículo 10, ¿qué debe hacerse con regalos, favores o servicios ventajosos que vayan más allá de los usos habituales, sociales y de cortesía?",
+      "question": "Según el artículo 10, sobre relaciones con los demás, ¿qué debe hacerse con regalos, favores o servicios ventajosos que vayan más allá de los usos habituales, sociales y de cortesía?",
       "options": [
         "Aceptarlos si son de un usuario frecuente",
         "Registrarlos como mérito profesional",
@@ -921,7 +921,7 @@
     {
       "id": "uah-m-8-PILOT-022",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "¿Cuál es la idea clave del artículo 10 según el material de estudio?",
+      "question": "¿Cuál es la idea clave del artículo 10, sobre relaciones con los demás, según el material de estudio?",
       "options": [
         "Evitar conflictos de intereses o apariencia de trato privilegiado",
         "Centralizar todas las compras en el Comité de Ética",
@@ -975,7 +975,7 @@
     {
       "id": "uah-m-8-PILOT-024",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "¿Qué supuesto práctico ilustra un conflicto de intereses o trato preferente en el artículo 10?",
+      "question": "¿Qué supuesto práctico ilustra un conflicto de intereses o trato preferente en el artículo 10, sobre relaciones con los demás,?",
       "options": [
         "Un usuario ofrece compensación por obtener trato preferente",
         "Un usuario solicita información sobre plazos de préstamo",
@@ -1029,7 +1029,7 @@
     {
       "id": "uah-m-8-PILOT-026",
       "topicId": "tema-08-titulo-ii-conducta-personal-arts-8-10",
-      "question": "En el artículo 10, la referencia a los “usos habituales, sociales y de cortesía” opera como criterio para:",
+      "question": "En el artículo 10, sobre relaciones con los demás, la referencia a los “usos habituales, sociales y de cortesía” opera como criterio para, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Determinar cuándo deben rechazarse regalos, favores o servicios ventajosos",
         "Eximir del deber de abstención por interés personal",
@@ -1245,7 +1245,7 @@
     {
       "id": "uah-m-8-PILOT-034",
       "topicId": "tema-08-titulo-iii-comite-etica-arts-17-19",
-      "question": "Según el artículo 18, ¿qué comisión vinculada a la igualdad aporta una vocalía al Comité de Ética?",
+      "question": "Según el artículo 18, sobre igualdad, ¿qué comisión vinculada a la igualdad aporta una vocalía al Comité de Ética?",
       "options": [
         "La Comisión de Igualdad",
         "La Comisión Económica",
@@ -1434,7 +1434,7 @@
     {
       "id": "uah-m-8-PILOT-041",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "Según el artículo 20, ¿con qué finalidad pueden acordarse auditorías de ética en la UAH?",
+      "question": "Según el artículo 20, sobre auditorías de ética, ¿con qué finalidad pueden acordarse auditorías de ética en la UAH?",
       "options": [
         "Contribuir al reforzamiento de una cultura ética general",
         "Sustituir todos los procedimientos administrativos ordinarios",
@@ -1460,7 +1460,7 @@
     {
       "id": "uah-m-8-PILOT-042",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "Entre los objetos de auditoría del artículo 20 se incluye comprobar:",
+      "question": "Entre los objetos de auditoría del artículo 20, sobre auditorías de ética, se incluye comprobar, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "El retraso de expedientes y de la actuación propia de las funciones de la Universidad, con consecuencias y causas de la demora",
         "La elección directa de todos los vocales del Comité",
@@ -1487,7 +1487,7 @@
     {
       "id": "uah-m-8-PILOT-043",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "¿Qué aspecto laboral puede ser objeto de auditoría ética según el artículo 20?",
+      "question": "¿Qué aspecto laboral puede ser objeto de auditoría ética según el artículo 20, sobre auditorías de ética,?",
       "options": [
         "Grado de absentismo laboral y justificación",
         "Preferencias personales de lectura",
@@ -1514,7 +1514,7 @@
     {
       "id": "uah-m-8-PILOT-044",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "Según el artículo 20, las auditorías de ética pueden comprobar los recursos presentados contra resoluciones o actuaciones de la Universidad en cuanto a:",
+      "question": "Según el artículo 20, sobre auditorías de ética, las auditorías de ética pueden comprobar los recursos presentados contra resoluciones o actuaciones de la Universidad en cuanto a, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Su tramitación y resolución",
         "Su idioma de redacción exclusivamente",
@@ -1541,7 +1541,7 @@
     {
       "id": "uah-m-8-PILOT-045",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "¿Qué comprobación sobre bienes públicos figura en el artículo 20?",
+      "question": "¿Qué comprobación sobre bienes públicos figura en el artículo 20, sobre auditorías de ética,?",
       "options": [
         "Grado de utilización y protección de los bienes públicos a cargo de la UAH",
         "Venta de bienes públicos a usuarios habituales",
@@ -1568,7 +1568,7 @@
     {
       "id": "uah-m-8-PILOT-046",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "Según el artículo 20, ¿qué evaluación documental puede formar parte de las auditorías de ética?",
+      "question": "Según el artículo 20, sobre auditorías de ética, ¿qué evaluación documental puede formar parte de las auditorías de ética?",
       "options": [
         "La fiabilidad de informes o actas exigidos legalmente",
         "La extensión literaria de las memorias de curso",
@@ -1595,7 +1595,7 @@
     {
       "id": "uah-m-8-PILOT-047",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "¿Qué elemento relativo al personal aparece expresamente como posible objeto de auditoría en el artículo 20?",
+      "question": "¿Qué elemento relativo al personal aparece expresamente como posible objeto de auditoría en el artículo 20, sobre auditorías de ética,?",
       "options": [
         "Formación de personal",
         "Antigüedad de todos los usuarios externos",
@@ -1622,7 +1622,7 @@
     {
       "id": "uah-m-8-PILOT-048",
       "topicId": "tema-08-titulo-iv-auditorias-eticas-arts-20-22",
-      "question": "En procedimientos de concurrencia competitiva, ¿qué principios puede comprobar una auditoría ética según el artículo 20?",
+      "question": "En procedimientos de concurrencia competitiva, ¿qué principios puede comprobar una auditoría ética según el artículo 20, sobre auditorías de ética,?",
       "options": [
         "Objetividad, imparcialidad, publicidad y transparencia",
         "Jerarquía, urgencia, secreto y preferencia",

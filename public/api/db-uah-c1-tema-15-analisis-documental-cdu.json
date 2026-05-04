@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-04T13:14:38.370Z",
+    "updatedAt": "2026-05-04T14:38:36.071Z",
     "title": "UAH C1 Tema 15 - Análisis documental y clasificaciones bibliográficas",
     "description": "Banco normalizado de preguntas del tema 15 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 330,
@@ -8621,7 +8621,7 @@
     {
       "id": "fc-t15-B3-FULL-001",
       "topicId": "tema-15-analisis-documental",
-      "question": "Normalización documental",
+      "question": "¿Cuál es la función de normalización documental?",
       "answer": "Permite que documentos similares se describan de manera similar y que los usuarios recuperen la información de forma previsible. (Fuente: T15, Normalización documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8640,7 +8640,7 @@
     {
       "id": "fc-t15-B3-FULL-002",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Una clasificación bibliográfica",
+      "question": "¿Qué es clasificación bibliográfica?",
       "answer": "Una clasificación bibliográfica es un sistema de organización del conocimiento que permite agrupar documentos por materias. (Fuente: T15, Principales clasificaciones bibliográficas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8659,7 +8659,7 @@
     {
       "id": "fc-t15-B3-FULL-003",
       "topicId": "tema-15-cdu",
-      "question": "La Clasificación Decimal Universal",
+      "question": "¿Qué es clasificación decimal universal?",
       "answer": "La Clasificación Decimal Universal es uno de los sistemas más utilizados en bibliotecas españolas y europeas. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8678,7 +8678,7 @@
     {
       "id": "fc-t15-B3-FULL-004",
       "topicId": "tema-15-cdu-uah",
-      "question": "La Biblioteca de Farmacia indica igualmente que las colecciones",
+      "question": "¿Qué son biblioteca de farmacia indica igualmente que las colecciones?",
       "answer": "La Biblioteca de Farmacia indica igualmente que las colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU. (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "intermedia",
       "origin": "batch3-wave1-fullbank",
@@ -8697,7 +8697,7 @@
     {
       "id": "fc-t15-B3-FULL-005",
       "topicId": "tema-15-analisis-documental",
-      "question": "La normalización",
+      "question": "¿Qué es normalización?",
       "answer": "La normalización es esencial para que los catálogos sean coherentes y útiles. (Fuente: T15, Normalización documental.)",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
@@ -8716,7 +8716,7 @@
     {
       "id": "fc-t15-B3-FULL-006",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "La Library of Congress Classification",
+      "question": "¿Qué es library of congress classification?",
       "answer": "La Library of Congress Classification es el sistema usado por la Library of Congress y por muchas bibliotecas universitarias y de investigación, especialmente en Estados Unidos. (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "intermedia",
       "origin": "batch3-wave1-fullbank",
@@ -8735,7 +8735,7 @@
     {
       "id": "fc-t15-B3-FULL-007",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Es especialmente frecuente en bibliotecas universitarias españolas. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8754,7 +8754,7 @@
     {
       "id": "fc-t15-B3-FULL-008",
       "topicId": "tema-15-cdu-uah",
-      "question": "La Biblioteca de Ciencias señala que sus colecciones",
+      "question": "¿Qué son biblioteca de ciencias señala que sus colecciones?",
       "answer": "La Biblioteca de Ciencias señala que sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU. (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8773,7 +8773,7 @@
     {
       "id": "fc-t15-B3-FULL-009",
       "topicId": "tema-15-analisis-documental",
-      "question": "Se centra en qué documento",
+      "question": "¿Qué es se centra en qué documento?",
       "answer": "Se centra en qué documento es y cómo puede describirse de forma normalizada. (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8792,7 +8792,7 @@
     {
       "id": "fc-t15-B3-FULL-010",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Es uno de los sistemas de clasificación más difundidos en el mundo. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8811,7 +8811,7 @@
     {
       "id": "fc-t15-B3-FULL-011",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Cuál es la función de clasificación decimal universal, cdu?",
       "answer": "Permite expresar materias simples y compuestas. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8830,7 +8830,7 @@
     {
       "id": "fc-t15-B3-FULL-012",
       "topicId": "tema-15-cdu-uah",
-      "question": "La signatura",
+      "question": "¿Cuál es la función de signatura?",
       "answer": "La signatura permite localizar físicamente un libro en la estantería. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8849,7 +8849,7 @@
     {
       "id": "fc-t15-B3-FULL-013",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Su objetivo es facilitar la consulta, recuperación y uso de la información. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8868,7 +8868,7 @@
     {
       "id": "fc-t15-B3-FULL-014",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Es muy usada en bibliotecas universitarias norteamericanas. (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8887,7 +8887,7 @@
     {
       "id": "fc-t15-B3-FULL-015",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Facilita la ordenación física por materias. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8906,7 +8906,7 @@
     {
       "id": "fc-t15-B3-FULL-016",
       "topicId": "tema-15-cdu-uah",
-      "question": "Uso general de la CDU en la UAH",
+      "question": "¿Qué es uso general de la cdu en la uah?",
       "answer": "La página del CRAI-Biblioteca indica que las colecciones de acceso directo distribuidas en salas están ordenadas por materias siguiendo la CDU. (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "intermedia",
       "origin": "batch3-wave1-fullbank",
@@ -8925,7 +8925,7 @@
     {
       "id": "fc-t15-B3-FULL-017",
       "topicId": "tema-15-analisis-documental",
-      "question": "Clasificar",
+      "question": "¿Qué es clasificar?",
       "answer": "Clasificar es situar un documento en una clase del conocimiento (Fuente: T15, Diferencia entre clasificación e indización.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8944,7 +8944,7 @@
     {
       "id": "fc-t15-B3-FULL-018",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "Es un sistema facetado. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8963,7 +8963,7 @@
     {
       "id": "fc-t15-B3-FULL-019",
       "topicId": "tema-15-cdu",
-      "question": "Sintética:",
+      "question": "¿Cuál es la función de sintética:?",
       "answer": "Sintética: permite combinar conceptos. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8982,7 +8982,7 @@
     {
       "id": "fc-t15-B3-FULL-020",
       "topicId": "tema-15-cdu-uah",
-      "question": "Uso general de la CDU en la UAH",
+      "question": "¿Qué es uso general de la cdu en la uah?",
       "answer": "La Biblioteca del Edificio de Trinitarios informa de que las colecciones de monografías de acceso directo están ordenadas por materias siguiendo la CDU. (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "intermedia",
       "origin": "batch3-wave1-fullbank",
@@ -9001,7 +9001,7 @@
     {
       "id": "fc-t15-B3-FULL-021",
       "topicId": "tema-15-analisis-documental",
-      "question": "Diferencia entre clasificación e indización",
+      "question": "¿Qué es diferencia entre clasificación e indización?",
       "answer": "indizar es representar sus temas mediante términos. (Fuente: T15, Diferencia entre clasificación e indización.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9020,7 +9020,7 @@
     {
       "id": "fc-t15-B3-FULL-022",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "Es importante en teoría de la clasificación. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9039,7 +9039,7 @@
     {
       "id": "fc-t15-B3-FULL-023",
       "topicId": "tema-15-cdu-uah",
-      "question": "Libre acceso, CDU y mapas",
+      "question": "¿Qué son libre acceso, cdu y mapas?",
       "answer": "La UAH ha incorporado opciones de localización en mapa para facilitar que el usuario encuentre libros en las salas. (Fuente: T15, Libre acceso, CDU y mapas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9058,7 +9058,7 @@
     {
       "id": "fc-t15-B3-FULL-024",
       "topicId": "tema-15-analisis-documental",
-      "question": "El análisis documental",
+      "question": "¿Qué incluye análisis documental?",
       "answer": "El análisis documental comprende las operaciones intelectuales y técnicas dirigidas a representar la forma y el contenido de un documento. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9077,7 +9077,7 @@
     {
       "id": "fc-t15-B3-FULL-025",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Cuál es la función de colon classification?",
       "answer": "Permite combinar facetas. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9096,7 +9096,7 @@
     {
       "id": "fc-t15-B3-FULL-026",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Es jerárquica. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9115,7 +9115,7 @@
     {
       "id": "fc-t15-B3-FULL-027",
       "topicId": "tema-15-cdu-uah",
-      "question": "Uso general de la CDU en la UAH",
+      "question": "¿Qué es uso general de la cdu en la uah?",
       "answer": "La Biblioteca de la Universidad de Alcalá utiliza la Clasificación Decimal Universal (CDU) para ordenar muchas de sus colecciones de acceso directo en sala. (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "intermedia",
       "origin": "batch3-wave1-fullbank",
@@ -9134,7 +9134,7 @@
     {
       "id": "fc-t15-B3-FULL-028",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "En términos prácticos, cuando un libro llega a la biblioteca, no basta con colocarlo en una estantería. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9153,7 +9153,7 @@
     {
       "id": "fc-t15-B3-FULL-029",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Enumeran las materias de forma jerárquica, de lo general a lo específico. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9172,7 +9172,7 @@
     {
       "id": "fc-t15-B3-FULL-030",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Es universal. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9191,7 +9191,7 @@
     {
       "id": "fc-t15-B3-FULL-031",
       "topicId": "tema-15-cdu-uah",
-      "question": "Libre acceso, CDU y mapas",
+      "question": "¿Qué son libre acceso, cdu y mapas?",
       "answer": "Esta localización se vincula con la distribución de las estanterías y la ordenación por CDU. (Fuente: T15, Libre acceso, CDU y mapas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9210,7 +9210,7 @@
     {
       "id": "fc-t15-B3-FULL-032",
       "topicId": "tema-15-analisis-documental",
-      "question": "Definición",
+      "question": "¿Cómo está compuesto/a definición?",
       "answer": "El análisis formal estudia los elementos externos o identificativos del documento. (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9229,7 +9229,7 @@
     {
       "id": "fc-t15-B3-FULL-033",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "La Bliss Bibliographic Classification fue creada por Henry Evelyn Bliss. (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9248,7 +9248,7 @@
     {
       "id": "fc-t15-B3-FULL-034",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "La estructura exacta puede variar según la política local de cada biblioteca. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9267,7 +9267,7 @@
     {
       "id": "fc-t15-B3-FULL-035",
       "topicId": "tema-15-analisis-documental",
-      "question": "Definición",
+      "question": "¿Qué es definición?",
       "answer": "El análisis de contenido estudia la materia o tema del documento. (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9286,7 +9286,7 @@
     {
       "id": "fc-t15-B3-FULL-036",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "La Clasificación Decimal Dewey fue creada por Melvil Dewey en 1876. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9305,7 +9305,7 @@
     {
       "id": "fc-t15-B3-FULL-037",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Procede de la adaptación y ampliación de la Clasificación Decimal Dewey por Paul Otlet y Henri La Fontaine. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9324,7 +9324,7 @@
     {
       "id": "fc-t15-B3-FULL-038",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "La CDU suele formar parte de la signatura topográfica. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9343,7 +9343,7 @@
     {
       "id": "fc-t15-B3-FULL-039",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Facilitar la recuperación por autor, título, materia, palabra clave o clasificación. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9362,7 +9362,7 @@
     {
       "id": "fc-t15-B3-FULL-040",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Permiten construir una notación combinando facetas. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9381,7 +9381,7 @@
     {
       "id": "fc-t15-B3-FULL-041",
       "topicId": "tema-15-cdu",
-      "question": "Ejemplos de desarrollo jerárquico",
+      "question": "¿Qué es ejemplos de desarrollo jerárquico?",
       "answer": "Literatura 82 Literatura 821 Literaturas de lenguas concretas 821.134.2 Literatura española (Fuente: T15, Ejemplos de desarrollo jerárquico.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9400,7 +9400,7 @@
     {
       "id": "fc-t15-B3-FULL-042",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Servir de base para planos por CDU en algunas bibliotecas. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9419,7 +9419,7 @@
     {
       "id": "fc-t15-B3-FULL-043",
       "topicId": "tema-15-analisis-documental",
-      "question": "Por qué es importante",
+      "question": "¿Qué es por qué es importante?",
       "answer": "Por qué es importante (Fuente: T15, Por qué es importante.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9438,7 +9438,7 @@
     {
       "id": "fc-t15-B3-FULL-044",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "La Colon Classification fue creada por S. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9457,7 +9457,7 @@
     {
       "id": "fc-t15-B3-FULL-045",
       "topicId": "tema-15-cdu",
-      "question": "Ejemplos de desarrollo jerárquico",
+      "question": "¿Qué es ejemplos de desarrollo jerárquico?",
       "answer": "Tecnología 61 Medicina 616 Patología 616.9 Enfermedades infecciosas (Fuente: T15, Ejemplos de desarrollo jerárquico.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9476,7 +9476,7 @@
     {
       "id": "fc-t15-B3-FULL-046",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Ayudar al personal a mantener el orden topográfico. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9495,7 +9495,7 @@
     {
       "id": "fc-t15-B3-FULL-047",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "no basta con colocarlo en una estantería. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9514,7 +9514,7 @@
     {
       "id": "fc-t15-B3-FULL-048",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Uso frecuente en bibliotecas públicas, escolares y generales. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9533,7 +9533,7 @@
     {
       "id": "fc-t15-B3-FULL-049",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Cuál es la función de naturaleza de la cdu?",
       "answer": "Bibliográfica: sirve para organizar documentos y facilitar recuperación. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9552,7 +9552,7 @@
     {
       "id": "fc-t15-B3-FULL-050",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Permitir que el usuario explore materias próximas. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9571,7 +9571,7 @@
     {
       "id": "fc-t15-B3-FULL-051",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "cuando un libro llega a la biblioteca (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9590,7 +9590,7 @@
     {
       "id": "fc-t15-B3-FULL-052",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "Influencia en clasificaciones modernas y enfoques facetados. (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9609,7 +9609,7 @@
     {
       "id": "fc-t15-B3-FULL-053",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué son naturaleza de la cdu?",
       "answer": "Internacional: se ha usado en múltiples países y contextos. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9628,7 +9628,7 @@
     {
       "id": "fc-t15-B3-FULL-054",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "text 821.134.2 CER qui (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9647,7 +9647,7 @@
     {
       "id": "fc-t15-B3-FULL-055",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Permitir la ordenación física o virtual de la colección. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9666,7 +9666,7 @@
     {
       "id": "fc-t15-B3-FULL-056",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Pueden resultar menos intuitivas para usuarios no expertos. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9685,7 +9685,7 @@
     {
       "id": "fc-t15-B3-FULL-057",
       "topicId": "tema-15-cdu",
-      "question": "Ejemplos de desarrollo jerárquico",
+      "question": "¿Qué es ejemplos de desarrollo jerárquico?",
       "answer": "text 6 Ciencias aplicadas. (Fuente: T15, Ejemplos de desarrollo jerárquico.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9704,7 +9704,7 @@
     {
       "id": "fc-t15-B3-FULL-058",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Ordenar físicamente los fondos de libre acceso. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9723,7 +9723,7 @@
     {
       "id": "fc-t15-B3-FULL-059",
       "topicId": "tema-15-analisis-documental",
-      "question": "Definición",
+      "question": "¿Qué es definición?",
       "answer": "con qué nivel de profundidad? (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9742,7 +9742,7 @@
     {
       "id": "fc-t15-B3-FULL-060",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "Se basa en el análisis de componentes de una materia. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9761,7 +9761,7 @@
     {
       "id": "fc-t15-B3-FULL-061",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué es naturaleza de la cdu?",
       "answer": "Universal: intenta cubrir todo el conocimiento. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9780,7 +9780,7 @@
     {
       "id": "fc-t15-B3-FULL-062",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Relacionar el catálogo con la ubicación física. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9799,7 +9799,7 @@
     {
       "id": "fc-t15-B3-FULL-063",
       "topicId": "tema-15-analisis-documental",
-      "question": "Definición",
+      "question": "¿Qué es definición?",
       "answer": "Se pregunta: ¿de qué trata? (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9818,7 +9818,7 @@
     {
       "id": "fc-t15-B3-FULL-064",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "Organización basada en relaciones entre disciplinas. (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9837,7 +9837,7 @@
     {
       "id": "fc-t15-B3-FULL-065",
       "topicId": "tema-15-cdu",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Enfoques modernos analítico-sintéticos de CDU. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9856,7 +9856,7 @@
     {
       "id": "fc-t15-B3-FULL-066",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Facilitar la localización de libros en sala. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9875,7 +9875,7 @@
     {
       "id": "fc-t15-B3-FULL-067",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Asignar un código de un sistema clasificatorio que representa la materia (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9894,7 +9894,7 @@
     {
       "id": "fc-t15-B3-FULL-068",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Mejor adaptación a la complejidad del conocimiento. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9913,7 +9913,7 @@
     {
       "id": "fc-t15-B3-FULL-069",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué es naturaleza de la cdu?",
       "answer": "Decimal: usa números organizados decimalmente. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9932,7 +9932,7 @@
     {
       "id": "fc-t15-B3-FULL-070",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "CER: primeras letras del autor, Cervantes. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9951,7 +9951,7 @@
     {
       "id": "fc-t15-B3-FULL-071",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Apoyar el préstamo, consulta y acceso al documento. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9970,7 +9970,7 @@
     {
       "id": "fc-t15-B3-FULL-072",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Está orientada a grandes colecciones académicas. (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -9989,7 +9989,7 @@
     {
       "id": "fc-t15-B3-FULL-073",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué son naturaleza de la cdu?",
       "answer": "Internacional: se ha usado en múltiples países (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10008,7 +10008,7 @@
     {
       "id": "fc-t15-B3-FULL-074",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "qui: primeras letras del título, Quijote. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10027,7 +10027,7 @@
     {
       "id": "fc-t15-B3-FULL-075",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "En términos prácticos (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10046,7 +10046,7 @@
     {
       "id": "fc-t15-B3-FULL-076",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Relacionan términos equivalentes, genéricos, específicos y asociados (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10065,7 +10065,7 @@
     {
       "id": "fc-t15-B3-FULL-077",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Cuál es la función de naturaleza de la cdu?",
       "answer": "Bibliográfica: sirve para organizar documentos (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10084,7 +10084,7 @@
     {
       "id": "fc-t15-B3-FULL-078",
       "topicId": "tema-15-cdu-uah",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Creación de signatura topográfica. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10103,7 +10103,7 @@
     {
       "id": "fc-t15-B3-FULL-079",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Facilitar la localización física en estantería. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10122,7 +10122,7 @@
     {
       "id": "fc-t15-B3-FULL-080",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Capacidad para representar materias compuestas. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10141,7 +10141,7 @@
     {
       "id": "fc-t15-B3-FULL-081",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué es naturaleza de la cdu?",
       "answer": "Jerárquica: va de lo general a lo específico. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10160,7 +10160,7 @@
     {
       "id": "fc-t15-B3-FULL-082",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Qué es función práctica de la cdu en la uah?",
       "answer": "Agrupar documentos por materias. (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10179,7 +10179,7 @@
     {
       "id": "fc-t15-B3-FULL-083",
       "topicId": "tema-15-analisis-documental",
-      "question": "Definición",
+      "question": "¿Qué es definición?",
       "answer": "para qué disciplina? (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10198,7 +10198,7 @@
     {
       "id": "fc-t15-B3-FULL-084",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Divide el conocimiento en clases alfabéticas. (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10217,7 +10217,7 @@
     {
       "id": "fc-t15-B3-FULL-085",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Base histórica para el desarrollo de la CDU. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10236,7 +10236,7 @@
     {
       "id": "fc-t15-B3-FULL-086",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "821.134.2: literatura española. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10255,7 +10255,7 @@
     {
       "id": "fc-t15-B3-FULL-087",
       "topicId": "tema-15-analisis-documental",
-      "question": "Definición",
+      "question": "¿Qué es definición?",
       "answer": "desde qué enfoque? (Fuente: T15, Definición.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10274,7 +10274,7 @@
     {
       "id": "fc-t15-B3-FULL-088",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Dificultad para representar temas complejos. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10293,7 +10293,7 @@
     {
       "id": "fc-t15-B3-FULL-089",
       "topicId": "tema-15-cdu",
-      "question": "Ejemplos de desarrollo jerárquico",
+      "question": "¿Qué es ejemplos de desarrollo jerárquico?",
       "answer": "text 8 Lenguaje. (Fuente: T15, Ejemplos de desarrollo jerárquico.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10312,7 +10312,7 @@
     {
       "id": "fc-t15-B3-FULL-090",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "qui: primeras letras del título (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10331,7 +10331,7 @@
     {
       "id": "fc-t15-B3-FULL-091",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Colocación o disponibilidad para el usuario. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10350,7 +10350,7 @@
     {
       "id": "fc-t15-B3-FULL-092",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "Importante desde el punto de vista teórico. (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10369,7 +10369,7 @@
     {
       "id": "fc-t15-B3-FULL-093",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Usa tablas principales y auxiliares. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10388,7 +10388,7 @@
     {
       "id": "fc-t15-B3-FULL-094",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "CER: primeras letras del autor (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10407,7 +10407,7 @@
     {
       "id": "fc-t15-B3-FULL-095",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Diferenciarlo de otros documentos similares. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10426,7 +10426,7 @@
     {
       "id": "fc-t15-B3-FULL-096",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "Introduce una visión analítico-sintética. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10445,7 +10445,7 @@
     {
       "id": "fc-t15-B3-FULL-097",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Diez clases principales. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10464,7 +10464,7 @@
     {
       "id": "fc-t15-B3-FULL-098",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "Cervantes. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10483,7 +10483,7 @@
     {
       "id": "fc-t15-B3-FULL-099",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "Puntos de acceso de autor, título o entidad. (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10502,7 +10502,7 @@
     {
       "id": "fc-t15-B3-FULL-100",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Menor flexibilidad ante materias nuevas. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10521,7 +10521,7 @@
     {
       "id": "fc-t15-B3-FULL-101",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué es naturaleza de la cdu?",
       "answer": "facilitar recuperación. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10540,7 +10540,7 @@
     {
       "id": "fc-t15-B3-FULL-102",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "Quijote. (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10559,7 +10559,7 @@
     {
       "id": "fc-t15-B3-FULL-103",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Identificar un documento de forma precisa. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10578,7 +10578,7 @@
     {
       "id": "fc-t15-B3-FULL-104",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "Ranganathan. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10597,7 +10597,7 @@
     {
       "id": "fc-t15-B3-FULL-105",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "Usa tablas principales (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10616,7 +10616,7 @@
     {
       "id": "fc-t15-B3-FULL-106",
       "topicId": "tema-15-cdu-uah",
-      "question": "La clasificación bibliográfica en la Biblioteca",
+      "question": "¿Qué es clasificación bibliográfica en la biblioteca?",
       "answer": "La clasificación bibliográfica en la Biblioteca de la Universidad de Alcalá (Fuente: T15, La clasificación bibliográfica en la Biblioteca.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10635,7 +10635,7 @@
     {
       "id": "fc-t15-B3-FULL-107",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Describirlo con criterios normalizados. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10654,7 +10654,7 @@
     {
       "id": "fc-t15-B3-FULL-108",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "Influencia en clasificaciones modernas (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10673,7 +10673,7 @@
     {
       "id": "fc-t15-B3-FULL-109",
       "topicId": "tema-15-cdu",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "CDU en parte. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10692,7 +10692,7 @@
     {
       "id": "fc-t15-B3-FULL-110",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Favorecer la cooperación bibliográfica. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10711,7 +10711,7 @@
     {
       "id": "fc-t15-B3-FULL-111",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Uso frecuente en bibliotecas públicas (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10730,7 +10730,7 @@
     {
       "id": "fc-t15-B3-FULL-112",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "compuestas. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10749,7 +10749,7 @@
     {
       "id": "fc-t15-B3-FULL-113",
       "topicId": "tema-15-cdu-uah",
-      "question": "Función práctica de la CDU en la UAH",
+      "question": "¿Cuál es la función de función práctica de la cdu en la uah?",
       "answer": "Función práctica de la CDU en la UAH (Fuente: T15, Función práctica de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10768,7 +10768,7 @@
     {
       "id": "fc-t15-B3-FULL-114",
       "topicId": "tema-15-analisis-documental",
-      "question": "Análisis formal o externo",
+      "question": "¿Qué es análisis formal o externo?",
       "answer": "Monografía impresa, recurso electrónico, audiovisual, etc. (Fuente: T15, Análisis formal o externo.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10787,7 +10787,7 @@
     {
       "id": "fc-t15-B3-FULL-115",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Necesidad de actualización constante. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10806,7 +10806,7 @@
     {
       "id": "fc-t15-B3-FULL-116",
       "topicId": "tema-15-cdu",
-      "question": "Clasificación Decimal Universal, CDU",
+      "question": "¿Qué es clasificación decimal universal, cdu?",
       "answer": "auxiliares. (Fuente: T15, Clasificación Decimal Universal, CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10825,7 +10825,7 @@
     {
       "id": "fc-t15-B3-FULL-117",
       "topicId": "tema-15-cdu-uah",
-      "question": "Uso general de la CDU en la UAH",
+      "question": "¿Qué es uso general de la cdu en la uah?",
       "answer": "Uso general de la CDU en la UAH (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10844,7 +10844,7 @@
     {
       "id": "fc-t15-B3-FULL-118",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Puntuación y estructura de registros. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10863,7 +10863,7 @@
     {
       "id": "fc-t15-B3-FULL-119",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Representan conceptos y relaciones en entornos digitales (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10882,7 +10882,7 @@
     {
       "id": "fc-t15-B3-FULL-120",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué es naturaleza de la cdu?",
       "answer": "contextos. (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10901,7 +10901,7 @@
     {
       "id": "fc-t15-B3-FULL-121",
       "topicId": "tema-15-cdu-uah",
-      "question": "Signatura topográfica y CDU",
+      "question": "¿Qué son signatura topográfica y cdu?",
       "answer": "Signatura topográfica y CDU (Fuente: T15, Signatura topográfica y CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10920,7 +10920,7 @@
     {
       "id": "fc-t15-B3-FULL-122",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Facilitar la recuperación por autor (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10939,7 +10939,7 @@
     {
       "id": "fc-t15-B3-FULL-123",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "No se limita a enumerar materias. (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10958,7 +10958,7 @@
     {
       "id": "fc-t15-B3-FULL-124",
       "topicId": "tema-15-cdu",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Número CDU, Dewey, LCC, etc. (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10977,7 +10977,7 @@
     {
       "id": "fc-t15-B3-FULL-125",
       "topicId": "tema-15-cdu-uah",
-      "question": "Libre acceso, CDU y mapas",
+      "question": "¿Qué son libre acceso, cdu y mapas?",
       "answer": "Libre acceso, CDU y mapas (Fuente: T15, Libre acceso, CDU y mapas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -10996,7 +10996,7 @@
     {
       "id": "fc-t15-B3-FULL-126",
       "topicId": "tema-15-analisis-documental",
-      "question": "Diferencia entre clasificación e indización",
+      "question": "¿Qué es diferencia entre clasificación e indización?",
       "answer": "Puede ser alfabético, tesauro, lista de encabezamientos (Fuente: T15, Diferencia entre clasificación e indización.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11015,7 +11015,7 @@
     {
       "id": "fc-t15-B3-FULL-127",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Mayor dificultad de aplicación. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11034,7 +11034,7 @@
     {
       "id": "fc-t15-B3-FULL-128",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Ciencia y conocimiento. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11053,7 +11053,7 @@
     {
       "id": "fc-t15-B3-FULL-129",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Determinación de puntos de acceso. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11072,7 +11072,7 @@
     {
       "id": "fc-t15-B3-FULL-130",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "Sistema bibliográfico general. (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11091,7 +11091,7 @@
     {
       "id": "fc-t15-B3-FULL-131",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Ciencias aplicadas. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11110,7 +11110,7 @@
     {
       "id": "fc-t15-B3-FULL-132",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Mejorar la calidad del catálogo. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11129,7 +11129,7 @@
     {
       "id": "fc-t15-B3-FULL-133",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Gran difusión internacional. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11148,7 +11148,7 @@
     {
       "id": "fc-t15-B3-FULL-134",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Ciencias naturales (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11167,7 +11167,7 @@
     {
       "id": "fc-t15-B3-FULL-135",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Forma de los nombres personales. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11186,7 +11186,7 @@
     {
       "id": "fc-t15-B3-FULL-136",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Comprensibles para usuarios. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11205,7 +11205,7 @@
     {
       "id": "fc-t15-B3-FULL-137",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Ciencias sociales (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11224,7 +11224,7 @@
     {
       "id": "fc-t15-B3-FULL-138",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "consulta y acceso al documento. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11243,7 +11243,7 @@
     {
       "id": "fc-t15-B3-FULL-139",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Útiles para estanterías. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11262,7 +11262,7 @@
     {
       "id": "fc-t15-B3-FULL-140",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Biblioteconomía (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11281,7 +11281,7 @@
     {
       "id": "fc-t15-B3-FULL-141",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "palabra clave o clasificación. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11300,7 +11300,7 @@
     {
       "id": "fc-t15-B3-FULL-142",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "escolares y generales. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11319,7 +11319,7 @@
     {
       "id": "fc-t15-B3-FULL-143",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Generalidades. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11338,7 +11338,7 @@
     {
       "id": "fc-t15-B3-FULL-144",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Identificación del documento. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11357,7 +11357,7 @@
     {
       "id": "fc-t15-B3-FULL-145",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Informática, información y obras generales (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11376,7 +11376,7 @@
     {
       "id": "fc-t15-B3-FULL-146",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Documentación. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11395,7 +11395,7 @@
     {
       "id": "fc-t15-B3-FULL-147",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Integración en el catálogo. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11414,7 +11414,7 @@
     {
       "id": "fc-t15-B3-FULL-148",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Organización decimal. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11433,7 +11433,7 @@
     {
       "id": "fc-t15-B3-FULL-149",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "conocimiento. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11452,7 +11452,7 @@
     {
       "id": "fc-t15-B3-FULL-150",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "Descripción bibliográfica. (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11471,7 +11471,7 @@
     {
       "id": "fc-t15-B3-FULL-151",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Usa letras y números. (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11490,7 +11490,7 @@
     {
       "id": "fc-t15-B3-FULL-152",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Organización. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11509,7 +11509,7 @@
     {
       "id": "fc-t15-B3-FULL-153",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Representar su contenido. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11528,7 +11528,7 @@
     {
       "id": "fc-t15-B3-FULL-154",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Colon Classification. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11547,7 +11547,7 @@
     {
       "id": "fc-t15-B3-FULL-155",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Clase vacante (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11566,7 +11566,7 @@
     {
       "id": "fc-t15-B3-FULL-156",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "Puntos de acceso de autor (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11585,7 +11585,7 @@
     {
       "id": "fc-t15-B3-FULL-157",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Requieren formación. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11604,7 +11604,7 @@
     {
       "id": "fc-t15-B3-FULL-158",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Bellas artes. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11623,7 +11623,7 @@
     {
       "id": "fc-t15-B3-FULL-159",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Códigos de clasificación. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11642,7 +11642,7 @@
     {
       "id": "fc-t15-B3-FULL-160",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Bliss Bibliographic Classification",
+      "question": "¿Qué es bliss bibliographic classification?",
       "answer": "enfoques facetados. (Fuente: T15, Bliss Bibliographic Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11661,7 +11661,7 @@
     {
       "id": "fc-t15-B3-FULL-161",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Espectáculos. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11680,7 +11680,7 @@
     {
       "id": "fc-t15-B3-FULL-162",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "Registro en el catálogo. (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11699,7 +11699,7 @@
     {
       "id": "fc-t15-B3-FULL-163",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Fáciles de aplicar. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11718,7 +11718,7 @@
     {
       "id": "fc-t15-B3-FULL-164",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Información. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11737,7 +11737,7 @@
     {
       "id": "fc-t15-B3-FULL-165",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "estructura de registros. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11756,7 +11756,7 @@
     {
       "id": "fc-t15-B3-FULL-166",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Listas de encabezamientos de materia (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11775,7 +11775,7 @@
     {
       "id": "fc-t15-B3-FULL-167",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Matemáticas. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11794,7 +11794,7 @@
     {
       "id": "fc-t15-B3-FULL-168",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Formatos de intercambio. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11813,7 +11813,7 @@
     {
       "id": "fc-t15-B3-FULL-169",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Geografía, antropología, recreación (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11832,7 +11832,7 @@
     {
       "id": "fc-t15-B3-FULL-170",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Lingüística. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11851,7 +11851,7 @@
     {
       "id": "fc-t15-B3-FULL-171",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Signaturas topográficas. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11870,7 +11870,7 @@
     {
       "id": "fc-t15-B3-FULL-172",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Organizan conceptos jerárquicamente (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11889,7 +11889,7 @@
     {
       "id": "fc-t15-B3-FULL-173",
       "topicId": "tema-15-cdu",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Número CDU (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11908,7 +11908,7 @@
     {
       "id": "fc-t15-B3-FULL-174",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Asignación de materias. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11927,7 +11927,7 @@
     {
       "id": "fc-t15-B3-FULL-175",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Normalizan términos de recuperación (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11946,7 +11946,7 @@
     {
       "id": "fc-t15-B3-FULL-176",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Filosofía. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11965,7 +11965,7 @@
     {
       "id": "fc-t15-B3-FULL-177",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "Registro bibliográfico. (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -11984,7 +11984,7 @@
     {
       "id": "fc-t15-B3-FULL-178",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Flexibilidad. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12003,7 +12003,7 @@
     {
       "id": "fc-t15-B3-FULL-179",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Psicología (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12022,7 +12022,7 @@
     {
       "id": "fc-t15-B3-FULL-180",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Análisis de contenido. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12041,7 +12041,7 @@
     {
       "id": "fc-t15-B3-FULL-181",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Ciencias naturales y matemáticas (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12060,7 +12060,7 @@
     {
       "id": "fc-t15-B3-FULL-182",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Tecnología (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12079,7 +12079,7 @@
     {
       "id": "fc-t15-B3-FULL-183",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "Asiento bibliográfico. (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12098,7 +12098,7 @@
     {
       "id": "fc-t15-B3-FULL-184",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Relacionan términos equivalentes (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12117,7 +12117,7 @@
     {
       "id": "fc-t15-B3-FULL-185",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Literatura (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12136,7 +12136,7 @@
     {
       "id": "fc-t15-B3-FULL-186",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Asignar términos que expresan el contenido (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12155,7 +12155,7 @@
     {
       "id": "fc-t15-B3-FULL-187",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "relaciones en entornos digitales (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12174,7 +12174,7 @@
     {
       "id": "fc-t15-B3-FULL-188",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Geografía. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12193,7 +12193,7 @@
     {
       "id": "fc-t15-B3-FULL-189",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Nombres de entidades. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12212,7 +12212,7 @@
     {
       "id": "fc-t15-B3-FULL-190",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Filosofía, psicología, religión (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12231,7 +12231,7 @@
     {
       "id": "fc-t15-B3-FULL-191",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Biografía. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12250,7 +12250,7 @@
     {
       "id": "fc-t15-B3-FULL-192",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "acceso al documento. (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12269,7 +12269,7 @@
     {
       "id": "fc-t15-B3-FULL-193",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "generales. (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12288,7 +12288,7 @@
     {
       "id": "fc-t15-B3-FULL-194",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Religión. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12307,7 +12307,7 @@
     {
       "id": "fc-t15-B3-FULL-195",
       "topicId": "tema-15-analisis-documental",
-      "question": "Diferencia entre clasificación e indización",
+      "question": "¿Qué es diferencia entre clasificación e indización?",
       "answer": "Ordenar por materias y ubicar documentos (Fuente: T15, Diferencia entre clasificación e indización.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12326,7 +12326,7 @@
     {
       "id": "fc-t15-B3-FULL-196",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Usa letras (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12345,7 +12345,7 @@
     {
       "id": "fc-t15-B3-FULL-197",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Medicina. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12364,7 +12364,7 @@
     {
       "id": "fc-t15-B3-FULL-198",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Descripción formal. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12383,7 +12383,7 @@
     {
       "id": "fc-t15-B3-FULL-199",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones facetadas",
+      "question": "¿Qué es clasificaciones facetadas?",
       "answer": "Precisión. (Fuente: T15, Clasificaciones facetadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12402,7 +12402,7 @@
     {
       "id": "fc-t15-B3-FULL-200",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Lenguaje. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12421,7 +12421,7 @@
     {
       "id": "fc-t15-B3-FULL-201",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Preparación física. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12440,7 +12440,7 @@
     {
       "id": "fc-t15-B3-FULL-202",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "escolares (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12459,7 +12459,7 @@
     {
       "id": "fc-t15-B3-FULL-203",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Teología (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12478,7 +12478,7 @@
     {
       "id": "fc-t15-B3-FULL-204",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Representar el contenido de forma breve (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12497,7 +12497,7 @@
     {
       "id": "fc-t15-B3-FULL-205",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Estables. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12516,7 +12516,7 @@
     {
       "id": "fc-t15-B3-FULL-206",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Deportes (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12535,7 +12535,7 @@
     {
       "id": "fc-t15-B3-FULL-207",
       "topicId": "tema-15-analisis-documental",
-      "question": "Diferencia entre clasificación e indización",
+      "question": "¿Qué es diferencia entre clasificación e indización?",
       "answer": "Más importante en búsquedas por materia (Fuente: T15, Diferencia entre clasificación e indización.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12554,7 +12554,7 @@
     {
       "id": "fc-t15-B3-FULL-208",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Historia (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12573,7 +12573,7 @@
     {
       "id": "fc-t15-B3-FULL-209",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "Apoyar el préstamo (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12592,7 +12592,7 @@
     {
       "id": "fc-t15-B3-FULL-210",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Bibliografía, biblioteconomía (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12611,7 +12611,7 @@
     {
       "id": "fc-t15-B3-FULL-211",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Ciencia (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12630,7 +12630,7 @@
     {
       "id": "fc-t15-B3-FULL-212",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Títulos uniformes. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12649,7 +12649,7 @@
     {
       "id": "fc-t15-B3-FULL-213",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Controlan términos de materia (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12668,7 +12668,7 @@
     {
       "id": "fc-t15-B3-FULL-214",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "Juegos. (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12687,7 +12687,7 @@
     {
       "id": "fc-t15-B3-FULL-215",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Asignar formas normalizadas de materia (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12706,7 +12706,7 @@
     {
       "id": "fc-t15-B3-FULL-216",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "números. (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12725,7 +12725,7 @@
     {
       "id": "fc-t15-B3-FULL-217",
       "topicId": "tema-15-cdu",
-      "question": "Clases principales de la CDU",
+      "question": "¿Qué es clases principales de la cdu?",
       "answer": "CDU (Fuente: T15, Clases principales de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12744,7 +12744,7 @@
     {
       "id": "fc-t15-B3-FULL-218",
       "topicId": "tema-15-analisis-documental",
-      "question": "Por qué es importante",
+      "question": "¿Qué es por qué es importante?",
       "answer": "Intercambio bibliográfico más sencillo (Fuente: T15, Por qué es importante.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12763,7 +12763,7 @@
     {
       "id": "fc-t15-B3-FULL-219",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "Dewey. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12782,7 +12782,7 @@
     {
       "id": "fc-t15-B3-FULL-220",
       "topicId": "tema-15-analisis-documental",
-      "question": "Productos del análisis formal",
+      "question": "¿Qué es productos del análisis formal?",
       "answer": "título o entidad. (Fuente: T15, Productos del análisis formal.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12801,7 +12801,7 @@
     {
       "id": "fc-t15-B3-FULL-221",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificaciones enumerativas",
+      "question": "¿Qué es clasificaciones enumerativas?",
       "answer": "LCC. (Fuente: T15, Clasificaciones enumerativas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12820,7 +12820,7 @@
     {
       "id": "fc-t15-B3-FULL-222",
       "topicId": "tema-15-cdu",
-      "question": "Ejemplos de desarrollo jerárquico",
+      "question": "¿Qué es ejemplos de desarrollo jerárquico?",
       "answer": "Ejemplos de desarrollo jerárquico (Fuente: T15, Ejemplos de desarrollo jerárquico.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12839,7 +12839,7 @@
     {
       "id": "fc-t15-B3-FULL-223",
       "topicId": "tema-15-analisis-documental",
-      "question": "Por qué es importante",
+      "question": "¿Qué es por qué es importante?",
       "answer": "Dificultad para recuperar información (Fuente: T15, Por qué es importante.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12858,7 +12858,7 @@
     {
       "id": "fc-t15-B3-FULL-224",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Vocabularios controlados (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12877,7 +12877,7 @@
     {
       "id": "fc-t15-B3-FULL-225",
       "topicId": "tema-15-analisis-documental",
-      "question": "Por qué es importante",
+      "question": "¿Qué es por qué es importante?",
       "answer": "Distintas formas para un mismo autor (Fuente: T15, Por qué es importante.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12896,7 +12896,7 @@
     {
       "id": "fc-t15-B3-FULL-226",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "específicos y asociados (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12915,7 +12915,7 @@
     {
       "id": "fc-t15-B3-FULL-227",
       "topicId": "tema-15-cdu",
-      "question": "Naturaleza de la CDU",
+      "question": "¿Qué es naturaleza de la cdu?",
       "answer": "Naturaleza de la CDU (Fuente: T15, Naturaleza de la CDU.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12934,7 +12934,7 @@
     {
       "id": "fc-t15-B3-FULL-228",
       "topicId": "tema-15-analisis-documental",
-      "question": "Concepto de análisis documental",
+      "question": "¿Qué es concepto de análisis documental?",
       "answer": "Clasificación. (Fuente: T15, Concepto de análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12953,7 +12953,7 @@
     {
       "id": "fc-t15-B3-FULL-229",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Filosofía y psicología (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12972,7 +12972,7 @@
     {
       "id": "fc-t15-B3-FULL-230",
       "topicId": "tema-15-cdu",
-      "question": "La CDU en detalle",
+      "question": "¿Qué es cdu en detalle?",
       "answer": "La CDU en detalle (Fuente: T15, La CDU en detalle.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -12991,7 +12991,7 @@
     {
       "id": "fc-t15-B3-FULL-231",
       "topicId": "tema-15-analisis-documental",
-      "question": "Por qué es importante",
+      "question": "¿Qué es por qué es importante?",
       "answer": "Entradas duplicadas o incoherentes (Fuente: T15, Por qué es importante.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13010,7 +13010,7 @@
     {
       "id": "fc-t15-B3-FULL-232",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Otras herramientas relacionadas",
+      "question": "¿Qué es otras herramientas relacionadas?",
       "answer": "Representan conceptos (Fuente: T15, Otras herramientas relacionadas.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13029,7 +13029,7 @@
     {
       "id": "fc-t15-B3-FULL-233",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Resumen indicativo o informativo (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13048,7 +13048,7 @@
     {
       "id": "fc-t15-B3-FULL-234",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Historia y geografía (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13067,7 +13067,7 @@
     {
       "id": "fc-t15-B3-FULL-235",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Puntuación (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13086,7 +13086,7 @@
     {
       "id": "fc-t15-B3-FULL-236",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Lengua y literatura (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13105,7 +13105,7 @@
     {
       "id": "fc-t15-B3-FULL-237",
       "topicId": "tema-15-analisis-documental",
-      "question": "Qué se normaliza",
+      "question": "¿qué es qué se normaliza?",
       "answer": "Materias. (Fuente: T15, Qué se normaliza.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13124,7 +13124,7 @@
     {
       "id": "fc-t15-B3-FULL-238",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Artes y recreación (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13143,7 +13143,7 @@
     {
       "id": "fc-t15-B3-FULL-239",
       "topicId": "tema-15-analisis-documental",
-      "question": "Análisis formal o externo",
+      "question": "¿Qué es análisis formal o externo?",
       "answer": "Bibliografía, índices, anexos (Fuente: T15, Análisis formal o externo.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13162,7 +13162,7 @@
     {
       "id": "fc-t15-B3-FULL-240",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Ciencia política (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13181,7 +13181,7 @@
     {
       "id": "fc-t15-B3-FULL-241",
       "topicId": "tema-15-analisis-documental",
-      "question": "Diferencia entre clasificación e indización",
+      "question": "¿Qué es diferencia entre clasificación e indización?",
       "answer": "Muy importante en estanterías (Fuente: T15, Diferencia entre clasificación e indización.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13200,7 +13200,7 @@
     {
       "id": "fc-t15-B3-FULL-242",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "obras generales (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13219,7 +13219,7 @@
     {
       "id": "fc-t15-B3-FULL-243",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "consulta (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13238,7 +13238,7 @@
     {
       "id": "fc-t15-B3-FULL-244",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "antropología (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13257,7 +13257,7 @@
     {
       "id": "fc-t15-B3-FULL-245",
       "topicId": "tema-15-analisis-documental",
-      "question": "Análisis formal o externo",
+      "question": "¿Qué es análisis formal o externo?",
       "answer": "Miguel de Cervantes Saavedra (Fuente: T15, Análisis formal o externo.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13276,7 +13276,7 @@
     {
       "id": "fc-t15-B3-FULL-246",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Library of Congress Classification, LCC",
+      "question": "¿Qué es library of congress classification, lcc?",
       "answer": "Bellas artes (Fuente: T15, Library of Congress Classification, LCC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13295,7 +13295,7 @@
     {
       "id": "fc-t15-B3-FULL-247",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Descriptores, palabras clave (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13314,7 +13314,7 @@
     {
       "id": "fc-t15-B3-FULL-248",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "Informática (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13333,7 +13333,7 @@
     {
       "id": "fc-t15-B3-FULL-249",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "materia (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13352,7 +13352,7 @@
     {
       "id": "fc-t15-B3-FULL-250",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "información (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13371,7 +13371,7 @@
     {
       "id": "fc-t15-B3-FULL-251",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Encabezamientos controlados (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13390,7 +13390,7 @@
     {
       "id": "fc-t15-B3-FULL-252",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Clasificación Decimal Dewey, CDD/DDC",
+      "question": "¿Qué es clasificación decimal dewey, cdd/ddc?",
       "answer": "matemáticas (Fuente: T15, Clasificación Decimal Dewey, CDD/DDC.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13409,7 +13409,7 @@
     {
       "id": "fc-t15-B3-FULL-253",
       "topicId": "tema-15-analisis-documental",
-      "question": "Finalidades del análisis documental",
+      "question": "¿Qué es finalidades del análisis documental?",
       "answer": "título (Fuente: T15, Finalidades del análisis documental.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13428,7 +13428,7 @@
     {
       "id": "fc-t15-B3-FULL-254",
       "topicId": "tema-15-clasificaciones-bibliograficas",
-      "question": "Colon Classification",
+      "question": "¿Qué es colon classification?",
       "answer": "Significado (Fuente: T15, Colon Classification.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -13447,7 +13447,7 @@
     {
       "id": "fc-t15-B3-FULL-255",
       "topicId": "tema-15-analisis-documental",
-      "question": "Operaciones principales",
+      "question": "¿Qué es operaciones principales?",
       "answer": "Encabezamientos de materia (Fuente: T15, Operaciones principales.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",

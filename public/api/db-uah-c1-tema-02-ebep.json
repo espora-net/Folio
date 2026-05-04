@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T17:54:05.548Z",
+    "updatedAt": "2026-05-04T14:53:46.143Z",
     "title": "UAH C1 Tema 02 - Estatuto Básico del Empleado Público (EBEP)",
     "description": "Banco normalizado de preguntas del tema 2 de la convocatoria UAH C1 de Técnico Auxiliar de Archivos y Bibliotecas 2025.",
     "questionCount": 28,
@@ -159,7 +159,7 @@
     {
       "id": "uah-m-2-105",
       "topicId": "uah-bib-t02-contenido",
-      "question": "¿Cual de estos es un derecho individual del articulo 14 del EBEP?",
+      "question": "¿Cual de estos es un derecho individual del articulo 14, sobre derechos individuales, del EBEP?",
       "options": [
         "Formacion continua y actualizacion permanente de conocimientos",
         "Asignacion de ISSN",
@@ -178,7 +178,7 @@
     {
       "id": "uah-m-2-106",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Los derechos individuales ejercidos colectivamente del articulo 15 del EBEP incluyen:",
+      "question": "Los derechos individuales ejercidos colectivamente del articulo 15, sobre derechos ejercidos colectivamente, del EBEP incluyen:",
       "options": [
         "Libertad sindical, negociacion colectiva, huelga, conflictos colectivos y reunion",
         "Solo vacaciones y permisos",
@@ -292,7 +292,7 @@
     {
       "id": "uah-m-2-112",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Segun el articulo 97 del EBEP, las infracciones muy graves prescriben a los:",
+      "question": "En el artículo 97, sobre prescripción de infracciones, del EBEP, sobre prescripción de infracciones, las infracciones muy graves prescriben a los, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Tres anos",
         "Dos meses",
@@ -411,7 +411,7 @@
     {
       "id": "uah-exam-upm-c1-2025-1-q003-2b0ea0d655ac",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Según el artículo 9 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto Refundido del Estatuto Básico del Empleado Público, ¿A quién corresponde el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas?",
+      "question": "En el artículo 9, sobre funcionarios interinos, del EBEP, sobre funcionarios interinos, del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto Refundido del Estatuto Básico del Empleado Público, ¿A quién corresponde el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas?",
       "options": [
         "A los funcionarios de carrera",
         "Al personal directivo",
@@ -436,7 +436,7 @@
     {
       "id": "uah-exam-upm-c1-2025-1-q004-be8e7c9c9070",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Según el artículo 15 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, ¿cuál de las siguientes respuestas es un derecho individual ejercido colectivamente?",
+      "question": "En el artículo 15, sobre derechos ejercidos colectivamente, del EBEP, sobre adquisición de la condición de funcionario, del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, ¿cuál de las siguientes respuestas es un derecho individual ejercido colectivamente?",
       "options": [
         "La libre asociación profesional",
         "Las vacaciones, descansos, permisos y licencias",
@@ -462,7 +462,7 @@
     {
       "id": "uah-exam-valencia-c1-2025-q025-f268090dff2e",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Según el artículo 12 de la Ley del Estatuto básico del empleado público, los órganos de gobierno que pueden disponer de personal eventual se determinan mediante:",
+      "question": "En el artículo 12, sobre personal eventual, del EBEP, sobre personal eventual, de la Ley del Estatuto básico del empleado público, los órganos de gobierno que pueden disponer de personal eventual se determinan mediante, ¿cuál de las siguientes afirmaciones es CORRECTA?",
       "options": [
         "Real decreto del Gobierno de la nación.",
         "El propio Estatuto básico del empleado público.",
@@ -514,7 +514,7 @@
     {
       "id": "uah-exam-cadiz-c1-2025-q012-cf4e7ddc32dd",
       "topicId": "uah-bib-t02-contenido",
-      "question": "Según el artículo 19 del IV Convenio Colectivo del Personal Laboral de las - Universidades Públicas de Andalucía, ¿con qué periodicidad se debe convocar concurso de traslado?",
+      "question": "En el artículo 19, sobre convocatorias de selección, del EBEP, sobre convocatorias de selección, del IV Convenio Colectivo del Personal Laboral de las - Universidades Públicas de Andalucía, ¿con qué periodicidad se debe convocar concurso de traslado?",
       "options": [
         "Cada seis meses",
         "Una vez al año",
