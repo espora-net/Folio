@@ -13721,8 +13721,8 @@
     {
       "id": "fc-t16-B3-FULL-006",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es ebuah?",
-      "answer": "Su finalidad es reunir, preservar y difundir en acceso abierto la producción científica y académica generada en la Universidad. (Fuente: T16, Qué es eBUAH.)",
+      "question": "¿Cuál es la finalidad principal de eBUAH?",
+      "answer": "La finalidad de eBUAH es reunir, preservar y difundir en acceso abierto la producción científica y académica generada en la Universidad de Alcalá.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -13793,8 +13793,8 @@
     {
       "id": "fc-t16-B3-FULL-010",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es ebuah?",
-      "answer": "eBUAH es el repositorio institucional de la Universidad de Alcalá. (Fuente: T16, Qué es eBUAH.)",
+      "question": "¿Qué es eBUAH en la Universidad de Alcalá?",
+      "answer": "eBUAH es el repositorio institucional de la Universidad de Alcalá, destinado a preservar y difundir en acceso abierto la producción científica y académica de la institución.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14603,8 +14603,8 @@
     {
       "id": "fc-t16-B3-FULL-055",
       "topicId": "tema-16-repositorio-ecienciadatos",
-      "question": "¿Qué es ecienciadatos?",
-      "answer": "Qué es eCienciaDatos (Fuente: T16, Qué es eCienciaDatos.)",
+      "question": "¿Qué es eCienciaDatos?",
+      "answer": "eCienciaDatos es un repositorio cooperativo de datos de investigación vinculado al Consorcio Madroño, orientado a depositar, preservar, citar y difundir datasets.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14820,7 +14820,7 @@
       "id": "fc-t16-B3-FULL-067",
       "topicId": "tema-16-repositorio-ecienciadatos",
       "question": "¿Qué es un dataset?",
-      "answer": "Qué es un dataset (Fuente: T16, Qué es un dataset.)",
+      "answer": "Un dataset es un conjunto organizado de datos de investigación, acompañado de metadatos, que puede depositarse, preservarse, citarse y reutilizarse.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15215,8 +15215,8 @@
     {
       "id": "fc-t16-B3-FULL-089",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es ebuah?",
-      "answer": "Qué es eBUAH (Fuente: T16, Qué es eBUAH.)",
+      "question": "¿Qué es eBUAH en la Universidad de Alcalá?",
+      "answer": "eBUAH es el repositorio institucional de la Universidad de Alcalá, destinado a preservar y difundir en acceso abierto la producción científica y académica de la institución.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17573,8 +17573,8 @@
     {
       "id": "fc-t16-B3-FULL-220",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es embargos?",
-      "answer": "confidencialidad (Fuente: T16, Embargos.)",
+      "question": "¿Con qué finalidad se aplican embargos en eBUAH?",
+      "answer": "Los embargos permiten retrasar temporalmente el acceso abierto cuando existen restricciones de confidencialidad, derechos editoriales u otras limitaciones justificadas.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19391,8 +19391,8 @@
     {
       "id": "fc-t16-B3-FULL-321",
       "topicId": "tema-16-repositorio-ecienciadatos",
-      "question": "¿Qué son preservación y certificación?",
-      "answer": "Preservación y certificación (Fuente: T16, Preservación y certificación.)",
+      "question": "¿Qué significan preservación y certificación en un repositorio?",
+      "answer": "La preservación busca conservar los contenidos a largo plazo y la certificación acredita que el repositorio cumple criterios de calidad, seguridad y confianza.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19517,8 +19517,8 @@
     {
       "id": "fc-t16-B3-FULL-328",
       "topicId": "tema-16-repositorio-ecienciadatos",
-      "question": "¿Qué es principios fair?",
-      "answer": "Principios FAIR (Fuente: T16, Principios FAIR.)",
+      "question": "¿Qué son los principios FAIR?",
+      "answer": "Los principios FAIR indican que los datos deben ser localizables, accesibles, interoperables y reutilizables para facilitar su gestión y uso científico.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20417,8 +20417,8 @@
     {
       "id": "fc-t16-B3-FULL-378",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué son diferencia entre ebuah y ecienciadatos?",
-      "answer": "eCienciaDatos (Fuente: T16, Diferencia entre eBUAH y eCienciaDatos.)",
+      "question": "¿Qué diferencia básica existe entre eBUAH y eCienciaDatos?",
+      "answer": "eBUAH es el repositorio institucional de producción científica y académica de la UAH; eCienciaDatos se centra en datasets de investigación y gestión de datos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20777,8 +20777,8 @@
     {
       "id": "fc-t16-B3-FULL-398",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Cuáles son las funciones de objetivos de ebuah?",
-      "answer": "Objetivo (Fuente: T16, Objetivos de eBUAH.)",
+      "question": "¿Cuál es el objetivo principal de eBUAH?",
+      "answer": "El objetivo principal de eBUAH es reunir, preservar y difundir en acceso abierto la producción científica y académica generada en la Universidad de Alcalá.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21263,8 +21263,8 @@
     {
       "id": "fc-t16-B3-FULL-425",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es papel de la biblioteca en ebuah?",
-      "answer": "Papel de la Biblioteca en eBUAH (Fuente: T16, Papel de la Biblioteca en eBUAH.)",
+      "question": "¿Qué papel cumple la Biblioteca en eBUAH?",
+      "answer": "La Biblioteca asesora, gestiona y apoya el depósito en eBUAH, ayudando a normalizar metadatos, revisar condiciones de acceso y difundir la producción institucional.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21299,8 +21299,8 @@
     {
       "id": "fc-t16-B3-FULL-427",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es derechos de autor en ebuah?",
-      "answer": "Derechos de autor en eBUAH (Fuente: T16, Derechos de autor en eBUAH.)",
+      "question": "¿Qué debe tenerse en cuenta sobre derechos de autor en eBUAH?",
+      "answer": "Debe comprobarse que el depósito respeta los derechos de autor, licencias, políticas editoriales y posibles embargos antes de difundir el documento en abierto.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21353,8 +21353,8 @@
     {
       "id": "fc-t16-B3-FULL-430",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿qué es qué puede depositarse?",
-      "answer": "Qué puede depositarse (Fuente: T16, Qué puede depositarse.)",
+      "question": "¿Qué puede depositarse en eBUAH?",
+      "answer": "Puede depositarse producción científica y académica de la Universidad de Alcalá, como publicaciones, tesis, trabajos académicos y otros documentos institucionales admitidos por el repositorio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21407,8 +21407,8 @@
     {
       "id": "fc-t16-B3-FULL-433",
       "topicId": "tema-16-repositorio-ebuah",
-      "question": "¿Qué es objetivos de ebuah?",
-      "answer": "Objetivos de eBUAH (Fuente: T16, Objetivos de eBUAH.)",
+      "question": "¿Qué objetivos cumple eBUAH?",
+      "answer": "eBUAH reúne, preserva, organiza y difunde en acceso abierto la producción científica y académica de la UAH, aumentando su visibilidad e impacto.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21641,8 +21641,8 @@
     {
       "id": "fc-t16-B3-FULL-446",
       "topicId": "tema-16-ciencia-abierta-uah",
-      "question": "¿Qué es ámbitos de actuación?",
-      "answer": "Ámbitos de actuación (Fuente: T16, Ámbitos de actuación.)",
+      "question": "¿Qué ámbitos de actuación abarca el acceso abierto en bibliotecas universitarias?",
+      "answer": "Abarca repositorios institucionales, apoyo al depósito, gestión de derechos, difusión de publicaciones, datos de investigación y asesoramiento sobre ciencia abierta.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21677,8 +21677,8 @@
     {
       "id": "fc-t16-B3-FULL-448",
       "topicId": "tema-16-ciencia-abierta-uah",
-      "question": "¿Qué es ciencia abierta?",
-      "answer": "Ciencia abierta (Fuente: T16, Ciencia abierta.)",
+      "question": "¿Qué es la ciencia abierta?",
+      "answer": "La ciencia abierta es un enfoque que promueve el acceso, la transparencia y la reutilización de publicaciones, datos, métodos y resultados de investigación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22577,8 +22577,8 @@
     {
       "id": "fc-t16-B3-FULL-498",
       "topicId": "tema-16-acceso-abierto",
-      "question": "¿Qué es repositorios institucionales?",
-      "answer": "Institucional (Fuente: T16, Repositorios institucionales.)",
+      "question": "¿Qué es un repositorio institucional?",
+      "answer": "Un repositorio institucional es una plataforma digital que reúne, preserva y difunde la producción científica, académica o institucional de una organización.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {

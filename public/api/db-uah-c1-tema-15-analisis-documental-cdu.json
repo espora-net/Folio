@@ -8678,8 +8678,8 @@
     {
       "id": "fc-t15-B3-FULL-004",
       "topicId": "tema-15-cdu-uah",
-      "question": "¿Qué son biblioteca de farmacia indica igualmente que las colecciones?",
-      "answer": "La Biblioteca de Farmacia indica igualmente que las colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU. (Fuente: T15, Uso general de la CDU en la UAH.)",
+      "question": "¿Qué indican las bibliotecas de Farmacia sobre la ordenación de sus colecciones?",
+      "answer": "Sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU.",
       "difficulty": "intermedia",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -8754,7 +8754,7 @@
     {
       "id": "fc-t15-B3-FULL-008",
       "topicId": "tema-15-cdu-uah",
-      "question": "¿Qué son biblioteca de ciencias señala que sus colecciones?",
+      "question": "¿Qué señalan las bibliotecas de ciencias respecto a sus colecciones?",
       "answer": "La Biblioteca de Ciencias señala que sus colecciones son de acceso directo y están ordenadas por materias siguiendo la CDU. (Fuente: T15, Uso general de la CDU en la UAH.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
@@ -8773,8 +8773,8 @@
     {
       "id": "fc-t15-B3-FULL-009",
       "topicId": "tema-15-analisis-documental",
-      "question": "¿Qué es se centra en qué documento?",
-      "answer": "Se centra en qué documento es y cómo puede describirse de forma normalizada. (Fuente: T15, Definición.)",
+      "question": "¿En qué se centra el análisis documental?",
+      "answer": "El análisis documental se centra en identificar qué documento es y en describirlo de forma normalizada mediante normas y estándares bibliográficos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -8963,8 +8963,8 @@
     {
       "id": "fc-t15-B3-FULL-019",
       "topicId": "tema-15-cdu",
-      "question": "¿Cuál es la función de sintética:?",
-      "answer": "Sintética: permite combinar conceptos. (Fuente: T15, Naturaleza de la CDU.)",
+      "question": "¿Cuál es la función sintética de la CDU?",
+      "answer": "La función sintética de la CDU permite combinar conceptos mediante notaciones auxiliares para expresar materias complejas o compuestas.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -9419,8 +9419,8 @@
     {
       "id": "fc-t15-B3-FULL-043",
       "topicId": "tema-15-analisis-documental",
-      "question": "¿Qué es por qué es importante?",
-      "answer": "Por qué es importante (Fuente: T15, Por qué es importante.)",
+      "question": "¿Por qué es importante el análisis documental en una biblioteca universitaria?",
+      "answer": "Es importante porque permite describir, identificar y recuperar documentos de forma normalizada, haciendo que los fondos sean localizables y utilizables por los usuarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10749,8 +10749,8 @@
     {
       "id": "fc-t15-B3-FULL-113",
       "topicId": "tema-15-cdu-uah",
-      "question": "¿Cuál es la función de función práctica de la cdu en la uah?",
-      "answer": "Función práctica de la CDU en la UAH (Fuente: T15, Función práctica de la CDU en la UAH.)",
+      "question": "¿Qué función práctica cumple la CDU en la UAH?",
+      "answer": "La CDU sirve para ordenar las colecciones por materias y facilitar que el usuario localice documentos en libre acceso mediante una clasificación sistemática.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10825,8 +10825,8 @@
     {
       "id": "fc-t15-B3-FULL-117",
       "topicId": "tema-15-cdu-uah",
-      "question": "¿Qué es uso general de la cdu en la uah?",
-      "answer": "Uso general de la CDU en la UAH (Fuente: T15, Uso general de la CDU en la UAH.)",
+      "question": "¿Cómo se usa de forma general la CDU en la UAH?",
+      "answer": "Se usa como sistema de clasificación por materias para organizar fondos, construir signaturas topográficas y orientar la colocación de documentos en estantería.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10901,8 +10901,8 @@
     {
       "id": "fc-t15-B3-FULL-121",
       "topicId": "tema-15-cdu-uah",
-      "question": "¿Qué son signatura topográfica y cdu?",
-      "answer": "Signatura topográfica y CDU (Fuente: T15, Signatura topográfica y CDU.)",
+      "question": "¿Cómo se relacionan la signatura topográfica y la CDU?",
+      "answer": "La signatura topográfica incorpora la notación de la CDU, junto con otros elementos, para indicar la materia y la ubicación física del documento en la biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10977,8 +10977,8 @@
     {
       "id": "fc-t15-B3-FULL-125",
       "topicId": "tema-15-cdu-uah",
-      "question": "¿Qué son libre acceso, cdu y mapas?",
-      "answer": "Libre acceso, CDU y mapas (Fuente: T15, Libre acceso, CDU y mapas.)",
+      "question": "¿Qué relación hay entre libre acceso, CDU y mapas de sala?",
+      "answer": "En colecciones de libre acceso, la CDU organiza los documentos por materias y los mapas de sala ayudan al usuario a encontrar la zona correspondiente.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12725,8 +12725,8 @@
     {
       "id": "fc-t15-B3-FULL-217",
       "topicId": "tema-15-cdu",
-      "question": "¿Qué es clases principales de la cdu?",
-      "answer": "CDU (Fuente: T15, Clases principales de la CDU.)",
+      "question": "¿Qué son las clases principales de la CDU?",
+      "answer": "Son las grandes categorías numéricas del sistema CDU, del 0 al 9, que estructuran el conocimiento en materias generales y permiten desarrollos más específicos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12820,8 +12820,8 @@
     {
       "id": "fc-t15-B3-FULL-222",
       "topicId": "tema-15-cdu",
-      "question": "¿Qué es ejemplos de desarrollo jerárquico?",
-      "answer": "Ejemplos de desarrollo jerárquico (Fuente: T15, Ejemplos de desarrollo jerárquico.)",
+      "question": "¿Para qué sirven los ejemplos de desarrollo jerárquico en la CDU?",
+      "answer": "Sirven para ver cómo una materia general se concreta progresivamente en materias más específicas mediante la estructura jerárquica decimal de la CDU.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12915,8 +12915,8 @@
     {
       "id": "fc-t15-B3-FULL-227",
       "topicId": "tema-15-cdu",
-      "question": "¿Qué es naturaleza de la cdu?",
-      "answer": "Naturaleza de la CDU (Fuente: T15, Naturaleza de la CDU.)",
+      "question": "¿Qué caracteriza la naturaleza de la CDU?",
+      "answer": "La CDU es un sistema de clasificación universal, decimal, jerárquico y sintético, capaz de representar materias simples y combinaciones de conceptos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {

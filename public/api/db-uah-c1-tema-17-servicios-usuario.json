@@ -10072,7 +10072,7 @@
       "id": "fc-t17-B3-FULL-020",
       "topicId": "tema-17-carta-servicios-uah",
       "question": "¿Qué es una carta de servicios?",
-      "answer": "Qué es una Carta de Servicios (Fuente: T17, Qué es una Carta de Servicios.)",
+      "answer": "Una carta de servicios es un documento público que informa de los servicios prestados, compromisos de calidad, derechos de los usuarios e indicadores de evaluación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10204,8 +10204,8 @@
     {
       "id": "fc-t17-B3-FULL-027",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué son compromisos de calidad?",
-      "answer": "Qué son (Fuente: T17, Qué son.)",
+      "question": "¿Qué son los compromisos de calidad en una carta de servicios?",
+      "answer": "Son obligaciones o niveles de prestación que la organización asume ante los usuarios y que deben poder medirse mediante indicadores.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10888,8 +10888,8 @@
     {
       "id": "fc-t17-B3-FULL-063",
       "topicId": "tema-17-carta-servicios-uah",
-      "question": "¿Qué es uso en la biblioteca uah?",
-      "answer": "procesos (Fuente: T17, Uso en la Biblioteca UAH.)",
+      "question": "¿Qué servicios de uso están disponibles en la Biblioteca UAH?",
+      "answer": "Consulta en sala, espacios de estudio, préstamo, acceso a recursos electrónicos y atención al usuario.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12389,8 +12389,8 @@
     {
       "id": "fc-t17-B3-FULL-142",
       "topicId": "tema-17-carta-servicios-uah",
-      "question": "¿Qué es carta de servicios de la biblioteca uah?",
-      "answer": "Biblioteca. (Fuente: T17, Carta de Servicios de la Biblioteca UAH.)",
+      "question": "¿Qué es la Carta de Servicios de la Biblioteca UAH?",
+      "answer": "Es el documento que informa a los usuarios sobre servicios bibliotecarios, compromisos de calidad, canales de comunicación y mecanismos de evaluación del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12579,8 +12579,8 @@
     {
       "id": "fc-t17-B3-FULL-152",
       "topicId": "tema-17-servicios-especificos-buah",
-      "question": "¿Qué es formación de usuarios?",
-      "answer": "investigar (Fuente: T17, Formación de usuarios.)",
+      "question": "¿Qué abarca la formación de usuarios en bibliotecas?",
+      "answer": "La formación de usuarios incluye alfabetización informacional, cursos de búsqueda bibliográfica, uso de recursos electrónicos y competencias para investigar y publicar.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12655,8 +12655,8 @@
     {
       "id": "fc-t17-B3-FULL-156",
       "topicId": "tema-17-servicios-especificos-buah",
-      "question": "¿Qué es formación de usuarios?",
-      "answer": "publicar. (Fuente: T17, Formación de usuarios.)",
+      "question": "¿Qué competencias se trabajan en formación de usuarios?",
+      "answer": "Competencias de búsqueda, evaluación crítica de información, gestión de referencias y conocimientos para investigar y publicar.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -13377,8 +13377,8 @@
     {
       "id": "fc-t17-B3-FULL-194",
       "topicId": "tema-17-carta-servicios-uah",
-      "question": "¿Cuál es la función de finalidad de la carta de servicios?",
-      "answer": "Finalidad (Fuente: T17, Finalidad de la Carta de Servicios.)",
+      "question": "¿Cuál es la finalidad de la carta de servicios?",
+      "answer": "Su finalidad es informar con claridad a los usuarios, fijar compromisos de calidad y permitir la evaluación y mejora continua de los servicios prestados.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -13529,8 +13529,8 @@
     {
       "id": "fc-t17-B3-FULL-202",
       "topicId": "tema-17-carta-servicios-uah",
-      "question": "¿Qué es servicios recogidos en la carta de servicios?",
-      "answer": "Servicios recogidos en la Carta de Servicios (Fuente: T17, Servicios recogidos en la Carta de Servicios.)",
+      "question": "¿Qué servicios recoge la Carta de Servicios de la Biblioteca UAH?",
+      "answer": "Recoge servicios como acceso a colecciones, préstamo, información bibliográfica, formación de usuarios, espacios de trabajo y apoyo a la investigación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -13719,8 +13719,8 @@
     {
       "id": "fc-t17-B3-FULL-212",
       "topicId": "tema-17-carta-servicios-uah",
-      "question": "¿Qué es uso en la biblioteca uah?",
-      "answer": "Uso en la Biblioteca UAH (Fuente: T17, Uso en la Biblioteca UAH.)",
+      "question": "¿Para qué se usa la carta de servicios en la Biblioteca UAH?",
+      "answer": "Se usa para informar a los usuarios, ordenar compromisos, medir el cumplimiento mediante indicadores y orientar la mejora del servicio bibliotecario.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14346,8 +14346,8 @@
     {
       "id": "fc-t17-B3-FULL-245",
       "topicId": "tema-17-servicios-usuario-concepto",
-      "question": "¿Qué es servicios de apoyo a la investigación?",
-      "answer": "Servicios de apoyo a la investigación (Fuente: T17, Servicios de apoyo a la investigación.)",
+      "question": "¿Qué son los servicios de apoyo a la investigación?",
+      "answer": "Son servicios bibliotecarios dirigidos a investigadores, como asesoramiento en publicación, acceso abierto, repositorios, indicadores, perfiles científicos y gestión de información.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14384,8 +14384,8 @@
     {
       "id": "fc-t17-B3-FULL-247",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Satisfacción (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué tipos de indicadores existen en bibliotecas?",
+      "answer": "Indicadores de actividad, calidad, satisfacción, eficiencia, impacto y uso de servicios y recursos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14403,8 +14403,8 @@
     {
       "id": "fc-t17-B3-FULL-248",
       "topicId": "tema-17-servicios-usuario-concepto",
-      "question": "¿Qué es servicios de acceso a colecciones?",
-      "answer": "Servicios de acceso a colecciones (Fuente: T17, Servicios de acceso a colecciones.)",
+      "question": "¿Qué son los servicios de acceso a colecciones?",
+      "answer": "Son servicios que facilitan el uso de fondos y recursos, como consulta, préstamo, acceso a recursos electrónicos, préstamo interbibliotecario y obtención de documentos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14441,8 +14441,8 @@
     {
       "id": "fc-t17-B3-FULL-250",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es formación de usuarios?",
-      "answer": "Indicadores (Fuente: T17, Formación de usuarios.)",
+      "question": "¿Qué indicadores se usan en formación de usuarios?",
+      "answer": "Número de sesiones formativas, asistentes, satisfacción de usuarios, y competencias adquiridas.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14460,8 +14460,8 @@
     {
       "id": "fc-t17-B3-FULL-251",
       "topicId": "tema-17-servicios-usuario-concepto",
-      "question": "¿Qué es servicios de espacios?",
-      "answer": "Servicios de espacios (Fuente: T17, Servicios de espacios.)",
+      "question": "¿Qué son los servicios de espacios en una biblioteca universitaria?",
+      "answer": "Son servicios relacionados con salas de lectura, puestos de estudio, salas de trabajo en grupo, equipamiento y condiciones de uso de los espacios bibliotecarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14536,8 +14536,8 @@
     {
       "id": "fc-t17-B3-FULL-255",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Eficiencia (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué miden los indicadores de eficiencia?",
+      "answer": "Relación entre recursos empleados y resultados obtenidos en los servicios bibliotecarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14555,8 +14555,8 @@
     {
       "id": "fc-t17-B3-FULL-256",
       "topicId": "tema-17-servicios-especificos-buah",
-      "question": "¿Qué es préstamo?",
-      "answer": "Préstamo de portátiles. (Fuente: T17, Préstamo.)",
+      "question": "¿Qué modalidades de préstamo existen?",
+      "answer": "Préstamo de libros, revistas, portátiles, tablets, recursos especiales y préstamo interbibliotecario.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14574,8 +14574,8 @@
     {
       "id": "fc-t17-B3-FULL-257",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Actividad (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué miden los indicadores de actividad?",
+      "answer": "Volumen de operaciones y servicios prestados: préstamos, visitas, consultas, formación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14612,8 +14612,8 @@
     {
       "id": "fc-t17-B3-FULL-259",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Calidad (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué evalúan los indicadores de calidad?",
+      "answer": "Grado de cumplimiento de estándares, satisfacción del usuario y mejora continua de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14650,8 +14650,8 @@
     {
       "id": "fc-t17-B3-FULL-261",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Impacto (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué miden los indicadores de impacto?",
+      "answer": "Efecto de los servicios bibliotecarios en el aprendizaje, investigación y comunidad académica.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14688,8 +14688,8 @@
     {
       "id": "fc-t17-B3-FULL-263",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Tipo (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Cómo se clasifican los indicadores bibliotecarios?",
+      "answer": "Por tipo: cuantitativos/cualitativos; por función: actividad, calidad, impacto, eficiencia, satisfacción.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14726,8 +14726,8 @@
     {
       "id": "fc-t17-B3-FULL-265",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Uso (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué indicadores de uso se emplean?",
+      "answer": "Préstamos realizados, descargas de documentos electrónicos, visitas físicas y virtuales, consultas.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14764,8 +14764,8 @@
     {
       "id": "fc-t17-B3-FULL-267",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es canales de comunicación con el usuario?",
-      "answer": "Canales de comunicación con el usuario (Fuente: T17, Canales de comunicación con el usuario.)",
+      "question": "¿Qué son los canales de comunicación con el usuario?",
+      "answer": "Son medios para atender, informar y recoger consultas o incidencias, como mostradores, web, correo, formularios, teléfono u otros canales institucionales.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14802,8 +14802,8 @@
     {
       "id": "fc-t17-B3-FULL-269",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es participación de los usuarios?",
-      "answer": "Participación de los usuarios (Fuente: T17, Participación de los usuarios.)",
+      "question": "¿Qué implica la participación de los usuarios en los servicios bibliotecarios?",
+      "answer": "Implica recoger sugerencias, quejas, encuestas y otras aportaciones para ajustar servicios, evaluar satisfacción y orientar la mejora continua.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14840,8 +14840,8 @@
     {
       "id": "fc-t17-B3-FULL-271",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es relación con indicadores?",
-      "answer": "Relación con indicadores (Fuente: T17, Relación con indicadores.)",
+      "question": "¿Qué relación tienen los indicadores con la carta de servicios?",
+      "answer": "Los indicadores permiten medir si se cumplen los compromisos de la carta de servicios y aportan evidencia para evaluar y mejorar la calidad.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14878,8 +14878,8 @@
     {
       "id": "fc-t17-B3-FULL-273",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué son indicadores y evaluación?",
-      "answer": "Indicadores y evaluación (Fuente: T17, Indicadores y evaluación.)",
+      "question": "¿Qué son los indicadores y la evaluación en servicios bibliotecarios?",
+      "answer": "Son herramientas para medir actividad, calidad, resultados y satisfacción, y para comprobar si los servicios cumplen los compromisos establecidos.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14935,8 +14935,8 @@
     {
       "id": "fc-t17-B3-FULL-276",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es concepto de indicador?",
-      "answer": "Concepto de indicador (Fuente: T17, Concepto de indicador.)",
+      "question": "¿Qué es un indicador en la evaluación de servicios?",
+      "answer": "Un indicador es una medida o variable que permite cuantificar una actividad, resultado o nivel de calidad para facilitar el seguimiento y la toma de decisiones.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14973,8 +14973,8 @@
     {
       "id": "fc-t17-B3-FULL-278",
       "topicId": "tema-17-carta-servicios-concepto",
-      "question": "¿Qué es tipos de indicadores?",
-      "answer": "Tipos de indicadores (Fuente: T17, Tipos de indicadores.)",
+      "question": "¿Qué tipos de indicadores pueden usarse en servicios bibliotecarios?",
+      "answer": "Pueden usarse indicadores de actividad, rendimiento, calidad, satisfacción, cumplimiento de compromisos y resultados del servicio.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {

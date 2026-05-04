@@ -14240,8 +14240,8 @@
     {
       "id": "fc-t21-B3-FULL-061",
       "topicId": "tema-21-calidad-bibliotecas-rebiun",
-      "question": "¿Qué es rebiun?",
-      "answer": "Qué es REBIUN (Fuente: T21, Qué es REBIUN.)",
+      "question": "¿Qué es REBIUN?",
+      "answer": "La Red de Bibliotecas Universitarias y Científicas Españolas (REBIUN) es una red asociada a la Sectorial CRUE I+D+i desde 2020. Antes fue una red independiente (1990-1998) y una Comisión Sectorial de CRUE (1998-2019).",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15087,7 +15087,7 @@
       "id": "fc-t21-B3-FULL-108",
       "topicId": "tema-21-certificacion-uah",
       "question": "¿Qué es mapa de procesos?",
-      "answer": "orientan la dirección, comunicación, planificación, evaluación y mejora (Fuente: T21, Mapa de procesos.)",
+      "answer": "orientan la Dirección, comunicación, planificación, evaluación y mejora (Fuente: T21, Mapa de procesos.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16383,7 +16383,7 @@
       "id": "fc-t21-B3-FULL-180",
       "topicId": "tema-21-certificacion-uah",
       "question": "¿Qué es sello efqm 500?",
-      "answer": "sostenible. (Fuente: T21, Sello EFQM 500.)",
+      "answer": "El sello EFQM 500+ reconoce organizaciones con gestión excelente, compromiso con la mejora continua y desarrollo sostenible.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20396,8 +20396,8 @@
     {
       "id": "fc-t21-B3-FULL-403",
       "topicId": "tema-21-modelo-efqm",
-      "question": "¿Qué es estructura general del modelo efqm?",
-      "answer": "Estructura general del Modelo EFQM (Fuente: T21, Estructura general del Modelo EFQM.)",
+      "question": "¿Cuál es la estructura general del Modelo EFQM?",
+      "answer": "El Modelo EFQM se estructura en Dirección, ejecución y resultados, integrando criterios para analizar cómo una organización crea valor y mejora su rendimiento.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20468,8 +20468,8 @@
     {
       "id": "fc-t21-B3-FULL-407",
       "topicId": "tema-21-modelo-efqm",
-      "question": "¿Qué es por qué efqm encaja en bibliotecas?",
-      "answer": "Por qué EFQM encaja en bibliotecas (Fuente: T21, Por qué EFQM encaja en bibliotecas.)",
+      "question": "¿Por qué encaja el Modelo EFQM en bibliotecas?",
+      "answer": "Encaja porque las bibliotecas gestionan procesos, usuarios, recursos, alianzas y resultados, y necesitan evaluar la calidad y orientar la mejora continua.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20540,8 +20540,8 @@
     {
       "id": "fc-t21-B3-FULL-411",
       "topicId": "tema-21-modelo-efqm",
-      "question": "¿Qué son efqm y mejora continua?",
-      "answer": "EFQM y mejora continua (Fuente: T21, EFQM y mejora continua.)",
+      "question": "¿Cómo se relacionan EFQM y mejora continua?",
+      "answer": "EFQM proporciona un marco de autoevaluación que permite identificar fortalezas, áreas de mejora, prioridades y resultados para impulsar la mejora continua.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20612,8 +20612,8 @@
     {
       "id": "fc-t21-B3-FULL-415",
       "topicId": "tema-21-modelo-efqm",
-      "question": "¿Qué es principios generales?",
-      "answer": "Principios generales (Fuente: T21, Principios generales.)",
+      "question": "¿Qué principios generales orientan el Modelo EFQM?",
+      "answer": "El Modelo EFQM se orienta a crear valor sostenible, entender a los grupos de interés, gestionar procesos y resultados, y aprender para mejorar continuamente.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20649,7 +20649,7 @@
       "id": "fc-t21-B3-FULL-417",
       "topicId": "tema-21-certificacion-uah",
       "question": "¿Qué es mapa de procesos?",
-      "answer": "orientan la dirección (Fuente: T21, Mapa de procesos.)",
+      "answer": "orientan la Dirección (Fuente: T21, Mapa de procesos.)",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21368,8 +21368,8 @@
     {
       "id": "fc-t21-B3-FULL-457",
       "topicId": "tema-21-certificacion-uah",
-      "question": "¿Qué son comparativa: rebiun, efqm y biblioteca uah?",
-      "answer": "Biblioteca UAH (Fuente: T21, Comparativa: REBIUN, EFQM y Biblioteca UAH.)",
+      "question": "¿Cómo se comparan REBIUN, EFQM y la Biblioteca UAH en materia de calidad?",
+      "answer": "REBIUN aporta cooperación y benchmarking; EFQM aporta un marco de gestión y evaluación; la Biblioteca UAH aplica estos enfoques en sus servicios, procesos y mejora continua.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {

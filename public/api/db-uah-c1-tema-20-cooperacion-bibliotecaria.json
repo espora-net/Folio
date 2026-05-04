@@ -8822,8 +8822,8 @@
     {
       "id": "fc-t20-B3-FULL-037",
       "topicId": "tema-20-cooperacion-bibliotecaria-concepto",
-      "question": "¿Qué es por qué es necesaria?",
-      "answer": "Por qué es necesaria (Fuente: T20, Por qué es necesaria.)",
+      "question": "¿Por qué es necesaria la cooperación bibliotecaria?",
+      "answer": "Es necesaria porque permite compartir recursos, coordinar servicios, mejorar el acceso a la información, reducir duplicidades y aumentar la capacidad de respuesta de las bibliotecas.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -9506,8 +9506,8 @@
     {
       "id": "fc-t20-B3-FULL-073",
       "topicId": "tema-20-rebiun-organizacion-reglamento",
-      "question": "¿Qué es rebiun?",
-      "answer": "Qué es REBIUN (Fuente: T20, Qué es REBIUN.)",
+      "question": "¿Qué es REBIUN?",
+      "answer": "La Red de Bibliotecas Universitarias y Científicas Españolas (REBIUN) es una red asociada a la Sectorial CRUE I+D+i desde 2020. Antes fue una red independiente (1990-1998) y una Comisión Sectorial de CRUE (1998-2019).",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -9981,8 +9981,8 @@
     {
       "id": "fc-t20-B3-FULL-098",
       "topicId": "tema-20-madrono-organizacion",
-      "question": "¿Qué es consorcio madroño?",
-      "answer": "Qué es (Fuente: T20, Qué es.)",
+      "question": "¿Qué es el Consorcio Madroño?",
+      "answer": "El Consorcio Madroño es una entidad de cooperación entre bibliotecas universitarias de Madrid y la UNED para compartir recursos, servicios y proyectos bibliotecarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10019,8 +10019,8 @@
     {
       "id": "fc-t20-B3-FULL-100",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "reutilización. (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa la reutilización en los servicios de datos y cooperación del Consorcio Madroño?",
+      "answer": "La reutilización significa que los datos o recursos pueden usarse de nuevo con condiciones claras, metadatos suficientes y licencias adecuadas.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10247,8 +10247,8 @@
     {
       "id": "fc-t20-B3-FULL-112",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "acceso (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué dimensión de servicio destaca el Consorcio Madroño respecto al acceso?",
+      "answer": "El acceso destaca la disponibilidad de recursos y servicios compartidos para que las bibliotecas participantes puedan consultar, usar y gestionar información de forma cooperativa.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10514,7 +10514,7 @@
       "id": "fc-t20-B3-FULL-126",
       "topicId": "tema-20-rebiun-organizacion-reglamento",
       "question": "¿Qué es reglamento de rebiun?",
-      "answer": "composición (Fuente: T20, Reglamento de REBIUN.)",
+      "answer": "El Reglamento de REBIUN establece su composición: Pleno (máximo órgano de gobierno), Comité Ejecutivo, grupos de trabajo y comisiones asesoras.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -10970,7 +10970,7 @@
       "id": "fc-t20-B3-FULL-150",
       "topicId": "tema-20-rebiun-organizacion-reglamento",
       "question": "¿Qué es reglamento de rebiun?",
-      "answer": "órganos (Fuente: T20, Reglamento de REBIUN.)",
+      "answer": "Los órganos de gobierno de REBIUN según su reglamento son: el Pleno, el Comité Ejecutivo y los grupos de trabajo especializados.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -11254,8 +11254,8 @@
     {
       "id": "fc-t20-B3-FULL-165",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Interoperable (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa “Interoperable” en los principios FAIR aplicados a servicios de datos?",
+      "answer": "“Interoperable” significa que los datos o recursos pueden integrarse y utilizarse con otros sistemas mediante estándares, formatos y metadatos compatibles.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -11368,8 +11368,8 @@
     {
       "id": "fc-t20-B3-FULL-171",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Reutilizable (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa la reutilización en los servicios de datos y cooperación del Consorcio Madroño?",
+      "answer": "La reutilización significa que los datos o recursos pueden usarse de nuevo con condiciones claras, metadatos suficientes y licencias adecuadas.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -11596,8 +11596,8 @@
     {
       "id": "fc-t20-B3-FULL-183",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Localizable (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa que un recurso sea localizable en servicios de datos?",
+      "answer": "Que sea localizable significa que puede encontrarse mediante identificadores, metadatos y sistemas de búsqueda adecuados.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -11938,8 +11938,8 @@
     {
       "id": "fc-t20-B3-FULL-201",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Accessible (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa “Accessible” en los principios FAIR aplicados a servicios de datos?",
+      "answer": "“Accessible” significa accesible: los datos pueden recuperarse mediante protocolos claros, incluso cuando existan condiciones de acceso.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12052,8 +12052,8 @@
     {
       "id": "fc-t20-B3-FULL-207",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Accesible (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa la accesibilidad en los servicios de datos y cooperación del Consorcio Madroño?",
+      "answer": "La accesibilidad significa que los datos o recursos pueden consultarse mediante condiciones, protocolos y permisos claros para los usuarios autorizados.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12166,8 +12166,8 @@
     {
       "id": "fc-t20-B3-FULL-213",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Findable (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa “Findable” en los principios FAIR aplicados a servicios de datos?",
+      "answer": "“Findable” significa localizable: los datos cuentan con identificadores y metadatos que permiten encontrarlos de forma fiable.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12280,8 +12280,8 @@
     {
       "id": "fc-t20-B3-FULL-219",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es servicios del consorcio madroño?",
-      "answer": "Reusable (Fuente: T20, e-cienciaDatos.)",
+      "question": "¿Qué significa “Reusable” en los principios FAIR aplicados a servicios de datos?",
+      "answer": "“Reusable” significa reutilizable: los datos conservan metadatos, licencias y contexto suficientes para poder emplearse de nuevo correctamente.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -12394,8 +12394,8 @@
     {
       "id": "fc-t20-B3-FULL-225",
       "topicId": "tema-20-servicios-madrono",
-      "question": "¿Qué es préstamo interbibliotecario madroño?",
-      "answer": "Préstamo interbibliotecario Madroño (Fuente: T20, Préstamo interbibliotecario Madroño.)",
+      "question": "¿Qué es el préstamo interbibliotecario Madroño?",
+      "answer": "Es un servicio cooperativo que facilita a los usuarios solicitar documentos o materiales disponibles en bibliotecas de las instituciones participantes del Consorcio Madroño.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {

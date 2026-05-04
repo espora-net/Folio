@@ -14632,8 +14632,8 @@
     {
       "id": "fc-t10-B3-FULL-081",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "organización",
+      "question": "¿Qué regula el Reglamento de Biblioteca UAH en relación con la organización?",
+      "answer": "El Reglamento regula la organización básica de la Biblioteca UAH: marco funcional, fines, usuarios, servicios, derechos, deberes y órganos de coordinación del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14777,7 +14777,7 @@
       "id": "fc-t10-B3-FULL-089",
       "topicId": "tema-10-reglamento-organos-gobierno",
       "question": "¿Qué órganos y comisiones establece el Reglamento de la Biblioteca?",
-      "answer": "Gestión y dirección ordinaria del servicio.",
+      "answer": "Gestión y Dirección ordinaria del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -14884,8 +14884,8 @@
     {
       "id": "fc-t10-B3-FULL-095",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "objetivos",
+      "question": "En el Reglamento de Biblioteca UAH, ¿qué contenido debe recordarse además de su naturaleza y aprobación?",
+      "answer": "Deben recordarse los objetivos del Reglamento de Biblioteca, porque la norma fija fines, usuarios, servicios y reglas básicas de funcionamiento del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15533,7 +15533,7 @@
       "id": "fc-t10-B3-FULL-131",
       "topicId": "tema-10-reglamento-organos-gobierno",
       "question": "¿Qué órganos y comisiones establece el Reglamento de la Biblioteca?",
-      "answer": "dirección ordinaria del servicio.",
+      "answer": "Dirección ordinaria del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15550,8 +15550,8 @@
     {
       "id": "fc-t10-B3-FULL-132",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "usuarios",
+      "question": "En el Reglamento de Biblioteca UAH, ¿a quiénes afecta su regulación de naturaleza, servicios y uso?",
+      "answer": "Afecta a los usuarios de la Biblioteca UAH, porque el Reglamento define sus derechos, deberes, identificación y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15568,8 +15568,8 @@
     {
       "id": "fc-t10-B3-FULL-133",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Formación en competencias informacionales.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es la formación en competencias informacionales. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15604,8 +15604,8 @@
     {
       "id": "fc-t10-B3-FULL-135",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Infraestructura tecnológica de búsqueda",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es la infraestructura tecnológica de búsqueda. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15766,8 +15766,8 @@
     {
       "id": "fc-t10-B3-FULL-144",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Adquisiciones y desideratas.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo son las adquisiciones y desideratas. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15892,8 +15892,8 @@
     {
       "id": "fc-t10-B3-FULL-151",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Préstamo interbibliotecario",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es el préstamo interbibliotecario. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -15946,8 +15946,8 @@
     {
       "id": "fc-t10-B3-FULL-154",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Espacios de estudio individual",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo son los espacios de estudio individual. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16018,8 +16018,8 @@
     {
       "id": "fc-t10-B3-FULL-158",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Servicios de accesibilidad.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo son los servicios de accesibilidad. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16198,8 +16198,8 @@
     {
       "id": "fc-t10-B3-FULL-168",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es definición estatutaria e institucional?",
-      "answer": "La formación continua.",
+      "question": "Menciona una función universitaria a la que da soporte la Biblioteca UAH.",
+      "answer": "Un ejemplo es la formación continua. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16270,8 +16270,8 @@
     {
       "id": "fc-t10-B3-FULL-172",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Información bibliográfica.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es la información bibliográfica. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16396,8 +16396,8 @@
     {
       "id": "fc-t10-B3-FULL-179",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Repositorio institucional.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es el repositorio institucional. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16414,8 +16414,8 @@
     {
       "id": "fc-t10-B3-FULL-180",
       "topicId": "tema-10-reglamento-organos-gobierno",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Órganos de gobierno UAH",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los órganos de gobierno uah. Se encuadra en “Reglamento: órganos de gobierno, autoridad y comisiones”, apartado que trata Órganos y autoridad en el Reglamento de Biblioteca UAH: Rector o Vicerrector delegado, órganos de gobierno, Dirección, Comisión Técnica, funciones de aprobación y seguimiento, memoria anual y régimen de reuniones.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16450,8 +16450,8 @@
     {
       "id": "fc-t10-B3-FULL-182",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Servicios de préstamo",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo son los servicios de préstamo. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16684,8 +16684,8 @@
     {
       "id": "fc-t10-B3-FULL-195",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "acceso al documento.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el acceso al documento. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16756,8 +16756,8 @@
     {
       "id": "fc-t10-B3-FULL-199",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Préstamo domiciliario.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es el préstamo domiciliario. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16810,8 +16810,8 @@
     {
       "id": "fc-t10-B3-FULL-202",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "transmisión de información académica.",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la transmisión de información académica. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16828,8 +16828,8 @@
     {
       "id": "fc-t10-B3-FULL-203",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "consorcios de cooperación bibliotecaria.",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo son los consorcios de cooperación bibliotecaria. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16882,8 +16882,8 @@
     {
       "id": "fc-t10-B3-FULL-206",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Recursos electrónicos.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo son los recursos electrónicos. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16936,8 +16936,8 @@
     {
       "id": "fc-t10-B3-FULL-209",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "Acceso a información científica",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el acceso a información científica. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -16954,8 +16954,8 @@
     {
       "id": "fc-t10-B3-FULL-210",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Gestión de repositorios institucionales.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es la gestión de repositorios institucionales. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17008,8 +17008,8 @@
     {
       "id": "fc-t10-B3-FULL-213",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Reserva de espacios.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es la reserva de espacios. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17080,8 +17080,8 @@
     {
       "id": "fc-t10-B3-FULL-217",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Cuál es la misión y propósito establecidos?",
-      "answer": "la innovación",
+      "question": "¿Qué papel tiene la innovación en la misión y propósito de la Biblioteca UAH?",
+      "answer": "La innovación forma parte del propósito de la Biblioteca UAH porque permite adaptar servicios, tecnologías y formas de apoyo a las nuevas necesidades docentes, investigadoras y de aprendizaje.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17188,8 +17188,8 @@
     {
       "id": "fc-t10-B3-FULL-223",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Uso responsable de recursos",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el uso responsable de recursos. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17278,8 +17278,8 @@
     {
       "id": "fc-t10-B3-FULL-228",
       "topicId": "tema-10-reglamento-organos-gobierno",
-      "question": "¿Qué comisiones relacionan los servicios centrales con las bibliotecas?",
-      "answer": "Comisiones",
+      "question": "¿Qué comisión coordina servicios centrales y bibliotecas de centro en la Biblioteca UAH?",
+      "answer": "La Comisión Técnica actúa como órgano de coordinación y seguimiento entre la Dirección, los servicios centrales y las bibliotecas de centro del Servicio de Biblioteca UAH.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17314,8 +17314,8 @@
     {
       "id": "fc-t10-B3-FULL-230",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "recursos de investigación",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los recursos de investigación. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17332,8 +17332,8 @@
     {
       "id": "fc-t10-B3-FULL-231",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Cuál es la misión y propósito establecidos?",
-      "answer": "la docencia",
+      "question": "¿Qué papel tiene la docencia en la misión y propósito de la Biblioteca UAH?",
+      "answer": "La docencia es una función universitaria a la que la Biblioteca UAH presta apoyo mediante recursos de información, espacios, formación de usuarios y servicios bibliotecarios especializados.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17386,8 +17386,8 @@
     {
       "id": "fc-t10-B3-FULL-234",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Consulta en sala.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es la consulta en sala. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17404,8 +17404,8 @@
     {
       "id": "fc-t10-B3-FULL-235",
       "topicId": "tema-10-reglamento-organos-gobierno",
-      "question": "¿Qué órganos y comisiones establece el Reglamento de la Biblioteca?",
-      "answer": "Órgano",
+      "question": "¿Qué recuerda el Reglamento de Biblioteca UAH sobre órganos y comisiones?",
+      "answer": "El Reglamento distingue órganos de gobierno y coordinación de la Biblioteca, incluida la Dirección y la Comisión Técnica, para organizar, aprobar y seguir la actividad del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17440,8 +17440,8 @@
     {
       "id": "fc-t10-B3-FULL-237",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "Recursos para profesores",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los recursos para profesores. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17458,8 +17458,8 @@
     {
       "id": "fc-t10-B3-FULL-238",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Cuál es la misión y visión de la Biblioteca UAH?",
-      "answer": "tecnología",
+      "question": "¿Qué papel tiene la tecnología en la misión y visión de la Biblioteca UAH?",
+      "answer": "La tecnología sostiene la visión de una biblioteca universitaria capaz de ofrecer acceso digital, herramientas de descubrimiento, recursos electrónicos y servicios adaptados a nuevos entornos de aprendizaje e investigación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17476,8 +17476,8 @@
     {
       "id": "fc-t10-B3-FULL-239",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué son bibliotecas y centros?",
-      "answer": "Otros espacios",
+      "question": "Dentro de la estructura de la Biblioteca UAH, ¿qué representan otros espacios?",
+      "answer": "Otros espacios representan áreas complementarias de servicio bibliotecario, como zonas de estudio, trabajo en grupo, consulta o apoyo a usuarios dentro de la organización de bibliotecas y centros.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17512,8 +17512,8 @@
     {
       "id": "fc-t10-B3-FULL-241",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Salas de trabajo.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo son las salas de trabajo. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17566,8 +17566,8 @@
     {
       "id": "fc-t10-B3-FULL-244",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "transformación digital.",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la transformación digital. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17584,8 +17584,8 @@
     {
       "id": "fc-t10-B3-FULL-245",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Cuál es la misión y visión de la Biblioteca UAH?",
-      "answer": "servicios.",
+      "question": "¿Qué papel tienen los servicios en la misión y visión de la Biblioteca UAH?",
+      "answer": "Los servicios son la forma en que la Biblioteca UAH materializa su misión: facilitar acceso a información, apoyo al aprendizaje, apoyo a la investigación, atención al usuario y uso de recursos bibliográficos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17638,8 +17638,8 @@
     {
       "id": "fc-t10-B3-FULL-248",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Cuál es la definición y los objetivos establecidos?",
-      "answer": "documentales.",
+      "question": "Según la definición y objetivos de la Biblioteca UAH, ¿qué importancia tienen los recursos documentales?",
+      "answer": "Los recursos documentales son el objeto principal de organización, preservación y acceso de la Biblioteca, porque sirven de soporte al estudio, la docencia, la investigación y la formación continua.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17674,8 +17674,8 @@
     {
       "id": "fc-t10-B3-FULL-250",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Información científica",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la información científica. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17746,8 +17746,8 @@
     {
       "id": "fc-t10-B3-FULL-254",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Adquisiciones",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo son las adquisiciones. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17782,8 +17782,8 @@
     {
       "id": "fc-t10-B3-FULL-256",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "recursos electrónicos",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los recursos electrónicos. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17854,8 +17854,8 @@
     {
       "id": "fc-t10-B3-FULL-260",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Cuál es la definición y los objetivos establecidos?",
-      "answer": "aprendizaje.",
+      "question": "Según la definición y objetivos de la Biblioteca UAH, ¿qué papel tiene el aprendizaje?",
+      "answer": "El aprendizaje es una finalidad básica de la Biblioteca UAH: sus recursos, espacios y servicios deben apoyar el estudio y la adquisición de competencias informacionales por parte de los usuarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17872,8 +17872,8 @@
     {
       "id": "fc-t10-B3-FULL-261",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Formación de usuarios.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es la formación de usuarios. Se encuadra en “Reglamento: usuarios, derechos, deberes e identificación”, apartado que trata Usuarios de pleno derecho y otros usuarios de la Biblioteca UAH. Derechos, deberes, identificación, carné de biblioteca, respeto a recursos, equipamientos e instalaciones y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17890,8 +17890,8 @@
     {
       "id": "fc-t10-B3-FULL-262",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Espacios de estudio",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los espacios de estudio. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17908,8 +17908,8 @@
     {
       "id": "fc-t10-B3-FULL-263",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Cuál es la misión y visión de la Biblioteca UAH?",
-      "answer": "alianzas",
+      "question": "¿Qué papel tienen las alianzas en la misión y visión de la Biblioteca UAH?",
+      "answer": "Las alianzas institucionales refuerzan la misión y visión de la Biblioteca porque facilitan cooperación, mejora de servicios, acceso a recursos y apoyo a la comunidad universitaria.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17962,8 +17962,8 @@
     {
       "id": "fc-t10-B3-FULL-266",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "desideratas.",
+      "question": "Menciona un servicio o recurso regulado o derivado del Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo son las desideratas. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -17998,8 +17998,8 @@
     {
       "id": "fc-t10-B3-FULL-268",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "recursos digitales",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los recursos digitales. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18052,8 +18052,8 @@
     {
       "id": "fc-t10-B3-FULL-271",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Comunicación de información clara.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es la comunicación de información clara. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18106,8 +18106,8 @@
     {
       "id": "fc-t10-B3-FULL-274",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "formación.",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la formación de usuarios. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18124,8 +18124,8 @@
     {
       "id": "fc-t10-B3-FULL-275",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Cuál es la misión y propósito establecidos?",
-      "answer": "gestión",
+      "question": "¿Cómo se vincula la gestión universitaria con la misión y el propósito de la Biblioteca UAH?",
+      "answer": "La gestión universitaria forma parte del contexto al que la Biblioteca presta apoyo, junto con la docencia, el aprendizaje, la investigación y la formación continua.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18178,8 +18178,8 @@
     {
       "id": "fc-t10-B3-FULL-278",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Cuál es la definición y los objetivos establecidos?",
-      "answer": "Preservar",
+      "question": "Menciona un objetivo establecido para la Biblioteca UAH en su Reglamento.",
+      "answer": "Un ejemplo es el preservar los recursos documentales. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18214,8 +18214,8 @@
     {
       "id": "fc-t10-B3-FULL-280",
       "topicId": "tema-10-reglamento-servicios-recursos",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Espacios",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los espacios. Se encuadra en “Reglamento: servicios, recursos y áreas funcionales”, apartado que trata Servicios y recursos regulados por el Reglamento: atención al usuario, información bibliográfica, formación de usuarios, acceso al documento, préstamo, espacios, recursos electrónicos y criterios básicos de dotación de bibliotecas universitarias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18232,8 +18232,8 @@
     {
       "id": "fc-t10-B3-FULL-281",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es definición estatutaria e institucional?",
-      "answer": "funcionamiento de la Universidad.",
+      "question": "Menciona una función universitaria a la que da soporte la Biblioteca UAH.",
+      "answer": "Un ejemplo es el funcionamiento de la universidad. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18286,8 +18286,8 @@
     {
       "id": "fc-t10-B3-FULL-284",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Cuál es la definición y los objetivos establecidos?",
-      "answer": "organizar",
+      "question": "Menciona un objetivo establecido para la Biblioteca UAH en su Reglamento.",
+      "answer": "Un ejemplo es el organizar los recursos documentales. Se encuadra en “Reglamento de Biblioteca: marco, definición y fines”, apartado que trata Reglamento de la Biblioteca de la Universidad de Alcalá aprobado por Consejo de Gobierno de 22 de diciembre de 2005: definición de la Biblioteca como unidad funcional, fines, objetivos, recursos documentales y garantía de acceso a la documentación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18322,8 +18322,8 @@
     {
       "id": "fc-t10-B3-FULL-286",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Gestión de colecciones impresas",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es la gestión de colecciones impresas. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18502,8 +18502,8 @@
     {
       "id": "fc-t10-B3-FULL-296",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "investigadora y de innovación.",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es el investigadora y de innovación. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18646,8 +18646,8 @@
     {
       "id": "fc-t10-B3-FULL-304",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "Ratificación",
+      "question": "¿Qué implica la ratificación o aprobación del Reglamento de Biblioteca UAH?",
+      "answer": "Implica que el Reglamento queda formalmente aprobado como norma interna de la Universidad de Alcalá para ordenar la organización, usuarios, servicios y funcionamiento de la Biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18682,8 +18682,8 @@
     {
       "id": "fc-t10-B3-FULL-306",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "eficiencia y mejora continua.",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es el eficiencia y mejora continua. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18736,8 +18736,8 @@
     {
       "id": "fc-t10-B3-FULL-309",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "Aprobación",
+      "question": "¿Qué debe recordarse sobre la aprobación del Reglamento de Biblioteca UAH?",
+      "answer": "El Reglamento de Biblioteca UAH fue aprobado por el Consejo de Gobierno de la Universidad de Alcalá el 22 de diciembre de 2005 y funciona como norma interna básica del servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18808,8 +18808,8 @@
     {
       "id": "fc-t10-B3-FULL-313",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es finalidad de la guía?",
-      "answer": "mejora continua del servicio.",
+      "question": "Menciona una finalidad, destinatario o criterio de orientación de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la mejora continua del servicio. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18826,8 +18826,8 @@
     {
       "id": "fc-t10-B3-FULL-314",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "Norma",
+      "question": "¿Qué debe recordarse sobre la naturaleza y aprobación del Reglamento de Biblioteca UAH?",
+      "answer": "Debe recordarse que el Reglamento tiene carácter de norma interna de la Biblioteca y fue aprobado por el Consejo de Gobierno de la Universidad de Alcalá el 22 de diciembre de 2005.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18862,8 +18862,8 @@
     {
       "id": "fc-t10-B3-FULL-316",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "Apoya la actividad académica",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es Apoya la actividad académica. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18916,8 +18916,8 @@
     {
       "id": "fc-t10-B3-FULL-319",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué son naturaleza y aprobación?",
-      "answer": "Dato",
+      "question": "¿Qué debe recordarse sobre la naturaleza y aprobación del Reglamento de Biblioteca UAH?",
+      "answer": "Debe recordarse que el Reglamento tiene carácter de norma interna de la Biblioteca y fue aprobado por el Consejo de Gobierno de la Universidad de Alcalá el 22 de diciembre de 2005.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -18988,8 +18988,8 @@
     {
       "id": "fc-t10-B3-FULL-323",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Atención diaria en mostrador.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es la atención diaria en mostrador. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19024,8 +19024,8 @@
     {
       "id": "fc-t10-B3-FULL-325",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Quiénes pueden ser usuarios de la Biblioteca?",
-      "answer": "administración",
+      "question": "¿Qué usuarios vinculados a la administración pueden usar la Biblioteca UAH?",
+      "answer": "El personal de administración y servicios forma parte de la comunidad universitaria y puede usar la Biblioteca UAH conforme a las condiciones previstas para los usuarios autorizados.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19042,8 +19042,8 @@
     {
       "id": "fc-t10-B3-FULL-326",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "electrónicas y digitales.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo son las colecciones electrónicas y digitales. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19060,8 +19060,8 @@
     {
       "id": "fc-t10-B3-FULL-327",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "Servicios centrales",
+      "question": "¿Qué papel cumplen los servicios centrales en relación con las bibliotecas de centro?",
+      "answer": "Los servicios centrales coordinan procesos comunes, apoyan técnicamente a las bibliotecas de centro y ayudan a prestar servicios homogéneos en toda la Biblioteca UAH.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19096,8 +19096,8 @@
     {
       "id": "fc-t10-B3-FULL-329",
       "topicId": "tema-10-reglamento-marco-fines-biblioteca",
-      "question": "¿Qué es servicios regulados o derivados del reglamento?",
-      "answer": "Servicios regulados o derivados del Reglamento",
+      "question": "¿Qué son los servicios regulados por el Reglamento del Servicio de Biblioteca UAH?",
+      "answer": "Servicios de consulta en sala, préstamo, formación de usuarios, acceso a recursos electrónicos y apoyo a la investigación, regulados por normativa específica.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19114,8 +19114,8 @@
     {
       "id": "fc-t10-B3-FULL-330",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "reclamaciones.",
+      "question": "¿Qué derecho de los usuarios se relaciona con reclamaciones en la Biblioteca UAH?",
+      "answer": "El derecho a presentar reclamaciones, quejas o sugerencias permite a los usuarios comunicar incidencias y contribuir a la mejora de los servicios bibliotecarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19132,8 +19132,8 @@
     {
       "id": "fc-t10-B3-FULL-331",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Apoyo a la investigación",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el apoyo a la investigación. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19168,8 +19168,8 @@
     {
       "id": "fc-t10-B3-FULL-333",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es finalidad de la guía?",
-      "answer": "La comunidad universitaria.",
+      "question": "Menciona una finalidad, destinatario o criterio de orientación de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la comunidad universitaria. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19186,8 +19186,8 @@
     {
       "id": "fc-t10-B3-FULL-334",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "Conocer normas",
+      "question": "¿Qué derecho supone conocer las normas de uso de la Biblioteca UAH?",
+      "answer": "Supone el derecho a recibir información clara sobre normas, horarios, servicios y condiciones de uso, para utilizar la Biblioteca de forma correcta y segura.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19204,8 +19204,8 @@
     {
       "id": "fc-t10-B3-FULL-335",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "descubrimiento y acceso.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo son las herramientas de descubrimiento y acceso. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19330,8 +19330,8 @@
     {
       "id": "fc-t10-B3-FULL-342",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "Evaluación, aprendizaje organizativo, calidad.",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Evaluación, aprendizaje organizativo, calidad. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19348,8 +19348,8 @@
     {
       "id": "fc-t10-B3-FULL-343",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "orientación.",
+      "question": "¿Qué derecho de los usuarios se relaciona con la orientación bibliotecaria?",
+      "answer": "La orientación es el derecho a recibir ayuda e información para localizar recursos, utilizar servicios, resolver dudas y aprovechar adecuadamente la Biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19366,8 +19366,8 @@
     {
       "id": "fc-t10-B3-FULL-344",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "publicación científica.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el apoyo a la publicación científica. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19420,8 +19420,8 @@
     {
       "id": "fc-t10-B3-FULL-347",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Quiénes pueden ser usuarios de la Biblioteca?",
-      "answer": "de gestión",
+      "question": "¿Qué tipo de usuarios de gestión puede atender la Biblioteca UAH?",
+      "answer": "Además de estudiantes y personal docente e investigador, la Biblioteca atiende necesidades de personal de gestión, administración y otros usuarios autorizados vinculados a la Universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19438,8 +19438,8 @@
     {
       "id": "fc-t10-B3-FULL-348",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Apoyo al acceso abierto",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el apoyo al acceso abierto. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19456,8 +19456,8 @@
     {
       "id": "fc-t10-B3-FULL-349",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "representación",
+      "question": "¿Qué función de representación conecta servicios centrales y bibliotecas de centro?",
+      "answer": "La representación permite que bibliotecas de centro y servicios centrales participen en órganos de coordinación, transmitan necesidades y alineen decisiones con la estrategia del Servicio de Biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19474,8 +19474,8 @@
     {
       "id": "fc-t10-B3-FULL-350",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es finalidad de la guía?",
-      "answer": "La Universidad de Alcalá.",
+      "question": "Menciona una finalidad, destinatario o criterio de orientación de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la Universidad de Alcalá. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19492,8 +19492,8 @@
     {
       "id": "fc-t10-B3-FULL-351",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "normativa.",
+      "question": "¿Qué derecho de los usuarios se relaciona con la normativa de la Biblioteca UAH?",
+      "answer": "Los usuarios tienen derecho a conocer la normativa aplicable para saber qué servicios pueden usar, qué condiciones rigen y qué deberes deben cumplir.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19528,8 +19528,8 @@
     {
       "id": "fc-t10-B3-FULL-353",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "planificación.",
+      "question": "¿Qué papel tiene la planificación en la relación entre servicios centrales y bibliotecas?",
+      "answer": "La planificación coordina prioridades, recursos, calendarios y proyectos comunes para que los servicios centrales y las bibliotecas de centro funcionen de forma coherente.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19564,8 +19564,8 @@
     {
       "id": "fc-t10-B3-FULL-355",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "horarios",
+      "question": "Menciona un derecho de los usuarios recogido en el Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es la información sobre horarios. Se encuadra en “Reglamento: usuarios, derechos, deberes e identificación”, apartado que trata Usuarios de pleno derecho y otros usuarios de la Biblioteca UAH. Derechos, deberes, identificación, carné de biblioteca, respeto a recursos, equipamientos e instalaciones y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19600,8 +19600,8 @@
     {
       "id": "fc-t10-B3-FULL-357",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "centro ciudad",
+      "question": "¿Qué representa el centro ciudad en la organización de la Biblioteca UAH?",
+      "answer": "El centro ciudad representa un ámbito territorial o de campus dentro de la organización de servicios bibliotecarios, junto con otros espacios y bibliotecas de centro.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19618,8 +19618,8 @@
     {
       "id": "fc-t10-B3-FULL-358",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "mantenimiento de fondos.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es el mantenimiento de fondos. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19636,8 +19636,8 @@
     {
       "id": "fc-t10-B3-FULL-359",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los deberes de los usuarios según el Reglamento?",
-      "answer": "equipos",
+      "question": "Menciona un deber de los usuarios recogido en el Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es el cuidado de los equipos e instalaciones. Se encuadra en “Reglamento: usuarios, derechos, deberes e identificación”, apartado que trata Usuarios de pleno derecho y otros usuarios de la Biblioteca UAH. Derechos, deberes, identificación, carné de biblioteca, respeto a recursos, equipamientos e instalaciones y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19654,8 +19654,8 @@
     {
       "id": "fc-t10-B3-FULL-360",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Apoyo al aprendizaje.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el apoyo al aprendizaje. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19672,8 +19672,8 @@
     {
       "id": "fc-t10-B3-FULL-361",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "comunicación",
+      "question": "¿Qué papel tiene la comunicación entre servicios centrales y bibliotecas?",
+      "answer": "La comunicación permite coordinar instrucciones, incidencias, necesidades de usuarios y criterios de servicio entre la dirección, los servicios centrales y las bibliotecas de centro.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19708,8 +19708,8 @@
     {
       "id": "fc-t10-B3-FULL-363",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los deberes de los usuarios según el Reglamento?",
-      "answer": "fondos.",
+      "question": "Menciona un deber de los usuarios recogido en el Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es el cuidado de los fondos bibliográficos. Se encuadra en “Reglamento: usuarios, derechos, deberes e identificación”, apartado que trata Usuarios de pleno derecho y otros usuarios de la Biblioteca UAH. Derechos, deberes, identificación, carné de biblioteca, respeto a recursos, equipamientos e instalaciones y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19726,8 +19726,8 @@
     {
       "id": "fc-t10-B3-FULL-364",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "trabajo colaborativo.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el trabajo colaborativo. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19744,8 +19744,8 @@
     {
       "id": "fc-t10-B3-FULL-365",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "apoyo local.",
+      "question": "¿Qué significa el apoyo local en la relación entre servicios centrales y bibliotecas?",
+      "answer": "El apoyo local es la adaptación de directrices y recursos comunes a las necesidades concretas de cada biblioteca de centro, campus o área de servicio.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19762,8 +19762,8 @@
     {
       "id": "fc-t10-B3-FULL-366",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es finalidad de la guía?",
-      "answer": "La sociedad en general.",
+      "question": "Menciona una finalidad, destinatario o criterio de orientación de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la sociedad en general. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19780,8 +19780,8 @@
     {
       "id": "fc-t10-B3-FULL-367",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "quejas",
+      "question": "Menciona un derecho de los usuarios recogido en el Reglamento de Biblioteca UAH.",
+      "answer": "Un ejemplo es la posibilidad de formular quejas y sugerencias. Se encuadra en “Reglamento: usuarios, derechos, deberes e identificación”, apartado que trata Usuarios de pleno derecho y otros usuarios de la Biblioteca UAH. Derechos, deberes, identificación, carné de biblioteca, respeto a recursos, equipamientos e instalaciones y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19798,8 +19798,8 @@
     {
       "id": "fc-t10-B3-FULL-368",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "mejora de servicios.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es la mejora de servicios. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19816,8 +19816,8 @@
     {
       "id": "fc-t10-B3-FULL-369",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "Humanidades",
+      "question": "¿Qué representa Humanidades en la organización de la Biblioteca UAH?",
+      "answer": "Humanidades identifica un área o biblioteca de centro dentro de la distribución organizativa de la Biblioteca UAH, vinculada a fondos y usuarios de ese ámbito académico.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19834,8 +19834,8 @@
     {
       "id": "fc-t10-B3-FULL-370",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Gestión de incidencias.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es la gestión de incidencias. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19852,8 +19852,8 @@
     {
       "id": "fc-t10-B3-FULL-371",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "satisfacción de usuarios.",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la satisfacción de usuarios. Se encuadra en “Reglamento: usuarios, derechos, deberes e identificación”, apartado que trata Usuarios de pleno derecho y otros usuarios de la Biblioteca UAH. Derechos, deberes, identificación, carné de biblioteca, respeto a recursos, equipamientos e instalaciones y condiciones de uso de los servicios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19888,8 +19888,8 @@
     {
       "id": "fc-t10-B3-FULL-373",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "politécnica",
+      "question": "¿Qué representa el ámbito politécnico en la organización de la Biblioteca UAH?",
+      "answer": "El ámbito politécnico identifica un área o biblioteca de centro orientada a titulaciones técnicas, con fondos, espacios y servicios adaptados a ese perfil académico.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19924,8 +19924,8 @@
     {
       "id": "fc-t10-B3-FULL-375",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Quiénes pueden ser usuarios de la Biblioteca?",
-      "answer": "Usuarios de la Biblioteca",
+      "question": "¿Quiénes pueden ser usuarios de la Biblioteca UAH según el Reglamento?",
+      "answer": "Pueden ser usuarios de pleno derecho los miembros de la comunidad universitaria y también otros usuarios autorizados en las condiciones que establezca la Biblioteca UAH.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19942,8 +19942,8 @@
     {
       "id": "fc-t10-B3-FULL-376",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "la ciencia abierta.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es la ciencia abierta. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19960,8 +19960,8 @@
     {
       "id": "fc-t10-B3-FULL-377",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "información",
+      "question": "¿Qué papel tiene la información entre servicios centrales y bibliotecas?",
+      "answer": "La información compartida permite coordinar servicios, comunicar cambios normativos, resolver incidencias y asegurar criterios homogéneos de atención a usuarios.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -19996,8 +19996,8 @@
     {
       "id": "fc-t10-B3-FULL-379",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los derechos de los usuarios según el Reglamento?",
-      "answer": "Derechos de los usuarios",
+      "question": "Menciona derechos de los usuarios recogidos en el Reglamento de Biblioteca UAH.",
+      "answer": "Entre los derechos figuran recibir información sobre servicios y horarios, utilizar los recursos bibliotecarios en las condiciones establecidas y formular quejas o sugerencias.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20014,8 +20014,8 @@
     {
       "id": "fc-t10-B3-FULL-380",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Alineación con estrategia universitaria",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es Alineación con estrategia universitaria. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20032,8 +20032,8 @@
     {
       "id": "fc-t10-B3-FULL-381",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "estrategia",
+      "question": "¿Qué papel tiene la estrategia en la relación entre servicios centrales y bibliotecas?",
+      "answer": "La estrategia alinea objetivos, proyectos, recursos y evaluación del Servicio de Biblioteca para que las bibliotecas de centro actúen con criterios comunes.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20068,8 +20068,8 @@
     {
       "id": "fc-t10-B3-FULL-383",
       "topicId": "tema-10-reglamento-usuarios-derechos-deberes",
-      "question": "¿Cuáles son los deberes de los usuarios según el Reglamento?",
-      "answer": "Deberes de los usuarios",
+      "question": "Menciona deberes de los usuarios recogidos en el Reglamento de Biblioteca UAH.",
+      "answer": "Entre los deberes figuran identificarse cuando proceda, respetar las normas de uso y cuidar los fondos, equipos, instalaciones y espacios de la Biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20104,8 +20104,8 @@
     {
       "id": "fc-t10-B3-FULL-385",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "técnicas.",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo son las unidades técnicas. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20122,8 +20122,8 @@
     {
       "id": "fc-t10-B3-FULL-386",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Aplicación de normas.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es la aplicación de normas. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20140,8 +20140,8 @@
     {
       "id": "fc-t10-B3-FULL-387",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es definición estatutaria e institucional?",
-      "answer": "La investigación.",
+      "question": "Menciona una función universitaria a la que da soporte la Biblioteca UAH.",
+      "answer": "Un ejemplo es la investigación. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20158,8 +20158,8 @@
     {
       "id": "fc-t10-B3-FULL-388",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "Educación",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la Biblioteca de Educación. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20176,8 +20176,8 @@
     {
       "id": "fc-t10-B3-FULL-389",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "favorecer recursos digitales responsables",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el favorecer recursos digitales responsables. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20194,8 +20194,8 @@
     {
       "id": "fc-t10-B3-FULL-390",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "mejora continua.",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es la mejora continua. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20212,8 +20212,8 @@
     {
       "id": "fc-t10-B3-FULL-391",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "formación",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo es la formación de usuarios. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20248,8 +20248,8 @@
     {
       "id": "fc-t10-B3-FULL-393",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es definición estatutaria e institucional?",
-      "answer": "El aprendizaje.",
+      "question": "Menciona una función universitaria a la que da soporte la Biblioteca UAH.",
+      "answer": "Un ejemplo es el aprendizaje. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20266,8 +20266,8 @@
     {
       "id": "fc-t10-B3-FULL-394",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "colección",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo es la gestión de la colección. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20284,8 +20284,8 @@
     {
       "id": "fc-t10-B3-FULL-395",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Trato con usuarios.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es el trato con usuarios. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20320,8 +20320,8 @@
     {
       "id": "fc-t10-B3-FULL-397",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "Ciencias",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la Biblioteca de Ciencias. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20338,8 +20338,8 @@
     {
       "id": "fc-t10-B3-FULL-398",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "equipos y espacios.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo son los equipos y espacios. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20356,8 +20356,8 @@
     {
       "id": "fc-t10-B3-FULL-399",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "de innovación.",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es la actividad de innovación. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20374,8 +20374,8 @@
     {
       "id": "fc-t10-B3-FULL-400",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "medicina",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la Biblioteca de Medicina. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20410,8 +20410,8 @@
     {
       "id": "fc-t10-B3-FULL-402",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "descubrimiento",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo son las herramientas de descubrimiento. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20428,8 +20428,8 @@
     {
       "id": "fc-t10-B3-FULL-403",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "farmacia",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la Biblioteca de Farmacia. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20446,8 +20446,8 @@
     {
       "id": "fc-t10-B3-FULL-404",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Apoyo al préstamo.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es el apoyo al préstamo. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20464,8 +20464,8 @@
     {
       "id": "fc-t10-B3-FULL-405",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "investigadora",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es la actividad investigadora. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20482,8 +20482,8 @@
     {
       "id": "fc-t10-B3-FULL-406",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "gestión.",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo es la gestión universitaria. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20500,8 +20500,8 @@
     {
       "id": "fc-t10-B3-FULL-407",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es finalidad de la guía?",
-      "answer": "La sostenibilidad",
+      "question": "Menciona una finalidad, destinatario o criterio de orientación de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la sostenibilidad. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20518,8 +20518,8 @@
     {
       "id": "fc-t10-B3-FULL-408",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "accesibilidad",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es la accesibilidad. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20536,8 +20536,8 @@
     {
       "id": "fc-t10-B3-FULL-409",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "sistemas",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo son los sistemas de información bibliotecaria. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20572,8 +20572,8 @@
     {
       "id": "fc-t10-B3-FULL-411",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es definición estatutaria e institucional?",
-      "answer": "La docencia.",
+      "question": "Menciona una función universitaria a la que da soporte la Biblioteca UAH.",
+      "answer": "Un ejemplo es la docencia. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20590,8 +20590,8 @@
     {
       "id": "fc-t10-B3-FULL-412",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué servicios directos ofrecen las bibliotecas a los usuarios?",
-      "answer": "préstamo",
+      "question": "Menciona un servicio directo ofrecido por las bibliotecas a los usuarios.",
+      "answer": "Un ejemplo es el préstamo. Este servicio permite el uso de fondos bibliográficos y se integra en la atención directa a usuarios del Servicio de Biblioteca UAH.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20608,8 +20608,8 @@
     {
       "id": "fc-t10-B3-FULL-413",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "Compartir información con compañeros",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Compartir información con compañeros. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20626,8 +20626,8 @@
     {
       "id": "fc-t10-B3-FULL-414",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "electrónicas",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el electrónicas. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20644,8 +20644,8 @@
     {
       "id": "fc-t10-B3-FULL-415",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "turismo",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la Biblioteca de Turismo. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20698,8 +20698,8 @@
     {
       "id": "fc-t10-B3-FULL-418",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "Función",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo es la distribución de funciones. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20716,8 +20716,8 @@
     {
       "id": "fc-t10-B3-FULL-419",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Apoyo a salas",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es el apoyo a salas. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20734,8 +20734,8 @@
     {
       "id": "fc-t10-B3-FULL-420",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "eficiencia",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es la eficiencia. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20752,8 +20752,8 @@
     {
       "id": "fc-t10-B3-FULL-421",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Cómo está organizada la Biblioteca UAH?",
-      "answer": "Campus",
+      "question": "Menciona una unidad, centro o criterio organizativo de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la organización por campus. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20770,8 +20770,8 @@
     {
       "id": "fc-t10-B3-FULL-422",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué son objetivos de la guía de cultura y valores?",
-      "answer": "la inclusión",
+      "question": "¿Qué objetivo de la Guía de cultura y valores se relaciona con la inclusión?",
+      "answer": "La inclusión orienta la cultura de servicio hacia una atención no discriminatoria, accesible y respetuosa con la diversidad de usuarios de la Biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20788,8 +20788,8 @@
     {
       "id": "fc-t10-B3-FULL-423",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "digitales.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el digitales. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20806,8 +20806,8 @@
     {
       "id": "fc-t10-B3-FULL-424",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "Nivel",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo es el nivel de organización del servicio. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20824,8 +20824,8 @@
     {
       "id": "fc-t10-B3-FULL-425",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué son objetivos de la guía de cultura y valores?",
-      "answer": "ambiental.",
+      "question": "¿Qué objetivo ambiental recoge la Guía de cultura y valores de la BUAH?",
+      "answer": "El objetivo ambiental impulsa un uso responsable de recursos, sostenibilidad y prácticas de servicio compatibles con el compromiso social de la Biblioteca.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20842,8 +20842,8 @@
     {
       "id": "fc-t10-B3-FULL-426",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "Evaluación",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es Evaluación. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20860,8 +20860,8 @@
     {
       "id": "fc-t10-B3-FULL-427",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué relación existe entre servicios centrales y servicios de biblioteca?",
-      "answer": "etc.",
+      "question": "Menciona un ámbito transversal que conecta servicios centrales y bibliotecas de centro.",
+      "answer": "Un ejemplo es otros servicios transversales. Se encuadra en “Estructura organizativa de la Biblioteca UAH”, apartado que trata Estructura del Servicio de Biblioteca UAH: Dirección del Servicio, servicios centrales, bibliotecas de centro, unidades de apoyo, coordinación interna y distribución organizativa del servicio en la universidad.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20878,8 +20878,8 @@
     {
       "id": "fc-t10-B3-FULL-428",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "Colocación",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo es la colocación. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20896,8 +20896,8 @@
     {
       "id": "fc-t10-B3-FULL-429",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "nuevas metodologías docentes.",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el nuevas metodologías docentes. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20914,8 +20914,8 @@
     {
       "id": "fc-t10-B3-FULL-430",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "compromiso ambiental y social.",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el compromiso ambiental y social. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20932,8 +20932,8 @@
     {
       "id": "fc-t10-B3-FULL-431",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es naturaleza de “servicio universitario”?",
-      "answer": "docente",
+      "question": "Menciona un rasgo de la Biblioteca UAH como servicio universitario.",
+      "answer": "Un ejemplo es la actividad docente. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20950,8 +20950,8 @@
     {
       "id": "fc-t10-B3-FULL-432",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué es estructura del servicio de biblioteca uah?",
-      "answer": "Estructura del Servicio de Biblioteca UAH",
+      "question": "¿Cómo se estructura el Servicio de Biblioteca UAH?",
+      "answer": "Dirección central, bibliotecas por campus, servicios transversales (proceso técnico, recursos electrónicos, formación) y órganos de coordinación.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20968,8 +20968,8 @@
     {
       "id": "fc-t10-B3-FULL-433",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "procedimientos de forma clara.",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo son los procedimientos de forma clara. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -20986,8 +20986,8 @@
     {
       "id": "fc-t10-B3-FULL-434",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "acceso.",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el acceso. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21004,8 +21004,8 @@
     {
       "id": "fc-t10-B3-FULL-435",
       "topicId": "tema-10-estructura-organizativa-buah",
-      "question": "¿Qué son bibliotecas y centros?",
-      "answer": "Bibliotecas y centros",
+      "question": "¿Qué bibliotecas y centros componen el Servicio de Biblioteca UAH?",
+      "answer": "Bibliotecas de campus (Alcalá, Guadalajara), especializadas por áreas temáticas, y centros de documentación específicos.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21040,8 +21040,8 @@
     {
       "id": "fc-t10-B3-FULL-437",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es función actual de la biblioteca universitaria?",
-      "answer": "calidad",
+      "question": "Menciona un ámbito de la función actual de la biblioteca universitaria en la UAH.",
+      "answer": "Un ejemplo es el calidad. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21076,8 +21076,8 @@
     {
       "id": "fc-t10-B3-FULL-439",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es relevancia para un técnico auxiliar?",
-      "answer": "espacios.",
+      "question": "Menciona una tarea o ámbito especialmente relevante para un técnico auxiliar de biblioteca.",
+      "answer": "Un ejemplo son los espacios. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21094,8 +21094,8 @@
     {
       "id": "fc-t10-B3-FULL-440",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "materiales y apoyo docente.",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los materiales y apoyo docente. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21112,8 +21112,8 @@
     {
       "id": "fc-t10-B3-FULL-441",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "adaptarse a nuevos servicios.",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el adaptarse a nuevos servicios. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21130,8 +21130,8 @@
     {
       "id": "fc-t10-B3-FULL-442",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "nuevos perfiles de usuario",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los nuevos perfiles de usuario. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21148,8 +21148,8 @@
     {
       "id": "fc-t10-B3-FULL-443",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué son objetivos de la guía de cultura y valores?",
-      "answer": "externa.",
+      "question": "Menciona un objetivo de proyección de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la proyección externa. Este objetivo conecta los valores del servicio bibliotecario con su visibilidad, cooperación e impacto institucional.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21166,8 +21166,8 @@
     {
       "id": "fc-t10-B3-FULL-444",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "cooperación institucional.",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la cooperación institucional. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21184,8 +21184,8 @@
     {
       "id": "fc-t10-B3-FULL-445",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "usar herramientas digitales",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el usar herramientas digitales. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21202,8 +21202,8 @@
     {
       "id": "fc-t10-B3-FULL-446",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "orientación a resultados.",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la orientación a resultados. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21220,8 +21220,8 @@
     {
       "id": "fc-t10-B3-FULL-447",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "Garantizar trato respetuoso",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Garantizar trato respetuoso. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21238,8 +21238,8 @@
     {
       "id": "fc-t10-B3-FULL-448",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "Orientación a la calidad",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la orientación a la calidad. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21274,8 +21274,8 @@
     {
       "id": "fc-t10-B3-FULL-450",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "continuidad del servicio",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la continuidad del servicio. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21292,8 +21292,8 @@
     {
       "id": "fc-t10-B3-FULL-451",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "Aplicar normas de préstamo",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Aplicar normas de préstamo. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21310,8 +21310,8 @@
     {
       "id": "fc-t10-B3-FULL-452",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Adaptación a tecnologías",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la adaptación a tecnologías. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21346,8 +21346,8 @@
     {
       "id": "fc-t10-B3-FULL-454",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "eficiencia y resultados.",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el eficiencia y resultados. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21364,8 +21364,8 @@
     {
       "id": "fc-t10-B3-FULL-455",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "actualización permanente.",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la actualización permanente. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21382,8 +21382,8 @@
     {
       "id": "fc-t10-B3-FULL-456",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "patrimonio bibliográfico",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el patrimonio bibliográfico. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21400,8 +21400,8 @@
     {
       "id": "fc-t10-B3-FULL-457",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "trato no discriminatorio.",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el trato no discriminatorio. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21418,8 +21418,8 @@
     {
       "id": "fc-t10-B3-FULL-458",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "apoyo a la publicación.",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el apoyo a la publicación. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21436,8 +21436,8 @@
     {
       "id": "fc-t10-B3-FULL-459",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "trabajar coordinadamente.",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el trabajar coordinadamente. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21454,8 +21454,8 @@
     {
       "id": "fc-t10-B3-FULL-460",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Necesidades principales",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo son las necesidades principales. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21490,8 +21490,8 @@
     {
       "id": "fc-t10-B3-FULL-462",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "Adaptación tecnológica",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la adaptación tecnológica. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21508,8 +21508,8 @@
     {
       "id": "fc-t10-B3-FULL-463",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "respuesta a necesidades.",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la respuesta a necesidades. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21526,8 +21526,8 @@
     {
       "id": "fc-t10-B3-FULL-464",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "impacto y visibilidad.",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el impacto y visibilidad. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21544,8 +21544,8 @@
     {
       "id": "fc-t10-B3-FULL-465",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "Atención a la diversidad",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la atención a la diversidad. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21562,8 +21562,8 @@
     {
       "id": "fc-t10-B3-FULL-466",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "servicios compartidos.",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los servicios compartidos. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21580,8 +21580,8 @@
     {
       "id": "fc-t10-B3-FULL-467",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "aprendizaje organizativo",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el aprendizaje organizativo. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21598,8 +21598,8 @@
     {
       "id": "fc-t10-B3-FULL-468",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Alto nivel de calidad",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el alto nivel de calidad. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21616,8 +21616,8 @@
     {
       "id": "fc-t10-B3-FULL-469",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "transferencia y cultura.",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el transferencia y cultura. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21634,8 +21634,8 @@
     {
       "id": "fc-t10-B3-FULL-470",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Acceso a conocimiento",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el acceso a conocimiento. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21670,8 +21670,8 @@
     {
       "id": "fc-t10-B3-FULL-472",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "Servicios excelentes",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los servicios excelentes. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21688,8 +21688,8 @@
     {
       "id": "fc-t10-B3-FULL-473",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "Orientación al usuario",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la orientación al usuario. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21706,8 +21706,8 @@
     {
       "id": "fc-t10-B3-FULL-474",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "procesos formativos.",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo son los procesos formativos. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21724,8 +21724,8 @@
     {
       "id": "fc-t10-B3-FULL-475",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "Registrar incidencias",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Registrar incidencias. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21742,8 +21742,8 @@
     {
       "id": "fc-t10-B3-FULL-476",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "compromiso ambiental",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el compromiso ambiental. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21814,8 +21814,8 @@
     {
       "id": "fc-t10-B3-FULL-480",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "Apoyo a estudiantes",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el apoyo a estudiantes. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21850,8 +21850,8 @@
     {
       "id": "fc-t10-B3-FULL-482",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "Redes y consorcios",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es Redes y consorcios. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21868,8 +21868,8 @@
     {
       "id": "fc-t10-B3-FULL-483",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "Igualdad e inclusión",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Igualdad e inclusión. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21886,8 +21886,8 @@
     {
       "id": "fc-t10-B3-FULL-484",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "catálogo colectivo",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el catálogo colectivo. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21904,8 +21904,8 @@
     {
       "id": "fc-t10-B3-FULL-485",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "rendición de cuentas",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la rendición de cuentas. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21922,8 +21922,8 @@
     {
       "id": "fc-t10-B3-FULL-486",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Grupos de interés",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es Grupos de interés. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21940,8 +21940,8 @@
     {
       "id": "fc-t10-B3-FULL-487",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "Atender con cortesía",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Atender con cortesía. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21958,8 +21958,8 @@
     {
       "id": "fc-t10-B3-FULL-488",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Entorno cambiante",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es Entorno cambiante. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21976,8 +21976,8 @@
     {
       "id": "fc-t10-B3-FULL-489",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "analizar indicadores",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es el analizar indicadores. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "avanzada",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -21994,8 +21994,8 @@
     {
       "id": "fc-t10-B3-FULL-490",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "Consorcio Madroño",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es Consorcio Madroño. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22012,8 +22012,8 @@
     {
       "id": "fc-t10-B3-FULL-491",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "Mejora de servicios",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la mejora de servicios. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22030,8 +22030,8 @@
     {
       "id": "fc-t10-B3-FULL-492",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es un grupo de interés en el contexto bibliotecario?",
-      "answer": "acceso a revistas",
+      "question": "Menciona una necesidad, expectativa o ámbito asociado a los grupos de interés de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el acceso a revistas. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22048,8 +22048,8 @@
     {
       "id": "fc-t10-B3-FULL-493",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es conductas asociadas?",
-      "answer": "atención con rigor.",
+      "question": "Menciona una conducta profesional asociada a la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es la atención con rigor. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22066,8 +22066,8 @@
     {
       "id": "fc-t10-B3-FULL-494",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "nuevos servicios",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el nuevos servicios. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22084,8 +22084,8 @@
     {
       "id": "fc-t10-B3-FULL-495",
       "topicId": "tema-10-guia-cultura-valores-buah",
-      "question": "¿Qué es valores fundamentales?",
-      "answer": "Familia de valores",
+      "question": "Menciona un valor o familia de valores de la Guía de cultura y valores de la BUAH.",
+      "answer": "Un ejemplo es Familia de valores. Se encuadra en “Guía de cultura y valores de la BUAH”, apartado que trata Guía de cultura y valores de la Biblioteca UAH: identidad de servicio, trato a las personas usuarias, compromiso, transparencia, innovación, sostenibilidad, mejora continua y orientación a la excelencia.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22102,8 +22102,8 @@
     {
       "id": "fc-t10-B3-FULL-496",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "salas de trabajo",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo son las salas de trabajo. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22138,8 +22138,8 @@
     {
       "id": "fc-t10-B3-FULL-498",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos del propósito?",
-      "answer": "mejora continua",
+      "question": "Menciona un elemento del propósito de la Biblioteca UAH.",
+      "answer": "Un ejemplo es la mejora continua. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
@@ -22174,8 +22174,8 @@
     {
       "id": "fc-t10-B3-FULL-500",
       "topicId": "tema-10-mision-vision-biblioteca-uah",
-      "question": "¿Qué es elementos de la visión?",
-      "answer": "ciencia abierta",
+      "question": "Menciona un elemento de la visión de la Biblioteca UAH.",
+      "answer": "Un ejemplo es el ciencia abierta. Se encuadra en “Misión, visión y propósito del Servicio de Biblioteca UAH”, apartado que trata Misión y visión del Servicio de Biblioteca de la Universidad de Alcalá: apoyo al aprendizaje, docencia, investigación, formación continua y gestión universitaria; función de la biblioteca universitaria como servicio académico y de difusión del conocimiento.",
       "difficulty": "basica",
       "origin": "batch3-wave1-fullbank",
       "source": {
