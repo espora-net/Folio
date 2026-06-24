@@ -23,6 +23,17 @@ import { getOriginTag, matchesOriginFilter } from '@/lib/question-origin';
 
 type ViewMode = 'cards' | 'list';
 
+const REPO_ISSUES_URL = 'https://github.com/espora-net/Folio/issues/new';
+
+const buildFlashcardIssueUrl = (flashcardId: string) => {
+  const params = new URLSearchParams({
+    title: `[Flashcard] Feedback: ${flashcardId}`,
+    body: `**Flashcard ID:** \`${flashcardId}\`\n\nDescribe tu feedback sobre esta flashcard:\n\n`,
+    labels: 'flashcard-feedback',
+  });
+  return `${REPO_ISSUES_URL}?${params.toString()}`;
+};
+
 const Flashcards = () => {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
   const [topics, setTopics] = useState<Topic[]>([]);
@@ -345,12 +356,19 @@ const Flashcards = () => {
                     const tag = getOriginTag(currentCard.origin);
                     const Icon = tag.icon;
                     return (
-                      <Badge
-                        variant="outline"
-                        className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                      <a
+                        href={buildFlashcardIssueUrl(currentCard.id)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                       >
-                        <Icon className="h-3 w-3" /> {tag.label}
-                      </Badge>
+                        <Badge
+                          variant="outline"
+                          className={`text-[10px] px-2 py-0.5 gap-1 cursor-pointer hover:opacity-80 ${tag.className}`}
+                        >
+                          <Icon className="h-3 w-3" /> {tag.label}
+                        </Badge>
+                      </a>
                     );
                   })()}
                 </TooltipTrigger>
@@ -574,12 +592,19 @@ const Flashcards = () => {
                             )}
                             <Tooltip>
                               <TooltipTrigger asChild>
-                                <Badge
-                                  variant="outline"
-                                  className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                                <a
+                                  href={buildFlashcardIssueUrl(card.id)}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  onClick={(e) => e.stopPropagation()}
                                 >
-                                  <><TagIcon className="h-3 w-3" /> {tag.label}</>
-                                </Badge>
+                                  <Badge
+                                    variant="outline"
+                                    className={`text-[10px] px-2 py-0.5 gap-1 cursor-pointer hover:opacity-80 ${tag.className}`}
+                                  >
+                                    <><TagIcon className="h-3 w-3" /> {tag.label}</>
+                                  </Badge>
+                                </a>
                               </TooltipTrigger>
                               <TooltipContent side="top">
                                 {tag.tooltip}
@@ -614,12 +639,19 @@ const Flashcards = () => {
                                 )}
                                 <Tooltip>
                                   <TooltipTrigger asChild>
-                                    <Badge
-                                      variant="outline"
-                                      className={`text-[10px] px-2 py-0.5 gap-1 ${tag.className}`}
+                                    <a
+                                      href={buildFlashcardIssueUrl(card.id)}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      onClick={(e) => e.stopPropagation()}
                                     >
-                                      <><TagIcon className="h-3 w-3" /> {tag.label}</>
-                                    </Badge>
+                                      <Badge
+                                        variant="outline"
+                                        className={`text-[10px] px-2 py-0.5 gap-1 cursor-pointer hover:opacity-80 ${tag.className}`}
+                                      >
+                                        <><TagIcon className="h-3 w-3" /> {tag.label}</>
+                                      </Badge>
+                                    </a>
                                   </TooltipTrigger>
                                   <TooltipContent side="top">
                                     {tag.tooltip}
